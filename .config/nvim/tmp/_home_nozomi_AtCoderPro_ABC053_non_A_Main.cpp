@@ -1,0 +1,1 @@
+/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_AtCoderPro_ABC053_non_A_Main.cpp

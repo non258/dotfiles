@@ -1,0 +1,6 @@
+(function() {
+  module.exports = [require('./webhook-plugin'), require('./plugin')];
+
+}).call(this);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiL2hvbWUvbm96b21pLy5hdG9tL3BhY2thZ2VzL2ltZG9uZS1hdG9tL2xpYi9wbHVnaW5zL2luZGV4LmNvZmZlZSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUFBLE1BQU0sQ0FBQyxPQUFQLEdBQWlCLENBQUMsT0FBQSxDQUFRLGtCQUFSLENBQUQsRUFBK0IsT0FBQSxDQUFRLFVBQVIsQ0FBL0I7QUFBakIiLCJzb3VyY2VzQ29udGVudCI6WyIjIEFuIGFycmF5IG9mIHBsdWdpbnNcbm1vZHVsZS5leHBvcnRzID0gW3JlcXVpcmUoJy4vd2ViaG9vay1wbHVnaW4nKSwgIHJlcXVpcmUoJy4vcGx1Z2luJyldXG4iXX0=

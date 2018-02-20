@@ -1,0 +1,44 @@
+@import '../colors';
+
+@comment: @comment-color;
+@string: @yellow;
+@number: @purple;
+@variable: @green;
+@variable-2: @white;
+@variable-3: @orange;
+@def: @green;
+@operator: @pink;
+@keyword: @pink;
+@atom: @purple;
+@meta: #f8f8f2;
+@tag: @pink;
+@attribute: @green;
+@qualifier: @green;
+@property: @blue;
+@builtin: @green;
+
+
+.syntax--source { color: @meta }
+.syntax--support { color: @builtin }
+.syntax--comment { color: @comment }
+.syntax--string, .syntax--quoted, .syntax--string-contents { color: @string }
+.syntax--keyword { color: @keyword }
+.syntax--variable { color: @variable }
+.syntax--constant { color: @variable-3 }
+.syntax--numeric { color: @number }
+.syntax--operator { color: @operator }
+.syntax--tag { color: @tag }
+.syntax--attribute { color: @attribute }
+.syntax--builtin { color: @builtin }
+.syntax--property { color: @property }
+.syntax--meta:not(.syntax--string-contents):not(.syntax--html) { color: @meta }
+
+
+// Universal Language Classes
+.syntax--function { color: @builtin }
+.syntax--storage { color: @keyword }
+.syntax--punctuation:not(.syntax--comment):not(.syntax--variable):not(.syntax--definition) { color: @meta }
+.syntax--language.syntax--variable { color: @keyword }
+.syntax--language.syntax--constant { color: @atom }
+.syntax--parameter { color: @variable-3 }
+.syntax--attribute-name { color: @attribute }

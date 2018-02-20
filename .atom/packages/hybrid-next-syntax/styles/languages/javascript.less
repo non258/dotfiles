@@ -1,0 +1,103 @@
+.source.js {
+  .keyword.operator {
+    color: @hue-1;
+
+    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
+    // search "instanceof" for location
+    &.delete,
+    &.in,
+    &.of,
+    &.instanceof,
+    &.new,
+    &.typeof,
+    &.void {
+      color: @hue-3;
+    }
+  }
+
+  .storage.type.function,
+  .storage.type.arrow {
+    color: @hue-1;
+  }
+
+  .punctuation {
+    &.definition.parameters {
+      color: @hue-1;
+    }
+
+    &.section.class {
+      color: @hue-6-2;
+    }
+  }
+
+  .keyword.control {
+    &.flow,
+    &.trycatch {
+      color: @hue-5;
+    }
+  }
+
+  .variable.language.this {
+    font-style: italic;
+    color: @hue-3;
+  }
+
+  .variable.language.prototype {
+    color: @hue-6;
+  }
+
+  .variable.language.default {
+    color: @hue-3;
+  }
+
+  .variable.constant {
+    color: @syntax-fg;
+  }
+
+  .keyword.operator.accessor {
+    color: @syntax-fg;
+  }
+
+  .meta.brace {
+    &.square, &.curly {
+      color: @hue-6-2;
+    }
+
+    &.round {
+      color: @hue-1;
+    }
+  }
+
+  .punctuation.definition.modules {
+    color: @hue-6-2;
+  }
+
+  .punctuation.definition.arguments.bracket.round {
+    color: @hue-1;
+  }
+
+  .punctuation.quasi.element {
+    color: @hue-6-2;
+  }
+
+  .meta.group.braces.round {
+    color: @hue-1;
+  }
+
+  .keyword.other {
+    color: @hue-5;
+  }
+
+  .string.unquoted {
+    color: @syntax-fg;
+  }
+
+  .punctuation.key-value {
+    color: @hue-1;
+  }
+
+  .support.type.object,
+  .support.variable {
+    color: @hue-6;
+  }
+}

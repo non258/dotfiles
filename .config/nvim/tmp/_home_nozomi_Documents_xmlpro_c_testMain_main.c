@@ -1,0 +1,1 @@
+/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_Documents_xmlpro_c_testMain_main.c

@@ -1,0 +1,1 @@
+/home/nozomi/dotfiles/.config/nvim/init.vim

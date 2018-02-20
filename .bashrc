@@ -150,13 +150,13 @@ function minit(){
 }
 
 #nvim
-alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
+#alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
 alias vi='nvim'
 
 #cd
 alias cd.='cd ../'
 alias cdd='cd /home/nozomi/Documents'
-alias cddw='cd /home/nozomi/Documents'
+alias cddw='cd /home/nozomi/Downloads'
 
 alias open='xdg-open ./'
 
@@ -170,3 +170,5 @@ export PATH=$PATH:$GOROOT/bin
 
 #CentOS
 alias cos='ssh -p 59022 non@ctare.cloudapp.net'
+
+alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'

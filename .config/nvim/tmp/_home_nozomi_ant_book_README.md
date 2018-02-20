@@ -1,0 +1,1 @@
+/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_ant_book_README.md
