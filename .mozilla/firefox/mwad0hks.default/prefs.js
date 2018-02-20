@@ -10,10 +10,10 @@
 
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1519093801);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1519093921);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1519141201);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1519166401);
 user_pref("app.update.lastUpdateTime.experiments-update-timer", 1519093681);
 user_pref("app.update.lastUpdateTime.recipe-client-addon-run", 1519095115);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1519141081);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1519162681);
 user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1518670374);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1519094995);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
@@ -48,10 +48,10 @@ user_pref("browser.onboarding.tour.onboarding-tour-screenshots.completed", true)
 user_pref("browser.pageActions.persistedActions", "{\"version\":1,\"ids\":[\"bookmark\",\"bookmarkSeparator\",\"copyURL\",\"emailLink\",\"sendToDevice\",\"pocket\",\"screenshots\"],\"idsInUrlbar\":[\"pocket\",\"screenshots\",\"bookmark\"]}");
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.places.smartBookmarksVersion", 8);
-user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1519143759140");
-user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1519145548140");
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1519142860399");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1519146460399");
+user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1519165285891");
+user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1519167056891");
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1519164465583");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1519168065583");
 user_pref("browser.search.countryCode", "JP");
 user_pref("browser.search.hiddenOneOffs", "DuckDuckGo,Bing,Wikipedia (ja),Yahoo! JAPAN,ヤフオク!");
 user_pref("browser.search.region", "JP");
@@ -90,7 +90,7 @@ user_pref("extensions.ui.locale.hidden", false);
 user_pref("extensions.webextensions.uuids", "{\"screenshots@mozilla.org\":\"320f5a94-5b53-4853-a647-a4a2d3d26546\",\"treestyletab@piro.sakura.ne.jp\":\"b11ad7ca-0e8b-4464-9bbf-4e2bf17a9954\"}");
 user_pref("font.internaluseonly.changed", true);
 user_pref("gecko.handlerService.migrated", true);
-user_pref("idle.lastDailyNotification", 1519009193);
+user_pref("idle.lastDailyNotification", 1519143977);
 user_pref("media.gmp-gmpopenh264.abi", "x86_64-gcc3");
 user_pref("media.gmp-gmpopenh264.lastUpdate", 1518666863);
 user_pref("media.gmp-gmpopenh264.version", "1.7.1");
