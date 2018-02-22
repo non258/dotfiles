@@ -14511,3 +14511,1298 @@ info: Feb-21 00:27:09.748 [FOCUS-EVENT] Window focused
 info: Feb-21 00:27:09.795 [CHECK-UNREADS] Checking unreads after window became focused
 info: Feb-21 00:27:09.795 [CHECK-UNREADS] Not marking D7JP44402 because last_read >= latest && channel is read
 info: Feb-21 00:27:10.772 [FOCUS-EVENT] Window blurred
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.5, linux 4.10.0-38-generic on x64 at 02/21/18, 11:26:53:091      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+info: Feb-21 11:26:58.212 [BOOT] booted! pri:0 version:1519178802 start_ms:1519180016615 (1597ms ago)
+info: Feb-21 11:26:58.213 [BOOT] Starting incremental boot (early)
+info: Feb-21 11:26:58.655 [T031FNTUT] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-21 11:26:58.656 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 11:26:58.657 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 11:26:58.657 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 11:26:58.692 [FOCUS-EVENT] Window blurred
+info: Feb-21 11:26:59.111 [BOOT] Finalizing incremental boot
+info: Feb-21 11:26:59.723 [FOCUS-EVENT] Window blurred
+info: Feb-21 11:26:59.730 [FOCUS-EVENT] Window focused
+info: Feb-21 11:26:59.821 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 11:26:59.821 [CHECK-UNREADS] Not marking D7JP44402 because not fully booted
+info: Feb-21 11:26:59.856 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 11:26:59.856 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 11:26:59.859 [INFO] Got start data from Socket Manager; hydrating it
+warn: Feb-21 11:26:59.957 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 11:26:59.991 [BOOT] Completed incremental boot
+info: Feb-21 11:27:00.253 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 11:27:00.253 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 11:27:00.253 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 11:27:00.253 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 11:27:00.253 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 11:27:00.254 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 11:27:00.254 [T031FNTUT] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 11:27:00.255 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 11:27:00.255 [BOOT] Finished first boot 1609 ms after DOM ready
+info: Feb-21 11:27:00.307 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 11:27:00.408 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-21 11:27:00.409 [CHECK-UNREADS] Marking D7JP44402 because unread line is visible
+info: Feb-21 11:27:00.413 [UNREAD-COUNTS] Counting unreads in D7JP44402 because last_read changed to 1519180019.000000
+info: Feb-21 11:27:00.718 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 11:27:00.727 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 11:27:00.727 [CHECK-UNREADS] Not marking D7JP44402 because last_read >= latest && channel is read
+info: Feb-21 11:27:04.640 [ACTION:CHANNEL-SIDEBAR] Selected C031FNU09
+info: Feb-21 11:27:04.722 [MESSAGE-LIST] Switching channels: C031FNU09 timestamps: 0
+info: Feb-21 11:27:04.723 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:04.723 [HISTORY-FETCH] Fetching history for message pane: C031FNU09
+info: Feb-21 11:27:04.728 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:04.728 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:04.751 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:04.752 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:04.752 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:04.753 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 11:27:05.340 [UNREAD-COUNTS] Counting unreads in C031FNU09 because (42) timestamps added
+info: Feb-21 11:27:05.400 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Feb-21 11:27:05.970 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 11:27:05.463 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 11:27:05.463 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 11:27:12.396 [ACTION:CHANNEL-SIDEBAR] Selected C0412GNKJ
+info: Feb-21 11:27:12.447 [MESSAGE-LIST] Switching channels: C0412GNKJ timestamps: 0
+info: Feb-21 11:27:12.448 [MESSAGE-LIST] requestAround channelId: C0412GNKJ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:12.448 [HISTORY-FETCH] Fetching history for message pane: C0412GNKJ
+info: Feb-21 11:27:12.452 [MESSAGE-LIST] requestAround channelId: C0412GNKJ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:12.452 [MESSAGE-LIST] requestAround channelId: C0412GNKJ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:12.478 [MESSAGE-LIST] requestAround channelId: C0412GNKJ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:12.481 [MESSAGE-LIST] requestAround channelId: C0412GNKJ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:12.482 [MESSAGE-LIST] requestAround channelId: C0412GNKJ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 11:27:12.486 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 11:27:12.675 [UNREAD-COUNTS] Counting unreads in C0412GNKJ because (42) timestamps added
+info: Feb-21 11:27:12.682 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 16
+info: Feb-21 11:27:12.726 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 11:27:13.170 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 11:27:13.171 [CHECK-UNREADS] Marking C0412GNKJ because unread line is visible
+info: Feb-21 11:27:13.176 [UNREAD-COUNTS] Counting unreads in C0412GNKJ because last_read changed to 1519117306.000114
+info: Feb-21 11:27:13.772 [ACTION:CHANNEL-SIDEBAR] Selected C031FNU09
+info: Feb-21 11:27:13.820 [MESSAGE-LIST] Switching channels: C031FNU09 timestamps: 42
+info: Feb-21 11:27:13.864 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 11:27:14.233 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 11:27:14.234 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 11:27:16.397 [FOCUS-EVENT] Window blurred
+info: Feb-21 12:33:11.543 [FOCUS-EVENT] Window focused
+info: Feb-21 12:33:11.564 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 12:33:11.565 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 12:33:12.575 [FOCUS-EVENT] Window blurred
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589687)
+    at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:510090)
+    at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:398198
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:203068
+    at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:3442309
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:203068
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:242300)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:162620)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:2168774)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.20d7e1b6beec05d17e19.min.js:1:465837)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.20d7e1b6beec05d17e19.min.js:1:465654)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:141217)
+    at Object.maybeTickleMS (https://xmlpro.slack.com/messages:834:11)
+    at setInterval (/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:21:19)
+info: Feb-21 13:11:49.728 [T031FNTUT] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-21 13:11:49.731 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:11:49.734 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:11:49.740  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at s (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:400154)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:518017)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:511888)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:1010773)
+at k (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:587590)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589256)
+info: Feb-21 13:11:49.755 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-21 13:11:49.771 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:11:49.771 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:12:19.772 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:12:19.772 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:12:19.773 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:12:19.773 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:12:19.774  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:12:19.783 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:12:19.783 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:12:49.783 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:12:49.784 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:12:49.784 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:12:49.785 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:12:49.786  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:12:49.803 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:12:49.804 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:13:00.791 Internet connection still offline after 1 attempts (unable to reach API)
+info: Feb-21 13:13:19.805 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:13:19.805 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:13:19.806 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:13:19.807 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:13:19.809  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:13:19.830 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:13:19.831 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:13:49.832 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:13:49.832 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:13:49.833 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:13:49.834 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:13:49.836  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:13:49.857 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:13:49.857 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:13:50.327 Internet connection still offline after 2 attempts (unable to reach API)
+info: Feb-21 13:14:19.858 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:14:19.858 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:14:19.859 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:14:19.860 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:14:19.862  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:14:19.876 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:14:19.876 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:14:48.791 Internet connection still offline after 3 attempts (unable to reach API)
+info: Feb-21 13:14:49.876 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:14:49.877 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:14:49.877 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:14:49.878 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:14:49.879  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:14:49.894 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:14:49.894 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:15:19.895 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:15:19.896 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:15:19.896 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:15:19.897 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:15:19.899  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:15:19.920 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:15:19.920 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:15:49.921 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:15:49.921 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:15:49.922 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:15:49.923 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:15:49.924  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:15:49.944 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:15:49.944 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:15:52.608 Internet connection still offline after 4 attempts (unable to reach API)
+info: Feb-21 13:16:19.945 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:16:19.945 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:16:19.946 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:16:19.947 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:16:19.949  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:16:19.971 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:16:19.971 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:16:49.972 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:16:49.973 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:16:49.974 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:16:49.975 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:16:49.977  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:16:50.000 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:16:50.100 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:16:50.228 Internet connection still offline after 5 attempts (unable to reach API)
+info: Feb-21 13:17:20.100 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:17:20.200 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:17:20.200 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:17:20.400 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:17:20.700  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:17:20.270 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:17:20.280 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:17:50.280 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:17:50.290 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:17:50.290 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:17:50.300 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:17:50.320  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:17:50.520 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:17:50.530 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:17:53.920 Internet connection still offline after 6 attempts (unable to reach API)
+info: Feb-21 13:18:20.540 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:18:20.540 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:18:20.550 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:18:20.560 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:18:20.580  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:18:20.830 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:18:20.830 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:18:50.840 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:18:50.850 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:18:50.860 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:18:50.870 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:18:50.880  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:18:50.114 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:18:50.114 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:18:56.800 Internet connection still offline after 7 attempts (unable to reach API)
+info: Feb-21 13:19:20.115 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:19:20.116 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:19:20.116 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:19:20.117 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:19:20.119  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:19:20.139 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:19:20.139 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:19:50.140 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:19:50.140 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:19:50.141 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:19:50.142 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:19:50.145  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:19:50.172 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:19:50.172 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:20:20.173 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:20:20.174 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:20:20.175 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:20:20.181 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:20:20.184  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:20:20.200 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:20:20.201 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:20:25.486 Internet connection still offline after 8 attempts (unable to reach API)
+info: Feb-21 13:20:50.201 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:20:50.203 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:20:50.203 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:20:50.205 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:20:50.208  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:20:50.228 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:20:50.228 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:21:20.229 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:21:20.230 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:21:20.232 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:21:20.233 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:21:20.235  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:21:20.252 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:21:20.253 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:21:50.254 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:21:50.254 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:21:50.255 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:21:50.256 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:21:50.259  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:21:50.279 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:21:50.279 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 13:22:07.544 Internet connection still offline after 9 attempts (unable to reach API)
+info: Feb-21 13:22:20.280 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:22:20.281 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:22:20.281 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:22:20.282 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:22:20.286  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:22:20.305 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:22:20.305 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:22:50.306 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:22:50.306 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:22:50.306 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:22:50.307 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:22:50.308  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:22:50.315 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:22:50.315 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:23:20.315 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:23:20.315 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:23:20.316 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:23:20.316 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:23:20.316  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:23:20.322 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:23:20.322 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:23:48.551 [T031FNTUT] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 13:23:50.322 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 13:23:50.322 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 13:23:50.323 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 13:23:50.323 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 13:23:50.324  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 13:23:50.335 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 13:23:50.336 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 13:23:59.629 [INFO] Internet connection has been re-established after 10 retry attempts; offline for NaN seconds
+info: Feb-21 13:23:59.631 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-21 13:23:59.631 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-21 13:23:59.632 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-21 13:23:59.632 [T031FNTUT] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-21 13:23:59.633 [T031FNTUT] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-21 13:23:59.633 [T031FNTUT] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-21 13:23:59.634 [T031FNTUT] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-21 13:23:59.634 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 13:23:59.634 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 13:23:59.634 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 13:24:00.858 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 13:24:00.859 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 13:24:00.861 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-21 13:24:00.952 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-21 13:24:00.954 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 13:24:01.147 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 13:24:01.147 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 13:24:01.147 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 13:24:01.147 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 13:24:01.148 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 13:24:01.148 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 13:24:01.148 [T031FNTUT] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 13:24:01.148 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 13:24:01.148 [T031FNTUT] EVENTLOG fr=false, lc=false, lt=1519180034.000198
+info: Feb-21 13:24:01.149 [T031FNTUT] EVENTLOG fetching events since 1519180034.000198 (7007.999802112579 seconds ago)
+info: Feb-21 13:24:01.186 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 13:24:01.186 [HISTORY-FETCH] Fetching history for message pane: C031FNU09
+info: Feb-21 13:24:01.191 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 13:24:01.191 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 13:24:01.191 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-21 13:24:01.218 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 13:24:01.219 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 13:24:01.219 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 13:24:01.220 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 13:24:01.896 [T031FNTUT] EVENTLOG nothing to process
+info: Feb-21 13:24:01.897 [T031FNTUT] EVENTLOG fetched finish (cancelled? false)
+info: Feb-21 13:24:01.897 [T031FNTUT] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-21 13:24:01.953 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 13:24:02.491 [UNREAD-COUNTS] Counting unreads in C031FNU09 because (42) timestamps added
+info: Feb-21 13:24:02.493 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Feb-21 13:24:02.542 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 13:24:02.899 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 13:24:02.899 [CHECK-UNREADS] Not marking C031FNU09 because attention not on chat (window_not_focused)
+info: Feb-21 14:30:19.991 [FOCUS-EVENT] Window focused
+info: Feb-21 14:30:20.550 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:30:20.550 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:30:33.160 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:30:41.531 [FOCUS-EVENT] Window focused
+info: Feb-21 14:30:41.606 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:30:41.607 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:30:45.935 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:30:48.822 [T031FNTUT] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 14:30:48.824 [T031FNTUT] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 14:30:48.825 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 14:30:48.831 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 14:30:48.832 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 14:30:48.833 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 14:30:48.833 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 14:30:48.834 [T031FNTUT] SOCKET-MANAGER:  Disconnected! Online? false
+info: Feb-21 14:30:48.835 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Feb-21 14:30:48.836 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 14:30:48.846 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Feb-21 14:30:49.838 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Feb-21 14:30:50.839 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Feb-21 14:30:51.840 Internet connection still offline after 3 attempts (browser says it is still offline)
+info: Feb-21 14:30:52.294 [FOCUS-EVENT] Window focused
+info: Feb-21 14:30:52.362 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:30:52.363 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+warn: Feb-21 14:30:52.841 Internet connection still offline after 4 attempts (browser says it is still offline)
+info: Feb-21 14:30:53.266 [FOCUS-EVENT] Window blurred
+warn: Feb-21 14:30:53.842 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Feb-21 14:30:54.843 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Feb-21 14:30:55.843 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Feb-21 14:30:56.844 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Feb-21 14:30:57.845 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Feb-21 14:30:58.845 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Feb-21 14:30:59.847 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Feb-21 14:31:00.849 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Feb-21 14:31:01.850 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Feb-21 14:31:02.851 Internet connection still offline after 14 attempts (browser says it is still offline)
+info: Feb-21 14:31:03.757 [FOCUS-EVENT] Window focused
+info: Feb-21 14:31:03.830 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:31:03.830 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+warn: Feb-21 14:31:03.852 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Feb-21 14:31:04.852 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Feb-21 14:31:05.853 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Feb-21 14:31:06.853 Internet connection still offline after 18 attempts (browser says it is still offline)
+info: Feb-21 14:31:07.357 [FOCUS-EVENT] Window blurred
+warn: Feb-21 14:31:07.854 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Feb-21 14:31:08.856 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Feb-21 14:31:09.856 Internet connection still offline after 21 attempts (browser says it is still offline)
+info: Feb-21 14:31:10.476 [FOCUS-EVENT] Window focused
+info: Feb-21 14:31:10.547 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:31:10.548 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+warn: Feb-21 14:31:10.866 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Feb-21 14:31:11.866 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Feb-21 14:31:12.867 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Feb-21 14:31:13.868 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Feb-21 14:31:14.868 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Feb-21 14:31:15.869 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Feb-21 14:31:16.870 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Feb-21 14:31:17.871 Internet connection still offline after 29 attempts (browser says it is still offline)
+info: Feb-21 14:31:18.837 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 14:31:18.838 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 14:31:18.839 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 14:31:18.841 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 14:31:18.843  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 14:31:18.877 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 14:31:18.877 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 14:31:18.882 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Feb-21 14:31:19.882 Internet connection still offline after 31 attempts (browser says it is still offline)
+info: Feb-21 14:31:20.507 [FOCUS-EVENT] Window blurred
+warn: Feb-21 14:31:20.883 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Feb-21 14:31:21.884 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Feb-21 14:31:22.885 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Feb-21 14:31:23.886 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Feb-21 14:31:24.886 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Feb-21 14:31:25.887 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Feb-21 14:31:26.887 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Feb-21 14:31:27.888 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Feb-21 14:31:28.889 Internet connection still offline after 40 attempts (browser says it is still offline)
+warn: Feb-21 14:31:29.890 Internet connection still offline after 41 attempts (browser says it is still offline)
+warn: Feb-21 14:31:30.891 Internet connection still offline after 42 attempts (browser says it is still offline)
+warn: Feb-21 14:31:31.892 Internet connection still offline after 43 attempts (browser says it is still offline)
+warn: Feb-21 14:31:32.893 Internet connection still offline after 44 attempts (browser says it is still offline)
+warn: Feb-21 14:31:33.894 Internet connection still offline after 45 attempts (browser says it is still offline)
+warn: Feb-21 14:31:34.894 Internet connection still offline after 46 attempts (browser says it is still offline)
+warn: Feb-21 14:31:35.895 Internet connection still offline after 47 attempts (browser says it is still offline)
+warn: Feb-21 14:31:36.896 Internet connection still offline after 48 attempts (browser says it is still offline)
+warn: Feb-21 14:31:37.897 Internet connection still offline after 49 attempts (browser says it is still offline)
+warn: Feb-21 14:31:38.898 Internet connection still offline after 50 attempts (browser says it is still offline)
+warn: Feb-21 14:31:39.898 Internet connection still offline after 51 attempts (browser says it is still offline)
+warn: Feb-21 14:31:40.899 Internet connection still offline after 52 attempts (browser says it is still offline)
+warn: Feb-21 14:31:41.900 Internet connection still offline after 53 attempts (browser says it is still offline)
+warn: Feb-21 14:31:42.901 Internet connection still offline after 54 attempts (browser says it is still offline)
+warn: Feb-21 14:31:43.901 Internet connection still offline after 55 attempts (browser says it is still offline)
+warn: Feb-21 14:31:44.902 Internet connection still offline after 56 attempts (browser says it is still offline)
+warn: Feb-21 14:31:45.902 Internet connection still offline after 57 attempts (browser says it is still offline)
+warn: Feb-21 14:31:46.903 Internet connection still offline after 58 attempts (browser says it is still offline)
+warn: Feb-21 14:31:47.904 Internet connection still offline after 59 attempts (browser says it is still offline)
+info: Feb-21 14:31:48.878 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 14:31:48.879 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 14:31:48.879 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 14:31:48.880 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 14:31:48.882  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 14:31:48.903 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 14:31:48.904 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 14:31:48.919 Internet connection still offline after 60 attempts (browser says it is still offline)
+warn: Feb-21 14:31:49.920 Internet connection still offline after 61 attempts (browser says it is still offline)
+warn: Feb-21 14:31:51.631 Internet connection still offline after 62 attempts (unable to reach API)
+info: Feb-21 14:32:09.960 [FOCUS-EVENT] Window focused
+info: Feb-21 14:32:10.570 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:32:10.570 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:32:10.733 [INFO] client window unloaded!
+info: Feb-21 14:32:14.755 [BOOT] booted! pri:0 version:1519190586 start_ms:1519191133413 (1342ms ago)
+info: Feb-21 14:32:14.756 [BOOT] Starting incremental boot (early)
+info: Feb-21 14:32:15.165 [T031FNTUT] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-21 14:32:15.165 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 14:32:15.166 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 14:32:15.166 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 14:32:15.495 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:32:15.914 [BOOT] Finalizing incremental boot
+info: Feb-21 14:32:16.960 [UNREAD-COUNTS] Counting unreads in C031FNU09 because (49) timestamps added
+info: Feb-21 14:32:16.342 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-21 14:32:16.422 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 14:32:16.423 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 14:32:16.425 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-21 14:32:16.429 [INFO] Got start data from Socket Manager; hydrating it
+warn: Feb-21 14:32:16.564 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 14:32:16.626 [BOOT] Completed incremental boot
+info: Feb-21 14:32:16.899 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 14:32:16.900 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 14:32:16.900 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 14:32:16.900 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 14:32:16.901 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 14:32:16.901 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 14:32:16.901 [T031FNTUT] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 14:32:16.902 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 14:32:16.902 [BOOT] Finished first boot 1745 ms after DOM ready
+info: Feb-21 14:32:16.958 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:32:17.590 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-21 14:32:17.600 [CHECK-UNREADS] Not marking C031FNU09 because attention not on chat (window_not_focused)
+info: Feb-21 14:32:17.402 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:32:17.402 [CHECK-UNREADS] Not marking C031FNU09 because attention not on chat (window_not_focused)
+info: Feb-21 14:32:17.499 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 14:35:59.867 [INFO] handleDeepLinkWithArgs string:{"cmd":"t0253qgq9"}
+info: Feb-21 14:35:59.917 [FOCUS-EVENT] Window focused
+info: Feb-21 14:35:59.971 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:35:59.976 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:36:00.451 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:37:45.743 [FOCUS-EVENT] Window focused
+info: Feb-21 14:37:45.837 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:37:45.838 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:37:49.187 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:37:49.712 [FOCUS-EVENT] Window focused
+info: Feb-21 14:37:49.806 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:37:49.806 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:37:58.700 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:37:58.830 [FOCUS-EVENT] Window focused
+info: Feb-21 14:37:58.141 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:37:58.141 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:38:08.513 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:38:08.525 [FOCUS-EVENT] Window focused
+info: Feb-21 14:38:08.552 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:38:08.553 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:38:13.142 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:46:02.752 [FOCUS-EVENT] Window focused
+info: Feb-21 14:46:02.801 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:46:02.802 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:46:04.191 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:54:28.423 [FOCUS-EVENT] Window focused
+info: Feb-21 14:54:28.452 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:54:28.452 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 14:54:36.821 [FOCUS-EVENT] Window blurred
+info: Feb-21 16:38:22.310 [UNREAD-COUNTS] Counting unreads in C031FNU09 because (1) timestamps added
+info: Feb-21 16:38:22.311 [UNREAD-COUNTS] Updated unread_cnt for C031FNU09: 1
+info: Feb-21 16:38:22.312 [UNREAD-COUNTS] Checking unreads in C031FNU09 after a new message
+info: Feb-21 16:38:22.312 [CHECK-UNREADS] Not marking C031FNU09 because attention not on chat (window_not_focused)
+info: Feb-21 17:25:19.224 [FOCUS-EVENT] Window focused
+info: Feb-21 17:25:19.277 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 17:25:19.278 [CHECK-UNREADS] Marking C031FNU09 because unread line is visible
+info: Feb-21 17:25:19.292 [UNREAD-COUNTS] Counting unreads in C031FNU09 because last_read changed to 1519198702.000019
+info: Feb-21 17:25:19.292 [UNREAD-COUNTS] Updated unread_cnt for C031FNU09: 0
+info: Feb-21 17:25:19.926 [FOCUS-EVENT] Window blurred
+info: Feb-21 17:25:36.820 [FOCUS-EVENT] Window focused
+info: Feb-21 17:25:36.879 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 17:25:36.879 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 17:25:39.268 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:33:24.629 [T031FNTUT] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 18:33:24.631 [T031FNTUT] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 18:33:24.633 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 18:33:24.635 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 18:33:24.636 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 18:33:24.639 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 18:33:24.639 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 18:33:24.640 [T031FNTUT] SOCKET-MANAGER:  Disconnected! Online? false
+info: Feb-21 18:33:24.641 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Feb-21 18:33:24.642 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 18:33:24.658 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Feb-21 18:33:25.648 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Feb-21 18:33:26.649 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Feb-21 18:33:27.650 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Feb-21 18:33:28.651 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Feb-21 18:33:29.652 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Feb-21 18:33:30.653 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Feb-21 18:33:31.654 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Feb-21 18:33:32.655 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Feb-21 18:33:33.656 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Feb-21 18:33:34.657 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Feb-21 18:33:35.658 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Feb-21 18:33:36.659 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Feb-21 18:33:37.660 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Feb-21 18:33:38.662 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Feb-21 18:33:39.663 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Feb-21 18:33:40.664 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Feb-21 18:33:41.666 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Feb-21 18:33:42.667 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Feb-21 18:33:43.668 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Feb-21 18:33:44.668 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Feb-21 18:33:45.669 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Feb-21 18:33:46.670 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Feb-21 18:33:47.670 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Feb-21 18:33:48.671 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Feb-21 18:33:49.671 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Feb-21 18:33:50.672 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Feb-21 18:33:51.673 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Feb-21 18:33:52.674 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Feb-21 18:33:53.675 Internet connection still offline after 29 attempts (browser says it is still offline)
+info: Feb-21 18:33:54.643 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 18:33:54.643 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 18:33:54.644 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 18:33:54.645 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 18:33:54.647  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 18:33:54.648 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 18:33:54.648 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 18:33:54.683 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Feb-21 18:33:55.686 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Feb-21 18:33:56.686 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Feb-21 18:33:57.687 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Feb-21 18:33:58.688 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Feb-21 18:33:59.689 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Feb-21 18:34:00.690 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Feb-21 18:34:01.691 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Feb-21 18:34:02.692 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Feb-21 18:34:03.693 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Feb-21 18:34:04.694 Internet connection still offline after 40 attempts (browser says it is still offline)
+warn: Feb-21 18:34:05.695 Internet connection still offline after 41 attempts (browser says it is still offline)
+warn: Feb-21 18:34:06.696 Internet connection still offline after 42 attempts (browser says it is still offline)
+warn: Feb-21 18:34:07.697 Internet connection still offline after 43 attempts (browser says it is still offline)
+warn: Feb-21 18:34:08.698 Internet connection still offline after 44 attempts (browser says it is still offline)
+warn: Feb-21 18:34:09.699 Internet connection still offline after 45 attempts (browser says it is still offline)
+warn: Feb-21 18:34:10.701 Internet connection still offline after 46 attempts (browser says it is still offline)
+warn: Feb-21 18:34:11.702 Internet connection still offline after 47 attempts (browser says it is still offline)
+warn: Feb-21 18:34:12.702 Internet connection still offline after 48 attempts (browser says it is still offline)
+warn: Feb-21 18:34:13.703 Internet connection still offline after 49 attempts (browser says it is still offline)
+warn: Feb-21 18:34:14.704 Internet connection still offline after 50 attempts (browser says it is still offline)
+warn: Feb-21 18:34:16.534 Internet connection still offline after 51 attempts (unable to reach API)
+info: Feb-21 18:34:23.325 [FOCUS-EVENT] Window focused
+info: Feb-21 18:34:23.385 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:34:23.385 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 18:34:24.649 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 18:34:24.650 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 18:34:24.650 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 18:34:24.652 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 18:34:24.653  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 18:34:24.680 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 18:34:24.680 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 18:34:24.759 [INFO] client window unloaded!
+info: Feb-21 18:35:13.147 [BOOT] booted! pri:0 version:1519194663 start_ms:1519205711898 (1249ms ago)
+info: Feb-21 18:35:13.148 [BOOT] Starting incremental boot (early)
+info: Feb-21 18:35:13.473 [T031FNTUT] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-21 18:35:13.474 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 18:35:13.475 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 18:35:13.476 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 18:35:14.700 [BOOT] Finalizing incremental boot
+info: Feb-21 18:35:14.262 [UNREAD-COUNTS] Counting unreads in C031FNU09 because (49) timestamps added
+info: Feb-21 18:35:14.543 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-21 18:35:14.740 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 18:35:14.740 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 18:35:14.743 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-21 18:35:14.744 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-21 18:35:14.814 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+warn: Feb-21 18:35:14.856 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 18:35:14.926 [BOOT] Completed incremental boot
+info: Feb-21 18:35:15.245 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 18:35:15.245 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 18:35:15.246 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 18:35:15.246 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 18:35:15.246 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 18:35:15.247 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 18:35:15.247 [T031FNTUT] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 18:35:15.247 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 18:35:15.249 [BOOT] Finished first boot 1786 ms after DOM ready
+info: Feb-21 18:35:15.437 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-21 18:35:15.439 [CHECK-UNREADS] Marking C031FNU09 because unread line is visible
+info: Feb-21 18:35:15.442 [UNREAD-COUNTS] Counting unreads in C031FNU09 because last_read changed to 1519205712.000000
+info: Feb-21 18:35:15.442 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 18:35:15.443 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 18:35:16.106 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 18:35:16.223 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:37:32.102 [FOCUS-EVENT] Window focused
+info: Feb-21 18:37:32.160 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:37:32.161 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 18:37:34.428 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:43:33.291 [FOCUS-EVENT] Window focused
+info: Feb-21 18:43:33.338 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:43:33.339 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 18:43:39.188 [ACTION:CHANNEL-SIDEBAR] Selected D5WHV4ZQW
+info: Feb-21 18:43:39.252 [MESSAGE-LIST] Switching channels: D5WHV4ZQW timestamps: 0
+info: Feb-21 18:43:39.253 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:43:39.254 [HISTORY-FETCH] Fetching history for message pane: D5WHV4ZQW
+info: Feb-21 18:43:39.260 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:43:39.260 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:43:39.285 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:43:39.287 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:43:39.287 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:43:39.288 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 18:43:40.251 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (42) timestamps added
+info: Feb-21 18:43:40.256 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Feb-21 18:43:40.329 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 18:43:40.827 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 18:43:40.827 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:44:17.600 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (1) timestamps added
+info: Feb-21 18:44:17.600 [UNREAD-COUNTS] Checking unreads in D5WHV4ZQW after a new message
+info: Feb-21 18:44:17.600 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:44:17.995 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because message removed
+info: Feb-21 18:44:17.996 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (1) timestamps added
+info: Feb-21 18:44:17.997 [UNREAD-COUNTS] Checking unreads in D5WHV4ZQW after a new message
+info: Feb-21 18:44:17.997 [CHECK-UNREADS] Marking D5WHV4ZQW because unread line is visible
+info: Feb-21 18:44:18.000 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because last_read changed to 1519206257.000380
+info: Feb-21 18:44:19.204 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:44:22.401 [FOCUS-EVENT] Window focused
+info: Feb-21 18:44:22.450 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:44:22.450 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:44:26.303 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:44:50.790 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (1) timestamps added
+info: Feb-21 18:44:50.794 [UNREAD-COUNTS] Updated unread_cnt for D5WHV4ZQW: 1
+info: Feb-21 18:44:50.796 [UNREAD-COUNTS] Checking unreads in D5WHV4ZQW after a new message
+info: Feb-21 18:44:50.796 [CHECK-UNREADS] Not marking D5WHV4ZQW because attention not on chat (window_not_focused)
+info: Feb-21 18:46:37.590 [FOCUS-EVENT] Window focused
+info: Feb-21 18:46:37.588 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:46:37.588 [CHECK-UNREADS] Marking D5WHV4ZQW because unread line is visible
+info: Feb-21 18:46:37.591 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because last_read changed to 1519206290.000252
+info: Feb-21 18:46:37.591 [UNREAD-COUNTS] Updated unread_cnt for D5WHV4ZQW: 0
+info: Feb-21 18:46:40.840 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:46:51.857 [FOCUS-EVENT] Window focused
+info: Feb-21 18:46:52.260 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:46:52.260 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:47:08.603 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (1) timestamps added
+info: Feb-21 18:47:08.604 [UNREAD-COUNTS] Checking unreads in D5WHV4ZQW after a new message
+info: Feb-21 18:47:08.604 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:47:08.991 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because message removed
+info: Feb-21 18:47:08.992 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (1) timestamps added
+info: Feb-21 18:47:08.993 [UNREAD-COUNTS] Checking unreads in D5WHV4ZQW after a new message
+info: Feb-21 18:47:08.994 [CHECK-UNREADS] Marking D5WHV4ZQW because unread line is visible
+info: Feb-21 18:47:08.997 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because last_read changed to 1519206428.000445
+info: Feb-21 18:47:16.980 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:47:44.975 [FOCUS-EVENT] Window focused
+info: Feb-21 18:47:45.820 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:47:45.820 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:47:47.350 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:48:16.246 [FOCUS-EVENT] Window focused
+info: Feb-21 18:48:16.336 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:48:16.337 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:48:17.703 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:52:52.489 [FOCUS-EVENT] Window focused
+info: Feb-21 18:52:52.640 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:52:52.641 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:52:59.802 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:53:04.674 [FOCUS-EVENT] Window focused
+info: Feb-21 18:53:04.754 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:53:04.755 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:53:06.395 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:56:18.549 [FOCUS-EVENT] Window focused
+info: Feb-21 18:56:18.598 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:56:18.599 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:56:21.345 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:56:22.235 [FOCUS-EVENT] Window focused
+info: Feb-21 18:56:22.346 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:56:22.346 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-21 18:56:25.503 [ACTION:CHANNEL-SIDEBAR] Selected C031FNU09
+info: Feb-21 18:56:25.548 [MESSAGE-LIST] Switching channels: C031FNU09 timestamps: 49
+info: Feb-21 18:56:25.615 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 18:56:25.976 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 18:56:25.976 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 18:56:28.537 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:56:29.740 [FOCUS-EVENT] Window focused
+info: Feb-21 18:56:29.766 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:56:29.767 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 18:56:32.323 [FOCUS-EVENT] Window blurred
+info: Feb-21 19:14:50.549 [FOCUS-EVENT] Window focused
+info: Feb-21 19:14:50.593 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 19:14:50.596 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 19:14:52.954 [FOCUS-EVENT] Window blurred
+info: Feb-21 19:16:48.773 [T031FNTUT] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 19:16:48.774 [T031FNTUT] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 19:16:48.776 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 19:16:48.778 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 19:16:48.778 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 19:16:48.779 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 19:16:48.780 [T031FNTUT] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 19:16:48.781 [T031FNTUT] SOCKET-MANAGER:  Disconnected! Online? false
+info: Feb-21 19:16:48.784 [T031FNTUT] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Feb-21 19:16:48.784 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 19:16:48.810 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Feb-21 19:16:50.178 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Feb-21 19:16:52.178 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Feb-21 19:16:54.177 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Feb-21 19:16:56.177 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Feb-21 19:16:58.178 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Feb-21 21:42:09.889 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Feb-21 21:42:10.979 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Feb-21 21:42:12.979 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Feb-21 21:42:15.771 Internet connection still offline after 9 attempts (unable to reach API)
+info: Feb-21 21:42:27.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:42:27.979 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:42:27.981 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:42:27.982 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:42:27.986  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:42:28.981 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:42:28.981 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:42:59.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:42:59.980 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:42:59.980 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:42:59.981 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:42:59.982  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:43:00.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:43:00.979 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:43:07.500 Internet connection still offline after 10 attempts (unable to reach API)
+info: Feb-21 21:43:31.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:43:31.980 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:43:31.981 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:43:31.982 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:43:31.983  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:43:32.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:43:32.980 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:44:02.000 Internet connection still offline after 11 attempts (unable to reach API)
+info: Feb-21 21:44:03.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:44:03.980 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:44:03.981 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:44:03.982 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:44:03.983  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:44:04.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:44:04.980 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:44:35.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:44:35.979 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:44:35.979 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:44:35.980 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:44:35.980  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:44:36.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:44:36.979 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:44:52.000 Internet connection still offline after 12 attempts (unable to reach API)
+info: Feb-21 21:45:07.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:45:07.980 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:45:07.986 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:45:07.987 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:45:07.990  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:45:08.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:45:08.980 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:45:39.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:45:39.980 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:45:39.980 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:45:39.980 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:45:39.981  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:45:40.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:45:40.981 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:45:54.000 Internet connection still offline after 13 attempts (unable to reach API)
+info: Feb-21 21:46:11.979 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:46:11.981 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:46:11.982 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:46:11.983 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:46:11.984  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:46:12.979 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:46:12.980 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:46:17.547 [FOCUS-EVENT] Window focused
+info: Feb-21 21:46:17.635 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 21:46:17.635 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-21 21:46:25.560 [T031FNTUT] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+warn: Feb-22 09:17:22.159 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Feb-22 09:17:23.160 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Feb-22 09:17:24.161 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Feb-22 09:17:25.162 Internet connection still offline after 17 attempts (browser says it is still offline)
+info: Feb-22 09:17:25.459 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-22 09:17:25.460 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-22 09:17:25.460 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:17:25.462 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:17:25.466  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-22 09:17:25.514 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:17:25.514 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-22 09:17:26.167 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Feb-22 09:17:27.168 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Feb-22 09:17:28.169 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Feb-22 09:17:29.171 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Feb-22 09:17:30.172 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Feb-22 09:17:31.180 Internet connection still offline after 23 attempts (unable to reach API)
+info: Feb-22 09:17:55.515 [T031FNTUT] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-22 09:17:55.516 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-22 09:17:55.516 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:17:55.516 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:17:55.516  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-22 09:17:55.524 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:17:55.524 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:17:59.697 [INFO] Internet connection has been re-established after 24 retry attempts; offline for NaN seconds
+info: Feb-22 09:17:59.699 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-22 09:17:59.700 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-22 09:17:59.705 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-22 09:17:59.705 [T031FNTUT] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-22 09:17:59.706 [T031FNTUT] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-22 09:17:59.706 [T031FNTUT] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-22 09:17:59.710 [T031FNTUT] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-22 09:17:59.710 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-22 09:17:59.711 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-22 09:17:59.712 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-22 09:18:01.341 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-22 09:18:01.341 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-22 09:18:01.345 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/2/22 09:18:01.355  Received a reply to a message we have no record of sending (reply_to = C04KQT6L8_1519257784.217583, type = message)
+info: Feb-22 09:18:01.434 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-22 09:18:01.437 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-22 09:18:01.663 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-22 09:18:01.663 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-22 09:18:01.663 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-22 09:18:01.663 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-22 09:18:01.664 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-22 09:18:01.664 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-22 09:18:01.664 [T031FNTUT] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-22 09:18:01.664 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-22 09:18:01.664 [T031FNTUT] EVENTLOG fr=false, lc=false, lt=1519206429.000378
+info: Feb-22 09:18:01.665 [T031FNTUT] EVENTLOG fetching events since 1519206429.000378 (52252.99962210655 seconds ago)
+info: Feb-22 09:18:01.693 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:01.693 [HISTORY-FETCH] Fetching history for message pane: C031FNU09
+info: Feb-22 09:18:01.696 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:01.696 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:01.696 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 09:18:01.722 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:01.723 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:01.723 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:01.724 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:18:01.957 [T031FNTUT] EVENTLOG processing 7 events out of a total set of 7
+info: Feb-22 09:18:01.966 [T031FNTUT] EVENTLOG fetched finish (cancelled? false)
+info: Feb-22 09:18:01.966 [T031FNTUT] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-22 09:18:02.794 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-22 09:18:03.800 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 49
+info: Feb-22 09:18:03.138 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:18:03.496 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:18:03.496 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-22 09:18:47.980 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:18:48.260 [FOCUS-EVENT] Window focused
+info: Feb-22 09:18:48.118 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:18:48.119 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-22 09:18:48.167 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:23:28.928 [FOCUS-EVENT] Window focused
+info: Feb-22 09:23:29.500 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:23:29.500 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-22 09:23:30.197 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:23:30.205 [FOCUS-EVENT] Window focused
+info: Feb-22 09:23:30.225 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:23:30.226 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-22 09:23:30.380 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:23:31.910 [FOCUS-EVENT] Window focused
+info: Feb-22 09:23:31.133 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:23:31.133 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-22 09:43:57.304 [FOCUS-EVENT] Window blurred
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589687)
+    at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:510090)
+    at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:398198
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:203068
+    at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:3442309
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:203068
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:242300)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:162620)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:2168774)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.20d7e1b6beec05d17e19.min.js:1:465837)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.20d7e1b6beec05d17e19.min.js:1:465654)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:141217)
+    at Object.maybeTickleMS (https://xmlpro.slack.com/messages/C031FNU09:834:11)
+    at setInterval (/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:21:19)
+info: Feb-22 09:44:40.131 [T031FNTUT] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-22 09:44:40.132 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:44:40.133 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:44:40.134  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at s (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:400154)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:518017)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:511888)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:1010773)
+at k (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:587590)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589256)
+info: Feb-22 09:44:40.141 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-22 09:44:40.177 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:44:40.177 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:44:41.890 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-22 09:44:41.900 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-22 09:44:41.930 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-22 09:44:41.930 [T031FNTUT] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-22 09:44:41.940 [T031FNTUT] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-22 09:44:41.950 [T031FNTUT] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-22 09:44:41.884 [T031FNTUT] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-22 09:44:41.884 [T031FNTUT] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-22 09:44:42.809 [T031FNTUT] SOCKET-MANAGER:  received an error of type 3: Cannot create connection
+info: Feb-22 09:44:42.809 [T031FNTUT] SOCKET-MANAGER:  Changing from connecting to error
+info: Feb-22 09:44:42.809 [T031FNTUT] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:44:42.810 T031FNTUT SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:44:42.812  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:512682)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:1010773)
+at x (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:588312)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589304)
+warn: Feb-22 09:44:42.815 Unexpected start error: Cannot create connection
+info: Feb-22 09:44:42.833 [T031FNTUT] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:44:42.834 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:44:43.604 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-22 09:44:43.604 [T031FNTUT] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-22 09:44:43.608 [T031FNTUT] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-22 09:44:43.609 [T031FNTUT] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-22 09:44:43.610 [T031FNTUT] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-22 09:44:43.611 [T031FNTUT] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-22 09:44:43.613 [T031FNTUT] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-22 09:44:43.614 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-22 09:44:43.615 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-22 09:44:43.616 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-22 09:44:45.143 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-22 09:44:45.144 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-22 09:44:45.146 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/2/22 09:44:45.155  Received a reply to a message we have no record of sending (reply_to = C04KQT6L8_1519257784.217583, type = message)
+info: Feb-22 09:44:45.312 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-22 09:44:45.314 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-22 09:44:45.511 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-22 09:44:45.511 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-22 09:44:45.511 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-22 09:44:45.512 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-22 09:44:45.512 [T031FNTUT] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-22 09:44:45.512 [T031FNTUT] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-22 09:44:45.512 [T031FNTUT] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-22 09:44:45.513 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-22 09:44:45.513 [T031FNTUT] EVENTLOG fr=false, lc=false, lt=1519255853.000103
+info: Feb-22 09:44:45.513 [T031FNTUT] EVENTLOG fetching events since 1519255853.000103 (4432.999897003174 seconds ago)
+info: Feb-22 09:44:45.540 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:44:45.540 [HISTORY-FETCH] Fetching history for message pane: C031FNU09
+info: Feb-22 09:44:45.544 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:44:45.544 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:44:45.544 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 09:44:45.574 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:44:45.575 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:44:45.576 [MESSAGE-LIST] requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:44:45.576 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:44:46.318 [T031FNTUT] EVENTLOG nothing to process
+info: Feb-22 09:44:46.319 [T031FNTUT] EVENTLOG fetched finish (cancelled? false)
+info: Feb-22 09:44:46.319 [T031FNTUT] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-22 09:44:46.944 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-22 09:44:47.960 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 49
+info: Feb-22 09:44:47.146 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:44:47.503 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:44:47.504 [CHECK-UNREADS] Not marking C031FNU09 because attention not on chat (window_not_focused)
+info: Feb-22 09:52:01.422 [FOCUS-EVENT] Window focused
+info: Feb-22 09:52:01.446 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:52:01.447 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Feb-22 09:52:06.413 [ACTION:CHANNEL-SIDEBAR] Selected D5WHV4ZQW
+info: Feb-22 09:52:06.466 [MESSAGE-LIST] Switching channels: D5WHV4ZQW timestamps: 0
+info: Feb-22 09:52:06.466 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:52:06.466 [HISTORY-FETCH] Fetching history for message pane: D5WHV4ZQW
+info: Feb-22 09:52:06.471 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:52:06.471 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:52:06.487 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:52:06.487 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:52:06.488 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:52:06.492 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:52:07.534 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (42) timestamps added
+info: Feb-22 09:52:07.539 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 60
+info: Feb-22 09:52:07.605 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:52:08.160 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:52:08.170 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 09:54:09.931 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:58:12.126 [FOCUS-EVENT] Window focused
+info: Feb-22 09:58:12.153 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:58:12.153 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:00:55.913 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:14:54.217 [FOCUS-EVENT] Window focused
+info: Feb-22 10:14:54.331 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:14:54.331 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:14:56.617 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:15:20.663 [FOCUS-EVENT] Window focused
+info: Feb-22 10:15:20.708 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:15:20.708 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:15:21.904 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:18:59.549 [FOCUS-EVENT] Window focused
+info: Feb-22 10:18:59.592 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:18:59.593 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:19:00.523 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:19:06.873 [FOCUS-EVENT] Window focused
+info: Feb-22 10:19:07.800 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:19:07.900 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:19:07.550 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:19:10.291 [FOCUS-EVENT] Window focused
+info: Feb-22 10:19:10.343 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:19:10.345 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:19:10.640 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:21:14.206 [FOCUS-EVENT] Window focused
+info: Feb-22 10:21:14.249 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:21:14.249 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:21:15.185 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:21:30.102 [FOCUS-EVENT] Window focused
+info: Feb-22 10:21:30.254 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:21:30.255 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:21:31.869 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:22:22.901 [FOCUS-EVENT] Window focused
+info: Feb-22 10:22:23.400 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:22:23.410 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:22:23.837 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:29:02.344 [FOCUS-EVENT] Window focused
+info: Feb-22 10:29:02.479 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:29:02.480 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:29:03.330 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:29:03.996 [FOCUS-EVENT] Window focused
+info: Feb-22 10:29:04.117 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:29:04.117 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: Feb-22 10:29:08.227 [ACTION:CHANNEL-SIDEBAR] Selected D5A4B1XCZ
+info: Feb-22 10:29:08.310 [MESSAGE-LIST] Switching channels: D5A4B1XCZ timestamps: 0
+info: Feb-22 10:29:08.311 [MESSAGE-LIST] requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 10:29:08.311 [HISTORY-FETCH] Fetching history for message pane: D5A4B1XCZ
+info: Feb-22 10:29:08.318 [MESSAGE-LIST] requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 10:29:08.319 [MESSAGE-LIST] requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 10:29:08.344 [MESSAGE-LIST] requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 10:29:08.345 [MESSAGE-LIST] requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 10:29:08.346 [MESSAGE-LIST] requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 10:29:08.347 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 10:29:09.559 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (36) timestamps added
+info: Feb-22 10:29:09.579 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 36
+info: Feb-22 10:29:09.647 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 10:29:10.900 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 10:29:10.900 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:29:14.215 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:29:23.606 [FOCUS-EVENT] Window focused
+info: Feb-22 10:29:23.751 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:29:23.751 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:29:29.331 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:29:30.434 [FOCUS-EVENT] Window focused
+info: Feb-22 10:29:30.507 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:29:30.507 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:29:31.969 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:29:33.145 [FOCUS-EVENT] Window focused
+info: Feb-22 10:29:33.208 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:29:33.209 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:29:36.158 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:29:49.397 [FOCUS-EVENT] Window focused
+info: Feb-22 10:29:49.446 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:29:49.447 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:29:53.649 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:30:08.801 [FOCUS-EVENT] Window focused
+info: Feb-22 10:30:08.837 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 10:30:08.837 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:30:11.950 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (1) timestamps added
+info: Feb-22 10:30:11.950 [UNREAD-COUNTS] Checking unreads in D5A4B1XCZ after a new message
+info: Feb-22 10:30:11.950 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:30:11.123 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 10:30:11.547 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because message removed
+info: Feb-22 10:30:11.548 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (1) timestamps added
+info: Feb-22 10:30:11.548 [UNREAD-COUNTS] Checking unreads in D5A4B1XCZ after a new message
+info: Feb-22 10:30:11.549 [CHECK-UNREADS] Marking D5A4B1XCZ because channel is read and last message is from self
+info: Feb-22 10:30:11.552 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because last_read changed to 1519263011.000131
+info: Feb-22 10:30:11.583 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 10:30:11.951 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 10:30:11.952 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 10:30:14.400 [FOCUS-EVENT] Window blurred
+info: Feb-22 12:17:29.728 [FOCUS-EVENT] Window focused
+info: Feb-22 12:17:29.781 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 12:17:29.782 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Feb-22 12:17:31.237 [FOCUS-EVENT] Window blurred
+info: Feb-22 12:53:21.432 [UNREAD-COUNTS] Updated unread_cnt for C031FNU0K: 1

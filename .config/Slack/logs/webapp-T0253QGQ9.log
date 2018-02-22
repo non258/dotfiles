@@ -1,0 +1,868 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.5, linux 4.10.0-38-generic on x64 at 02/21/18, 14:36:00:441      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+info: Feb-21 14:36:03.373 [BOOT] booted! pri:0 version:1519190586 start_ms:1519191362029 (1343ms ago)
+info: Feb-21 14:36:03.373 [BOOT] Starting incremental boot (early)
+info: Feb-21 14:36:03.797 [T0253QGQ9] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-21 14:36:03.797 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 14:36:03.798 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 14:36:03.798 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 14:36:04.815 [BOOT] Finalizing incremental boot
+info: Feb-21 14:36:05.331 [UNREAD-COUNTS] Counting unreads in C7F4RUKGW because (22) timestamps added
+info: Feb-21 14:36:05.332 [UNREAD-COUNTS] Updated unread_cnt for C7F4RUKGW: 0
+info: Feb-21 14:36:05.570 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-21 14:36:05.583 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 14:36:05.583 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 14:36:05.584 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-21 14:36:05.585 [INFO] Got start data from Socket Manager; hydrating it
+warn: Feb-21 14:36:05.807 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 14:36:05.828 [BOOT] Completed incremental boot
+info: Feb-21 14:36:06.740 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:36:06.140 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-21 14:36:06.142 [CHECK-UNREADS] Marking C7F4RUKGW because unread line is visible
+info: Feb-21 14:36:06.146 [UNREAD-COUNTS] Counting unreads in C7F4RUKGW because last_read changed to 1519191363.000000
+info: Feb-21 14:36:06.425 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:36:06.426 [CHECK-UNREADS] Not marking C7F4RUKGW because last_read >= latest && channel is read
+info: Feb-21 14:36:06.747 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 14:36:06.748 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 14:36:06.749 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 14:36:06.750 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 14:36:06.750 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 14:36:06.752 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 14:36:06.753 [T0253QGQ9] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 14:36:06.754 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 14:36:06.756 [BOOT] Finished first boot 2981 ms after DOM ready
+info: Feb-21 14:36:07.573 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 14:36:54.484 [INFO] TS.reload() called: "prefs dialog change: locale -> en-US"
+info: 2018/2/21 14:36:54.488  Stacktrace: ↴
+ at Object.e [as reload] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.ja-JP.b9ea5083d83812fbdb7d.min.js:1:85357)
+at https://a.slack-edge.com/bv1-1/rollup-client.ja-JP.ce304d283c6a0ca828a4.min.js:1:1027025
+at https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.ja-JP.3b5c4b824c9de3029799.min.js:1:484957
+at l (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:700088)
+at O._settlePromiseFromHandler (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:672573)
+at O._settlePromise (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:673425)
+at O._settlePromise0 (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:674162)
+at O._settlePromises (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:675556)
+at l._drainQueue (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:631087)
+at l._drainQueues (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:631201)
+at drainQueues (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:629491)
+at MutationObserver.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.ja-JP.44c24a106901bbb84200.min.js:1:689900)
+info: Feb-21 14:36:54.505 [INFO] client window unloaded!
+info: Feb-21 14:36:58.330 [BOOT] booted! pri:0 version:1519190586 start_ms:1519191417226 (1104ms ago)
+info: Feb-21 14:36:58.331 [BOOT] Starting incremental boot (early)
+info: Feb-21 14:36:58.691 [T0253QGQ9] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-21 14:36:58.691 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 14:36:58.692 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 14:36:58.692 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 14:36:59.510 [BOOT] Finalizing incremental boot
+info: Feb-21 14:36:59.927 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-21 14:36:59.944 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 14:36:59.944 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 14:36:59.945 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-21 14:36:59.946 [INFO] Got start data from Socket Manager; hydrating it
+warn: Feb-21 14:37:00.970 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 14:37:00.115 [BOOT] Completed incremental boot
+info: Feb-21 14:37:00.318 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-21 14:37:00.320 [CHECK-UNREADS] Not marking C7F4RUKGW, clearing ghost last_read
+info: Feb-21 14:37:00.330 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:37:00.681 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:37:00.682 [CHECK-UNREADS] Marking C7F4RUKGW because unread line is visible
+info: Feb-21 14:37:00.689 [UNREAD-COUNTS] Counting unreads in C7F4RUKGW because last_read changed to 1519191418.000000
+info: Feb-21 14:37:01.208 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 14:37:01.208 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 14:37:01.208 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 14:37:01.209 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 14:37:01.209 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 14:37:01.209 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 14:37:01.209 [T0253QGQ9] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 14:37:01.210 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 14:37:01.211 [BOOT] Finished first boot 2532 ms after DOM ready
+info: Feb-21 14:37:02.310 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 14:37:11.136 [ACTION:CHANNEL-SIDEBAR] Selected C2AFP7C3V
+info: Feb-21 14:37:11.176 [MESSAGE-LIST] Switching channels: C2AFP7C3V timestamps: 0
+info: Feb-21 14:37:11.178 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:11.179 [HISTORY-FETCH] Fetching history for message pane: C2AFP7C3V
+info: Feb-21 14:37:11.184 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:11.184 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:11.205 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:11.205 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:11.206 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:11.206 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 14:37:12.220 [UNREAD-COUNTS] Counting unreads in C2AFP7C3V because (42) timestamps added
+info: Feb-21 14:37:12.270 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 37
+info: Feb-21 14:37:12.940 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:37:12.456 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:37:12.458 [CHECK-UNREADS] Marking C2AFP7C3V because unread line is visible
+info: Feb-21 14:37:12.460 [UNREAD-COUNTS] Counting unreads in C2AFP7C3V because last_read changed to 1519191005.000242
+info: Feb-21 14:37:20.710 [ACTION:CHANNEL-SIDEBAR] Selected C7F4RUKGW
+info: Feb-21 14:37:20.149 [MESSAGE-LIST] Switching channels: C7F4RUKGW timestamps: 17
+info: Feb-21 14:37:20.191 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:37:20.553 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:37:20.554 [CHECK-UNREADS] Not marking C7F4RUKGW because last_read >= latest && channel is read
+info: Feb-21 14:37:22.400 [ACTION:CHANNEL-SIDEBAR] Selected C04KRCSU4
+info: Feb-21 14:37:22.464 [MESSAGE-LIST] Switching channels: C04KRCSU4 timestamps: 0
+info: Feb-21 14:37:22.465 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:22.465 [HISTORY-FETCH] Fetching history for message pane: C04KRCSU4
+info: Feb-21 14:37:22.469 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:22.469 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:22.482 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:22.483 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:22.483 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 14:37:22.484 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 14:37:23.121 [T0253QGQ9] bulkUpsertBot: adding bot "B04LD2F8H"
+info: Feb-21 14:37:23.137 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (42) timestamps added
+info: Feb-21 14:37:23.150 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Feb-21 14:37:23.206 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:37:23.622 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:37:23.622 [CHECK-UNREADS] Marking C04KRCSU4 because unread line is visible
+info: Feb-21 14:37:23.625 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because last_read changed to 1519191005.000164
+info: Feb-21 14:37:28.287 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-21 14:37:36.268 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:37:38.487 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:37:38.487 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-21 14:37:44.100 [ACTION:CHANNEL-SIDEBAR] Selected C7F4RUKGW
+info: Feb-21 14:37:44.950 [MESSAGE-LIST] Switching channels: C7F4RUKGW timestamps: 17
+info: Feb-21 14:37:44.133 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 14:37:44.489 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 14:37:44.490 [CHECK-UNREADS] Not marking C7F4RUKGW because last_read >= latest && channel is read
+info: Feb-21 14:37:45.428 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:37:45.490 [FOCUS-EVENT] Window focused
+info: Feb-21 14:37:45.519 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:37:45.520 [CHECK-UNREADS] Not marking C7F4RUKGW because last_read >= latest && channel is read
+info: Feb-21 14:37:45.625 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:37:49.154 [FOCUS-EVENT] Window focused
+info: Feb-21 14:37:49.186 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 14:37:49.186 [CHECK-UNREADS] Not marking C7F4RUKGW because last_read >= latest && channel is read
+info: Feb-21 14:37:49.760 [FOCUS-EVENT] Window blurred
+info: Feb-21 14:42:06.696 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 1
+info: Feb-21 14:42:10.246 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 2
+info: Feb-21 14:43:39.984 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 1
+info: Feb-21 15:25:45.565 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 3
+info: Feb-21 15:25:47.835 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 4
+info: Feb-21 17:03:52.189 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 5
+info: Feb-21 17:03:55.160 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 6
+info: Feb-21 17:25:19.890 [FOCUS-EVENT] Window focused
+info: Feb-21 17:25:20.110 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 17:25:20.110 [CHECK-UNREADS] Not marking C7F4RUKGW because last_read >= latest && channel is read
+info: Feb-21 17:25:21.783 [ACTION:CHANNEL-SIDEBAR] Selected G8PUNETS9
+info: Feb-21 17:25:21.949 [MESSAGE-LIST] Switching channels: G8PUNETS9 timestamps: 0
+info: Feb-21 17:25:21.950 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 17:25:21.950 [HISTORY-FETCH] Fetching history for message pane: G8PUNETS9
+info: Feb-21 17:25:21.968 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 17:25:21.969 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 17:25:21.970 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Feb-21 17:25:22.450 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 17:25:22.460 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 17:25:22.470 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 17:25:22.480 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Feb-21 17:25:22.424 [CHECK-UNREADS] Checking unreads after debounced channel change to G8PUNETS9
+info: Feb-21 17:25:22.425 [CHECK-UNREADS] Not marking G8PUNETS9, clearing ghost last_read
+info: Feb-21 17:25:22.657 [UNREAD-COUNTS] Counting unreads in G8PUNETS9 because (44) timestamps added
+info: Feb-21 17:25:22.666 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 43
+info: Feb-21 17:25:22.751 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 17:25:23.119 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 17:25:23.119 [CHECK-UNREADS] Marking G8PUNETS9 because unread line is visible
+info: Feb-21 17:25:23.123 [UNREAD-COUNTS] Counting unreads in G8PUNETS9 because last_read changed to 1519191819.000161
+info: Feb-21 17:25:23.123 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 0
+info: Feb-21 17:25:31.885 [ACTION:CHANNEL-SIDEBAR] Selected C04KRCSU4
+info: Feb-21 17:25:31.928 [MESSAGE-LIST] Switching channels: C04KRCSU4 timestamps: 48
+info: Feb-21 17:25:31.985 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 17:25:32.347 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 17:25:32.348 [CHECK-UNREADS] Marking C04KRCSU4 because unread line is visible
+info: Feb-21 17:25:32.349 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because last_read changed to 1519200234.000451
+info: Feb-21 17:25:32.350 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 0
+info: Feb-21 17:25:36.824 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:33:24.629 [T0253QGQ9] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 18:33:24.631 [T0253QGQ9] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 18:33:24.633 [T0253QGQ9] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 18:33:24.635 [T0253QGQ9] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 18:33:24.636 [T0253QGQ9] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 18:33:24.639 [T0253QGQ9] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 18:33:24.640 [T0253QGQ9] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 18:33:24.641 [T0253QGQ9] SOCKET-MANAGER:  Disconnected! Online? false
+info: Feb-21 18:33:24.642 [T0253QGQ9] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Feb-21 18:33:24.644 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 18:33:24.658 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Feb-21 18:33:26.178 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Feb-21 18:33:28.177 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Feb-21 18:33:30.177 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Feb-21 18:33:32.177 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Feb-21 18:33:34.177 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Feb-21 18:33:36.177 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Feb-21 18:33:38.178 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Feb-21 18:33:40.178 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Feb-21 18:33:42.178 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Feb-21 18:33:44.177 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Feb-21 18:33:46.177 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Feb-21 18:33:48.177 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Feb-21 18:33:50.178 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Feb-21 18:33:52.177 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Feb-21 18:33:54.178 Internet connection still offline after 15 attempts (browser says it is still offline)
+info: Feb-21 18:33:55.178 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 18:33:55.179 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 18:33:55.182 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 18:33:55.184 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 18:33:55.191  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+warn: Feb-21 18:33:56.178 Internet connection still offline after 16 attempts (browser says it is still offline)
+info: Feb-21 18:33:56.179 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 18:33:56.179 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 18:33:58.178 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Feb-21 18:34:00.178 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Feb-21 18:34:02.177 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Feb-21 18:34:04.177 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Feb-21 18:34:06.177 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Feb-21 18:34:08.177 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Feb-21 18:34:10.177 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Feb-21 18:34:12.177 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Feb-21 18:34:14.177 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Feb-21 18:34:16.538 Internet connection still offline after 26 attempts (unable to reach API)
+info: Feb-21 18:34:27.178 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 18:34:27.179 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 18:34:27.180 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 18:34:27.181 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 18:34:27.183  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 18:34:28.178 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 18:34:28.179 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 18:34:44.191 Internet connection still offline after 27 attempts (unable to reach API)
+info: Feb-21 18:34:44.248 [T0253QGQ9] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 18:34:59.177 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 18:34:59.177 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 18:34:59.178 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 18:34:59.178 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 18:34:59.179  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 18:35:00.177 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 18:35:00.178 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 18:35:03.940 [T0253QGQ9] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 18:35:14.903 [INFO] Internet connection has been re-established after 28 retry attempts; offline for NaN seconds
+info: Feb-21 18:35:14.904 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-21 18:35:14.904 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-21 18:35:14.906 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-21 18:35:14.906 [T0253QGQ9] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-21 18:35:14.907 [T0253QGQ9] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-21 18:35:14.907 [T0253QGQ9] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-21 18:35:15.655 [T0253QGQ9] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-21 18:35:15.656 [T0253QGQ9] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-21 18:35:16.830 [T0253QGQ9] SOCKET-MANAGER:  received an error of type 1: Socket URL has expired
+info: Feb-21 18:35:16.830 [T0253QGQ9] SOCKET-MANAGER:  Changing from connecting to error
+info: Feb-21 18:35:16.830 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 18:35:16.840 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 18:35:16.850  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:512682)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:1010773)
+at x (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:588312)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589304)
+warn: Feb-21 18:35:16.860 Unexpected start error: Socket URL has expired
+info: Feb-21 18:35:16.177 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 18:35:16.178 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 18:35:16.238 [FOCUS-EVENT] Window focused
+info: Feb-21 18:35:16.361 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:35:16.362 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-21 18:35:16.835 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-21 18:35:16.835 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-21 18:35:16.836 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-21 18:35:16.837 [T0253QGQ9] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-21 18:35:16.837 [T0253QGQ9] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-21 18:35:16.838 [T0253QGQ9] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-21 18:35:16.840 [T0253QGQ9] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-21 18:35:16.840 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 18:35:16.842 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 18:35:16.842 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 18:35:18.600 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 18:35:18.600 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 18:35:18.630 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-21 18:35:18.162 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-21 18:35:18.164 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+error: 2018/2/21 18:35:18.664 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"_http_error\",\"status\":0,\"retry_after\":null}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:74606)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:133602)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:128799)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:130726)\n    at XMLHttpRequest.d.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:132101)"}
+warn: Feb-21 18:35:18.664 args/data logging skipped, run with ?log_api_failures=1 to enable full logging
+error: 2018/2/21 18:35:18.668 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"_http_error\",\"status\":0,\"retry_after\":null}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:74606)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:133602)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:128799)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:130726)\n    at XMLHttpRequest.d.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:132101)"}
+warn: Feb-21 18:35:18.669 args/data logging skipped, run with ?log_api_failures=1 to enable full logging
+info: Feb-21 18:35:18.676 [INFO] client window unloaded!
+info: Feb-21 18:35:21.958 [BOOT] booted! pri:0 version:1519194663 start_ms:1519205720877 (1080ms ago)
+info: Feb-21 18:35:21.958 [BOOT] Starting incremental boot (early)
+info: Feb-21 18:35:22.272 [T0253QGQ9] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Feb-21 18:35:22.273 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-21 18:35:22.273 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-21 18:35:22.274 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-21 18:35:23.980 [T0253QGQ9] bulkUpsertBot: adding bot "B04LD2F8H"
+info: Feb-21 18:35:23.273 [BOOT] Finalizing incremental boot
+info: Feb-21 18:35:23.528 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (49) timestamps added
+info: Feb-21 18:35:23.759 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-21 18:35:24.980 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-21 18:35:24.980 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-21 18:35:24.100 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-21 18:35:24.101 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-21 18:35:24.117 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+warn: Feb-21 18:35:24.215 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-21 18:35:24.230 [BOOT] Completed incremental boot
+info: Feb-21 18:35:24.510 [CHECK-UNREADS] Checking unreads after fully booted
+info: Feb-21 18:35:24.511 [CHECK-UNREADS] Marking C04KRCSU4 because unread line is visible
+info: Feb-21 18:35:24.514 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because last_read changed to 1519205722.000000
+info: Feb-21 18:35:24.553 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 18:35:24.553 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-21 18:35:25.860 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-21 18:35:25.870 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-21 18:35:25.870 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-21 18:35:25.880 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-21 18:35:25.890 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-21 18:35:25.900 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-21 18:35:25.910 [T0253QGQ9] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-21 18:35:25.920 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-21 18:35:25.940 [BOOT] Finished first boot 2830 ms after DOM ready
+info: Feb-21 18:35:25.748 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-21 18:35:46.896 [ACTION:CHANNEL-SIDEBAR] Selected C02C22M1Z
+info: Feb-21 18:35:46.947 [MESSAGE-LIST] Switching channels: C02C22M1Z timestamps: 0
+info: Feb-21 18:35:46.949 [MESSAGE-LIST] requestAround channelId: C02C22M1Z isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:46.950 [HISTORY-FETCH] Fetching history for message pane: C02C22M1Z
+info: Feb-21 18:35:46.956 [MESSAGE-LIST] requestAround channelId: C02C22M1Z isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:46.956 [MESSAGE-LIST] requestAround channelId: C02C22M1Z isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:47.000 [MESSAGE-LIST] requestAround channelId: C02C22M1Z isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:47.300 [MESSAGE-LIST] requestAround channelId: C02C22M1Z isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:47.400 [MESSAGE-LIST] requestAround channelId: C02C22M1Z isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:47.700 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 18:35:47.889 [UNREAD-COUNTS] Counting unreads in C02C22M1Z because (42) timestamps added
+info: Feb-21 18:35:47.895 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 40
+info: Feb-21 18:35:48.230 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 18:35:48.389 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 18:35:48.390 [CHECK-UNREADS] Marking C02C22M1Z because unread line is visible
+info: Feb-21 18:35:48.392 [UNREAD-COUNTS] Counting unreads in C02C22M1Z because last_read changed to 1519191005.000267
+info: Feb-21 18:35:51.606 [ACTION:CHANNEL-SIDEBAR] Selected C2AFP7C3V
+info: Feb-21 18:35:51.658 [MESSAGE-LIST] Switching channels: C2AFP7C3V timestamps: 0
+info: Feb-21 18:35:51.659 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:51.659 [HISTORY-FETCH] Fetching history for message pane: C2AFP7C3V
+info: Feb-21 18:35:51.663 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:51.663 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:51.677 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:51.677 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:51.678 [MESSAGE-LIST] requestAround channelId: C2AFP7C3V isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 18:35:51.678 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 18:35:52.804 [UNREAD-COUNTS] Counting unreads in C2AFP7C3V because (42) timestamps added
+info: Feb-21 18:35:52.818 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 37
+info: Feb-21 18:35:52.894 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 18:35:53.257 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 18:35:53.258 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 18:36:01.778 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-21 18:37:32.124 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:44:26.282 [FOCUS-EVENT] Window focused
+info: Feb-21 18:44:26.369 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:44:26.370 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 18:44:28.914 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:46:35.916 [FOCUS-EVENT] Window focused
+info: Feb-21 18:46:36.140 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:46:36.140 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 18:46:37.129 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:46:40.799 [FOCUS-EVENT] Window focused
+info: Feb-21 18:46:40.910 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:46:40.910 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 18:46:45.713 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:46:46.426 [FOCUS-EVENT] Window focused
+info: Feb-21 18:46:46.607 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:46:46.607 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 18:46:47.700 [FOCUS-EVENT] Window blurred
+info: Feb-21 18:46:50.669 [FOCUS-EVENT] Window focused
+info: Feb-21 18:46:50.776 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 18:46:50.776 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 18:46:51.950 [FOCUS-EVENT] Window blurred
+info: Feb-21 19:14:52.925 [FOCUS-EVENT] Window focused
+info: Feb-21 19:14:53.300 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-21 19:14:53.310 [CHECK-UNREADS] Not marking C2AFP7C3V because last_read >= latest && channel is read
+info: Feb-21 19:16:26.139 [ACTION:CHANNEL-SIDEBAR] Selected C04KRCSU4
+info: Feb-21 19:16:26.192 [MESSAGE-LIST] Switching channels: C04KRCSU4 timestamps: 49
+info: Feb-21 19:16:26.297 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-21 19:16:26.659 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-21 19:16:26.660 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-21 19:16:41.454 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (1) timestamps added
+info: Feb-21 19:16:41.454 [UNREAD-COUNTS] Checking unreads in C04KRCSU4 after a new message
+info: Feb-21 19:16:41.454 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-21 19:16:41.883 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because message removed
+info: Feb-21 19:16:41.884 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (1) timestamps added
+info: Feb-21 19:16:41.885 [UNREAD-COUNTS] Checking unreads in C04KRCSU4 after a new message
+info: Feb-21 19:16:41.886 [CHECK-UNREADS] Marking C04KRCSU4 because unread line is visible
+info: Feb-21 19:16:41.891 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because last_read changed to 1519208201.000394
+info: Feb-21 19:16:46.590 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (1) timestamps added
+info: Feb-21 19:16:46.620 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 1
+info: Feb-21 19:16:46.640 [UNREAD-COUNTS] Updated unread_highlight_cnt for C04KRCSU4: 1
+info: Feb-21 19:16:46.660 [UNREAD-COUNTS] Checking unreads in C04KRCSU4 after a new message
+info: Feb-21 19:16:46.670 [CHECK-UNREADS] Marking C04KRCSU4 because unread line is visible
+info: Feb-21 19:16:46.810 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because last_read changed to 1519208205.000407
+info: Feb-21 19:16:46.820 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 0
+info: Feb-21 19:16:46.830 [UNREAD-COUNTS] Updated unread_highlight_cnt for C04KRCSU4: 0
+info: Feb-21 19:16:48.769 [T0253QGQ9] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 19:16:48.770 [T0253QGQ9] SOCKET-MANAGER:  Changing from connected to disconnect
+info: Feb-21 19:16:48.807 [T0253QGQ9] SOCKET-MANAGER:  will stay in disconnect state for up to 10000 ms
+info: Feb-21 19:16:48.810 [T0253QGQ9] SOCKET-MANAGER:  Changing from disconnect to disconnecting
+info: Feb-21 19:16:48.812 [T0253QGQ9] SOCKET-MANAGER:  will stay in disconnecting state for up to 10000 ms
+info: Feb-21 19:16:48.825 [T0253QGQ9] SOCKET-MANAGER:  Changing from disconnecting to disconnected
+info: Feb-21 19:16:48.825 [T0253QGQ9] SOCKET-MANAGER:  will stay in disconnected state for up to 10000 ms
+info: Feb-21 19:16:48.826 [T0253QGQ9] SOCKET-MANAGER:  Disconnected! Online? false
+info: Feb-21 19:16:48.826 [T0253QGQ9] SOCKET-MANAGER:  Changing from disconnected to wait_for_connectivity
+info: Feb-21 19:16:48.826 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 19:16:48.830 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Feb-21 19:16:49.828 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Feb-21 19:16:50.829 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Feb-21 19:16:51.830 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Feb-21 19:16:52.830 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Feb-21 19:16:53.831 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Feb-21 19:16:54.832 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Feb-21 19:16:55.833 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Feb-21 19:16:56.834 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Feb-21 19:16:57.835 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Feb-21 19:16:58.836 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Feb-21 21:42:09.858 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Feb-21 21:42:10.859 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Feb-21 21:42:11.860 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Feb-21 21:42:12.861 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Feb-21 21:42:13.861 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Feb-21 21:42:15.774 Internet connection still offline after 16 attempts (unable to reach API)
+info: Feb-21 21:42:27.628 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:42:27.629 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:42:27.631 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:42:27.632 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:42:27.636  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:42:27.655 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:42:27.655 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:42:43.537 [ACTION:CHANNEL-SIDEBAR] Selected G8PUNETS9
+info: Feb-21 21:42:43.591 [MESSAGE-LIST] Switching channels: G8PUNETS9 timestamps: 0
+info: Feb-21 21:42:43.591 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 21:42:43.591 [HISTORY-FETCH] Fetching history for message pane: G8PUNETS9
+info: Feb-21 21:42:43.595 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 21:42:43.595 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 21:42:43.626 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Feb-21 21:42:43.652 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 21:42:43.654 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 21:42:43.654 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-21 21:42:43.655 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-21 21:42:57.655 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:42:57.656 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:42:57.656 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:42:57.657 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:42:57.658  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:42:57.661 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:42:57.661 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+error: 2018/2/21 21:43:03.620 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"_http_error\",\"status\":0,\"retry_after\":null}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:74606)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:133602)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:128799)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:130726)\n    at XMLHttpRequest.d.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:132101)"}
+warn: Feb-21 21:43:03.621 args/data logging skipped, run with ?log_api_failures=1 to enable full logging
+warn: Feb-21 21:43:03.625 Internet connection still offline after 17 attempts (unable to reach API)
+warn: Feb-21 21:43:05.886 re Qing api call "conversations.history"
+error: 2018/2/21 21:43:25.903 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"_http_error\",\"status\":0,\"retry_after\":null}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:74606)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:133602)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:128799)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:130726)\n    at XMLHttpRequest.d.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:132101)"}
+warn: Feb-21 21:43:25.904 args/data logging skipped, run with ?log_api_failures=1 to enable full logging
+info: Feb-21 21:43:27.662 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:43:27.662 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:43:27.663 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:43:27.663 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:43:27.664  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:43:27.669 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:43:27.669 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:43:28.890 re Qing api call "conversations.history"
+error: 2018/2/21 21:43:48.909 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"_http_error\",\"status\":0,\"retry_after\":null}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:74606)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:133602)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:128799)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:130726)\n    at XMLHttpRequest.d.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:132101)"}
+warn: Feb-21 21:43:48.910 args/data logging skipped, run with ?log_api_failures=1 to enable full logging
+warn: Feb-21 21:43:48.912 Internet connection still offline after 18 attempts (unable to reach API)
+warn: Feb-21 21:43:54.222 re Qing api call "conversations.history"
+info: Feb-21 21:43:57.670 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:43:57.670 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:43:57.671 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:43:57.672 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:43:57.673  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:43:57.677 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:43:57.678 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+error: 2018/2/21 21:44:14.240 logging error: {"subtype":"api_call_error","message":"{\"ok\":false,\"error\":\"_http_error\",\"status\":0,\"retry_after\":null}","stack":"Error\n    at Object.n [as logError] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:74606)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:133602)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:128799)\n    at e (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:130726)\n    at XMLHttpRequest.d.onreadystatechange (https://a.slack-edge.com/bv1-1/rollup-secondary_a_required.946456a6388ef303e353.min.js:1:132101)"}
+warn: Feb-21 21:44:14.241 args/data logging skipped, run with ?log_api_failures=1 to enable full logging
+warn: Feb-21 21:44:14.241 4 consecutive connection errors. Pausing API queue until internet returns
+warn: Feb-21 21:44:14.263 re Qing api call "conversations.history"
+info: Feb-21 21:44:27.678 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:44:27.678 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:44:27.678 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:44:27.679 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:44:27.679  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:44:27.684 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:44:27.684 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:44:40.964 Internet connection still offline after 19 attempts (unable to reach API)
+info: Feb-21 21:44:57.685 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:44:57.685 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:44:57.686 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:44:57.687 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:44:57.689  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:44:57.695 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:44:57.696 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:45:27.696 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:45:27.697 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:45:27.698 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:45:27.698 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:45:27.699  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:45:27.703 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:45:27.703 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+warn: Feb-21 21:45:35.911 Internet connection still offline after 20 attempts (unable to reach API)
+info: Feb-21 21:45:57.704 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:45:57.704 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:45:57.704 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:45:57.705 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:45:57.705  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:45:57.710 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:45:57.710 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-21 21:46:17.539 [FOCUS-EVENT] Window blurred
+warn: Feb-21 21:46:25.200 Internet connection still offline after 21 attempts (unable to reach API)
+info: Feb-21 21:46:25.300 [T0253QGQ9] SOCKET-MANAGER:  got offline event; moving to DISCONNECT as needed
+info: Feb-21 21:46:27.980 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-21 21:46:27.981 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-21 21:46:27.982 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-21 21:46:27.984 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/21 21:46:27.986  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-21 21:46:28.979 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-21 21:46:28.980 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:17:42.448 [T0253QGQ9] SOCKET-MANAGER:  Spent 30000 ms in wait_for_connectivity state; giving up
+info: Feb-22 09:17:42.449 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to error
+info: Feb-22 09:17:42.449 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:17:42.450 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:17:42.450  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:519929
+info: Feb-22 09:17:43.447 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:17:43.447 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:17:53.240 [INFO] Internet connection has been re-established after 22 retry attempts; offline for NaN seconds
+info: Feb-22 09:17:53.242 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-22 09:17:53.243 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-22 09:17:53.245 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-22 09:17:53.246 [T0253QGQ9] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-22 09:17:53.246 [T0253QGQ9] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-22 09:17:53.246 [T0253QGQ9] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-22 09:17:53.256 [T0253QGQ9] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-22 09:17:53.256 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-22 09:17:53.257 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-22 09:17:53.257 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-22 09:17:54.470 [UNREAD-COUNTS] Counting unreads in G8PUNETS9 because (42) timestamps added
+info: Feb-22 09:17:54.610 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-22 09:17:54.610 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-22 09:17:54.613 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Feb-22 09:17:54.614 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-22 09:17:55.453 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-22 09:17:55.455 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-22 09:17:56.518 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-22 09:17:56.518 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-22 09:17:56.518 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-22 09:17:56.519 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-22 09:17:56.519 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-22 09:17:56.519 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-22 09:17:56.519 [T0253QGQ9] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-22 09:17:56.520 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-22 09:17:56.520 [T0253QGQ9] EVENTLOG fr=false, lc=false, lt=1519208208.000209
+info: Feb-22 09:17:56.520 [T0253QGQ9] EVENTLOG fetching events since 1519208208.000209 (50468.999790906906 seconds ago)
+info: Feb-22 09:17:56.840 [T0253QGQ9] EVENTLOG processing 6 events out of a total set of 6
+info: Feb-22 09:17:56.846 [T0253QGQ9] EVENTLOG fetched finish (cancelled? false)
+info: Feb-22 09:17:56.847 [T0253QGQ9] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-22 09:17:57.294 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-22 09:18:48.155 [FOCUS-EVENT] Window focused
+info: Feb-22 09:18:48.228 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Feb-22 09:18:48.229 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:48.229 [HISTORY-FETCH] Fetching history for message pane: G8PUNETS9
+info: Feb-22 09:18:48.232 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:48.232 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:18:48.254 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:18:48.254 [CHECK-UNREADS] Not marking G8PUNETS9 because last_read >= latest && channel is read
+info: Feb-22 09:18:48.265 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:18:48.965 [UNREAD-COUNTS] Counting unreads in G8PUNETS9 because (42) timestamps added
+info: Feb-22 09:18:48.967 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 41
+info: Feb-22 09:18:49.450 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:18:49.409 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:18:49.410 [CHECK-UNREADS] Not marking G8PUNETS9 because last_read >= latest && channel is read
+info: Feb-22 09:21:18.356 [ACTION:CHANNEL-SIDEBAR] Selected C8T7K473M
+info: Feb-22 09:21:18.455 [MESSAGE-LIST] Switching channels: C8T7K473M timestamps: 0
+info: Feb-22 09:21:18.456 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:21:18.456 [HISTORY-FETCH] Fetching history for message pane: C8T7K473M
+info: Feb-22 09:21:18.472 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:21:18.473 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:21:18.474 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Feb-22 09:21:18.488 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:21:18.489 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:21:18.489 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:21:18.490 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Feb-22 09:21:18.947 [CHECK-UNREADS] Checking unreads after debounced channel change to C8T7K473M
+info: Feb-22 09:21:18.948 [CHECK-UNREADS] Not marking C8T7K473M, clearing ghost last_read
+info: Feb-22 09:21:19.268 [UNREAD-COUNTS] Counting unreads in C8T7K473M because (21) timestamps added
+info: Feb-22 09:21:19.279 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 17
+info: Feb-22 09:21:19.326 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:21:19.822 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:21:19.823 [CHECK-UNREADS] Marking C8T7K473M because unread line is visible
+info: Feb-22 09:21:19.832 [UNREAD-COUNTS] Counting unreads in C8T7K473M because last_read changed to 1519212312.000414
+info: Feb-22 09:21:19.833 [UNREAD-COUNTS] Updated unread_cnt for C8T7K473M: 0
+info: Feb-22 09:21:19.834 [UNREAD-COUNTS] Updated unread_highlight_cnt for C8T7K473M: 0
+info: Feb-22 09:22:03.657 [ACTION:CHANNEL-SIDEBAR] Selected C04KRCSU4
+info: Feb-22 09:22:03.689 [MESSAGE-LIST] Switching channels: C04KRCSU4 timestamps: 0
+info: Feb-22 09:22:03.690 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:22:03.690 [HISTORY-FETCH] Fetching history for message pane: C04KRCSU4
+info: Feb-22 09:22:03.696 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:22:03.696 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:22:04.183 [CHECK-UNREADS] Checking unreads after debounced channel change to C04KRCSU4
+info: Feb-22 09:22:04.183 [CHECK-UNREADS] Not marking C04KRCSU4, clearing ghost last_read
+info: Feb-22 09:22:04.584 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (49) timestamps added
+info: Feb-22 09:22:04.588 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 7
+info: Feb-22 09:22:04.594 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 58
+info: Feb-22 09:22:04.669 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:22:05.370 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:22:05.380 [CHECK-UNREADS] Marking C04KRCSU4 because unread line is visible
+info: Feb-22 09:22:05.460 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because last_read changed to 1519218779.000224
+info: Feb-22 09:22:05.470 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 0
+info: Feb-22 09:23:14.459 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 09:23:16.808 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:23:17.159 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:23:17.162 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:23:17.858 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 09:23:25.893 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:23:26.306 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:23:26.307 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:23:28.740 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:23:28.839 [FOCUS-EVENT] Window focused
+info: Feb-22 09:23:28.865 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:23:28.865 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:23:28.927 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:23:30.379 [FOCUS-EVENT] Window focused
+info: Feb-22 09:23:30.438 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:23:30.438 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:23:30.912 [FOCUS-EVENT] Window blurred
+info: Feb-22 09:23:30.917 [FOCUS-EVENT] Window focused
+info: Feb-22 09:23:31.156 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:23:31.156 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:23:31.161 [FOCUS-EVENT] Window blurred
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589687)
+    at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:510090)
+    at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:398198
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:203068
+    at https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:3442309
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:203068
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:242300)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:162620)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:2168774)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.20d7e1b6beec05d17e19.min.js:1:465837)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.20d7e1b6beec05d17e19.min.js:1:465654)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:141217)
+    at Object.maybeTickleMS (https://mira.slack.com/messages/C04KRCSU4:811:11)
+    at setInterval (/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:21:19)
+info: Feb-22 09:44:34.454 [T0253QGQ9] SOCKET-MANAGER:  Changing from connected to error
+info: Feb-22 09:44:34.455 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:44:34.457 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:44:34.458  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at s (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:400154)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:518017)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:511888)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:1010773)
+at k (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:587590)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589256)
+info: Feb-22 09:44:34.482 [INFO] Hiding the reconnection banner because we are disconnected
+info: Feb-22 09:44:35.447 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:44:35.448 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:44:36.446 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-22 09:44:36.446 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-22 09:44:36.449 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-22 09:44:36.449 [T0253QGQ9] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-22 09:44:36.451 [T0253QGQ9] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-22 09:44:36.451 [T0253QGQ9] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-22 09:44:37.213 [T0253QGQ9] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Feb-22 09:44:37.213 [T0253QGQ9] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Feb-22 09:44:38.120 [T0253QGQ9] SOCKET-MANAGER:  received an error of type 3: Cannot create connection
+info: Feb-22 09:44:38.121 [T0253QGQ9] SOCKET-MANAGER:  Changing from connecting to error
+info: Feb-22 09:44:38.121 [T0253QGQ9] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Feb-22 09:44:38.121 T0253QGQ9 SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/2/22 09:44:38.122  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.caaed7b181c6f69f2cb5.min.js:1:75045)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:840194
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:515824)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:517644)
+at e (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:512682)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e60a1b62d4e3165dd925.min.js:1:1010773)
+at x (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:588312)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/application.3090c6b94c98dfe4fe37.min.js:1:589304)
+warn: Feb-22 09:44:38.124 Unexpected start error: Cannot create connection
+info: Feb-22 09:44:38.447 [T0253QGQ9] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Feb-22 09:44:38.447 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 30000 ms
+info: Feb-22 09:44:39.211 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Feb-22 09:44:39.211 [T0253QGQ9] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Feb-22 09:44:39.212 [T0253QGQ9] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Feb-22 09:44:39.213 [T0253QGQ9] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Feb-22 09:44:39.213 [T0253QGQ9] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Feb-22 09:44:39.213 [T0253QGQ9] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Feb-22 09:44:39.215 [T0253QGQ9] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Feb-22 09:44:39.215 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Feb-22 09:44:39.215 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Feb-22 09:44:39.215 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Feb-22 09:44:40.720 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Feb-22 09:44:40.721 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Feb-22 09:44:40.723 [INFO] Got start data from Socket Manager; hydrating it
+info: Feb-22 09:44:41.447 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Feb-22 09:44:41.448 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Feb-22 09:44:42.371 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Feb-22 09:44:42.372 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Feb-22 09:44:42.372 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Feb-22 09:44:42.373 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Feb-22 09:44:42.373 [T0253QGQ9] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Feb-22 09:44:42.374 [T0253QGQ9] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Feb-22 09:44:42.374 [T0253QGQ9] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Feb-22 09:44:42.376 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Feb-22 09:44:42.376 [T0253QGQ9] EVENTLOG fr=false, lc=false, lt=1519259116.000350
+info: Feb-22 09:44:42.376 [T0253QGQ9] EVENTLOG fetching events since 1519259116.000350 (1166.9996500015259 seconds ago)
+info: Feb-22 09:44:43.970 [UNREAD-COUNTS] Completed users.counts processing
+info: Feb-22 09:44:43.163 [T0253QGQ9] EVENTLOG nothing to process
+info: Feb-22 09:44:43.163 [T0253QGQ9] EVENTLOG fetched finish (cancelled? false)
+info: Feb-22 09:44:43.163 [T0253QGQ9] EVENTLOG dispatching signal and clearing timestamp
+info: Feb-22 09:54:09.900 [FOCUS-EVENT] Window focused
+info: Feb-22 09:54:09.973 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:09.973 [HISTORY-FETCH] Fetching history for message pane: C04KRCSU4
+info: Feb-22 09:54:09.983 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:09.983 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:09.983 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 09:54:09.984 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Feb-22 09:54:09.987 [CHECK-UNREADS] Checking unreads after window became focused
+info: Feb-22 09:54:09.987 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:54:10.360 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:10.370 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:10.370 [MESSAGE-LIST] requestAround channelId: C04KRCSU4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:10.380 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Feb-22 09:54:10.961 [UNREAD-COUNTS] Counting unreads in C04KRCSU4 because (49) timestamps added
+info: Feb-22 09:54:10.963 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 58
+info: Feb-22 09:54:11.184 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:54:11.561 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:54:11.561 [CHECK-UNREADS] Not marking C04KRCSU4 because last_read >= latest && channel is read
+info: Feb-22 09:54:13.490 [ACTION:CHANNEL-SIDEBAR] Selected C8T7K473M
+info: Feb-22 09:54:13.860 [MESSAGE-LIST] Switching channels: C8T7K473M timestamps: 0
+info: Feb-22 09:54:13.870 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:13.870 [HISTORY-FETCH] Fetching history for message pane: C8T7K473M
+info: Feb-22 09:54:13.950 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:13.950 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:13.106 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:13.107 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:13.107 [MESSAGE-LIST] requestAround channelId: C8T7K473M isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:54:13.108 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:54:13.944 [UNREAD-COUNTS] Counting unreads in C8T7K473M because (21) timestamps added
+info: Feb-22 09:54:13.949 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 17
+info: Feb-22 09:54:14.500 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:54:14.359 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:54:14.359 [CHECK-UNREADS] Not marking C8T7K473M because last_read >= latest && channel is read
+info: Feb-22 09:57:27.223 [ACTION:CHANNEL-SIDEBAR] Selected G8PUNETS9
+info: Feb-22 09:57:27.293 [MESSAGE-LIST] Switching channels: G8PUNETS9 timestamps: 0
+info: Feb-22 09:57:27.294 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:27.294 [HISTORY-FETCH] Fetching history for message pane: G8PUNETS9
+info: Feb-22 09:57:27.298 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:27.298 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:27.326 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:27.327 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:27.327 [MESSAGE-LIST] requestAround channelId: G8PUNETS9 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:27.328 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:57:28.195 [UNREAD-COUNTS] Counting unreads in G8PUNETS9 because (42) timestamps added
+info: Feb-22 09:57:28.198 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 41
+info: Feb-22 09:57:28.243 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:57:28.598 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:57:28.598 [CHECK-UNREADS] Not marking G8PUNETS9 because last_read >= latest && channel is read
+info: Feb-22 09:57:33.592 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Feb-22 09:57:51.375 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:57:51.727 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:57:51.729 [CHECK-UNREADS] Not marking G8PUNETS9 because last_read >= latest && channel is read
+info: Feb-22 09:57:53.740 [ACTION:CHANNEL-SIDEBAR] Selected D9D45NTD4
+info: Feb-22 09:57:53.802 [MESSAGE-LIST] Switching channels: D9D45NTD4 timestamps: 0
+info: Feb-22 09:57:53.802 [MESSAGE-LIST] requestAround channelId: D9D45NTD4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:53.802 [HISTORY-FETCH] Fetching history for message pane: D9D45NTD4
+info: Feb-22 09:57:53.806 [MESSAGE-LIST] requestAround channelId: D9D45NTD4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:53.806 [MESSAGE-LIST] requestAround channelId: D9D45NTD4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:53.825 [MESSAGE-LIST] requestAround channelId: D9D45NTD4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:53.826 [MESSAGE-LIST] requestAround channelId: D9D45NTD4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:53.826 [MESSAGE-LIST] requestAround channelId: D9D45NTD4 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Feb-22 09:57:53.827 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Feb-22 09:57:54.487 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Feb-22 09:57:54.548 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Feb-22 09:57:54.903 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Feb-22 09:57:54.904 [CHECK-UNREADS] Marking D9D45NTD4 because unread line is visible
+info: Feb-22 09:57:54.910 [UNREAD-COUNTS] Counting unreads in D9D45NTD4 because last_read changed to 1519260279.000000
+info: Feb-22 09:58:12.132 [FOCUS-EVENT] Window blurred
+info: Feb-22 10:18:02.503 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 1
+info: Feb-22 10:18:05.104 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 2
+info: Feb-22 10:20:56.817 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 3
+info: Feb-22 10:20:58.942 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 1
+info: Feb-22 10:20:59.210 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 4
+info: Feb-22 10:23:58.913 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 5
+info: Feb-22 10:24:00.883 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 6
+info: Feb-22 10:24:17.383 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 7
+info: Feb-22 10:24:19.378 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 8
+info: Feb-22 10:24:39.893 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 2
+info: Feb-22 10:31:41.194 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 9
+info: Feb-22 10:31:43.635 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 10
+info: Feb-22 10:32:00.393 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 3
+info: Feb-22 10:32:26.196 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 4
+info: Feb-22 10:32:29.229 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 5
+info: Feb-22 10:43:50.240 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 11
+info: Feb-22 10:43:52.652 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 12
+info: Feb-22 10:51:05.785 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 6
+info: Feb-22 11:10:42.861 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 13
+info: Feb-22 11:10:42.863 [UNREAD-COUNTS] Updated unread_highlight_cnt for C04KRCSU4: 1
+info: Feb-22 12:00:08.392 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 14
+info: Feb-22 12:00:10.621 [UNREAD-COUNTS] Updated unread_cnt for C04KRCSU4: 15
+info: Feb-22 12:01:32.386 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 7
+info: Feb-22 12:48:18.145 [UNREAD-COUNTS] Updated unread_cnt for C2AFP7C3V: 1
+info: Feb-22 12:48:18.145 [UNREAD-COUNTS] Updated unread_highlight_cnt for C2AFP7C3V: 1
+info: Feb-22 13:00:49.825 [UNREAD-COUNTS] Updated unread_cnt for G8PUNETS9: 8
