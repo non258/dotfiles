@@ -92,6 +92,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
+alias sl='ls -CF'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -136,18 +137,18 @@ function mkcd(){
 }
 
 #cp
-function minit(){
- for opts in $@; do
-  case $opts in
-    -e) vi /home/nozomi/Documents/alias/$2/
-      break
-      ;;
-    *) cp /home/nozomi/Documents/alias/$1/* ./
-      break
-      ;;
-  esac
- done
-}
+# function minit(){
+#  for opts in $@; do
+#   case $opts in
+#     -e) vi /home/nozomi/Documents/alias/$2/
+#       break
+#       ;;
+#     *) cp /home/nozomi/Documents/alias/$1/* ./
+#       break
+#       ;;
+#   esac
+#  done
+# }
 
 #nvim
 alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
@@ -168,7 +169,11 @@ export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin
 
-#CentOS
+#ssh
 alias cos='ssh -p 59022 non@ctare.cloudapp.net'
+alias conoha='ssh  zomi@118.27.11.179'
+alias ubuntu='ssh nozomi@192.168.100.121'
 
 alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
