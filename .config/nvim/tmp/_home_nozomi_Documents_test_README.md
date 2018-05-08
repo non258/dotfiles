@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_Documents_test_README.md

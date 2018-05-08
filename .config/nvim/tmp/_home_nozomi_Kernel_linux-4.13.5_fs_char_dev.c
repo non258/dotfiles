@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_Kernel_linux-4.13.5_fs_char_dev.c

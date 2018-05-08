@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_go_src_github.com_nozomi_tuor_of_go_main_main3.go

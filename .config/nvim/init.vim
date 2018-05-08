@@ -104,15 +104,16 @@ endif
 " -----------------------------------------------------
 syntax on
 filetype plugin indent on
-set tabstop=2 shiftwidth=2 autoindent expandtab number mouse=a ambiwidth=double cindent hidden clipboard+=unnamedplus sh=zsh
+" これ だめ ぜったい
+" set tabstop=2 shiftwidth=2 autoindent expandtab number mouse=a ambiwidth=double cindent hidden clipboard+=unnamedplus sh=zsh
 
 " undo
-set undofile
-set undodir=~/.cache/undo/
+" set undofile
+" set undodir=~/.cache/undo/
 
 " clickboard
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-colorscheme moneyforward
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"colorscheme moneyforward
 " -----------------------------------------------------
 "
 "

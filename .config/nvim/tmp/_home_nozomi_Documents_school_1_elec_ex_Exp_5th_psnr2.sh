@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_Documents_school_1_elec_ex_Exp_5th_psnr2.sh

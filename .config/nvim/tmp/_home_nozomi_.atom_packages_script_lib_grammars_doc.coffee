@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_.atom_packages_script_lib_grammars_doc.coffee

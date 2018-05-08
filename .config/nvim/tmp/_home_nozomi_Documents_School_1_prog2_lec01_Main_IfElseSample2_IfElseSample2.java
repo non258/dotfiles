@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_Documents_School_1_prog2_lec01_Main_IfElseSample2_IfElseSample2.java

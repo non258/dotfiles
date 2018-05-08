@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_Documents_School_1_prog2_lec04_A_Student.java

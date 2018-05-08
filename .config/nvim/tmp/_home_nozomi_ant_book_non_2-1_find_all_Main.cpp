@@ -1,1 +1,0 @@
-/home/nozomi/dotfiles/.config/nvim/tmp/_home_nozomi_ant_book_non_2-1_find_all_Main.cpp

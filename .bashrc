@@ -127,8 +127,14 @@ fi
 
 #mklatex
 function mktex(){
-  platex $1tex
-  dvipdf $1dvi
+  platex $1.tex
+  dvipdf $1.dvi
+}
+
+#java
+function mkjava(){
+  javac $1.java
+  java $1
 }
 
 #cd && mkdir
@@ -177,3 +183,4 @@ alias ubuntu='ssh nozomi@192.168.100.121'
 alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export PATH="$HOME/.cargo/bin:$PATH"
