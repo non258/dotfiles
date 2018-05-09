@@ -161,7 +161,7 @@ alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
 alias vi='nvim'
 
 #cd
-alias cd.='cd ../'
+alias c='cd ../'
 alias cdd='cd /home/nozomi/Documents'
 alias cddw='cd /home/nozomi/Downloads'
 
