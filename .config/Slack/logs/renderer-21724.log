@@ -1,0 +1,474 @@
+[04/26/18, 13:40:19:848] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[04/26/18, 13:40:19:849] info: ║      Slack 3.1.1, linux 4.10.0-38-generic on x64 at 04/26/18, 13:40:19:845      ║
+[04/26/18, 13:40:19:849] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[04/26/18, 13:40:20:069] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[04/26/18, 13:40:20:201] info: NetworkStatus: Waiting for network online…
+[04/26/18, 13:40:20:649] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 13:40:21:052] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 13:40:23:753] info: Store: SELECT_TEAM T0253QGQ9
+[04/26/18, 13:40:23:766] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 51,
+  "state": "unloaded",
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:23:774] info: Store: FOREGROUND_APP
+[04/26/18, 13:40:24:533] info: Store: SELECT_TEAM T031FNTUT
+[04/26/18, 13:40:24:542] info: Store: FOREGROUND_APP
+[04/26/18, 13:40:24:883] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/26/18, 13:40:24:888] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/26/18, 13:40:25:226] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:25:451] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:25:555] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:25:652] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:25:667] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:26:342] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/26/18, 13:40:26:897] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:27:235] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:29:991] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 51,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:30:499] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:30:832] info: Store: SELECT_CHANNEL C02C22M1Z
+[04/26/18, 13:40:30:839] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:30:852] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T0253QGQ9",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/26/18, 13:40:31:271] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:31:470] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:31:483] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 51,
+  "state": "webapp-loaded",
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 13:40:32:473] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/26/18, 13:40:32:481] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/26/18, 13:40:32:908] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:33:337] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:33:421] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/26/18, 13:40:33:547] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:33:644] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:33:651] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:39:243] info: Store: SELECT_CHANNEL C031FNU09
+[04/26/18, 13:40:43:181] info: Store: SELECT_CHANNEL CAC7PMH6H
+[04/26/18, 13:40:46:432] info: Store: SELECT_CHANNEL C9Z4BU1C2
+[04/26/18, 13:40:49:739] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:40:49:750] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:40:51:911] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:40:51:932] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:41:01:596] info: Store: SELECT_CHANNEL C9YCA77B4
+[04/26/18, 13:41:01:822] info: Store: SELECT_CHANNEL CA6KDLY8H
+[04/26/18, 13:41:02:013] info: Store: SELECT_CHANNEL CA7A0QDGV
+[04/26/18, 13:41:02:379] info: Store: SELECT_CHANNEL C0412GNKJ
+[04/26/18, 13:41:02:516] info: Store: SELECT_CHANNEL C031FNU09
+[04/26/18, 13:41:02:683] info: Store: SELECT_CHANNEL D8R4Q2DKM
+[04/26/18, 13:41:02:851] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/26/18, 13:41:03:020] info: Store: SELECT_CHANNEL D8J4QNRGQ
+[04/26/18, 13:41:03:311] info: Store: SELECT_CHANNEL G6YLT6G1Z
+[04/26/18, 13:41:03:540] info: Store: SELECT_CHANNEL D7JP44402
+[04/26/18, 13:41:04:620] info: Store: SELECT_CHANNEL GA0C0FJJ2
+[04/26/18, 13:41:04:855] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[04/26/18, 13:41:05:340] info: Store: SELECT_CHANNEL GA0C0FJJ2
+[04/26/18, 13:41:16:855] info: Store: SELECT_CHANNEL C031FNU09
+[04/26/18, 13:41:22:911] info: Store: SELECT_CHANNEL C031FNU0K
+[04/26/18, 13:41:25:855] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:41:25:869] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:41:48:642] info: NetworkStatus: Waiting for network online…
+[04/26/18, 13:41:48:831] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 13:54:21:962] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:54:22:716] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:54:26:855] info: Store: FOREGROUND_APP
+[04/26/18, 13:54:26:891] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:54:26:894] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:54:26:897] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:54:26:904] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:54:30:915] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 13:54:31:070] info: Store: SELECT_TEAM T0253QGQ9
+[04/26/18, 13:54:32:864] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/26/18, 13:54:36:471] info: Store: SELECT_CHANNEL G8PUNETS9
+[04/26/18, 13:54:42:944] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/26/18, 13:54:44:895] info: Store: SELECT_CHANNEL C2AFP7C3V
+[04/26/18, 13:55:11:953] info: Store: SELECT_CHANNEL C0253QGQF
+[04/26/18, 13:55:16:477] info: Store: SELECT_CHANNEL G9HP1MQ8G
+[04/26/18, 13:55:45:194] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:55:45:203] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:55:50:976] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:55:51:019] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:56:04:681] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 13:56:04:854] info: Store: SELECT_TEAM T031FNTUT
+[04/26/18, 13:56:06:042] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 13:56:06:219] info: Store: SELECT_TEAM T0253QGQ9
+[04/26/18, 13:56:15:219] info: Store: SELECT_CHANNEL D9D45NTD4
+[04/26/18, 13:56:17:259] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 13:56:17:412] info: Store: SELECT_TEAM T031FNTUT
+[04/26/18, 13:56:26:704] info: Store: SET_FULL_SCREEN
+[04/26/18, 13:56:26:717] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:42:40:164] info: Store: SET_NETWORK_STATUS offline
+[04/26/18, 14:53:01:530] info: NetworkStatus: Waiting for network online…
+[04/26/18, 14:53:01:544] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 14:53:01:544] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/26/18, 14:53:04:481] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 14:53:04:706] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/26/18, 14:53:06:719] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 14:53:07:121] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 14:53:07:124] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/26/18, 14:53:33:309] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 14:53:33:440] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 14:54:10:478] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:10:504] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:11:164] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:11:170] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:11:413] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:11:435] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:11:630] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:54:11:650] info: Store: SET_FULL_SCREEN
+[04/26/18, 14:58:33:600] info: Store: SET_NETWORK_STATUS offline
+[04/26/18, 15:02:37:298] info: NetworkStatus: Waiting for network online…
+[04/26/18, 15:02:37:308] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 15:02:37:309] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/26/18, 15:02:42:545] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 15:02:42:950] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 15:02:42:964] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/26/18, 15:03:33:981] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 15:03:34:078] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 15:05:45:896] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:05:45:905] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:06:15:798] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:06:15:808] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:06:34:381] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:06:34:391] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:06:35:287] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:06:35:305] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:08:48:894] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:08:48:906] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:08:49:776] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:08:49:786] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:24:52:156] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:24:52:177] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:24:53:869] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:24:53:879] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:25:06:349] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:25:06:363] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:25:07:245] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:25:07:249] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:53:40:408] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:53:40:424] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:53:42:065] info: Store: SET_FULL_SCREEN
+[04/26/18, 15:53:42:077] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:00:26:937] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    690,
+    180
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[04/26/18, 16:00:33:151] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:00:33:173] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:00:35:258] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:00:35:261] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:00:42:810] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[04/26/18, 16:04:02:716] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:04:02:734] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:04:07:023] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:04:07:040] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:28:17:639] info: Store: FOREGROUND_APP
+[04/26/18, 16:28:17:678] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:28:17:686] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:28:17:692] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:28:17:708] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:28:22:403] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 16:28:22:600] info: Store: SELECT_TEAM T0253QGQ9
+[04/26/18, 16:28:24:210] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 16:28:24:372] info: Store: SELECT_TEAM T031FNTUT
+[04/26/18, 16:28:26:049] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:28:26:083] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:32:31:881] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:32:31:892] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:32:34:101] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:33:49:110] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:33:49:810] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:33:49:829] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:33:54:673] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:33:54:709] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:33:56:808] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:34:34:577] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:35:38:012] info: Store: SET_NETWORK_STATUS offline
+[04/26/18, 16:36:01:680] info: NetworkStatus: Waiting for network online…
+[04/26/18, 16:36:01:693] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 16:36:01:694] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/26/18, 16:36:07:400] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 16:36:07:806] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 16:36:07:817] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/26/18, 16:45:16:188] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:45:17:819] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:45:26:454] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:45:27:800] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:47:36:207] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:47:37:277] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:48:09:043] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:48:10:978] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:48:11:369] info: Store: SET_FULL_SCREEN
+[04/26/18, 16:48:12:372] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    125
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}

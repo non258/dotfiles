@@ -1,0 +1,934 @@
+[05/08/18, 22:50:30:973] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[05/08/18, 22:50:30:973] info: ║      Slack 3.1.1, linux 4.10.0-38-generic on x64 at 05/08/18, 22:50:30:970      ║
+[05/08/18, 22:50:30:973] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[05/08/18, 22:50:31:411] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/08/18, 22:50:31:625] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/nozomi/dotfiles/.config/Slack/logs/recorded-trace
+[05/08/18, 22:50:32:055] info: Store: persist/REHYDRATE
+[05/08/18, 22:50:32:058] info: initializeMainWindowEpic: Waiting for sign-in
+[05/08/18, 22:50:32:059] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[05/08/18, 22:50:32:061] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[05/08/18, 22:50:32:207] info: TranslationLookup: locale set to ja for browser
+[05/08/18, 22:50:32:277] info: Tray Handler: Showing a tray balloon with title: Slack へようこそ！
+[05/08/18, 22:50:32:282] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 10,
+    "build": 0
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.1.1",
+  "versionName": "Blackstar",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Linux Mint 18.3 Sylvia",
+    "release": "sylvia",
+    "desktopEnvironment": "X-Cinnamon"
+  }
+}
+[05/08/18, 22:50:32:284] info: AutoLoginEpic: Checking for autologin.
+[05/08/18, 22:50:32:284] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[05/08/18, 22:50:32:284] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[05/08/18, 22:50:32:285] info: signInNewTeamEpic: No teams signed in, showing sign-in window
+[05/08/18, 22:50:32:324] info: SignInEpic: Loading URL in new window https://slack.com/signin
+[05/08/18, 22:50:32:339] info: Store: UPDATE_SETTINGS
+{
+  "hasRunApp": true
+}
+[05/08/18, 22:50:32:343] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 22:50:32:346] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[05/08/18, 22:50:32:349] info: BrowserViewManager: Starting initialization
+[05/08/18, 22:50:32:349] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 0
+}
+[05/08/18, 22:50:32:353] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": null
+}
+[05/08/18, 22:50:32:358] info: PersistSettingsWindowBehavior: Resetting to default window position
+{
+  "settings": {
+    "position": [
+      288,
+      66
+    ],
+    "size": [
+      1024,
+      768
+    ]
+  }
+}
+[05/08/18, 22:50:32:360] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "position": [
+    288,
+    66
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[05/08/18, 22:50:32:771] info: Store: UPDATE_SETTINGS
+{
+  "PrefSSBFileDownloadPath": "/home/nozomi/Downloads"
+}
+[05/08/18, 22:50:32:773] info: DownloadListener: Downloads directory set to
+{
+  "downloadsDirectory": "/home/nozomi/Downloads"
+}
+[05/08/18, 22:50:32:774] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[05/08/18, 22:50:32:775] info: App: Welcome to Slack 3.1.1 x64
+[05/08/18, 22:50:32:775] info: App load time: 2,157430606
+[05/08/18, 22:50:32:825] info: Store: SET_FULL_SCREEN
+[05/08/18, 22:50:32:855] info: TransformPasswords: Writing entire reducer
+[05/08/18, 22:50:34:805] info: Store: SET_NETWORK_STATUS online
+[05/08/18, 23:01:55:851] info: SignInEpic: Received team(s) from the webapp
+[05/08/18, 23:01:55:851] info: SignInEpic: Got signal!
+[05/08/18, 23:01:55:851] info: SignInEpic: Sign-in window closed
+[05/08/18, 23:01:55:855] info: maybeQuitAppAction
+{
+  "canceledSignIn": false,
+  "hasNoTeams": true
+}
+[05/08/18, 23:01:55:855] info: SignInEpic: End of the road
+{
+  "action": "ADD_NEW_TEAM"
+}
+[05/08/18, 23:01:55:856] info: Store: ADD_NEW_TEAM
+{
+  "id": "U5APT38MB",
+  "name": "[REDACTED]",
+  "team_id": "T031FNTUT",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[05/08/18, 23:01:55:861] info: BrowserViewManager: Creating views for 1 new teams
+[05/08/18, 23:01:55:861] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:01:55:862] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:01:55:864] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:01:55:869] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T031FNTUT | ✔    |     |
++-----------+------+-----+
+[05/08/18, 23:01:55:870] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T031FNTUT",
+  "state": "unloaded"
+}
+[05/08/18, 23:01:55:895] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:01:55:897] info: Store: FOREGROUND_APP
+[05/08/18, 23:01:55:900] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldHide": false
+}
+[05/08/18, 23:01:55:901] info: Store: MAIN_WINDOW_SHOWN
+[05/08/18, 23:01:55:942] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:01:55:945] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:01:55:962] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:01:56:937] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1024,
+    768
+  ],
+  "position": [
+    289,
+    91
+  ],
+  "isMaximized": false
+}
+[05/08/18, 23:02:03:773] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 7884 ms
+[05/08/18, 23:02:03:774] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:04:136] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:05:102] info: Store: SELECT_CHANNEL C031FNU09
+[05/08/18, 23:02:05:117] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:05:120] info: TranslationLookup: locale set to en-US for browser
+[05/08/18, 23:02:05:122] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/08/18, 23:02:05:159] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/08/18, 23:02:05:717] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:06:522] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:06:527] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2754 ms
+[05/08/18, 23:02:06:528] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:06:748] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:02:06:755] info: TransformPasswords: Writing entire reducer
+[05/08/18, 23:02:06:993] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1024,
+    768
+  ],
+  "position": [
+    575,
+    131
+  ],
+  "isMaximized": false
+}
+[05/08/18, 23:02:07:291] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:02:07:873] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:02:10:393] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:12:455] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:15:199] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:15:207] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:51:722] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:51:723] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:51:791] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:02:52:226] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:02:52:241] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:04:11:811] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:04:20:275] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:04:20:307] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:04:25:007] info: Store: SELECT_CHANNEL C031FNU0K
+[05/08/18, 23:04:27:019] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:04:27:349] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:05:50:593] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:05:50:619] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:07:41:553] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:09:41:139] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:09:47:961] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:09:50:000] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:09:50:031] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:09:50:762] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:09:50:778] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:19:21:523] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:19:21:525] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:19:21:572] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:19:23:813] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:22:48:143] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:22:49:695] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:22:50:104] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:23:11:426] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:23:24:757] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/08/18, 23:23:24:796] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:23:24:912] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:23:24:953] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:23:25:763] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1024,
+    768
+  ],
+  "position": [
+    575,
+    131
+  ],
+  "isMaximized": false
+}
+[05/08/18, 23:23:27:165] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:24:41:547] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:24:52:311] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:26:09:572] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:26:53:298] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:27:18:047] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:31:24:682] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:32:08:431] info: Store: SET_FULL_SCREEN
+[05/08/18, 23:32:08:463] info: WebContentsMediator: Attaching to new webContents
+[05/08/18, 23:46:03:401] info: Store: SET_NETWORK_STATUS offline
+[05/09/18, 11:31:50:010] info: Store: SET_FULL_SCREEN
+[05/09/18, 11:31:50:016] info: Store: SET_FULL_SCREEN
+[05/09/18, 11:31:51:141] info: Store: SET_NETWORK_STATUS online
+[05/09/18, 11:32:17:413] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 11:32:17:552] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 11:36:53:500] info: Store: SET_FULL_SCREEN
+[05/09/18, 11:36:53:502] info: Store: SET_FULL_SCREEN
+[05/09/18, 11:36:53:540] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 11:36:53:945] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[05/09/18, 11:36:53:951] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[05/09/18, 11:36:53:954] info: Store: SHOW_TRAY_BALLOON
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App."
+}
+[05/09/18, 11:36:53:956] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit?
+[05/09/18, 11:36:53:985] info: Store: SET_FULL_SCREEN
+[05/09/18, 11:36:54:981] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1024,
+    768
+  ],
+  "position": [
+    574,
+    106
+  ],
+  "isMaximized": false
+}
+[05/09/18, 12:42:58:280] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[05/09/18, 12:42:58:280] info: ║      Slack 3.1.1, linux 4.10.0-38-generic on x64 at 05/09/18, 12:42:58:277      ║
+[05/09/18, 12:42:58:281] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[05/09/18, 12:42:58:786] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/09/18, 12:42:59:029] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/nozomi/dotfiles/.config/Slack/logs/recorded-trace
+[05/09/18, 12:42:59:489] info: TransformPasswords: Reading entire reducer
+[05/09/18, 12:42:59:497] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T031FNTUT",
+    "teamsByIndex": [
+      "T031FNTUT"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.1.1",
+    "versionName": "Blackstar",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 10,
+      "build": 0
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarForcedByUser": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "PrefSSBFileDownloadPath": "/home/nozomi/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Linux Mint 18.3 Sylvia",
+      "release": "sylvia",
+      "desktopEnvironment": "X-Cinnamon"
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1024,
+        768
+      ],
+      "position": [
+        574,
+        106
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  },
+  "tokens": "[REDACTED]"
+}
+[05/09/18, 12:42:59:498] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T031FNTUT"
+}
+[05/09/18, 12:42:59:499] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[05/09/18, 12:42:59:501] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[05/09/18, 12:42:59:866] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 10,
+    "build": 0
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.1.1",
+  "versionName": "Blackstar",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Linux Mint 18.3 Sylvia",
+    "release": "sylvia",
+    "desktopEnvironment": "X-Cinnamon"
+  }
+}
+[05/09/18, 12:42:59:868] info: AutoLoginEpic: Checking for autologin.
+[05/09/18, 12:42:59:868] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[05/09/18, 12:42:59:869] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[05/09/18, 12:42:59:872] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:42:59:878] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[05/09/18, 12:42:59:881] info: BrowserViewManager: Starting initialization
+[05/09/18, 12:42:59:881] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:42:59:881] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:42:59:883] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:42:59:890] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T031FNTUT | ✔    |     |
++-----------+------+-----+
+[05/09/18, 12:42:59:891] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T031FNTUT",
+  "state": "unloaded"
+}
+[05/09/18, 12:42:59:902] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1024,
+      768
+    ],
+    "position": [
+      574,
+      106
+    ],
+    "isMaximized": false
+  }
+}
+[05/09/18, 12:42:59:922] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[05/09/18, 12:42:59:924] info: App: Welcome to Slack 3.1.1 x64
+[05/09/18, 12:42:59:924] info: App load time: 2,125920909
+[05/09/18, 12:42:59:961] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:43:00:003] info: TransformPasswords: Writing entire reducer
+[05/09/18, 12:43:00:178] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:00:189] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T031FNTUT | ✔    |     |
++-----------+------+-----+
+[05/09/18, 12:43:00:189] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 308
+}
+[05/09/18, 12:43:02:168] info: Store: SET_NETWORK_STATUS online
+[05/09/18, 12:43:06:258] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 6365 ms
+[05/09/18, 12:43:06:259] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:06:266] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[05/09/18, 12:43:06:269] info: Store: MAIN_WINDOW_SHOWN
+[05/09/18, 12:43:06:299] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:43:06:301] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:43:06:302] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:43:06:554] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:07:295] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1024,
+    768
+  ],
+  "position": [
+    575,
+    131
+  ],
+  "isMaximized": false
+}
+[05/09/18, 12:43:07:337] info: Store: SELECT_CHANNEL C031FNU0K
+[05/09/18, 12:43:07:346] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:07:349] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/09/18, 12:43:07:380] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/09/18, 12:43:08:463] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:08:643] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:08:649] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2391 ms
+[05/09/18, 12:43:08:649] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/09/18, 12:43:09:271] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:43:09:348] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:43:09:735] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:43:09:826] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:43:12:861] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[05/09/18, 12:43:14:873] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:43:44:138] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:43:44:155] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:44:10:504] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "99D7imhOXBZ6EL3",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1525837450.000039&team=T031FNTUT",
+  "msg": "1525837450.000039",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/09/18, 12:44:10:510] info: Creating new Electron notification.
+[05/09/18, 12:44:22:088] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "oZj9CDi6AN7l7k7",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1525837461.000203&team=T031FNTUT",
+  "msg": "1525837461.000203",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/09/18, 12:44:22:090] info: Creating new Electron notification.
+[05/09/18, 12:44:23:955] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:44:23:956] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:44:24:077] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:44:34:645] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:44:40:529] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "16GzUnsXZkOJV53",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1525837480.000070&team=T031FNTUT",
+  "msg": "1525837480.000070",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/09/18, 12:44:40:530] info: Creating new Electron notification.
+[05/09/18, 12:45:11:027] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "Z8zDHotyLRN1LJo",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1525837510.000213&team=T031FNTUT",
+  "msg": "1525837510.000213",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/09/18, 12:45:11:034] info: Creating new Electron notification.
+[05/09/18, 12:45:27:559] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "jY0VcRu782xkA82",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1525837527.000060&team=T031FNTUT",
+  "msg": "1525837527.000060",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/09/18, 12:45:27:569] info: Creating new Electron notification.
+[05/09/18, 12:46:19:521] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:46:19:614] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:47:22:738] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:41:803] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:41:857] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:47:46:698] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:48:163] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:48:209] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:47:50:532] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:51:926] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:57:063] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:59:258] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:47:59:263] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:48:10:801] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:48:45:475] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "6WB7i0C50l2yQW1",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1525837725.000055&team=T031FNTUT",
+  "msg": "1525837725.000055",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/09/18, 12:48:45:483] info: Creating new Electron notification.
+[05/09/18, 12:49:15:675] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:49:15:771] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:49:29:059] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:49:45:984] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:49:46:055] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:49:47:221] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/09/18, 12:49:49:234] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:49:50:447] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:49:56:813] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:49:56:849] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:50:00:176] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:50:45:571] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:50:45:623] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:50:48:740] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:51:36:762] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:51:36:827] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:51:40:876] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:51:49:209] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:51:49:233] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:51:51:375] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:52:30:684] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:52:30:721] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:52:34:631] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:53:06:774] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:53:06:804] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:53:12:578] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:13:500] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:13:516] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:56:17:467] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:18:764] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:21:367] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:29:418] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:29:455] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:56:32:907] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:35:981] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:36:013] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:56:37:448] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:38:998] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:40:046] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:49:448] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:49:476] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:56:55:316] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:56:918] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:56:56:961] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:56:57:914] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:15:249] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:15:284] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:57:16:868] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:20:853] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:22:938] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:28:643] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:28:682] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:57:30:105] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:32:780] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:33:998] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:39:404] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:57:39:410] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:42:055] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:48:603] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:48:634] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:57:50:749] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:52:173] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:52:734] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:59:096] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:57:59:134] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:58:00:451] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:01:412] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:10:889] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:28:262] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:28:298] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:58:32:982] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:39:502] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:39:533] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:58:40:303] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:45:025] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:48:247] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:49:561] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:51:788] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:52:940] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:53:343] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:58:58:147] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:00:406] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:32:259] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:32:298] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:59:34:467] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:40:628] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:40:677] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:59:41:559] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:47:706] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:47:762] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 12:59:51:074] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:58:109] info: Store: SET_FULL_SCREEN
+[05/09/18, 12:59:58:165] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:00:00:180] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:12:065] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:12:115] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:00:13:660] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:14:981] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:15:391] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:21:115] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:21:156] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:00:25:784] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:35:105] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:00:35:119] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:37:662] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:46:052] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:46:102] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:00:47:551] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:50:041] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:50:258] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:55:812] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:00:55:849] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:00:57:898] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:01:35:364] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:01:35:417] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:01:56:663] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:02:02:972] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:02:03:016] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:02:08:929] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:02:21:011] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:02:21:034] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:02:48:443] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:02:58:701] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:02:58:750] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:03:27:016] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:03:32:661] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:03:32:695] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:04:43:875] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:06:11:896] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:06:11:951] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:06:50:281] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[05/09/18, 13:06:50:411] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:06:50:768] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:06:53:040] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:07:07:994] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:07:11:295] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:07:11:702] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:07:34:156] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:08:49:406] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:08:50:125] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:12:42:268] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:12:42:468] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:12:45:264] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:12:45:303] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:13:00:806] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:13:00:815] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:13:00:859] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:13:14:455] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:18:45:527] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:18:45:599] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:18:47:871] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:18:47:888] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:21:15:364] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:21:15:375] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:21:15:452] info: WebContentsMediator: Attaching to new webContents
+[05/09/18, 13:21:27:389] info: Store: SET_FULL_SCREEN
+[05/09/18, 13:21:27:409] info: Store: SET_FULL_SCREEN

@@ -1,0 +1,76 @@
+[04/26/18, 13:40:12:720] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[04/26/18, 13:40:12:721] info: ║      Slack 3.1.1, linux 4.10.0-38-generic on x64 at 04/26/18, 13:40:12:717      ║
+[04/26/18, 13:40:12:721] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[04/26/18, 13:40:12:972] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[04/26/18, 13:40:13:116] info: NetworkStatus: Waiting for network online…
+[04/26/18, 13:40:13:564] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:13:569] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:13:574] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 13:40:13:575] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/26/18, 13:40:13:683] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 13:40:13:688] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:13:986] info: Store: SET_NETWORK_STATUS offline
+[04/26/18, 13:40:18:643] info: Store: MAIN_WINDOW_FOCUSED
+[04/26/18, 13:40:18:753] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 13:40:19:160] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 13:40:19:177] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/26/18, 13:40:19:178] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:19:369] info: Store: RELOAD
+{
+  "everything": false
+}
+[04/26/18, 13:40:19:411] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 13:40:19:500] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[04/26/18, 13:40:19:501] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
