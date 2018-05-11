@@ -1,0 +1,119 @@
+[05/11/18, 11:26:09:070] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[05/11/18, 11:26:09:071] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/11/18, 11:26:09:067      ║
+[05/11/18, 11:26:09:071] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[05/11/18, 11:26:09:164] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/11/18, 11:26:09:520] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[05/11/18, 11:26:09:520] error: Desktop module calls failed to load
+[05/11/18, 11:26:09:545] info: cld3::loadModule: loading cld3 module
+[05/11/18, 11:26:09:566] info: cld3Loader::loadModule: running environment is NODE
+[05/11/18, 11:26:09:566] info: cld3Loader::loadModule: constructed module object for runtime
+[05/11/18, 11:26:09:741] info: cld3Loader::initializeRuntime: successfully initialized module
+[05/11/18, 11:26:09:741] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[05/11/18, 11:26:09:751] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[05/11/18, 11:26:09:764] info: Main window preload script finished
+{
+  "readyTime": 972.033703
+}
+[05/11/18, 11:26:12:063] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:12:067] info: Store: MAIN_WINDOW_SHOWN
+[05/11/18, 11:26:12:096] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:26:12:097] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:26:12:107] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:26:13:263] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:13:474] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/11/18, 11:26:13:475] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:13:478] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/11/18, 11:26:13:483] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/11/18, 11:26:13:484] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/11/18, 11:26:13:852] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 8069.017228
+}
+[05/11/18, 11:26:13:985] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:13:986] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:13:986] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:14:074] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 11:26:14:587] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[05/11/18, 11:26:14:908] info: Couldn't detect language for text of length '384': Not enough reliable text, ignoring sample
+[05/11/18, 11:26:14:999] info: Couldn't detect language for text of length '384': Not enough reliable text, ignoring sample
+[05/11/18, 11:26:18:177] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[05/11/18, 11:26:20:447] info: Couldn't detect language for text of length '504': Not enough reliable text, ignoring sample
+[05/11/18, 11:26:26:231] info: Unloading spellchecker
+[05/11/18, 11:26:26:233] info: Unloading spellchecker
+[05/11/18, 11:26:26:234] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:26:26:262] info: Store: SET_FULL_SCREEN

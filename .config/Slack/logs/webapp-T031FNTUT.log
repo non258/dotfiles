@@ -6632,3 +6632,243 @@ info: May-8 15:37:05.170 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fas
 info: May-8 15:37:05.170 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
 info: May-8 15:37:05.870 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to connected
 info: May-8 15:37:05.870 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/11/18, 11:22:23:443      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+warn: CDN asset failed to load: https://a.slack-edge.com/493cb5/style/rollup-client_base.css
+warn: CDN asset failed to load: https://a.slack-edge.com/ad5f4/style/rollup-client_general.css
+warn: CDN asset failed to load: https://a.slack-edge.com/769dd/style/rollup-client_primary.css
+info: May-11 11:22:28.113 [BOOT] booted! pri:0 version:1526000531 start_ms:1526005346467 (1646ms ago)
+info: May-11 11:22:28.115 [BOOT] Starting incremental boot (early)
+info: May-11 11:22:28.490 [SOCKET-MANAGER] (T031FNTUT) Changing from never_connected to prov_connect
+info: May-11 11:22:28.490 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-11 11:22:28.491 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-11 11:22:28.491 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-11 11:22:28.930 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:28.976 [API-Q] (T031FNTUT) 9205fc3a-1526005348.975 experiments.getByUser is ENQUEUED
+info: May-11 11:22:28.977 [API-Q] (T031FNTUT) 9205fc3a-1526005348.975 experiments.getByUser is ACTIVE
+info: May-11 11:22:29.630 [API-Q] (T031FNTUT) 9205fc3a-1526005349.063 promo.banner is ENQUEUED
+info: May-11 11:22:29.640 [API-Q] (T031FNTUT) 9205fc3a-1526005349.063 promo.banner is ACTIVE
+warn: May-11 11:22:29.189 updateTeamIcon was called, but missing an image to set
+info: May-11 11:22:29.327 [BOOT] Finalizing incremental boot
+info: May-11 11:22:29.330 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+warn: May-11 11:22:29.419 not switching, it is the active im already
+info: May-11 11:22:29.516 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (20) timestamps added
+info: May-11 11:22:29.565 [BOOT-TIMING] (T031FNTUT) First meaningful paint: 5305ms
+info: May-11 11:22:29.670 [API-Q] (T031FNTUT) 9205fc3a-1526005348.975 experiments.getByUser is RESOLVED
+info: May-11 11:22:29.675 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-11 11:22:29.677 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-11 11:22:29.681 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: May-11 11:22:29.683 [INFO] Got start data from Socket Manager; hydrating it
+warn: May-11 11:22:29.691 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-11 11:22:29.845 [BOOT] Completed incremental boot
+info: May-11 11:22:29.850 [API-Q] (T031FNTUT) 9205fc3a-1526005349.849 i18n.translations.get is ENQUEUED
+info: May-11 11:22:29.850 [API-Q] (T031FNTUT) 9205fc3a-1526005349.849 i18n.translations.get is ACTIVE
+info: May-11 11:22:29.954 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-11 11:22:29.955 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-11 11:22:29.955 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-11 11:22:29.955 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-11 11:22:29.955 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-11 11:22:29.956 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-11 11:22:29.956 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-11 11:22:29.956 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-11 11:22:29.958 [BOOT] Finished first boot 1477 ms after DOM ready
+info: May-11 11:22:29.970 [API-Q] (T031FNTUT) 9205fc3a-1526005349.969 help.issues.list is ENQUEUED
+info: May-11 11:22:29.970 [API-Q] (T031FNTUT) 9205fc3a-1526005349.969 help.issues.list is ACTIVE
+info: May-11 11:22:29.971 [API-Q] (T031FNTUT) 9205fc3a-1526005349.971 dnd.teamInfo is ENQUEUED
+info: May-11 11:22:29.972 [API-Q] (T031FNTUT) 9205fc3a-1526005349.971 dnd.teamInfo is ACTIVE
+info: May-11 11:22:30.600 [INFO] Team pref "display_email_addresses" -> true
+info: May-11 11:22:30.600 [INFO] display_email_addresses check: pref enabled, but 0 email fields found in TS.model.members.
+info: May-11 11:22:30.100 [API-Q] (T031FNTUT) 9205fc3a-1526005350.010 users.counts is ENQUEUED
+info: May-11 11:22:30.100 [API-Q] (T031FNTUT) 9205fc3a-1526005350.010 users.counts is ACTIVE
+info: May-11 11:22:30.105 [HISTORY-FETCH] Fetching history for message pane: D5A4B1XCZ
+info: May-11 11:22:30.106 [API-Q] (T031FNTUT) 9205fc3a-1526005350.106 conversations.history is ENQUEUED
+info: May-11 11:22:30.106 [API-Q] (T031FNTUT) 9205fc3a-1526005350.106 conversations.history is ACTIVE
+info: May-11 11:22:30.117 [API-Q] (T031FNTUT) 9205fc3a-1526005349.063 promo.banner is RESOLVED
+info: May-11 11:22:30.138 [CHECK-UNREADS] Checking unreads after fully booted
+info: May-11 11:22:30.139 [CHECK-UNREADS] Not marking D5A4B1XCZ because attention not on chat (window_not_focused)
+info: May-11 11:22:30.224 [API-Q] (T031FNTUT) 9205fc3a-1526005349.969 help.issues.list is RESOLVED
+info: May-11 11:22:30.344 [API-Q] (T031FNTUT) 9205fc3a-1526005350.106 conversations.history is RESOLVED
+info: May-11 11:22:30.423 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 20
+info: May-11 11:22:30.747 [API-Q] (T031FNTUT) 9205fc3a-1526005350.745 dnd.teamInfo is ENQUEUED
+info: May-11 11:22:30.747 [API-Q] (T031FNTUT) 9205fc3a-1526005350.745 dnd.teamInfo is ACTIVE
+info: May-11 11:22:30.756 [API-Q] (T031FNTUT) 9205fc3a-1526005349.849 i18n.translations.get is RESOLVED
+info: May-11 11:22:30.762 [API-Q] (T031FNTUT) 9205fc3a-1526005349.971 dnd.teamInfo is RESOLVED
+info: May-11 11:22:30.775 [API-Q] (T031FNTUT) 9205fc3a-1526005350.010 users.counts is RESOLVED
+info: May-11 11:22:30.777 [UNREAD-COUNTS] Skipped D5A4B1XCZ in updateWithCountsFromApi. reachedEnd: true, timestamps: 20
+info: May-11 11:22:30.781 [UNREAD-COUNTS] Completed users.counts processing
+info: May-11 11:22:30.969 [API-Q] (T031FNTUT) 9205fc3a-1526005350.745 dnd.teamInfo is RESOLVED
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: 🐶 CSS check: no cssRules or rules defined?
+warn: 🐶 CSS check: no cssRules or rules defined?
+info: May-11 11:22:32.984 [FOCUS-EVENT] Window focused
+info: May-11 11:22:33.290 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:22:33.300 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:22:48.311 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:48.332 [FOCUS-EVENT] Window focused
+info: May-11 11:22:48.344 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:22:48.345 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:22:49.267 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:49.276 [FOCUS-EVENT] Window focused
+info: May-11 11:22:49.291 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:22:49.291 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:22:49.770 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:49.772 [FOCUS-EVENT] Window focused
+info: May-11 11:22:49.780 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:22:49.780 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:22:50.806 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:50.834 [FOCUS-EVENT] Window focused
+info: May-11 11:22:50.852 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:22:50.853 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:22:50.956 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:50.986 [FOCUS-EVENT] Window blurred
+info: May-11 11:22:54.919 [FOCUS-EVENT] Window focused
+info: May-11 11:22:54.977 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:22:54.978 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:22:59.477 [API-Q] (T031FNTUT) 9205fc3a-1526005379.475 channels.suggestions is ENQUEUED
+info: May-11 11:22:59.479 [API-Q] (T031FNTUT) 9205fc3a-1526005379.475 channels.suggestions is ACTIVE
+info: May-11 11:23:00.304 [API-Q] (T031FNTUT) 9205fc3a-1526005379.475 channels.suggestions is RESOLVED
+info: May-11 11:23:15.744 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:15.748 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:19.680 [FOCUS-EVENT] Window focused
+info: May-11 11:23:19.103 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:23:19.104 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:23:20.641 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:20.642 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:24.685 [FOCUS-EVENT] Window focused
+info: May-11 11:23:24.688 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:24.706 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:23:24.707 [CHECK-UNREADS] Not marking D5A4B1XCZ because attention not on chat (window_not_focused)
+info: May-11 11:23:24.707 [FOCUS-EVENT] Window focused
+info: May-11 11:23:24.725 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:23:24.726 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:23:25.665 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:25.676 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:25.860 [FOCUS-EVENT] Window focused
+info: May-11 11:23:25.878 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:23:25.878 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:23:27.715 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:27.717 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:30.423 [FOCUS-EVENT] Window focused
+info: May-11 11:23:30.436 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:23:30.439 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:23:32.465 [FOCUS-EVENT] Window blurred
+info: May-11 11:23:32.475 [FOCUS-EVENT] Window blurred
+info: May-11 11:24:21.160 [API-Q] (T031FNTUT) 9205fc3a-1526005461.015 files.info is ENQUEUED
+info: May-11 11:24:21.160 [API-Q] (T031FNTUT) 9205fc3a-1526005461.015 files.info is ACTIVE
+info: May-11 11:24:21.822 [API-Q] (T031FNTUT) 9205fc3a-1526005461.015 files.info is RESOLVED
+info: May-11 11:24:21.866 [UNREAD-COUNTS] Fetching history for unread counting: D5WHV4ZQW, waiting 6330 ms
+info: May-11 11:24:21.869 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because last_read changed to 1526005460.000264
+info: May-11 11:24:23.831 [FOCUS-EVENT] Window focused
+info: May-11 11:24:23.861 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:24:23.861 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:25:17.423 [FOCUS-EVENT] Window blurred
+info: May-11 11:25:17.425 [FOCUS-EVENT] Window blurred
+info: May-11 11:25:29.533 [FOCUS-EVENT] Window focused
+info: May-11 11:25:29.580 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:25:29.580 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:25:30.639 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because last_read changed to 1526005526.000237
+info: May-11 11:25:44.976 [FOCUS-EVENT] Window blurred
+info: May-11 11:25:44.994 [FOCUS-EVENT] Window blurred
+info: May-11 11:25:53.367 [FOCUS-EVENT] Window focused
+info: May-11 11:25:53.400 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-11 11:25:53.400 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:25:56.779 [FOCUS-EVENT] Window blurred
+info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/11/18, 11:26:07:218      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: May-11 11:26:11.680 [BOOT] booted! pri:0 version:1526000531 start_ms:1526005570072 (1608ms ago)
+info: May-11 11:26:11.682 [BOOT] Starting incremental boot (early)
+info: May-11 11:26:12.300 [SOCKET-MANAGER] (T031FNTUT) Changing from never_connected to prov_connect
+info: May-11 11:26:12.300 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-11 11:26:12.400 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-11 11:26:12.400 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-11 11:26:12.498 [FOCUS-EVENT] Window focused
+info: May-11 11:26:12.567 [API-Q] (T031FNTUT) 9205fc3a-1526005572.565 experiments.getByUser is ENQUEUED
+info: May-11 11:26:12.567 [API-Q] (T031FNTUT) 9205fc3a-1526005572.565 experiments.getByUser is ACTIVE
+info: May-11 11:26:12.692 [API-Q] (T031FNTUT) 9205fc3a-1526005572.690 promo.banner is ENQUEUED
+info: May-11 11:26:12.692 [API-Q] (T031FNTUT) 9205fc3a-1526005572.690 promo.banner is ACTIVE
+warn: May-11 11:26:12.832 updateTeamIcon was called, but missing an image to set
+info: May-11 11:26:12.968 [BOOT] Finalizing incremental boot
+info: May-11 11:26:12.972 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+warn: May-11 11:26:13.980 not switching, it is the active im already
+info: May-11 11:26:13.252 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (20) timestamps added
+info: May-11 11:26:13.289 [BOOT-TIMING] (T031FNTUT) First meaningful paint: 5589ms
+info: May-11 11:26:13.488 [API-Q] (T031FNTUT) 9205fc3a-1526005572.565 experiments.getByUser is RESOLVED
+info: May-11 11:26:13.499 [API-Q] (T031FNTUT) 9205fc3a-1526005572.690 promo.banner is RESOLVED
+info: May-11 11:26:13.592 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-11 11:26:13.592 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-11 11:26:13.594 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: May-11 11:26:13.597 [INFO] Got start data from Socket Manager; hydrating it
+warn: May-11 11:26:13.604 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-11 11:26:13.763 [BOOT] Completed incremental boot
+info: May-11 11:26:13.764 [API-Q] (T031FNTUT) 9205fc3a-1526005573.764 i18n.translations.get is ENQUEUED
+info: May-11 11:26:13.764 [API-Q] (T031FNTUT) 9205fc3a-1526005573.764 i18n.translations.get is ACTIVE
+info: May-11 11:26:13.849 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-11 11:26:13.849 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-11 11:26:13.849 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-11 11:26:13.850 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-11 11:26:13.850 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-11 11:26:13.850 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-11 11:26:13.851 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-11 11:26:13.851 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-11 11:26:13.852 [BOOT] Finished first boot 1862 ms after DOM ready
+info: May-11 11:26:13.861 [API-Q] (T031FNTUT) 9205fc3a-1526005573.860 help.issues.list is ENQUEUED
+info: May-11 11:26:13.861 [API-Q] (T031FNTUT) 9205fc3a-1526005573.860 help.issues.list is ACTIVE
+info: May-11 11:26:13.862 [API-Q] (T031FNTUT) 9205fc3a-1526005573.862 dnd.teamInfo is ENQUEUED
+info: May-11 11:26:13.863 [API-Q] (T031FNTUT) 9205fc3a-1526005573.862 dnd.teamInfo is ACTIVE
+info: May-11 11:26:13.885 [INFO] Team pref "display_email_addresses" -> true
+info: May-11 11:26:13.885 [INFO] display_email_addresses check: pref enabled, but 0 email fields found in TS.model.members.
+info: May-11 11:26:13.888 [API-Q] (T031FNTUT) 9205fc3a-1526005573.888 users.counts is ENQUEUED
+info: May-11 11:26:13.889 [API-Q] (T031FNTUT) 9205fc3a-1526005573.888 users.counts is ACTIVE
+info: May-11 11:26:13.921 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: May-11 11:26:13.991 [CHECK-UNREADS] Checking unreads after fully booted
+info: May-11 11:26:13.993 [CHECK-UNREADS] Marking D5A4B1XCZ because unread line is visible
+info: May-11 11:26:13.997 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because last_read changed to 1526005571.000000
+info: May-11 11:26:14.640 [API-Q] (T031FNTUT) 9205fc3a-1526005574.063 dnd.teamInfo is ENQUEUED
+info: May-11 11:26:14.640 [API-Q] (T031FNTUT) 9205fc3a-1526005574.063 dnd.teamInfo is ACTIVE
+info: May-11 11:26:14.261 [API-Q] (T031FNTUT) 9205fc3a-1526005574.063 dnd.teamInfo is RESOLVED
+info: May-11 11:26:14.549 [API-Q] (T031FNTUT) 9205fc3a-1526005573.764 i18n.translations.get is RESOLVED
+info: May-11 11:26:14.550 [API-Q] (T031FNTUT) 9205fc3a-1526005573.862 dnd.teamInfo is RESOLVED
+info: May-11 11:26:14.577 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-11 11:26:14.577 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: May-11 11:26:14.583 [API-Q] (T031FNTUT) 9205fc3a-1526005573.860 help.issues.list is RESOLVED
+info: May-11 11:26:14.616 [API-Q] (T031FNTUT) 9205fc3a-1526005573.888 users.counts is RESOLVED
+info: May-11 11:26:14.617 [UNREAD-COUNTS] Skipped D5A4B1XCZ in updateWithCountsFromApi. reachedEnd: true, timestamps: 20
+info: May-11 11:26:14.621 [UNREAD-COUNTS] Completed users.counts processing
+info: May-11 11:26:15.350 [API-Q] (T031FNTUT) 9205fc3a-1526005575.035 dnd.teamInfo is ENQUEUED
+info: May-11 11:26:15.350 [API-Q] (T031FNTUT) 9205fc3a-1526005575.035 dnd.teamInfo is ACTIVE
+info: May-11 11:26:15.423 [API-Q] (T031FNTUT) 9205fc3a-1526005575.035 dnd.teamInfo is RESOLVED
+info: May-11 11:26:16.230 [API-Q] (T031FNTUT) 9205fc3a-1526005576.230 conversations.mark is ENQUEUED
+info: May-11 11:26:16.231 [API-Q] (T031FNTUT) 9205fc3a-1526005576.230 conversations.mark is ACTIVE
+info: May-11 11:26:17.920 [API-Q] (T031FNTUT) 9205fc3a-1526005576.230 conversations.mark is RESOLVED
+info: May-11 11:26:18.114 [ACTION:CHANNEL-SIDEBAR] Selected D5WHV4ZQW
+warn: May-11 11:26:18.125 not switching, it is the active im already
+info: May-11 11:26:18.152 [MESSAGE-LIST] Switching channels: D5WHV4ZQW timestamps: 0
+info: May-11 11:26:18.152 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-11 11:26:18.153 [HISTORY-FETCH] Fetching history for message pane: D5WHV4ZQW
+info: May-11 11:26:18.154 [API-Q] (T031FNTUT) 9205fc3a-1526005578.154 conversations.history is ENQUEUED
+info: May-11 11:26:18.154 [API-Q] (T031FNTUT) 9205fc3a-1526005578.154 conversations.history is ACTIVE
+info: May-11 11:26:18.157 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-11 11:26:18.158 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-11 11:26:18.181 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-11 11:26:18.182 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-11 11:26:18.182 [MESSAGE-LIST] requestAround channelId: D5WHV4ZQW isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-11 11:26:18.183 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: May-11 11:26:18.463 [API-Q] (T031FNTUT) 9205fc3a-1526005578.154 conversations.history is RESOLVED
+info: May-11 11:26:18.519 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (42) timestamps added
+info: May-11 11:26:18.525 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: May-11 11:26:18.581 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: May-11 11:26:18.971 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-11 11:26:18.972 [CHECK-UNREADS] Not marking D5WHV4ZQW because last_read >= latest && channel is read
+info: May-11 11:26:26.230 [FOCUS-EVENT] Window blurred
+info: May-11 11:26:26.233 [FOCUS-EVENT] Window blurred
+info: May-11 11:26:43.205 [API-Q] (T031FNTUT) 9205fc3a-1526005603.203 channels.suggestions is ENQUEUED
+info: May-11 11:26:43.206 [API-Q] (T031FNTUT) 9205fc3a-1526005603.203 channels.suggestions is ACTIVE
+info: May-11 11:26:43.744 [API-Q] (T031FNTUT) 9205fc3a-1526005603.203 channels.suggestions is RESOLVED
+info: May-11 11:28:36.106 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because (1) timestamps added
+info: May-11 11:28:36.107 [UNREAD-COUNTS] Checking unreads in D5WHV4ZQW after a new message
+info: May-11 11:28:36.108 [CHECK-UNREADS] Not marking D5WHV4ZQW because attention not on chat (window_not_focused)
+info: May-11 11:28:38.614 [UNREAD-COUNTS] Counting unreads in D5WHV4ZQW because last_read changed to 1526005715.000206

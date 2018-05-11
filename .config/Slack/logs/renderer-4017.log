@@ -1,0 +1,133 @@
+[05/11/18, 11:22:52:493] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[05/11/18, 11:22:52:493] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/11/18, 11:22:52:490      ║
+[05/11/18, 11:22:52:493] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[05/11/18, 11:22:52:603] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/11/18, 11:22:52:972] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[05/11/18, 11:22:52:972] error: Desktop module calls failed to load
+[05/11/18, 11:22:52:995] info: cld3::loadModule: loading cld3 module
+[05/11/18, 11:22:53:015] info: cld3Loader::loadModule: running environment is NODE
+[05/11/18, 11:22:53:015] info: cld3Loader::loadModule: constructed module object for runtime
+[05/11/18, 11:22:53:195] info: cld3Loader::initializeRuntime: successfully initialized module
+[05/11/18, 11:22:53:195] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[05/11/18, 11:22:53:212] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[05/11/18, 11:22:53:235] info: Main window preload script finished
+{
+  "readyTime": 1088.195865
+}
+[05/11/18, 11:22:55:888] info: Store: MAIN_WINDOW_FOCUSED
+[05/11/18, 11:22:55:891] info: Store: SELECT_TEAM T031FNTUT
+[05/11/18, 11:22:56:495] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:22:56:505] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:22:56:505] info: Store: SELECT_CHANNEL C02C22M1Z
+[05/11/18, 11:22:56:506] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[05/11/18, 11:22:56:981] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-04-16/347620599461_287753ad42affa150047_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:22:56:982] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:22:56:982] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "webapp-loaded",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:22:56:987] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:22:57:030] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[05/11/18, 11:22:57:633] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T0253QGQ9",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/11/18, 11:22:57:970] info: Couldn't detect language for text of length '2807': Not enough reliable text, ignoring sample
+[05/11/18, 11:22:59:613] info: Couldn't detect language for text of length '2807': Not enough reliable text, ignoring sample
+[05/11/18, 11:23:15:748] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:19:096] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:20:658] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:24:700] info: Store: MAIN_WINDOW_FOCUSED
+[05/11/18, 11:23:24:707] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:25:700] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:25:889] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:27:741] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:30:431] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:32:482] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:23:32:492] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:24:23:831] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:24:23:852] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:17:418] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:17:430] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:29:525] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:29:541] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:44:992] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:45:018] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:53:371] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:53:388] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:56:792] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:25:57:789] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    125
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/11/18, 11:26:01:205] info: Store: QUIT_APP
+[05/11/18, 11:26:01:214] info: Store: UPDATE_TEAM_USAGE
+{
+  "T0253QGQ9": 3940,
+  "T031FNTUT": 208717
+}
+[05/11/18, 11:26:01:238] info: Store: REMOVE_WINDOW 2
+[05/11/18, 11:26:01:241] info: Store: QUIT_APP
+[05/11/18, 11:26:01:261] info: Store: QUIT_APP
