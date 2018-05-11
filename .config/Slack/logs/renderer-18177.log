@@ -1,0 +1,698 @@
+[04/09/18, 17:50:30:088] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[04/09/18, 17:50:30:089] info: ║      Slack 3.1.1, linux 4.10.0-38-generic on x64 at 04/09/18, 17:50:30:085      ║
+[04/09/18, 17:50:30:089] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[04/09/18, 17:50:30:337] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[04/09/18, 17:50:30:496] info: NetworkStatus: Waiting for network online…
+[04/09/18, 17:50:31:068] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/09/18, 17:50:31:452] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:50:31:461] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:50:31:478] info: Store: SET_NETWORK_STATUS online
+[04/09/18, 17:50:34:697] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 17:50:35:087] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 17:50:36:272] info: Store: SELECT_CHANNEL C04KQT6L8
+[04/09/18, 17:50:36:276] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 17:50:36:313] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/09/18, 17:50:37:200] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 17:50:37:346] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 17:50:37:362] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 17:51:15:687] info: NetworkStatus: Waiting for network online…
+[04/09/18, 17:51:16:000] info: Store: SET_NETWORK_STATUS offline
+[04/09/18, 17:51:35:501] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:51:36:394] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:51:59:916] info: NetworkStatus: Waiting for network online…
+[04/09/18, 17:52:21:377] info: Store: FOREGROUND_APP
+[04/09/18, 17:52:21:396] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:52:21:400] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:52:21:406] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:52:21:446] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:52:24:077] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:52:24:099] info: Store: SET_FULL_SCREEN
+[04/09/18, 17:52:29:073] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:097] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:29:100] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:101] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:29:121] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:127] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:29:137] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:138] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:29:155] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:157] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:29:161] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:164] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:29:940] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:29:941] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:34:942] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:34:943] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:39:942] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:39:942] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:44:942] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:44:943] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:46:378] info: NetworkStatus: Waiting for network online…
+[04/09/18, 17:52:46:398] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 17:52:46:399] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 17:52:56:634] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/09/18, 17:52:57:040] info: Store: SET_NETWORK_STATUS online
+[04/09/18, 17:52:57:054] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/09/18, 17:53:18:548] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U93MAMZ1B-g96a471866dc-512",
+  "channel": "C7F4RUKGW",
+  "content": "[REDACTED]",
+  "id": "B929SDijBmVNGVA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C7F4RUKGW&message=1523263978.000199&team=T0253QGQ9",
+  "msg": "1523263978.000199",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/09/18, 17:54:57:144] info: Store: SET_NETWORK_STATUS offline
+[04/09/18, 18:07:33:709] info: NetworkStatus: Waiting for network online…
+[04/09/18, 18:07:33:724] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 18:07:33:725] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 18:07:38:928] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/09/18, 18:07:39:333] info: Store: SET_NETWORK_STATUS online
+[04/09/18, 18:07:39:336] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/09/18, 18:08:05:553] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/09/18, 18:08:05:639] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/09/18, 18:08:06:501] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 18:08:06:611] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 18:08:12:784] info: Store: SET_NETWORK_STATUS offline
+[04/09/18, 19:38:38:073] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    30
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/09/18, 19:38:44:804] info: NetworkStatus: Waiting for network online…
+[04/09/18, 19:38:44:812] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/09/18, 19:38:44:813] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/09/18, 19:38:48:844] info: Store: SET_FULL_SCREEN
+[04/09/18, 19:38:48:850] info: Store: SET_FULL_SCREEN
+[04/09/18, 19:38:49:779] info: Store: SET_FULL_SCREEN
+[04/09/18, 19:38:49:787] info: Store: SET_FULL_SCREEN
+[04/09/18, 19:38:50:061] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/09/18, 19:38:50:471] info: Store: SET_NETWORK_STATUS online
+[04/09/18, 19:38:50:485] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/09/18, 19:39:16:921] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 19:39:17:032] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/09/18, 19:39:18:362] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/09/18, 19:39:18:466] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/09/18, 19:40:00:469] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12HFAMMY-g54f13074be9-512",
+  "channel": "C031FNU0K",
+  "content": "[REDACTED]",
+  "id": "02MgI2hWQAxvKRQ",
+  "launchUri": "slack://channel?id=C031FNU0K&message=1523270401.000041&team=T031FNTUT",
+  "msg": "1523270401.000041",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/09/18, 19:42:15:405] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    25
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/09/18, 19:42:16:225] info: Store: SET_NETWORK_STATUS offline
+[04/09/18, 19:42:16:885] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1,
+    25
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/10/18, 13:09:09:256] info: NetworkStatus: Waiting for network online…
+[04/10/18, 13:09:09:282] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:09:09:291] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:09:14:471] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/10/18, 13:09:14:879] info: Store: SET_NETWORK_STATUS online
+[04/10/18, 13:09:14:888] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/10/18, 13:09:42:182] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/10/18, 13:09:42:272] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/10/18, 13:09:44:307] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/10/18, 13:09:44:401] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/10/18, 13:10:02:152] info: NetworkStatus: Waiting for network online…
+[04/10/18, 13:10:02:503] info: Store: SET_NETWORK_STATUS offline
+[04/10/18, 13:11:01:086] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:087] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:088] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:088] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:089] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:089] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:097] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:097] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:098] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:098] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:099] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:099] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:100] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:100] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:118] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:120] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:121] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:123] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:124] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:124] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:126] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:126] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:01:126] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:01:127] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:02:175] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:02:176] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:07:178] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:07:178] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:12:175] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:12:175] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:17:179] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:17:180] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:21:132] info: NetworkStatus: Waiting for network online…
+[04/10/18, 13:11:21:142] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:11:21:143] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:11:26:342] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/10/18, 13:11:26:748] info: Store: SET_NETWORK_STATUS online
+[04/10/18, 13:11:26:762] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/10/18, 13:12:18:570] info: Store: SET_FULL_SCREEN
+[04/10/18, 13:12:18:601] info: Store: SET_FULL_SCREEN
+[04/10/18, 13:12:28:777] info: Store: SET_FULL_SCREEN
+[04/10/18, 13:12:28:781] info: Store: SET_FULL_SCREEN
+[04/10/18, 13:12:56:772] info: NetworkStatus: Waiting for network online…
+[04/10/18, 13:12:57:147] info: Store: SET_NETWORK_STATUS offline
+[04/10/18, 13:13:01:722] info: Store: SET_FULL_SCREEN
+[04/10/18, 13:13:01:733] info: Store: SET_FULL_SCREEN
+[04/10/18, 13:13:12:830] info: Store: RELOAD
+{
+  "everything": false
+}
+[04/10/18, 13:13:12:847] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:13:12:847] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:13:12:848] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:13:12:848] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:13:12:848] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:13:12:849] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/10/18, 13:13:12:849] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/10/18, 13:13:12:849] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}

@@ -1,0 +1,3079 @@
+[04/04/18, 10:25:33:879] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[04/04/18, 10:25:33:882] info: ║      Slack 3.1.0, linux 4.10.0-38-generic on x64 at 04/04/18, 10:25:33:870      ║
+[04/04/18, 10:25:33:882] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[04/04/18, 10:25:34:082] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[04/04/18, 10:25:34:815] info: cld3::loadModule: loading cld3 module
+[04/04/18, 10:25:34:841] info: cld3Loader::loadModule: running environment is NODE
+[04/04/18, 10:25:34:843] info: cld3Loader::loadModule: constructed module object for runtime
+[04/04/18, 10:25:35:204] info: cld3Loader::initializeRuntime: successfully initialized module
+[04/04/18, 10:25:35:204] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[04/04/18, 10:25:35:210] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[04/04/18, 10:25:35:215] info: SSBIntegration: Main window preload script loaded 1899.766952
+[04/04/18, 10:25:41:986] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/04/18, 10:25:41:988] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/04/18, 10:25:41:994] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[04/04/18, 10:25:42:025] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T0253QGQ9"
+}
+[04/04/18, 10:25:42:183] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/04/18, 10:25:42:184] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T0253QGQ9"
+}
+[04/04/18, 10:25:42:199] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T0253QGQ9",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/04/18, 10:25:42:409] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/04/18, 10:25:43:599] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[04/04/18, 10:25:43:599] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[04/04/18, 10:25:43:600] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[04/04/18, 10:25:43:600] info: Setting ja
+[04/04/18, 10:25:43:601] info: Result: {"ja":"ja-JP"}
+[04/04/18, 10:25:43:602] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 10:25:43:603] info: Loading dictionary for language ja-JP
+[04/04/18, 10:25:43:603] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:25:43:606] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:25:43:606] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:25:44:158] info: Loading dictionary for language ja-JP
+[04/04/18, 10:25:44:158] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:25:44:159] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:25:44:160] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:25:44:667] info: Loading dictionary for language ja-JP
+[04/04/18, 10:25:44:667] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:25:44:679] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:25:44:679] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:25:44:960] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 10:25:44:961] info: Actually installing spell check provider to Electron
+[04/04/18, 10:25:48:027] info: Unloading spellchecker
+[04/04/18, 10:25:48:051] info: Unloading spellchecker
+[04/04/18, 10:25:48:052] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:25:48:961] info: Restoring spellchecker
+[04/04/18, 10:25:48:962] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 10:25:48:963] info: Loading dictionary for language ja-JP
+[04/04/18, 10:25:48:964] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:25:48:972] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:25:49:006] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:25:49:008] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:25:49:309] info: Loading dictionary for language ja-JP
+[04/04/18, 10:25:49:310] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:25:49:314] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:25:49:315] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:25:49:336] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U0253QGQB-g35723c44dba-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "XYVWTnhkZJ14BNV",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522805149.000034&team=T0253QGQ9",
+  "msg": "1522805149.000034",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:25:49:337] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:25:49:337] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:25:49:770] info: Loading dictionary for language ja-JP
+[04/04/18, 10:25:49:771] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:25:49:771] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:25:49:772] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:25:50:098] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 10:25:59:360] info: Store: SELECT_CHANNEL C0253QGQF
+[04/04/18, 10:26:01:628] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 10:26:01:628] info: Loading dictionary for language ja-JP
+[04/04/18, 10:26:01:628] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:26:01:628] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:26:01:629] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:26:02:168] info: Loading dictionary for language ja-JP
+[04/04/18, 10:26:02:169] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:26:02:170] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:26:02:171] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:26:02:691] info: Loading dictionary for language ja-JP
+[04/04/18, 10:26:02:691] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:26:02:692] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:26:02:692] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:26:02:948] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 10:26:13:385] info: Store: SELECT_CHANNEL G8PUNETS9
+[04/04/18, 10:26:13:768] info: Couldn't detect language for text of length '113': Not enough reliable text, ignoring sample
+[04/04/18, 10:26:22:697] info: Store: SELECT_CHANNEL C8T7K473M
+[04/04/18, 10:26:24:941] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 10:26:24:941] info: Loading dictionary for language ja-JP
+[04/04/18, 10:26:24:941] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:26:24:942] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:26:24:942] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:26:25:530] info: Loading dictionary for language ja-JP
+[04/04/18, 10:26:25:530] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:26:25:533] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:26:25:534] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:26:26:012] info: Loading dictionary for language ja-JP
+[04/04/18, 10:26:26:013] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:26:26:014] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:26:26:014] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:26:26:280] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 10:26:48:292] info: Unloading spellchecker
+[04/04/18, 10:26:48:296] info: Unloading spellchecker
+[04/04/18, 10:26:48:356] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:26:48:357] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:28:35:946] info: Restoring spellchecker
+[04/04/18, 10:28:35:947] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 10:28:35:948] info: Loading dictionary for language ja-JP
+[04/04/18, 10:28:35:948] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:28:35:950] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:28:35:959] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:28:35:962] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:28:35:963] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:28:36:883] info: Loading dictionary for language ja-JP
+[04/04/18, 10:28:36:884] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:28:36:886] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:28:36:888] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:28:37:355] info: Loading dictionary for language ja-JP
+[04/04/18, 10:28:37:356] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 10:28:37:359] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 10:28:37:359] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 10:28:37:734] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 10:28:39:221] info: Store: SELECT_CHANNEL G8PUNETS9
+[04/04/18, 10:28:39:562] info: Couldn't detect language for text of length '3194': Not enough reliable text, ignoring sample
+[04/04/18, 10:29:17:931] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:29:17:931] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:29:17:946] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9EEJ611U-gcad0b7a25ce-512",
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "xojgfLiwQOKkmP0",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522805357.000208&team=T0253QGQ9",
+  "msg": "1522805357.000208",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:29:20:156] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:29:20:156] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:29:20:159] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "5A0Pigs2Rmr1Bkm",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522805359.000336&team=T0253QGQ9",
+  "msg": "1522805359.000336",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:29:54:685] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 10:29:54:744] info: Unloading spellchecker
+[04/04/18, 10:29:54:750] info: Unloading spellchecker
+[04/04/18, 10:29:54:751] info: Store: FOREGROUND_APP
+[04/04/18, 10:29:56:457] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:29:56:473] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:30:02:216] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:30:02:229] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:30:03:334] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:30:03:344] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:32:37:153] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:32:37:154] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:32:37:165] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U6QJMB7N2-gd93bb57a63c-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "XYVWTMtkZJ1ZKGD",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522805556.000325&team=T0253QGQ9",
+  "msg": "1522805556.000325",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:32:59:931] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:32:59:931] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:32:59:938] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9B3LM74H-g692bbf94856-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "GwK0iAuQA35D7kx",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522805579.000204&team=T0253QGQ9",
+  "msg": "1522805579.000204",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:33:37:997] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:33:37:997] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:33:38:004] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U8VJZV9LG-g3ff5648d7c6-512",
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "R8BNi0COnkxw7wm",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522805617.000231&team=T0253QGQ9",
+  "msg": "1522805617.000231",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:33:40:155] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:33:40:155] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:33:40:161] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "jAJ1i3F7yNl8ZXA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522805619.000270&team=T0253QGQ9",
+  "msg": "1522805619.000270",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:34:02:987] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:34:02:987] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:34:02:994] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U8VJZV9LG-g3ff5648d7c6-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "R8BNiQHOnkxwwJD",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522805642.000219&team=T0253QGQ9",
+  "msg": "1522805642.000219",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:34:51:186] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:34:51:187] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:34:51:189] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U03MKL056-g4f358a6b6e0-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "7DJRinINjogg4Mr",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522805690.000273&team=T0253QGQ9",
+  "msg": "1522805690.000273",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:36:22:289] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:36:22:289] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:36:22:297] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9EEJ611U-gcad0b7a25ce-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "zqlkFESKQ893pRj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522805782.000026&team=T0253QGQ9",
+  "msg": "1522805782.000026",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:47:12:434] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:47:12:459] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:13:006] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:13:012] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:20:406] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "VJnjtlhJVqB4q72",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522806500.000013&team=T031FNTUT",
+  "msg": "1522806500.000013",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:48:22:767] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:22:786] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:25:888] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:25:895] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:27:484] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:48:27:493] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:49:08:230] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:49:08:241] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:49:10:598] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:49:10:602] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:49:11:182] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:49:36:254] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:03:940] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:04:802] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:05:561] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:16:082] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "2GDNuVi2PjR1LxG",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522806615.000264&team=T031FNTUT",
+  "msg": "1522806615.000264",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:50:19:331] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:20:307] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:50:25:407] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:33:497] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:34:453] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:50:38:307] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:50:51:211] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "2GDNuKs2PjR1r6A",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522806650.000303&team=T031FNTUT",
+  "msg": "1522806650.000303",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:51:57:544] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:52:39:837] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:52:58:978] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:52:59:936] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:53:29:674] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:53:33:848] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "R8jJCgtOnkDOM7W",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522806813.000176&team=T031FNTUT",
+  "msg": "1522806813.000176",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:53:36:693] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:53:37:666] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:54:04:946] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:54:14:486] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:54:15:450] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:55:49:515] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:55:51:010] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:55:51:787] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "DwWoC3uZKrPkkYk",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522806951.000165&team=T031FNTUT",
+  "msg": "1522806951.000165",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:55:59:682] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:00:116] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:00:886] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:01:748] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:02:701] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:56:05:280] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:06:260] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:07:025] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:07:463] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:56:36:950] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:56:36:951] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 10:56:36:958] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9XLGJU5B-c92c50588b10-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "m7X5ivT9vg8DqOv",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522806996.000224&team=T0253QGQ9",
+  "msg": "1522806996.000224",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:56:55:774] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:58:17:284] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "KA9yhMCA6PRoP9B",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807097.000017&team=T031FNTUT",
+  "msg": "1522807097.000017",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:58:38:971] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:58:39:938] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 10:59:03:582] info: Store: SET_FULL_SCREEN
+[04/04/18, 10:59:15:583] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "JEWxh1FLZwxyoXR",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807155.000092&team=T031FNTUT",
+  "msg": "1522807155.000092",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 10:59:59:684] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:00:00:641] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:00:26:971] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:04:495] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:05:444] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:06:160] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:07:125] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:01:07:947] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:08:646] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:30:473] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:30:706] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:01:30:706] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:01:30:711] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U02C22L81-c84627de80ad-512",
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "g7X0inU3LWR6Egr",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522807290.000142&team=T0253QGQ9",
+  "msg": "1522807290.000142",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:01:32:420] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:34:206] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:01:34:206] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:01:34:212] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "ZZX1fncy275JXvl",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522807293.000333&team=T0253QGQ9",
+  "msg": "1522807293.000333",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:01:37:153] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:37:619] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:01:38:578] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:01:56:990] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:12:192] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:13:181] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:02:14:120] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:22:633] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:23:603] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:02:25:605] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:27:747] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:28:445] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:29:239] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:40:691] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:40:979] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:41:597] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:51:937] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:02:52:895] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:02:53:828] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:03:23:427] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:03:24:009] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:04:04:696] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:04:04:702] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 11:04:05:646] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:04:21:349] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:04:32:676] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:04:33:516] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:04:33:632] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:05:13:853] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:05:15:595] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:05:22:099] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:06:04:978] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:06:07:057] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:06:58:478] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "4WG3u6HW9vlo0Wj",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807618.000010&team=T031FNTUT",
+  "msg": "1522807618.000010",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:07:14:696] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:07:14:697] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:07:14:716] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U93MAMZ1B-g96a471866dc-512",
+  "channel": "C8T7K473M",
+  "content": "[REDACTED]",
+  "id": "nGJ1fyfZABD1pX6",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8T7K473M&message=1522807634.000152&team=T0253QGQ9",
+  "msg": "1522807634.000152",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:07:19:888] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:07:20:884] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:07:30:011] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:07:36:601] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "zqYzUOIKQ83Wpjm",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807656.000043&team=T031FNTUT",
+  "msg": "1522807656.000043",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:07:39:754] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "p9LmCqSGAm490ZB",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807659.000140&team=T031FNTUT",
+  "msg": "1522807659.000140",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:07:42:116] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:07:43:404] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:07:49:615] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:07:57:105] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:08:07:782] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "YVqmt5TVJRNxqLz",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807687.000139&team=T031FNTUT",
+  "msg": "1522807687.000139",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:08:17:654] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:08:18:103] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:08:18:607] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:09:14:691] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:09:14:691] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:09:14:697] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U93MAMZ1B-g96a471866dc-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "ZZX1fOhy275QnZy",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522807754.000139&team=T0253QGQ9",
+  "msg": "1522807754.000139",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:10:00:838] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:10:39:603] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:10:39:604] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 11:10:39:625] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "g7X0ipi3LWRAzPo",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522807839.000134&team=T0253QGQ9",
+  "msg": "1522807839.000134",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:12:34:651] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:12:35:972] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:12:36:598] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:12:49:644] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:06:676] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:20:256] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "XYplC3UkZJj82Eq",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522807999.000248&team=T031FNTUT",
+  "msg": "1522807999.000248",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:13:30:233] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:44:740] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:47:561] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:48:064] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:48:874] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:13:59:530] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "WWo0uwcnNY3w9Eo",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808039.000068&team=T031FNTUT",
+  "msg": "1522808039.000068",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:14:03:029] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:04:494] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:17:566] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:21:729] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:39:228] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "DwWoC6fZKrP0XAG",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808078.000268&team=T031FNTUT",
+  "msg": "1522808078.000268",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:14:41:283] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:47:737] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:55:348] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:14:56:406] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:15:17:462] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:15:21:052] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:15:35:823] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:15:42:712] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "0AD7h6hWQyG4Ok7",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808142.000056&team=T031FNTUT",
+  "msg": "1522808142.000056",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:16:02:823] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:19:103] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:22:916] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:45:549] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "p9LmCKiGAm40N9A",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808205.000062&team=T031FNTUT",
+  "msg": "1522808205.000062",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:16:46:213] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:49:882] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:53:264] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:53:612] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:54:715] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:55:289] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:16:59:901] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:17:12:608] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "N7WBulsRqkKEV7W",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808232.000076&team=T031FNTUT",
+  "msg": "1522808232.000076",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:17:16:147] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:17:22:420] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:17:25:512] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:17:45:087] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:18:17:465] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:18:19:976] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:18:20:507] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:04:068] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:04:488] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:05:105] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:05:554] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:08:618] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "N7WBuRtRqkKwv8V",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808348.000070&team=T031FNTUT",
+  "msg": "1522808348.000070",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:19:42:933] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:43:484] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:19:44:424] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:20:02:151] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:20:10:578] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:20:11:017] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:22:20:239] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:22:25:568] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:22:43:214] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:22:44:098] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:22:58:048] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:22:58:845] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "0AD7hKuWQyGnp3m",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808578.000148&team=T031FNTUT",
+  "msg": "1522808578.000148",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:23:05:076] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:23:07:468] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:23:36:731] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:23:39:005] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:23:39:300] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:24:54:483] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:25:16:910] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:25:16:913] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 11:25:17:850] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:25:18:744] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:25:23:561] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 11:25:23:571] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:25:24:514] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:25:24:952] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:25:26:015] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:27:36:827] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:27:37:316] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:27:39:068] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:27:39:740] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:27:50:643] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12GWE7U6-ab8b5362aedb-512",
+  "channel": "C9YCA77B4",
+  "content": "[REDACTED]",
+  "id": "zqYzU0CKQ83Rzkn",
+  "launchUri": "slack://channel?id=C9YCA77B4&message=1522808870.000110&team=T031FNTUT",
+  "msg": "1522808870.000110",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:27:56:773] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12GWE7U6-ab8b5362aedb-512",
+  "channel": "C9YCA77B4",
+  "content": "[REDACTED]",
+  "id": "XYplCWFkZJj4Z6j",
+  "launchUri": "slack://channel?id=C9YCA77B4&message=1522808876.000106&team=T031FNTUT",
+  "msg": "1522808876.000106",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:28:43:072] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:28:44:563] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:28:53:470] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "yp2yC4HR2joX6Kv",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522808933.000022&team=T031FNTUT",
+  "msg": "1522808933.000022",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:29:38:862] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:40:297] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:41:749] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:42:048] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:50:057] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:50:064] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:50:957] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:50:970] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:51:442] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:29:51:675] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:31:21:672] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "qALnhvIER6kxrOl",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522809081.000111&team=T031FNTUT",
+  "msg": "1522809081.000111",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:31:51:176] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:31:51:888] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:32:24:507] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:32:26:243] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:32:55:823] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:32:58:234] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:33:08:799] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:33:09:690] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:33:13:580] info: Store: SELECT_CHANNEL C9YCA77B4
+[04/04/18, 11:33:30:913] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 11:33:31:097] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 11:33:31:139] info: Restoring spellchecker
+[04/04/18, 11:33:31:143] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 11:33:31:145] info: Loading dictionary for language ja-JP
+[04/04/18, 11:33:31:146] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:33:31:239] info: Restoring spellchecker
+[04/04/18, 11:33:31:240] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 11:33:31:241] info: Loading dictionary for language ja-JP
+[04/04/18, 11:33:31:241] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:33:32:509] info: Loading dictionary for language ja-JP
+[04/04/18, 11:33:32:510] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:33:32:511] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:33:32:512] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:33:32:670] info: Loading dictionary for language ja-JP
+[04/04/18, 11:33:32:670] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:33:32:671] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:33:32:671] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:33:33:222] info: Unloading spellchecker
+[04/04/18, 11:33:33:224] info: Unloading spellchecker
+[04/04/18, 11:33:33:225] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:33:33:431] info: Loading dictionary for language ja-JP
+[04/04/18, 11:33:33:432] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:33:33:433] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:33:33:433] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:33:33:984] info: Loading dictionary for language ja-JP
+[04/04/18, 11:33:33:985] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:33:33:986] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:33:33:987] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:33:34:119] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:33:34:694] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 11:33:34:859] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 11:33:36:227] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:33:40:383] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:36:59:530] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:39:35:125] info: Restoring spellchecker
+[04/04/18, 11:39:35:126] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 11:39:35:126] info: Loading dictionary for language ja-JP
+[04/04/18, 11:39:35:126] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:39:35:203] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:39:35:235] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:39:35:237] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:39:36:955] info: Unloading spellchecker
+[04/04/18, 11:39:36:982] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 11:39:36:989] info: Restoring spellchecker
+[04/04/18, 11:39:36:990] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 11:39:36:990] info: Loading dictionary for language ja-JP
+[04/04/18, 11:39:36:990] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:39:37:130] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 11:39:37:162] info: Unloading spellchecker
+[04/04/18, 11:39:37:163] info: Unloading spellchecker
+[04/04/18, 11:39:38:012] info: Loading dictionary for language ja-JP
+[04/04/18, 11:39:38:013] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:39:38:013] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:39:38:014] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:39:38:547] info: Loading dictionary for language ja-JP
+[04/04/18, 11:39:38:547] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:39:38:548] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:39:38:549] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:39:38:846] info: Loading dictionary for language ja-JP
+[04/04/18, 11:39:38:846] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:39:38:847] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:39:38:851] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:39:40:083] info: Loading dictionary for language ja-JP
+[04/04/18, 11:39:40:083] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 11:39:40:085] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 11:39:40:087] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 11:39:40:255] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 11:39:40:564] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 11:39:41:503] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 11:40:15:055] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:45:42:370] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:45:42:396] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 11:45:43:328] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 11:45:44:059] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:45:44:604] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:46:32:829] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:49:38:678] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:53:13:730] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:53:14:773] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:53:28:328] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:54:36:280] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:55:00:387] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:55:09:236] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:55:14:891] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:56:50:503] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:57:04:181] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:57:12:491] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "P6WEtzSjqNN6PyA",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522810632.000028&team=T031FNTUT",
+  "msg": "1522810632.000028",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:57:21:131] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "7DV0CXTNjooqyQo",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522810640.000227&team=T031FNTUT",
+  "msg": "1522810640.000227",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 11:57:28:903] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:58:34:725] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:58:35:913] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:58:38:971] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:58:52:756] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:59:12:619] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:59:15:611] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:59:16:282] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:59:16:436] info: Store: SET_FULL_SCREEN
+[04/04/18, 11:59:32:266] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:00:21:386] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "DwWoC7UZKrrR2jo",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522810821.000027&team=T031FNTUT",
+  "msg": "1522810821.000027",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:00:40:157] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:00:43:521] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:00:48:369] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:01:01:439] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:01:24:590] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "WWo0uRcnNYYLypK",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522810884.000086&team=T031FNTUT",
+  "msg": "1522810884.000086",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:01:40:504] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:01:55:766] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:02:40:055] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:02:44:834] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:02:44:868] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:02:45:529] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:02:45:541] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:02:54:707] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:03:04:986] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "A8KlC4fY7zzBmNx",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522810984.000186&team=T031FNTUT",
+  "msg": "1522810984.000186",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:04:32:602] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:04:48:097] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:04:48:858] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:05:25:276] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:05:29:936] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:05:30:826] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:05:31:224] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:05:31:918] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:05:32:413] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:06:10:259] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:06:33:942] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:06:42:406] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:06:48:032] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:07:39:692] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:00:904] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "EKWpCXhPVzzkglG",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522811280.000146&team=T031FNTUT",
+  "msg": "1522811280.000146",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:08:34:867] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:35:482] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:36:131] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:39:257] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:40:432] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:46:690] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:47:579] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:49:922] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:08:51:423] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:15:43:480] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:15:43:955] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:15:51:695] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:16:01:862] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "vmLvIziA9RR0NWM",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522811761.000134&team=T031FNTUT",
+  "msg": "1522811761.000134",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:16:03:071] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:16:06:855] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:16:07:587] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:16:07:593] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 12:16:08:578] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 12:16:17:696] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:16:23:970] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "ZZrntgsy2778g1Z",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522811783.000154&team=T031FNTUT",
+  "msg": "1522811783.000154",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:16:30:538] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "JEWxhztLZww7Nzx",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522811790.000065&team=T031FNTUT",
+  "msg": "1522811790.000065",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:18:28:624] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "93YNC6uOmjjJK3n",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522811908.000094&team=T031FNTUT",
+  "msg": "1522811908.000094",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:20:20:806] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:20:25:520] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:20:53:511] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:21:35:001] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:21:47:244] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "B19mCrCjBll8ZZ4",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522812106.000238&team=T031FNTUT",
+  "msg": "1522812106.000238",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:21:48:875] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:22:29:346] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:22:37:178] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "XYplCQFkZJJnx2R",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522812156.000189&team=T031FNTUT",
+  "msg": "1522812156.000189",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:22:50:718] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:23:10:001] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:24:51:693] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:24:57:746] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:25:04:535] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "YVqmtYHVJRR8Anx",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522812304.000057&team=T031FNTUT",
+  "msg": "1522812304.000057",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:25:23:226] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:25:30:337] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:25:33:769] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:26:55:563] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:26:56:552] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:26:57:252] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:26:57:794] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:29:48:474] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:29:48:478] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:30:35:146] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:30:35:150] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:31:29:732] info: Store: SELECT_CHANNEL D7JP44402
+[04/04/18, 12:31:37:061] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 12:31:47:908] info: Store: SELECT_CHANNEL DA0HEGNCU
+[04/04/18, 12:32:14:276] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 12:32:54:605] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:02:250] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "l8EgCvIqXZZ65w6",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522812781.000192&team=T031FNTUT",
+  "msg": "1522812781.000192",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:33:20:362] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:21:647] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:22:275] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:22:295] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 12:33:23:255] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 12:33:51:952] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:52:877] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:54:999] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:55:462] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:56:030] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:33:58:847] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "M7WAuZSWygg5N05",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522812838.000135&team=T031FNTUT",
+  "msg": "1522812838.000135",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:34:00:324] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:01:680] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:02:139] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:03:086] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:03:733] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:14:245] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:15:255] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:17:610] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:18:343] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:18:925] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "A8KlCyTY7zzlmLO",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522812858.000138&team=T031FNTUT",
+  "msg": "1522812858.000138",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 12:34:20:784] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:22:478] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:22:962] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:23:272] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:34:706] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:34:37:481] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:35:03:927] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:35:30:573] info: Store: SET_FULL_SCREEN
+[04/04/18, 12:35:36:407] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:46:36:660] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:46:37:504] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:46:38:999] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:46:39:549] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:46:40:887] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:47:03:355] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:47:05:455] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:49:32:272] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:50:03:730] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:50:06:667] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:50:07:903] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:50:15:008] info: Store: SELECT_CHANNEL C8JMT82QK
+[04/04/18, 13:50:24:104] info: Store: SET_FULL_SCREEN
+[04/04/18, 13:50:24:116] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:30:276] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:30:286] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:30:659] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:30:682] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:32:013] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:32:015] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:34:970] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:34:985] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:35:806] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:35:830] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:36:595] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:02:36:625] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:09:07:700] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:09:07:706] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:09:16:889] info: Store: SELECT_CHANNEL C9YCA77B4
+[04/04/18, 14:09:17:632] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:09:17:645] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:10:29:537] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:10:29:542] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:10:30:507] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:10:30:515] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:21:09:976] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:21:09:998] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:21:13:258] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:21:14:561] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:21:26:416] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:22:56:918] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:23:32:348] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:24:50:952] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:25:22:542] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:26:12:377] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:27:336] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:29:542] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:31:847] info: Store: FOREGROUND_APP
+[04/04/18, 14:29:31:906] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:31:908] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:31:909] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:31:910] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:31:916] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 14:29:31:920] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:29:32:898] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 14:29:34:465] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 14:29:34:641] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 14:29:34:663] info: Restoring spellchecker
+[04/04/18, 14:29:34:665] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 14:29:34:666] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:34:667] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:34:669] info: Restoring spellchecker
+[04/04/18, 14:29:34:670] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 14:29:34:670] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:34:671] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:34:786] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:34:786] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:34:786] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:34:831] info: Can't clear out file, bailing
+[04/04/18, 14:29:34:832] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:34:833] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:34:840] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:34:842] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:35:974] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:35:975] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:35:976] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:35:977] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:36:109] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:36:110] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:36:112] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:36:114] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:36:823] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:36:824] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:36:826] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:36:827] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:37:374] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 14:29:38:094] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 14:29:43:026] info: Store: SELECT_CHANNEL C8T7K473M
+[04/04/18, 14:29:43:445] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 14:29:43:446] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:43:446] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:43:447] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:43:447] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:44:061] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:44:061] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:44:062] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:44:063] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:44:650] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:44:651] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:44:654] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:44:655] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:44:963] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 14:29:54:786] info: Unloading spellchecker
+[04/04/18, 14:29:54:787] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 14:29:54:798] info: Restoring spellchecker
+[04/04/18, 14:29:54:799] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 14:29:54:806] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:54:808] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:54:840] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:54:841] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:54:943] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 14:29:54:950] info: Unloading spellchecker
+[04/04/18, 14:29:54:952] info: Unloading spellchecker
+[04/04/18, 14:29:55:668] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:55:669] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:55:672] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:55:674] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:56:944] info: Loading dictionary for language ja-JP
+[04/04/18, 14:29:56:946] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 14:29:56:948] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 14:29:56:950] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 14:29:57:475] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 14:29:57:772] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 14:30:00:566] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:31:13:630] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:31:15:949] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": true,
+  "position": [
+    288,
+    66
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 14:31:17:463] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 14:31:17:686] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:32:53:319] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:32:53:848] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:32:56:783] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:36:04:234] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:36:06:490] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:36:08:244] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:36:09:947] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:36:10:917] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 14:36:11:382] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:36:15:029] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "A8KlCkUY7zEjqA6",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522820174.000200&team=T031FNTUT",
+  "msg": "1522820174.000200",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 14:36:31:790] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:38:37:639] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:38:38:036] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:39:59:450] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:39:59:976] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:05:863] info: Store: FOREGROUND_APP
+[04/04/18, 14:40:05:878] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:05:900] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:05:903] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:05:905] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:05:908] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:05:916] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 14:40:06:885] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 14:40:08:683] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:40:19:971] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:02:584] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:06:425] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:06:870] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:06:961] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:07:802] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:20:863] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:21:657] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:27:310] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:29:326] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:42:32:231] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:46:00:686] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:46:02:137] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:48:36:667] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:48:38:011] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:48:51:635] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "0AD7h7cWQyXkpKZ",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522820931.000089&team=T031FNTUT",
+  "msg": "1522820931.000089",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 14:49:49:852] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:49:50:444] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:49:51:015] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:49:55:469] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:57:10:054] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 14:57:10:055] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 14:57:10:069] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9BKN1H7C-gb804d9edbc6-512",
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "xojgfMswQOZMR2O",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522821429.000272&team=T0253QGQ9",
+  "msg": "1522821429.000272",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 14:57:12:707] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 14:57:12:707] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 14:57:12:711] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "xojgfOtwQOZMWVw",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522821432.000166&team=T0253QGQ9",
+  "msg": "1522821432.000166",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 14:59:13:516] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:59:14:232] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:59:15:659] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:59:16:112] info: Store: SET_FULL_SCREEN
+[04/04/18, 14:59:19:864] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:01:18:142] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:01:22:592] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:01:24:349] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:01:54:506] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:03:42:852] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 15:03:42:853] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 15:03:42:858] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9BKN1H7C-gb804d9edbc6-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "rg71UpuypElyA4z",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1522821822.000194&team=T0253QGQ9",
+  "msg": "1522821822.000194",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 15:06:55:533] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "1V3NtQfX6l718RG",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522822015.000093&team=T031FNTUT",
+  "msg": "1522822015.000093",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 15:07:02:315] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:07:05:615] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:07:06:472] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:07:09:245] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:07:11:305] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:07:11:850] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:10:30:979] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "xoLxt14hwQOZADj9",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522822230.000193&team=T031FNTUT",
+  "msg": "1522822230.000193",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 15:10:33:426] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:10:40:379] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:11:20:842] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:11:48:800] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:11:49:859] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:11:51:530] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:11:54:658] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:12:07:473] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:14:28:468] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:14:30:426] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:15:05:441] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:15:38:886] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:15:40:477] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:15:44:231] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:15:44:888] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:16:02:503] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:18:19:191] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:18:43:136] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:19:37:493] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:19:38:668] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:20:15:762] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:20:48:726] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:20:49:275] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:21:47:418] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:21:50:413] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:26:39:803] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:26:40:687] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:26:41:894] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:30:06:373] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:30:08:563] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:30:09:126] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:30:09:920] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:31:28:890] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:31:30:078] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:32:54:931] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:32:56:485] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:33:804] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:34:279] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:34:778] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:36:570] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:37:822] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:38:600] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:42:774] info: Store: RELOAD
+{
+  "everything": false
+}
+[04/04/18, 15:34:44:560] info: Store: SET_NETWORK_STATUS online
+[04/04/18, 15:34:48:282] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 15:34:48:624] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 15:34:48:977] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 15:34:48:985] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 15:34:49:027] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/04/18, 15:34:49:764] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 15:34:49:896] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 15:34:49:907] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 15:34:51:892] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:34:53:935] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:42:439] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:48:772] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:49:721] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 15:35:50:236] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:54:157] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:54:841] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:54:874] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:55:093] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 15:35:55:567] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:55:598] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:56:120] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:35:56:713] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:36:46:643] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:36:49:589] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:36:54:484] info: Store: SELECT_CHANNEL C9Z4BU1C2
+[04/04/18, 15:37:09:683] info: Store: SELECT_CHANNEL C0507V3L9
+[04/04/18, 15:37:19:464] info: Store: SELECT_CHANNEL C031FNU0K
+[04/04/18, 15:37:23:362] info: Store: SELECT_CHANNEL C04KQT6L8
+[04/04/18, 15:37:25:722] info: Store: SELECT_CHANNEL C8KKUR6SJ
+[04/04/18, 15:37:28:115] info: Store: SELECT_CHANNEL C04KQT6L8
+[04/04/18, 15:37:35:283] info: Store: SELECT_CHANNEL C9YCA77B4
+[04/04/18, 15:38:06:553] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 15:38:06:558] info: Store: FOREGROUND_APP
+[04/04/18, 15:38:08:681] info: Store: SELECT_CHANNEL C031FNU09
+[04/04/18, 15:38:12:243] info: Store: SELECT_CHANNEL D8R4Q2DKM
+[04/04/18, 15:38:13:052] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 15:38:14:517] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:38:16:181] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:38:55:542] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:39:29:495] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:39:30:198] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:39:30:777] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:41:18:768] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:41:19:254] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:41:19:867] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:41:21:593] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:44:23:411] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:44:31:907] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:44:36:575] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:47:01:130] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:22:027] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:25:150] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:26:134] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 15:48:26:556] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:26:593] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:27:012] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:27:065] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:27:525] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:48:28:048] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:52:44:120] info: Store: SET_FULL_SCREEN
+[04/04/18, 15:58:52:332] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:33:781] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:35:140] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:36:110] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 16:01:36:195] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:38:909] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:39:397] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:39:839] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:01:41:510] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:02:643] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:20:667] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:20:855] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:24:681] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:24:911] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:26:373] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:27:453] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:34:565] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:07:37:381] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:09:56:339] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:09:57:836] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:11:01:699] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:11:03:390] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:14:46:964] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:14:47:307] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:17:26:109] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:17:28:395] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:17:33:053] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:17:33:873] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:17:43:035] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:18:24:185] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:11:051] info: Store: FOREGROUND_APP
+[04/04/18, 16:29:11:086] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:11:092] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:11:094] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:14:422] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:14:440] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 16:29:14:558] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 16:29:14:588] info: Restoring spellchecker
+[04/04/18, 16:29:14:591] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:29:14:592] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:14:593] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:14:709] info: Restoring spellchecker
+[04/04/18, 16:29:14:709] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:29:14:710] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:14:710] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:16:765] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/04/18, 16:29:16:767] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:16:767] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:16:836] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:16:837] info: Can't clear out file, bailing
+[04/04/18, 16:29:16:837] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:16:837] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:17:312] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:29:17:314] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:17:314] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:17:315] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:17:319] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:17:320] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:17:326] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:18:706] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:29:18:910] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:18:911] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:18:913] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:18:913] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:19:632] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:19:632] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:19:635] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:19:635] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:19:779] info: Store: SELECT_CHANNEL G8PUNETS9
+[04/04/18, 16:29:19:829] info: Couldn't detect language for text of length '3788': Not enough reliable text, ignoring sample
+[04/04/18, 16:29:20:144] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:29:20:295] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:20:295] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:20:298] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:20:299] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:20:770] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:29:21:925] info: Unloading spellchecker
+[04/04/18, 16:29:21:925] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 16:29:21:930] info: Restoring spellchecker
+[04/04/18, 16:29:21:930] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:29:21:931] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:21:931] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:21:941] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:21:944] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:22:107] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 16:29:22:141] info: Unloading spellchecker
+[04/04/18, 16:29:22:143] info: Unloading spellchecker
+[04/04/18, 16:29:22:198] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:22:198] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:22:200] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:22:202] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:23:525] info: Loading dictionary for language ja-JP
+[04/04/18, 16:29:23:526] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:29:23:529] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:29:23:531] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:29:23:859] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:24:395] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:29:25:341] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:37:767] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:29:38:546] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:31:45:120] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:31:45:835] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:34:04:433] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:34:09:695] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:34:10:668] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 16:34:11:372] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:35:42:678] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:35:58:619] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:36:01:840] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "R8xgIrhOnkBZnOG",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522827361.000250&team=T031FNTUT",
+  "msg": "1522827361.000250",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:36:07:091] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "EK5lSliPVz3YvlK",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522827366.000217&team=T031FNTUT",
+  "msg": "1522827366.000217",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:36:10:613] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:36:24:186] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:36:31:384] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "5A58cgs2RmEk23G",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522827391.000012&team=T031FNTUT",
+  "msg": "1522827391.000012",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:36:39:485] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:36:54:181] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:36:58:596] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "A85nI1tY7zLpRRD",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522827418.000116&team=T031FNTUT",
+  "msg": "1522827418.000116",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:37:03:915] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "2G5RS8u2PjglGXw",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522827423.000238&team=T031FNTUT",
+  "msg": "1522827423.000238",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:37:26:419] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "7D56uVCNjovMDgA",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522827446.000098&team=T031FNTUT",
+  "msg": "1522827446.000098",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:37:35:041] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:37:36:533] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:37:37:380] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:01:114] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:11:775] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:31:976] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:37:653] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:49:128] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:50:298] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:38:51:274] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 16:38:51:937] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:39:50:127] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:39:50:588] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:39:52:525] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:40:01:095] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:40:13:020] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:40:57:769] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:41:04:988] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:44:49:006] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:44:50:375] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:45:05:522] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:45:06:292] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:47:19:918] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:47:21:037] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:47:22:948] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 16:47:23:196] info: Restoring spellchecker
+[04/04/18, 16:47:23:196] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:47:23:197] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:23:197] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:23:231] info: Restoring spellchecker
+[04/04/18, 16:47:23:231] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:47:23:232] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:23:232] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:23:232] info: Store: FOREGROUND_APP
+[04/04/18, 16:47:23:261] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:23:262] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:23:820] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:23:821] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:23:823] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:23:825] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:24:377] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:24:378] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:24:381] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:24:382] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:24:516] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:24:517] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:24:521] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:24:522] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:25:079] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:25:080] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:25:082] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:25:083] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:25:230] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:47:25:791] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:47:28:722] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/04/18, 16:47:29:139] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:47:29:139] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:29:139] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:29:140] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:29:140] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:29:404] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:29:405] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:29:407] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:29:409] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:29:898] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:29:898] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:29:902] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:29:903] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:30:181] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:47:31:016] info: Store: SELECT_CHANNEL C9DFV1E6P
+[04/04/18, 16:47:32:998] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:47:32:999] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:32:999] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:33:002] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:33:004] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:33:293] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:33:293] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:33:296] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:33:297] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:33:873] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:33:873] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:33:879] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:33:879] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:34:146] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:47:57:436] info: Store: SELECT_CHANNEL C02C22M1Z
+[04/04/18, 16:47:58:606] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/04/18, 16:47:58:942] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:47:58:942] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:58:942] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:58:944] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:58:944] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:59:397] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 16:47:59:398] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:59:399] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:47:59:522] info: Loading dictionary for language ja-JP
+[04/04/18, 16:47:59:522] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:47:59:522] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:47:59:523] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:48:00:091] info: Loading dictionary for language ja-JP
+[04/04/18, 16:48:00:092] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:48:00:093] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:48:00:094] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:48:00:297] info: Loading dictionary for language ja-JP
+[04/04/18, 16:48:00:297] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:48:00:299] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:48:00:300] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:48:00:810] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:48:00:959] info: Loading dictionary for language ja-JP
+[04/04/18, 16:48:00:960] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 16:48:00:962] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 16:48:00:963] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 16:48:01:522] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 16:49:00:070] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 16:49:00:227] info: Unloading spellchecker
+[04/04/18, 16:49:00:229] info: Unloading spellchecker
+[04/04/18, 16:49:00:230] info: Store: FOREGROUND_APP
+[04/04/18, 16:49:01:783] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:04:343] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:09:429] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:31:154] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:32:293] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:36:978] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:41:748] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:42:768] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:49:45:634] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:50:09:675] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:50:13:120] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:50:13:618] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:50:14:260] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:50:14:890] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:51:03:924] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "OJr7u0Fryxg49vy",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522828263.000288&team=T031FNTUT",
+  "msg": "1522828263.000288",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:51:06:137] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:51:08:085] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:51:46:462] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:51:58:604] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "P6v1IZHjqNGKEVo",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522828318.000175&team=T031FNTUT",
+  "msg": "1522828318.000175",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 16:52:02:176] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:03:385] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:21:515] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:23:175] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:25:075] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 16:52:25:094] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:26:025] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 16:52:26:777] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:27:697] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:27:729] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 16:52:28:135] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:52:28:697] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 16:54:13:218] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:55:43:760] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:55:44:498] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:58:27:781] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:58:28:471] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:58:29:057] info: Store: SET_FULL_SCREEN
+[04/04/18, 16:58:30:124] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:01:52:793] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:01:56:074] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:01:57:109] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:01:58:599] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:01:58:622] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 17:01:59:582] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 17:02:13:653] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:02:39:272] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "ZZJ4IXIy27AGkJm",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522828958.000493&team=T031FNTUT",
+  "msg": "1522828958.000493",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:02:49:104] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:05:42:186] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:05:47:909] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:05:48:685] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:05:48:902] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 17:07:10:516] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:08:09:786] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:08:10:303] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:08:37:408] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:08:38:919] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:09:38:187] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "1V8jhxSX6lzYVR0",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522829377.000507&team=T031FNTUT",
+  "msg": "1522829377.000507",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:09:54:498] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 17:09:54:499] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 17:09:54:509] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U0253QGQB-g35723c44dba-512",
+  "channel": "G9HP1MQ8G",
+  "content": "[REDACTED]",
+  "id": "3YJNT5CDxNKQmgA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=G9HP1MQ8G&message=1522829394.000097&team=T0253QGQ9",
+  "msg": "1522829394.000097",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:09:58:681] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:09:59:223] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:09:59:637] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:10:00:064] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:10:00:967] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 17:10:00:972] info: Store: FOREGROUND_APP
+[04/04/18, 17:10:01:682] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 17:10:01:733] info: Restoring spellchecker
+[04/04/18, 17:10:01:734] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:10:01:735] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:01:736] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:01:810] info: Restoring spellchecker
+[04/04/18, 17:10:01:823] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:10:01:826] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:01:826] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:01:906] info: Store: FOREGROUND_APP
+[04/04/18, 17:10:02:859] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:02:859] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:02:860] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:02:861] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:02:980] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:02:980] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:02:983] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:02:983] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:03:147] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:03:148] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:03:150] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:03:150] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:03:683] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:03:684] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:03:687] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:03:688] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:03:850] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:10:04:214] info: Store: SELECT_CHANNEL G9HP1MQ8G
+[04/04/18, 17:10:04:335] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:10:04:579] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:10:04:579] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:04:579] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:04:580] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:04:580] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:04:984] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:04:984] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:04:988] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:04:989] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:05:531] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:05:532] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:05:534] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:05:536] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:05:907] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:10:30:334] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "A85nIjTY7z3MG02",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522829430.000084&team=T031FNTUT",
+  "msg": "1522829430.000084",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:10:48:174] info: Unloading spellchecker
+[04/04/18, 17:10:48:175] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 17:10:48:182] info: Restoring spellchecker
+[04/04/18, 17:10:48:184] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:10:48:185] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:48:185] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:48:225] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:48:226] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:48:343] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 17:10:48:349] info: Unloading spellchecker
+[04/04/18, 17:10:48:355] info: Unloading spellchecker
+[04/04/18, 17:10:50:096] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:50:097] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:50:945] info: Loading dictionary for language ja-JP
+[04/04/18, 17:10:50:945] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:10:50:948] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:10:50:950] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:10:51:683] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:11:06:380] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:11:06:674] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:11:48:895] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "YVG6hPUVJREZEMP",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522829508.000162&team=T031FNTUT",
+  "msg": "1522829508.000162",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:11:51:166] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:11:51:922] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:12:49:793] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:12:58:099] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:13:12:333] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "8X5qs8cMq8mzBE5",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522829591.000554&team=T031FNTUT",
+  "msg": "1522829591.000554",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:13:15:712] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "D5WHV4ZQW",
+  "messageId": "1522829591.000554",
+  "notificationId": "8X5qs8cMq8mzBE5",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 17:13:15:715] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 17:13:15:754] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:13:15:766] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:14:03:929] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:14:04:571] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:15:10:141] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:15:21:489] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "A85nImfY7z3BPLO",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1522829720.000513&team=T031FNTUT",
+  "msg": "1522829720.000513",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:15:22:793] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:16:07:689] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:16:08:124] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:16:08:132] info: Store: MAIN_WINDOW_FOCUSED
+[04/04/18, 17:16:09:126] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    106
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/04/18, 17:16:33:098] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:16:34:174] info: Store: SET_FULL_SCREEN
+[04/04/18, 17:16:35:427] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 17:16:35:472] info: Restoring spellchecker
+[04/04/18, 17:16:35:474] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:16:35:474] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:35:475] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:35:480] info: Restoring spellchecker
+[04/04/18, 17:16:35:481] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:16:35:481] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:35:482] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:35:482] info: Store: FOREGROUND_APP
+[04/04/18, 17:16:35:511] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:35:511] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:35:513] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:35:573] info: Can't clear out file, bailing
+[04/04/18, 17:16:35:574] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:35:574] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:36:183] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:36:184] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:36:186] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:36:187] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:36:472] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:36:473] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:36:475] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:36:476] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:36:602] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:36:602] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:36:637] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:36:637] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:36:725] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:16:37:205] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:16:44:860] info: Store: SELECT_CHANNEL C04KRCSU4
+[04/04/18, 17:16:45:338] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:16:45:339] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:45:339] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:45:340] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:45:340] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:45:910] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:45:910] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:45:911] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:45:911] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:46:159] info: Loading dictionary for language ja-JP
+[04/04/18, 17:16:46:160] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:16:46:162] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:16:46:163] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:16:46:437] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:17:25:800] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 17:17:25:804] info: Store: FOREGROUND_APP
+[04/04/18, 17:17:26:483] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 17:17:26:509] info: Unloading spellchecker
+[04/04/18, 17:17:26:530] info: Unloading spellchecker
+[04/04/18, 17:17:26:533] info: Store: FOREGROUND_APP
+[04/04/18, 17:17:27:503] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 17:17:27:503] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[04/04/18, 17:17:27:522] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "C04KRCSU4",
+  "content": "[REDACTED]",
+  "id": "A8Opi8FY7z3XLG5",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KRCSU4&message=1522829847.000204&team=T0253QGQ9",
+  "msg": "1522829847.000204",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[04/04/18, 17:17:27:880] info: Store: SELECT_TEAM T0253QGQ9
+[04/04/18, 17:17:27:907] info: Restoring spellchecker
+[04/04/18, 17:17:27:922] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:17:27:930] info: Loading dictionary for language ja-JP
+[04/04/18, 17:17:27:930] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:17:27:939] info: Restoring spellchecker
+[04/04/18, 17:17:27:940] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[04/04/18, 17:17:27:942] info: Loading dictionary for language ja-JP
+[04/04/18, 17:17:27:943] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:17:27:965] info: Store: FOREGROUND_APP
+[04/04/18, 17:17:28:365] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:17:28:365] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:17:28:365] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:17:28:405] info: Can't clear out file, bailing
+[04/04/18, 17:17:28:406] info: Loading dictionary for language ja-JP
+[04/04/18, 17:17:28:406] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:17:29:006] info: Loading dictionary for language ja-JP
+[04/04/18, 17:17:29:007] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:17:29:009] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:17:29:011] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:17:29:153] info: Loading dictionary for language ja-JP
+[04/04/18, 17:17:29:153] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:17:29:155] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:17:29:156] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:17:29:261] info: Store: SELECT_TEAM T031FNTUT
+[04/04/18, 17:17:29:301] info: Unloading spellchecker
+[04/04/18, 17:17:29:308] info: Unloading spellchecker
+[04/04/18, 17:17:29:309] info: Store: FOREGROUND_APP
+[04/04/18, 17:17:29:318] info: Loading dictionary for language ja-JP
+[04/04/18, 17:17:29:320] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[04/04/18, 17:17:29:323] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[04/04/18, 17:17:29:325] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[04/04/18, 17:17:29:444] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:17:29:629] info: dictionary for ja-JP_ja-JP is not available
+[04/04/18, 17:17:35:917] info: Store: SET_NETWORK_STATUS offline
+[04/04/18, 22:21:52:386] error: Apr-4 22:21:52.385 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 22:22:24:380] error: Apr-4 22:22:24.379 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 22:22:53:669] info: Store: RELOAD
+{
+  "everything": false
+}
+[04/04/18, 22:22:54:967] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:22:54:979] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:22:55:036] info: Store: SET_NETWORK_STATUS offline
+[04/04/18, 22:22:55:140] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:22:56:376] error: Apr-4 22:22:56.376 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 22:23:01:789] info: Store: SET_FULL_SCREEN
+[04/04/18, 22:23:01:803] info: Store: SET_FULL_SCREEN
+[04/04/18, 22:23:14:060] info: Store: SET_NETWORK_STATUS online
+[04/04/18, 22:23:14:069] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:14:623] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:16:654] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:16:664] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:16:669] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:17:185] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:21:035] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:21:366] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:21:817] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[04/04/18, 22:23:21:822] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:21:847] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/04/18, 22:23:22:413] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:22:519] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:22:529] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[04/04/18, 22:23:28:377] error: Apr-4 22:23:28.377 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 22:23:42:506] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/04/18, 22:23:42:507] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/04/18, 22:23:54:708] info: Store: SET_FULL_SCREEN
+[04/04/18, 22:23:54:715] info: Store: SET_FULL_SCREEN
+[04/04/18, 22:23:59:559] info: Store: SET_FULL_SCREEN
+[04/04/18, 22:23:59:620] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:49:184] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:49:207] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:51:155] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:51:174] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:51:963] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:51:965] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:57:133] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:06:57:147] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:13:40:743] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:13:40:750] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:13:43:069] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:13:43:596] info: Store: SET_FULL_SCREEN
+[04/04/18, 23:27:03:546] info: Store: SET_NETWORK_STATUS offline
+[04/05/18, 01:45:20:212] info: Store: SET_FULL_SCREEN
+[04/05/18, 01:45:20:683] info: Store: SET_FULL_SCREEN
+[04/05/18, 01:45:25:521] info: Store: SET_NETWORK_STATUS online
+[04/05/18, 01:45:29:530] error: Apr-5 01:45:29.528 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 01:45:52:352] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-30/292491732483_26a324370cd06bd03abd_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[04/05/18, 01:45:52:354] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[04/05/18, 01:45:52:379] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[04/05/18, 01:45:52:406] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[04/05/18, 01:46:20:901] info: Store: SET_FULL_SCREEN
+[04/05/18, 01:46:21:522] info: Store: SET_FULL_SCREEN
+[04/05/18, 04:50:39:117] info: Store: SET_NETWORK_STATUS offline
+[04/05/18, 22:31:10:163] error: Apr-5 22:31:10.163 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:31:11:846] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    688,
+    127
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/05/18, 22:31:31:040] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    573,
+    105
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[04/05/18, 22:31:42:160] error: Apr-5 22:31:42.160 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:32:14:161] error: Apr-5 22:32:14.160 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:32:46:161] error: Apr-5 22:32:46.160 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:33:18:163] error: Apr-5 22:33:18.162 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:33:50:160] error: Apr-5 22:33:50.160 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:34:22:167] error: Apr-5 22:34:22.160 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+[04/05/18, 22:34:54:161] error: Apr-5 22:34:54.161 T0253QGQ9 SOCKET-MANAGER: Closing socket due to unknown error
+                                                                                                                 
