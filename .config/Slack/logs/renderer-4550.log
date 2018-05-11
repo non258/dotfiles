@@ -122,3 +122,1141 @@
   "teamId": "T031FNTUT",
   "title": "[REDACTED]"
 }
+[05/11/18, 11:31:31:731] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "2RJJHVi2YmLrEkr",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526005891.000145&team=T031FNTUT",
+  "msg": "1526005891.000145",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 11:34:57:998] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:34:58:015] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:28:686] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:28:696] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:30:027] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:30:045] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:30:191] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:30:214] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:31:078] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:31:081] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:31:329] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:31:340] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:35:658] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "wjggS0sKrARwAj8",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526006135.000112&team=T031FNTUT",
+  "msg": "1526006135.000112",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 11:35:39:074] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "X6VVSMtkKLrlW0D",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526006138.000201&team=T031FNTUT",
+  "msg": "1526006138.000201",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 11:35:46:882] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "Z4XXHQuyLVM16wv",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526006146.000191&team=T031FNTUT",
+  "msg": "1526006146.000191",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 11:35:51:058] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "O799HZCr1RWVDVB",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526006150.000170&team=T031FNTUT",
+  "msg": "1526006150.000170",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 11:35:53:837] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:35:53:856] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:45:52:993] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:45:53:003] info: Store: SET_FULL_SCREEN
+[05/11/18, 11:46:48:731] info: Store: SET_SUSPEND_STATUS
+[05/11/18, 11:46:48:780] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 11:46:49:191] info: Store: SET_NETWORK_STATUS offline
+[05/11/18, 12:03:40:896] info: Store: SET_SUSPEND_STATUS true
+[05/11/18, 12:03:49:165] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "message": "",
+    "stack": "Error\n    at CatchSubscriber.pingPongObservable.timeout.catch [as selector] (/usr/lib/slack/resources/app.asar/src/renderer/background/client.ts:321:52)\n    at CatchSubscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/catch.js:104:31)\n    at TimeoutSubscriber.Subscriber._error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:128:26)\n    at TimeoutSubscriber.Subscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:102:18)\n    at AsyncAction.TimeoutSubscriber.dispatchTimeout (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/timeout.js:54:20)\n    at AsyncAction._execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:111:18)\n    at AsyncAction.execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:86:26)\n    at AsyncScheduler.flush (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncScheduler.js:36:32)",
+    "code": 4002
+  }
+}
+[05/11/18, 12:03:49:172] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 12:03:51:735] info: NetworkStatus: Waiting for network online…
+[05/11/18, 12:03:51:752] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 12:03:51:754] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 12:03:52:752] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 12:03:52:761] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 12:03:52:780] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "isTrusted": true,
+    "NONE": 0,
+    "CAPTURING_PHASE": 1,
+    "AT_TARGET": 2,
+    "BUBBLING_PHASE": 3,
+    "type": "error",
+    "target": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "currentTarget": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "eventPhase": 2,
+    "bubbles": false,
+    "cancelable": false,
+    "defaultPrevented": false,
+    "composed": false,
+    "timeStamp": 1265899.0450000002,
+    "srcElement": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "returnValue": true,
+    "cancelBubble": false,
+    "path": []
+  }
+}
+[05/11/18, 12:03:52:811] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 12:03:53:826] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 12:03:53:833] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 12:03:53:898] info: Store: SET_BACKGROUND_CLIENT_STATUS
+{
+  "status": "connected",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 12:03:54:485] info: BackgroundClient: Logged in
+{
+  "userId": "U9CC4BC1K",
+  "teamId": "T0253QGQ9",
+  "showBullet": true
+}
+[05/11/18, 12:03:56:925] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 12:03:57:329] info: Store: SET_NETWORK_STATUS online
+[05/11/18, 12:03:57:339] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/11/18, 12:04:24:648] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 12:04:24:770] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 12:17:17:666] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "1j77SkFXZ4AqJXW",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526008637.000109&team=T031FNTUT",
+  "msg": "1526008637.000109",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 12:17:46:749] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "pgVVfyHGlBvpPJB",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526008666.000134&team=T031FNTUT",
+  "msg": "1526008666.000134",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 12:17:50:627] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "wjggSgIKrAlL91y",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526008670.000111&team=T031FNTUT",
+  "msg": "1526008670.000111",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 12:18:09:492] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "qj88SnSELWp7oOp",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526008689.000029&team=T031FNTUT",
+  "msg": "1526008689.000029",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 12:18:23:380] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "GZKKtwTQDPWMyKx",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526008703.000043&team=T031FNTUT",
+  "msg": "1526008703.000043",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 12:18:32:734] info: Store: SET_SUSPEND_STATUS
+[05/11/18, 12:18:32:763] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 12:18:33:193] info: Store: SET_NETWORK_STATUS offline
+[05/11/18, 14:14:33:900] info: Store: SET_SUSPEND_STATUS true
+[05/11/18, 14:14:42:977] info: NetworkStatus: Waiting for network online…
+[05/11/18, 14:14:42:993] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 14:14:42:994] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 14:14:43:439] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "message": "",
+    "stack": "Error\n    at CatchSubscriber.pingPongObservable.timeout.catch [as selector] (/usr/lib/slack/resources/app.asar/src/renderer/background/client.ts:321:52)\n    at CatchSubscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/catch.js:104:31)\n    at TimeoutSubscriber.Subscriber._error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:128:26)\n    at TimeoutSubscriber.Subscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:102:18)\n    at AsyncAction.TimeoutSubscriber.dispatchTimeout (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/timeout.js:54:20)\n    at AsyncAction._execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:111:18)\n    at AsyncAction.execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:86:26)\n    at AsyncScheduler.flush (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncScheduler.js:36:32)",
+    "code": 4002
+  }
+}
+[05/11/18, 14:14:43:445] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 14:14:44:456] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 14:14:44:460] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 14:14:48:194] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 14:14:48:597] info: Store: SET_NETWORK_STATUS online
+[05/11/18, 14:14:48:600] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/11/18, 14:14:49:521] info: Store: SET_BACKGROUND_CLIENT_STATUS
+{
+  "status": "connected",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 14:14:50:098] info: BackgroundClient: Logged in
+{
+  "userId": "U9CC4BC1K",
+  "teamId": "T0253QGQ9",
+  "showBullet": true
+}
+[05/11/18, 14:15:12:776] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 14:15:12:892] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 14:16:18:178] info: NetworkStatus: Waiting for network online…
+[05/11/18, 14:16:18:356] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 14:24:47:388] info: Store: FOREGROUND_APP
+[05/11/18, 14:24:47:397] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:24:47:399] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:24:47:410] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:24:47:426] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:25:46:122] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:04:660] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:14:312] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:15:180] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:17:942] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:18:106] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:30:765] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:35:952] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:42:007] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:42:018] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:45:774] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:45:789] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:47:585] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:47:861] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:48:220] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:26:51:975] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    504,
+    354
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/11/18, 14:26:52:468] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:27:10:328] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:27:11:325] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:27:11:606] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:27:11:986] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:27:16:166] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/11/18, 14:27:16:627] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:27:16:641] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:33:36:339] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "j2JJtkU78J29kQj",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526016815.000219&team=T031FNTUT",
+  "msg": "1526016815.000219",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 14:33:40:166] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:33:40:176] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:33:52:075] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:33:52:097] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:34:42:189] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "mwXXSLc9XEVZR7v",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526016881.000137&team=T031FNTUT",
+  "msg": "1526016881.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 14:34:44:487] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:34:44:501] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:34:54:913] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:34:54:926] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:34:59:972] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "76JJSPfNKEPXJgO",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526016899.000104&team=T031FNTUT",
+  "msg": "1526016899.000104",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 14:35:02:247] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:35:02:261] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:35:04:813] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:35:04:826] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:35:06:868] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "VmZZFOhJRgN2VAN",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526016906.000077&team=T031FNTUT",
+  "msg": "1526016906.000077",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 14:37:40:700] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:37:40:719] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:37:43:008] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:37:43:025] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:52:33:104] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:52:33:128] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:52:49:100] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:52:49:126] info: Store: SET_FULL_SCREEN
+[05/11/18, 14:53:04:714] info: Store: SET_SUSPEND_STATUS
+[05/11/18, 14:53:04:756] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 14:53:05:275] info: Store: SET_NETWORK_STATUS offline
+[05/11/18, 14:59:59:909] info: Store: SET_SUSPEND_STATUS true
+[05/11/18, 15:00:01:759] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "message": "",
+    "stack": "Error\n    at CatchSubscriber.pingPongObservable.timeout.catch [as selector] (/usr/lib/slack/resources/app.asar/src/renderer/background/client.ts:321:52)\n    at CatchSubscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/catch.js:104:31)\n    at TimeoutSubscriber.Subscriber._error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:128:26)\n    at TimeoutSubscriber.Subscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:102:18)\n    at AsyncAction.TimeoutSubscriber.dispatchTimeout (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/timeout.js:54:20)\n    at AsyncAction._execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:111:18)\n    at AsyncAction.execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:86:26)\n    at AsyncScheduler.flush (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncScheduler.js:36:32)",
+    "code": 4002
+  }
+}
+[05/11/18, 15:00:01:761] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:10:240] info: NetworkStatus: Waiting for network online…
+[05/11/18, 15:00:10:245] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 15:00:10:246] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 15:00:11:245] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:00:11:248] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:00:11:255] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "isTrusted": true,
+    "NONE": 0,
+    "CAPTURING_PHASE": 1,
+    "AT_TARGET": 2,
+    "BUBBLING_PHASE": 3,
+    "type": "error",
+    "target": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "currentTarget": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "eventPhase": 2,
+    "bubbles": false,
+    "cancelable": false,
+    "defaultPrevented": false,
+    "composed": false,
+    "timeStamp": 4493904.735,
+    "srcElement": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "returnValue": true,
+    "cancelBubble": false,
+    "path": []
+  }
+}
+[05/11/18, 15:00:11:262] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:12:268] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:00:12:272] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:00:12:275] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "isTrusted": true,
+    "NONE": 0,
+    "CAPTURING_PHASE": 1,
+    "AT_TARGET": 2,
+    "BUBBLING_PHASE": 3,
+    "type": "error",
+    "target": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "currentTarget": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "eventPhase": 2,
+    "bubbles": false,
+    "cancelable": false,
+    "defaultPrevented": false,
+    "composed": false,
+    "timeStamp": 4494925.225,
+    "srcElement": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "returnValue": true,
+    "cancelBubble": false,
+    "path": []
+  }
+}
+[05/11/18, 15:00:12:278] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:13:282] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:00:13:285] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:00:13:288] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "isTrusted": true,
+    "NONE": 0,
+    "CAPTURING_PHASE": 1,
+    "AT_TARGET": 2,
+    "BUBBLING_PHASE": 3,
+    "type": "error",
+    "target": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "currentTarget": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "eventPhase": 2,
+    "bubbles": false,
+    "cancelable": false,
+    "defaultPrevented": false,
+    "composed": false,
+    "timeStamp": 4495938.875000001,
+    "srcElement": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "returnValue": true,
+    "cancelBubble": false,
+    "path": []
+  }
+}
+[05/11/18, 15:00:13:291] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:14:295] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:00:14:299] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:00:14:301] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "isTrusted": true,
+    "NONE": 0,
+    "CAPTURING_PHASE": 1,
+    "AT_TARGET": 2,
+    "BUBBLING_PHASE": 3,
+    "type": "error",
+    "target": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "currentTarget": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "eventPhase": 2,
+    "bubbles": false,
+    "cancelable": false,
+    "defaultPrevented": false,
+    "composed": false,
+    "timeStamp": 4496952.050000001,
+    "srcElement": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "returnValue": true,
+    "cancelBubble": false,
+    "path": []
+  }
+}
+[05/11/18, 15:00:14:305] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:15:245] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 15:00:15:246] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 15:00:15:310] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:00:15:313] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:00:15:316] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "isTrusted": true,
+    "NONE": 0,
+    "CAPTURING_PHASE": 1,
+    "AT_TARGET": 2,
+    "BUBBLING_PHASE": 3,
+    "type": "error",
+    "target": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "currentTarget": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "eventPhase": 2,
+    "bubbles": false,
+    "cancelable": false,
+    "defaultPrevented": false,
+    "composed": false,
+    "timeStamp": 4497966.54,
+    "srcElement": {
+      "CONNECTING": 0,
+      "OPEN": 1,
+      "CLOSING": 2,
+      "CLOSED": 3,
+      "url": "wss://mpmulti-yegc.lb.slack-msgs.com/websocket?flannel=2&start_args=no_channels%3D1&start_args=no_members%3D1&token=xoxs-2173832825-318412386053-319346593863-66c2ec00b7",
+      "readyState": 3,
+      "bufferedAmount": 0,
+      "extensions": "",
+      "protocol": "",
+      "binaryType": "blob"
+    },
+    "returnValue": true,
+    "cancelBubble": false,
+    "path": []
+  }
+}
+[05/11/18, 15:00:15:320] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:16:323] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:00:16:325] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:00:16:515] info: Store: SET_BACKGROUND_CLIENT_STATUS
+{
+  "status": "connected",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:00:17:068] info: BackgroundClient: Logged in
+{
+  "userId": "U9CC4BC1K",
+  "teamId": "T0253QGQ9",
+  "showBullet": true
+}
+[05/11/18, 15:00:20:526] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 15:00:20:932] info: Store: SET_NETWORK_STATUS online
+[05/11/18, 15:00:20:941] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/11/18, 15:00:42:494] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 15:00:42:715] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/11/18, 15:00:42:981] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "5800S4i20AV60XV",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526018442.000350&team=T031FNTUT",
+  "msg": "1526018442.000350",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:01:03:884] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:01:03:896] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:01:30:077] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:01:30:084] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:01:38:226] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "GZKKtYsQDPBoOEJ",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526018497.000327&team=T031FNTUT",
+  "msg": "1526018497.000327",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:05:38:997] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "oYJJF4t6AmmzERY",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526018738.000175&team=T031FNTUT",
+  "msg": "1526018738.000175",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:05:46:648] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:05:46:661] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:06:18:372] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:06:18:386] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:06:27:662] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "y8kkSguRYvvMojY",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526018787.000087&team=T031FNTUT",
+  "msg": "1526018787.000087",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:06:54:073] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:06:54:098] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:06:59:142] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:06:59:163] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:07:36:898] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "lO66hBCqxllyO0k",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526018856.000130&team=T031FNTUT",
+  "msg": "1526018856.000130",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:07:54:756] info: Store: FOREGROUND_APP
+[05/11/18, 15:07:54:776] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:07:54:779] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:07:54:782] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:07:54:790] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:07:57:323] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:07:57:352] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:13:55:429] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:13:55:452] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:04:606] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:06:451] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/11/18, 15:14:11:657] info: Store: SELECT_CHANNEL C04KQT6L8
+[05/11/18, 15:14:15:871] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[05/11/18, 15:14:44:970] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:44:978] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:49:586] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:49:599] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:51:974] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:51:992] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:56:632] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:56:640] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:59:437] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:14:59:447] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:15:04:839] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "BgEEfyFjqnnrJDD",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526019304.000149&team=T031FNTUT",
+  "msg": "1526019304.000149",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:15:11:598] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "66VVSWH50QQ2qMM",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526019311.000066&team=T031FNTUT",
+  "msg": "1526019311.000066",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/11/18, 15:15:14:881] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:15:14:889] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:15:50:263] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:15:50:284] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:16:17:053] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "D5WHV4ZQW",
+  "content": "",
+  "id": "JZXXtoIL188kZ88",
+  "launchUri": "slack://channel?id=D5WHV4ZQW&message=1526019376.000251&team=T031FNTUT",
+  "msg": "1526019376.000251",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
