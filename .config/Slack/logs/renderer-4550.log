@@ -1260,3 +1260,131 @@
   "teamId": "T031FNTUT",
   "title": "[REDACTED]"
 }
+[05/11/18, 15:27:24:203] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:27:24:214] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:29:42:141] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:29:42:151] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:30:21:609] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:30:21:623] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:33:45:545] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:33:45:555] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:06:698] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:06:759] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:08:908] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:08:925] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:13:174] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:13:201] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:13:493] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:13:513] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:37:30:946] info: Store: SET_NETWORK_STATUS offline
+[05/11/18, 15:37:38:488] info: NetworkStatus: Waiting for network online…
+[05/11/18, 15:37:38:497] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 15:37:38:498] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 15:37:43:751] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 15:37:44:155] info: Store: SET_NETWORK_STATUS online
+[05/11/18, 15:37:44:157] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/11/18, 15:37:55:899] info: Store: SET_NETWORK_STATUS offline
+[05/11/18, 15:38:02:838] info: NetworkStatus: Waiting for network online…
+[05/11/18, 15:38:02:845] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 15:38:02:853] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 15:38:08:043] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 15:38:08:445] info: Store: SET_NETWORK_STATUS online
+[05/11/18, 15:38:08:449] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/11/18, 15:38:09:491] info: Store: SET_NETWORK_STATUS offline
+[05/11/18, 15:38:34:550] info: NetworkStatus: Waiting for network online…
+[05/11/18, 15:38:34:564] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/11/18, 15:38:34:567] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/11/18, 15:38:34:667] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "message": "",
+    "stack": "Error\n    at CatchSubscriber.pingPongObservable.timeout.catch [as selector] (/usr/lib/slack/resources/app.asar/src/renderer/background/client.ts:321:52)\n    at CatchSubscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/catch.js:104:31)\n    at TimeoutSubscriber.Subscriber._error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:128:26)\n    at TimeoutSubscriber.Subscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:102:18)\n    at AsyncAction.TimeoutSubscriber.dispatchTimeout (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/timeout.js:54:20)\n    at AsyncAction._execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:111:18)\n    at AsyncAction.execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:86:26)\n    at AsyncScheduler.flush (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncScheduler.js:36:32)",
+    "code": 4002
+  }
+}
+[05/11/18, 15:38:34:670] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:38:35:676] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[05/11/18, 15:38:35:680] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T0253QGQ9",
+  "existing": {
+    "teamId": "T0253QGQ9",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[05/11/18, 15:38:35:818] info: Store: SET_BACKGROUND_CLIENT_STATUS
+{
+  "status": "connected",
+  "teamId": "T0253QGQ9"
+}
+[05/11/18, 15:38:36:399] info: BackgroundClient: Logged in
+{
+  "userId": "U9CC4BC1K",
+  "teamId": "T0253QGQ9",
+  "showBullet": true
+}
+[05/11/18, 15:38:39:754] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/11/18, 15:38:40:156] info: Store: SET_NETWORK_STATUS online
+[05/11/18, 15:38:40:157] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/11/18, 15:40:40:710] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:40:40:718] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:40:42:481] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:40:44:315] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:40:44:880] info: Store: SET_FULL_SCREEN
+[05/11/18, 15:40:45:875] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    125
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}

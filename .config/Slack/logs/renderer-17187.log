@@ -1,0 +1,132 @@
+[05/12/18, 14:12:52:443] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[05/12/18, 14:12:52:444] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/12/18, 14:12:52:441      ║
+[05/12/18, 14:12:52:444] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[05/12/18, 14:12:52:536] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/12/18, 14:12:52:869] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[05/12/18, 14:12:52:869] error: Desktop module calls failed to load
+[05/12/18, 14:12:52:892] info: cld3::loadModule: loading cld3 module
+[05/12/18, 14:12:52:912] info: cld3Loader::loadModule: running environment is NODE
+[05/12/18, 14:12:52:912] info: cld3Loader::loadModule: constructed module object for runtime
+[05/12/18, 14:12:53:059] info: cld3Loader::initializeRuntime: successfully initialized module
+[05/12/18, 14:12:53:059] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[05/12/18, 14:12:53:069] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[05/12/18, 14:12:53:080] info: Main window preload script finished
+{
+  "readyTime": 904.508714
+}
+[05/12/18, 14:12:55:972] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:56:981] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:57:213] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[05/12/18, 14:12:57:214] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:57:216] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/12/18, 14:12:57:626] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:57:627] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:57:628] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:57:708] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[05/12/18, 14:12:58:190] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[05/12/18, 14:12:58:624] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[05/12/18, 14:12:58:624] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[05/12/18, 14:12:58:624] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[05/12/18, 14:12:58:624] info: Setting ja
+[05/12/18, 14:12:58:625] info: Result: {"ja":"ja-JP"}
+[05/12/18, 14:12:58:627] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[05/12/18, 14:12:58:627] info: Loading dictionary for language ja-JP
+[05/12/18, 14:12:58:628] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/12/18, 14:12:58:788] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[05/12/18, 14:12:58:788] info: Loading dictionary for language ja-JP
+[05/12/18, 14:12:58:789] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/12/18, 14:12:59:737] info: Loading dictionary for language ja-JP
+[05/12/18, 14:12:59:738] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/12/18, 14:12:59:742] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/12/18, 14:12:59:742] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/12/18, 14:12:59:906] info: Loading dictionary for language ja-JP
+[05/12/18, 14:12:59:907] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/12/18, 14:12:59:909] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/12/18, 14:12:59:909] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/12/18, 14:12:59:979] info: Loading dictionary for language ja-JP
+[05/12/18, 14:12:59:979] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/12/18, 14:12:59:981] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/12/18, 14:12:59:981] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/12/18, 14:13:00:338] info: Loading dictionary for language ja-JP
+[05/12/18, 14:13:00:338] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/12/18, 14:13:00:340] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/12/18, 14:13:00:340] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/12/18, 14:13:00:508] info: dictionary for ja-JP_ja-JP is not available
+[05/12/18, 14:13:00:509] info: Actually installing spell check provider to Electron
+[05/12/18, 14:13:00:599] info: dictionary for ja-JP_ja-JP is not available
+[05/12/18, 14:15:47:593] info: Store: SET_FULL_SCREEN
+[05/12/18, 14:15:49:840] info: Store: SET_FULL_SCREEN
+[05/12/18, 14:15:50:027] info: Store: SELECT_CHANNEL D5A4B1X97
+[05/12/18, 14:15:52:273] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[05/12/18, 14:15:52:273] info: Loading dictionary for language en-US
+[05/12/18, 14:15:52:273] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/12/18, 14:15:52:277] info: Setting current spellchecker to en-US, requested language was en-US
+[05/12/18, 14:15:52:277] info: Creating node-spellchecker instance
+[05/12/18, 14:15:52:278] info: Actually installing spell check provider to Electron
+[05/12/18, 14:15:55:187] info: Unloading spellchecker
+[05/12/18, 14:15:55:210] info: Unloading spellchecker
+[05/12/18, 14:15:55:218] info: Store: SET_FULL_SCREEN
+[05/12/18, 14:15:55:311] info: Store: SET_FULL_SCREEN
+[05/12/18, 14:16:09:117] info: Store: SET_FULL_SCREEN
+[05/12/18, 14:16:09:917] info: Store: SET_FULL_SCREEN
