@@ -1137,3 +1137,36 @@
 [05/15/18, 16:52:54:945] info: Store: SELECT_CHANNEL C04KQT6L8
 [05/15/18, 16:52:56:738] info: Store: SET_FULL_SCREEN
 [05/15/18, 16:52:56:743] info: Store: SET_FULL_SCREEN
+[05/15/18, 17:27:25:576] info: Store: SET_SUSPEND_STATUS
+[05/15/18, 17:27:26:076] info: Store: SET_NETWORK_STATUS offline
+[05/15/18, 17:33:42:933] info: Store: SET_SUSPEND_STATUS true
+[05/15/18, 17:33:51:558] info: NetworkStatus: Waiting for network online…
+[05/15/18, 17:33:51:580] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/15/18, 17:33:51:581] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[05/15/18, 17:33:55:574] info: Store: SET_FULL_SCREEN
+[05/15/18, 17:33:55:614] info: Store: SET_FULL_SCREEN
+[05/15/18, 17:33:57:616] info: Store: MAIN_WINDOW_FOCUSED
+[05/15/18, 17:33:58:093] info: Store: RELOAD
+{
+  "everything": false
+}
+[05/15/18, 17:33:58:102] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[05/15/18, 17:33:58:103] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
