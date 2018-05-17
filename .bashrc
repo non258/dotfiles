@@ -137,7 +137,6 @@ function mkjava(){
   java $1
 }
 
-alias robo='javac -cp ~/robocode/libs/robocode.jar'
 
 
 #cd && mkdir
@@ -171,6 +170,10 @@ alias cddw='cd /home/nozomi/Downloads'
 alias open='xdg-open ./'
 
 alias minit='cpull'
+
+#javac -cp
+alias robo='javac -cp ~/robocode/libs/robocode.jar'
+alias gf='javac -cp /usr/share/greenfoot/extensions/greenfoot.jar'
 
 #exec
 alias res='exec $SHELL'
