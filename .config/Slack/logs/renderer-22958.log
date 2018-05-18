@@ -1,0 +1,244 @@
+[05/17/18, 19:35:01:329] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[05/17/18, 19:35:01:330] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/17/18, 19:35:01:326      ║
+[05/17/18, 19:35:01:330] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[05/17/18, 19:35:01:447] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/17/18, 19:35:01:885] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[05/17/18, 19:35:01:885] error: Desktop module calls failed to load
+[05/17/18, 19:35:01:916] info: cld3::loadModule: loading cld3 module
+[05/17/18, 19:35:01:946] info: cld3Loader::loadModule: running environment is NODE
+[05/17/18, 19:35:01:946] info: cld3Loader::loadModule: constructed module object for runtime
+[05/17/18, 19:35:02:170] info: cld3Loader::initializeRuntime: successfully initialized module
+[05/17/18, 19:35:02:170] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[05/17/18, 19:35:02:184] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[05/17/18, 19:35:02:201] info: Main window preload script finished
+{
+  "readyTime": 1210.439068
+}
+[05/17/18, 19:35:05:248] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:05:257] info: Store: MAIN_WINDOW_SHOWN
+[05/17/18, 19:35:05:300] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:05:311] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:05:361] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:05:382] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[05/17/18, 19:35:06:141] error: info() expects 1 or more arguments to be passed after the required label
+[05/17/18, 19:35:06:724] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:06:727] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T0253QGQ9"
+}
+[05/17/18, 19:35:06:756] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/17/18, 19:35:06:757] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:06:758] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/17/18, 19:35:06:758] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/17/18, 19:35:06:768] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/17/18, 19:35:07:216] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 9327.000897
+}
+[05/17/18, 19:35:07:345] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:346] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:347] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:438] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:959] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[05/17/18, 19:35:08:246] info: Unloading spellchecker
+[05/17/18, 19:35:08:246] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:08:247] info: Unloading spellchecker
+[05/17/18, 19:35:08:486] info: Couldn't detect language for text of length '369': Not enough reliable text, ignoring sample
+[05/17/18, 19:35:08:588] info: Couldn't detect language for text of length '369': Not enough reliable text, ignoring sample
+[05/17/18, 19:35:30:252] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:38:324] info: Unloading spellchecker
+[05/17/18, 19:35:38:333] info: Unloading spellchecker
+[05/17/18, 19:35:38:381] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:03:300] info: Unloading spellchecker
+[05/17/18, 19:38:03:329] info: Store: MAIN_WINDOW_FOCUSED
+[05/17/18, 19:38:03:331] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:05:933] info: Unloading spellchecker
+[05/17/18, 19:38:05:937] info: Unloading spellchecker
+[05/17/18, 19:38:06:007] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:06:008] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:11:299] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:11:366] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:42:07:189] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U17H8MQKB-g7ad138e0bce-512",
+  "channel": "C5BADNG5N",
+  "content": "[REDACTED]",
+  "id": "V0X6clhJRA1RvZo",
+  "launchUri": "slack://channel?id=C5BADNG5N&message=1526553727.000003&team=T031FNTUT",
+  "msg": "1526553727.000003",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/17/18, 20:20:30:730] info: Unloading spellchecker
+[05/17/18, 20:20:30:755] info: Store: MAIN_WINDOW_FOCUSED
+[05/17/18, 20:20:32:827] info: Store: SELECT_CHANNEL C5BADNG5N
+[05/17/18, 20:20:35:164] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[05/17/18, 20:20:35:164] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[05/17/18, 20:20:35:164] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[05/17/18, 20:20:35:165] info: Setting ja
+[05/17/18, 20:20:35:165] info: Result: {"ja":"ja-JP"}
+[05/17/18, 20:20:35:167] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[05/17/18, 20:20:35:168] info: Loading dictionary for language ja-JP
+[05/17/18, 20:20:35:168] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/17/18, 20:20:35:170] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/17/18, 20:20:35:170] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:20:35:690] info: Loading dictionary for language ja-JP
+[05/17/18, 20:20:35:691] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/17/18, 20:20:35:692] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/17/18, 20:20:35:692] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:20:35:843] info: Loading dictionary for language ja-JP
+[05/17/18, 20:20:35:843] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/17/18, 20:20:35:844] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/17/18, 20:20:35:845] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:20:36:154] info: dictionary for ja-JP_ja-JP is not available
+[05/17/18, 20:20:36:155] info: Actually installing spell check provider to Electron
+[05/17/18, 20:20:45:692] info: Store: SET_SUSPEND_STATUS
+[05/17/18, 20:20:45:778] error: May-17 20:20:45.778 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+[05/17/18, 20:20:46:185] info: Store: SET_NETWORK_STATUS offline
+[05/17/18, 20:20:53:456] info: Unloading spellchecker
+[05/17/18, 20:20:53:457] info: Unloading spellchecker
+[05/17/18, 20:20:53:474] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:20:53:475] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:05:950] info: Store: SET_SUSPEND_STATUS true
+[05/17/18, 20:23:08:721] info: Restoring spellchecker
+[05/17/18, 20:23:08:725] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[05/17/18, 20:23:08:727] info: Loading dictionary for language ja-JP
+[05/17/18, 20:23:08:728] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[05/17/18, 20:23:08:744] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:08:747] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:08:750] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[05/17/18, 20:23:08:752] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:23:09:286] info: Loading dictionary for language ja-JP
+[05/17/18, 20:23:09:286] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:23:09:298] info: Loading dictionary for language ja-JP
+[05/17/18, 20:23:09:299] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:23:09:310] info: dictionary for ja-JP_ja-JP is not available
+[05/17/18, 20:23:10:907] info: Unloading spellchecker
+[05/17/18, 20:23:10:911] info: Unloading spellchecker
+[05/17/18, 20:23:10:967] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:10:968] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:14:617] info: Restoring spellchecker
+[05/17/18, 20:23:14:622] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[05/17/18, 20:23:14:625] info: Loading dictionary for language ja-JP
+[05/17/18, 20:23:14:626] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:23:14:725] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:14:725] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:15:170] info: Loading dictionary for language ja-JP
+[05/17/18, 20:23:15:171] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:23:15:181] info: Loading dictionary for language ja-JP
+[05/17/18, 20:23:15:181] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/17/18, 20:23:15:192] info: dictionary for ja-JP_ja-JP is not available
+[05/17/18, 20:23:16:130] info: Store: APP_COMMAND browser-backward
+[05/17/18, 20:23:16:310] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/17/18, 20:23:16:620] info: Unloading spellchecker
+[05/17/18, 20:23:16:621] info: Unloading spellchecker
+[05/17/18, 20:23:16:622] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:16:652] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:16:867] info: Couldn't detect language for text of length '369': Not enough reliable text, ignoring sample
+[05/17/18, 20:23:19:983] info: Store: SET_NETWORK_STATUS online
+[05/17/18, 20:51:34:999] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:51:35:676] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:51:42:699] info: Store: SET_SUSPEND_STATUS
+[05/17/18, 20:51:42:706] error: May-17 20:51:42.706 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+[05/17/18, 20:51:43:167] info: Store: SET_NETWORK_STATUS offline
+[05/18/18, 12:34:07:908] info: Store: SET_SUSPEND_STATUS true
+[05/18/18, 12:34:07:992] error: May-18 12:34:07.992 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+[05/18/18, 12:34:18:948] info: Restoring spellchecker
+[05/18/18, 12:34:18:982] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[05/18/18, 12:34:18:987] info: Loading dictionary for language ja-JP
+[05/18/18, 12:34:18:987] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/18/18, 12:34:19:103] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:34:19:140] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:34:19:504] info: Loading dictionary for language ja-JP
+[05/18/18, 12:34:19:505] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/18/18, 12:34:19:512] info: Loading dictionary for language ja-JP
+[05/18/18, 12:34:19:512] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[05/18/18, 12:34:19:527] info: dictionary for ja-JP_ja-JP is not available
+[05/18/18, 12:34:20:464] info: Store: RELOAD
+{
+  "everything": false
+}
+[05/18/18, 12:34:20:489] info: Window is unloading, window.desktop is no longer accessible

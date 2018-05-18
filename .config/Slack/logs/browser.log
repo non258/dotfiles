@@ -5974,3 +5974,579 @@
 [05/17/18, 16:57:37:296] info: WebContentsMediator: Attaching to new webContents
 [05/17/18, 16:57:37:789] info: Store: SET_FULL_SCREEN
 [05/17/18, 16:57:37:837] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:34:58:211] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[05/17/18, 19:34:58:212] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/17/18, 19:34:58:208      ║
+[05/17/18, 19:34:58:212] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[05/17/18, 19:34:58:696] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/17/18, 19:34:58:907] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/nozomi/dotfiles/.config/Slack/logs/recorded-trace
+[05/17/18, 19:34:58:915] info: Configuring uncaughtExceptionHandler
+[05/17/18, 19:34:58:915] info: Configuring unhandledRejectionHandler
+[05/17/18, 19:34:58:915] info: Registered with apiKey acaff8df67924f677747922423057034
+[05/17/18, 19:34:59:311] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T031FNTUT",
+    "teamsByIndex": [
+      "T031FNTUT",
+      "T0253QGQ9"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "enterprise": {
+    "T031FNTUT": "",
+    "T0253QGQ9": ""
+  },
+  "settings": {
+    "appVersion": "3.2.0-beta25a7a50e",
+    "versionName": "Cartoon Heroes",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 10,
+      "build": 0
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "rxLogging": false,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "defaultSigninTeam": null,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "isSignedIntoSlackOrg": false,
+    "isGpuCompositionAvailable": true,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "isOpenExternalShellForced": false,
+    "PrefSSBFileDownloadPath": "/home/nozomi/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "Linux Mint 18.3 Sylvia",
+      "release": "sylvia",
+      "desktopEnvironment": "X-Cinnamon"
+    }
+  },
+  "teams": "[REDACTED]",
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1024,
+        749
+      ],
+      "position": [
+        574,
+        125
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  },
+  "tokens": "[REDACTED]"
+}
+[05/17/18, 19:34:59:365] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T031FNTUT"
+}
+[05/17/18, 19:34:59:366] info: Store: UPDATE_SETTINGS
+{
+  "isSignedIntoSlackOrg": false
+}
+[05/17/18, 19:34:59:368] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[05/17/18, 19:34:59:630] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 10,
+    "build": 0
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.2.0-beta25a7a50e",
+  "versionName": "Cartoon Heroes",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "isGpuCompositionAvailable": true,
+  "linux": {
+    "os": "Linux Mint 18.3 Sylvia",
+    "release": "sylvia",
+    "desktopEnvironment": "X-Cinnamon"
+  }
+}
+[05/17/18, 19:34:59:632] info: AutoLoginEpic: Checking for autologin.
+[05/17/18, 19:34:59:636] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 19:34:59:639] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[05/17/18, 19:34:59:640] info: BrowserViewManager: Starting initialization
+[05/17/18, 19:34:59:640] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:34:59:640] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:34:59:641] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 19:34:59:642] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T031FNTUT",
+  "state": "unloaded"
+}
+[05/17/18, 19:34:59:646] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T031FNTUT | start |            |
+|-----------+-------+------------+
+| T0253QGQ9 |       |            |
++-----------+-------+------------+
+[05/17/18, 19:34:59:650] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T0253QGQ9"
+}
+[05/17/18, 19:34:59:650] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T0253QGQ9"
+}
+[05/17/18, 19:34:59:651] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 19:34:59:652] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "teamId": "T0253QGQ9",
+  "state": "unloaded"
+}
+[05/17/18, 19:34:59:652] info: Background Clients Update: 
++-----------+-------+------------+
+|           | Full  | Background |
+|-----------+-------+------------+
+| T031FNTUT | start |            |
+|-----------+-------+------------+
+| T0253QGQ9 | start |            |
++-----------+-------+------------+
+[05/17/18, 19:34:59:668] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:34:59:671] info: BrowserViewManager: Finished initialization
+[05/17/18, 19:34:59:673] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1024,
+      749
+    ],
+    "position": [
+      574,
+      125
+    ],
+    "isMaximized": false
+  }
+}
+[05/17/18, 19:34:59:693] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[05/17/18, 19:34:59:695] info: App: Welcome to Slack 3.2.0-beta25a7a50e x64
+[05/17/18, 19:34:59:695] info: App load time: 1,806816061
+[05/17/18, 19:35:01:002] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[05/17/18, 19:35:01:004] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:01:541] info: Store: SET_NETWORK_STATUS online
+[05/17/18, 19:35:05:244] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 5596 ms
+[05/17/18, 19:35:05:244] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:05:247] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T031FNTUT | loading |            |
+|-----------+---------+------------+
+| T0253QGQ9 | start   |            |
++-----------+---------+------------+
+[05/17/18, 19:35:05:251] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[05/17/18, 19:35:05:252] info: Store: MAIN_WINDOW_SHOWN
+[05/17/18, 19:35:05:299] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:05:300] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:05:328] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:05:367] info: WebContents LifeCycle: webContents:4 from 'unloaded' to 'loaded' took 5713 ms
+[05/17/18, 19:35:05:367] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[05/17/18, 19:35:05:375] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T031FNTUT | loading |            |
+|-----------+---------+------------+
+| T0253QGQ9 | loading |            |
++-----------+---------+------------+
+[05/17/18, 19:35:05:540] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:05:653] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T0253QGQ9"
+}
+[05/17/18, 19:35:06:140] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/17/18, 19:35:06:150] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:06:156] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/17/18, 19:35:06:170] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/17/18, 19:35:06:289] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1024,
+    749
+  ],
+  "position": [
+    575,
+    150
+  ],
+  "isMaximized": false
+}
+[05/17/18, 19:35:07:116] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:213] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:220] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 1977 ms
+[05/17/18, 19:35:07:220] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/17/18, 19:35:07:221] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T031FNTUT | ready   |            |
+|-----------+---------+------------+
+| T0253QGQ9 | loading |            |
++-----------+---------+------------+
+[05/17/18, 19:35:07:351] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T031FNTUT",
+  "enterpriseId": ""
+}
+[05/17/18, 19:35:08:014] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 19:35:08:142] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 19:35:08:176] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:30:216] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:35:38:367] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:03:292] info: Store: MAIN_WINDOW_FOCUSED
+[05/17/18, 19:38:03:303] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:05:929] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:05:967] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:11:264] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:38:11:290] info: Store: SET_FULL_SCREEN
+[05/17/18, 19:42:07:180] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U17H8MQKB-g7ad138e0bce-512",
+  "channel": "C5BADNG5N",
+  "content": "[REDACTED]",
+  "id": "V0X6clhJRA1RvZo",
+  "launchUri": "slack://channel?id=C5BADNG5N&message=1526553727.000003&team=T031FNTUT",
+  "msg": "1526553727.000003",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[05/17/18, 19:42:07:185] info: Creating new Electron notification.
+[05/17/18, 20:20:30:714] info: Store: MAIN_WINDOW_FOCUSED
+[05/17/18, 20:20:32:744] info: Store: SELECT_CHANNEL C5BADNG5N
+[05/17/18, 20:20:34:794] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 20:20:35:171] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 20:20:45:690] info: Store: SET_SUSPEND_STATUS
+[05/17/18, 20:20:46:184] info: Store: SET_NETWORK_STATUS offline
+[05/17/18, 20:20:53:457] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:20:53:472] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:05:944] info: Store: SET_SUSPEND_STATUS true
+[05/17/18, 20:23:08:736] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:08:744] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:08:769] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 20:23:10:911] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:10:952] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:14:611] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:14:616] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:14:653] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 20:23:16:129] info: Store: APP_COMMAND browser-backward
+[05/17/18, 20:23:16:158] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/17/18, 20:23:16:313] info: WebContentsMediator: Attaching to new webContents
+[05/17/18, 20:23:16:615] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:16:629] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:23:19:981] info: Store: SET_NETWORK_STATUS online
+[05/17/18, 20:51:34:994] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:51:35:674] info: Store: SET_FULL_SCREEN
+[05/17/18, 20:51:42:687] info: Store: SET_SUSPEND_STATUS
+[05/17/18, 20:51:43:165] info: Store: SET_NETWORK_STATUS offline
+[05/18/18, 12:34:07:907] info: Store: SET_SUSPEND_STATUS true
+[05/18/18, 12:34:18:924] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:34:18:949] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:34:18:994] info: WebContentsMediator: Attaching to new webContents
+[05/18/18, 12:34:20:456] info: Store: RELOAD
+{
+  "everything": false
+}
+[05/18/18, 12:34:21:350] info: WebContents LifeCycle: webContents:3 from 'webapp-loaded' to 'loaded' took 61154130 ms
+[05/18/18, 12:34:21:351] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:34:21:352] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T031FNTUT | loading |            |
+|-----------+---------+------------+
+| T0253QGQ9 | loading |            |
++-----------+---------+------------+
+[05/18/18, 12:34:21:359] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'empty-page' took 9 ms
+[05/18/18, 12:34:21:359] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:34:21:361] info: Background Clients Update: 
++-----------+------------+------------+
+|           | Full       | Background |
+|-----------+------------+------------+
+| T031FNTUT | empty-page |            |
+|-----------+------------+------------+
+| T0253QGQ9 | loading    |            |
++-----------+------------+------------+
+[05/18/18, 12:34:21:749] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[05/18/18, 12:34:21:760] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:34:21:762] info: Store: SET_NETWORK_STATUS offline
+[05/18/18, 12:35:20:036] error: Telemetry: Failed to send telemetry request
+{
+  "error": {
+    "message": "net::ERR_INTERNET_DISCONNECTED",
+    "stack": "Error: net::ERR_INTERNET_DISCONNECTED"
+  }
+}
+[05/18/18, 12:35:47:384] info: Store: SET_NETWORK_STATUS online
+[05/18/18, 12:35:47:389] info: WebContents LifeCycle: webContents:3 from 'empty-page' to 'page-will-navigate' took 86029 ms
+[05/18/18, 12:35:47:389] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:47:391] info: Background Clients Update: 
++-----------+----------+------------+
+|           | Full     | Background |
+|-----------+----------+------------+
+| T031FNTUT | navigate |            |
+|-----------+----------+------------+
+| T0253QGQ9 | loading  |            |
++-----------+----------+------------+
+[05/18/18, 12:35:47:726] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:53:347] info: WebContents LifeCycle: webContents:3 from 'page-will-navigate' to 'loaded' took 5959 ms
+[05/18/18, 12:35:53:347] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:53:349] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T031FNTUT | loading |            |
+|-----------+---------+------------+
+| T0253QGQ9 | loading |            |
++-----------+---------+------------+
+[05/18/18, 12:35:53:706] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:53:953] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[05/18/18, 12:35:53:961] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[05/18/18, 12:35:54:548] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/18/18, 12:35:55:778] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:55:867] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:55:877] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2530 ms
+[05/18/18, 12:35:55:877] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/18/18, 12:35:55:878] info: Background Clients Update: 
++-----------+---------+------------+
+|           | Full    | Background |
+|-----------+---------+------------+
+| T031FNTUT | ready   |            |
+|-----------+---------+------------+
+| T0253QGQ9 | loading |            |
++-----------+---------+------------+
+[05/18/18, 12:35:55:991] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "teamId": "T031FNTUT",
+  "enterpriseId": ""
+}
+[05/18/18, 12:35:56:224] info: WebContentsMediator: Attaching to new webContents
+[05/18/18, 12:36:16:285] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[05/18/18, 12:36:18:305] info: WebContentsMediator: Attaching to new webContents
+[05/18/18, 12:36:18:617] info: WebContentsMediator: Attaching to new webContents
+[05/18/18, 12:40:35:447] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:40:35:474] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:54:44:527] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:54:44:563] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:54:44:636] info: WebContentsMediator: Attaching to new webContents
+[05/18/18, 12:58:39:743] info: Store: SET_FULL_SCREEN
+[05/18/18, 12:58:39:748] info: Store: SET_FULL_SCREEN
