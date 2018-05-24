@@ -125,26 +125,26 @@ if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
-#mklatex
-function mktex(){
-  platex $1.tex
-  dvipdf $1.dvi
-}
+# mklatex
+#function mktex(){
+#  platex $1.tex
+#  dvipdf $1.dvi
+#}
 
-#java
-function mkjava(){
-  javac $1.java
-  java $1
-}
+# java
+#function mkjava(){
+#  javac $1.java
+#  java $1
+#}
 
 
 
-#cd && mkdir
+# cd && mkdir
 function mkcd(){
   mkdir -p $1; cd $1
 }
 
-#cp
+# cp
 # function minit(){
 #  for opts in $@; do
 #   case $opts in
@@ -158,11 +158,11 @@ function mkcd(){
 #  done
 # }
 
-#nvim
+# nvim
 alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
 alias vi='nvim'
 
-#cd
+# cd
 alias c='cd ../'
 alias cdd='cd /home/nozomi/Documents'
 alias cddw='cd /home/nozomi/Downloads'
@@ -171,19 +171,19 @@ alias open='xdg-open ./'
 
 alias minit='cpull'
 
-#javac -cp
+# javac -cp
 alias robo='javac -cp ~/robocode/libs/robocode.jar'
 alias gf='javac -cp /usr/share/greenfoot/extensions/greenfoot.jar'
 
-#exec
+# exec
 alias res='exec $SHELL'
 
-#golang
+# golang
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin
 
-#ssh
+# ssh
 alias cos='ssh -p 59022 non@ctare.cloudapp.net'
 alias conoha='ssh  zomi@118.27.11.179'
 alias ubuntu='ssh nozomi@192.168.100.121'
