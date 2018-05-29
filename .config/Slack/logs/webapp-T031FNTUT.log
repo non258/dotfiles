@@ -34063,3 +34063,852 @@ info: May-28 13:23:43.775 [FOCUS-EVENT] Window focused
 info: May-28 13:23:43.866 [CHECK-UNREADS] Checking unreads after window became focused
 info: May-28 13:23:43.867 [CHECK-UNREADS] Not marking D5A4B1X97 because last_read >= latest && channel is read
 info: May-28 13:23:53.538 [FOCUS-EVENT] Window blurred
+info: May-28 13:43:19.442 [API-Q] (T031FNTUT) 7cc0767c-1527482599.440 rtm.shouldReload is ENQUEUED
+info: May-28 13:43:19.443 [API-Q] (T031FNTUT) 7cc0767c-1527482599.440 rtm.shouldReload is ACTIVE
+info: May-28 13:43:20.478 [API-Q] (T031FNTUT) 7cc0767c-1527482599.440 rtm.shouldReload is RESOLVED
+info: May-28 13:45:39.941 [INFO] sleep event!
+info: May-28 13:45:39.941 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: May-28 13:45:39.941 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: May-28 13:45:39.942 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: May-28 13:45:39.946 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: May-28 13:45:39.946 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: May-28 13:45:39.946 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: May-28 13:45:39.947 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: May-28 13:45:39.947 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: May-28 13:45:39.949 [INFO] Hiding the reconnection banner because we are disconnected
+info: May-28 13:45:40.170 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: May-28 13:45:42.439 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: May-28 13:45:44.439 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: May-28 13:45:46.439 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: May-28 13:45:48.439 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: May-28 13:55:58.866 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: May-28 13:55:58.943 [INFO] wake event! version:1527257850 start_ms:1527258826130
+info: May-28 13:55:58.944 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: May-28 13:55:58.945 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/5/28 13:55:58.945  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781755)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1773337)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1353931
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1130830
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:150827
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1440537
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:72066)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1450270)
+info: May-28 13:55:58.946 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 13:55:58.946 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 13:55:58.946 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 13:55:58.947 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 13:55:58.947 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 13:55:58.948 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 13:55:58.948 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-hg2b.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_7cc0767cc01684a46644b8ba94a98c0ef1436f6f%26agent_version%3D1527257850%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: May-28 13:55:59.280 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: May-28 13:55:59.281 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: May-28 13:55:59.281 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/5/28 13:55:59.282  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1780207)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781969)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1776008)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.6ec9d631c09f7f9e7442.min.js:1:2481820)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1485110)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1483893)
+info: May-28 13:56:00.900 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: May-28 13:56:00.100 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: May-28 13:56:00.110 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 463 ms
+warn: May-28 13:56:00.110 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: May-28 13:56:01.100 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: May-28 13:56:01.100 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: May-28 13:56:02.100 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: May-28 13:56:04.900 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: May-28 13:56:07.900 Internet connection still offline after 9 attempts (unable to reach API)
+info: May-28 13:56:39.563 [INFO] Internet connection has been re-established after 10 retry attempts; offline for NaN seconds
+info: May-28 13:56:39.563 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: May-28 13:56:39.563 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 13:56:39.564 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 13:56:39.564 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 13:56:39.565 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 13:56:39.565 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 13:56:39.565 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 13:56:39.565 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-28 13:56:40.748 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-28 13:56:40.748 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-28 13:56:40.752 [INFO] Got start data from Socket Manager; hydrating it
+info: May-28 13:56:40.771 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: May-28 13:56:40.772 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-28 13:56:40.775 [API-Q] (T031FNTUT) 7cc0767c-1527483400.773 auth.currentSessions is ENQUEUED
+info: May-28 13:56:40.777 [API-Q] (T031FNTUT) 7cc0767c-1527483400.773 auth.currentSessions is ACTIVE
+info: May-28 13:56:40.823 [API-Q] (T031FNTUT) 7cc0767c-1527483400.823 i18n.translations.get is ENQUEUED
+info: May-28 13:56:40.823 [API-Q] (T031FNTUT) 7cc0767c-1527483400.823 i18n.translations.get is ACTIVE
+info: May-28 13:56:40.940 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-28 13:56:40.940 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-28 13:56:40.940 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-28 13:56:40.941 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-28 13:56:40.941 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-28 13:56:40.941 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-28 13:56:40.941 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-28 13:56:40.942 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-28 13:56:40.942 [EVENTLOG] (T031FNTUT) fr=false, lc=false, lt=1527471534.000188
+info: May-28 13:56:40.942 [EVENTLOG] (T031FNTUT) fetching events since 1527471534.000188 (11866.999811887741 seconds ago)
+info: May-28 13:56:40.943 [API-Q] (T031FNTUT) 7cc0767c-1527483400.942 ublockworkaround.history is ENQUEUED
+info: May-28 13:56:40.943 [API-Q] (T031FNTUT) 7cc0767c-1527483400.942 ublockworkaround.history is ACTIVE
+info: May-28 13:56:40.944 [API-Q] (T031FNTUT) 7cc0767c-1527483400.944 dnd.teamInfo is ENQUEUED
+info: May-28 13:56:40.945 [API-Q] (T031FNTUT) 7cc0767c-1527483400.944 dnd.teamInfo is ACTIVE
+info: May-28 13:56:40.959 [API-Q] (T031FNTUT) 7cc0767c-1527483400.959 users.counts is ENQUEUED
+info: May-28 13:56:40.960 [API-Q] (T031FNTUT) 7cc0767c-1527483400.959 users.counts is ACTIVE
+info: May-28 13:56:41.556 [API-Q] (T031FNTUT) 7cc0767c-1527483400.773 auth.currentSessions is RESOLVED
+info: May-28 13:56:41.559 [API-Q] (T031FNTUT) 7cc0767c-1527483400.823 i18n.translations.get is RESOLVED
+info: May-28 13:56:41.669 [API-Q] (T031FNTUT) 7cc0767c-1527483400.944 dnd.teamInfo is RESOLVED
+info: May-28 13:56:41.699 [API-Q] (T031FNTUT) 7cc0767c-1527483400.942 ublockworkaround.history is RESOLVED
+info: May-28 13:56:41.700 [EVENTLOG] (T031FNTUT) nothing to process
+info: May-28 13:56:41.700 [EVENTLOG] (T031FNTUT) fetched finish (cancelled? false)
+info: May-28 13:56:41.701 [EVENTLOG] (T031FNTUT) dispatching signal and clearing timestamp
+info: May-28 13:56:41.704 [API-Q] (T031FNTUT) 7cc0767c-1527483400.959 users.counts is RESOLVED
+info: May-28 13:56:41.720 [UNREAD-COUNTS] Completed users.counts processing
+info: May-28 14:31:48.424 [INFO] sleep event!
+info: May-28 14:31:48.425 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: May-28 14:31:48.426 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: May-28 14:31:48.426 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: May-28 14:31:48.431 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: May-28 14:31:48.433 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: May-28 14:31:48.434 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: May-28 14:31:48.435 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: May-28 14:31:48.436 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: May-28 14:31:48.442 [INFO] Hiding the reconnection banner because we are disconnected
+info: May-28 14:31:48.491 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: May-28 14:31:51.563 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: May-28 14:31:53.563 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: May-28 14:31:55.563 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: May-28 14:31:57.563 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: May-28 14:57:19.139 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: May-28 14:57:19.291 [INFO] wake event! version:1527257850 start_ms:1527258826130
+info: May-28 14:57:19.291 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: May-28 14:57:19.292 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/5/28 14:57:19.293  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781755)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1773337)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1353931
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1130830
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:150827
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1440537
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:72066)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1450270)
+info: May-28 14:57:19.294 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 14:57:19.295 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 14:57:19.295 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 14:57:19.296 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 14:57:19.297 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 14:57:19.298 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 14:57:19.298 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-idmg.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_7cc0767cc01684a46644b8ba94a98c0ef1436f6f%26agent_version%3D1527257850%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: May-28 14:57:19.384 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: May-28 14:57:19.388 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: May-28 14:57:19.391 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/5/28 14:57:19.393  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1780207)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781969)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1776008)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.6ec9d631c09f7f9e7442.min.js:1:2481820)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1485110)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1483893)
+info: May-28 14:57:20.380 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: May-28 14:57:20.380 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: May-28 14:57:20.390 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 800 ms
+warn: May-28 14:57:21.380 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: May-28 14:57:21.380 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: May-28 14:57:21.390 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: May-28 14:57:23.380 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: May-28 14:57:26.380 Internet connection still offline after 8 attempts (unable to reach API)
+info: May-28 14:58:00.380 [INFO] Internet connection has been re-established after 9 retry attempts; offline for NaN seconds
+info: May-28 14:58:00.390 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: May-28 14:58:00.390 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 14:58:00.390 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 14:58:00.390 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 14:58:00.400 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 14:58:00.400 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 14:58:00.400 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 14:58:00.400 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-28 14:58:01.194 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-28 14:58:01.194 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-28 14:58:01.195 [INFO] Got start data from Socket Manager; hydrating it
+info: May-28 14:58:01.202 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: May-28 14:58:01.203 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-28 14:58:01.204 [API-Q] (T031FNTUT) 7cc0767c-1527487081.203 auth.currentSessions is ENQUEUED
+info: May-28 14:58:01.204 [API-Q] (T031FNTUT) 7cc0767c-1527487081.203 auth.currentSessions is ACTIVE
+info: May-28 14:58:01.241 [API-Q] (T031FNTUT) 7cc0767c-1527487081.241 i18n.translations.get is ENQUEUED
+info: May-28 14:58:01.242 [API-Q] (T031FNTUT) 7cc0767c-1527487081.241 i18n.translations.get is ACTIVE
+info: May-28 14:58:01.336 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-28 14:58:01.336 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-28 14:58:01.336 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-28 14:58:01.337 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-28 14:58:01.337 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-28 14:58:01.337 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-28 14:58:01.337 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-28 14:58:01.337 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-28 14:58:01.337 [EVENTLOG] (T031FNTUT) fr=false, lc=false, lt=1527471534.000188
+info: May-28 14:58:01.338 [EVENTLOG] (T031FNTUT) fetching events since 1527471534.000188 (15547.999811887741 seconds ago)
+info: May-28 14:58:01.338 [API-Q] (T031FNTUT) 7cc0767c-1527487081.338 ublockworkaround.history is ENQUEUED
+info: May-28 14:58:01.339 [API-Q] (T031FNTUT) 7cc0767c-1527487081.338 ublockworkaround.history is ACTIVE
+info: May-28 14:58:01.340 [API-Q] (T031FNTUT) 7cc0767c-1527487081.340 dnd.teamInfo is ENQUEUED
+info: May-28 14:58:01.341 [API-Q] (T031FNTUT) 7cc0767c-1527487081.340 dnd.teamInfo is ACTIVE
+info: May-28 14:58:01.352 [API-Q] (T031FNTUT) 7cc0767c-1527487081.352 users.counts is ENQUEUED
+info: May-28 14:58:01.353 [API-Q] (T031FNTUT) 7cc0767c-1527487081.352 users.counts is ACTIVE
+info: May-28 14:58:02.500 [API-Q] (T031FNTUT) 7cc0767c-1527487081.203 auth.currentSessions is RESOLVED
+info: May-28 14:58:02.530 [API-Q] (T031FNTUT) 7cc0767c-1527487081.241 i18n.translations.get is RESOLVED
+info: May-28 14:58:02.650 [API-Q] (T031FNTUT) 7cc0767c-1527487081.338 ublockworkaround.history is RESOLVED
+info: May-28 14:58:02.660 [EVENTLOG] (T031FNTUT) nothing to process
+info: May-28 14:58:02.670 [EVENTLOG] (T031FNTUT) fetched finish (cancelled? false)
+info: May-28 14:58:02.670 [EVENTLOG] (T031FNTUT) dispatching signal and clearing timestamp
+info: May-28 14:58:02.151 [API-Q] (T031FNTUT) 7cc0767c-1527487081.340 dnd.teamInfo is RESOLVED
+info: May-28 14:58:02.158 [API-Q] (T031FNTUT) 7cc0767c-1527487081.352 users.counts is RESOLVED
+info: May-28 14:58:02.176 [UNREAD-COUNTS] Completed users.counts processing
+info: May-28 15:07:04.275 [INFO] sleep event!
+info: May-28 15:07:04.275 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: May-28 15:07:04.276 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: May-28 15:07:04.276 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: May-28 15:07:04.276 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: May-28 15:07:04.276 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: May-28 15:07:04.277 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: May-28 15:07:04.282 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: May-28 15:07:04.288 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: May-28 15:07:04.294 [INFO] Hiding the reconnection banner because we are disconnected
+info: May-28 15:07:04.330 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: May-28 15:07:07.991 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: May-28 15:07:09.991 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: May-28 15:07:11.991 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: May-28 15:07:13.991 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: May-28 16:15:04.846 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: May-28 16:15:05.229 [INFO] wake event! version:1527257850 start_ms:1527258826130
+info: May-28 16:15:05.229 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: May-28 16:15:05.229 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/5/28 16:15:05.229  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781755)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1773337)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1353931
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1130830
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:150827
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1440537
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:72066)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1450270)
+info: May-28 16:15:05.230 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 16:15:05.230 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 16:15:05.230 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 16:15:05.230 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 16:15:05.230 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 16:15:05.231 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 16:15:05.231 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-qyxg.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_7cc0767cc01684a46644b8ba94a98c0ef1436f6f%26agent_version%3D1527257850%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: May-28 16:15:05.389 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: May-28 16:15:05.391 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: May-28 16:15:05.391 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/5/28 16:15:05.392  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1780207)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781969)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1776008)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.6ec9d631c09f7f9e7442.min.js:1:2481820)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1485110)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1483893)
+info: May-28 16:15:06.380 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: May-28 16:15:06.380 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: May-28 16:15:06.390 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 725 ms
+warn: May-28 16:15:06.390 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: May-28 16:15:07.380 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: May-28 16:15:07.390 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: May-28 16:15:08.380 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: May-28 16:15:10.380 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: May-28 16:15:12.380 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: May-28 16:15:15.380 Internet connection still offline after 10 attempts (unable to reach API)
+info: May-28 16:15:45.380 [INFO] Internet connection has been re-established after 11 retry attempts; offline for NaN seconds
+info: May-28 16:15:45.390 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: May-28 16:15:45.390 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 16:15:45.400 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 16:15:45.410 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 16:15:45.430 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 16:15:45.430 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 16:15:45.440 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 16:15:45.440 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-28 16:15:45.769 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-28 16:15:45.769 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-28 16:15:45.770 [INFO] Got start data from Socket Manager; hydrating it
+info: May-28 16:15:45.775 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: May-28 16:15:45.775 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-28 16:15:45.776 [API-Q] (T031FNTUT) 7cc0767c-1527491745.776 auth.currentSessions is ENQUEUED
+info: May-28 16:15:45.777 [API-Q] (T031FNTUT) 7cc0767c-1527491745.776 auth.currentSessions is ACTIVE
+info: May-28 16:15:45.810 [API-Q] (T031FNTUT) 7cc0767c-1527491745.810 i18n.translations.get is ENQUEUED
+info: May-28 16:15:45.810 [API-Q] (T031FNTUT) 7cc0767c-1527491745.810 i18n.translations.get is ACTIVE
+info: May-28 16:15:45.910 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-28 16:15:45.910 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-28 16:15:45.910 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-28 16:15:45.910 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-28 16:15:45.910 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-28 16:15:45.911 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-28 16:15:45.911 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-28 16:15:45.911 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-28 16:15:45.911 [EVENTLOG] (T031FNTUT) fr=false, lc=false, lt=1527471534.000188
+info: May-28 16:15:45.911 [EVENTLOG] (T031FNTUT) fetching events since 1527471534.000188 (20211.99981188774 seconds ago)
+info: May-28 16:15:45.912 [API-Q] (T031FNTUT) 7cc0767c-1527491745.912 ublockworkaround.history is ENQUEUED
+info: May-28 16:15:45.913 [API-Q] (T031FNTUT) 7cc0767c-1527491745.912 ublockworkaround.history is ACTIVE
+info: May-28 16:15:45.915 [API-Q] (T031FNTUT) 7cc0767c-1527491745.914 dnd.teamInfo is ENQUEUED
+info: May-28 16:15:45.915 [API-Q] (T031FNTUT) 7cc0767c-1527491745.914 dnd.teamInfo is ACTIVE
+info: May-28 16:15:45.930 [API-Q] (T031FNTUT) 7cc0767c-1527491745.930 users.counts is ENQUEUED
+info: May-28 16:15:45.930 [API-Q] (T031FNTUT) 7cc0767c-1527491745.930 users.counts is ACTIVE
+info: May-28 16:15:46.100 [API-Q] (T031FNTUT) 7cc0767c-1527491745.810 i18n.translations.get is RESOLVED
+info: May-28 16:15:46.553 [API-Q] (T031FNTUT) 7cc0767c-1527491745.776 auth.currentSessions is RESOLVED
+info: May-28 16:15:46.554 [API-Q] (T031FNTUT) 7cc0767c-1527491745.912 ublockworkaround.history is RESOLVED
+info: May-28 16:15:46.554 [EVENTLOG] (T031FNTUT) nothing to process
+info: May-28 16:15:46.554 [EVENTLOG] (T031FNTUT) fetched finish (cancelled? false)
+info: May-28 16:15:46.554 [EVENTLOG] (T031FNTUT) dispatching signal and clearing timestamp
+info: May-28 16:15:46.582 [API-Q] (T031FNTUT) 7cc0767c-1527491745.914 dnd.teamInfo is RESOLVED
+info: May-28 16:15:46.630 [API-Q] (T031FNTUT) 7cc0767c-1527491745.930 users.counts is RESOLVED
+info: May-28 16:15:46.646 [UNREAD-COUNTS] Completed users.counts processing
+info: May-28 16:21:42.150 [INFO] sleep event!
+info: May-28 16:21:42.160 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: May-28 16:21:42.170 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: May-28 16:21:42.220 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: May-28 16:21:42.230 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: May-28 16:21:42.230 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: May-28 16:21:42.240 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: May-28 16:21:42.270 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: May-28 16:21:42.270 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: May-28 16:21:42.350 [INFO] Hiding the reconnection banner because we are disconnected
+info: May-28 16:21:42.680 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: May-28 16:21:46.380 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: May-28 16:21:48.380 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: May-28 16:21:50.380 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: May-28 16:21:52.380 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: May-28 16:26:33.839 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: May-28 16:26:33.895 [INFO] wake event! version:1527257850 start_ms:1527258826130
+info: May-28 16:26:33.895 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: May-28 16:26:33.896 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/5/28 16:26:33.896  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781755)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1773337)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1353931
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1130830
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:150827
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1440537
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:72066)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1450270)
+info: May-28 16:26:33.896 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 16:26:33.897 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 16:26:33.897 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 16:26:33.901 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 16:26:33.901 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 16:26:33.902 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 16:26:33.902 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-xt6c.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_7cc0767cc01684a46644b8ba94a98c0ef1436f6f%26agent_version%3D1527257850%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: May-28 16:26:33.984 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: May-28 16:26:33.985 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: May-28 16:26:33.985 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/5/28 16:26:33.985  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1780207)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781969)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1776008)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.6ec9d631c09f7f9e7442.min.js:1:2481820)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1485110)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1483893)
+info: May-28 16:26:34.450 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: May-28 16:26:34.450 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: May-28 16:26:34.451 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 291 ms
+info: May-28 16:26:35.450 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: May-28 16:26:35.450 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: May-28 16:26:35.451 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: May-28 16:26:37.450 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: May-28 16:26:39.450 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: May-28 16:26:41.450 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: May-28 16:26:44.453 Internet connection still offline after 10 attempts (unable to reach API)
+info: May-28 16:27:13.450 [INFO] Internet connection has been re-established after 11 retry attempts; offline for NaN seconds
+info: May-28 16:27:13.451 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: May-28 16:27:13.451 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 16:27:13.452 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 16:27:13.452 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 16:27:13.457 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 16:27:13.457 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 16:27:13.468 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 16:27:13.468 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-28 16:27:14.184 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-28 16:27:14.185 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-28 16:27:14.186 [INFO] Got start data from Socket Manager; hydrating it
+info: May-28 16:27:14.194 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: May-28 16:27:14.194 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-28 16:27:14.198 [API-Q] (T031FNTUT) 7cc0767c-1527492434.198 auth.currentSessions is ENQUEUED
+info: May-28 16:27:14.200 [API-Q] (T031FNTUT) 7cc0767c-1527492434.198 auth.currentSessions is ACTIVE
+info: May-28 16:27:14.287 [API-Q] (T031FNTUT) 7cc0767c-1527492434.286 i18n.translations.get is ENQUEUED
+info: May-28 16:27:14.289 [API-Q] (T031FNTUT) 7cc0767c-1527492434.286 i18n.translations.get is ACTIVE
+info: May-28 16:27:14.488 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-28 16:27:14.490 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-28 16:27:14.490 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-28 16:27:14.491 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-28 16:27:14.491 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-28 16:27:14.491 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-28 16:27:14.491 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-28 16:27:14.492 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-28 16:27:14.492 [EVENTLOG] (T031FNTUT) fr=false, lc=false, lt=1527471534.000188
+info: May-28 16:27:14.492 [EVENTLOG] (T031FNTUT) fetching events since 1527471534.000188 (20900.99981188774 seconds ago)
+info: May-28 16:27:14.494 [API-Q] (T031FNTUT) 7cc0767c-1527492434.492 ublockworkaround.history is ENQUEUED
+info: May-28 16:27:14.494 [API-Q] (T031FNTUT) 7cc0767c-1527492434.492 ublockworkaround.history is ACTIVE
+info: May-28 16:27:14.496 [API-Q] (T031FNTUT) 7cc0767c-1527492434.495 dnd.teamInfo is ENQUEUED
+info: May-28 16:27:14.496 [API-Q] (T031FNTUT) 7cc0767c-1527492434.495 dnd.teamInfo is ACTIVE
+info: May-28 16:27:14.517 [API-Q] (T031FNTUT) 7cc0767c-1527492434.517 users.counts is ENQUEUED
+info: May-28 16:27:14.518 [API-Q] (T031FNTUT) 7cc0767c-1527492434.517 users.counts is ACTIVE
+info: May-28 16:27:14.909 [API-Q] (T031FNTUT) 7cc0767c-1527492434.198 auth.currentSessions is RESOLVED
+info: May-28 16:27:14.912 [API-Q] (T031FNTUT) 7cc0767c-1527492434.286 i18n.translations.get is RESOLVED
+info: May-28 16:27:15.216 [API-Q] (T031FNTUT) 7cc0767c-1527492434.492 ublockworkaround.history is RESOLVED
+info: May-28 16:27:15.217 [EVENTLOG] (T031FNTUT) nothing to process
+info: May-28 16:27:15.217 [EVENTLOG] (T031FNTUT) fetched finish (cancelled? false)
+info: May-28 16:27:15.217 [EVENTLOG] (T031FNTUT) dispatching signal and clearing timestamp
+info: May-28 16:27:15.221 [API-Q] (T031FNTUT) 7cc0767c-1527492434.517 users.counts is RESOLVED
+info: May-28 16:27:15.235 [UNREAD-COUNTS] Completed users.counts processing
+info: May-28 16:27:15.238 [API-Q] (T031FNTUT) 7cc0767c-1527492434.495 dnd.teamInfo is RESOLVED
+info: May-28 16:29:20.675 [INFO] sleep event!
+info: May-28 16:29:20.675 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: May-28 16:29:20.676 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: May-28 16:29:20.676 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: May-28 16:29:20.677 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: May-28 16:29:20.677 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: May-28 16:29:20.677 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: May-28 16:29:20.678 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: May-28 16:29:20.678 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: May-28 16:29:20.683 [INFO] Hiding the reconnection banner because we are disconnected
+info: May-28 16:29:20.731 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: May-28 16:29:24.333 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: May-28 16:29:26.333 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: May-28 16:29:28.333 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: May-28 16:29:30.333 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: May-28 16:49:44.847 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: May-28 16:49:44.911 [INFO] wake event! version:1527257850 start_ms:1527258826130
+info: May-28 16:49:44.911 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: May-28 16:49:44.912 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/5/28 16:49:44.914  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781755)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1773337)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1353931
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1130830
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846
+at https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:150827
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1440537
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1195846)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:72066)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.694878437810a76aa6b0.min.js:1:1450270)
+info: May-28 16:49:44.915 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: May-28 16:49:44.915 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: May-28 16:49:44.916 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: May-28 16:49:44.916 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: May-28 16:49:44.916 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 16:49:44.916 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 16:49:44.916 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-0ntl.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_7cc0767cc01684a46644b8ba94a98c0ef1436f6f%26agent_version%3D1527257850%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: May-28 16:49:44.999 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: May-28 16:49:45.000 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: May-28 16:49:45.000 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/5/28 16:49:45.100  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.4a035122f963656ddc47.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1000643
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1780207)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1781969)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1482221)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1782343)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1776008)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.6ec9d631c09f7f9e7442.min.js:1:2481820)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1485110)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.d8c2f9eaa49ad09bc433.min.js:1:1483893)
+info: May-28 16:49:45.980 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: May-28 16:49:45.980 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: May-28 16:49:45.990 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 531 ms
+info: May-28 16:49:46.980 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: May-28 16:49:46.980 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: May-28 16:49:46.990 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: May-28 16:49:48.980 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: May-28 16:49:50.980 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: May-28 16:49:52.980 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: May-28 16:49:55.980 Internet connection still offline after 10 attempts (unable to reach API)
+info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/28/18, 19:14:55:378      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: May-28 19:15:02.230 [BOOT] booted! pri:0 version:1527412751 start_ms:1527502499883 (2140ms ago)
+info: May-28 19:15:02.280 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: May-28 19:15:02.451 [SOCKET-MANAGER] (T031FNTUT) Changing from never_connected to prov_connect
+info: May-28 19:15:02.451 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-28 19:15:02.453 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-28 19:15:02.453 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-28 19:15:02.527 [FOCUS-EVENT] Window blurred
+info: May-28 19:15:02.600 [API-Q] (T031FNTUT) 70e62892-1527502502.598 experiments.getByUser called with reason: NO REASON PROVIDED
+info: May-28 19:15:02.600 [API-Q] (T031FNTUT) 70e62892-1527502502.598 experiments.getByUser is ENQUEUED
+info: May-28 19:15:02.603 [API-Q] (T031FNTUT) 70e62892-1527502502.598 experiments.getByUser is ACTIVE
+info: May-28 19:15:02.742 [API-Q] (T031FNTUT) 70e62892-1527502502.742 apps.actions.list called with reason: NO REASON PROVIDED
+info: May-28 19:15:02.742 [API-Q] (T031FNTUT) 70e62892-1527502502.742 apps.actions.list is ENQUEUED
+info: May-28 19:15:02.743 [API-Q] (T031FNTUT) 70e62892-1527502502.742 apps.actions.list is ACTIVE
+info: May-28 19:15:02.813 [API-Q] (T031FNTUT) 70e62892-1527502502.812 promo.banner called with reason: NO REASON PROVIDED
+info: May-28 19:15:02.813 [API-Q] (T031FNTUT) 70e62892-1527502502.812 promo.banner is ENQUEUED
+info: May-28 19:15:02.813 [API-Q] (T031FNTUT) 70e62892-1527502502.812 promo.banner is ACTIVE
+warn: May-28 19:15:02.982 updateTeamIcon was called, but missing an image to set
+info: May-28 19:15:03.124 [BOOT] Finalizing incremental boot
+info: May-28 19:15:03.127 [METRICS] Starting timers for metrics collection
+info: May-28 19:15:03.128 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+warn: May-28 19:15:03.257 not switching, it is the active im already
+info: May-28 19:15:03.295 [API-Q] (T031FNTUT) 70e62892-1527502503.295 promo.banner called with reason: NO REASON PROVIDED
+info: May-28 19:15:03.295 [API-Q] (T031FNTUT) 70e62892-1527502503.295 promo.banner is ENQUEUED
+info: May-28 19:15:03.295 [API-Q] (T031FNTUT) 70e62892-1527502503.295 promo.banner is ACTIVE
+info: May-28 19:15:03.348 [UNREAD-COUNTS] Counting unreads in D5A4B1X97 because (49) timestamps added
+info: May-28 19:15:03.390 [FOCUS-EVENT] Window blurred
+info: May-28 19:15:03.394 [FOCUS-EVENT] Window focused
+info: May-28 19:15:03.424 [BOOT-TIMING] (T031FNTUT) First meaningful paint: 6061ms
+info: May-28 19:15:03.614 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 19:15:03.615 [CHECK-UNREADS] Not marking D5A4B1X97 because not fully booted
+info: May-28 19:15:03.628 [FOCUS-EVENT] Window blurred
+info: May-28 19:15:03.661 [API-Q] (T031FNTUT) 70e62892-1527502502.598 experiments.getByUser is RESOLVED
+info: May-28 19:15:03.664 [API-Q] (T031FNTUT) 70e62892-1527502502.812 promo.banner is RESOLVED
+info: May-28 19:15:03.690 [API-Q] (T031FNTUT) 70e62892-1527502502.742 apps.actions.list is RESOLVED
+info: May-28 19:15:03.693 [API-Q] (T031FNTUT) 70e62892-1527502503.295 promo.banner is RESOLVED
+info: May-28 19:15:03.748 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: May-28 19:15:03.828 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-28 19:15:03.828 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-28 19:15:03.829 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: May-28 19:15:03.832 [INFO] Got start data from Socket Manager; hydrating it
+warn: May-28 19:15:03.845 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-28 19:15:03.907 [BOOT] Completed incremental boot
+info: May-28 19:15:03.908 [API-Q] (T031FNTUT) 70e62892-1527502503.908 i18n.translations.get called with reason: NO REASON PROVIDED
+info: May-28 19:15:03.908 [API-Q] (T031FNTUT) 70e62892-1527502503.908 i18n.translations.get is ENQUEUED
+info: May-28 19:15:03.908 [API-Q] (T031FNTUT) 70e62892-1527502503.908 i18n.translations.get is ACTIVE
+info: May-28 19:15:04.200 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-28 19:15:04.300 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-28 19:15:04.300 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-28 19:15:04.300 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-28 19:15:04.300 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-28 19:15:04.400 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-28 19:15:04.400 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-28 19:15:04.500 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-28 19:15:04.700 [BOOT] Finished first boot 1566 ms after DOM ready
+info: May-28 19:15:04.230 [API-Q] (T031FNTUT) 70e62892-1527502504.023 help.issues.list called with reason: NO REASON PROVIDED
+info: May-28 19:15:04.230 [API-Q] (T031FNTUT) 70e62892-1527502504.023 help.issues.list is ENQUEUED
+info: May-28 19:15:04.230 [API-Q] (T031FNTUT) 70e62892-1527502504.023 help.issues.list is ACTIVE
+info: May-28 19:15:04.250 [API-Q] (T031FNTUT) 70e62892-1527502504.025 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: May-28 19:15:04.250 [API-Q] (T031FNTUT) 70e62892-1527502504.025 dnd.teamInfo is ENQUEUED
+info: May-28 19:15:04.250 [API-Q] (T031FNTUT) 70e62892-1527502504.025 dnd.teamInfo is ACTIVE
+info: May-28 19:15:04.490 [INFO] Team pref "display_email_addresses" -> true
+info: May-28 19:15:04.500 [INFO] display_email_addresses check: pref enabled, but 0 email fields found in TS.model.members.
+info: May-28 19:15:04.530 [API-Q] (T031FNTUT) 70e62892-1527502504.053 users.counts called with reason: NO REASON PROVIDED
+info: May-28 19:15:04.530 [API-Q] (T031FNTUT) 70e62892-1527502504.053 users.counts is ENQUEUED
+info: May-28 19:15:04.530 [API-Q] (T031FNTUT) 70e62892-1527502504.053 users.counts is ACTIVE
+info: May-28 19:15:04.149 [CHECK-UNREADS] Checking unreads after fully booted
+info: May-28 19:15:04.149 [CHECK-UNREADS] Not marking D5A4B1X97 because attention not on chat (window_not_focused)
+info: May-28 19:15:04.162 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-28 19:15:04.162 [CHECK-UNREADS] Not marking D5A4B1X97 because attention not on chat (window_not_focused)
+info: May-28 19:15:04.216 [API-Q] (T031FNTUT) 70e62892-1527502504.025 dnd.teamInfo is RESOLVED
+info: May-28 19:15:04.220 [API-Q] (T031FNTUT) 70e62892-1527502504.023 help.issues.list is RESOLVED
+info: May-28 19:15:04.299 [API-Q] (T031FNTUT) 70e62892-1527502504.298 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: May-28 19:15:04.299 [API-Q] (T031FNTUT) 70e62892-1527502504.298 dnd.teamInfo is ENQUEUED
+info: May-28 19:15:04.299 [API-Q] (T031FNTUT) 70e62892-1527502504.298 dnd.teamInfo is ACTIVE
+info: May-28 19:15:04.315 [API-Q] (T031FNTUT) 70e62892-1527502504.053 users.counts is RESOLVED
+info: May-28 19:15:04.319 [UNREAD-COUNTS] Skipped D5A4B1X97 in updateWithCountsFromApi. reachedEnd: true, timestamps: 49
+info: May-28 19:15:04.332 [UNREAD-COUNTS] Completed users.counts processing
+info: May-28 19:15:04.686 [API-Q] (T031FNTUT) 70e62892-1527502504.298 dnd.teamInfo is RESOLVED
+info: May-28 19:15:04.699 [API-Q] (T031FNTUT) 70e62892-1527502503.908 i18n.translations.get is RESOLVED
+info: May-28 19:15:33.312 [API-Q] (T031FNTUT) 70e62892-1527502533.310 channels.suggestions called with reason: NO REASON PROVIDED
+info: May-28 19:15:33.312 [API-Q] (T031FNTUT) 70e62892-1527502533.310 channels.suggestions is ENQUEUED
+info: May-28 19:15:33.313 [API-Q] (T031FNTUT) 70e62892-1527502533.310 channels.suggestions is ACTIVE
+info: May-28 19:15:33.981 [API-Q] (T031FNTUT) 70e62892-1527502533.310 channels.suggestions is RESOLVED
+info: May-28 19:16:09.763 [FOCUS-EVENT] Mousedown while !is_window_focused
+info: May-28 19:16:09.764 [FOCUS-EVENT] Window focused
+info: May-28 19:16:09.828 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 19:16:09.831 [CHECK-UNREADS] Not marking D5A4B1X97 because last_read >= latest && channel is read
+info: May-28 19:16:09.950 [ACTION:CHANNEL-SIDEBAR] Selected GASMM7RND
+warn: May-28 19:16:09.977 not switching, it is the active mpim already
+info: May-28 19:16:10.450 [MESSAGE-LIST] (T031FNTUT) Switching channels: GASMM7RND timestamps: 0
+info: May-28 19:16:10.460 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: GASMM7RND isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:16:10.460 [HISTORY-FETCH] Fetching history for message pane: GASMM7RND
+info: May-28 19:16:10.480 [API-Q] (T031FNTUT) 70e62892-1527502570.047 conversations.history called with reason: message-pane/requestHistory
+info: May-28 19:16:10.480 [API-Q] (T031FNTUT) 70e62892-1527502570.047 conversations.history is ENQUEUED
+info: May-28 19:16:10.480 [API-Q] (T031FNTUT) 70e62892-1527502570.047 conversations.history is ACTIVE
+info: May-28 19:16:10.520 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: GASMM7RND isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:16:10.520 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: GASMM7RND isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:16:10.730 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: GASMM7RND isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:16:10.740 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: GASMM7RND isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:16:10.740 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: GASMM7RND isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:16:10.750 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: May-28 19:16:10.784 [API-Q] (T031FNTUT) 70e62892-1527502570.047 conversations.history is RESOLVED
+info: May-28 19:16:10.792 [UNREAD-COUNTS] Counting unreads in GASMM7RND because (6) timestamps added
+info: May-28 19:16:10.799 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6
+info: May-28 19:16:10.849 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: May-28 19:16:11.219 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-28 19:16:11.220 [CHECK-UNREADS] Not marking GASMM7RND because last_read >= latest && channel is read
+info: May-28 19:16:12.373 [FOCUS-EVENT] Window blurred
+info: May-28 19:16:12.378 [FOCUS-EVENT] Window blurred
+info: May-28 19:18:11.362 [FOCUS-EVENT] Window focused
+info: May-28 19:18:11.400 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 19:18:11.400 [CHECK-UNREADS] Not marking GASMM7RND because last_read >= latest && channel is read
+info: May-28 19:18:22.539 [ACTION:MESSAGE] Sent a message of length 87 to GASMM7RND
+info: May-28 19:18:22.541 [UNREAD-COUNTS] Counting unreads in GASMM7RND because (1) timestamps added
+info: May-28 19:18:22.541 [UNREAD-COUNTS] Checking unreads in GASMM7RND after a new message
+info: May-28 19:18:22.541 [CHECK-UNREADS] Not marking GASMM7RND because last_read >= latest && channel is read
+info: May-28 19:18:22.795 [UNREAD-COUNTS] Counting unreads in GASMM7RND because message removed
+info: May-28 19:18:22.795 [UNREAD-COUNTS] Counting unreads in GASMM7RND because (1) timestamps added
+info: May-28 19:18:22.796 [UNREAD-COUNTS] Checking unreads in GASMM7RND after a new message
+info: May-28 19:18:22.796 [CHECK-UNREADS] Marking GASMM7RND because unread line is visible
+info: May-28 19:18:22.799 [UNREAD-COUNTS] Counting unreads in GASMM7RND because last_read changed to 1527502703.000219
+info: May-28 19:18:25.974 [API-Q] (T031FNTUT) 70e62892-1527502705.973 conversations.mark called with reason: NO REASON PROVIDED
+info: May-28 19:18:25.974 [API-Q] (T031FNTUT) 70e62892-1527502705.973 conversations.mark is ENQUEUED
+info: May-28 19:18:25.975 [API-Q] (T031FNTUT) 70e62892-1527502705.973 conversations.mark is ACTIVE
+info: May-28 19:18:26.540 [ACTION:CHANNEL-SIDEBAR] Selected CASGZGRSB
+warn: May-28 19:18:26.710 not switching, it is the active channel already
+info: May-28 19:18:26.105 [MESSAGE-LIST] (T031FNTUT) Switching channels: CASGZGRSB timestamps: 0
+info: May-28 19:18:26.106 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:18:26.106 [HISTORY-FETCH] Fetching history for message pane: CASGZGRSB
+info: May-28 19:18:26.107 [API-Q] (T031FNTUT) 70e62892-1527502706.106 conversations.history called with reason: message-pane/requestHistory
+info: May-28 19:18:26.107 [API-Q] (T031FNTUT) 70e62892-1527502706.106 conversations.history is ENQUEUED
+info: May-28 19:18:26.107 [API-Q] (T031FNTUT) 70e62892-1527502706.106 conversations.history is ACTIVE
+info: May-28 19:18:26.108 [API-Q] (T031FNTUT) 70e62892-1527502706.107 conversations.history called with reason: message-pane/requestHistory
+info: May-28 19:18:26.108 [API-Q] (T031FNTUT) 70e62892-1527502706.107 conversations.history is ENQUEUED
+info: May-28 19:18:26.108 [API-Q] (T031FNTUT) 70e62892-1527502706.107 conversations.history is ACTIVE
+info: May-28 19:18:26.123 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:18:26.124 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:18:26.125 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: May-28 19:18:26.143 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:18:26.144 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:18:26.144 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 19:18:26.148 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: May-28 19:18:26.597 [CHECK-UNREADS] Checking unreads after debounced channel change to CASGZGRSB
+info: May-28 19:18:26.598 [CHECK-UNREADS] Not marking CASGZGRSB, clearing ghost last_read
+info: May-28 19:18:26.688 [API-Q] (T031FNTUT) 70e62892-1527502705.973 conversations.mark is RESOLVED
+info: May-28 19:18:26.792 [API-Q] (T031FNTUT) 70e62892-1527502706.106 conversations.history is RESOLVED
+info: May-28 19:18:26.813 [API-Q] (T031FNTUT) 70e62892-1527502706.107 conversations.history is RESOLVED
+info: May-28 19:18:26.822 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because (31) timestamps added
+info: May-28 19:18:26.823 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 2
+info: May-28 19:18:26.832 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 28
+info: May-28 19:18:26.895 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: May-28 19:18:27.267 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-28 19:18:27.268 [CHECK-UNREADS] Marking CASGZGRSB because unread line is visible
+info: May-28 19:18:27.274 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because last_read changed to 1527502214.000175
+info: May-28 19:18:27.274 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 0
+info: May-28 19:18:28.384 [API-Q] (T031FNTUT) 70e62892-1527502708.384 conversations.mark called with reason: NO REASON PROVIDED
+info: May-28 19:18:28.384 [API-Q] (T031FNTUT) 70e62892-1527502708.384 conversations.mark is ENQUEUED
+info: May-28 19:18:28.385 [API-Q] (T031FNTUT) 70e62892-1527502708.384 conversations.mark is ACTIVE
+info: May-28 19:18:28.616 [API-Q] (T031FNTUT) 70e62892-1527502708.384 conversations.mark is RESOLVED
+info: May-28 19:18:29.916 [FOCUS-EVENT] Window blurred
+info: May-28 19:18:29.919 [FOCUS-EVENT] Window blurred
+info: May-28 19:33:44.291 [FOCUS-EVENT] Window focused
+info: May-28 19:33:44.349 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 19:33:44.350 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: May-28 19:33:45.539 [FOCUS-EVENT] Window blurred
+info: May-28 19:33:45.595 [FOCUS-EVENT] Window blurred
+info: May-28 20:41:58.757 [FOCUS-EVENT] Window focused
+info: May-28 20:41:58.793 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 20:41:58.794 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: May-28 20:42:02.819 [ACTION:CHANNEL-SIDEBAR] Selected D8J4QNRGQ
+warn: May-28 20:42:02.837 not switching, it is the active im already
+info: May-28 20:42:02.864 [MESSAGE-LIST] (T031FNTUT) Switching channels: D8J4QNRGQ timestamps: 0
+info: May-28 20:42:02.864 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D8J4QNRGQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 20:42:02.864 [HISTORY-FETCH] Fetching history for message pane: D8J4QNRGQ
+info: May-28 20:42:02.865 [API-Q] (T031FNTUT) 70e62892-1527507722.865 conversations.history called with reason: message-pane/requestHistory
+info: May-28 20:42:02.865 [API-Q] (T031FNTUT) 70e62892-1527507722.865 conversations.history is ENQUEUED
+info: May-28 20:42:02.865 [API-Q] (T031FNTUT) 70e62892-1527507722.865 conversations.history is ACTIVE
+info: May-28 20:42:02.870 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D8J4QNRGQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 20:42:02.870 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D8J4QNRGQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 20:42:02.892 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D8J4QNRGQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 20:42:02.893 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D8J4QNRGQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 20:42:02.894 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D8J4QNRGQ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: May-28 20:42:02.895 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: May-28 20:42:03.700 [API-Q] (T031FNTUT) 70e62892-1527507722.865 conversations.history is RESOLVED
+info: May-28 20:42:03.703 [UNREAD-COUNTS] Counting unreads in D8J4QNRGQ because (4) timestamps added
+info: May-28 20:42:03.707 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 4
+info: May-28 20:42:03.816 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: May-28 20:42:04.182 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-28 20:42:04.183 [CHECK-UNREADS] Not marking D8J4QNRGQ because last_read >= latest && channel is read
+info: May-28 20:42:07.911 [FOCUS-EVENT] Window blurred
+info: May-28 20:42:07.915 [FOCUS-EVENT] Window blurred
+info: May-28 20:42:18.550 [FOCUS-EVENT] Window focused
+info: May-28 20:42:18.577 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 20:42:18.577 [CHECK-UNREADS] Not marking D8J4QNRGQ because last_read >= latest && channel is read
+info: May-28 20:42:19.215 [FOCUS-EVENT] Window blurred
+info: May-28 20:42:19.226 [FOCUS-EVENT] Window blurred
+info: May-28 20:42:36.546 [FOCUS-EVENT] Window focused
+info: May-28 20:42:36.566 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-28 20:42:36.567 [CHECK-UNREADS] Not marking D8J4QNRGQ because last_read >= latest && channel is read
+info: May-28 20:42:39.593 [ACTION:MESSAGE] Sent a message of length 42 to D8J4QNRGQ
+info: May-28 20:42:39.595 [UNREAD-COUNTS] Counting unreads in D8J4QNRGQ because (1) timestamps added
+info: May-28 20:42:39.595 [UNREAD-COUNTS] Checking unreads in D8J4QNRGQ after a new message
+info: May-28 20:42:39.595 [CHECK-UNREADS] Not marking D8J4QNRGQ because last_read >= latest && channel is read
+info: May-28 20:42:39.852 [UNREAD-COUNTS] Counting unreads in D8J4QNRGQ because message removed
+info: May-28 20:42:39.852 [UNREAD-COUNTS] Counting unreads in D8J4QNRGQ because (1) timestamps added
+info: May-28 20:42:39.852 [UNREAD-COUNTS] Checking unreads in D8J4QNRGQ after a new message
+info: May-28 20:42:39.853 [CHECK-UNREADS] Marking D8J4QNRGQ because unread line is visible
+info: May-28 20:42:39.857 [UNREAD-COUNTS] Counting unreads in D8J4QNRGQ because last_read changed to 1527507759.000292
+info: May-28 20:42:42.979 [API-Q] (T031FNTUT) 70e62892-1527507762.977 conversations.mark called with reason: NO REASON PROVIDED
+info: May-28 20:42:42.979 [API-Q] (T031FNTUT) 70e62892-1527507762.977 conversations.mark is ENQUEUED
+info: May-28 20:42:42.982 [API-Q] (T031FNTUT) 70e62892-1527507762.977 conversations.mark is ACTIVE
+info: May-28 20:42:43.638 [API-Q] (T031FNTUT) 70e62892-1527507762.977 conversations.mark is RESOLVED
+info: May-28 20:42:46.443 [INFO] sleep event!
+info: May-28 20:42:46.443 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: May-28 20:42:46.444 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: May-28 20:42:46.445 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: May-28 20:42:46.449 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: May-28 20:42:46.450 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: May-28 20:42:46.451 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: May-28 20:42:46.451 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: May-28 20:42:46.452 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: May-28 20:42:46.461 [INFO] Hiding the reconnection banner because we are disconnected
+info: May-28 20:42:46.531 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: May-28 20:42:47.642 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: May-28 20:42:48.643 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: May-28 20:42:49.644 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: May-28 20:42:50.645 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: May-28 20:42:51.646 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: May-28 20:42:52.646 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: May-28 20:42:53.647 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: May-28 20:42:54.648 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: May-28 20:42:55.649 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: May-28 20:42:56.649 Internet connection still offline after 10 attempts (browser says it is still offline)
+info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/29/18, 09:51:29:089      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: May-29 09:51:35.379 [BOOT] booted! pri:0 version:1527552805 start_ms:1527555093411 (1968ms ago)
+info: May-29 09:51:35.384 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: May-29 09:51:35.806 [SOCKET-MANAGER] (T031FNTUT) Changing from never_connected to prov_connect
+info: May-29 09:51:35.806 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: May-29 09:51:35.808 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: May-29 09:51:35.808 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: May-29 09:51:35.890 [FOCUS-EVENT] Window blurred
+info: May-29 09:51:35.968 [API-Q] (T031FNTUT) 70261dba-1527555095.965 experiments.getByUser called with reason: NO REASON PROVIDED
+info: May-29 09:51:35.968 [API-Q] (T031FNTUT) 70261dba-1527555095.965 experiments.getByUser is ENQUEUED
+info: May-29 09:51:35.972 [API-Q] (T031FNTUT) 70261dba-1527555095.965 experiments.getByUser is ACTIVE
+info: May-29 09:51:36.111 [API-Q] (T031FNTUT) 70261dba-1527555096.110 apps.actions.list called with reason: NO REASON PROVIDED
+info: May-29 09:51:36.111 [API-Q] (T031FNTUT) 70261dba-1527555096.110 apps.actions.list is ENQUEUED
+info: May-29 09:51:36.112 [API-Q] (T031FNTUT) 70261dba-1527555096.110 apps.actions.list is ACTIVE
+info: May-29 09:51:36.188 [API-Q] (T031FNTUT) 70261dba-1527555096.187 promo.banner called with reason: NO REASON PROVIDED
+info: May-29 09:51:36.188 [API-Q] (T031FNTUT) 70261dba-1527555096.187 promo.banner is ENQUEUED
+info: May-29 09:51:36.188 [API-Q] (T031FNTUT) 70261dba-1527555096.187 promo.banner is ACTIVE
+warn: May-29 09:51:36.341 updateTeamIcon was called, but missing an image to set
+info: May-29 09:51:36.475 [BOOT] Finalizing incremental boot
+info: May-29 09:51:36.478 [METRICS] Starting timers for metrics collection
+info: May-29 09:51:36.480 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+warn: May-29 09:51:36.593 not switching, it is the active im already
+info: May-29 09:51:36.637 [API-Q] (T031FNTUT) 70261dba-1527555096.637 promo.banner called with reason: NO REASON PROVIDED
+info: May-29 09:51:36.637 [API-Q] (T031FNTUT) 70261dba-1527555096.637 promo.banner is ENQUEUED
+info: May-29 09:51:36.638 [API-Q] (T031FNTUT) 70261dba-1527555096.637 promo.banner is ACTIVE
+info: May-29 09:51:36.687 [UNREAD-COUNTS] Counting unreads in D8J4QNRGQ because (5) timestamps added
+info: May-29 09:51:36.728 [FOCUS-EVENT] Window blurred
+info: May-29 09:51:36.729 [FOCUS-EVENT] Window focused
+info: May-29 09:51:36.759 [BOOT-TIMING] (T031FNTUT) First meaningful paint: 5690ms
+info: May-29 09:51:36.916 [CHECK-UNREADS] Checking unreads after window became focused
+info: May-29 09:51:36.917 [CHECK-UNREADS] Not marking D8J4QNRGQ because not fully booted
+info: May-29 09:51:36.956 [API-Q] (T031FNTUT) 70261dba-1527555096.110 apps.actions.list is RESOLVED
+info: May-29 09:51:36.961 [API-Q] (T031FNTUT) 70261dba-1527555095.965 experiments.getByUser is RESOLVED
+info: May-29 09:51:37.102 [FOCUS-EVENT] Window blurred
+info: May-29 09:51:37.109 [API-Q] (T031FNTUT) 70261dba-1527555096.187 promo.banner is RESOLVED
+info: May-29 09:51:37.110 [API-Q] (T031FNTUT) 70261dba-1527555096.637 promo.banner is RESOLVED
+info: May-29 09:51:37.128 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: May-29 09:51:37.159 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: May-29 09:51:37.160 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: May-29 09:51:37.163 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: May-29 09:51:37.165 [INFO] Got start data from Socket Manager; hydrating it
+warn: May-29 09:51:37.186 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: May-29 09:51:37.257 [BOOT] Completed incremental boot
+info: May-29 09:51:37.258 [API-Q] (T031FNTUT) 70261dba-1527555097.258 i18n.translations.get called with reason: NO REASON PROVIDED
+info: May-29 09:51:37.258 [API-Q] (T031FNTUT) 70261dba-1527555097.258 i18n.translations.get is ENQUEUED
+info: May-29 09:51:37.258 [API-Q] (T031FNTUT) 70261dba-1527555097.258 i18n.translations.get is ACTIVE
+info: May-29 09:51:37.344 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: May-29 09:51:37.345 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: May-29 09:51:37.345 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: May-29 09:51:37.345 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: May-29 09:51:37.345 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: May-29 09:51:37.346 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: May-29 09:51:37.346 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: May-29 09:51:37.347 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: May-29 09:51:37.348 [BOOT] Finished first boot 1557 ms after DOM ready
+info: May-29 09:51:37.356 [API-Q] (T031FNTUT) 70261dba-1527555097.356 help.issues.list called with reason: NO REASON PROVIDED
+info: May-29 09:51:37.356 [API-Q] (T031FNTUT) 70261dba-1527555097.356 help.issues.list is ENQUEUED
+info: May-29 09:51:37.356 [API-Q] (T031FNTUT) 70261dba-1527555097.356 help.issues.list is ACTIVE
+info: May-29 09:51:37.358 [API-Q] (T031FNTUT) 70261dba-1527555097.358 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: May-29 09:51:37.358 [API-Q] (T031FNTUT) 70261dba-1527555097.358 dnd.teamInfo is ENQUEUED
+info: May-29 09:51:37.358 [API-Q] (T031FNTUT) 70261dba-1527555097.358 dnd.teamInfo is ACTIVE
+info: May-29 09:51:37.390 [API-Q] (T031FNTUT) 70261dba-1527555097.390 users.counts called with reason: NO REASON PROVIDED
+info: May-29 09:51:37.390 [API-Q] (T031FNTUT) 70261dba-1527555097.390 users.counts is ENQUEUED
+info: May-29 09:51:37.391 [API-Q] (T031FNTUT) 70261dba-1527555097.390 users.counts is ACTIVE
+info: May-29 09:51:37.399 [FOCUS-EVENT] Window blurred
+info: May-29 09:51:37.493 [CHECK-UNREADS] Checking unreads after fully booted
+info: May-29 09:51:37.494 [CHECK-UNREADS] Not marking D8J4QNRGQ because attention not on chat (window_not_focused)
+info: May-29 09:51:37.504 [API-Q] (T031FNTUT) 70261dba-1527555097.258 i18n.translations.get is RESOLVED
+info: May-29 09:51:37.505 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: May-29 09:51:37.505 [CHECK-UNREADS] Not marking D8J4QNRGQ because attention not on chat (window_not_focused)
+info: May-29 09:51:37.534 [API-Q] (T031FNTUT) 70261dba-1527555097.534 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: May-29 09:51:37.534 [API-Q] (T031FNTUT) 70261dba-1527555097.534 dnd.teamInfo is ENQUEUED
+info: May-29 09:51:37.534 [API-Q] (T031FNTUT) 70261dba-1527555097.534 dnd.teamInfo is ACTIVE
+info: May-29 09:51:37.603 [API-Q] (T031FNTUT) 70261dba-1527555097.390 users.counts is RESOLVED
+info: May-29 09:51:37.607 [UNREAD-COUNTS] Skipped D8J4QNRGQ in updateWithCountsFromApi. reachedEnd: true, timestamps: 5
+info: May-29 09:51:37.616 [UNREAD-COUNTS] Completed users.counts processing
+info: May-29 09:51:37.811 [API-Q] (T031FNTUT) 70261dba-1527555097.534 dnd.teamInfo is RESOLVED
+info: May-29 09:51:38.109 [API-Q] (T031FNTUT) 70261dba-1527555097.356 help.issues.list is RESOLVED
+info: May-29 09:51:38.110 [API-Q] (T031FNTUT) 70261dba-1527555097.358 dnd.teamInfo is RESOLVED
+info: May-29 09:51:38.519 [API-Q] (T031FNTUT) 70261dba-1527555098.519 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: May-29 09:51:38.519 [API-Q] (T031FNTUT) 70261dba-1527555098.519 dnd.teamInfo is ENQUEUED
+info: May-29 09:51:38.519 [API-Q] (T031FNTUT) 70261dba-1527555098.519 dnd.teamInfo is ACTIVE
+info: May-29 09:51:38.704 [API-Q] (T031FNTUT) 70261dba-1527555098.519 dnd.teamInfo is RESOLVED
+info: May-29 09:52:06.650 [API-Q] (T031FNTUT) 70261dba-1527555126.649 channels.suggestions called with reason: NO REASON PROVIDED
+info: May-29 09:52:06.650 [API-Q] (T031FNTUT) 70261dba-1527555126.649 channels.suggestions is ENQUEUED
+info: May-29 09:52:06.650 [API-Q] (T031FNTUT) 70261dba-1527555126.649 channels.suggestions is ACTIVE
+info: May-29 09:52:07.283 [API-Q] (T031FNTUT) 70261dba-1527555126.649 channels.suggestions is RESOLVED
