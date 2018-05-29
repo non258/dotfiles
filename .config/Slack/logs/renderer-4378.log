@@ -1,0 +1,323 @@
+[05/29/18, 10:11:33:831] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[05/29/18, 10:11:33:832] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 05/29/18, 10:11:33:827      ║
+[05/29/18, 10:11:33:832] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[05/29/18, 10:11:33:967] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[05/29/18, 10:11:34:431] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[05/29/18, 10:11:34:431] error: Desktop module calls failed to load
+[05/29/18, 10:11:34:462] info: cld3::loadModule: loading cld3 module
+[05/29/18, 10:11:34:490] info: cld3Loader::loadModule: running environment is NODE
+[05/29/18, 10:11:34:490] info: cld3Loader::loadModule: constructed module object for runtime
+[05/29/18, 10:11:34:693] info: cld3Loader::initializeRuntime: successfully initialized module
+[05/29/18, 10:11:34:694] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[05/29/18, 10:11:34:707] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[05/29/18, 10:11:34:720] info: Main window preload script finished
+{
+  "readyTime": 1203.96542
+}
+[05/29/18, 10:11:37:743] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:37:747] info: Store: MAIN_WINDOW_SHOWN
+[05/29/18, 10:11:37:749] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:11:37:756] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:11:37:768] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:11:39:170] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[05/29/18, 10:11:39:179] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:39:202] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T0253QGQ9"
+}
+[05/29/18, 10:11:39:231] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:11:39:232] info: Store: SELECT_CHANNEL D5A4B1X97
+[05/29/18, 10:11:39:233] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:39:233] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/29/18, 10:11:39:234] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/29/18, 10:11:39:241] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/29/18, 10:11:39:565] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 9159.760411
+}
+[05/29/18, 10:11:39:844] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:39:845] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:39:845] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:39:960] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[05/29/18, 10:11:40:586] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[05/29/18, 10:11:41:347] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[05/29/18, 10:11:41:348] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[05/29/18, 10:11:41:348] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[05/29/18, 10:11:41:349] info: Setting ja
+[05/29/18, 10:11:41:350] info: Result: {"ja":"ja-JP"}
+[05/29/18, 10:11:41:354] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[05/29/18, 10:11:41:356] info: Loading dictionary for language en-US
+[05/29/18, 10:11:41:357] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:11:41:363] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:11:41:364] info: Creating node-spellchecker instance
+[05/29/18, 10:11:41:370] info: Actually installing spell check provider to Electron
+[05/29/18, 10:11:54:553] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:20:57:520] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:20:58:113] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:20:59:807] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:21:00:093] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:08:124] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:08:648] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:10:304] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:39:875] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:40:308] info: Unloading spellchecker
+[05/29/18, 10:39:40:319] info: Unloading spellchecker
+[05/29/18, 10:39:40:370] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:40:371] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:44:209] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:44:214] info: Restoring spellchecker
+[05/29/18, 10:39:44:215] info: Loading dictionary for language en-US
+[05/29/18, 10:39:44:216] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:39:44:297] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:44:298] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:39:44:299] info: Creating node-spellchecker instance
+[05/29/18, 10:39:44:415] info: Unloading spellchecker
+[05/29/18, 10:39:44:426] info: Unloading spellchecker
+[05/29/18, 10:39:44:429] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:44:468] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:45:121] info: Restoring spellchecker
+[05/29/18, 10:39:45:123] info: Loading dictionary for language en-US
+[05/29/18, 10:39:45:123] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:39:45:133] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:45:188] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:45:189] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:39:45:190] info: Creating node-spellchecker instance
+[05/29/18, 10:39:45:740] info: Unloading spellchecker
+[05/29/18, 10:39:45:747] info: Unloading spellchecker
+[05/29/18, 10:39:45:807] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:39:45:807] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:46:04:962] info: Restoring spellchecker
+[05/29/18, 10:46:04:964] info: Loading dictionary for language en-US
+[05/29/18, 10:46:04:965] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:46:04:990] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:46:04:992] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:46:05:062] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:46:05:068] info: Creating node-spellchecker instance
+[05/29/18, 10:46:06:242] info: Unloading spellchecker
+[05/29/18, 10:46:06:246] info: Unloading spellchecker
+[05/29/18, 10:46:06:309] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:46:23:629] info: Restoring spellchecker
+[05/29/18, 10:46:23:632] info: Loading dictionary for language en-US
+[05/29/18, 10:46:23:633] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:46:23:718] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:46:23:724] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:46:23:724] info: Creating node-spellchecker instance
+[05/29/18, 10:46:24:666] info: Unloading spellchecker
+[05/29/18, 10:46:24:669] info: Unloading spellchecker
+[05/29/18, 10:46:24:734] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:46:24:735] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:56:39:782] info: Restoring spellchecker
+[05/29/18, 10:56:39:784] info: Loading dictionary for language en-US
+[05/29/18, 10:56:39:785] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:56:39:853] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:56:39:853] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:56:39:877] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:56:39:877] info: Creating node-spellchecker instance
+[05/29/18, 10:56:41:456] info: Unloading spellchecker
+[05/29/18, 10:56:41:464] info: Unloading spellchecker
+[05/29/18, 10:56:41:466] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:56:43:483] info: Restoring spellchecker
+[05/29/18, 10:56:43:488] info: Loading dictionary for language en-US
+[05/29/18, 10:56:43:489] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:56:43:526] info: Unloading spellchecker
+[05/29/18, 10:56:43:536] info: Restoring spellchecker
+[05/29/18, 10:56:43:539] info: Loading dictionary for language en-US
+[05/29/18, 10:56:43:540] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:56:43:566] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:56:43:567] info: Store: MAIN_WINDOW_FOCUSED
+[05/29/18, 10:56:43:569] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:56:43:569] info: Creating node-spellchecker instance
+[05/29/18, 10:56:43:571] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:56:54:948] info: Unloading spellchecker
+[05/29/18, 10:56:54:967] info: Unloading spellchecker
+[05/29/18, 10:56:54:970] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:57:14:842] info: Restoring spellchecker
+[05/29/18, 10:57:14:842] info: Loading dictionary for language en-US
+[05/29/18, 10:57:14:843] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:57:14:900] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:57:14:903] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:57:14:903] info: Creating node-spellchecker instance
+[05/29/18, 10:57:15:329] info: Unloading spellchecker
+[05/29/18, 10:57:15:331] info: Unloading spellchecker
+[05/29/18, 10:57:15:368] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:57:15:370] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:57:41:820] info: Restoring spellchecker
+[05/29/18, 10:57:41:824] info: Loading dictionary for language en-US
+[05/29/18, 10:57:41:824] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 10:57:41:828] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:57:41:831] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 10:57:41:831] info: Creating node-spellchecker instance
+[05/29/18, 10:57:41:872] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:57:43:782] info: Unloading spellchecker
+[05/29/18, 10:57:43:794] info: Unloading spellchecker
+[05/29/18, 10:57:43:846] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:58:02:255] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:58:23:706] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:58:40:535] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:59:03:562] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:59:05:401] info: Store: SET_FULL_SCREEN
+[05/29/18, 10:59:44:328] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:01:45:047] info: Restoring spellchecker
+[05/29/18, 11:01:45:048] info: Loading dictionary for language en-US
+[05/29/18, 11:01:45:048] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 11:01:45:154] info: Unloading spellchecker
+[05/29/18, 11:01:45:157] info: Restoring spellchecker
+[05/29/18, 11:01:45:157] info: Loading dictionary for language en-US
+[05/29/18, 11:01:45:158] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 11:01:45:162] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:01:45:163] info: Store: MAIN_WINDOW_FOCUSED
+[05/29/18, 11:01:45:179] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 11:01:45:179] info: Creating node-spellchecker instance
+[05/29/18, 11:01:45:186] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 11:01:46:034] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/29/18, 11:01:46:849] info: Unloading spellchecker
+[05/29/18, 11:01:46:853] info: Unloading spellchecker
+[05/29/18, 11:01:46:885] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:03:17:248] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:03:20:188] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:04:33:144] info: Restoring spellchecker
+[05/29/18, 11:04:33:146] info: Loading dictionary for language en-US
+[05/29/18, 11:04:33:147] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 11:04:33:220] info: Unloading spellchecker
+[05/29/18, 11:04:33:232] info: Restoring spellchecker
+[05/29/18, 11:04:33:232] info: Loading dictionary for language en-US
+[05/29/18, 11:04:33:233] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 11:04:33:238] info: Store: MAIN_WINDOW_FOCUSED
+[05/29/18, 11:04:33:239] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:04:33:286] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 11:04:33:287] info: Creating node-spellchecker instance
+[05/29/18, 11:04:33:290] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 11:04:34:121] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[05/29/18, 11:04:35:460] info: Unloading spellchecker
+[05/29/18, 11:04:35:480] info: Unloading spellchecker
+[05/29/18, 11:04:35:506] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:11:24:187] info: Store: SET_FULL_SCREEN
+[05/29/18, 11:11:31:824] info: Store: SET_SUSPEND_STATUS
+[05/29/18, 11:11:31:952] error: May-29 11:11:31.941 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+[05/29/18, 11:11:32:333] info: Store: SET_NETWORK_STATUS offline
+[05/29/18, 12:53:20:890] info: Store: SET_SUSPEND_STATUS true
+[05/29/18, 12:53:20:975] error: May-29 12:53:20.975 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+[05/29/18, 12:53:26:154] info: Store: SET_FULL_SCREEN
+[05/29/18, 12:53:31:111] info: Restoring spellchecker
+[05/29/18, 12:53:31:119] info: Loading dictionary for language en-US
+[05/29/18, 12:53:31:120] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 12:53:31:166] info: Unloading spellchecker
+[05/29/18, 12:53:31:179] info: Restoring spellchecker
+[05/29/18, 12:53:31:180] info: Loading dictionary for language en-US
+[05/29/18, 12:53:31:180] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[05/29/18, 12:53:31:182] info: Store: MAIN_WINDOW_FOCUSED
+[05/29/18, 12:53:31:183] info: Store: SET_FULL_SCREEN
+[05/29/18, 12:53:31:215] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 12:53:31:215] info: Creating node-spellchecker instance
+[05/29/18, 12:53:31:216] info: Setting current spellchecker to en-US, requested language was en-US
+[05/29/18, 12:53:33:842] info: Store: RELOAD
+{
+  "everything": false
+}
+[05/29/18, 12:53:33:853] info: Window is unloading, window.desktop is no longer accessible
+[05/29/18, 12:53:34:951] info: Unloading spellchecker
+[05/29/18, 12:53:34:952] info: Store: SET_FULL_SCREEN
+[05/29/18, 12:53:35:302] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
