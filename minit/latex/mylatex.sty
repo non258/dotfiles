@@ -1,0 +1,65 @@
+% My LaTeX Style
+
+%-------------------------------------------------
+% 他のスタイルのインクルード
+%-------------------------------------------------
+%\usepackage{float}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{listings,jlisting}
+\usepackage{color}
+
+%-------------------------------------------------
+% 表，図，式，プログラムの参照
+%-------------------------------------------------
+\def\figref{\@ifstar{\@Figref@}{\@figref@}}
+\def\@figref@#1{\@ifundefined{fig#1fig}{\textbf{図 \ref{#1}}}{図 \ref{#1}}%
+\global\@namedef{fig#1fig}{fig#1fig}}
+\def\@Figref@#1{図 \ref{#1}}
+
+\def\tabref{\@ifstar{\@Tabref@}{\@tabref@}}
+\def\@tabref@#1{\@ifundefined{tab#1tab}{\textbf{表 \ref{#1}}}{表 \ref{#1}}%
+\global\@namedef{tab#1tab}{tab#1tab}}
+\def\@Tabref@#1{表 \ref{#1}}
+
+\def\eqref{\@ifstar{\@Eqref@}{\@eqref@}}
+\def\@eqref@#1{\@ifundefined{eq#1eq}{\textbf{式 \ref{#1}}}{式 \ref{#1}}%
+\global\@namedef{eq#1eq}{eq#1eq}}
+\def\@Eqref@#1{式 \ref{#1}}
+
+\def\pgref{\@ifstar{\@Pgref@}{\@pgref@}}
+\def\@pgref@#1{\@ifundefined{pg#1pg}{\textbf{リスト \ref{#1}}}{リスト \ref{#1}}%
+\global\@namedef{pg#1pg}{pg#1pg}}
+\def\@Pgref@#1{リスト \ref{#1}}
+
+%-------------------------------------------------
+% listingsの設定
+%-------------------------------------------------
+\lstset{
+  frame=single,
+%  backgroundcolor={\color[gray]{.9}},
+%  stringstyle={\ttfamily \color[rgb]{0,0,1}},
+%  commentstyle={\itshape \color[cmyk]{1,0,1,0}},
+  stringstyle={\ttfamily},
+  commentstyle={\itshape},
+  identifierstyle={\ttfamily},
+%  keywordstyle={\ttfamily \color[cmyk]{0,1,0,0}},
+  keywordstyle={\ttfamily \bf},
+  basicstyle={\ttfamily \small},
+  breaklines=true,
+  xleftmargin=3zw,
+  xrightmargin=0zw,
+  framerule=.2pt,
+%  columns=[l]{fullflexible},
+%  columns=[l]{fixed},
+  numbers=left,
+  stepnumber=1,
+  numberstyle={\scriptsize},
+  numbersep=1em,
+%  showspace=false,
+%  lineskip=-0.5zw,
+  lineskip=-0.3zw,
+%  language={C},
+%  morekeywords={assert,enum},
+%  morecomment={[s][{\color[cmyk]{1,0,0,0}}]{/**}{*/}},
+}
