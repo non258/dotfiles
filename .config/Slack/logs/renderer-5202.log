@@ -1,0 +1,300 @@
+[06/01/18, 21:58:00:772] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[06/01/18, 21:58:00:773] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 06/01/18, 21:58:00:769      ║
+[06/01/18, 21:58:00:773] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[06/01/18, 21:58:00:884] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/01/18, 21:58:01:311] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/01/18, 21:58:01:312] error: Desktop module calls failed to load
+[06/01/18, 21:58:01:337] info: cld3::loadModule: loading cld3 module
+[06/01/18, 21:58:01:361] info: cld3Loader::loadModule: running environment is NODE
+[06/01/18, 21:58:01:361] info: cld3Loader::loadModule: constructed module object for runtime
+[06/01/18, 21:58:01:544] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/01/18, 21:58:01:544] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/01/18, 21:58:01:561] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[06/01/18, 21:58:01:578] info: Main window preload script finished
+{
+  "readyTime": 1243.178971
+}
+[06/01/18, 21:58:04:527] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[06/01/18, 21:58:05:848] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/01/18, 21:58:05:850] info: Store: MAIN_WINDOW_SHOWN
+[06/01/18, 21:58:05:854] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:58:05:889] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T0253QGQ9"
+}
+[06/01/18, 21:58:06:083] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:58:06:083] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:58:06:110] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/01/18, 21:58:06:343] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 10600.428613
+}
+[06/01/18, 21:58:06:409] info: Store: SELECT_CHANNEL GASMM7RND
+[06/01/18, 21:58:06:414] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/01/18, 21:58:06:414] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/01/18, 21:58:06:416] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:58:06:416] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:58:06:523] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/01/18, 21:58:06:524] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/01/18, 21:58:06:525] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[06/01/18, 21:58:06:553] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/01/18, 21:58:06:628] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[06/01/18, 21:58:07:234] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[06/01/18, 21:58:07:708] info: Couldn't detect language for text of length '59': Not enough reliable text, ignoring sample
+[06/01/18, 21:58:07:784] info: Couldn't detect language for text of length '59': Not enough reliable text, ignoring sample
+[06/01/18, 21:59:08:939] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:59:09:037] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:59:09:840] info: Unloading spellchecker
+[06/01/18, 21:59:09:842] info: Unloading spellchecker
+[06/01/18, 21:59:09:916] info: Store: SET_FULL_SCREEN
+[06/01/18, 21:59:09:916] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:01:592] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:01:596] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:07:050] info: Unloading spellchecker
+[06/01/18, 23:06:07:052] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:13:584] info: Unloading spellchecker
+[06/01/18, 23:06:14:273] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[06/01/18, 23:06:15:641] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:16:124] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:16:679] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    574,
+    125
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[06/01/18, 23:06:23:152] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:23:569] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:24:852] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    573,
+    100
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[06/01/18, 23:06:41:914] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:43:493] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:44:945] info: Unloading spellchecker
+[06/01/18, 23:06:45:072] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:45:917] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    573,
+    100
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[06/01/18, 23:06:48:696] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    150
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[06/01/18, 23:06:49:720] info: Unloading spellchecker
+[06/01/18, 23:06:49:724] info: Unloading spellchecker
+[06/01/18, 23:06:49:753] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:06:49:753] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:14:413] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:14:445] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:15:048] info: Unloading spellchecker
+[06/01/18, 23:07:15:119] info: Unloading spellchecker
+[06/01/18, 23:07:15:128] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:15:129] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:17:143] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:17:197] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:18:909] info: Unloading spellchecker
+[06/01/18, 23:07:18:921] info: Unloading spellchecker
+[06/01/18, 23:07:18:989] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:31:634] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:36:988] info: Unloading spellchecker
+[06/01/18, 23:07:36:989] info: Unloading spellchecker
+[06/01/18, 23:07:37:032] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:07:37:925] info: Store: SET_FULL_SCREEN
+[06/01/18, 23:22:57:521] info: Store: SET_SUSPEND_STATUS
+[06/01/18, 23:22:57:598] error: Jun-1 23:22:57.598 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+[06/01/18, 23:22:58:016] info: Store: SET_NETWORK_STATUS offline
+[06/02/18, 10:58:26:036] info: Store: SET_SUSPEND_STATUS true
+[06/02/18, 10:58:26:118] error: Jun-2 10:58:26.117 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+[06/02/18, 10:58:27:597] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    330
+  ],
+  "size": [
+    1024,
+    749
+  ]
+}
+[06/02/18, 10:58:36:905] info: Store: SET_NETWORK_STATUS online
+[06/02/18, 10:59:05:310] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/02/18, 10:59:05:312] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/02/18, 11:14:51:761] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:14:54:755] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:14:54:948] info: Store: SELECT_CHANNEL D5A4B1X97
+[06/02/18, 11:14:57:244] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[06/02/18, 11:14:57:244] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[06/02/18, 11:14:57:244] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[06/02/18, 11:14:57:244] info: Setting ja
+[06/02/18, 11:14:57:245] info: Result: {"ja":"ja-JP"}
+[06/02/18, 11:14:57:247] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[06/02/18, 11:14:57:248] info: Loading dictionary for language en-US
+[06/02/18, 11:14:57:248] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[06/02/18, 11:14:57:252] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/18, 11:14:57:252] info: Creating node-spellchecker instance
+[06/02/18, 11:14:57:254] info: Actually installing spell check provider to Electron
+[06/02/18, 11:14:59:235] info: Store: SELECT_CHANNEL C031FNU09
+[06/02/18, 11:14:59:863] info: Unloading spellchecker
+[06/02/18, 11:14:59:884] info: Unloading spellchecker
+[06/02/18, 11:14:59:919] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:15:01:218] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/02/18, 11:15:01:220] info: Loading dictionary for language ja-JP
+[06/02/18, 11:15:01:221] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/02/18, 11:15:01:228] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/02/18, 11:15:01:232] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/02/18, 11:15:03:127] info: Restoring spellchecker
+[06/02/18, 11:15:03:128] info: Loading dictionary for language en-US
+[06/02/18, 11:15:03:128] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[06/02/18, 11:15:03:140] info: Unloading spellchecker
+[06/02/18, 11:15:03:142] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:15:03:155] info: Restoring spellchecker
+[06/02/18, 11:15:03:159] info: Loading dictionary for language en-US
+[06/02/18, 11:15:03:173] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/en-US.bdic
+[06/02/18, 11:15:03:209] info: Store: MAIN_WINDOW_FOCUSED
+[06/02/18, 11:15:03:211] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/18, 11:15:03:212] info: Creating node-spellchecker instance
+[06/02/18, 11:15:03:213] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/18, 11:15:04:078] info: Loading dictionary for language ja-JP
+[06/02/18, 11:15:04:078] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/02/18, 11:15:04:079] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/02/18, 11:15:04:079] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/02/18, 11:15:04:313] info: Loading dictionary for language ja-JP
+[06/02/18, 11:15:04:314] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/02/18, 11:15:04:318] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/02/18, 11:15:04:319] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/02/18, 11:15:04:525] info: dictionary for ja-JP_ja-JP is not available
+[06/02/18, 11:15:04:526] info: Actually installing spell check provider to Electron
+[06/02/18, 11:15:19:154] info: Unloading spellchecker
+[06/02/18, 11:15:19:163] info: Unloading spellchecker
+[06/02/18, 11:15:19:208] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:19:15:723] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:23:35:191] info: Store: SET_FULL_SCREEN
+[06/02/18, 11:23:36:311] info: Store: SET_FULL_SCREEN
