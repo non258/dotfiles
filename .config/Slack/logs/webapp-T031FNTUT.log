@@ -331,3 +331,965 @@ info: Jun-2 11:22:57.781 [API-Q] (T031FNTUT) f5658556-1527906177.779 rtm.shouldR
 info: Jun-2 11:22:57.781 [API-Q] (T031FNTUT) f5658556-1527906177.779 rtm.shouldReload is ENQUEUED
 info: Jun-2 11:22:57.783 [API-Q] (T031FNTUT) f5658556-1527906177.779 rtm.shouldReload is ACTIVE
 info: Jun-2 11:22:58.693 [API-Q] (T031FNTUT) f5658556-1527906177.779 rtm.shouldReload is RESOLVED
+info: Jun-2 12:36:09.813 [FOCUS-EVENT] Window focused
+info: Jun-2 12:36:10.250 [FOCUS-EVENT] Window blurred
+info: Jun-2 12:36:10.310 [FOCUS-EVENT] Window focused
+info: Jun-2 12:36:10.660 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-2 12:36:10.660 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-2 12:36:10.670 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-2 12:36:10.670 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-2 12:36:12.410 [FOCUS-EVENT] Window blurred
+info: Jun-2 12:36:12.830 [FOCUS-EVENT] Window blurred
+info: Jun-2 12:48:09.456 [FOCUS-EVENT] Window focused
+info: Jun-2 12:48:09.513 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-2 12:48:09.516 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-2 12:48:10.343 [FOCUS-EVENT] Window blurred
+info: Jun-2 12:48:10.352 [FOCUS-EVENT] Window blurred
+info: Jun-2 13:12:34.788 [API-Q] (T031FNTUT) f5658556-1527912754.785 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 13:12:34.791 [API-Q] (T031FNTUT) f5658556-1527912754.785 rtm.shouldReload is ENQUEUED
+info: Jun-2 13:12:34.797 [API-Q] (T031FNTUT) f5658556-1527912754.785 rtm.shouldReload is ACTIVE
+info: Jun-2 13:12:36.204 [API-Q] (T031FNTUT) f5658556-1527912754.785 rtm.shouldReload is RESOLVED
+error: Jun-2 14:30:49.498 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-2 14:30:49.501 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to error
+info: Jun-2 14:30:49.504 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/2 14:30:49.508  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3c6a39d756cde7cafa09.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1002990
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1784233)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786027)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1486180)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786401)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1780034)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1489069)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1487852)
+info: Jun-2 14:30:49.519 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-2 14:30:49.576 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-2 14:30:49.576 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-2 14:30:49.577 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 386 ms
+info: Jun-2 14:30:49.963 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-2 14:30:49.965 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-2 14:30:49.967 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-2 14:30:49.968 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-2 14:30:49.975 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 14:30:49.976 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:49.981 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.150 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.160 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 2
+info: Jun-2 14:30:50.170 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.190 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.250 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.250 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 3
+info: Jun-2 14:30:50.250 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.250 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.320 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.350 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 4
+info: Jun-2 14:30:50.360 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.370 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.420 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.420 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 5
+info: Jun-2 14:30:50.420 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.430 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.490 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.490 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 6
+info: Jun-2 14:30:50.490 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.490 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.550 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.560 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 7
+info: Jun-2 14:30:50.560 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.560 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.640 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.640 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 8
+info: Jun-2 14:30:50.650 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.650 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.710 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.710 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 9
+info: Jun-2 14:30:50.710 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.710 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.770 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.770 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is retrying, attempt 10
+info: Jun-2 14:30:50.770 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:30:50.780 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ACTIVE
+info: Jun-2 14:30:50.830 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is ERROR: request did not complete
+info: Jun-2 14:30:50.840 [API-Q] (T031FNTUT) f5658556-1527917449.973 rtm.shouldReload is REJECTED: request did not complete
+info: Jun-2 14:30:50.860 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: Jun-2 14:30:50.860 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: Jun-2 14:30:50.880 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: Jun-2 14:30:50.880 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-ewjb.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_f5658556369679fd72014e92caa3b240a7da57fa%26agent_version%3D1527830378%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED
+error: Jun-2 14:30:50.104 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-2 14:30:50.104 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: Jun-2 14:30:50.104 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/2 14:30:50.105  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3c6a39d756cde7cafa09.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1002990
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1784233)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786027)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1486180)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786401)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1780034)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1489069)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1487852)
+info: Jun-2 14:30:50.115 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-2 14:30:50.115 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-2 14:30:50.116 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 1028 ms
+info: Jun-2 14:30:51.144 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-2 14:30:51.146 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-2 14:30:51.147 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-2 14:30:51.148 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-2 14:30:51.153 [API-Q] (T031FNTUT) f5658556-1527917451.150 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 14:30:51.153 [API-Q] (T031FNTUT) f5658556-1527917451.150 rtm.shouldReload is ENQUEUED
+info: Jun-2 14:31:20.000 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Jun-2 14:31:20.400 [API-Q] (T031FNTUT) f5658556-1527917451.150 rtm.shouldReload is ACTIVE
+info: Jun-2 14:31:20.732 [API-Q] (T031FNTUT) f5658556-1527917451.150 rtm.shouldReload is RESOLVED
+info: Jun-2 14:31:20.733 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-2 14:31:20.733 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+info: Jun-2 14:31:21.250 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to connected
+info: Jun-2 14:31:21.251 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-2 14:31:21.258 [EVENTLOG] (T031FNTUT) fr=true, lc=false, lt=1527905699.000080
+info: Jun-2 15:02:11.792 [API-Q] (T031FNTUT) f5658556-1527919331.791 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 15:02:11.793 [API-Q] (T031FNTUT) f5658556-1527919331.791 rtm.shouldReload is ENQUEUED
+info: Jun-2 15:02:11.798 [API-Q] (T031FNTUT) f5658556-1527919331.791 rtm.shouldReload is ACTIVE
+info: Jun-2 15:02:12.797 [API-Q] (T031FNTUT) f5658556-1527919331.791 rtm.shouldReload is RESOLVED
+info: Jun-2 16:51:48.812 [API-Q] (T031FNTUT) f5658556-1527925908.801 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 16:51:48.817 [API-Q] (T031FNTUT) f5658556-1527925908.801 rtm.shouldReload is ENQUEUED
+info: Jun-2 16:51:48.844 [API-Q] (T031FNTUT) f5658556-1527925908.801 rtm.shouldReload is ACTIVE
+info: Jun-2 16:51:49.773 [API-Q] (T031FNTUT) f5658556-1527925908.801 rtm.shouldReload is RESOLVED
+info: Jun-2 17:10:23.289 [FOCUS-EVENT] Window focused
+info: Jun-2 17:10:23.463 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-2 17:10:23.464 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-2 17:10:25.870 [FOCUS-EVENT] Window blurred
+info: Jun-2 17:10:25.970 [FOCUS-EVENT] Window blurred
+info: Jun-2 17:15:34.520 [FOCUS-EVENT] Window focused
+info: Jun-2 17:15:34.184 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-2 17:15:34.185 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-2 17:15:34.643 [FOCUS-EVENT] Window blurred
+info: Jun-2 17:15:34.685 [FOCUS-EVENT] Window blurred
+info: Jun-2 17:17:51.966 [INFO] draghoverstart winssb_file:undefined
+info: Jun-2 18:41:25.818 [API-Q] (T031FNTUT) f5658556-1527932485.808 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 18:41:25.821 [API-Q] (T031FNTUT) f5658556-1527932485.808 rtm.shouldReload is ENQUEUED
+info: Jun-2 18:41:25.861 [API-Q] (T031FNTUT) f5658556-1527932485.808 rtm.shouldReload is ACTIVE
+info: Jun-2 18:41:26.844 [API-Q] (T031FNTUT) f5658556-1527932485.808 rtm.shouldReload is RESOLVED
+info: Jun-2 20:31:02.825 [API-Q] (T031FNTUT) f5658556-1527939062.812 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 20:31:02.833 [API-Q] (T031FNTUT) f5658556-1527939062.812 rtm.shouldReload is ENQUEUED
+info: Jun-2 20:31:02.866 [API-Q] (T031FNTUT) f5658556-1527939062.812 rtm.shouldReload is ACTIVE
+info: Jun-2 20:31:03.851 [API-Q] (T031FNTUT) f5658556-1527939062.812 rtm.shouldReload is RESOLVED
+info: Jun-2 22:20:39.819 [API-Q] (T031FNTUT) f5658556-1527945639.817 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-2 22:20:39.824 [API-Q] (T031FNTUT) f5658556-1527945639.817 rtm.shouldReload is ENQUEUED
+info: Jun-2 22:20:39.841 [API-Q] (T031FNTUT) f5658556-1527945639.817 rtm.shouldReload is ACTIVE
+info: Jun-2 22:20:40.776 [API-Q] (T031FNTUT) f5658556-1527945639.817 rtm.shouldReload is RESOLVED
+info: Jun-3 00:10:16.823 [API-Q] (T031FNTUT) f5658556-1527952216.821 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 00:10:16.826 [API-Q] (T031FNTUT) f5658556-1527952216.821 rtm.shouldReload is ENQUEUED
+info: Jun-3 00:10:16.851 [API-Q] (T031FNTUT) f5658556-1527952216.821 rtm.shouldReload is ACTIVE
+info: Jun-3 00:10:17.734 [API-Q] (T031FNTUT) f5658556-1527952216.821 rtm.shouldReload is RESOLVED
+info: Jun-3 01:59:53.836 [API-Q] (T031FNTUT) f5658556-1527958793.829 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 01:59:53.843 [API-Q] (T031FNTUT) f5658556-1527958793.829 rtm.shouldReload is ENQUEUED
+info: Jun-3 01:59:53.867 [API-Q] (T031FNTUT) f5658556-1527958793.829 rtm.shouldReload is ACTIVE
+info: Jun-3 01:59:54.909 [API-Q] (T031FNTUT) f5658556-1527958793.829 rtm.shouldReload is RESOLVED
+info: Jun-3 02:33:21.277 [SOCKET-MANAGER] (T031FNTUT) goodbye: disconnecting from the MS next time it is convenient
+info: Jun-3 02:33:21.277 [SOCKET-MANAGER] (T031FNTUT) goodbye: disconnecting now
+error: Jun-3 02:33:21.277 SOCKET-MANAGER (T031FNTUT) Closing socket because #4104: received goodbye from server
+info: Jun-3 02:33:21.285 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to disconnect
+info: Jun-3 02:33:21.285 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnect state for up to 10000 ms
+info: Jun-3 02:33:21.286 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnect to disconnecting
+info: Jun-3 02:33:21.286 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnecting state for up to 10000 ms
+info: Jun-3 02:33:21.286 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnecting to disconnected
+info: Jun-3 02:33:21.286 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnected state for up to 10000 ms
+info: Jun-3 02:33:21.286 [SOCKET-MANAGER] (T031FNTUT) Disconnected! Online? true
+info: Jun-3 02:33:21.287 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnected to wait_for_rate_limit
+info: Jun-3 02:33:21.287 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-3 02:33:21.287 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 26 ms
+info: Jun-3 02:33:21.295 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-3 02:33:21.313 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-3 02:33:21.314 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-3 02:33:21.314 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-3 02:33:21.314 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-3 02:33:21.315 [API-Q] (T031FNTUT) f5658556-1527960801.314 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 02:33:21.315 [API-Q] (T031FNTUT) f5658556-1527960801.314 rtm.shouldReload is ENQUEUED
+info: Jun-3 02:33:21.316 [API-Q] (T031FNTUT) f5658556-1527960801.314 rtm.shouldReload is ACTIVE
+info: Jun-3 02:33:22.254 [API-Q] (T031FNTUT) f5658556-1527960801.314 rtm.shouldReload is RESOLVED
+info: Jun-3 02:33:22.254 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-3 02:33:22.255 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+info: Jun-3 02:33:22.866 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to connected
+info: Jun-3 02:33:22.866 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-3 02:33:22.867 [EVENTLOG] (T031FNTUT) fr=true, lc=false, lt=1527905699.000080
+info: Jun-3 03:49:30.833 [API-Q] (T031FNTUT) f5658556-1527965370.832 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 03:49:30.833 [API-Q] (T031FNTUT) f5658556-1527965370.832 rtm.shouldReload is ENQUEUED
+info: Jun-3 03:49:30.833 [API-Q] (T031FNTUT) f5658556-1527965370.832 rtm.shouldReload is ACTIVE
+info: Jun-3 03:49:31.876 [API-Q] (T031FNTUT) f5658556-1527965370.832 rtm.shouldReload is RESOLVED
+info: Jun-3 05:39:07.859 [API-Q] (T031FNTUT) f5658556-1527971947.848 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 05:39:07.869 [API-Q] (T031FNTUT) f5658556-1527971947.848 rtm.shouldReload is ENQUEUED
+info: Jun-3 05:39:07.897 [API-Q] (T031FNTUT) f5658556-1527971947.848 rtm.shouldReload is ACTIVE
+info: Jun-3 05:39:08.944 [API-Q] (T031FNTUT) f5658556-1527971947.848 rtm.shouldReload is RESOLVED
+info: Jun-3 07:28:44.849 [API-Q] (T031FNTUT) f5658556-1527978524.848 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 07:28:44.850 [API-Q] (T031FNTUT) f5658556-1527978524.848 rtm.shouldReload is ENQUEUED
+info: Jun-3 07:28:44.856 [API-Q] (T031FNTUT) f5658556-1527978524.848 rtm.shouldReload is ACTIVE
+info: Jun-3 07:28:45.799 [API-Q] (T031FNTUT) f5658556-1527978524.848 rtm.shouldReload is RESOLVED
+info: Jun-3 08:00:28.281 [UNREAD-COUNTS] Updated unread_cnt for D5A4B1X97: 1
+info: Jun-3 08:20:32.956 [API-Q] (T031FNTUT) f5658556-1527981632.953 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-3 08:20:32.956 [API-Q] (T031FNTUT) f5658556-1527981632.953 dnd.teamInfo is ENQUEUED
+info: Jun-3 08:20:32.958 [API-Q] (T031FNTUT) f5658556-1527981632.953 dnd.teamInfo is ACTIVE
+info: Jun-3 08:20:33.954 [API-Q] (T031FNTUT) f5658556-1527981632.953 dnd.teamInfo is RESOLVED
+info: Jun-3 09:00:09.138 [UNREAD-COUNTS] Updated unread_cnt for D5A4B1X97: 2
+info: Jun-3 09:18:21.852 [API-Q] (T031FNTUT) f5658556-1527985101.851 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 09:18:21.853 [API-Q] (T031FNTUT) f5658556-1527985101.851 rtm.shouldReload is ENQUEUED
+info: Jun-3 09:18:21.854 [API-Q] (T031FNTUT) f5658556-1527985101.851 rtm.shouldReload is ACTIVE
+info: Jun-3 09:18:23.850 [API-Q] (T031FNTUT) f5658556-1527985101.851 rtm.shouldReload is RESOLVED
+info: Jun-3 11:07:58.866 [API-Q] (T031FNTUT) f5658556-1527991678.861 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 11:07:58.873 [API-Q] (T031FNTUT) f5658556-1527991678.861 rtm.shouldReload is ENQUEUED
+info: Jun-3 11:07:58.888 [API-Q] (T031FNTUT) f5658556-1527991678.861 rtm.shouldReload is ACTIVE
+info: Jun-3 11:07:59.834 [API-Q] (T031FNTUT) f5658556-1527991678.861 rtm.shouldReload is RESOLVED
+info: Jun-3 11:25:48.461 [INFO] sleep event!
+info: Jun-3 11:25:48.465 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: Jun-3 11:25:48.466 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: Jun-3 11:25:48.467 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: Jun-3 11:25:48.469 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: Jun-3 11:25:48.469 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: Jun-3 11:25:48.471 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: Jun-3 11:25:48.473 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: Jun-3 11:25:48.475 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: Jun-3 11:25:48.490 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-3 11:25:48.529 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: Jun-3 11:25:50.161 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-3 11:25:51.161 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-3 11:25:52.162 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-3 11:25:53.163 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-3 11:25:54.163 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Jun-3 11:25:55.164 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Jun-3 11:25:56.165 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-3 11:25:57.166 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-3 11:25:58.166 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-3 12:54:56.840 Internet connection still offline after 10 attempts (browser says it is still offline)
+info: Jun-3 12:54:56.979 [INFO] wake event! version:1527830378 start_ms:1527857882070
+info: Jun-3 12:54:56.982 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: Jun-3 12:54:56.982 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/6/3 12:54:56.984  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3c6a39d756cde7cafa09.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1002990
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1785813)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1486180)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786401)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1777362)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1357777
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1200166
+at https://a.slack-edge.com/bv1-4/application.060d1368567be6384f83.min.js:1:1143800
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1200166
+at https://a.slack-edge.com/bv1-4/application.060d1368567be6384f83.min.js:1:150057
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1444403
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1200166)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3c6a39d756cde7cafa09.min.js:1:72066)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.060d1368567be6384f83.min.js:1:1459544)
+info: Jun-3 12:54:56.985 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-3 12:54:56.992 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-3 12:54:56.993 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-3 12:54:56.997 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: Jun-3 12:54:56.998 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: Jun-3 12:54:56.999 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: Jun-3 12:54:57.200 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-or7d.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_f5658556369679fd72014e92caa3b240a7da57fa%26agent_version%3D1527830378%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-3 12:54:57.500 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-3 12:54:57.520 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to error
+info: Jun-3 12:54:57.520 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/3 12:54:57.560  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3c6a39d756cde7cafa09.min.js:1:76259)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1002990
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1784233)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786027)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1486180)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1786401)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1780034)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1489069)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fb41761e928b854e1a71.min.js:1:1487852)
+info: Jun-3 12:54:57.650 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-3 12:54:57.650 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-3 12:54:57.660 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 998 ms
+warn: Jun-3 12:54:57.841 Internet connection still offline after 11 attempts (browser says it is still offline)
+info: Jun-3 12:54:58.640 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-3 12:54:58.650 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-3 12:54:58.842 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Jun-3 12:54:59.842 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Jun-3 12:55:00.843 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Jun-3 12:55:01.844 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Jun-3 12:55:02.845 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Jun-3 12:55:03.845 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Jun-3 12:55:04.846 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Jun-3 12:55:05.847 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Jun-3 12:55:06.848 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Jun-3 12:55:07.848 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Jun-3 12:55:08.849 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Jun-3 12:55:09.849 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Jun-3 12:55:10.850 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Jun-3 12:55:11.851 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Jun-3 12:55:12.852 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Jun-3 12:55:13.852 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Jun-3 12:55:14.853 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Jun-3 12:55:15.854 Internet connection still offline after 29 attempts (browser says it is still offline)
+warn: Jun-3 12:55:16.855 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Jun-3 12:55:17.856 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Jun-3 12:55:18.857 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Jun-3 12:55:19.858 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Jun-3 12:55:20.858 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Jun-3 12:55:21.859 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Jun-3 12:55:22.860 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Jun-3 12:55:23.861 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Jun-3 12:55:24.862 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Jun-3 12:55:25.864 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Jun-3 12:55:26.866 Internet connection still offline after 40 attempts (browser says it is still offline)
+warn: Jun-3 12:55:27.867 Internet connection still offline after 41 attempts (browser says it is still offline)
+warn: Jun-3 12:55:28.869 Internet connection still offline after 42 attempts (browser says it is still offline)
+warn: Jun-3 12:55:29.870 Internet connection still offline after 43 attempts (browser says it is still offline)
+warn: Jun-3 12:55:30.871 Internet connection still offline after 44 attempts (browser says it is still offline)
+warn: Jun-3 12:55:31.871 Internet connection still offline after 45 attempts (browser says it is still offline)
+warn: Jun-3 12:55:32.872 Internet connection still offline after 46 attempts (browser says it is still offline)
+warn: Jun-3 12:55:33.873 Internet connection still offline after 47 attempts (browser says it is still offline)
+warn: Jun-3 12:55:34.874 Internet connection still offline after 48 attempts (browser says it is still offline)
+warn: Jun-3 12:55:35.874 Internet connection still offline after 49 attempts (browser says it is still offline)
+warn: Jun-3 12:55:36.875 Internet connection still offline after 50 attempts (browser says it is still offline)
+warn: Jun-3 12:55:37.876 Internet connection still offline after 51 attempts (browser says it is still offline)
+warn: Jun-3 12:55:38.877 Internet connection still offline after 52 attempts (browser says it is still offline)
+warn: Jun-3 12:55:39.878 Internet connection still offline after 53 attempts (browser says it is still offline)
+warn: Jun-3 12:55:40.879 Internet connection still offline after 54 attempts (browser says it is still offline)
+warn: Jun-3 12:55:41.880 Internet connection still offline after 55 attempts (browser says it is still offline)
+warn: Jun-3 12:55:42.880 Internet connection still offline after 56 attempts (browser says it is still offline)
+warn: Jun-3 12:55:43.881 Internet connection still offline after 57 attempts (browser says it is still offline)
+warn: Jun-3 12:55:44.882 Internet connection still offline after 58 attempts (browser says it is still offline)
+warn: Jun-3 12:55:45.883 Internet connection still offline after 59 attempts (browser says it is still offline)
+warn: Jun-3 12:55:46.883 Internet connection still offline after 60 attempts (browser says it is still offline)
+warn: Jun-3 12:55:47.884 Internet connection still offline after 61 attempts (browser says it is still offline)
+warn: Jun-3 12:55:48.885 Internet connection still offline after 62 attempts (browser says it is still offline)
+warn: Jun-3 12:55:49.886 Internet connection still offline after 63 attempts (browser says it is still offline)
+warn: Jun-3 12:55:50.887 Internet connection still offline after 64 attempts (browser says it is still offline)
+warn: Jun-3 12:55:51.888 Internet connection still offline after 65 attempts (browser says it is still offline)
+warn: Jun-3 12:55:52.889 Internet connection still offline after 66 attempts (browser says it is still offline)
+warn: Jun-3 12:55:53.890 Internet connection still offline after 67 attempts (browser says it is still offline)
+warn: Jun-3 12:55:54.891 Internet connection still offline after 68 attempts (browser says it is still offline)
+warn: Jun-3 12:55:55.892 Internet connection still offline after 69 attempts (browser says it is still offline)
+warn: Jun-3 12:55:56.892 Internet connection still offline after 70 attempts (browser says it is still offline)
+info: Jun-3 12:55:58.616 [INFO] Internet connection has been re-established after 71 retry attempts; offline for NaN seconds
+info: Jun-3 12:55:58.616 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: Jun-3 12:55:58.616 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-3 12:55:58.617 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-3 12:55:58.617 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-3 12:55:58.618 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to prov_connect
+info: Jun-3 12:55:58.618 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: Jun-3 12:55:58.618 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: Jun-3 12:55:58.618 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: Jun-3 12:55:59.681 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: Jun-3 12:55:59.682 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: Jun-3 12:55:59.683 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-3 12:55:59.699 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-3 12:55:59.702 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-3 12:55:59.705 [API-Q] (T031FNTUT) f5658556-1527998159.704 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-3 12:55:59.705 [API-Q] (T031FNTUT) f5658556-1527998159.704 auth.currentSessions is ENQUEUED
+info: Jun-3 12:55:59.705 [API-Q] (T031FNTUT) f5658556-1527998159.704 auth.currentSessions is ACTIVE
+info: Jun-3 12:55:59.820 [API-Q] (T031FNTUT) f5658556-1527998159.820 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-3 12:55:59.820 [API-Q] (T031FNTUT) f5658556-1527998159.820 i18n.translations.get is ENQUEUED
+info: Jun-3 12:55:59.821 [API-Q] (T031FNTUT) f5658556-1527998159.820 i18n.translations.get is ACTIVE
+info: Jun-3 12:56:00.480 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-3 12:56:00.480 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: Jun-3 12:56:00.480 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: Jun-3 12:56:00.490 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: Jun-3 12:56:00.490 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-3 12:56:00.490 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: Jun-3 12:56:00.500 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-3 12:56:00.500 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-3 12:56:00.510 [EVENTLOG] (T031FNTUT) fr=false, lc=false, lt=1527905699.000080
+info: Jun-3 12:56:00.510 [EVENTLOG] (T031FNTUT) fetching events since 1527905699.000080 (92461.99991989136 seconds ago)
+info: Jun-3 12:56:00.570 [API-Q] (T031FNTUT) f5658556-1527998160.057 ublockworkaround.history called with reason: NO REASON PROVIDED
+info: Jun-3 12:56:00.570 [API-Q] (T031FNTUT) f5658556-1527998160.057 ublockworkaround.history is ENQUEUED
+info: Jun-3 12:56:00.580 [API-Q] (T031FNTUT) f5658556-1527998160.057 ublockworkaround.history is ACTIVE
+info: Jun-3 12:56:00.610 [API-Q] (T031FNTUT) f5658556-1527998160.060 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-3 12:56:00.610 [API-Q] (T031FNTUT) f5658556-1527998160.060 dnd.teamInfo is ENQUEUED
+info: Jun-3 12:56:00.620 [API-Q] (T031FNTUT) f5658556-1527998160.060 dnd.teamInfo is ACTIVE
+info: Jun-3 12:56:00.117 [API-Q] (T031FNTUT) f5658556-1527998160.116 users.counts called with reason: NO REASON PROVIDED
+info: Jun-3 12:56:00.117 [API-Q] (T031FNTUT) f5658556-1527998160.116 users.counts is ENQUEUED
+info: Jun-3 12:56:00.117 [API-Q] (T031FNTUT) f5658556-1527998160.116 users.counts is ACTIVE
+info: Jun-3 12:56:00.133 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: true -> false
+info: Jun-3 12:56:00.546 [API-Q] (T031FNTUT) f5658556-1527998159.820 i18n.translations.get is RESOLVED
+info: Jun-3 12:56:00.566 [API-Q] (T031FNTUT) f5658556-1527998159.704 auth.currentSessions is RESOLVED
+info: Jun-3 12:56:00.685 [API-Q] (T031FNTUT) f5658556-1527998160.684 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-3 12:56:00.685 [API-Q] (T031FNTUT) f5658556-1527998160.684 dnd.teamInfo is ENQUEUED
+info: Jun-3 12:56:00.686 [API-Q] (T031FNTUT) f5658556-1527998160.684 dnd.teamInfo is ACTIVE
+info: Jun-3 12:56:00.775 [API-Q] (T031FNTUT) f5658556-1527998160.057 ublockworkaround.history is RESOLVED
+info: Jun-3 12:56:00.776 [EVENTLOG] (T031FNTUT) nothing to process
+info: Jun-3 12:56:00.776 [EVENTLOG] (T031FNTUT) fetched finish (cancelled? false)
+info: Jun-3 12:56:00.776 [EVENTLOG] (T031FNTUT) dispatching signal and clearing timestamp
+info: Jun-3 12:56:00.787 [API-Q] (T031FNTUT) f5658556-1527998160.060 dnd.teamInfo is RESOLVED
+info: Jun-3 12:56:00.836 [API-Q] (T031FNTUT) f5658556-1527998160.116 users.counts is RESOLVED
+info: Jun-3 12:56:00.856 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-3 12:56:01.115 [API-Q] (T031FNTUT) f5658556-1527998160.684 dnd.teamInfo is ERROR: request did not complete
+info: Jun-3 12:56:01.116 [API-Q] (T031FNTUT) f5658556-1527998160.684 dnd.teamInfo is REJECTED: request did not complete
+info: Jun-3 13:00:00.102 [FOCUS-EVENT] Window focused
+info: Jun-3 13:00:00.148 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:00:00.149 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:00:01.177 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:00:01.179 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:01:24.134 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+info: Jun-3 13:01:24.134 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to disconnect
+info: Jun-3 13:01:24.135 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnect state for up to 10000 ms
+info: Jun-3 13:01:24.135 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnect to disconnecting
+info: Jun-3 13:01:24.136 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnecting state for up to 10000 ms
+error: Jun-3 13:01:24.136 SOCKET-MANAGER (T031FNTUT) Closing socket because #4105: client went offline
+info: Jun-3 13:01:24.137 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnecting to disconnected
+info: Jun-3 13:01:24.137 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnected state for up to 10000 ms
+info: Jun-3 13:01:24.138 [SOCKET-MANAGER] (T031FNTUT) Disconnected! Online? false
+info: Jun-3 13:01:24.138 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnected to wait_for_rate_limit
+info: Jun-3 13:01:24.138 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-3 13:01:24.139 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 675 ms
+info: Jun-3 13:01:24.141 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-3 13:01:24.814 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-3 13:01:24.815 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-3 13:01:25.269 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-3 13:01:26.270 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-3 13:01:27.272 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-3 13:01:28.273 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-3 13:01:29.274 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Jun-3 13:01:30.274 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Jun-3 13:01:31.275 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-3 13:01:32.276 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-3 13:01:33.277 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-3 13:01:34.277 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-3 13:01:35.278 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Jun-3 13:01:36.279 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Jun-3 13:01:37.280 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Jun-3 13:01:38.281 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Jun-3 13:01:39.283 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Jun-3 13:01:40.284 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Jun-3 13:01:41.285 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Jun-3 13:01:42.286 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Jun-3 13:01:43.286 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Jun-3 13:01:44.287 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Jun-3 13:01:45.287 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Jun-3 13:01:46.288 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Jun-3 13:01:47.288 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Jun-3 13:01:48.289 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Jun-3 13:01:49.290 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Jun-3 13:01:50.290 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Jun-3 13:01:51.291 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Jun-3 13:01:52.292 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Jun-3 13:01:53.292 Internet connection still offline after 29 attempts (browser says it is still offline)
+warn: Jun-3 13:01:54.293 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Jun-3 13:01:55.294 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Jun-3 13:01:56.294 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Jun-3 13:01:57.295 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Jun-3 13:01:58.296 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Jun-3 13:01:59.296 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Jun-3 13:02:00.298 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Jun-3 13:02:01.299 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Jun-3 13:02:02.300 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Jun-3 13:02:03.300 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Jun-3 13:02:04.315 Internet connection still offline after 40 attempts (unable to reach API)
+info: Jun-3 13:02:14.992 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+info: Jun-3 13:02:35.868 [INFO] Internet connection has been re-established after 41 retry attempts; offline for NaN seconds
+info: Jun-3 13:02:35.869 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: Jun-3 13:02:35.869 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-3 13:02:35.869 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-3 13:02:35.869 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-3 13:02:35.871 [API-Q] (T031FNTUT) f5658556-1527998555.870 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 13:02:35.871 [API-Q] (T031FNTUT) f5658556-1527998555.870 rtm.shouldReload is ENQUEUED
+info: Jun-3 13:02:35.872 [API-Q] (T031FNTUT) f5658556-1527998555.870 rtm.shouldReload is ACTIVE
+info: Jun-3 13:02:36.649 [API-Q] (T031FNTUT) f5658556-1527998555.870 rtm.shouldReload is RESOLVED
+info: Jun-3 13:02:36.649 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-3 13:02:36.649 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+info: Jun-3 13:02:37.207 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to connected
+info: Jun-3 13:02:37.207 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-3 13:02:37.208 [EVENTLOG] (T031FNTUT) fr=true, lc=false, lt=1527984009.000058
+info: Jun-3 13:02:37.258 [API-Q] (T031FNTUT) f5658556-1527998557.257 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-3 13:02:37.258 [API-Q] (T031FNTUT) f5658556-1527998557.257 dnd.teamInfo is ENQUEUED
+info: Jun-3 13:02:37.258 [API-Q] (T031FNTUT) f5658556-1527998557.257 dnd.teamInfo is ACTIVE
+info: Jun-3 13:02:37.560 [API-Q] (T031FNTUT) f5658556-1527998557.257 dnd.teamInfo is RESOLVED
+info: Jun-3 13:04:23.440 [FOCUS-EVENT] Window focused
+info: Jun-3 13:04:23.790 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:04:23.790 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:04:26.823 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:04:26.830 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:04:37.500 [FOCUS-EVENT] Window focused
+info: Jun-3 13:04:37.124 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:04:37.124 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:04:38.658 [ACTION:CHANNEL-SIDEBAR] Selected CASGZGRSB
+warn: Jun-3 13:04:38.668 not switching, it is the active channel already
+info: Jun-3 13:04:38.716 [MESSAGE-LIST] (T031FNTUT) Switching channels: CASGZGRSB timestamps: 0
+info: Jun-3 13:04:38.716 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 13:04:38.716 [HISTORY-FETCH] Fetching history for message pane: CASGZGRSB
+info: Jun-3 13:04:38.717 [API-Q] (T031FNTUT) f5658556-1527998678.717 conversations.history called with reason: message-pane/requestHistory
+info: Jun-3 13:04:38.717 [API-Q] (T031FNTUT) f5658556-1527998678.717 conversations.history is ENQUEUED
+info: Jun-3 13:04:38.717 [API-Q] (T031FNTUT) f5658556-1527998678.717 conversations.history is ACTIVE
+info: Jun-3 13:04:38.718 [API-Q] (T031FNTUT) f5658556-1527998678.718 conversations.history called with reason: message-pane/requestHistory
+info: Jun-3 13:04:38.718 [API-Q] (T031FNTUT) f5658556-1527998678.718 conversations.history is ENQUEUED
+info: Jun-3 13:04:38.719 [API-Q] (T031FNTUT) f5658556-1527998678.718 conversations.history is ACTIVE
+info: Jun-3 13:04:38.724 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 13:04:38.724 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 13:04:38.725 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Jun-3 13:04:38.744 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 13:04:38.746 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 13:04:38.746 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 13:04:38.748 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Jun-3 13:04:39.203 [CHECK-UNREADS] Checking unreads after debounced channel change to CASGZGRSB
+info: Jun-3 13:04:39.204 [CHECK-UNREADS] Not marking CASGZGRSB, clearing ghost last_read
+info: Jun-3 13:04:39.477 [API-Q] (T031FNTUT) f5658556-1527998678.717 conversations.history is RESOLVED
+info: Jun-3 13:04:39.517 [API-Q] (T031FNTUT) f5658556-1527998678.718 conversations.history is RESOLVED
+info: Jun-3 13:04:39.534 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because (32) timestamps added
+info: Jun-3 13:04:39.560 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 29
+info: Jun-3 13:04:39.638 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-3 13:04:40.110 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-3 13:04:40.120 [CHECK-UNREADS] Marking CASGZGRSB because unread line is visible
+info: Jun-3 13:04:40.260 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because last_read changed to 1527997138.000028
+info: Jun-3 13:04:40.270 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 0
+info: Jun-3 13:04:40.767 [API-Q] (T031FNTUT) f5658556-1527998680.767 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-3 13:04:40.767 [API-Q] (T031FNTUT) f5658556-1527998680.767 conversations.mark is ENQUEUED
+info: Jun-3 13:04:40.768 [API-Q] (T031FNTUT) f5658556-1527998680.767 conversations.mark is ACTIVE
+info: Jun-3 13:04:41.650 [API-Q] (T031FNTUT) f5658556-1527998680.767 conversations.mark is RESOLVED
+info: Jun-3 13:04:53.720 [API-Q] (T031FNTUT) f5658556-1527998693.719 files.info called with reason: NO REASON PROVIDED
+info: Jun-3 13:04:53.720 [API-Q] (T031FNTUT) f5658556-1527998693.719 files.info is ENQUEUED
+info: Jun-3 13:04:53.721 [API-Q] (T031FNTUT) f5658556-1527998693.719 files.info is ACTIVE
+info: Jun-3 13:04:53.970 [API-Q] (T031FNTUT) f5658556-1527998693.719 files.info is RESOLVED
+info: Jun-3 13:05:04.508 [ACTION:CHANNEL-SIDEBAR] Selected D5A4B1X97
+warn: Jun-3 13:05:04.544 not switching, it is the active im already
+info: Jun-3 13:05:04.650 [MESSAGE-LIST] (T031FNTUT) Switching channels: D5A4B1X97 timestamps: 46
+info: Jun-3 13:05:04.707 [HISTORY-FETCH] Fetching history for message pane: D5A4B1X97
+info: Jun-3 13:05:04.709 [API-Q] (T031FNTUT) f5658556-1527998704.708 conversations.history called with reason: message-pane/requestHistory
+info: Jun-3 13:05:04.709 [API-Q] (T031FNTUT) f5658556-1527998704.708 conversations.history is ENQUEUED
+info: Jun-3 13:05:04.709 [API-Q] (T031FNTUT) f5658556-1527998704.708 conversations.history is ACTIVE
+info: Jun-3 13:05:04.710 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-3 13:05:04.752 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 46
+info: Jun-3 13:05:04.760 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: true -> false
+info: Jun-3 13:05:05.134 [CHECK-UNREADS] Checking unreads after debounced channel change to D5A4B1X97
+info: Jun-3 13:05:05.135 [CHECK-UNREADS] Not marking D5A4B1X97, clearing ghost last_read
+info: Jun-3 13:05:05.454 [API-Q] (T031FNTUT) f5658556-1527998704.708 conversations.history is RESOLVED
+info: Jun-3 13:05:05.457 [UNREAD-COUNTS] Counting unreads in D5A4B1X97 because (1) timestamps added
+info: Jun-3 13:05:05.457 [UNREAD-COUNTS] Checking unreads in D5A4B1X97 after a new message
+info: Jun-3 13:05:05.459 [CHECK-UNREADS] Not marking D5A4B1X97, clearing ghost last_read
+info: Jun-3 13:05:05.467 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 46
+info: Jun-3 13:05:05.485 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-3 13:05:05.856 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-3 13:05:05.857 [CHECK-UNREADS] Marking D5A4B1X97 because unread line is visible
+info: Jun-3 13:05:05.871 [UNREAD-COUNTS] Counting unreads in D5A4B1X97 because last_read changed to 1527984008.000151
+info: Jun-3 13:05:05.872 [UNREAD-COUNTS] Updated unread_cnt for D5A4B1X97: 0
+info: Jun-3 13:05:06.480 [API-Q] (T031FNTUT) f5658556-1527998706.479 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-3 13:05:06.480 [API-Q] (T031FNTUT) f5658556-1527998706.479 conversations.mark is ENQUEUED
+info: Jun-3 13:05:06.480 [API-Q] (T031FNTUT) f5658556-1527998706.479 conversations.mark is ACTIVE
+info: Jun-3 13:05:06.785 [API-Q] (T031FNTUT) f5658556-1527998706.479 conversations.mark is RESOLVED
+info: Jun-3 13:05:07.642 [ACTION:CHANNEL-SIDEBAR] Selected C031FNU09
+warn: Jun-3 13:05:07.660 not switching, it is the active channel already
+info: Jun-3 13:05:07.741 [MESSAGE-LIST] (T031FNTUT) Switching channels: C031FNU09 timestamps: 29
+info: Jun-3 13:05:14.951 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:05:14.958 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:06:19.480 [FOCUS-EVENT] Window focused
+info: Jun-3 13:06:19.108 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:06:19.110 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:06:19.954 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:06:19.961 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:07:29.532 [FOCUS-EVENT] Window focused
+info: Jun-3 13:07:29.653 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:07:29.653 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:07:30.524 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:07:30.573 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:08:57.843 [FOCUS-EVENT] Window focused
+info: Jun-3 13:08:57.920 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:08:57.920 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:09:02.647 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:09:02.657 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:09:13.416 [FOCUS-EVENT] Window focused
+info: Jun-3 13:09:13.466 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:09:13.469 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:09:14.271 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:09:14.280 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:17:55.314 [FOCUS-EVENT] Window focused
+info: Jun-3 13:17:55.410 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 13:17:55.410 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 13:17:57.162 [FOCUS-EVENT] Window blurred
+info: Jun-3 13:17:57.184 [FOCUS-EVENT] Window blurred
+info: Jun-3 14:26:31.804 [API-Q] (T031FNTUT) f5658556-1528003591.793 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 14:26:31.810 [API-Q] (T031FNTUT) f5658556-1528003591.793 rtm.shouldReload is ENQUEUED
+info: Jun-3 14:26:31.838 [API-Q] (T031FNTUT) f5658556-1528003591.793 rtm.shouldReload is ACTIVE
+info: Jun-3 14:26:32.949 [API-Q] (T031FNTUT) f5658556-1528003591.793 rtm.shouldReload is RESOLVED
+info: Jun-3 14:47:51.601 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 1
+info: Jun-3 15:03:09.839 [FOCUS-EVENT] Window focused
+info: Jun-3 15:03:09.971 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:03:09.972 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-3 15:03:10.110 [ACTION:CHANNEL-SIDEBAR] Selected CASGZGRSB
+warn: Jun-3 15:03:10.450 not switching, it is the active channel already
+info: Jun-3 15:03:10.247 [MESSAGE-LIST] (T031FNTUT) Switching channels: CASGZGRSB timestamps: 30
+info: Jun-3 15:03:10.388 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-3 15:03:10.706 [CHECK-UNREADS] Checking unreads after debounced channel change to CASGZGRSB
+info: Jun-3 15:03:10.706 [CHECK-UNREADS] Marking CASGZGRSB because unread line is visible
+info: Jun-3 15:03:10.710 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because last_read changed to 1528004871.000014
+info: Jun-3 15:03:10.710 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 0
+info: Jun-3 15:03:10.763 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-3 15:03:10.763 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:03:12.841 [API-Q] (T031FNTUT) f5658556-1528005792.839 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-3 15:03:12.842 [API-Q] (T031FNTUT) f5658556-1528005792.839 conversations.mark is ENQUEUED
+info: Jun-3 15:03:12.845 [API-Q] (T031FNTUT) f5658556-1528005792.839 conversations.mark is ACTIVE
+info: Jun-3 15:03:13.661 [API-Q] (T031FNTUT) f5658556-1528005792.839 conversations.mark is RESOLVED
+info: Jun-3 15:03:21.944 [API-Q] (T031FNTUT) f5658556-1528005801.942 files.info called with reason: NO REASON PROVIDED
+info: Jun-3 15:03:21.945 [API-Q] (T031FNTUT) f5658556-1528005801.942 files.info is ENQUEUED
+info: Jun-3 15:03:21.946 [API-Q] (T031FNTUT) f5658556-1528005801.942 files.info is ACTIVE
+info: Jun-3 15:03:22.745 [API-Q] (T031FNTUT) f5658556-1528005801.942 files.info is RESOLVED
+info: Jun-3 15:05:26.389 [ACTION:MESSAGE] Sent a message of length 57 to CASGZGRSB
+info: Jun-3 15:05:26.393 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because (1) timestamps added
+info: Jun-3 15:05:26.393 [UNREAD-COUNTS] Checking unreads in CASGZGRSB after a new message
+info: Jun-3 15:05:26.393 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:05:26.657 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because message removed
+info: Jun-3 15:05:26.657 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because (1) timestamps added
+info: Jun-3 15:05:26.658 [UNREAD-COUNTS] Checking unreads in CASGZGRSB after a new message
+info: Jun-3 15:05:26.658 [CHECK-UNREADS] Marking CASGZGRSB because unread line is visible
+info: Jun-3 15:05:26.664 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because last_read changed to 1528005926.000027
+info: Jun-3 15:05:31.391 [API-Q] (T031FNTUT) f5658556-1528005931.388 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-3 15:05:31.392 [API-Q] (T031FNTUT) f5658556-1528005931.388 conversations.mark is ENQUEUED
+info: Jun-3 15:05:31.394 [API-Q] (T031FNTUT) f5658556-1528005931.388 conversations.mark is ACTIVE
+info: Jun-3 15:05:32.246 [API-Q] (T031FNTUT) f5658556-1528005931.388 conversations.mark is RESOLVED
+info: Jun-3 15:05:38.579 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:05:38.585 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:06:53.392 [FOCUS-EVENT] Window focused
+info: Jun-3 15:06:53.472 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:06:53.472 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:06:54.395 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:06:54.417 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:07:01.879 [FOCUS-EVENT] Window focused
+info: Jun-3 15:07:01.948 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:07:01.998 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:07:01.999 [CHECK-UNREADS] Not marking CASGZGRSB because attention not on chat (window_not_focused)
+info: Jun-3 15:07:02.110 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:08:05.961 [FOCUS-EVENT] Window focused
+info: Jun-3 15:08:06.000 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:08:06.300 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:08:06.686 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:08:06.690 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:13:00.162 [FOCUS-EVENT] Window focused
+info: Jun-3 15:13:00.235 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:13:00.235 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:13:01.850 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:13:01.111 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:13:06.533 [FOCUS-EVENT] Window focused
+info: Jun-3 15:13:06.603 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:13:06.603 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:13:08.436 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:13:08.439 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:13:10.439 [FOCUS-EVENT] Window focused
+info: Jun-3 15:13:10.500 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:13:10.500 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:13:11.266 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:13:11.272 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:17:09.832 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because (1) timestamps added
+info: Jun-3 15:17:09.833 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 1
+info: Jun-3 15:17:09.836 [UNREAD-COUNTS] Checking unreads in CASGZGRSB after a new message
+info: Jun-3 15:17:09.836 [CHECK-UNREADS] Not marking CASGZGRSB because attention not on chat (window_not_focused)
+info: Jun-3 15:19:09.347 [FOCUS-EVENT] Window focused
+info: Jun-3 15:19:09.650 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:19:09.650 [CHECK-UNREADS] Marking CASGZGRSB because unread line is visible
+info: Jun-3 15:19:09.653 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because last_read changed to 1528006629.000049
+info: Jun-3 15:19:09.654 [UNREAD-COUNTS] Updated unread_cnt for CASGZGRSB: 0
+info: Jun-3 15:19:11.346 [API-Q] (T031FNTUT) f5658556-1528006751.346 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-3 15:19:11.347 [API-Q] (T031FNTUT) f5658556-1528006751.346 conversations.mark is ENQUEUED
+info: Jun-3 15:19:11.349 [API-Q] (T031FNTUT) f5658556-1528006751.346 conversations.mark is ACTIVE
+info: Jun-3 15:19:12.403 [API-Q] (T031FNTUT) f5658556-1528006751.346 conversations.mark is RESOLVED
+info: Jun-3 15:19:31.395 [API-Q] (T031FNTUT) f5658556-1528006771.393 reactions.add called with reason: NO REASON PROVIDED
+info: Jun-3 15:19:31.396 [API-Q] (T031FNTUT) f5658556-1528006771.393 reactions.add is ENQUEUED
+info: Jun-3 15:19:31.396 [API-Q] (T031FNTUT) f5658556-1528006771.393 reactions.add is ACTIVE
+info: Jun-3 15:19:31.694 [API-Q] (T031FNTUT) f5658556-1528006771.393 reactions.add is RESOLVED
+info: Jun-3 15:20:01.734 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:20:01.757 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:20:31.370 [API-Q] (T031FNTUT) f5658556-1528006831.369 users.prefs.set called with reason: NO REASON PROVIDED
+info: Jun-3 15:20:31.370 [API-Q] (T031FNTUT) f5658556-1528006831.369 users.prefs.set is ENQUEUED
+info: Jun-3 15:20:31.370 [API-Q] (T031FNTUT) f5658556-1528006831.369 users.prefs.set is ACTIVE
+info: Jun-3 15:20:32.276 [API-Q] (T031FNTUT) f5658556-1528006831.369 users.prefs.set is RESOLVED
+info: Jun-3 15:29:09.928 [FOCUS-EVENT] Window focused
+info: Jun-3 15:29:09.971 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:29:09.975 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:29:43.992 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:29:43.997 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:29:44.875 [FOCUS-EVENT] Window focused
+info: Jun-3 15:29:44.919 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:29:44.922 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:29:45.223 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:29:45.226 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:32:32.699 [FOCUS-EVENT] Window focused
+info: Jun-3 15:32:32.724 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:32:32.725 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:32:33.588 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:32:33.596 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:32:37.477 [FOCUS-EVENT] Window focused
+info: Jun-3 15:32:37.547 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:32:37.547 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 15:32:44.526 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:32:44.532 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:42:41.335 [FOCUS-EVENT] Window focused
+info: Jun-3 15:42:41.667 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:42:41.667 [CHECK-UNREADS] Not marking CASGZGRSB because attention not on chat (menu_is_showing)
+info: Jun-3 15:42:43.250 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:42:43.252 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:48:52.942 [FOCUS-EVENT] Window focused
+info: Jun-3 15:48:53.130 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 15:48:53.140 [CHECK-UNREADS] Not marking CASGZGRSB because attention not on chat (menu_is_showing)
+info: Jun-3 15:48:53.722 [FOCUS-EVENT] Window blurred
+info: Jun-3 15:48:53.726 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:00:12.600 [FOCUS-EVENT] Window focused
+info: Jun-3 16:00:12.753 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:00:12.753 [CHECK-UNREADS] Not marking CASGZGRSB because attention not on chat (menu_is_showing)
+info: Jun-3 16:09:39.754 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:09:39.767 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:16:08.794 [API-Q] (T031FNTUT) f5658556-1528010168.792 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-3 16:16:08.794 [API-Q] (T031FNTUT) f5658556-1528010168.792 rtm.shouldReload is ENQUEUED
+info: Jun-3 16:16:08.796 [API-Q] (T031FNTUT) f5658556-1528010168.792 rtm.shouldReload is ACTIVE
+info: Jun-3 16:16:09.777 [API-Q] (T031FNTUT) f5658556-1528010168.792 rtm.shouldReload is RESOLVED
+info: Jun-3 16:19:14.703 [FOCUS-EVENT] Window focused
+info: Jun-3 16:19:14.812 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:19:14.813 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 16:19:15.209 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:19:15.234 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:21:34.340 [FOCUS-EVENT] Window focused
+info: Jun-3 16:21:34.555 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:21:34.556 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-3 16:21:39.240 [ACTION:CHANNEL-SIDEBAR] Selected D5A4B1XCZ
+warn: Jun-3 16:21:39.590 not switching, it is the active im already
+info: Jun-3 16:21:39.172 [MESSAGE-LIST] (T031FNTUT) Switching channels: D5A4B1XCZ timestamps: 0
+info: Jun-3 16:21:39.172 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 16:21:39.172 [HISTORY-FETCH] Fetching history for message pane: D5A4B1XCZ
+info: Jun-3 16:21:39.173 [API-Q] (T031FNTUT) f5658556-1528010499.172 conversations.history called with reason: message-pane/requestHistory
+info: Jun-3 16:21:39.173 [API-Q] (T031FNTUT) f5658556-1528010499.172 conversations.history is ENQUEUED
+info: Jun-3 16:21:39.173 [API-Q] (T031FNTUT) f5658556-1528010499.172 conversations.history is ACTIVE
+info: Jun-3 16:21:39.178 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 16:21:39.178 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 16:21:39.229 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 16:21:39.230 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 16:21:39.230 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1XCZ isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-3 16:21:39.231 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jun-3 16:21:40.500 [API-Q] (T031FNTUT) f5658556-1528010499.172 conversations.history is RESOLVED
+info: Jun-3 16:21:40.544 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (21) timestamps added
+info: Jun-3 16:21:40.550 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 21
+info: Jun-3 16:21:40.627 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-3 16:21:40.992 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-3 16:21:40.993 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-3 16:22:38.321 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:22:38.331 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:38:08.238 [FOCUS-EVENT] Window focused
+info: Jun-3 16:38:08.291 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:38:08.291 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-3 16:38:10.485 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:38:10.500 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:54:47.135 [FOCUS-EVENT] Window focused
+info: Jun-3 16:54:47.195 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:54:47.196 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-3 16:54:48.981 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:54:48.989 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:54:49.948 [FOCUS-EVENT] Window focused
+info: Jun-3 16:54:49.974 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:54:49.975 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-3 16:54:50.904 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:54:50.919 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:59:23.152 [FOCUS-EVENT] Window focused
+info: Jun-3 16:59:23.438 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-3 16:59:23.439 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-3 16:59:24.648 [FOCUS-EVENT] Window blurred
+info: Jun-3 16:59:24.652 [FOCUS-EVENT] Window blurred
+info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.0-beta25a7a50e, linux 4.10.0-38-generic on x64 at 06/04/18, 09:44:49:276      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-4 09:44:55.193 [BOOT] booted! pri:0 version:1528064735 start_ms:1528073092985 (2207ms ago)
+info: Jun-4 09:44:55.197 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: Jun-4 09:44:55.635 [SOCKET-MANAGER] (T031FNTUT) Changing from never_connected to prov_connect
+info: Jun-4 09:44:55.635 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connect state for up to 10000 ms
+info: Jun-4 09:44:55.636 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connect to prov_connecting
+info: Jun-4 09:44:55.637 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connecting state for up to 35000 ms
+info: Jun-4 09:44:55.903 [FOCUS-EVENT] Window focused
+info: Jun-4 09:44:55.998 [API-Q] (T031FNTUT) 80e34415-1528073095.996 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:55.998 [API-Q] (T031FNTUT) 80e34415-1528073095.996 experiments.getByUser is ENQUEUED
+info: Jun-4 09:44:55.999 [API-Q] (T031FNTUT) 80e34415-1528073095.996 experiments.getByUser is ACTIVE
+info: Jun-4 09:44:56.118 [API-Q] (T031FNTUT) 80e34415-1528073096.117 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:56.118 [API-Q] (T031FNTUT) 80e34415-1528073096.117 apps.actions.list is ENQUEUED
+info: Jun-4 09:44:56.118 [API-Q] (T031FNTUT) 80e34415-1528073096.117 apps.actions.list is ACTIVE
+warn: Jun-4 09:44:56.350 updateTeamIcon was called, but missing an image to set
+info: Jun-4 09:44:56.492 [BOOT] Finalizing incremental boot
+info: Jun-4 09:44:56.495 [METRICS] Starting timers for metrics collection
+info: Jun-4 09:44:56.498 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+warn: Jun-4 09:44:56.625 not switching, it is the active im already
+info: Jun-4 09:44:56.810 [API-Q] (T031FNTUT) 80e34415-1528073096.810 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:56.810 [API-Q] (T031FNTUT) 80e34415-1528073096.810 promo.banner is ENQUEUED
+info: Jun-4 09:44:56.811 [API-Q] (T031FNTUT) 80e34415-1528073096.810 promo.banner is ACTIVE
+info: Jun-4 09:44:56.866 [UNREAD-COUNTS] Counting unreads in D5A4B1XCZ because (21) timestamps added
+info: Jun-4 09:44:56.901 [API-Q] (T031FNTUT) 80e34415-1528073096.901 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:56.901 [API-Q] (T031FNTUT) 80e34415-1528073096.901 promo.banner is ENQUEUED
+info: Jun-4 09:44:56.902 [API-Q] (T031FNTUT) 80e34415-1528073096.901 promo.banner is ACTIVE
+info: Jun-4 09:44:56.916 [BOOT-TIMING] (T031FNTUT) First meaningful paint: 6814ms
+info: Jun-4 09:44:57.151 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:44:57.180 [API-Q] (T031FNTUT) 80e34415-1528073095.996 experiments.getByUser is RESOLVED
+info: Jun-4 09:44:57.190 [API-Q] (T031FNTUT) 80e34415-1528073096.117 apps.actions.list is RESOLVED
+info: Jun-4 09:44:57.269 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:44:57.271 [API-Q] (T031FNTUT) 80e34415-1528073096.810 promo.banner is RESOLVED
+info: Jun-4 09:44:57.280 [API-Q] (T031FNTUT) 80e34415-1528073096.901 promo.banner is RESOLVED
+info: Jun-4 09:44:57.312 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-4 09:44:57.347 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connecting to prov_connected
+info: Jun-4 09:44:57.347 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_connected state for up to 60000 ms
+info: Jun-4 09:44:57.372 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-4 09:44:57.376 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-4 09:44:57.439 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-4 09:44:57.635 [BOOT] Completed incremental boot
+info: Jun-4 09:44:57.643 [API-Q] (T031FNTUT) 80e34415-1528073097.643 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:57.643 [API-Q] (T031FNTUT) 80e34415-1528073097.643 i18n.translations.get is ENQUEUED
+info: Jun-4 09:44:57.643 [API-Q] (T031FNTUT) 80e34415-1528073097.643 i18n.translations.get is ACTIVE
+info: Jun-4 09:44:57.747 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-4 09:44:57.747 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_connected to prov_finalize
+info: Jun-4 09:44:57.747 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalize state for up to 10000 ms
+info: Jun-4 09:44:57.748 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalize to prov_finalizing
+info: Jun-4 09:44:57.748 [SOCKET-MANAGER] (T031FNTUT) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-4 09:44:57.748 [SOCKET-MANAGER] (T031FNTUT) Changing from prov_finalizing to connected
+info: Jun-4 09:44:57.748 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-4 09:44:57.749 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-4 09:44:57.750 [BOOT] Finished first boot 2124 ms after DOM ready
+info: Jun-4 09:44:57.761 [API-Q] (T031FNTUT) 80e34415-1528073097.760 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:57.761 [API-Q] (T031FNTUT) 80e34415-1528073097.760 help.issues.list is ENQUEUED
+info: Jun-4 09:44:57.761 [API-Q] (T031FNTUT) 80e34415-1528073097.760 help.issues.list is ACTIVE
+info: Jun-4 09:44:57.763 [API-Q] (T031FNTUT) 80e34415-1528073097.762 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:57.763 [API-Q] (T031FNTUT) 80e34415-1528073097.762 dnd.teamInfo is ENQUEUED
+info: Jun-4 09:44:57.763 [API-Q] (T031FNTUT) 80e34415-1528073097.762 dnd.teamInfo is ACTIVE
+info: Jun-4 09:44:57.827 [INFO] Team pref "display_email_addresses" -> true
+info: Jun-4 09:44:57.827 [INFO] display_email_addresses check: pref enabled, but 0 email fields found in TS.model.members.
+info: Jun-4 09:44:57.831 [API-Q] (T031FNTUT) 80e34415-1528073097.830 users.counts called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:57.831 [API-Q] (T031FNTUT) 80e34415-1528073097.830 users.counts is ENQUEUED
+info: Jun-4 09:44:57.831 [API-Q] (T031FNTUT) 80e34415-1528073097.830 users.counts is ACTIVE
+info: Jun-4 09:44:57.947 [API-Q] (T031FNTUT) 80e34415-1528073097.643 i18n.translations.get is RESOLVED
+info: Jun-4 09:44:57.951 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-4 09:44:57.952 [CHECK-UNREADS] Not marking D5A4B1XCZ because attention not on chat (window_not_focused)
+info: Jun-4 09:44:57.952 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-4 09:44:57.953 [CHECK-UNREADS] Not marking D5A4B1XCZ because attention not on chat (window_not_focused)
+info: Jun-4 09:44:57.961 [API-Q] (T031FNTUT) 80e34415-1528073097.760 help.issues.list is RESOLVED
+info: Jun-4 09:44:58.100 [API-Q] (T031FNTUT) 80e34415-1528073097.830 users.counts is RESOLVED
+info: Jun-4 09:44:58.104 [UNREAD-COUNTS] Skipped D5A4B1XCZ in updateWithCountsFromApi. reachedEnd: true, timestamps: 21
+info: Jun-4 09:44:58.139 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-4 09:44:58.458 [API-Q] (T031FNTUT) 80e34415-1528073097.762 dnd.teamInfo is RESOLVED
+info: Jun-4 09:44:58.763 [API-Q] (T031FNTUT) 80e34415-1528073098.763 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-4 09:44:58.763 [API-Q] (T031FNTUT) 80e34415-1528073098.763 dnd.teamInfo is ENQUEUED
+info: Jun-4 09:44:58.764 [API-Q] (T031FNTUT) 80e34415-1528073098.763 dnd.teamInfo is ACTIVE
+info: Jun-4 09:44:58.953 [API-Q] (T031FNTUT) 80e34415-1528073098.763 dnd.teamInfo is RESOLVED
+info: Jun-4 09:45:00.765 [FOCUS-EVENT] Window focused
+info: Jun-4 09:45:00.853 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:45:00.853 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-4 09:45:00.945 [ACTION:CHANNEL-SIDEBAR] Selected D5A4B1X97
+warn: Jun-4 09:45:00.975 not switching, it is the active im already
+info: Jun-4 09:45:01.520 [MESSAGE-LIST] (T031FNTUT) Switching channels: D5A4B1X97 timestamps: 0
+info: Jun-4 09:45:01.530 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1X97 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:01.540 [HISTORY-FETCH] Fetching history for message pane: D5A4B1X97
+info: Jun-4 09:45:01.550 [API-Q] (T031FNTUT) 80e34415-1528073101.054 conversations.history called with reason: message-pane/requestHistory
+info: Jun-4 09:45:01.550 [API-Q] (T031FNTUT) 80e34415-1528073101.054 conversations.history is ENQUEUED
+info: Jun-4 09:45:01.550 [API-Q] (T031FNTUT) 80e34415-1528073101.054 conversations.history is ACTIVE
+info: Jun-4 09:45:01.560 [API-Q] (T031FNTUT) 80e34415-1528073101.056 conversations.history called with reason: message-pane/requestHistory
+info: Jun-4 09:45:01.560 [API-Q] (T031FNTUT) 80e34415-1528073101.056 conversations.history is ENQUEUED
+info: Jun-4 09:45:01.570 [API-Q] (T031FNTUT) 80e34415-1528073101.056 conversations.history is ACTIVE
+info: Jun-4 09:45:01.720 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1X97 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:01.730 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: D5A4B1X97 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:01.309 [API-Q] (T031FNTUT) 80e34415-1528073101.054 conversations.history is RESOLVED
+info: Jun-4 09:45:01.340 [API-Q] (T031FNTUT) 80e34415-1528073101.056 conversations.history is RESOLVED
+info: Jun-4 09:45:01.354 [UNREAD-COUNTS] Counting unreads in D5A4B1X97 because (44) timestamps added
+info: Jun-4 09:45:01.375 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 44
+info: Jun-4 09:45:01.435 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-4 09:45:01.542 [CHECK-UNREADS] Checking unreads after debounced channel change to D5A4B1X97
+info: Jun-4 09:45:01.543 [CHECK-UNREADS] Marking D5A4B1X97 because unread line is visible
+info: Jun-4 09:45:01.549 [UNREAD-COUNTS] Counting unreads in D5A4B1X97 because last_read changed to 1528070401.000175
+info: Jun-4 09:45:01.549 [UNREAD-COUNTS] Updated unread_cnt for D5A4B1X97: 0
+info: Jun-4 09:45:01.834 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-4 09:45:01.835 [CHECK-UNREADS] Not marking D5A4B1X97 because last_read >= latest && channel is read
+info: Jun-4 09:45:02.737 [ACTION:CHANNEL-SIDEBAR] Selected D5A4B1XCZ
+warn: Jun-4 09:45:02.767 not switching, it is the active im already
+info: Jun-4 09:45:02.824 [MESSAGE-LIST] (T031FNTUT) Switching channels: D5A4B1XCZ timestamps: 21
+info: Jun-4 09:45:02.851 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-4 09:45:03.214 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-4 09:45:03.214 [CHECK-UNREADS] Not marking D5A4B1XCZ because last_read >= latest && channel is read
+info: Jun-4 09:45:06.270 [API-Q] (T031FNTUT) 80e34415-1528073106.268 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-4 09:45:06.270 [API-Q] (T031FNTUT) 80e34415-1528073106.268 conversations.mark is ENQUEUED
+info: Jun-4 09:45:06.271 [API-Q] (T031FNTUT) 80e34415-1528073106.268 conversations.mark is ACTIVE
+info: Jun-4 09:45:06.540 [API-Q] (T031FNTUT) 80e34415-1528073106.268 conversations.mark is RESOLVED
+info: Jun-4 09:45:15.746 [ACTION:CHANNEL-SIDEBAR] Selected CASGZGRSB
+warn: Jun-4 09:45:15.766 not switching, it is the active channel already
+info: Jun-4 09:45:15.883 [MESSAGE-LIST] (T031FNTUT) Switching channels: CASGZGRSB timestamps: 0
+info: Jun-4 09:45:15.884 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:15.884 [HISTORY-FETCH] Fetching history for message pane: CASGZGRSB
+info: Jun-4 09:45:15.885 [API-Q] (T031FNTUT) 80e34415-1528073115.885 conversations.history called with reason: message-pane/requestHistory
+info: Jun-4 09:45:15.885 [API-Q] (T031FNTUT) 80e34415-1528073115.885 conversations.history is ENQUEUED
+info: Jun-4 09:45:15.886 [API-Q] (T031FNTUT) 80e34415-1528073115.885 conversations.history is ACTIVE
+info: Jun-4 09:45:15.889 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:15.889 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:15.905 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:15.906 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:15.907 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: CASGZGRSB isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:15.908 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jun-4 09:45:16.157 [API-Q] (T031FNTUT) 80e34415-1528073115.885 conversations.history is RESOLVED
+info: Jun-4 09:45:16.184 [UNREAD-COUNTS] Counting unreads in CASGZGRSB because (35) timestamps added
+info: Jun-4 09:45:16.200 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 32
+info: Jun-4 09:45:16.268 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-4 09:45:16.633 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-4 09:45:16.634 [CHECK-UNREADS] Not marking CASGZGRSB because last_read >= latest && channel is read
+info: Jun-4 09:45:20.486 [ACTION:CHANNEL-SIDEBAR] Selected C031FNU09
+warn: Jun-4 09:45:20.524 not switching, it is the active channel already
+info: Jun-4 09:45:20.600 [MESSAGE-LIST] (T031FNTUT) Switching channels: C031FNU09 timestamps: 0
+info: Jun-4 09:45:20.601 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:20.601 [HISTORY-FETCH] Fetching history for message pane: C031FNU09
+info: Jun-4 09:45:20.602 [API-Q] (T031FNTUT) 80e34415-1528073120.601 conversations.history called with reason: message-pane/requestHistory
+info: Jun-4 09:45:20.602 [API-Q] (T031FNTUT) 80e34415-1528073120.601 conversations.history is ENQUEUED
+info: Jun-4 09:45:20.602 [API-Q] (T031FNTUT) 80e34415-1528073120.601 conversations.history is ACTIVE
+info: Jun-4 09:45:20.605 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:20.605 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:20.617 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:20.618 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:20.619 [MESSAGE-LIST] (T031FNTUT) requestAround channelId: C031FNU09 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-4 09:45:20.620 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jun-4 09:45:20.855 [API-Q] (T031FNTUT) 80e34415-1528073120.601 conversations.history is RESOLVED
+info: Jun-4 09:45:20.890 [UNREAD-COUNTS] Counting unreads in C031FNU09 because (42) timestamps added
+info: Jun-4 09:45:20.901 [MESSAGE-LIST] (T031FNTUT) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 29
+info: Jun-4 09:45:20.991 [CHECK-UNREADS] (T031FNTUT) unreadLineVisible updated: false -> true
+info: Jun-4 09:45:21.359 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-4 09:45:21.359 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:45:22.340 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:45:22.480 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:45:25.803 [FOCUS-EVENT] Window focused
+info: Jun-4 09:45:25.841 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:45:25.841 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:45:26.371 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:45:26.382 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:45:26.825 [API-Q] (T031FNTUT) 80e34415-1528073126.824 channels.suggestions called with reason: NO REASON PROVIDED
+info: Jun-4 09:45:26.825 [API-Q] (T031FNTUT) 80e34415-1528073126.824 channels.suggestions is ENQUEUED
+info: Jun-4 09:45:26.825 [API-Q] (T031FNTUT) 80e34415-1528073126.824 channels.suggestions is ACTIVE
+info: Jun-4 09:45:27.118 [API-Q] (T031FNTUT) 80e34415-1528073126.824 channels.suggestions is RESOLVED
+info: Jun-4 09:45:50.619 [FOCUS-EVENT] Window focused
+info: Jun-4 09:45:50.679 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:45:50.679 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:45:58.130 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:45:58.370 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:46:25.947 [FOCUS-EVENT] Window focused
+info: Jun-4 09:46:26.440 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:46:26.440 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:46:27.384 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:46:27.396 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:48:10.532 [FOCUS-EVENT] Window focused
+info: Jun-4 09:48:10.574 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:48:10.574 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:48:12.693 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:48:12.748 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:48:32.689 [FOCUS-EVENT] Window focused
+info: Jun-4 09:48:32.792 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:48:32.792 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:48:35.267 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:48:35.314 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:49:20.389 [FOCUS-EVENT] Window focused
+info: Jun-4 09:49:20.431 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:49:20.432 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:49:21.722 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:49:21.731 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:50:43.885 [FOCUS-EVENT] Window focused
+info: Jun-4 09:50:43.958 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:50:43.958 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:50:44.713 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:50:44.721 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:53:22.127 [FOCUS-EVENT] Window focused
+info: Jun-4 09:53:22.200 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-4 09:53:22.202 [CHECK-UNREADS] Not marking C031FNU09 because last_read >= latest && channel is read
+info: Jun-4 09:53:24.230 [FOCUS-EVENT] Window blurred
+info: Jun-4 09:53:24.370 [FOCUS-EVENT] Window blurred
