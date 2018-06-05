@@ -39,16 +39,112 @@
       </output>
   </configuration>
   <configuration>
+      <clone>no</clone>
+      <output name="eDP1">
+          <vendor>SHP</vendor>
+          <product>0x141a</product>
+          <serial>0x00000000</serial>
+          <width>1600</width>
+          <height>900</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP1">
+      </output>
+      <output name="DP2">
+      </output>
+      <output name="HDMI1">
+      </output>
+      <output name="HDMI2">
+      </output>
+      <output name="VIRTUAL1">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="eDP1">
+          <vendor>SHP</vendor>
+          <product>0x141a</product>
+          <serial>0x00000000</serial>
+          <width>1600</width>
+          <height>900</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>180</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP1">
+      </output>
+      <output name="DP2">
+      </output>
+      <output name="HDMI1">
+      </output>
+      <output name="HDMI2">
+          <vendor>BNQ</vendor>
+          <product>0x78e4</product>
+          <serial>0x00005445</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>1600</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="VIRTUAL1">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="eDP1">
+          <vendor>SHP</vendor>
+          <product>0x141a</product>
+          <serial>0x00000000</serial>
+      </output>
+      <output name="DP1">
+      </output>
+      <output name="DP2">
+      </output>
+      <output name="HDMI1">
+      </output>
+      <output name="HDMI2">
+          <vendor>BNQ</vendor>
+          <product>0x9702</product>
+          <serial>0x00000d55</serial>
+          <width>1280</width>
+          <height>800</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="VIRTUAL1">
+      </output>
+  </configuration>
+  <configuration>
       <clone>yes</clone>
       <output name="eDP1">
           <vendor>SHP</vendor>
           <product>0x141a</product>
           <serial>0x00000000</serial>
-          <width>1920</width>
-          <height>1080</height>
+          <width>1600</width>
+          <height>900</height>
           <rate>60</rate>
-          <x>0</x>
-          <y>0</y>
+          <x>320</x>
+          <y>180</y>
           <rotation>normal</rotation>
           <reflect_x>no</reflect_x>
           <reflect_y>no</reflect_y>
@@ -87,63 +183,6 @@
           <height>900</height>
           <rate>60</rate>
           <x>0</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
-      <output name="DP1">
-      </output>
-      <output name="DP2">
-      </output>
-      <output name="HDMI1">
-      </output>
-      <output name="HDMI2">
-      </output>
-      <output name="VIRTUAL1">
-      </output>
-  </configuration>
-  <configuration>
-      <clone>no</clone>
-      <output name="eDP1">
-          <vendor>SHP</vendor>
-          <product>0x141a</product>
-          <serial>0x00000000</serial>
-      </output>
-      <output name="DP1">
-      </output>
-      <output name="DP2">
-      </output>
-      <output name="HDMI1">
-      </output>
-      <output name="HDMI2">
-          <vendor>BNQ</vendor>
-          <product>0x9702</product>
-          <serial>0x00000d55</serial>
-          <width>1280</width>
-          <height>800</height>
-          <rate>60</rate>
-          <x>0</x>
-          <y>0</y>
-          <rotation>normal</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
-      <output name="VIRTUAL1">
-      </output>
-  </configuration>
-  <configuration>
-      <clone>no</clone>
-      <output name="eDP1">
-          <vendor>SHP</vendor>
-          <product>0x141a</product>
-          <serial>0x00000000</serial>
-          <width>1600</width>
-          <height>900</height>
-          <rate>60</rate>
-          <x>0</x>
           <y>180</y>
           <rotation>normal</rotation>
           <reflect_x>no</reflect_x>
@@ -157,9 +196,9 @@
       <output name="HDMI1">
       </output>
       <output name="HDMI2">
-          <vendor>BNQ</vendor>
-          <product>0x78e4</product>
-          <serial>0x00005445</serial>
+          <vendor>AUS</vendor>
+          <product>0x23cc</product>
+          <serial>0x01010101</serial>
           <width>1920</width>
           <height>1080</height>
           <rate>60</rate>
