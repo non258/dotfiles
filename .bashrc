@@ -192,3 +192,5 @@ alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; do
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

@@ -1,0 +1,2203 @@
+[06/08/18, 11:18:00:700] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[06/08/18, 11:18:00:701] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.15.0-20-generic on x64 at 06/08/18, 11:18:00:697      ║
+[06/08/18, 11:18:00:701] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[06/08/18, 11:18:00:819] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/08/18, 11:18:01:269] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/08/18, 11:18:01:269] error: Desktop module calls failed to load
+[06/08/18, 11:18:01:298] info: cld3::loadModule: loading cld3 module
+[06/08/18, 11:18:01:321] info: cld3Loader::loadModule: running environment is NODE
+[06/08/18, 11:18:01:321] info: cld3Loader::loadModule: constructed module object for runtime
+[06/08/18, 11:18:01:536] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/08/18, 11:18:01:536] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/08/18, 11:18:01:552] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[06/08/18, 11:18:01:570] info: Main window preload script finished
+{
+  "readyTime": 1221.703665
+}
+[06/08/18, 11:18:04:606] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 182,
+  "state": "loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:05:706] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:06:052] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/08/18, 11:18:06:052] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:06:053] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB47MRNBZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/08/18, 11:18:06:089] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:06:090] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:06:090] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 182,
+  "state": "webapp-loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:06:207] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:18:06:638] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[06/08/18, 11:18:08:636] info: Unloading spellchecker
+[06/08/18, 11:18:08:645] info: Unloading spellchecker
+[06/08/18, 11:18:08:656] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:18:09:930] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:18:10:180] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:18:11:018] info: Couldn't detect language for text of length '81': Not enough reliable text, ignoring sample
+[06/08/18, 11:18:11:360] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:18:12:110] info: Couldn't detect language for text of length '81': Not enough reliable text, ignoring sample
+[06/08/18, 11:19:04:808] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/08/18, 11:19:10:756] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:19:11:644] info: Store: SELECT_CHANNEL DB36B5DMY
+[06/08/18, 11:19:14:064] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/08/18, 11:19:15:291] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:19:15:653] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IL","en_IL.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[06/08/18, 11:19:15:653] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IL","en_IL","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[06/08/18, 11:19:15:653] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IL","en_IL","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[06/08/18, 11:19:15:654] info: Setting ja
+[06/08/18, 11:19:15:655] info: Result: {"ja":"ja-JP"}
+[06/08/18, 11:19:15:658] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:15:660] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:15:660] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:15:662] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:15:663] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:15:953] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:15:953] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:15:953] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:009] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:16:010] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:010] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:145] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:145] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:16:146] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:16:146] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:308] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:308] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:16:309] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:16:310] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:406] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:16:406] info: Actually installing spell check provider to Electron
+[06/08/18, 11:19:16:587] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:587] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:16:589] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:16:590] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:628] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:628] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:16:630] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:16:630] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:787] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:788] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:16:790] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:16:791] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:861] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:16:861] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:16:862] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:16:862] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:16:964] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:17:080] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:22:462] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/08/18, 11:19:24:403] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:19:24:748] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:24:748] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:24:748] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:24:749] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:24:750] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:24:803] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:24:804] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:24:804] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:25:180] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:25:180] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:25:181] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:25:181] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:25:360] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:25:361] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:25:363] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:25:363] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:25:391] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:25:392] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:25:395] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:25:396] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:25:560] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:25:561] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:25:563] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:25:563] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:25:648] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:25:694] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:31:742] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/08/18, 11:19:37:693] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:19:40:076] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:19:40:390] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:40:390] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:40:391] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:40:391] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:40:391] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:40:802] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:40:803] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:40:804] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:40:804] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:40:953] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:40:954] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:40:955] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:40:956] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:41:071] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:41:499] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/08/18, 11:19:42:762] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/08/18, 11:19:45:281] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/08/18, 11:19:46:246] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:19:46:554] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:46:555] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:46:555] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:46:556] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:46:556] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:46:736] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:46:736] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:46:737] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:46:951] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:46:951] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:46:952] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:46:952] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:47:134] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:47:134] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:47:136] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:47:137] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:47:232] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:47:233] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:47:235] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:47:236] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:47:253] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:47:254] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:47:254] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:47:340] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:47:423] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:47:423] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:47:430] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:47:431] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:47:437] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:19:47:628] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:47:641] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/08/18, 11:19:47:770] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:47:770] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:47:772] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:47:775] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:47:922] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:47:922] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:47:926] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:47:927] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:48:053] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:48:982] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:19:48:999] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:48:999] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:48:999] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:49:003] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:49:003] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:49:097] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:49:097] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:49:099] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:49:099] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:49:207] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:49:207] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:49:210] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:49:210] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:49:321] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:49:619] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:19:49:620] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:49:620] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:49:622] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:49:623] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:49:848] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:49:849] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:49:851] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:49:852] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:49:968] info: Loading dictionary for language ja-JP
+[06/08/18, 11:19:49:969] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:19:49:975] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:19:49:978] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:19:50:091] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:19:57:035] info: Unloading spellchecker
+[06/08/18, 11:19:57:037] info: Unloading spellchecker
+[06/08/18, 11:19:57:054] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:19:57:056] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:15:469] info: Restoring spellchecker
+[06/08/18, 11:20:15:469] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:20:15:470] info: Loading dictionary for language ja-JP
+[06/08/18, 11:20:15:470] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:20:15:473] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:15:504] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:15:505] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:20:15:507] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:20:16:033] info: Loading dictionary for language ja-JP
+[06/08/18, 11:20:16:034] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:20:16:035] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:20:16:036] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:20:16:135] info: Loading dictionary for language ja-JP
+[06/08/18, 11:20:16:136] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:20:16:137] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:20:16:138] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:20:16:247] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:20:16:379] info: Unloading spellchecker
+[06/08/18, 11:20:16:401] info: Unloading spellchecker
+[06/08/18, 11:20:16:402] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:16:426] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:17:633] info: Restoring spellchecker
+[06/08/18, 11:20:17:634] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:20:17:634] info: Loading dictionary for language ja-JP
+[06/08/18, 11:20:17:634] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:20:17:638] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:17:640] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:17:681] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:20:17:682] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:20:17:791] info: Loading dictionary for language ja-JP
+[06/08/18, 11:20:17:791] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:20:17:792] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:20:17:793] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:20:17:934] info: Loading dictionary for language ja-JP
+[06/08/18, 11:20:17:935] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:20:17:936] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:20:17:937] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:20:18:053] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:20:39:167] info: Unloading spellchecker
+[06/08/18, 11:20:39:173] info: Unloading spellchecker
+[06/08/18, 11:20:39:174] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:20:39:189] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:22:42:866] info: Restoring spellchecker
+[06/08/18, 11:22:42:867] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:22:42:868] info: Loading dictionary for language ja-JP
+[06/08/18, 11:22:42:868] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:22:42:874] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:22:42:898] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:22:42:928] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:22:42:931] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:22:43:472] info: Loading dictionary for language ja-JP
+[06/08/18, 11:22:43:473] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:22:43:473] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:22:43:474] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:22:43:630] info: Loading dictionary for language ja-JP
+[06/08/18, 11:22:43:630] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:22:43:630] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:22:43:631] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:22:43:743] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:22:53:901] info: Unloading spellchecker
+[06/08/18, 11:22:53:933] info: Unloading spellchecker
+[06/08/18, 11:22:53:934] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:22:53:935] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:23:07:078] info: Restoring spellchecker
+[06/08/18, 11:23:07:078] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:23:07:079] info: Loading dictionary for language ja-JP
+[06/08/18, 11:23:07:079] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:23:07:082] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:23:07:113] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:23:07:115] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:23:07:116] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:23:07:689] info: Loading dictionary for language ja-JP
+[06/08/18, 11:23:07:690] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:23:07:692] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:23:07:693] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:23:07:841] info: Loading dictionary for language ja-JP
+[06/08/18, 11:23:07:841] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:23:07:843] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:23:07:843] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:23:07:982] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:23:09:222] info: Unloading spellchecker
+[06/08/18, 11:23:09:224] info: Unloading spellchecker
+[06/08/18, 11:23:09:226] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:23:09:267] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:26:13:858] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "161kSphXZQj8VKy",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528424774.000133&team=TB47MRNBZ",
+  "msg": "1528424774.000133",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 11:26:37:591] info: Restoring spellchecker
+[06/08/18, 11:26:37:596] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:26:37:597] info: Loading dictionary for language ja-JP
+[06/08/18, 11:26:37:598] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:26:37:644] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:26:37:645] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:26:37:647] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:26:37:647] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:26:37:994] info: Unloading spellchecker
+[06/08/18, 11:26:37:995] info: Unloading spellchecker
+[06/08/18, 11:26:38:022] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:26:38:023] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:26:38:318] info: Loading dictionary for language ja-JP
+[06/08/18, 11:26:38:319] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:26:38:321] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:26:38:322] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:26:38:500] info: Loading dictionary for language ja-JP
+[06/08/18, 11:26:38:501] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:26:38:504] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:26:38:505] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:26:38:642] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:27:06:253] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:27:06:263] info: Restoring spellchecker
+[06/08/18, 11:27:06:264] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:27:06:265] info: Loading dictionary for language ja-JP
+[06/08/18, 11:27:06:266] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:27:06:273] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:27:06:275] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:27:06:342] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:27:06:887] info: Loading dictionary for language ja-JP
+[06/08/18, 11:27:06:888] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:27:06:889] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:27:06:890] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:27:07:072] info: Loading dictionary for language ja-JP
+[06/08/18, 11:27:07:072] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:27:07:074] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:27:07:074] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:27:07:225] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:27:44:289] info: Unloading spellchecker
+[06/08/18, 11:27:44:290] info: Unloading spellchecker
+[06/08/18, 11:27:44:309] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:27:44:309] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:28:25:714] info: Restoring spellchecker
+[06/08/18, 11:28:25:714] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:28:25:715] info: Loading dictionary for language ja-JP
+[06/08/18, 11:28:25:716] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:28:25:719] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:28:25:720] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:28:25:757] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:28:25:758] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:28:26:309] info: Loading dictionary for language ja-JP
+[06/08/18, 11:28:26:309] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:28:26:311] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:28:26:311] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:28:26:420] info: Loading dictionary for language ja-JP
+[06/08/18, 11:28:26:421] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:28:26:423] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:28:26:424] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:28:26:532] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:28:29:412] info: Unloading spellchecker
+[06/08/18, 11:28:29:413] info: Unloading spellchecker
+[06/08/18, 11:28:29:458] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:28:31:322] info: Restoring spellchecker
+[06/08/18, 11:28:31:323] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:28:31:323] info: Loading dictionary for language ja-JP
+[06/08/18, 11:28:31:323] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:28:31:325] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:28:31:350] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:28:31:351] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:28:31:456] info: Loading dictionary for language ja-JP
+[06/08/18, 11:28:31:457] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:28:31:457] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:28:31:458] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:28:31:587] info: Loading dictionary for language ja-JP
+[06/08/18, 11:28:31:588] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:28:31:590] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:28:31:591] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:28:31:701] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:28:32:698] info: Unloading spellchecker
+[06/08/18, 11:28:32:699] info: Unloading spellchecker
+[06/08/18, 11:28:32:738] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:28:51:851] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:29:27:068] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:29:32:003] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:29:37:896] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:29:50:027] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:30:11:321] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:30:13:044] info: Restoring spellchecker
+[06/08/18, 11:30:13:046] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:30:13:048] info: Loading dictionary for language ja-JP
+[06/08/18, 11:30:13:049] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:30:13:137] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:30:13:138] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:30:13:138] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:30:13:614] info: Loading dictionary for language ja-JP
+[06/08/18, 11:30:13:615] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:30:13:616] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:30:13:617] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:30:13:771] info: Loading dictionary for language ja-JP
+[06/08/18, 11:30:13:771] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:30:13:774] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:30:13:774] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:30:13:891] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:30:38:848] info: Unloading spellchecker
+[06/08/18, 11:30:38:849] info: Unloading spellchecker
+[06/08/18, 11:30:38:892] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:30:41:992] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:30:51:012] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:30:52:530] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:31:20:478] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:31:21:603] info: Restoring spellchecker
+[06/08/18, 11:31:21:605] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:31:21:614] info: Loading dictionary for language ja-JP
+[06/08/18, 11:31:21:614] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:31:21:669] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:31:21:670] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:31:21:671] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:31:22:117] info: Loading dictionary for language ja-JP
+[06/08/18, 11:31:22:117] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:31:22:118] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:31:22:119] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:31:22:276] info: Loading dictionary for language ja-JP
+[06/08/18, 11:31:22:277] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:31:22:279] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:31:22:280] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:31:22:388] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:32:00:433] info: Opening authenticated Slack url in browser https://vector2d.slack.com/z-browser-378259872407-378827365686-27962740f51eb62dcbf86415212d425bfa848e1172af55cbf4f2a90da8830db1?redir=account%252Fsettings&session=377325914338
+[06/08/18, 11:32:00:646] info: Unloading spellchecker
+[06/08/18, 11:32:00:648] info: Unloading spellchecker
+[06/08/18, 11:32:00:667] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:32:00:668] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:32:11:887] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "mqRWhpi9X7yB7wV",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528425132.000113&team=TB47MRNBZ",
+  "msg": "1528425132.000113",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 11:32:13:284] info: Restoring spellchecker
+[06/08/18, 11:32:13:285] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:32:13:287] info: Loading dictionary for language ja-JP
+[06/08/18, 11:32:13:288] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:32:13:293] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:32:13:336] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:32:13:393] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:32:13:394] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:32:13:911] info: Loading dictionary for language ja-JP
+[06/08/18, 11:32:13:912] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:32:13:913] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:32:13:914] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:32:14:071] info: Loading dictionary for language ja-JP
+[06/08/18, 11:32:14:073] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:32:14:077] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:32:14:078] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:32:14:193] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:33:58:007] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/08/18, 11:34:00:142] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/08/18, 11:34:02:276] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:34:02:594] info: Couldn't detect language for text of length '282': Not enough reliable text, ignoring sample
+[06/08/18, 11:34:03:946] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:34:04:111] info: Couldn't detect language for text of length '282': Not enough reliable text, ignoring sample
+[06/08/18, 11:34:39:208] info: Unloading spellchecker
+[06/08/18, 11:34:39:211] info: Unloading spellchecker
+[06/08/18, 11:34:39:228] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:34:39:228] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:34:45:300] info: Restoring spellchecker
+[06/08/18, 11:34:45:300] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:34:45:303] info: Loading dictionary for language ja-JP
+[06/08/18, 11:34:45:305] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:34:45:310] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:34:45:310] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:34:45:333] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:34:45:335] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:34:45:871] info: Loading dictionary for language ja-JP
+[06/08/18, 11:34:45:871] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:34:45:873] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:34:45:874] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:34:46:027] info: Loading dictionary for language ja-JP
+[06/08/18, 11:34:46:027] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:34:46:029] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:34:46:030] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:34:46:142] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:34:53:348] info: Unloading spellchecker
+[06/08/18, 11:34:53:350] info: Unloading spellchecker
+[06/08/18, 11:34:53:350] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:34:53:365] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:35:50:256] info: Restoring spellchecker
+[06/08/18, 11:35:50:257] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:35:50:257] info: Loading dictionary for language ja-JP
+[06/08/18, 11:35:50:257] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:35:50:290] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:35:50:291] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:35:50:294] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:35:50:295] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:35:50:862] info: Loading dictionary for language ja-JP
+[06/08/18, 11:35:50:863] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:35:50:865] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:35:50:865] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:35:51:022] info: Loading dictionary for language ja-JP
+[06/08/18, 11:35:51:022] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:35:51:025] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:35:51:025] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:35:51:145] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:12:843] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:36:12:886] info: Unloading spellchecker
+[06/08/18, 11:36:12:893] info: Unloading spellchecker
+[06/08/18, 11:36:14:150] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:36:14:204] info: Restoring spellchecker
+[06/08/18, 11:36:14:206] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:14:207] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:14:208] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:14:215] info: Restoring spellchecker
+[06/08/18, 11:36:14:216] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:14:216] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:14:217] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:14:298] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:14:299] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:14:358] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:14:359] info: Can't clear out file, bailing
+[06/08/18, 11:36:14:360] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:14:360] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:14:838] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:36:14:881] info: Unloading spellchecker
+[06/08/18, 11:36:14:885] info: Unloading spellchecker
+[06/08/18, 11:36:14:918] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:14:919] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:14:920] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:14:920] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:15:291] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:15:291] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:15:293] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:15:293] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:15:385] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:15:385] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:15:387] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:15:387] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:15:607] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:15:700] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:20:585] info: Store: SELECT_PREVIOUS_TEAM
+[06/08/18, 11:36:20:617] info: Restoring spellchecker
+[06/08/18, 11:36:20:618] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:20:618] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:20:619] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:20:624] info: Restoring spellchecker
+[06/08/18, 11:36:20:624] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:20:625] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:20:626] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:20:687] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:20:688] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:20:689] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:20:700] info: Can't clear out file, bailing
+[06/08/18, 11:36:20:701] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:20:701] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:20:790] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:20:791] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:20:791] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:20:792] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:20:976] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:20:977] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:20:981] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:20:982] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:21:019] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:21:020] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:21:024] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:21:026] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:21:192] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:21:219] info: Store: SELECT_PREVIOUS_TEAM
+[06/08/18, 11:36:21:265] info: Unloading spellchecker
+[06/08/18, 11:36:21:269] info: Unloading spellchecker
+[06/08/18, 11:36:21:300] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:21:667] info: Store: SELECT_PREVIOUS_TEAM
+[06/08/18, 11:36:21:689] info: Restoring spellchecker
+[06/08/18, 11:36:21:690] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:21:690] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:21:696] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:21:755] info: Restoring spellchecker
+[06/08/18, 11:36:21:755] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:21:756] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:21:762] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:21:888] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:21:888] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:21:890] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:21:890] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:21:997] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:21:997] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:21:999] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:21:999] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:22:057] info: Store: SELECT_PREVIOUS_TEAM
+[06/08/18, 11:36:22:128] info: Unloading spellchecker
+[06/08/18, 11:36:22:137] info: Unloading spellchecker
+[06/08/18, 11:36:22:232] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:22:233] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:22:233] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:22:234] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:22:267] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:22:268] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:22:269] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:22:270] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:22:539] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:36:22:546] info: Restoring spellchecker
+[06/08/18, 11:36:22:547] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:22:547] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:22:548] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:22:602] info: Restoring spellchecker
+[06/08/18, 11:36:22:603] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:36:22:603] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:22:604] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:22:744] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:22:749] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:22:885] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:36:22:921] info: Unloading spellchecker
+[06/08/18, 11:36:22:935] info: Unloading spellchecker
+[06/08/18, 11:36:23:240] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:23:240] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:23:246] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:23:246] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:23:512] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:23:513] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:23:514] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:23:515] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:23:543] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:23:544] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:23:569] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:23:569] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:23:617] info: Loading dictionary for language ja-JP
+[06/08/18, 11:36:23:617] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:36:23:619] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:36:23:619] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:36:23:671] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:23:720] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:36:26:870] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:36:26:888] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:37:28:033] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:37:28:048] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:37:29:660] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:37:29:682] info: Restoring spellchecker
+[06/08/18, 11:37:29:683] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:37:29:683] info: Loading dictionary for language ja-JP
+[06/08/18, 11:37:29:683] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:37:29:687] info: Restoring spellchecker
+[06/08/18, 11:37:29:687] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:37:29:688] info: Loading dictionary for language ja-JP
+[06/08/18, 11:37:29:688] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:37:29:760] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:37:29:760] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:37:29:761] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:37:29:814] info: Can't clear out file, bailing
+[06/08/18, 11:37:29:815] info: Loading dictionary for language ja-JP
+[06/08/18, 11:37:29:816] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:37:30:639] info: Loading dictionary for language ja-JP
+[06/08/18, 11:37:30:639] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:37:30:709] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:37:30:711] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:37:30:908] info: Loading dictionary for language ja-JP
+[06/08/18, 11:37:30:909] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:37:30:910] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:37:30:911] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:37:31:070] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:37:31:302] info: Loading dictionary for language ja-JP
+[06/08/18, 11:37:31:302] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:37:31:305] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:37:31:305] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:37:31:527] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:37:32:097] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/08/18, 11:37:38:063] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:37:59:919] info: Store: SELECT_CHANNEL DB36B5DMY
+[06/08/18, 11:38:01:943] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/08/18, 11:38:03:526] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/08/18, 11:38:04:839] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:38:05:149] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:38:05:150] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:05:150] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:05:150] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:05:150] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:05:496] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:38:05:497] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:05:497] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:05:530] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:05:530] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:05:531] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:05:531] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:05:618] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:05:618] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:05:619] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:05:619] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:05:705] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:38:05:864] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:38:05:913] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:05:913] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:05:914] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:05:926] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:05:940] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:38:05:941] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:05:941] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:06:024] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:06:025] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:06:025] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:06:026] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:06:065] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:06:065] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:06:066] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:06:066] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:06:120] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:38:06:167] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:06:167] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:06:168] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:06:169] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:06:317] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:38:06:813] info: Unloading spellchecker
+[06/08/18, 11:38:06:821] info: Restoring spellchecker
+[06/08/18, 11:38:06:821] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:38:06:822] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:06:822] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:06:854] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 11:38:06:856] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:06:856] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:06:964] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:06:965] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:06:966] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:06:967] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:06:986] info: Store: SELECT_TEAM T031FNTUT
+[06/08/18, 11:38:07:000] info: Unloading spellchecker
+[06/08/18, 11:38:07:005] info: Unloading spellchecker
+[06/08/18, 11:38:07:096] info: Loading dictionary for language ja-JP
+[06/08/18, 11:38:07:097] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:38:07:100] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:38:07:102] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:38:07:237] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:38:19:279] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:38:47:153] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:38:48:932] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:38:48:957] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:39:11:406] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:39:11:415] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:39:16:738] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[06/08/18, 11:39:19:429] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 11:39:19:606] info: Store: SELECT_TEAM TB47MRNBZ
+[06/08/18, 11:39:19:615] info: Restoring spellchecker
+[06/08/18, 11:39:19:615] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:39:19:615] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:19:615] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:19:715] info: Restoring spellchecker
+[06/08/18, 11:39:19:716] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:39:19:716] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:19:717] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:20:221] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:20:221] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:20:223] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:20:224] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:20:257] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:20:258] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:20:259] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:20:259] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:20:334] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:20:334] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:20:336] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:20:336] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:20:383] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:20:383] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:20:385] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:20:385] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:20:463] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:39:20:506] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:39:21:463] info: Unloading spellchecker
+[06/08/18, 11:39:21:471] info: Restoring spellchecker
+[06/08/18, 11:39:21:472] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:39:21:473] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:21:474] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:21:509] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 11:39:21:511] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:21:511] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:21:602] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:21:602] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:21:603] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:21:604] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:21:628] info: Store: SELECT_TEAM T031FNTUT
+[06/08/18, 11:39:21:639] info: Unloading spellchecker
+[06/08/18, 11:39:21:643] info: Unloading spellchecker
+[06/08/18, 11:39:21:732] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:21:732] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:21:733] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:21:735] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:21:853] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:39:24:949] info: Store: SELECT_CHANNEL D7JP44402
+[06/08/18, 11:39:28:610] info: Store: SELECT_CHANNEL C031FNU09
+[06/08/18, 11:39:30:502] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:39:30:523] info: Restoring spellchecker
+[06/08/18, 11:39:30:523] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:39:30:524] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:30:524] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:30:531] info: Restoring spellchecker
+[06/08/18, 11:39:30:532] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:39:30:533] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:30:533] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:30:592] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:30:592] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:30:592] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:30:643] info: Can't clear out file, bailing
+[06/08/18, 11:39:30:644] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:30:644] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:31:157] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:31:157] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:31:159] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:31:160] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:31:210] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:31:211] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:31:212] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:31:213] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:31:280] info: Loading dictionary for language ja-JP
+[06/08/18, 11:39:31:281] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:39:31:283] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:39:31:283] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:39:31:343] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:39:31:418] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:39:45:048] info: Unloading spellchecker
+[06/08/18, 11:39:45:050] info: Unloading spellchecker
+[06/08/18, 11:39:45:091] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:39:46:271] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:41:21:966] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:41:30:445] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:42:33:198] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:42:34:194] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:43:57:276] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:43:59:509] info: Restoring spellchecker
+[06/08/18, 11:43:59:509] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:43:59:510] info: Loading dictionary for language ja-JP
+[06/08/18, 11:43:59:510] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:43:59:572] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:43:59:573] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:43:59:573] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:44:00:076] info: Loading dictionary for language ja-JP
+[06/08/18, 11:44:00:077] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:44:00:079] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:44:00:079] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:44:00:238] info: Loading dictionary for language ja-JP
+[06/08/18, 11:44:00:239] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:44:00:241] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:44:00:242] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:44:00:404] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:44:02:251] info: Unloading spellchecker
+[06/08/18, 11:44:02:263] info: Unloading spellchecker
+[06/08/18, 11:44:02:283] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:44:02:973] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:46:45:324] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:46:52:635] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:49:35:105] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:49:36:965] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:49:53:594] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:49:56:809] info: Restoring spellchecker
+[06/08/18, 11:49:56:809] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:49:56:811] info: Loading dictionary for language ja-JP
+[06/08/18, 11:49:56:811] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:49:56:819] info: Unloading spellchecker
+[06/08/18, 11:49:56:827] info: Restoring spellchecker
+[06/08/18, 11:49:56:827] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:49:56:827] info: Loading dictionary for language ja-JP
+[06/08/18, 11:49:56:829] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:49:56:836] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 11:49:56:860] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:49:56:862] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:49:56:863] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:49:56:863] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:49:56:904] info: Can't clear out file, bailing
+[06/08/18, 11:49:56:910] info: Loading dictionary for language ja-JP
+[06/08/18, 11:49:56:910] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:49:57:457] info: Loading dictionary for language ja-JP
+[06/08/18, 11:49:57:457] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:49:57:459] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:49:57:459] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:49:57:626] info: Loading dictionary for language ja-JP
+[06/08/18, 11:49:57:627] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:49:57:629] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:49:57:629] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:49:57:654] info: Loading dictionary for language ja-JP
+[06/08/18, 11:49:57:655] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:49:57:656] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:49:57:657] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:49:57:823] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:49:57:922] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:50:02:203] info: Store: SELECT_CHANNEL DB36B5DMY
+[06/08/18, 11:50:03:294] info: Unloading spellchecker
+[06/08/18, 11:50:03:312] info: Restoring spellchecker
+[06/08/18, 11:50:03:313] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:50:03:313] info: Loading dictionary for language ja-JP
+[06/08/18, 11:50:03:314] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:50:03:329] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 11:50:03:331] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:50:03:332] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:50:03:437] info: Store: SELECT_TEAM T031FNTUT
+[06/08/18, 11:50:03:470] info: Unloading spellchecker
+[06/08/18, 11:50:03:471] info: Unloading spellchecker
+[06/08/18, 11:50:03:968] info: Loading dictionary for language ja-JP
+[06/08/18, 11:50:03:969] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:50:03:969] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:50:03:970] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:50:04:129] info: Loading dictionary for language ja-JP
+[06/08/18, 11:50:04:130] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:50:04:132] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:50:04:132] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:50:04:460] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:50:10:157] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/08/18, 11:53:22:113] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "QkJrtBskWgRw1Yk",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528426401.000251&team=TB47MRNBZ",
+  "msg": "1528426401.000251",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 11:53:27:319] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1528426401.000251",
+  "notificationId": "QkJrtBskWgRw1Yk",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:53:27:325] info: Store: SELECT_TEAM TB47MRNBZ
+[06/08/18, 11:53:27:352] info: Restoring spellchecker
+[06/08/18, 11:53:27:353] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:53:27:353] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:27:353] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:27:358] info: Restoring spellchecker
+[06/08/18, 11:53:27:358] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:53:27:359] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:27:359] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:27:598] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 11:53:27:657] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:27:658] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:27:658] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:27:692] info: Can't clear out file, bailing
+[06/08/18, 11:53:27:693] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:27:693] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:28:214] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:53:28:214] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:28:215] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:28:321] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:28:321] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:28:322] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:28:322] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:28:518] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:28:518] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:28:538] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:28:538] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:28:578] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:28:585] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:28:599] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:28:600] info: Can't clear out file, bailing
+[06/08/18, 11:53:28:601] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:53:28:718] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:28:719] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:28:720] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:28:721] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:28:837] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:53:28:912] info: Loading dictionary for language ja-JP
+[06/08/18, 11:53:28:912] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:53:28:914] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:53:28:914] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:53:29:047] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:54:14:921] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:54:14:965] info: Unloading spellchecker
+[06/08/18, 11:54:14:973] info: Unloading spellchecker
+[06/08/18, 11:54:17:169] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:54:17:177] info: Restoring spellchecker
+[06/08/18, 11:54:17:177] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:54:17:178] info: Loading dictionary for language ja-JP
+[06/08/18, 11:54:17:179] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:54:17:195] info: Restoring spellchecker
+[06/08/18, 11:54:17:195] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:54:17:196] info: Loading dictionary for language ja-JP
+[06/08/18, 11:54:17:196] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:54:17:235] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:54:17:236] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:54:17:237] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:54:17:285] info: Can't clear out file, bailing
+[06/08/18, 11:54:17:286] info: Loading dictionary for language ja-JP
+[06/08/18, 11:54:17:286] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:54:17:720] info: Loading dictionary for language ja-JP
+[06/08/18, 11:54:17:720] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:54:17:720] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:54:17:721] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:54:17:762] info: Loading dictionary for language ja-JP
+[06/08/18, 11:54:17:763] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:54:17:764] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:54:17:764] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:54:17:817] info: Loading dictionary for language ja-JP
+[06/08/18, 11:54:17:817] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:54:17:819] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:54:17:820] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:54:17:864] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:54:17:924] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:54:18:293] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:54:18:336] info: Unloading spellchecker
+[06/08/18, 11:54:18:363] info: Unloading spellchecker
+[06/08/18, 11:54:35:023] info: Store: SELECT_CHANNEL GA0C0FJJ2
+[06/08/18, 11:55:03:938] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 11:55:03:960] info: Restoring spellchecker
+[06/08/18, 11:55:03:961] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:55:03:975] info: Loading dictionary for language ja-JP
+[06/08/18, 11:55:03:975] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:55:03:991] info: Restoring spellchecker
+[06/08/18, 11:55:03:992] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:55:03:992] info: Loading dictionary for language ja-JP
+[06/08/18, 11:55:03:992] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:55:04:038] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:55:04:039] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:55:04:076] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:55:04:086] info: Can't clear out file, bailing
+[06/08/18, 11:55:04:088] info: Loading dictionary for language ja-JP
+[06/08/18, 11:55:04:089] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:55:04:537] info: Loading dictionary for language ja-JP
+[06/08/18, 11:55:04:537] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:55:04:538] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:55:04:539] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:55:04:588] info: Loading dictionary for language ja-JP
+[06/08/18, 11:55:04:589] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:55:04:591] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:55:04:592] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:55:04:642] info: Loading dictionary for language ja-JP
+[06/08/18, 11:55:04:643] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:55:04:645] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:55:04:646] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:55:04:706] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:55:04:760] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:55:08:629] info: Unloading spellchecker
+[06/08/18, 11:55:08:647] info: Unloading spellchecker
+[06/08/18, 11:55:08:671] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:55:46:448] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:56:18:794] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:56:20:070] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:56:22:463] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "mqRWhRt9X7yR2K9",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528426582.000050&team=TB47MRNBZ",
+  "msg": "1528426582.000050",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 11:56:24:018] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "GRnNfAuQDvzyqL4",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528426583.000219&team=TB47MRNBZ",
+  "msg": "1528426583.000219",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 11:56:24:797] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1528426582.000050",
+  "notificationId": "mqRWhRt9X7yR2K9",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 11:56:24:814] info: Store: SELECT_TEAM TB47MRNBZ
+[06/08/18, 11:56:24:888] info: Restoring spellchecker
+[06/08/18, 11:56:24:889] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:56:24:889] info: Loading dictionary for language ja-JP
+[06/08/18, 11:56:24:890] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:56:24:892] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:56:24:948] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:56:24:989] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:56:24:990] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:56:25:530] info: Loading dictionary for language ja-JP
+[06/08/18, 11:56:25:531] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:56:25:533] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:56:25:534] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:56:25:646] info: Loading dictionary for language ja-JP
+[06/08/18, 11:56:25:647] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:56:25:647] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:56:25:647] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:56:25:759] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:57:04:018] info: Unloading spellchecker
+[06/08/18, 11:57:04:025] info: Unloading spellchecker
+[06/08/18, 11:57:04:061] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:57:04:799] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:57:56:139] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:57:58:194] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:58:54:380] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:58:55:805] info: Restoring spellchecker
+[06/08/18, 11:58:55:806] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:58:55:808] info: Loading dictionary for language ja-JP
+[06/08/18, 11:58:55:808] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:58:55:839] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:58:55:843] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:58:55:843] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:58:56:314] info: Loading dictionary for language ja-JP
+[06/08/18, 11:58:56:314] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:58:56:316] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:58:56:316] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:58:56:427] info: Loading dictionary for language ja-JP
+[06/08/18, 11:58:56:428] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:58:56:430] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:58:56:431] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:58:56:542] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 11:59:31:530] info: Unloading spellchecker
+[06/08/18, 11:59:31:530] info: Unloading spellchecker
+[06/08/18, 11:59:31:531] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:59:31:556] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:59:47:145] info: Restoring spellchecker
+[06/08/18, 11:59:47:148] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 11:59:47:154] info: Loading dictionary for language ja-JP
+[06/08/18, 11:59:47:154] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:59:47:160] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:59:47:161] info: Store: SET_FULL_SCREEN
+[06/08/18, 11:59:47:223] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:59:47:223] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:59:47:745] info: Loading dictionary for language ja-JP
+[06/08/18, 11:59:47:745] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:59:47:747] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:59:47:747] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:59:47:903] info: Loading dictionary for language ja-JP
+[06/08/18, 11:59:47:904] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 11:59:47:905] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 11:59:47:906] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 11:59:48:020] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:00:06:410] info: Unloading spellchecker
+[06/08/18, 12:00:06:411] info: Unloading spellchecker
+[06/08/18, 12:00:06:429] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:06:429] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:07:422] info: Restoring spellchecker
+[06/08/18, 12:00:07:424] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:00:07:425] info: Loading dictionary for language ja-JP
+[06/08/18, 12:00:07:426] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:00:07:464] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:07:464] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:07:468] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:00:07:472] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:00:07:966] info: Loading dictionary for language ja-JP
+[06/08/18, 12:00:07:967] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:00:07:968] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:00:07:969] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:00:08:124] info: Loading dictionary for language ja-JP
+[06/08/18, 12:00:08:125] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:00:08:127] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:00:08:128] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:00:08:289] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:00:34:390] info: Unloading spellchecker
+[06/08/18, 12:00:34:391] info: Unloading spellchecker
+[06/08/18, 12:00:34:416] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:35:194] info: Restoring spellchecker
+[06/08/18, 12:00:35:195] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:00:35:196] info: Loading dictionary for language ja-JP
+[06/08/18, 12:00:35:197] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:00:35:249] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:35:250] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:00:35:250] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:00:35:655] info: Loading dictionary for language ja-JP
+[06/08/18, 12:00:35:655] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:00:35:658] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:00:35:658] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:00:35:815] info: Loading dictionary for language ja-JP
+[06/08/18, 12:00:35:816] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:00:35:819] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:00:35:824] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:00:35:997] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:00:54:892] info: Unloading spellchecker
+[06/08/18, 12:00:54:907] info: Unloading spellchecker
+[06/08/18, 12:00:54:908] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:00:54:908] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:01:12:037] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:01:12:057] info: Restoring spellchecker
+[06/08/18, 12:01:12:057] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:01:12:058] info: Loading dictionary for language ja-JP
+[06/08/18, 12:01:12:058] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:01:12:085] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:01:12:087] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:01:12:087] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:01:12:544] info: Loading dictionary for language ja-JP
+[06/08/18, 12:01:12:545] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:01:12:545] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:01:12:546] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:01:12:708] info: Loading dictionary for language ja-JP
+[06/08/18, 12:01:12:708] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:01:12:710] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:01:12:711] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:01:12:822] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:01:13:559] info: Unloading spellchecker
+[06/08/18, 12:01:13:561] info: Unloading spellchecker
+[06/08/18, 12:01:13:578] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:01:13:579] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:02:48:694] info: Restoring spellchecker
+[06/08/18, 12:02:48:696] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:02:48:697] info: Loading dictionary for language ja-JP
+[06/08/18, 12:02:48:697] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:02:48:700] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:02:48:701] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:02:48:733] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:02:48:733] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:02:49:679] info: Loading dictionary for language ja-JP
+[06/08/18, 12:02:49:680] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:02:49:682] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:02:49:682] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:02:49:974] info: Loading dictionary for language ja-JP
+[06/08/18, 12:02:49:975] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:02:49:976] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:02:49:977] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:02:50:194] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:02:57:608] info: Unloading spellchecker
+[06/08/18, 12:02:57:613] info: Unloading spellchecker
+[06/08/18, 12:02:57:635] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:02:57:636] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:03:13:881] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:03:13:887] info: Restoring spellchecker
+[06/08/18, 12:03:13:888] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:03:13:888] info: Loading dictionary for language ja-JP
+[06/08/18, 12:03:13:889] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:03:13:922] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:03:13:926] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:03:13:927] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:03:14:438] info: Loading dictionary for language ja-JP
+[06/08/18, 12:03:14:438] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:03:14:439] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:03:14:439] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:03:14:602] info: Loading dictionary for language ja-JP
+[06/08/18, 12:03:14:603] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:03:14:604] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:03:14:605] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:03:14:707] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:03:16:178] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 12:03:16:190] info: Unloading spellchecker
+[06/08/18, 12:03:16:193] info: Unloading spellchecker
+[06/08/18, 12:03:17:657] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:03:18:181] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:03:19:516] info: Store: SELECT_CHANNEL C4QLRLTTP
+[06/08/18, 12:03:27:202] info: Store: SELECT_CHANNEL C8JMT82QK
+[06/08/18, 12:03:51:546] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "PjmqiNCjYoL7yXA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528427031.000102&team=TB47MRNBZ",
+  "msg": "1528427031.000102",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 12:04:10:793] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 12:04:10:971] info: Store: SELECT_TEAM TB47MRNBZ
+[06/08/18, 12:04:10:991] info: Restoring spellchecker
+[06/08/18, 12:04:11:004] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:04:11:005] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:11:005] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:11:075] info: Restoring spellchecker
+[06/08/18, 12:04:11:076] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:04:11:079] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:11:079] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:11:827] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:11:827] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:11:828] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:11:829] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:11:882] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:11:882] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:11:886] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:11:887] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:12:098] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:12:099] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:12:102] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:12:103] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:12:125] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:12:126] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:12:167] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:12:170] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:12:243] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:04:12:405] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:04:22:608] info: Unloading spellchecker
+[06/08/18, 12:04:22:613] info: Unloading spellchecker
+[06/08/18, 12:04:22:639] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:23:117] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:28:171] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:29:523] info: Restoring spellchecker
+[06/08/18, 12:04:29:525] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:04:29:526] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:29:527] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:29:611] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:29:612] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:29:614] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:30:009] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:30:009] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:30:011] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:30:012] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:30:162] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:30:162] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:30:163] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:30:163] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:30:295] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:04:36:142] info: Unloading spellchecker
+[06/08/18, 12:04:36:167] info: Unloading spellchecker
+[06/08/18, 12:04:36:168] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:36:169] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:48:528] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "Vvpzf5FJR9nZ7Dj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528427088.000075&team=TB47MRNBZ",
+  "msg": "1528427088.000075",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 12:04:50:744] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1528427088.000075",
+  "notificationId": "Vvpzf5FJR9nZ7Dj",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 12:04:50:745] info: Store: SELECT_TEAM TB47MRNBZ
+[06/08/18, 12:04:50:785] info: Restoring spellchecker
+[06/08/18, 12:04:50:786] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:04:50:786] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:50:786] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:50:790] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:50:791] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:04:50:874] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:50:875] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:51:332] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:51:333] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:51:372] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:51:386] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:51:496] info: Loading dictionary for language ja-JP
+[06/08/18, 12:04:51:497] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:04:51:498] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:04:51:499] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:04:51:651] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:23:209] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/08/18, 12:06:24:658] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/08/18, 12:06:26:811] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 12:06:27:198] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:27:198] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:27:198] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:27:199] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:27:199] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:27:484] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:27:484] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:27:485] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:27:694] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:27:694] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:27:694] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:27:695] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:27:862] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:27:862] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:27:864] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:27:864] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:27:968] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:27:968] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:27:970] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:27:970] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:28:075] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:28:169] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:28:170] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:28:172] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:28:172] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:28:288] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:28:661] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/08/18, 12:06:28:666] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:28:667] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:28:667] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:28:679] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:28:697] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:28:811] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:28:811] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:28:814] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:28:815] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:28:973] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:28:974] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:28:976] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:28:976] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:29:121] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:30:261] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 12:06:30:277] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:30:278] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:30:278] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:30:283] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:30:283] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:30:375] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:30:375] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:30:376] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:30:376] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:30:549] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:30:550] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:30:552] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:30:553] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:30:646] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:30:647] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:30:647] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:30:662] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:30:840] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:30:841] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:30:856] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:30:857] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:30:999] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:30:999] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:31:001] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:31:003] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:31:157] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:31:550] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/08/18, 12:06:33:290] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/08/18, 12:06:33:309] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:33:309] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:33:310] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:33:311] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:33:313] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:33:410] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:33:411] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:33:413] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:33:414] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:33:530] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:06:33:530] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:33:531] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:33:581] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:33:582] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:33:584] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:33:585] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:33:692] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:33:693] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:33:694] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:33:695] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:33:815] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:33:907] info: Loading dictionary for language ja-JP
+[06/08/18, 12:06:33:908] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:06:33:909] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:06:33:910] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:06:34:022] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:06:37:888] info: Unloading spellchecker
+[06/08/18, 12:06:37:898] info: Unloading spellchecker
+[06/08/18, 12:06:37:916] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:06:37:917] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:09:35:271] info: Restoring spellchecker
+[06/08/18, 12:09:35:275] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:09:35:276] info: Loading dictionary for language ja-JP
+[06/08/18, 12:09:35:276] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:09:35:309] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:09:35:311] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:09:35:312] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:09:35:314] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:09:35:842] info: Loading dictionary for language ja-JP
+[06/08/18, 12:09:35:843] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:09:35:844] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:09:35:844] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:09:35:990] info: Loading dictionary for language ja-JP
+[06/08/18, 12:09:35:995] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:09:35:998] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:09:35:999] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:09:36:123] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:09:36:414] info: Unloading spellchecker
+[06/08/18, 12:09:36:417] info: Unloading spellchecker
+[06/08/18, 12:09:36:467] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:09:36:469] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:11:37:044] info: Restoring spellchecker
+[06/08/18, 12:11:37:045] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 12:11:37:045] info: Loading dictionary for language ja-JP
+[06/08/18, 12:11:37:046] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:11:37:049] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:11:37:051] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:11:37:094] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:11:37:133] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:11:37:670] info: Loading dictionary for language ja-JP
+[06/08/18, 12:11:37:671] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:11:37:673] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:11:37:673] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:11:37:830] info: Loading dictionary for language ja-JP
+[06/08/18, 12:11:37:830] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 12:11:37:832] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 12:11:37:833] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 12:11:37:947] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 12:11:39:870] info: Unloading spellchecker
+[06/08/18, 12:11:39:871] info: Unloading spellchecker
+[06/08/18, 12:11:39:909] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:11:40:466] info: Store: SET_FULL_SCREEN
+[06/08/18, 12:18:37:592] info: Store: SET_SUSPEND_STATUS
+[06/08/18, 12:18:37:622] error: Jun-8 12:18:37.622 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/08/18, 13:52:03:811] info: Store: SET_NETWORK_STATUS offline
+[06/08/18, 13:52:03:856] info: Store: SET_SUSPEND_STATUS true
+[06/08/18, 13:52:03:913] error: Jun-8 13:52:03.913 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/08/18, 13:52:15:003] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/08/18, 13:52:15:192] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/08/18, 13:52:16:847] info: Store: SET_NETWORK_STATUS online
+[06/08/18, 13:52:44:892] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 13:52:44:897] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 13:52:56:686] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:53:09:964] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:53:11:764] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:53:15:073] info: Restoring spellchecker
+[06/08/18, 13:53:15:074] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 13:53:15:074] info: Loading dictionary for language ja-JP
+[06/08/18, 13:53:15:074] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 13:53:15:185] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:53:15:198] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 13:53:15:199] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 13:53:15:854] info: Store: SELECT_NEXT_TEAM
+[06/08/18, 13:53:15:907] info: Unloading spellchecker
+[06/08/18, 13:53:15:909] info: Unloading spellchecker
+[06/08/18, 13:53:15:911] info: Loading dictionary for language ja-JP
+[06/08/18, 13:53:15:911] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 13:53:15:914] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 13:53:15:916] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 13:53:16:064] info: Loading dictionary for language ja-JP
+[06/08/18, 13:53:16:065] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 13:53:16:067] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 13:53:16:067] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 13:53:16:214] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 13:53:23:191] info: Store: SELECT_CHANNEL D7JP44402
+[06/08/18, 13:53:32:246] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:53:33:450] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:53:33:477] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:59:37:871] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:59:39:070] info: Store: SET_FULL_SCREEN
+[06/08/18, 13:59:44:030] info: Store: SELECT_CHANNEL C0412GNKJ
+[06/08/18, 13:59:49:511] info: Store: SELECT_CHANNEL C031FNU09
+[06/08/18, 13:59:51:645] info: Store: SELECT_CHANNEL C0412GNKJ
+[06/08/18, 13:59:52:994] info: Store: SELECT_CHANNEL C031FNU09
+[06/08/18, 13:59:57:306] info: Store: SELECT_CHANNEL CA7A0QDGV
+[06/08/18, 14:00:14:167] info: Store: SELECT_CHANNEL CA6KDLY8H
+[06/08/18, 14:00:16:338] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:02:22:660] info: Store: SELECT_CHANNEL DAT8AV3GB
+[06/08/18, 14:03:02:659] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:07:15:070] info: Store: SELECT_CHANNEL CA6UN40BE
+[06/08/18, 14:08:23:795] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:10:01:252] info: Store: SELECT_CHANNEL CA7A0QDGV
+[06/08/18, 14:10:17:177] info: Store: SELECT_CHANNEL CA6UN40BE
+[06/08/18, 14:10:43:832] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:11:14:021] info: Store: SELECT_CHANNEL CA7A0QDGV
+[06/08/18, 14:11:16:604] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:11:38:371] info: Store: SELECT_CHANNEL CA6UN40BE
+[06/08/18, 14:12:09:391] info: Store: SELECT_CHANNEL CA7A0QDGV
+[06/08/18, 14:12:41:968] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:13:53:101] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 14:13:53:278] info: Store: SELECT_TEAM TB47MRNBZ
+[06/08/18, 14:13:53:295] info: Restoring spellchecker
+[06/08/18, 14:13:53:296] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 14:13:53:296] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:53:296] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:53:367] info: Restoring spellchecker
+[06/08/18, 14:13:53:368] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 14:13:53:368] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:53:369] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:007] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:007] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 14:13:54:009] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 14:13:54:009] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:064] info: Unloading spellchecker
+[06/08/18, 14:13:54:067] info: Store: MAIN_WINDOW_FOCUSED
+[06/08/18, 14:13:54:071] info: Restoring spellchecker
+[06/08/18, 14:13:54:072] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/08/18, 14:13:54:072] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:072] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 14:13:54:075] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:076] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 14:13:54:107] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 14:13:54:107] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 14:13:54:107] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:116] info: Can't clear out file, bailing
+[06/08/18, 14:13:54:119] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:120] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:148] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:148] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 14:13:54:150] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 14:13:54:151] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:209] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:210] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 14:13:54:212] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 14:13:54:212] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:236] info: Store: SELECT_TEAM T031FNTUT
+[06/08/18, 14:13:54:252] info: Unloading spellchecker
+[06/08/18, 14:13:54:256] info: Unloading spellchecker
+[06/08/18, 14:13:54:258] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 14:13:54:405] info: Loading dictionary for language ja-JP
+[06/08/18, 14:13:54:405] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/08/18, 14:13:54:413] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/08/18, 14:13:54:415] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/08/18, 14:13:54:540] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 14:13:54:732] info: dictionary for ja-JP_ja-JP is not available
+[06/08/18, 14:14:04:765] info: Store: SELECT_CHANNEL CA6UN40BE
+[06/08/18, 14:14:16:204] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 14:15:31:071] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:15:31:078] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:15:34:903] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:15:34:934] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:18:08:373] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:18:11:560] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:20:17:505] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:20:17:526] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:23:41:920] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:23:45:138] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:25:31:981] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:25:33:051] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:27:07:216] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:27:07:235] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:27:09:270] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:27:09:271] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:32:34:389] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:32:34:420] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:32:34:819] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:32:34:832] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:35:15:547] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:35:15:559] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:35:17:972] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:35:17:987] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:36:28:002] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:36:28:004] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:36:28:657] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:36:28:662] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:37:24:673] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:37:24:683] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:37:25:833] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:37:25:841] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:35:900] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:35:903] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:36:837] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:36:841] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:47:260] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:47:268] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:47:930] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:39:47:933] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:03:450] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:03:486] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:04:701] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:04:713] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:07:116] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:07:120] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:08:807] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:09:546] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:40:10:164] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:41:59:526] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:00:987] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:01:219] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:01:508] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:01:653] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:03:365] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:03:649] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:04:386] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:04:618] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:04:928] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:05:075] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:05:263] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:05:415] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:05:546] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:05:693] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:05:834] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:001] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:148] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:291] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:354] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:553] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:714] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:06:907] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:007] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:177] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:278] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:528] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:612] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:779] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:07:910] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:08:111] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:08:245] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:08:560] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:08:773] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:09:081] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:09:436] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:09:515] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:09:734] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:09:865] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:009] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:174] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:323] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:463] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:624] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:806] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:10:938] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:11:078] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:11:276] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:11:401] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:11:551] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:11:661] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:12:219] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:13:573] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:20:758] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:21:639] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:22:212] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:22:695] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:23:251] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:23:765] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:24:302] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:24:748] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:42:25:288] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:47:24:564] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:47:33:630] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:47:35:198] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:47:35:800] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:47:36:301] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:47:36:826] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:48:44:451] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:48:57:316] info: Store: SET_SUSPEND_STATUS
+[06/08/18, 14:48:57:338] error: Jun-8 14:48:57.338 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/08/18, 14:59:04:836] info: Store: SET_NETWORK_STATUS offline
+[06/08/18, 14:59:04:859] info: Store: SET_SUSPEND_STATUS true
+[06/08/18, 14:59:04:903] error: Jun-8 14:59:04.903 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/08/18, 14:59:16:277] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/08/18, 14:59:16:432] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/08/18, 14:59:18:464] info: Store: SET_NETWORK_STATUS online
+[06/08/18, 14:59:23:296] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 14:59:23:297] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/08/18, 14:59:36:217] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5C2MLV9T-5d4610785fdc-512",
+  "channel": "GB23WCG86",
+  "content": "[REDACTED]",
+  "id": "0Y10u2hWvxZ8KOo",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=GB23WCG86&message=1528437575.000256&team=T031FNTUT",
+  "msg": "1528437575.000256",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/08/18, 14:59:41:813] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "GB23WCG86",
+  "messageId": "1528437575.000256",
+  "notificationId": "0Y10u2hWvxZ8KOo",
+  "teamId": "T031FNTUT"
+}
+[06/08/18, 14:59:41:821] info: Store: SELECT_TEAM T031FNTUT
+[06/08/18, 14:59:41:833] info: Store: SELECT_CHANNEL GB23WCG86
+[06/08/18, 14:59:41:847] info: Store: SET_FULL_SCREEN
+[06/08/18, 14:59:41:867] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:00:40:355] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:00:46:411] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:00:589] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:03:305] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:28:623] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:38:042] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:49:000] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:51:750] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:01:58:212] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:02:00:366] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:02:27:868] info: Store: SELECT_CHANNEL C031FNU09
+[06/08/18, 15:02:31:019] info: Store: SELECT_CHANNEL C031FNU0K
+[06/08/18, 15:02:48:336] info: Store: SELECT_CHANNEL C04SC8PKT
+[06/08/18, 15:02:51:840] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/08/18, 15:03:18:554] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:03:18:590] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:03:31:573] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:03:31:605] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:03:33:138] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:03:33:150] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:45:003] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:45:020] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:45:791] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:45:813] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:53:843] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:53:851] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:54:273] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:12:54:280] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:00:025] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:00:028] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:01:001] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:01:028] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:02:200] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:02:218] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:03:231] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:34:03:249] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:03:806] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:03:813] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:04:651] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:04:667] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:05:489] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:05:491] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:06:204] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:35:06:228] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:05:570] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:05:583] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:06:330] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:06:346] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:14:189] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:14:199] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:14:886] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:36:14:899] info: Store: SET_FULL_SCREEN
+[06/08/18, 15:58:53:295] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4UUHLUF",
+  "content": "[REDACTED]",
+  "id": "NODoS9HRADYpXW2",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB4UUHLUF&message=1528441133.000069&team=TB47MRNBZ",
+  "msg": "1528441133.000069",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 15:59:45:445] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "46mnSRIWGE0qBqm",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441185.000137&team=TB47MRNBZ",
+  "msg": "1528441185.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:06:13:955] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:06:13:973] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:06:20:736] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:06:20:748] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:07:59:766] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "Y7pDSmSVqOAlpky",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441679.000272&team=TB47MRNBZ",
+  "msg": "1528441679.000272",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:09:18:936] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "nRQWfnTZql65QwW",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441758.000354&team=TB47MRNBZ",
+  "msg": "1528441758.000354",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:09:40:014] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "BroGf3UjqkDA68Y",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441779.000371&team=TB47MRNBZ",
+  "msg": "1528441779.000371",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:09:44:194] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "BroGfJcjqkDAjZz",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441784.000024&team=TB47MRNBZ",
+  "msg": "1528441784.000024",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:11:04:750] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "284lixf2Yroq1pw",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441864.000245&team=TB47MRNBZ",
+  "msg": "1528441864.000245",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:11:12:368] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "EqOLhRhPM9n1Qx3",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441872.000061&team=TB47MRNBZ",
+  "msg": "1528441872.000061",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:11:33:862] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "6Wopu8i50Jq41QX",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441893.000303&team=TB47MRNBZ",
+  "msg": "1528441893.000303",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:11:51:385] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "z6PgSgsKjm6vDNz",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441911.000050&team=TB47MRNBZ",
+  "msg": "1528441911.000050",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:13:31:016] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "284lijt2Yro3Pwo",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528441997.000334&team=TB47MRNBZ",
+  "msg": "1528441997.000334",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:14:54:432] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "RlYvHJuOwK1g5An",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528442094.000038&team=TB47MRNBZ",
+  "msg": "1528442094.000038",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:14:55:995] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "oZRWt7C6AKPgDRJ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528442095.000379&team=TB47MRNBZ",
+  "msg": "1528442095.000379",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:15:12:686] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "NODoSzFRADY513J",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528442112.000280&team=TB47MRNBZ",
+  "msg": "1528442112.000280",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:16:05:343] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "6WopuWH50JqJRX1",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528442165.000079&team=TB47MRNBZ",
+  "msg": "1528442165.000079",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:16:20:596] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "vQq6IZIA6NDN90o",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528442180.000217&team=TB47MRNBZ",
+  "msg": "1528442180.000217",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:16:31:610] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:16:31:643] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:16:32:755] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:16:32:757] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:53:796] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:53:799] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:53:837] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:53:839] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:56:213] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:56:220] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:19:58:562] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:20:02:519] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "RlYvH4SOwK1Jp9l",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528442402.000085&team=TB47MRNBZ",
+  "msg": "1528442402.000085",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/08/18, 16:20:45:730] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:20:51:644] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:20:54:152] info: Store: SET_FULL_SCREEN
+[06/08/18, 16:23:12:310] info: Store: SET_SUSPEND_STATUS
+[06/08/18, 16:23:12:319] error: Jun-8 16:23:12.319 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/08/18, 16:36:50:838] info: Store: SET_NETWORK_STATUS offline
+[06/08/18, 16:36:50:869] info: Store: SET_SUSPEND_STATUS true
+[06/08/18, 16:36:50:887] error: Jun-8 16:36:50.886 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure

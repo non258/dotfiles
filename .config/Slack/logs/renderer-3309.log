@@ -1,0 +1,180 @@
+[06/07/18, 18:16:56:470] info: ╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+[06/07/18, 18:16:56:472] info: ║      Slack 3.2.0-beta25a7a50e, linux 4.15.0-20-generic on x64 at 06/07/18, 18:16:56:467      ║
+[06/07/18, 18:16:56:472] info: ╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+[06/07/18, 18:16:56:617] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/07/18, 18:16:57:122] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/07/18, 18:16:57:123] error: Desktop module calls failed to load
+[06/07/18, 18:16:57:157] info: cld3::loadModule: loading cld3 module
+[06/07/18, 18:16:57:185] info: cld3Loader::loadModule: running environment is NODE
+[06/07/18, 18:16:57:185] info: cld3Loader::loadModule: constructed module object for runtime
+[06/07/18, 18:16:57:451] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/07/18, 18:16:57:451] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/07/18, 18:16:57:466] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[06/07/18, 18:16:57:483] info: Main window preload script finished
+{
+  "readyTime": 1399.874533
+}
+[06/07/18, 18:17:00:821] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 121,
+  "state": "loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:01:144] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:03:399] error: Jun-7 18:17:03.399 updateEndMarker no channel, no im, no group
+[06/07/18, 18:17:03:544] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:04:767] info: Store: SELECT_CHANNEL DB3AACFQV
+[06/07/18, 18:17:04:770] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "ja-JP",
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:04:773] info: Store: UPDATE_SETTINGS
+{
+  "locale": "ja-JP"
+}
+[06/07/18, 18:17:04:774] info: TranslationLookup: locale set to ja-JP for renderer
+[06/07/18, 18:17:05:074] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB47MRNBZ",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/07/18, 18:17:05:074] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 121,
+  "state": "webapp-loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:05:115] info: Store: MAIN_WINDOW_FOCUSED
+[06/07/18, 18:17:05:168] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:05:169] info: Store: STORE_API_TOKEN
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/07/18, 18:17:05:571] info: Store: MAIN_WINDOW_FOCUSED
+[06/07/18, 18:17:05:663] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[06/07/18, 18:17:05:823] info: Unloading spellchecker
+[06/07/18, 18:17:05:836] info: Store: SELECT_TEAM T031FNTUT
+[06/07/18, 18:17:05:842] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/07/18, 18:17:05:843] info: TranslationLookup: locale set to en-US for renderer
+[06/07/18, 18:17:05:849] info: Unloading spellchecker
+[06/07/18, 18:17:06:353] info: Raw Locale list: ["C","C.UTF-8","POSIX","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IL","en_IL.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","ja_JP.utf8",""]
+[06/07/18, 18:17:06:353] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IL","en_IL","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW","ja_JP"]
+[06/07/18, 18:17:06:354] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IL","en_IL","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"],"ja":["ja_JP"]}
+[06/07/18, 18:17:06:354] info: Setting ja
+[06/07/18, 18:17:06:355] info: Result: {"ja":"ja-JP"}
+[06/07/18, 18:17:06:357] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/07/18, 18:17:06:359] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:06:359] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:07:103] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:07:104] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:07:110] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:07:111] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:07:267] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/07/18, 18:17:07:268] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:07:268] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:07:270] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:07:270] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:07:531] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:07:531] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:07:532] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:07:532] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:07:897] info: dictionary for ja-JP_ja-JP is not available
+[06/07/18, 18:17:07:898] info: Actually installing spell check provider to Electron
+[06/07/18, 18:17:07:943] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:07:944] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:07:946] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:07:946] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:07:987] info: Store: MAIN_WINDOW_FOCUSED
+[06/07/18, 18:17:08:157] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:08:158] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:08:164] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:08:165] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:08:268] info: Store: SELECT_TEAM TB47MRNBZ
+[06/07/18, 18:17:08:281] info: Restoring spellchecker
+[06/07/18, 18:17:08:281] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/07/18, 18:17:08:282] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:08:282] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:08:311] info: Store: UPDATE_SETTINGS
+{
+  "locale": "ja-JP"
+}
+[06/07/18, 18:17:08:312] info: TranslationLookup: locale set to ja-JP for renderer
+[06/07/18, 18:17:08:316] info: Restoring spellchecker
+[06/07/18, 18:17:08:317] info: Requesting to load ja-JP, alternatives are ["ja-JP","ja-JP","ja-JP"]
+[06/07/18, 18:17:08:317] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:08:318] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:08:489] info: dictionary for ja-JP_ja-JP is not available
+[06/07/18, 18:17:08:693] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:08:693] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:08:694] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:08:695] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:08:884] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:08:885] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:08:886] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:08:887] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:09:098] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:09:098] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:09:100] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:09:100] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:09:253] info: dictionary for ja-JP_ja-JP is not available
+[06/07/18, 18:17:09:381] info: Loading dictionary for language ja-JP
+[06/07/18, 18:17:09:381] info: Returning local copy: /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic
+[06/07/18, 18:17:09:382] info: Failed to read file /home/nozomi/dotfiles/.config/Slack/dictionaries/ja-JP.bdic: File exists but is most likely bogus
+[06/07/18, 18:17:09:383] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/ja-jp-3-0.bdic
+[06/07/18, 18:17:09:585] info: dictionary for ja-JP_ja-JP is not available
+[06/07/18, 18:17:52:888] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 121,
+  "state": "page-will-navigate",
+  "teamId": "TB47MRNBZ"
+}
+[06/07/18, 18:17:52:891] info: Window is unloading, window.desktop is no longer accessible
+[06/07/18, 18:17:53:249] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}
