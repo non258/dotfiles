@@ -794,3 +794,253 @@
 [06/09/18, 09:42:20:260] info: Store: SET_FULL_SCREEN
 [06/09/18, 09:42:24:041] info: Store: SET_FULL_SCREEN
 [06/09/18, 09:42:24:890] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:43:06:747] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:44:57:329] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:45:09:859] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:46:22:895] error: startBackgroundClientEpic: Socket error 4002
+{
+  "error": {
+    "message": "",
+    "stack": "Error\n    at CatchSubscriber.pingPongObservable.timeout.catch [as selector] (/usr/lib/slack/resources/app.asar/src/renderer/background/client.ts:321:52)\n    at CatchSubscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/catch.js:104:31)\n    at TimeoutSubscriber.Subscriber._error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:128:26)\n    at TimeoutSubscriber.Subscriber.error (/usr/lib/slack/resources/app.asar/node_modules/rxjs/Subscriber.js:102:18)\n    at AsyncAction.TimeoutSubscriber.dispatchTimeout (/usr/lib/slack/resources/app.asar/node_modules/rxjs/operator/timeout.js:54:20)\n    at AsyncAction._execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:111:18)\n    at AsyncAction.execute (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncAction.js:86:26)\n    at AsyncScheduler.flush (/usr/lib/slack/resources/app.asar/node_modules/rxjs/scheduler/AsyncScheduler.js:36:32)",
+    "code": 4002
+  }
+}
+[06/09/18, 09:46:22:900] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 09:46:23:911] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/09/18, 09:46:23:917] error: startBackgroundClientEpic: Client still exists
+{
+  "teamId": "T031FNTUT",
+  "existing": {
+    "teamId": "T031FNTUT",
+    "token": "xoxs-⋯",
+    "status": "starting"
+  }
+}
+[06/09/18, 09:46:24:029] info: Store: SET_BACKGROUND_CLIENT_STATUS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 09:46:25:118] info: BackgroundClient: Logged in
+{
+  "userId": "U5APT38MB",
+  "teamId": "T031FNTUT",
+  "showBullet": true
+}
+[06/09/18, 09:49:23:984] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:49:26:252] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:49:54:117] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:49:58:674] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:58:15:804] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:59:05:188] info: Store: SET_FULL_SCREEN
+[06/09/18, 09:59:31:571] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:00:01:108] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:06:44:056] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:06:57:278] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:40:423] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:41:576] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:41:844] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:46:940] info: Store: FOREGROUND_APP
+[06/09/18, 10:08:46:975] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:46:993] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:46:995] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:46:997] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:08:49:077] info: Store: MAIN_WINDOW_FOCUSED
+[06/09/18, 10:08:49:260] info: Store: SELECT_TEAM T031FNTUT
+[06/09/18, 10:08:49:274] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 50,
+  "state": "unloaded",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:49:309] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:49:344] info: Store: SET_BACKGROUND_CLIENT_STATUS
+{
+  "status": "disconnected",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:55:146] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 50,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:55:430] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:55:894] info: Store: SELECT_CHANNEL D7JP44402
+[06/09/18, 10:08:55:897] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:55:915] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/09/18, 10:08:56:818] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:56:930] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:56:941] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 50,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:57:158] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 10:08:59:627] info: Store: SELECT_CHANNEL D5A4B1X97
+[06/09/18, 10:09:02:117] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:09:02:141] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:11:17:302] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:11:17:311] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:11:19:095] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:15:03:703] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:15:05:033] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:15:05:906] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:18:21:524] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:21:44:879] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:21:52:266] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:28:18:819] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:28:27:048] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:28:28:877] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:28:33:721] info: Store: SELECT_CHANNEL D5A4B1XCZ
+[06/09/18, 10:28:37:371] info: Store: MAIN_WINDOW_FOCUSED
+[06/09/18, 10:28:37:554] info: Store: SELECT_TEAM TB47MRNBZ
+[06/09/18, 10:28:48:375] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:28:48:383] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:29:42:594] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:29:42:601] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:29:45:962] info: Store: SET_FULL_SCREEN
+[06/09/18, 10:30:07:481] info: Store: SET_SUSPEND_STATUS
+[06/09/18, 13:07:12:812] info: Store: SET_NETWORK_STATUS offline
+[06/09/18, 13:07:12:879] info: Store: SET_SUSPEND_STATUS true
+[06/09/18, 13:07:20:511] info: NetworkStatus: Waiting for network online…
+[06/09/18, 13:07:20:527] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/09/18, 13:07:20:528] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/09/18, 13:07:22:465] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:07:25:709] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/09/18, 13:07:26:115] info: Store: SET_NETWORK_STATUS online
+[06/09/18, 13:07:26:121] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/09/18, 13:07:50:408] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:07:51:200] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/09/18, 13:07:51:303] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/09/18, 13:07:53:618] info: NetworkStatus: Waiting for network online…
+[06/09/18, 13:07:53:806] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/09/18, 13:07:57:834] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 13:07:57:970] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/09/18, 13:08:02:106] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:08:04:502] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:08:56:438] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:09:07:375] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 6,
+  "params": "[REDACTED]"
+}
+[06/09/18, 13:09:12:263] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:09:36:195] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:09:36:689] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:10:13:197] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:10:56:501] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:17:49:617] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:17:50:204] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:21:16:706] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:21:39:094] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:22:48:300] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:22:48:514] info: Store: SELECT_CHANNEL CB529PJT0
+[06/09/18, 13:22:49:560] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/09/18, 13:23:10:803] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:23:12:793] info: Store: SET_FULL_SCREEN
+[06/09/18, 13:23:12:992] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/09/18, 13:23:15:361] info: Store: SELECT_CHANNEL CB3EDHZ7A
