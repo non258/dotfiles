@@ -13873,3 +13873,330 @@ info: Jun-12 14:29:42.796 [API-Q] (T031FNTUT) 1f96ed37-1528781382.794 rtm.should
 info: Jun-12 14:29:42.801 [API-Q] (T031FNTUT) 1f96ed37-1528781382.794 rtm.shouldReload is ACTIVE
 info: Jun-12 14:29:43.612 [API-Q] (T031FNTUT) 1f96ed37-1528781382.794 rtm.shouldReload is RESOLVED
 info: Jun-12 14:29:43.612 [MIN-VERSION] (T031FNTUT) no need to reload
+info: Jun-12 15:52:45.791 [MIN-VERSION] (T031FNTUT) checking to see if we should reload
+info: Jun-12 15:52:45.792 [API-Q] (T031FNTUT) 1f96ed37-1528786365.791 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-12 15:52:45.792 [API-Q] (T031FNTUT) 1f96ed37-1528786365.791 rtm.shouldReload is ENQUEUED
+info: Jun-12 15:52:45.792 [API-Q] (T031FNTUT) 1f96ed37-1528786365.791 rtm.shouldReload is ACTIVE
+info: Jun-12 15:52:46.504 [API-Q] (T031FNTUT) 1f96ed37-1528786365.791 rtm.shouldReload is RESOLVED
+info: Jun-12 15:52:46.504 [MIN-VERSION] (T031FNTUT) no need to reload
+info: Jun-12 16:27:43.255 [UNREAD-COUNTS] Updated unread_cnt for C04KQT6L8: 1
+info: Jun-12 17:15:48.792 [MIN-VERSION] (T031FNTUT) checking to see if we should reload
+info: Jun-12 17:15:48.795 [API-Q] (T031FNTUT) 1f96ed37-1528791348.793 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-12 17:15:48.795 [API-Q] (T031FNTUT) 1f96ed37-1528791348.793 rtm.shouldReload is ENQUEUED
+info: Jun-12 17:15:48.797 [API-Q] (T031FNTUT) 1f96ed37-1528791348.793 rtm.shouldReload is ACTIVE
+info: Jun-12 17:15:49.638 [API-Q] (T031FNTUT) 1f96ed37-1528791348.793 rtm.shouldReload is RESOLVED
+info: Jun-12 17:15:49.639 [MIN-VERSION] (T031FNTUT) no need to reload
+info: Jun-12 17:30:32.522 [INFO] sleep event!
+info: Jun-12 17:30:32.522 [SOCKET-MANAGER] (T031FNTUT) Sleeping
+info: Jun-12 17:30:32.522 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to sleep
+info: Jun-12 17:30:32.523 [SOCKET-MANAGER] (T031FNTUT) will stay in sleep state for up to 10000 ms
+info: Jun-12 17:30:32.523 [SOCKET-MANAGER] (T031FNTUT) Changing from sleep to sleeping
+info: Jun-12 17:30:32.523 [SOCKET-MANAGER] (T031FNTUT) will stay in sleeping state for up to 10000 ms
+error: Jun-12 17:30:32.523 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+info: Jun-12 17:30:32.524 [SOCKET-MANAGER] (T031FNTUT) Changing from sleeping to asleep
+info: Jun-12 17:30:32.524 [SOCKET-MANAGER] (T031FNTUT) will stay in asleep state for up to Infinity ms
+info: Jun-12 17:30:32.545 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-12 17:30:32.560 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+info: Jun-12 17:30:56.428 [API-Q] (T031FNTUT) Pausing queue: state is CLIENT_OFFLINE
+info: Jun-12 17:30:56.469 [INFO] wake event! version:1528677914 start_ms:1528701812718
+info: Jun-12 17:30:56.470 [SOCKET-MANAGER] (T031FNTUT) Waking
+info: Jun-12 17:30:56.470 [SOCKET-MANAGER] (T031FNTUT) Changing from asleep to connect
+info: 2018/6/12 17:30:56.475  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790548)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1781966)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1362194
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1204921
+at https://a.slack-edge.com/bv1-4/application.752260ccc906c0d8a38f.min.js:1:1038138
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1204921
+at https://a.slack-edge.com/bv1-4/application.752260ccc906c0d8a38f.min.js:1:40101
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1448732
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1204921)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:72283)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.752260ccc906c0d8a38f.min.js:1:1357507)
+info: Jun-12 17:30:56.476 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:30:56.477 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:30:56.478 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:30:56.479 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:30:56.480 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1iNml0LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9icHNzY0VNdl85b1N4dkNpaUVyNTA1ek1vTkJJd0h4Ym9TYUJWVDRyUmc4V1ZqdEgtSGNUUy02Q2pnWUVEbmQ2RTZFNFp2TkxPaFhNTkU2amdwSzE2eTF6N0xTeEhyVXB0UHFJWWx4NDNZU1VtQjVKcDkwdERGNGhFTHRjbWNVOXdpVjlOZkRNMVR3QWI2SmUyQWV5X3AxcUMxTjVMVWhIREpJSjhDZVFiSXRMZVZpTHJsR2FaVGlwRUttZnRhUG5rVUoxVk1paUNHWkpFd1pNcjVlbDBpVWh3dkw5SGRpdmdUVkhSNzkzRm94Zzhud000bWVzT1dCTTdTTWlxMndMUklkNURNZ0RvenFnYzJpZHRGcHZRYjNKbVRHbmJzTlpWbUlPSU1MTU9Qdz0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe2QW5WgP_lwAASBV7AtZCyBL-xJffLhjy9S1RdwUlMCQHu0ck6RoeGszYgA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-12 17:30:56.490 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:30:56.491 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:30:56.492 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:30:56.493  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:30:56.838 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:30:56.838 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:30:56.838 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 71 ms
+info: Jun-12 17:30:57.838 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-12 17:30:57.838 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-12 17:30:57.839 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-12 17:30:59.838 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-12 17:31:01.838 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-12 17:31:03.838 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-12 17:31:06.838 Internet connection still offline after 5 attempts (unable to reach API)
+info: Jun-12 17:31:36.838 [INFO] Internet connection has been re-established after 6 retry attempts; offline for NaN seconds
+info: Jun-12 17:31:36.839 [API-Q] (T031FNTUT) Unpausing queue: state is ONLINE
+info: Jun-12 17:31:36.839 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: Jun-12 17:31:36.839 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:31:36.840 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:31:36.841 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:31:36.842 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:31:36.843 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+info: Jun-12 17:31:37.870 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to connected
+info: Jun-12 17:31:37.870 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-12 17:31:37.890 [EVENTLOG] (T031FNTUT) fr=true, lc=false, lt=1528777324.000121
+info: Jun-12 17:32:09.910 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+info: Jun-12 17:32:09.910 [SOCKET-MANAGER] (T031FNTUT) Changing from connected to disconnect
+info: Jun-12 17:32:09.911 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnect state for up to 10000 ms
+info: Jun-12 17:32:09.911 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnect to disconnecting
+info: Jun-12 17:32:09.911 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnecting state for up to 10000 ms
+error: Jun-12 17:32:09.912 SOCKET-MANAGER (T031FNTUT) Closing socket because #4105: client went offline
+info: Jun-12 17:32:09.912 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnecting to disconnected
+info: Jun-12 17:32:09.912 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnected state for up to 10000 ms
+info: Jun-12 17:32:09.916 [SOCKET-MANAGER] (T031FNTUT) Disconnected! Online? false
+info: Jun-12 17:32:09.922 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnected to wait_for_rate_limit
+info: Jun-12 17:32:09.922 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:32:09.923 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 280 ms
+info: Jun-12 17:32:09.930 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-12 17:32:10.838 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-12 17:32:10.838 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:32:10.839 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:32:10.839 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:32:10.839 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:32:10.839 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1zNWQ5LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC83U1gxUEJZaENSRXRwdTMxSGhGdFlNVGNiWi1NM1lQdVI2TnNUQl9CeEg2dEdwSWJtN2x5dHNjaHVIM1lnLUE3Zi03LW8zcjVwLVY5Q05wczFfaHhPMUZxSFE1eVNxdVdfQTBia21QbzN3bHZ3M2VXQnkxMGNMX1pEMlFIWV9QWmRadkpBaWQ5TEFDT2Y1ZEI1bHlLQm9nWDVjV1k1c01VX3l6b1o1TDQtNjFaamt3aWRFQmJPWDdmQVhvbE94NGdyQVctRFJabnp1STdoWWtrYUtwZjZFcDZnbzRscGl3eUVlWk9JNUNVUHYydEhyb0FwdVB4RjFGNkNGbnRHQWtvNFI0dFE3WjViVzNPMTVDVmF4aFZleTNCTmNtZ2x6TWd4S1k1a09hMncxST0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe-kQW4CH_lwAASB471HAVmKuiA6QQr9Vui2z-9xumlqqg3xtNKYfiRMDnAA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+error: Jun-12 17:32:20.876 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:32:20.877 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:32:20.877 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:32:20.878  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:32:21.838 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:32:21.839 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:32:21.840 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 872 ms
+info: Jun-12 17:32:22.838 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-12 17:32:22.839 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:32:22.840 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:32:22.841 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:32:22.841 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:32:22.842 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1zNWQ5LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC83U1gxUEJZaENSRXRwdTMxSGhGdFlNVGNiWi1NM1lQdVI2TnNUQl9CeEg2dEdwSWJtN2x5dHNjaHVIM1lnLUE3Zi03LW8zcjVwLVY5Q05wczFfaHhPMUZxSFE1eVNxdVdfQTBia21QbzN3bHZ3M2VXQnkxMGNMX1pEMlFIWV9QWmRadkpBaWQ5TEFDT2Y1ZEI1bHlLQm9nWDVjV1k1c01VX3l6b1o1TDQtNjFaamt3aWRFQmJPWDdmQVhvbE94NGdyQVctRFJabnp1STdoWWtrYUtwZjZFcDZnbzRscGl3eUVlWk9JNUNVUHYydEhyb0FwdVB4RjFGNkNGbnRHQWtvNFI0dFE3WjViVzNPMTVDVmF4aFZleTNCTmNtZ2x6TWd4S1k1a09hMncxST0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe-kQW4CH_lwAASB471HAVmKuiA6QQr9Vui2z-9xumlqqg3xtNKYfiRMDnAA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+error: Jun-12 17:32:32.856 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:32:32.858 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:32:32.859 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:32:32.861  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:32:33.838 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:32:33.839 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:32:33.840 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 2250 ms
+info: Jun-12 17:32:36.838 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-12 17:32:36.839 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:32:36.839 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:32:36.839 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:32:36.839 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:32:36.839 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1zNWQ5LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC83U1gxUEJZaENSRXRwdTMxSGhGdFlNVGNiWi1NM1lQdVI2TnNUQl9CeEg2dEdwSWJtN2x5dHNjaHVIM1lnLUE3Zi03LW8zcjVwLVY5Q05wczFfaHhPMUZxSFE1eVNxdVdfQTBia21QbzN3bHZ3M2VXQnkxMGNMX1pEMlFIWV9QWmRadkpBaWQ5TEFDT2Y1ZEI1bHlLQm9nWDVjV1k1c01VX3l6b1o1TDQtNjFaamt3aWRFQmJPWDdmQVhvbE94NGdyQVctRFJabnp1STdoWWtrYUtwZjZFcDZnbzRscGl3eUVlWk9JNUNVUHYydEhyb0FwdVB4RjFGNkNGbnRHQWtvNFI0dFE3WjViVzNPMTVDVmF4aFZleTNCTmNtZ2x6TWd4S1k1a09hMncxST0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe-kQW4CH_lwAASB471HAVmKuiA6QQr9Vui2z-9xumlqqg3xtNKYfiRMDnAA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+error: Jun-12 17:32:46.853 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:32:46.855 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:32:46.856 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:32:46.865  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:32:47.838 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:32:47.839 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:32:47.839 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 2750 ms
+info: Jun-12 17:32:50.841 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-12 17:32:50.841 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:32:50.841 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:32:50.841 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:32:50.842 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:32:50.842 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1zNWQ5LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC83U1gxUEJZaENSRXRwdTMxSGhGdFlNVGNiWi1NM1lQdVI2TnNUQl9CeEg2dEdwSWJtN2x5dHNjaHVIM1lnLUE3Zi03LW8zcjVwLVY5Q05wczFfaHhPMUZxSFE1eVNxdVdfQTBia21QbzN3bHZ3M2VXQnkxMGNMX1pEMlFIWV9QWmRadkpBaWQ5TEFDT2Y1ZEI1bHlLQm9nWDVjV1k1c01VX3l6b1o1TDQtNjFaamt3aWRFQmJPWDdmQVhvbE94NGdyQVctRFJabnp1STdoWWtrYUtwZjZFcDZnbzRscGl3eUVlWk9JNUNVUHYydEhyb0FwdVB4RjFGNkNGbnRHQWtvNFI0dFE3WjViVzNPMTVDVmF4aFZleTNCTmNtZ2x6TWd4S1k1a09hMncxST0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe-kQW4CH_lwAASB471HAVmKuiA6QQr9Vui2z-9xumlqqg3xtNKYfiRMDnAA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+error: Jun-12 17:33:00.858 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:33:00.859 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:33:00.859 [SOCKET-MANAGER] (T031FNTUT) will dispatch troubleConnectingSig
+info: Jun-12 17:33:00.863 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:33:00.863  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:33:01.839 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:33:01.839 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:33:01.840 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 6034 ms
+info: Jun-12 17:33:08.841 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-12 17:33:08.843 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:33:08.843 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:33:08.843 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:33:08.844 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:33:08.844 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1zNWQ5LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC83U1gxUEJZaENSRXRwdTMxSGhGdFlNVGNiWi1NM1lQdVI2TnNUQl9CeEg2dEdwSWJtN2x5dHNjaHVIM1lnLUE3Zi03LW8zcjVwLVY5Q05wczFfaHhPMUZxSFE1eVNxdVdfQTBia21QbzN3bHZ3M2VXQnkxMGNMX1pEMlFIWV9QWmRadkpBaWQ5TEFDT2Y1ZEI1bHlLQm9nWDVjV1k1c01VX3l6b1o1TDQtNjFaamt3aWRFQmJPWDdmQVhvbE94NGdyQVctRFJabnp1STdoWWtrYUtwZjZFcDZnbzRscGl3eUVlWk9JNUNVUHYydEhyb0FwdVB4RjFGNkNGbnRHQWtvNFI0dFE3WjViVzNPMTVDVmF4aFZleTNCTmNtZ2x6TWd4S1k1a09hMncxST0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe-kQW4CH_lwAASB471HAVmKuiA6QQr9Vui2z-9xumlqqg3xtNKYfiRMDnAA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+error: Jun-12 17:33:18.859 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:33:18.862 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:33:18.863 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:33:18.865  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:33:19.838 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:33:19.838 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:33:19.839 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 15443 ms
+info: Jun-12 17:33:35.842 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to connect
+info: Jun-12 17:33:35.844 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:33:35.846 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:33:35.847 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:33:35.848 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:33:35.848 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-fjzw.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1zNWQ5LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC83U1gxUEJZaENSRXRwdTMxSGhGdFlNVGNiWi1NM1lQdVI2TnNUQl9CeEg2dEdwSWJtN2x5dHNjaHVIM1lnLUE3Zi03LW8zcjVwLVY5Q05wczFfaHhPMUZxSFE1eVNxdVdfQTBia21QbzN3bHZ3M2VXQnkxMGNMX1pEMlFIWV9QWmRadkpBaWQ5TEFDT2Y1ZEI1bHlLQm9nWDVjV1k1c01VX3l6b1o1TDQtNjFaamt3aWRFQmJPWDdmQVhvbE94NGdyQVctRFJabnp1STdoWWtrYUtwZjZFcDZnbzRscGl3eUVlWk9JNUNVUHYydEhyb0FwdVB4RjFGNkNGbnRHQWtvNFI0dFE3WjViVzNPMTVDVmF4aFZleTNCTmNtZ2x6TWd4S1k1a09hMncxST0BCVQwMzFGTlRVVAIJVTVBUFQzOE1CAQ8BAAAADtKxe-kQW4CH_lwAASB471HAVmKuiA6QQr9Vui2z-9xumlqqg3xtNKYfiRMDnAA&encoding=&dp=1' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED
+error: Jun-12 17:33:45.868 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+info: Jun-12 17:33:45.871 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to error
+info: Jun-12 17:33:45.872 [SOCKET-MANAGER] (T031FNTUT) will stay in error state for up to 10000 ms
+info: 2018/6/12 17:33:45.876  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.ab80694b2c6435dfd160.min.js:1:76676)
+at https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1005425
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1788927)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1790762)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1490787)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1791136)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1784801)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.148911e66ec80682f99f.min.js:1:2481830)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1493676)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.fde9de23cb4038b20f56.min.js:1:1492459)
+info: Jun-12 17:33:46.838 [SOCKET-MANAGER] (T031FNTUT) Changing from error to wait_for_rate_limit
+info: Jun-12 17:33:46.839 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:33:46.840 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 16787 ms
+info: Jun-12 17:34:00.817 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+info: Jun-12 17:34:00.817 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to disconnect
+info: Jun-12 17:34:00.817 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnect state for up to 10000 ms
+info: Jun-12 17:34:00.817 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnect to disconnecting
+info: Jun-12 17:34:00.818 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnecting state for up to 10000 ms
+info: Jun-12 17:34:00.818 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnecting to disconnected
+info: Jun-12 17:34:00.818 [SOCKET-MANAGER] (T031FNTUT) will stay in disconnected state for up to 10000 ms
+info: Jun-12 17:34:00.819 [SOCKET-MANAGER] (T031FNTUT) Disconnected! Online? false
+info: Jun-12 17:34:00.819 [SOCKET-MANAGER] (T031FNTUT) Changing from disconnected to wait_for_rate_limit
+info: Jun-12 17:34:00.819 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-12 17:34:00.819 [SOCKET-MANAGER] (T031FNTUT) backing off: will wait for 32804 ms
+info: Jun-12 17:34:00.838 [API-Q] (T031FNTUT) Pausing queue: state is CLIENT_OFFLINE
+info: Jun-12 17:34:01.838 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:02.838 Internet connection still offline after 1 attempts (browser says it is still offline)
+info: Jun-12 17:34:02.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:03.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:04.838 Internet connection still offline after 2 attempts (browser says it is still offline)
+info: Jun-12 17:34:04.840 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:05.841 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:06.838 Internet connection still offline after 3 attempts (browser says it is still offline)
+info: Jun-12 17:34:06.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:07.840 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:08.841 Internet connection still offline after 4 attempts (browser says it is still offline)
+info: Jun-12 17:34:08.843 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:09.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:10.838 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-12 17:34:10.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:11.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:12.838 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Jun-12 17:34:12.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:13.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:14.838 Internet connection still offline after 7 attempts (browser says it is still offline)
+info: Jun-12 17:34:14.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:15.838 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:16.838 Internet connection still offline after 8 attempts (browser says it is still offline)
+info: Jun-12 17:34:16.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:17.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:18.838 Internet connection still offline after 9 attempts (browser says it is still offline)
+info: Jun-12 17:34:18.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:19.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:20.838 Internet connection still offline after 10 attempts (browser says it is still offline)
+info: Jun-12 17:34:20.841 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:21.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:22.838 Internet connection still offline after 11 attempts (browser says it is still offline)
+info: Jun-12 17:34:22.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:23.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:24.838 Internet connection still offline after 12 attempts (browser says it is still offline)
+info: Jun-12 17:34:24.838 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:25.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:26.838 Internet connection still offline after 13 attempts (browser says it is still offline)
+info: Jun-12 17:34:26.838 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:27.838 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:28.838 Internet connection still offline after 14 attempts (browser says it is still offline)
+info: Jun-12 17:34:28.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:29.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:30.838 Internet connection still offline after 15 attempts (browser says it is still offline)
+info: Jun-12 17:34:30.840 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:31.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Jun-12 17:34:32.838 Internet connection still offline after 16 attempts (browser says it is still offline)
+info: Jun-12 17:34:32.839 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Jun-12 17:34:33.838 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-12 17:34:33.839 [SOCKET-MANAGER] (T031FNTUT) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-12 17:34:33.840 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Jun-12 17:34:35.838 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Jun-12 17:34:37.838 Internet connection still offline after 19 attempts (browser says it is still offline)
+info: Jun-12 17:34:40.260 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: Jun-12 17:34:40.839 Internet connection still offline after 20 attempts (unable to reach API)
+warn: Jun-12 17:34:42.838 Internet connection still offline after 21 attempts (browser says it is still offline)
+info: Jun-12 17:34:45.384 [SOCKET-MANAGER] (T031FNTUT) got offline event; moving to DISCONNECT as needed
+warn: Jun-12 17:34:45.838 Internet connection still offline after 22 attempts (unable to reach API)
+warn: Jun-12 17:34:46.840 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Jun-12 17:34:49.838 Internet connection still offline after 24 attempts (unable to reach API)
+info: Jun-12 17:35:17.838 [INFO] Internet connection has been re-established after 25 retry attempts; offline for NaN seconds
+info: Jun-12 17:35:17.839 [API-Q] (T031FNTUT) Unpausing queue: state is ONLINE
+info: Jun-12 17:35:17.840 [SOCKET-MANAGER] (T031FNTUT) Changing from wait_for_connectivity to connect
+info: Jun-12 17:35:17.840 [SOCKET-MANAGER] (T031FNTUT) will stay in connect state for up to 10000 ms
+info: Jun-12 17:35:17.843 [SOCKET-MANAGER] (T031FNTUT) Changing from connect to checking_fast_reconnect
+info: Jun-12 17:35:17.843 [SOCKET-MANAGER] (T031FNTUT) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-12 17:35:17.844 [SOCKET-MANAGER] (T031FNTUT) Changing from checking_fast_reconnect to fast_reconnecting
+info: Jun-12 17:35:17.845 [SOCKET-MANAGER] (T031FNTUT) will stay in fast_reconnecting state for up to 20000 ms
+info: Jun-12 17:35:18.129 [SOCKET-MANAGER] (T031FNTUT) Changing from fast_reconnecting to connected
+info: Jun-12 17:35:18.130 [SOCKET-MANAGER] (T031FNTUT) will stay in connected state for up to Infinity ms
+info: Jun-12 17:35:18.135 [EVENTLOG] (T031FNTUT) fr=true, lc=false, lt=1528777324.000121
