@@ -161,6 +161,7 @@ function mkcd(){
 # nvim
 alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
 alias vi='nvim'
+alias a='atom'
 
 # cd
 alias c='cd ../'
