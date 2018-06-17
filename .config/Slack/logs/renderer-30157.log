@@ -1,0 +1,2090 @@
+[06/12/18, 18:58:36:719] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/12/18, 18:58:36:720] info: ║      Slack 3.2.1, linux 4.15.0-20-generic on x64 at 06/12/18, 18:58:36:716      ║
+[06/12/18, 18:58:36:720] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/12/18, 18:58:36:807] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/12/18, 18:58:37:154] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/12/18, 18:58:37:154] error: Desktop module calls failed to load
+[06/12/18, 18:58:37:178] info: cld3::loadModule: loading cld3 module
+[06/12/18, 18:58:37:202] info: cld3Loader::loadModule: running environment is NODE
+[06/12/18, 18:58:37:203] info: cld3Loader::loadModule: constructed module object for runtime
+[06/12/18, 18:58:37:380] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/12/18, 18:58:37:380] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/12/18, 18:58:37:392] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/12/18, 18:58:37:405] info: Main window preload script finished
+{
+  "readyTime": 979.471898
+}
+[06/12/18, 18:58:39:724] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:58:39:725] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:58:40:723] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 18:58:40:905] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/12/18, 18:58:41:477] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}
+[06/12/18, 18:58:41:481] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/12/18, 18:58:41:481] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/12/18, 18:58:41:555] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/12/18, 18:58:41:556] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/12/18, 18:58:41:557] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/12/18, 18:58:41:632] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB47MRNBZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/12/18, 18:58:41:634] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB47MRNBZ"
+}
+[06/12/18, 18:58:41:892] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 18:58:41:905] info: loadAsmModule: loading hunspell-asm module
+[06/12/18, 18:58:42:275] info: loadAsmModule: asm module loaded successfully
+[06/12/18, 18:58:42:276] info: SpellChecker: Starting spellchecker with language detector
+[06/12/18, 18:58:42:276] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[06/12/18, 18:58:42:276] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[06/12/18, 18:58:42:419] info: download: downloading dictionary for 'en-us'
+[06/12/18, 18:58:42:419] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[06/12/18, 18:58:43:377] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[06/12/18, 18:58:46:022] info: dictionaryDownloader: verifying hash
+[06/12/18, 18:58:46:066] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[06/12/18, 18:58:46:108] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[06/12/18, 18:58:46:116] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[06/12/18, 18:58:46:117] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[06/12/18, 18:58:46:120] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[06/12/18, 18:58:54:279] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:58:54:334] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:58:59:627] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/12/18, 18:58:59:726] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/12/18, 18:59:22:723] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:59:22:757] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:59:53:702] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:59:53:703] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:00:00:820] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:00:00:905] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/12/18, 19:00:03:543] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:00:40:510] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:03:27:476] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12GWE7U6-ab8b5362aedb-512",
+  "channel": "C5BADNG5N",
+  "content": "[REDACTED]",
+  "id": "ER2WcgFPM5Qr1nP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C5BADNG5N&message=1528797808.000058&team=T031FNTUT",
+  "msg": "1528797808.000058",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:03:29:827] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "C5BADNG5N",
+  "messageId": "1528797808.000058",
+  "notificationId": "ER2WcgFPM5Qr1nP",
+  "teamId": "T031FNTUT"
+}
+[06/12/18, 19:03:29:837] info: Store: SELECT_TEAM T031FNTUT
+[06/12/18, 19:03:29:915] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:03:29:916] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:03:29:942] info: Store: SELECT_CHANNEL C5BADNG5N
+[06/12/18, 19:03:30:177] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12GWE7U6-ab8b5362aedb-512",
+  "channel": "C5BADNG5N",
+  "content": "[REDACTED]",
+  "id": "Dk2WuMHZNgkp4EQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C5BADNG5N&message=1528797810.000281&team=T031FNTUT",
+  "msg": "1528797810.000281",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:03:37:060] info: Store: SELECT_CHANNEL C04KQT6L8
+[06/12/18, 19:03:38:647] info: Store: MAIN_WINDOW_FOCUSED
+[06/12/18, 19:03:38:823] info: Store: SELECT_TEAM TB47MRNBZ
+[06/12/18, 19:03:41:760] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:03:41:907] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/12/18, 19:04:05:908] info: Store: MAIN_WINDOW_FOCUSED
+[06/12/18, 19:04:06:022] info: Store: SELECT_TEAM T031FNTUT
+[06/12/18, 19:04:11:763] info: Store: SELECT_CHANNEL C5BADNG5N
+[06/12/18, 19:04:19:981] info: Store: MAIN_WINDOW_FOCUSED
+[06/12/18, 19:04:20:162] info: Store: SELECT_TEAM TB47MRNBZ
+[06/12/18, 19:05:19:698] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:05:20:370] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:05:31:345] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:05:31:842] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:12:58:176] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:12:58:784] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:12:59:813] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:13:00:347] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:13:02:729] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:13:03:284] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:14:13:100] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:14:14:035] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:14:15:259] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:14:15:637] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:17:52:947] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:17:54:762] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:17:56:028] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:17:57:466] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:28:35:181] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:28:35:776] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:28:37:221] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:28:40:521] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:31:42:885] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:31:42:958] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:43:50:467] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:43:51:174] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:45:10:255] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:45:11:106] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:45:11:150] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "03jMh2hWvMLLZrq",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528800310.000415&team=TB47MRNBZ",
+  "msg": "1528800310.000415",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:45:11:533] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:45:13:156] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "7JqMSziNKn00YkX",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528800312.000451&team=TB47MRNBZ",
+  "msg": "1528800312.000451",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:45:40:715] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB529PJT0",
+  "content": "[REDACTED]",
+  "id": "ykWzu6sRYmPyvLo",
+  "launchUri": "slack://channel?id=CB529PJT0&message=1528800340.000238&team=TB47MRNBZ",
+  "msg": "1528800340.000238",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:46:05:328] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:46:11:849] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:47:29:384] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:47:30:397] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:50:50:917] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:50:53:121] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:56:36:300] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:56:39:235] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:56:41:503] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:56:44:015] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:56:44:118] info: Store: SELECT_CHANNEL CB529PJT0
+[06/12/18, 19:57:12:445] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "RBvXtgtOwJQpVwN",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528801032.000148&team=TB47MRNBZ",
+  "msg": "1528801032.000148",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:57:16:490] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "pVWnfAuGlr7p0mK",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528801036.000174&team=TB47MRNBZ",
+  "msg": "1528801036.000174",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/12/18, 19:57:17:242] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:57:17:396] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/12/18, 19:57:46:402] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:57:46:492] info: Store: SELECT_CHANNEL CB529PJT0
+[06/12/18, 19:57:50:027] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:57:50:166] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/12/18, 19:58:04:779] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:58:04:855] info: Store: SELECT_CHANNEL CB529PJT0
+[06/12/18, 19:58:06:578] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 19:58:06:716] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/12/18, 19:58:08:954] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:11:279] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:12:823] info: Store: SELECT_NEXT_TEAM
+[06/12/18, 19:58:22:432] info: Store: SELECT_CHANNEL C9Z4BU1C2
+[06/12/18, 19:58:33:052] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:33:067] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:50:080] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:50:097] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:51:751] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:54:526] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:58:56:381] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:22:093] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:23:345] info: Store: SELECT_NEXT_TEAM
+[06/12/18, 19:59:36:177] info: Store: MAIN_WINDOW_FOCUSED
+[06/12/18, 19:59:38:433] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:38:434] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:43:327] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:43:333] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:43:751] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:43:752] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:44:461] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:44:495] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:45:194] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:45:956] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:48:945] info: Store: SET_FULL_SCREEN
+[06/12/18, 19:59:59:207] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:02:56:111] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:02:58:388] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:03:01:455] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 20:03:01:546] info: Store: SELECT_CHANNEL CB529PJT0
+[06/12/18, 20:03:24:267] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:45:048] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:48:757] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:49:595] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:51:913] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:52:464] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:52:882] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:54:466] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:54:867] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:55:292] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:55:635] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:05:59:408] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:06:00:567] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:06:00:930] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:06:03:907] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 20:06:04:066] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/12/18, 20:06:10:308] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/12/18, 20:06:10:396] info: Store: SELECT_CHANNEL CB529PJT0
+[06/12/18, 20:06:12:728] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:06:13:487] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:07:20:673] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:07:21:292] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:07:34:274] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:07:35:090] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:07:36:656] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:07:37:097] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:10:03:106] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:10:03:126] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:19:55:748] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:19:55:780] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:19:58:019] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:19:58:046] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:20:37:544] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:20:37:550] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:20:39:644] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:20:40:493] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:21:51:857] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:21:52:645] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:21:53:928] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:21:54:606] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:22:06:824] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:02:607] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:22:592] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:23:277] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:42:292] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:43:116] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:49:334] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:50:877] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:24:51:793] info: Store: MAIN_WINDOW_FOCUSED
+[06/12/18, 20:24:51:959] info: Store: SELECT_TEAM T031FNTUT
+[06/12/18, 20:25:27:425] info: Store: SELECT_CHANNEL C031FNU0K
+[06/12/18, 20:25:33:946] info: Store: SELECT_CHANNEL C031FNU09
+[06/12/18, 20:25:37:403] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:25:37:423] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:23:310] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:23:370] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:29:667] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:29:675] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:39:615] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:39:622] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:40:553] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:40:578] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:41:879] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:30:41:885] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:31:41:701] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:31:41:713] info: Store: SET_FULL_SCREEN
+[06/12/18, 20:33:37:306] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "mXWktPC9XqNABEn",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528803217.000039&team=TB47MRNBZ",
+  "msg": "1528803217.000039",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/12/18, 20:40:20:201] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U17H8MQKB-g7ad138e0bce-512",
+  "channel": "CASGZGRSB",
+  "content": "[REDACTED]",
+  "id": "L92WHlImn9KqQo9",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CASGZGRSB&message=1528803619.000481&team=T031FNTUT",
+  "msg": "1528803619.000481",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/12/18, 20:44:06:516] info: Store: SET_SUSPEND_STATUS
+[06/12/18, 20:44:06:539] error: Jun-12 20:44:06.539 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 08:37:32:864] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 08:37:32:945] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 08:37:32:987] error: Jun-13 08:37:32.986 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 08:38:07:498] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 08:38:07:499] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 08:38:08:660] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 08:38:33:963] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 08:38:34:113] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 08:38:38:098] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:38:38:118] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:38:42:266] info: Store: SELECT_CHANNEL D5A4B1X97
+[06/13/18, 08:38:46:208] info: Store: SELECT_CHANNEL C031FNU09
+[06/13/18, 08:38:47:377] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:38:47:397] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:43:57:385] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4RSF6SG",
+  "content": "[REDACTED]",
+  "id": "PJqGSoFjY3pnXnN",
+  "launchUri": "slack://channel?id=CB4RSF6SG&message=1528847037.000296&team=TB47MRNBZ",
+  "msg": "1528847037.000296",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 08:44:10:917] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:44:10:926] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:44:13:275] info: Store: MAIN_WINDOW_FOCUSED
+[06/13/18, 08:44:13:446] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 08:44:15:159] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 08:44:15:214] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/13/18, 08:44:29:830] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 08:44:29:891] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/13/18, 08:45:46:765] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:45:46:779] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:46:30:315] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:46:30:333] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:46:34:568] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:46:34:667] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:46:52:278] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB3DV6QE9",
+  "content": "[REDACTED]",
+  "id": "GKNACqHQD2O2loE",
+  "launchUri": "slack://channel?id=CB3DV6QE9&message=1528847212.000179&team=TB47MRNBZ",
+  "msg": "1528847212.000179",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 08:47:18:941] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:47:18:987] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:47:21:190] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:47:21:191] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:49:02:656] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:49:02:657] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:49:03:694] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:49:03:708] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:54:21:116] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:54:21:121] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:54:29:481] info: Store: MAIN_WINDOW_FOCUSED
+[06/13/18, 08:54:29:652] info: Store: SELECT_TEAM T031FNTUT
+[06/13/18, 08:54:35:051] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:54:35:631] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:54:36:077] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:54:36:150] info: Store: SET_FULL_SCREEN
+[06/13/18, 08:59:44:348] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4UUHLUF",
+  "content": "[REDACTED]",
+  "id": "KElGsZIAxK8zYxK",
+  "launchUri": "slack://channel?id=CB4UUHLUF&message=1528847984.000282&team=TB47MRNBZ",
+  "msg": "1528847984.000282",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 09:00:03:714] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-USLACKBOT-sv1444671949-512",
+  "channel": "D5A4B1X97",
+  "content": "",
+  "id": "OY26flSr1VB2414",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D5A4B1X97&message=1528848003.000526&team=T031FNTUT",
+  "msg": "1528848003.000526",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/13/18, 09:07:22:010] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:22:030] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:25:877] info: Store: SELECT_CHANNEL D5A4B1X97
+[06/13/18, 09:07:27:546] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:27:569] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:44:738] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:44:751] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:45:566] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:45:593] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:46:090] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:46:103] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:46:669] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:07:46:699] info: Store: SET_FULL_SCREEN
+[06/13/18, 09:12:53:087] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 09:12:53:092] error: Jun-13 09:12:53.920 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 09:15:06:820] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 09:15:06:847] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 09:15:06:875] error: Jun-13 09:15:06.874 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 09:15:12:068] error: Jun-13 09:15:12.680 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 09:15:14:881] error: Jun-13 09:15:14.881 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 09:15:16:380] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 09:19:38:228] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 09:19:38:243] error: Jun-13 09:19:38.242 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 10:45:50:818] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 10:45:50:863] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 10:45:50:886] error: Jun-13 10:45:50.886 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 10:45:55:593] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 10:46:28:370] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:46:28:373] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:46:29:339] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 10:46:29:437] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 10:46:30:295] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:46:30:343] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:46:31:816] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 10:46:31:817] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 10:48:33:347] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:33:361] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:36:212] info: Store: MAIN_WINDOW_FOCUSED
+[06/13/18, 10:48:36:377] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 10:48:41:679] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 10:48:41:748] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 10:48:44:042] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:44:043] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:44:759] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:44:806] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:48:758] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:48:48:758] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:49:02:450] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:49:02:490] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:49:03:679] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:49:03:686] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:52:47:299] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:52:47:300] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:52:49:478] info: Store: SET_FULL_SCREEN
+[06/13/18, 10:52:49:479] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:22:920] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:22:921] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:25:051] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:25:054] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:38:641] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:38:678] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:39:439] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:03:39:456] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:05:59:631] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:05:59:636] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:06:05:907] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:06:05:947] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:07:00:674] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:07:00:675] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:07:01:894] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:07:01:894] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:13:33:905] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:13:33:906] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:13:35:576] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:13:35:610] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:14:44:620] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:14:44:692] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:14:46:768] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:14:47:412] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:14:52:840] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:14:52:892] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:07:578] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:07:598] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:12:088] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:12:106] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:13:648] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:14:060] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:54:522] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:15:55:030] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:16:18:606] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:16:19:416] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:16:28:476] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:16:28:893] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:17:49:704] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:17:51:100] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:19:42:932] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "VZzWCmSJRKlkEn9",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528856382.000217&team=TB47MRNBZ",
+  "msg": "1528856382.000217",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 11:20:06:788] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:07:381] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:18:459] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "4Kn2CrTWGg2MEXl",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528856418.000109&team=TB47MRNBZ",
+  "msg": "1528856418.000109",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 11:20:25:025] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:25:107] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:43:070] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:44:119] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:51:850] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:51:851] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:20:56:943] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "QLrXtmUkWEj9Mr1",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528856456.000192&team=TB47MRNBZ",
+  "msg": "1528856456.000192",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 11:21:16:331] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:21:18:344] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:22:49:093] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:22:49:095] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:23:11:783] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:23:11:810] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:23:46:322] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:23:46:325] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:24:33:306] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:24:33:309] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:24:42:764] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:24:42:765] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:03:215] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:03:217] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:04:410] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:04:434] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:10:160] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:10:161] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:10:677] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:11:225] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:11:601] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:26:11:631] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:31:817] error: Jun-13 11:27:31.817 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 11:27:45:633] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:45:635] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:46:352] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:46:429] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:46:901] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:46:921] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:48:410] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:27:48:440] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:25:136] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:25:137] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:26:105] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:26:107] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:30:027] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:30:063] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:30:579] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:30:580] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:47:279] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:47:294] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:48:253] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:30:48:256] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:23:351] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:23:352] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:24:483] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:24:520] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:25:163] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:25:167] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:25:354] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:34:25:355] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:35:943] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:35:943] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:36:880] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:36:887] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:51:996] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:52:017] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:52:869] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:37:52:883] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:59:42:926] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:59:42:930] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:59:43:918] info: Store: SET_FULL_SCREEN
+[06/13/18, 11:59:43:919] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:10:10:558] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:11:32:658] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:11:32:658] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:11:37:236] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:11:37:237] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:19:998] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:19:999] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:20:842] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:20:843] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:21:910] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:21:947] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:22:104] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:22:135] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:55:047] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:55:048] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:56:670] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:12:56:677] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:15:54:777] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 12:15:54:832] error: Jun-13 12:15:54.832 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 12:23:45:913] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 12:23:45:936] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 12:23:46:090] error: Jun-13 12:23:46.900 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:23:50:665] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 12:23:53:294] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 12:23:53:466] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 12:24:05:106] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:24:05:107] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:24:06:280] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:24:06:281] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:24:25:077] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 12:24:25:084] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 12:26:12:410] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:26:12:466] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:26:13:411] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:26:13:412] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:27:39:868] error: Jun-13 12:27:39.868 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:27:40:267] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 12:28:05:643] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 12:28:31:943] error: Jun-13 12:28:31.943 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:28:32:346] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 12:28:42:052] error: Jun-13 12:28:42.520 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:28:52:604] error: Jun-13 12:28:52.604 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:29:03:928] error: Jun-13 12:29:03.928 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:29:17:258] error: Jun-13 12:29:17.258 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:29:28:926] error: Jun-13 12:29:28.925 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:29:37:574] error: Jun-13 12:29:37.574 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:29:49:889] error: Jun-13 12:29:49.889 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:30:04:918] error: Jun-13 12:30:04.917 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:30:25:473] error: Jun-13 12:30:25.472 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:30:37:840] error: Jun-13 12:30:37.840 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:30:50:877] error: Jun-13 12:30:50.877 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:31:08:479] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:31:08:479] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:31:09:513] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:31:09:515] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:31:09:739] error: Jun-13 12:31:09.738 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:31:43:731] error: Jun-13 12:31:43.731 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:32:22:214] error: Jun-13 12:32:22.214 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:32:29:909] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:32:29:952] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:32:30:672] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:32:30:694] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:33:02:573] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 12:36:03:216] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 12:36:03:281] error: Jun-13 12:36:03.280 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 12:36:15:563] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 12:36:22:147] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:22:148] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:22:498] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:22:509] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:23:890] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:23:891] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:24:462] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:24:463] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:36:25:554] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 12:36:25:574] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 12:36:59:841] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 12:36:59:932] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 12:37:15:113] error: Jun-13 12:37:15.113 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:37:43:272] error: Jun-13 12:37:43.272 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:43:48:713] error: Jun-13 12:43:48.712 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:44:20:913] error: Jun-13 12:44:20.913 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:44:29:679] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:44:29:679] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:44:30:051] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:44:30:077] info: Store: SET_FULL_SCREEN
+[06/13/18, 12:45:59:740] error: Jun-13 12:45:59.740 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:46:32:575] error: Jun-13 12:46:32.575 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:47:45:743] error: Jun-13 12:47:45.743 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:48:18:946] error: Jun-13 12:48:18.946 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 12:53:17:060] error: Jun-13 12:53:17.600 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/13/18, 13:01:04:729] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 13:01:04:745] error: Jun-13 13:01:04.744 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 13:05:32:812] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 13:05:32:863] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 13:05:32:909] error: Jun-13 13:05:32.908 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 13:05:46:743] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 13:06:12:296] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 13:06:12:385] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 13:06:14:214] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 13:06:14:216] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 13:07:40:927] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:07:40:930] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:07:42:660] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:07:42:663] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:08:53:422] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:08:53:424] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:08:54:051] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:08:54:059] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:14:54:383] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB529PJT0",
+  "content": "[REDACTED]",
+  "id": "pVWnfEcGlrXy9ND",
+  "launchUri": "slack://channel?id=CB529PJT0&message=1528863294.000034&team=TB47MRNBZ",
+  "msg": "1528863294.000034",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:15:13:851] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:13:852] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:17:215] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 13:15:17:359] info: Store: SELECT_CHANNEL CB529PJT0
+[06/13/18, 13:15:18:298] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:18:299] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:20:195] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:20:197] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:21:137] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:15:21:147] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:16:39:481] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB529PJT0",
+  "content": "[REDACTED]",
+  "id": "8YrgtJfMD3L0OwA",
+  "launchUri": "slack://channel?id=CB529PJT0&message=1528863399.000065&team=TB47MRNBZ",
+  "msg": "1528863399.000065",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:16:42:351] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:16:42:397] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:16:43:099] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:16:43:111] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:17:04:551] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:17:04:553] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:17:06:138] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:17:06:138] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:19:23:629] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 13:19:23:668] error: Jun-13 13:19:23.668 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 13:19:48:933] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 13:19:48:985] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 13:19:49:012] error: Jun-13 13:19:49.120 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 13:20:02:740] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 13:20:28:734] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "kMWgFmh91AZQyZP",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1528863609.000044&team=TB47MRNBZ",
+  "msg": "1528863609.000044",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:20:36:979] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:20:37:072] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:20:37:281] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:20:37:293] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:20:57:271] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "8YrgtLiMD3L2kyA",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863657.000097&team=TB47MRNBZ",
+  "msg": "1528863657.000097",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:22:09:098] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "l6W0Snsqx67qQKz",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863729.000048&team=TB47MRNBZ",
+  "msg": "1528863729.000048",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:22:58:239] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "7JqMSqtNKnXqVKw",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863778.000062&team=TB47MRNBZ",
+  "msg": "1528863778.000062",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:23:13:398] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "kMWgF7u91AZJNpY",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863793.000090&team=TB47MRNBZ",
+  "msg": "1528863793.000090",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:23:31:335] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "XVBPfxCkKlRmoPB",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863811.000097&team=TB47MRNBZ",
+  "msg": "1528863811.000097",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:23:33:131] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "50oMU2F207qxGrm",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863813.000050&team=TB47MRNBZ",
+  "msg": "1528863813.000050",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:23:40:833] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "gXWytBH3wpQEVwR",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863820.000301&team=TB47MRNBZ",
+  "msg": "1528863820.000301",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:23:58:042] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "BEGvsNIjqoGWRZ2",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863838.000024&team=TB47MRNBZ",
+  "msg": "1528863838.000024",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:24:29:090] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "AOErhpSYKV0M9lg",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863869.000041&team=TB47MRNBZ",
+  "msg": "1528863869.000041",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:24:34:923] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "3Jm3SgTDVJRvvkO",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528863875.000007&team=TB47MRNBZ",
+  "msg": "1528863875.000007",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:34:01:875] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:01:905] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:04:249] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:04:253] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:33:296] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:33:317] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:36:518] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 13:34:36:733] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 13:34:39:423] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:34:39:424] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:35:26:468] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "03jMhnUWvMgBEpX",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528864526.000056&team=TB47MRNBZ",
+  "msg": "1528864526.000056",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 13:50:32:549] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:32:609] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:36:114] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:36:133] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:38:682] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:38:731] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:39:565] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:39:566] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:43:064] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:43:101] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:50:45:314] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:51:09:005] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:51:10:924] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:51:12:070] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:51:15:317] info: Store: MAIN_WINDOW_FOCUSED
+[06/13/18, 13:51:15:443] info: Store: SELECT_TEAM T031FNTUT
+[06/13/18, 13:51:22:572] info: Store: SELECT_CHANNEL C031FNU09
+[06/13/18, 13:51:48:564] info: Store: SELECT_CHANNEL DB6TWL9RU
+[06/13/18, 13:51:58:821] info: Store: SELECT_CHANNEL C0412GNKJ
+[06/13/18, 13:52:04:141] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:52:04:158] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:52:05:126] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:52:05:128] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:52:05:450] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:52:05:475] info: Store: SET_FULL_SCREEN
+[06/13/18, 13:59:06:445] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "MBnXtMcW8x0x25v",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528865946.000087&team=TB47MRNBZ",
+  "msg": "1528865946.000087",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 14:39:01:773] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "8Yrgt1fMD3OgO56",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528868341.000137&team=TB47MRNBZ",
+  "msg": "1528868341.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 14:39:03:097] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "03jMhPhWvMnj76g",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528868342.000190&team=TB47MRNBZ",
+  "msg": "1528868342.000190",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 14:39:04:630] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "mXWktNi9XqrM7R0",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528868344.000076&team=TB47MRNBZ",
+  "msg": "1528868344.000076",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 14:39:06:833] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "l6W0SEsqx6kwO5v",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528868346.000163&team=TB47MRNBZ",
+  "msg": "1528868346.000163",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 14:39:17:229] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "ykWzuWtRYmDK2V3",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528868356.000270&team=TB47MRNBZ",
+  "msg": "1528868356.000270",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 14:41:32:121] info: Store: SET_FULL_SCREEN
+[06/13/18, 14:41:32:159] info: Store: SET_FULL_SCREEN
+[06/13/18, 14:41:32:784] info: Store: SET_FULL_SCREEN
+[06/13/18, 14:41:32:818] info: Store: SET_FULL_SCREEN
+[06/13/18, 14:42:31:536] info: Store: SET_SUSPEND_STATUS
+[06/13/18, 14:42:31:540] error: Jun-13 14:42:31.540 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/13/18, 19:45:54:838] info: Store: SET_NETWORK_STATUS offline
+[06/13/18, 19:45:54:865] info: Store: SET_SUSPEND_STATUS true
+[06/13/18, 19:45:54:919] error: Jun-13 19:45:54.919 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/13/18, 19:46:37:820] info: Store: SET_NETWORK_STATUS online
+[06/13/18, 19:46:56:166] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 19:46:56:168] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 19:46:56:919] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 19:46:57:250] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/13/18, 20:03:03:276] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:03:03:282] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:03:16:165] info: Store: SELECT_CHANNEL C031FNU0K
+[06/13/18, 20:03:21:499] info: Store: MAIN_WINDOW_FOCUSED
+[06/13/18, 20:03:21:678] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 20:03:35:857] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:03:35:859] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:04:46:392] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "XVBPfgukKllR6W9",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528887886.000054&team=TB47MRNBZ",
+  "msg": "1528887886.000054",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:04:48:623] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1528887886.000054",
+  "notificationId": "XVBPfgukKllR6W9",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 20:04:48:628] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 20:04:48:705] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:04:48:756] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:05:01:748] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:05:01:748] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:05:11:037] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "oJWmSRC6AllvJV5",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528887910.000398&team=TB47MRNBZ",
+  "msg": "1528887910.000398",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:05:15:684] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "wg6xSjFKrwwELyJ",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528887915.000240&team=TB47MRNBZ",
+  "msg": "1528887915.000240",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:05:18:304] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1528887915.000240",
+  "notificationId": "wg6xSjFKrwwELyJ",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 20:05:18:306] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 20:05:18:389] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:05:18:460] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:05:25:137] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:05:25:138] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:09:03:448] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:09:03:449] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:09:05:335] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:09:05:336] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:17:03:977] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:17:18:120] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:17:39:950] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:17:41:207] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:17:43:113] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:17:43:955] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:18:25:210] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:18:26:263] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:18:29:481] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:18:30:007] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:20:04:173] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:20:05:112] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:20:37:315] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:20:40:891] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:20:47:615] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:20:48:711] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:24:50:770] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:24:51:923] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:32:25:340] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:32:26:066] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:35:43:590] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "EQLySyHPM58NlE4",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1528889743.000214&team=TB47MRNBZ",
+  "msg": "1528889743.000214",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:35:47:339] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB4NCET6H",
+  "messageId": "1528889743.000214",
+  "notificationId": "EQLySyHPM58NlE4",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 20:35:47:349] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 20:35:47:367] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:35:47:563] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/13/18, 20:35:47:563] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:35:47:567] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:36:11:152] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:36:25:371] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:36:28:578] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:36:28:745] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 20:36:32:452] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:36:32:527] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/13/18, 20:36:41:659] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:36:41:855] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 20:36:44:143] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:36:44:195] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:37:11:322] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "N1oGFGIRA2G4kZY",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1528889831.000006&team=TB47MRNBZ",
+  "msg": "1528889831.000006",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:37:12:674] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "KElGsnSAxK1v9gM",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1528889832.000272&team=TB47MRNBZ",
+  "msg": "1528889832.000272",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:37:16:329] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB4NCET6H",
+  "messageId": "1528889831.000006",
+  "notificationId": "N1oGFGIRA2G4kZY",
+  "teamId": "TB47MRNBZ"
+}
+[06/13/18, 20:37:16:339] info: Store: SELECT_TEAM TB47MRNBZ
+[06/13/18, 20:37:16:348] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:37:16:609] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/13/18, 20:37:16:610] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:37:16:611] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:37:21:901] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:25:309] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:29:018] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:35:169] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:36:732] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:46:286] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:51:506] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:54:968] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:37:58:642] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:00:631] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:03:019] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:09:398] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:11:125] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:13:122] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:14:913] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:16:871] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:20:070] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:22:042] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:23:870] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:25:866] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:27:897] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:30:104] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:32:733] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:34:070] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:36:091] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:37:929] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:41:862] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:47:685] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:49:868] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:52:009] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:53:892] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:56:624] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:38:58:698] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:15:427] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:30:949] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:35:909] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:37:609] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:39:178] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:41:254] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:42:638] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:43:663] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:46:176] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:39:47:199] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:40:02:167] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:40:27:961] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "N1oGFKTRA2GrzLP",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528890027.000389&team=TB47MRNBZ",
+  "msg": "1528890027.000389",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:40:34:472] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:40:34:632] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 20:40:39:156] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:40:45:612] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:40:52:294] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:41:02:895] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:41:36:379] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB3DV6QE9",
+  "content": "[REDACTED]",
+  "id": "wg6xSBUKrwO1J6X",
+  "launchUri": "slack://channel?id=CB3DV6QE9&message=1528890096.000118&team=TB47MRNBZ",
+  "msg": "1528890096.000118",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:42:14:358] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB3DV6QE9",
+  "content": "[REDACTED]",
+  "id": "17kMiPcXZJ01V5E",
+  "launchUri": "slack://channel?id=CB3DV6QE9&message=1528890134.000099&team=TB47MRNBZ",
+  "msg": "1528890134.000099",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:42:21:774] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:42:21:873] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/13/18, 20:42:53:081] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 20:42:53:250] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 20:48:36:991] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:49:01:451] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:49:01:521] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:49:52:976] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:49:53:009] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:50:17:709] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:50:23:154] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:51:02:701] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:53:08:239] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:53:17:064] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:53:58:179] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:54:21:859] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:54:28:935] info: Store: OPEN_CONTEXT_MENU
+{
+  "id": 3,
+  "params": "[REDACTED]"
+}
+[06/13/18, 20:54:58:131] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:55:13:564] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:55:50:001] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 20:55:53:919] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:55:53:919] info: Store: SET_FULL_SCREEN
+[06/13/18, 20:56:16:225] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "WBA1tnfnkQ52Jyz",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528890976.000005&team=TB47MRNBZ",
+  "msg": "1528890976.000005",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:56:33:013] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "jJWBSnMh78k6zZP7",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528890992.000400&team=TB47MRNBZ",
+  "msg": "1528890992.000400",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:57:12:747] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "zlgASMMiKj5LnEGw",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528891032.000282&team=TB47MRNBZ",
+  "msg": "1528891032.000282",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 20:57:29:348] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "4Kn2CBJsWGg1QjW2",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528891049.000100&team=TB47MRNBZ",
+  "msg": "1528891049.000100",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 21:31:55:792] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:31:55:866] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:32:23:434] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:32:23:470] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:43:43:104] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:43:43:105] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:43:46:319] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:43:46:319] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:43:48:579] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:43:48:645] info: Store: SET_FULL_SCREEN
+[06/13/18, 21:52:51:946] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 22:10:58:497] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:10:58:500] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:12:27:073] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:12:27:089] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:22:22:207] warn: SpellChecker::updateDetectedLanguage: cld could not detect language correctly, empty result returned
+[06/13/18, 22:30:10:275] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB3EDHZ7A",
+  "content": "[REDACTED]",
+  "id": "17kMiM6tXZJxjE5n",
+  "launchUri": "slack://channel?id=CB3EDHZ7A&message=1528896610.000137&team=TB47MRNBZ",
+  "msg": "1528896610.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 22:33:07:520] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB61C5Z35",
+  "content": "[REDACTED]",
+  "id": "oJWmSrlu6AlwL81R",
+  "launchUri": "slack://channel?id=CB61C5Z35&message=1528896787.000314&team=TB47MRNBZ",
+  "msg": "1528896787.000314",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 22:33:15:378] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 22:33:15:482] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/13/18, 22:35:56:233] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "ykWzuryCRYm8VEyN",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1528896956.000062&team=TB47MRNBZ",
+  "msg": "1528896956.000062",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 22:36:01:836] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:36:06:688] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:37:31:134] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:37:35:896] info: Store: SET_FULL_SCREEN
+[06/13/18, 22:39:38:102] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 22:39:38:220] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/13/18, 22:49:41:122] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 22:49:41:272] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/13/18, 22:49:45:178] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4UUHLUF",
+  "content": "[REDACTED]",
+  "id": "ZXEgt5QFyL12NJQ8",
+  "launchUri": "slack://channel?id=CB4UUHLUF&message=1528897785.000026&team=TB47MRNBZ",
+  "msg": "1528897785.000026",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 22:49:46:022] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 22:49:46:204] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/13/18, 22:49:55:521] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/13/18, 22:49:55:571] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/13/18, 23:02:43:956] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "CASGZGRSB",
+  "content": "[REDACTED]",
+  "id": "1wn3H8TXZJ63nQA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CASGZGRSB&message=1528898563.000722&team=T031FNTUT",
+  "msg": "1528898563.000722",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/13/18, 23:08:49:401] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "6VpMfr0H50ZyMAEr",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1528898929.000263&team=TB47MRNBZ",
+  "msg": "1528898929.000263",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/13/18, 23:36:22:633] info: Store: MAIN_WINDOW_FOCUSED
+[06/13/18, 23:36:22:778] info: Store: SELECT_TEAM T031FNTUT
+[06/13/18, 23:36:24:410] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/13/18, 23:36:48:529] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "C04SC8PKT",
+  "content": "[REDACTED]",
+  "id": "AD2KcMUYKV7LqVW",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04SC8PKT&message=1528900608.000507&team=T031FNTUT",
+  "msg": "1528900608.000507",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/13/18, 23:37:01:267] info: Store: SELECT_CHANNEL C04SC8PKT
+[06/13/18, 23:37:53:481] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:37:53:495] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:46:16:110] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:46:16:134] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:46:20:097] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/13/18, 23:49:18:965] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:18:986] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:41:358] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:41:370] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:42:167] info: Store: SELECT_CHANNEL C0412GNKJ
+[06/13/18, 23:49:42:464] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:42:498] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:43:113] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:43:116] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:45:384] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/13/18, 23:49:48:711] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:49:48:729] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:34:862] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:34:868] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:36:383] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:36:387] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:37:261] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:37:276] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:40:187] info: Store: SET_FULL_SCREEN
+[06/13/18, 23:52:40:204] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:02:03:317] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U04KRG00A-2f202a8ff96a-512",
+  "channel": "CASGZGRSB",
+  "content": "[REDACTED]",
+  "id": "rkvVu3cykqkRGj1",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CASGZGRSB&message=1528902123.000118&team=T031FNTUT",
+  "msg": "1528902123.000118",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/14/18, 00:02:09:823] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:02:09:831] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:02:10:234] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:02:10:249] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:02:10:700] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:02:10:702] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:03:06:360] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:03:06:384] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:03:50:893] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:03:50:897] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:07:38:954] info: Store: SELECT_CHANNEL D5WHV4ZQW
+[06/14/18, 00:08:35:734] info: Store: SELECT_CHANNEL CASGZGRSB
+[06/14/18, 00:18:53:690] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:18:53:701] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:07:042] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:07:056] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:09:447] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:09:471] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:10:268] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:10:272] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:11:671] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:19:11:686] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:20:40:120] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:20:40:137] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:20:42:460] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:20:42:461] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:24:27:550] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:24:27:565] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:24:32:423] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:24:32:451] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:25:59:863] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:25:59:869] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:26:00:615] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:26:00:632] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:26:03:824] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:26:03:828] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:26:05:625] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:26:05:631] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:37:379] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:37:390] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:38:300] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:38:314] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:42:954] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:42:962] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:43:584] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:28:43:622] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:16:487] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "CASGZGRSB",
+  "content": "[REDACTED]",
+  "id": "o20Xhof6AlxOO8R",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CASGZGRSB&message=1528905016.000299&team=T031FNTUT",
+  "msg": "1528905016.000299",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/14/18, 00:50:21:180] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:21:201] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:28:920] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:28:933] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:46:719] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:46:719] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:48:209] info: Store: SET_FULL_SCREEN
+[06/14/18, 00:50:48:226] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:44:463] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:44:474] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:45:129] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:45:148] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:46:683] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:46:690] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:50:757] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:50:758] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:51:985] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:52:014] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:53:136] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:53:141] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:57:398] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:57:403] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:58:267] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:58:286] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:59:004] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:03:59:009] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:04:09:714] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:04:09:715] info: Store: SET_FULL_SCREEN
+[06/14/18, 01:13:40:554] error: Jun-14 01:13:40.553 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/14/18, 03:15:36:338] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U17H8MQKB-g7ad138e0bce-512",
+  "channel": "CASGZGRSB",
+  "content": "[REDACTED]",
+  "id": "OY26fqhr1VxBDZA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=CASGZGRSB&message=1528913736.000030&team=T031FNTUT",
+  "msg": "1528913736.000030",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/14/18, 05:36:23:389] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/14/18, 05:36:23:833] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}

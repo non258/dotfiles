@@ -2632,3 +2632,30 @@
 [06/12/18, 17:53:59:290] info: Store: SET_FULL_SCREEN
 [06/12/18, 17:54:01:232] info: Store: SET_FULL_SCREEN
 [06/12/18, 17:54:01:236] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:03:12:608] info: Store: SET_SUSPEND_STATUS
+[06/12/18, 18:58:16:826] info: Store: SET_NETWORK_STATUS offline
+[06/12/18, 18:58:16:863] info: Store: SET_SUSPEND_STATUS true
+[06/12/18, 18:58:21:338] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:58:21:352] info: Store: SET_FULL_SCREEN
+[06/12/18, 18:58:23:286] info: NetworkStatus: Waiting for network online…
+[06/12/18, 18:58:23:314] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/12/18, 18:58:23:315] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/12/18, 18:58:28:496] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/12/18, 18:58:28:900] info: Store: SET_NETWORK_STATUS online
+[06/12/18, 18:58:28:906] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/12/18, 18:58:34:691] info: Store: RELOAD
+{
+  "everything": false
+}
