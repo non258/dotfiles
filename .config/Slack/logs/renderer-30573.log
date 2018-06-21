@@ -1,0 +1,184 @@
+[06/19/18, 14:48:48:577] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/19/18, 14:48:48:578] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/19/18, 14:48:48:574      ║
+[06/19/18, 14:48:48:578] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/19/18, 14:48:48:666] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/19/18, 14:48:48:980] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/19/18, 14:48:48:981] error: Desktop module calls failed to load
+[06/19/18, 14:48:49:002] info: cld3::loadModule: loading cld3 module
+[06/19/18, 14:48:49:024] info: cld3Loader::loadModule: running environment is NODE
+[06/19/18, 14:48:49:024] info: cld3Loader::loadModule: constructed module object for runtime
+[06/19/18, 14:48:49:181] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/19/18, 14:48:49:181] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/19/18, 14:48:49:192] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/19/18, 14:48:49:192] info: TranslationLookup: locale set to ja-JP for renderer
+[06/19/18, 14:48:49:203] info: Main window preload script finished
+{
+  "readyTime": 895.743536
+}
+[06/19/18, 14:48:52:615] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/19/18, 14:48:52:820] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "loaded",
+  "teamId": "TB9PVC95H"
+}
+[06/19/18, 14:48:53:404] info: Store: SELECT_CHANNEL CB9AUBY1X
+[06/19/18, 14:48:53:405] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/19/18, 14:48:53:429] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB9PVC95H"
+}
+[06/19/18, 14:48:53:461] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
+  },
+  "teamId": "TB9PVC95H"
+}
+[06/19/18, 14:48:53:465] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[06/19/18, 14:48:53:466] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/19/18, 14:48:53:468] info: TranslationLookup: locale set to en-US for renderer
+[06/19/18, 14:48:53:474] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "webapp-loaded",
+  "teamId": "TB9PVC95H"
+}
+[06/19/18, 14:48:53:728] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB9PVC95H"
+}
+[06/19/18, 14:48:53:729] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB9PVC95H",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/19/18, 14:48:53:878] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[06/19/18, 14:48:53:905] info: loadAsmModule: loading hunspell-asm module
+[06/19/18, 14:48:54:179] info: loadAsmModule: asm module loaded successfully
+[06/19/18, 14:48:54:180] info: SpellChecker: Starting spellchecker with language detector
+[06/19/18, 14:48:54:180] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[06/19/18, 14:48:54:180] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[06/19/18, 14:48:54:215] info: download: downloading dictionary for 'en-us'
+[06/19/18, 14:48:54:215] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[06/19/18, 14:48:54:223] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[06/19/18, 14:48:54:228] info: dictionaryDownloader: verifying hash
+[06/19/18, 14:48:54:264] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[06/19/18, 14:48:54:309] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[06/19/18, 14:48:54:314] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[06/19/18, 14:48:54:315] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[06/19/18, 14:48:54:315] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[06/19/18, 14:49:01:506] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9L67936",
+  "content": "[REDACTED]",
+  "id": "3JWZSmhDVxZG95x",
+  "launchUri": "slack://channel?id=CB9L67936&message=1529387341.000137&team=TB9PVC95H",
+  "msg": "1529387341.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/19/18, 14:49:24:779] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "wgWQfviKr2OMELO",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529387364.000243&team=TB9PVC95H",
+  "msg": "1529387364.000243",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/19/18, 14:49:34:322] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB9PVC95H",
+  "theme": {
+    "active_item": "#F79F66",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#F79F66",
+    "badge": "#F15340",
+    "column_bg": "#0D7E83",
+    "hover_item": "#D37C71",
+    "menu_bg": "#076570",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/19/18, 14:49:36:773] info: Store: MAIN_WINDOW_FOCUSED
+[06/19/18, 14:49:36:957] info: Store: SELECT_TEAM TB47MRNBZ
+[06/19/18, 14:49:37:759] info: Store: MAIN_WINDOW_FOCUSED
+[06/19/18, 14:49:37:935] info: Store: SELECT_TEAM TB9PVC95H
+[06/19/18, 14:49:42:624] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/19/18, 14:49:42:723] info: Store: SELECT_CHANNEL CB9PX40N7
+[06/19/18, 14:49:45:516] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/19/18, 14:49:45:581] info: Store: SELECT_CHANNEL DBAPX2R1C
+[06/19/18, 14:50:24:843] info: Store: RELOAD
+{
+  "everything": false
+}
+[06/19/18, 14:50:24:856] info: Window is unloading, window.desktop is no longer accessible
+[06/19/18, 14:50:25:861] info: Store: BACKGROUND_CLIENTS_INITIALIZED

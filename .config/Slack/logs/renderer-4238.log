@@ -1,0 +1,92 @@
+[06/19/18, 09:29:12:285] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/19/18, 09:29:12:286] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/19/18, 09:29:12:281      ║
+[06/19/18, 09:29:12:286] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/19/18, 09:29:12:393] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/19/18, 09:29:12:728] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/19/18, 09:29:12:728] error: Desktop module calls failed to load
+[06/19/18, 09:29:12:755] info: cld3::loadModule: loading cld3 module
+[06/19/18, 09:29:12:778] info: cld3Loader::loadModule: running environment is NODE
+[06/19/18, 09:29:12:778] info: cld3Loader::loadModule: constructed module object for runtime
+[06/19/18, 09:29:12:940] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/19/18, 09:29:12:940] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/19/18, 09:29:12:951] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/19/18, 09:29:12:964] info: Main window preload script finished
+{
+  "readyTime": 987.743396
+}
+[06/19/18, 09:29:41:267] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/19/18, 09:29:41:276] info: Store: MAIN_WINDOW_SHOWN
+[06/19/18, 09:29:41:279] info: Store: SET_FULL_SCREEN
+[06/19/18, 09:29:41:280] info: Store: SET_FULL_SCREEN
+[06/19/18, 09:29:41:281] info: Store: SET_FULL_SCREEN
+[06/19/18, 09:29:41:292] info: Store: SET_FULL_SCREEN
+[06/19/18, 09:29:41:293] info: Store: SET_FULL_SCREEN
+[06/19/18, 09:29:42:149] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/19/18, 09:29:43:015] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/19/18, 09:29:43:018] error: Jun-19 09:29:43.180 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/19/18, 09:29:43:051] info: Store: SELECT_CHANNEL C4TPU0YUW
+[06/19/18, 09:29:43:052] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/19/18, 09:29:43:052] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/19/18, 09:29:43:053] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/19/18, 09:29:43:054] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    205
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/19/18, 09:29:43:196] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[06/19/18, 09:29:43:206] info: Window is unloading, window.desktop is no longer accessible
+[06/19/18, 09:29:43:467] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
