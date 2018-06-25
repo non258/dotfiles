@@ -3739,3 +3739,1648 @@ info: Jun-21 13:05:14.348 [API-Q] (TB9PVC95H) 0dfde3de-1529553914.347 dnd.teamIn
 info: Jun-21 13:05:14.349 [API-Q] (TB9PVC95H) 0dfde3de-1529553914.347 dnd.teamInfo is ACTIVE
 info: Jun-21 13:05:14.582 [API-Q] (TB9PVC95H) 0dfde3de-1529553914.347 dnd.teamInfo is RESOLVED
 info: Jun-21 13:05:16.134 [FOCUS-EVENT] Window blurred
+info: Jun-21 14:40:06.553 [INFO] sleep event!
+info: Jun-21 14:40:06.554 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-21 14:40:06.554 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-21 14:40:06.556 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-21 14:40:06.563 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-21 14:40:06.578 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-21 14:40:06.683 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-21 14:40:06.685 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-21 14:40:06.685 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-21 14:40:06.693 [INFO] MSDisconnected: 
+info: Jun-21 14:40:06.705 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-21 14:40:06.706 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-21 14:40:07.484 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-21 14:40:09.479 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-21 14:40:11.479 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-21 14:40:13.479 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-21 14:40:15.479 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-21 14:54:07.848 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-21 14:54:07.939 [INFO] wake event! version:1529549674 start_ms:1529553906350
+info: Jun-21 14:54:07.940 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-21 14:54:07.940 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/21 14:54:07.944  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085234)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1842370)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085822)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2076649)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1845801
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:960495
+at https://a.slack-edge.com/bv1-4/application.9b673dc556ab4c6251c6.min.js:1:1258566
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:960495
+at https://a.slack-edge.com/bv1-4/application.9b673dc556ab4c6251c6.min.js:1:427487
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1058732
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:960495)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:93187)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.9b673dc556ab4c6251c6.min.js:1:542726)
+info: Jun-21 14:54:07.947 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-21 14:54:07.948 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-21 14:54:07.949 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-21 14:54:07.950 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-21 14:54:07.951 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-21 14:54:07.952 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-21 14:54:07.952 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-3w1o.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_0dfde3dea0faa6935fd8124fcdcedd8b94d4ef5f%26agent_version%3D1529549674%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-21 14:54:07.969 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-21 14:54:07.971 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-21 14:54:07.973 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/21 14:54:07.974  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2083613)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085448)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1842370)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085822)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2079485)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2180104)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2178885)
+info: Jun-21 14:54:08.531 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-21 14:54:08.532 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-21 14:54:08.533 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 870 ms
+warn: Jun-21 14:54:09.531 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Jun-21 14:54:09.532 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-21 14:54:09.532 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-21 14:54:10.532 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-21 14:54:12.531 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-21 14:54:14.531 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-21 14:54:16.532 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-21 14:54:19.531 Internet connection still offline after 11 attempts (unable to reach API)
+info: Jun-21 14:54:26.430 [FOCUS-EVENT] Window focused
+info: Jun-21 14:54:26.600 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 14:54:26.601 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 14:54:27.208 [FOCUS-EVENT] Window blurred
+info: Jun-21 14:54:27.211 [FOCUS-EVENT] Window focused
+info: Jun-21 14:54:27.216 [FOCUS-EVENT] Window blurred
+info: Jun-21 14:54:27.218 [FOCUS-EVENT] Window focused
+info: Jun-21 14:54:27.383 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 14:54:27.383 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 14:54:27.383 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 14:54:27.383 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 14:54:27.674 [FOCUS-EVENT] Window blurred
+info: Jun-21 14:54:27.677 [FOCUS-EVENT] Window focused
+info: Jun-21 14:54:27.738 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 14:54:27.738 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 14:54:28.383 [FOCUS-EVENT] Window blurred
+info: Jun-21 14:54:32.348 [FOCUS-EVENT] Window focused
+info: Jun-21 14:54:32.523 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 14:54:32.524 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 14:54:34.870 [FOCUS-EVENT] Window blurred
+info: Jun-21 14:54:34.918 [FOCUS-EVENT] Window focused
+info: Jun-21 14:54:34.942 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 14:54:34.943 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 14:54:35.062 [FOCUS-EVENT] Window blurred
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/21/18, 15:07:18:415      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-21 15:07:23.472 [BOOT] booted! pri:0 version:1529560732 start_ms:1529561241361 (2111ms ago)
+info: Jun-21 15:07:23.473 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: Jun-21 15:07:24.561 [SOCKET-MANAGER] (TB9PVC95H) Changing from never_connected to prov_connect
+info: Jun-21 15:07:24.563 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-21 15:07:24.565 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-21 15:07:24.565 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+warn: Jun-21 15:07:24.576 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jun-21 15:07:24.738 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.735 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:24.738 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.735 experiments.getByUser is ENQUEUED
+info: Jun-21 15:07:24.739 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.735 experiments.getByUser is ACTIVE
+info: Jun-21 15:07:24.862 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.862 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:24.863 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.862 apps.actions.list is ENQUEUED
+info: Jun-21 15:07:24.863 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.862 apps.actions.list is ACTIVE
+error: Jun-21 15:07:25.151 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+warn: Jun-21 15:07:25.172 updateTeamIcon was called, but missing an image to set
+info: Jun-21 15:07:25.380 [BOOT] Finalizing incremental boot
+info: Jun-21 15:07:25.384 [METRICS] Starting timers for metrics collection
+info: Jun-21 15:07:25.392 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jun-21 15:07:25.589 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.589 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:25.589 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.589 promo.banner is ENQUEUED
+info: Jun-21 15:07:25.590 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.589 promo.banner is ACTIVE
+info: Jun-21 15:07:25.620 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-21 15:07:25.620 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-21 15:07:25.622 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-21 15:07:25.623 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-21 15:07:25.634 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-21 15:07:25.668 [BOOT] Completed incremental boot
+info: Jun-21 15:07:25.669 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.669 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:25.669 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.669 i18n.translations.get is ENQUEUED
+info: Jun-21 15:07:25.669 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.669 i18n.translations.get is ACTIVE
+info: Jun-21 15:07:25.781 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-21 15:07:25.782 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-21 15:07:25.782 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-21 15:07:25.782 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-21 15:07:25.782 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-21 15:07:25.783 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-21 15:07:25.783 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-21 15:07:25.784 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-21 15:07:25.785 [BOOT] Finished first boot 1246 ms after DOM ready
+info: Jun-21 15:07:25.789 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.789 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:25.789 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.789 help.issues.list is ENQUEUED
+info: Jun-21 15:07:25.789 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.789 help.issues.list is ACTIVE
+info: Jun-21 15:07:25.792 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.791 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:25.792 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.791 dnd.teamInfo is ENQUEUED
+info: Jun-21 15:07:25.792 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.791 dnd.teamInfo is ACTIVE
+info: Jun-21 15:07:25.796 [INFO] MSConnected: 
+info: Jun-21 15:07:26.073 [API-Q] (TB9PVC95H) 637d8e9a-1529561246.072 users.counts called with reason: NO REASON PROVIDED
+info: Jun-21 15:07:26.073 [API-Q] (TB9PVC95H) 637d8e9a-1529561246.072 users.counts is ENQUEUED
+info: Jun-21 15:07:26.074 [API-Q] (TB9PVC95H) 637d8e9a-1529561246.072 users.counts is ACTIVE
+info: Jun-21 15:07:26.111 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.735 experiments.getByUser is RESOLVED
+info: Jun-21 15:07:26.119 [API-Q] (TB9PVC95H) 637d8e9a-1529561244.862 apps.actions.list is RESOLVED
+info: Jun-21 15:07:26.160 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.589 promo.banner is RESOLVED
+info: Jun-21 15:07:26.162 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.789 help.issues.list is RESOLVED
+info: Jun-21 15:07:26.357 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.669 i18n.translations.get is RESOLVED
+info: Jun-21 15:07:26.531 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-21 15:07:26.534 [CHECK-UNREADS] Not marking CB9L67936 because attention not on chat (window_not_focused)
+info: Jun-21 15:07:26.973 [API-Q] (TB9PVC95H) 637d8e9a-1529561245.791 dnd.teamInfo is RESOLVED
+info: Jun-21 15:07:26.980 [API-Q] (TB9PVC95H) 637d8e9a-1529561246.072 users.counts is RESOLVED
+info: Jun-21 15:07:26.988 [UNREAD-COUNTS] Skipped CB9L67936 in updateWithCountsFromApi. reachedEnd: true, timestamps: 28
+info: Jun-21 15:07:27.024 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-21 15:09:35.104 [FOCUS-EVENT] Window focused
+info: Jun-21 15:09:35.179 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.178 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-21 15:09:35.179 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.178 promo.banner is ENQUEUED
+info: Jun-21 15:09:35.179 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.178 promo.banner is ACTIVE
+info: Jun-21 15:09:35.200 [BOOT-TIMING] (TB9PVC95H) First meaningful paint: 135904ms
+info: Jun-21 15:09:35.575 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.575 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-21 15:09:35.575 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.575 dnd.teamInfo is ENQUEUED
+info: Jun-21 15:09:35.576 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.575 dnd.teamInfo is ACTIVE
+info: Jun-21 15:09:35.577 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 15:09:35.578 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 15:09:35.789 [FOCUS-EVENT] Window blurred
+info: Jun-21 15:09:35.848 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.178 promo.banner is RESOLVED
+info: Jun-21 15:09:36.230 [API-Q] (TB9PVC95H) 637d8e9a-1529561375.575 dnd.teamInfo is RESOLVED
+info: Jun-21 15:09:41.109 [FOCUS-EVENT] Window focused
+info: Jun-21 15:09:41.156 [CHECK-UNREADS] (TB9PVC95H) unreadLineVisible updated: false -> true
+info: Jun-21 15:09:41.243 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 15:09:41.244 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 15:09:41.551 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-21 15:09:41.551 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 15:09:45.084 [FOCUS-EVENT] Window blurred
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/21/18, 15:51:04:838      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-21 15:51:09.956 [BOOT] booted! pri:0 version:1529561681 start_ms:1529563868106 (1850ms ago)
+info: Jun-21 15:51:09.957 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: Jun-21 15:51:10.442 [SOCKET-MANAGER] (TB9PVC95H) Changing from never_connected to prov_connect
+info: Jun-21 15:51:10.443 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-21 15:51:10.445 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-21 15:51:10.445 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+warn: Jun-21 15:51:10.456 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jun-21 15:51:10.587 [API-Q] (TB9PVC95H) 9961cb03-1529563870.585 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:10.587 [API-Q] (TB9PVC95H) 9961cb03-1529563870.585 experiments.getByUser is ENQUEUED
+info: Jun-21 15:51:10.588 [API-Q] (TB9PVC95H) 9961cb03-1529563870.585 experiments.getByUser is ACTIVE
+info: Jun-21 15:51:10.705 [API-Q] (TB9PVC95H) 9961cb03-1529563870.705 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:10.705 [API-Q] (TB9PVC95H) 9961cb03-1529563870.705 apps.actions.list is ENQUEUED
+info: Jun-21 15:51:10.706 [API-Q] (TB9PVC95H) 9961cb03-1529563870.705 apps.actions.list is ACTIVE
+error: Jun-21 15:51:10.963 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+warn: Jun-21 15:51:10.977 updateTeamIcon was called, but missing an image to set
+info: Jun-21 15:51:11.147 [BOOT] Finalizing incremental boot
+info: Jun-21 15:51:11.151 [METRICS] Starting timers for metrics collection
+info: Jun-21 15:51:11.153 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jun-21 15:51:11.325 [API-Q] (TB9PVC95H) 9961cb03-1529563871.324 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:11.325 [API-Q] (TB9PVC95H) 9961cb03-1529563871.324 promo.banner is ENQUEUED
+info: Jun-21 15:51:11.325 [API-Q] (TB9PVC95H) 9961cb03-1529563871.324 promo.banner is ACTIVE
+info: Jun-21 15:51:11.411 [API-Q] (TB9PVC95H) 9961cb03-1529563871.410 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:11.411 [API-Q] (TB9PVC95H) 9961cb03-1529563871.410 promo.banner is ENQUEUED
+info: Jun-21 15:51:11.411 [API-Q] (TB9PVC95H) 9961cb03-1529563871.410 promo.banner is ACTIVE
+info: Jun-21 15:51:11.533 [BOOT-TIMING] (TB9PVC95H) First meaningful paint: 5802ms
+info: Jun-21 15:51:12.010 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-21 15:51:12.010 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-21 15:51:12.013 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-21 15:51:12.014 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-21 15:51:12.040 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-21 15:51:12.079 [BOOT] Completed incremental boot
+info: Jun-21 15:51:12.081 [API-Q] (TB9PVC95H) 9961cb03-1529563872.081 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:12.082 [API-Q] (TB9PVC95H) 9961cb03-1529563872.081 i18n.translations.get is ENQUEUED
+info: Jun-21 15:51:12.082 [API-Q] (TB9PVC95H) 9961cb03-1529563872.081 i18n.translations.get is ACTIVE
+info: Jun-21 15:51:12.248 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-21 15:51:12.249 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-21 15:51:12.249 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-21 15:51:12.251 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-21 15:51:12.252 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-21 15:51:12.256 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-21 15:51:12.256 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-21 15:51:12.257 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-21 15:51:12.257 [BOOT] Finished first boot 1824 ms after DOM ready
+info: Jun-21 15:51:12.268 [API-Q] (TB9PVC95H) 9961cb03-1529563872.265 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:12.269 [API-Q] (TB9PVC95H) 9961cb03-1529563872.265 help.issues.list is ENQUEUED
+info: Jun-21 15:51:12.270 [API-Q] (TB9PVC95H) 9961cb03-1529563872.265 help.issues.list is ACTIVE
+info: Jun-21 15:51:12.273 [API-Q] (TB9PVC95H) 9961cb03-1529563872.273 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:12.273 [API-Q] (TB9PVC95H) 9961cb03-1529563872.273 dnd.teamInfo is ENQUEUED
+info: Jun-21 15:51:12.274 [API-Q] (TB9PVC95H) 9961cb03-1529563872.273 dnd.teamInfo is ACTIVE
+info: Jun-21 15:51:12.277 [INFO] MSConnected: 
+info: Jun-21 15:51:12.334 [API-Q] (TB9PVC95H) 9961cb03-1529563872.333 users.counts called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:12.334 [API-Q] (TB9PVC95H) 9961cb03-1529563872.333 users.counts is ENQUEUED
+info: Jun-21 15:51:12.334 [API-Q] (TB9PVC95H) 9961cb03-1529563872.333 users.counts is ACTIVE
+info: Jun-21 15:51:12.352 [API-Q] (TB9PVC95H) 9961cb03-1529563870.585 experiments.getByUser is RESOLVED
+info: Jun-21 15:51:12.389 [API-Q] (TB9PVC95H) 9961cb03-1529563870.705 apps.actions.list is RESOLVED
+info: Jun-21 15:51:12.390 [API-Q] (TB9PVC95H) 9961cb03-1529563871.324 promo.banner is RESOLVED
+info: Jun-21 15:51:12.475 [API-Q] (TB9PVC95H) 9961cb03-1529563871.410 promo.banner is RESOLVED
+info: Jun-21 15:51:12.490 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-21 15:51:12.490 [CHECK-UNREADS] Not marking CB9L67936 because attention not on chat (window_not_focused)
+info: Jun-21 15:51:12.559 [API-Q] (TB9PVC95H) 9961cb03-1529563872.265 help.issues.list is RESOLVED
+info: Jun-21 15:51:12.575 [API-Q] (TB9PVC95H) 9961cb03-1529563872.273 dnd.teamInfo is RESOLVED
+info: Jun-21 15:51:12.682 [CHECK-UNREADS] (TB9PVC95H) unreadLineVisible updated: false -> true
+info: Jun-21 15:51:12.856 [API-Q] (TB9PVC95H) 9961cb03-1529563872.081 i18n.translations.get is RESOLVED
+info: Jun-21 15:51:12.927 [FOCUS-EVENT] Window focused
+info: Jun-21 15:51:12.981 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 15:51:12.982 [CHECK-UNREADS] Marking CB9L67936 because unread line is visible
+info: Jun-21 15:51:12.985 [UNREAD-COUNTS] Counting unreads in CB9L67936 because last_read changed to 1529563869.000000
+info: Jun-21 15:51:13.259 [API-Q] (TB9PVC95H) 9961cb03-1529563872.333 users.counts is RESOLVED
+info: Jun-21 15:51:13.261 [UNREAD-COUNTS] Skipped CB9L67936 in updateWithCountsFromApi. reachedEnd: true, timestamps: 28
+info: Jun-21 15:51:13.265 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-21 15:51:13.267 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-21 15:51:13.268 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 15:51:13.763 [API-Q] (TB9PVC95H) 9961cb03-1529563873.762 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:13.763 [API-Q] (TB9PVC95H) 9961cb03-1529563873.762 dnd.teamInfo is ENQUEUED
+info: Jun-21 15:51:13.763 [API-Q] (TB9PVC95H) 9961cb03-1529563873.762 dnd.teamInfo is ACTIVE
+info: Jun-21 15:51:14.092 [API-Q] (TB9PVC95H) 9961cb03-1529563873.762 dnd.teamInfo is RESOLVED
+info: Jun-21 15:51:14.923 [API-Q] (TB9PVC95H) 9961cb03-1529563874.922 conversations.mark called with reason: NO REASON PROVIDED
+info: Jun-21 15:51:14.924 [API-Q] (TB9PVC95H) 9961cb03-1529563874.922 conversations.mark is ENQUEUED
+info: Jun-21 15:51:14.924 [API-Q] (TB9PVC95H) 9961cb03-1529563874.922 conversations.mark is ACTIVE
+info: Jun-21 15:51:15.126 [API-Q] (TB9PVC95H) 9961cb03-1529563874.922 conversations.mark is RESOLVED
+info: Jun-21 15:51:19.837 [FOCUS-EVENT] Window blurred
+info: Jun-21 16:23:11.525 [FOCUS-EVENT] Window focused
+info: Jun-21 16:23:11.617 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 16:23:11.617 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 16:23:12.609 [FOCUS-EVENT] Window blurred
+info: Jun-21 16:23:15.460 [FOCUS-EVENT] Window focused
+info: Jun-21 16:23:15.606 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 16:23:15.606 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 16:23:16.523 [FOCUS-EVENT] Window blurred
+info: Jun-21 17:15:04.391 [FOCUS-EVENT] Window focused
+info: Jun-21 17:15:04.458 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-21 17:15:04.458 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-21 17:15:05.245 [FOCUS-EVENT] Window blurred
+info: Jun-21 17:20:45.472 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-21 17:20:45.477 [API-Q] (TB9PVC95H) 9961cb03-1529569245.475 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-21 17:20:45.477 [API-Q] (TB9PVC95H) 9961cb03-1529569245.475 rtm.shouldReload is ENQUEUED
+info: Jun-21 17:20:45.478 [API-Q] (TB9PVC95H) 9961cb03-1529569245.475 rtm.shouldReload is ACTIVE
+info: Jun-21 17:20:46.180 [API-Q] (TB9PVC95H) 9961cb03-1529569245.475 rtm.shouldReload is RESOLVED
+info: Jun-21 17:20:46.181 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-21 18:15:57.289 [INFO] sleep event!
+info: Jun-21 18:15:57.290 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-21 18:15:57.291 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-21 18:15:57.294 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-21 18:15:57.296 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-21 18:15:57.296 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-21 18:15:57.298 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-21 18:15:57.300 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-21 18:15:57.300 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-21 18:15:57.302 [INFO] MSDisconnected: 
+info: Jun-21 18:15:57.314 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-21 18:15:57.351 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-21 18:15:57.470 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-21 18:15:59.470 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-21 18:16:01.470 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-21 18:16:03.470 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-21 18:16:05.470 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-21 20:25:10.892 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-21 20:25:11.268 [INFO] wake event! version:1529561681 start_ms:1529563868106
+info: Jun-21 20:25:11.269 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-21 20:25:11.269 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/21 20:25:11.270  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085234)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1842370)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085822)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2076649)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1845801
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:960495
+at https://a.slack-edge.com/bv1-4/application.9b673dc556ab4c6251c6.min.js:1:1258566
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:960495
+at https://a.slack-edge.com/bv1-4/application.9b673dc556ab4c6251c6.min.js:1:427487
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1058732
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:960495)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:93187)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.9b673dc556ab4c6251c6.min.js:1:542726)
+info: Jun-21 20:25:11.270 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-21 20:25:11.271 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-21 20:25:11.271 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-21 20:25:11.272 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-21 20:25:11.273 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-21 20:25:11.279 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-21 20:25:11.279 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-2hjz.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_9961cb030baa22e61dad46c888e001d99b19ff05%26agent_version%3D1529561681%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-21 20:25:11.289 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-21 20:25:11.305 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-21 20:25:11.313 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/21 20:25:11.314  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2083613)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085448)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1842370)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085822)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2079485)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2180104)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2178885)
+info: Jun-21 20:25:11.763 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-21 20:25:11.764 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-21 20:25:11.766 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 218 ms
+warn: Jun-21 20:25:12.764 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Jun-21 20:25:12.769 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-21 20:25:12.771 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-21 20:25:14.763 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-21 20:25:16.763 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-21 20:25:18.763 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-21 20:25:20.763 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-21 20:25:22.763 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Jun-21 20:25:24.763 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Jun-21 20:25:26.763 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Jun-21 20:25:28.763 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Jun-21 20:25:30.763 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Jun-21 20:25:32.763 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Jun-21 20:25:34.763 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Jun-21 20:25:36.763 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Jun-21 20:25:38.763 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Jun-21 20:25:40.763 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Jun-21 20:25:42.763 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Jun-21 20:25:44.763 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Jun-21 20:25:46.763 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Jun-21 20:25:48.763 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Jun-21 20:25:50.763 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Jun-21 20:25:52.763 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Jun-21 20:25:54.763 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Jun-21 20:25:56.763 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Jun-21 20:25:58.763 Internet connection still offline after 29 attempts (browser says it is still offline)
+warn: Jun-21 20:26:00.764 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Jun-21 20:26:02.763 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Jun-21 20:26:04.763 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Jun-21 20:26:06.763 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Jun-21 20:26:08.764 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Jun-21 20:26:10.763 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Jun-21 20:26:12.763 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Jun-21 20:26:14.763 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Jun-21 20:26:16.763 Internet connection still offline after 38 attempts (browser says it is still offline)
+info: Jun-21 20:26:19.765 [INFO] Internet connection has been re-established after 39 retry attempts; offline for NaN seconds
+info: Jun-21 20:26:19.766 [API-Q] (TB9PVC95H) Unpausing queue: state is ONLINE
+info: Jun-21 20:26:19.768 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_connectivity to connect
+info: Jun-21 20:26:19.770 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-21 20:26:19.771 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-21 20:26:19.772 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-21 20:26:19.774 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-21 20:26:19.776 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-21 20:26:19.778 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-21 20:26:19.778 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-ze46.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_9961cb030baa22e61dad46c888e001d99b19ff05%26agent_version%3D1529561681%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED
+error: Jun-21 20:26:20.087 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-21 20:26:20.089 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-21 20:26:20.091 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/21 20:26:20.920  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.3005badb33b9f29eb5ac.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2083613)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085448)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:1842370)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2085822)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2079485)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2180104)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.6f7a016625aa7cfdcc4a.min.js:1:2178885)
+info: Jun-21 20:26:20.763 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-21 20:26:20.763 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-21 20:26:20.764 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 876 ms
+info: Jun-21 20:26:21.763 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to connect
+info: Jun-21 20:26:21.764 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-21 20:26:21.764 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-21 20:26:21.764 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-21 20:26:21.765 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-21 20:26:21.765 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-21 20:26:21.765 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-21 20:26:21.766 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+info: Jun-21 20:26:23.054 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-21 20:26:23.054 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-21 20:26:23.055 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-21 20:26:23.064 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-21 20:26:23.066 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-21 20:26:23.077 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-21 20:26:23.077 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is ENQUEUED
+info: Jun-21 20:26:23.078 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is ACTIVE
+info: Jun-21 20:26:23.102 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-21 20:26:23.102 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is ENQUEUED
+info: Jun-21 20:26:23.103 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is ACTIVE
+info: Jun-21 20:26:23.253 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-21 20:26:23.254 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-21 20:26:23.254 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-21 20:26:23.254 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-21 20:26:23.255 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-21 20:26:23.255 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-21 20:26:23.255 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-21 20:26:23.256 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-21 20:26:23.257 [EVENTLOG] (TB9PVC95H) fr=false, lc=false, lt=1529563875.000017
+info: Jun-21 20:26:23.257 [EVENTLOG] (TB9PVC95H) fetching events since 1529563875.000017 (16508.99998307228 seconds ago)
+info: Jun-21 20:26:23.258 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history called with reason: NO REASON PROVIDED
+info: Jun-21 20:26:23.258 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is ENQUEUED
+info: Jun-21 20:26:23.259 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is ACTIVE
+info: Jun-21 20:26:23.264 [API-Q] (TB9PVC95H) 9961cb03-1529580383.263 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-21 20:26:23.264 [API-Q] (TB9PVC95H) 9961cb03-1529580383.263 dnd.teamInfo is ENQUEUED
+info: Jun-21 20:26:23.265 [API-Q] (TB9PVC95H) 9961cb03-1529580383.263 dnd.teamInfo is ACTIVE
+info: Jun-21 20:26:23.265 [INFO] MSConnected: 
+info: Jun-21 20:26:23.308 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts called with reason: NO REASON PROVIDED
+info: Jun-21 20:26:23.308 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is ENQUEUED
+info: Jun-21 20:26:23.308 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is ACTIVE
+info: Jun-21 20:26:23.447 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is ERROR: request did not complete
+info: Jun-21 20:26:23.449 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is retrying, attempt 2
+info: Jun-21 20:26:23.449 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is ENQUEUED
+info: Jun-21 20:26:23.451 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is ACTIVE
+info: Jun-21 20:26:23.452 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is ERROR: request did not complete
+info: Jun-21 20:26:23.453 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is retrying, attempt 2
+info: Jun-21 20:26:23.453 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is ENQUEUED
+info: Jun-21 20:26:23.454 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is ACTIVE
+info: Jun-21 20:26:23.455 [API-Q] (TB9PVC95H) 9961cb03-1529580383.263 dnd.teamInfo is ERROR: request did not complete
+info: Jun-21 20:26:23.456 [API-Q] (TB9PVC95H) 9961cb03-1529580383.263 dnd.teamInfo is REJECTED: request did not complete
+info: Jun-21 20:26:23.461 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is ERROR: request did not complete
+info: Jun-21 20:26:23.462 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is retrying, attempt 2
+info: Jun-21 20:26:23.462 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is ENQUEUED
+info: Jun-21 20:26:23.463 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is ACTIVE
+info: Jun-21 20:26:23.464 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is ERROR: request did not complete
+info: Jun-21 20:26:23.465 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is retrying, attempt 2
+info: Jun-21 20:26:23.465 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is ENQUEUED
+info: Jun-21 20:26:23.466 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is ACTIVE
+info: Jun-21 20:26:24.363 [API-Q] (TB9PVC95H) 9961cb03-1529580383.102 i18n.translations.get is RESOLVED
+info: Jun-21 20:26:24.367 [API-Q] (TB9PVC95H) 9961cb03-1529580383.068 auth.currentSessions is RESOLVED
+info: Jun-21 20:26:24.368 [API-Q] (TB9PVC95H) 9961cb03-1529580383.257 ublockworkaround.history is RESOLVED
+info: Jun-21 20:26:24.369 [EVENTLOG] (TB9PVC95H) nothing to process
+info: Jun-21 20:26:24.369 [EVENTLOG] (TB9PVC95H) fetched finish (cancelled? false)
+info: Jun-21 20:26:24.369 [EVENTLOG] (TB9PVC95H) dispatching signal and clearing timestamp
+info: Jun-21 20:26:24.376 [API-Q] (TB9PVC95H) 9961cb03-1529580383.307 users.counts is RESOLVED
+info: Jun-21 20:26:24.384 [UNREAD-COUNTS] Completed users.counts processing
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/22/18, 10:44:09:291      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-22 10:44:14.198 [BOOT] booted! pri:0 version:1529629857 start_ms:1529631852262 (1936ms ago)
+info: Jun-22 10:44:14.199 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: Jun-22 10:44:14.725 [SOCKET-MANAGER] (TB9PVC95H) Changing from never_connected to prov_connect
+info: Jun-22 10:44:14.726 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 10:44:14.728 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 10:44:14.728 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+warn: Jun-22 10:44:14.747 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jun-22 10:44:14.947 [API-Q] (TB9PVC95H) f3c60b03-1529631854.946 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:14.948 [API-Q] (TB9PVC95H) f3c60b03-1529631854.946 experiments.getByUser is ENQUEUED
+info: Jun-22 10:44:14.949 [API-Q] (TB9PVC95H) f3c60b03-1529631854.946 experiments.getByUser is ACTIVE
+info: Jun-22 10:44:15.032 [API-Q] (TB9PVC95H) f3c60b03-1529631855.031 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:15.032 [API-Q] (TB9PVC95H) f3c60b03-1529631855.031 apps.actions.list is ENQUEUED
+info: Jun-22 10:44:15.032 [API-Q] (TB9PVC95H) f3c60b03-1529631855.031 apps.actions.list is ACTIVE
+error: Jun-22 10:44:15.190 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+warn: Jun-22 10:44:15.200 updateTeamIcon was called, but missing an image to set
+info: Jun-22 10:44:15.308 [BOOT] Finalizing incremental boot
+info: Jun-22 10:44:15.311 [METRICS] Starting timers for metrics collection
+info: Jun-22 10:44:15.313 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jun-22 10:44:15.482 [API-Q] (TB9PVC95H) f3c60b03-1529631855.482 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:15.482 [API-Q] (TB9PVC95H) f3c60b03-1529631855.482 promo.banner is ENQUEUED
+info: Jun-22 10:44:15.482 [API-Q] (TB9PVC95H) f3c60b03-1529631855.482 promo.banner is ACTIVE
+info: Jun-22 10:44:15.591 [FOCUS-EVENT] Window focused
+info: Jun-22 10:44:15.619 [API-Q] (TB9PVC95H) f3c60b03-1529631854.946 experiments.getByUser is RESOLVED
+info: Jun-22 10:44:15.691 [API-Q] (TB9PVC95H) f3c60b03-1529631855.031 apps.actions.list is RESOLVED
+info: Jun-22 10:44:15.701 [API-Q] (TB9PVC95H) f3c60b03-1529631855.482 promo.banner is RESOLVED
+info: Jun-22 10:44:16.285 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-22 10:44:16.285 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-22 10:44:16.286 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-22 10:44:16.288 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-22 10:44:16.304 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-22 10:44:16.348 [BOOT] Completed incremental boot
+info: Jun-22 10:44:16.350 [API-Q] (TB9PVC95H) f3c60b03-1529631856.349 apps.list called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:16.350 [API-Q] (TB9PVC95H) f3c60b03-1529631856.349 apps.list is ENQUEUED
+info: Jun-22 10:44:16.350 [API-Q] (TB9PVC95H) f3c60b03-1529631856.349 apps.list is ACTIVE
+info: Jun-22 10:44:16.352 [API-Q] (TB9PVC95H) f3c60b03-1529631856.351 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:16.352 [API-Q] (TB9PVC95H) f3c60b03-1529631856.351 i18n.translations.get is ENQUEUED
+info: Jun-22 10:44:16.352 [API-Q] (TB9PVC95H) f3c60b03-1529631856.351 i18n.translations.get is ACTIVE
+info: Jun-22 10:44:16.478 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-22 10:44:16.478 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-22 10:44:16.479 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-22 10:44:16.479 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-22 10:44:16.479 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-22 10:44:16.479 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-22 10:44:16.480 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-22 10:44:16.480 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-22 10:44:16.481 [BOOT] Finished first boot 1773 ms after DOM ready
+info: Jun-22 10:44:16.485 [API-Q] (TB9PVC95H) f3c60b03-1529631856.485 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:16.485 [API-Q] (TB9PVC95H) f3c60b03-1529631856.485 help.issues.list is ENQUEUED
+info: Jun-22 10:44:16.486 [API-Q] (TB9PVC95H) f3c60b03-1529631856.485 help.issues.list is ACTIVE
+info: Jun-22 10:44:16.487 [API-Q] (TB9PVC95H) f3c60b03-1529631856.487 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:16.487 [API-Q] (TB9PVC95H) f3c60b03-1529631856.487 dnd.teamInfo is ENQUEUED
+info: Jun-22 10:44:16.488 [API-Q] (TB9PVC95H) f3c60b03-1529631856.487 dnd.teamInfo is ACTIVE
+info: Jun-22 10:44:16.490 [INFO] MSConnected: 
+info: Jun-22 10:44:16.539 [API-Q] (TB9PVC95H) f3c60b03-1529631856.538 users.counts called with reason: NO REASON PROVIDED
+info: Jun-22 10:44:16.539 [API-Q] (TB9PVC95H) f3c60b03-1529631856.538 users.counts is ENQUEUED
+info: Jun-22 10:44:16.539 [API-Q] (TB9PVC95H) f3c60b03-1529631856.538 users.counts is ACTIVE
+info: Jun-22 10:44:16.584 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-22 10:44:16.585 [CHECK-UNREADS] Not marking CB9L67936 because attention not on chat (document_is_hidden)
+info: Jun-22 10:44:16.589 [API-Q] (TB9PVC95H) f3c60b03-1529631856.349 apps.list is RESOLVED
+info: Jun-22 10:44:16.590 [API-Q] (TB9PVC95H) f3c60b03-1529631856.351 i18n.translations.get is RESOLVED
+info: Jun-22 10:44:16.918 [API-Q] (TB9PVC95H) f3c60b03-1529631856.485 help.issues.list is RESOLVED
+info: Jun-22 10:44:16.921 [API-Q] (TB9PVC95H) f3c60b03-1529631856.538 users.counts is RESOLVED
+info: Jun-22 10:44:16.924 [UNREAD-COUNTS] Skipped CB9L67936 in updateWithCountsFromApi. reachedEnd: true, timestamps: 28
+info: Jun-22 10:44:16.939 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-22 10:44:17.317 [API-Q] (TB9PVC95H) f3c60b03-1529631856.487 dnd.teamInfo is RESOLVED
+info: Jun-22 11:00:11.305 [API-Q] (TB9PVC95H) f3c60b03-1529632811.304 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-22 11:00:11.305 [API-Q] (TB9PVC95H) f3c60b03-1529632811.304 promo.banner is ENQUEUED
+info: Jun-22 11:00:11.306 [API-Q] (TB9PVC95H) f3c60b03-1529632811.304 promo.banner is ACTIVE
+info: Jun-22 11:00:11.333 [BOOT-TIMING] (TB9PVC95H) First meaningful paint: 961175ms
+info: Jun-22 11:00:12.049 [API-Q] (TB9PVC95H) f3c60b03-1529632812.048 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 11:00:12.049 [API-Q] (TB9PVC95H) f3c60b03-1529632812.048 dnd.teamInfo is ENQUEUED
+info: Jun-22 11:00:12.049 [API-Q] (TB9PVC95H) f3c60b03-1529632812.048 dnd.teamInfo is ACTIVE
+info: Jun-22 11:00:12.050 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 11:00:12.051 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 11:00:12.303 [API-Q] (TB9PVC95H) f3c60b03-1529632811.304 promo.banner is RESOLVED
+info: Jun-22 11:00:12.330 [CHECK-UNREADS] (TB9PVC95H) unreadLineVisible updated: false -> true
+info: Jun-22 11:00:12.715 [API-Q] (TB9PVC95H) f3c60b03-1529632812.048 dnd.teamInfo is RESOLVED
+info: Jun-22 11:00:12.753 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-22 11:00:12.753 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 11:00:13.306 [FOCUS-EVENT] Window blurred
+info: Jun-22 11:30:53.462 [FOCUS-EVENT] Window focused
+info: Jun-22 11:30:53.569 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 11:30:53.569 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 11:30:54.538 [FOCUS-EVENT] Window blurred
+info: Jun-22 11:34:42.688 [FOCUS-EVENT] Window focused
+info: Jun-22 11:34:42.775 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 11:34:42.778 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 11:34:42.944 [FOCUS-EVENT] Window blurred
+info: Jun-22 11:35:56.676 [FOCUS-EVENT] Window focused
+info: Jun-22 11:35:56.810 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 11:35:56.810 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 11:35:56.898 [FOCUS-EVENT] Window blurred
+info: Jun-22 11:55:57.549 [INFO] sleep event!
+info: Jun-22 11:55:57.550 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-22 11:55:57.551 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-22 11:55:57.551 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-22 11:55:57.552 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-22 11:55:57.552 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-22 11:55:57.553 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-22 11:55:57.554 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-22 11:55:57.554 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-22 11:55:57.556 [INFO] MSDisconnected: 
+info: Jun-22 11:55:57.564 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-22 11:55:57.605 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-22 11:55:59.404 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-22 11:56:01.404 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-22 11:56:03.404 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-22 11:56:05.404 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-22 11:56:07.404 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-22 12:05:27.847 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-22 12:05:27.901 [INFO] wake event! version:1529629857 start_ms:1529631852262
+info: Jun-22 12:05:27.901 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-22 12:05:27.901 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/22 12:05:27.908  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295710)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2287125)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2020695
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:1098205
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:356828
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1138552
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:92942)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:470423)
+info: Jun-22 12:05:27.908 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 12:05:27.910 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 12:05:27.911 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 12:05:27.912 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 12:05:27.912 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 12:05:27.913 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 12:05:27.913 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-0kru.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_f3c60b036b095b10df4a91203466735155665a22%26agent_version%3D1529629857%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-22 12:05:27.923 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-22 12:05:27.924 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-22 12:05:27.924 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/22 12:05:27.925  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2294089)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295924)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2289961)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2402814)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2401595)
+info: Jun-22 12:05:28.300 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-22 12:05:28.300 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-22 12:05:28.301 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 498 ms
+info: Jun-22 12:05:29.300 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-22 12:05:29.301 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-22 12:05:29.303 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Jun-22 12:05:31.299 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-22 12:05:33.299 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-22 12:05:35.299 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-22 12:05:37.300 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-22 12:05:40.299 Internet connection still offline after 11 attempts (unable to reach API)
+info: Jun-22 12:05:47.066 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-22 12:05:56.897 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-22 12:06:09.300 [INFO] Internet connection has been re-established after 12 retry attempts; offline for NaN seconds
+info: Jun-22 12:06:09.302 [API-Q] (TB9PVC95H) Unpausing queue: state is ONLINE
+info: Jun-22 12:06:09.303 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_connectivity to connect
+info: Jun-22 12:06:09.304 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 12:06:09.305 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 12:06:09.305 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 12:06:09.305 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 12:06:09.306 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 12:06:09.308 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 12:06:09.308 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+info: Jun-22 12:06:10.445 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-22 12:06:10.445 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-22 12:06:10.446 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-22 12:06:10.448 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-22 12:06:10.449 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-22 12:06:10.450 [API-Q] (TB9PVC95H) f3c60b03-1529636770.450 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-22 12:06:10.450 [API-Q] (TB9PVC95H) f3c60b03-1529636770.450 auth.currentSessions is ENQUEUED
+info: Jun-22 12:06:10.451 [API-Q] (TB9PVC95H) f3c60b03-1529636770.450 auth.currentSessions is ACTIVE
+info: Jun-22 12:06:10.470 [API-Q] (TB9PVC95H) f3c60b03-1529636770.470 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-22 12:06:10.470 [API-Q] (TB9PVC95H) f3c60b03-1529636770.470 i18n.translations.get is ENQUEUED
+info: Jun-22 12:06:10.471 [API-Q] (TB9PVC95H) f3c60b03-1529636770.470 i18n.translations.get is ACTIVE
+info: Jun-22 12:06:10.606 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-22 12:06:10.606 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-22 12:06:10.606 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-22 12:06:10.607 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-22 12:06:10.607 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-22 12:06:10.607 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-22 12:06:10.608 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-22 12:06:10.608 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-22 12:06:10.611 [API-Q] (TB9PVC95H) f3c60b03-1529636770.611 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 12:06:10.611 [API-Q] (TB9PVC95H) f3c60b03-1529636770.611 dnd.teamInfo is ENQUEUED
+info: Jun-22 12:06:10.611 [API-Q] (TB9PVC95H) f3c60b03-1529636770.611 dnd.teamInfo is ACTIVE
+info: Jun-22 12:06:10.612 [INFO] MSConnected: 
+info: Jun-22 12:06:10.621 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Jun-22 12:06:10.621 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Jun-22 12:06:10.632 [API-Q] (TB9PVC95H) f3c60b03-1529636770.632 users.counts called with reason: NO REASON PROVIDED
+info: Jun-22 12:06:10.633 [API-Q] (TB9PVC95H) f3c60b03-1529636770.632 users.counts is ENQUEUED
+info: Jun-22 12:06:10.633 [API-Q] (TB9PVC95H) f3c60b03-1529636770.632 users.counts is ACTIVE
+info: Jun-22 12:06:10.661 [API-Q] (TB9PVC95H) f3c60b03-1529636770.450 auth.currentSessions is RESOLVED
+info: Jun-22 12:06:11.160 [API-Q] (TB9PVC95H) f3c60b03-1529636770.470 i18n.translations.get is RESOLVED
+info: Jun-22 12:06:11.333 [API-Q] (TB9PVC95H) f3c60b03-1529636770.632 users.counts is RESOLVED
+info: Jun-22 12:06:11.337 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-22 12:06:11.338 [API-Q] (TB9PVC95H) f3c60b03-1529636770.611 dnd.teamInfo is RESOLVED
+info: Jun-22 12:06:24.059 [INFO] sleep event!
+info: Jun-22 12:06:24.060 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-22 12:06:24.060 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-22 12:06:24.061 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-22 12:06:24.065 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-22 12:06:24.065 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-22 12:06:24.066 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-22 12:06:24.069 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-22 12:06:24.070 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-22 12:06:24.071 [INFO] MSDisconnected: 
+info: Jun-22 12:06:24.085 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-22 12:06:24.117 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-22 12:06:25.299 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-22 12:06:27.299 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-22 12:06:29.299 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-22 12:06:31.299 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-22 12:06:33.299 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-22 12:13:30.848 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-22 12:13:30.906 [INFO] wake event! version:1529629857 start_ms:1529631852262
+info: Jun-22 12:13:30.906 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-22 12:13:30.906 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/22 12:13:30.906  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295710)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2287125)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2020695
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:1098205
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:356828
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1138552
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:92942)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:470423)
+info: Jun-22 12:13:30.906 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 12:13:30.907 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 12:13:30.907 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 12:13:30.907 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 12:13:30.907 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 12:13:30.908 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 12:13:30.908 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-uh06.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_f3c60b036b095b10df4a91203466735155665a22%26agent_version%3D1529629857%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-22 12:13:30.923 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-22 12:13:30.924 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-22 12:13:30.924 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/22 12:13:30.925  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2294089)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295924)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2289961)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2402814)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2401595)
+info: Jun-22 12:13:31.855 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-22 12:13:31.856 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-22 12:13:31.859 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 604 ms
+warn: Jun-22 12:13:32.856 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Jun-22 12:13:32.857 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-22 12:13:32.857 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-22 12:13:34.855 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-22 12:13:36.855 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-22 12:13:38.856 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-22 12:13:40.856 Internet connection still offline after 10 attempts (unable to reach API)
+info: Jun-22 12:14:12.856 [INFO] Internet connection has been re-established after 11 retry attempts; offline for NaN seconds
+info: Jun-22 12:14:12.856 [API-Q] (TB9PVC95H) Unpausing queue: state is ONLINE
+info: Jun-22 12:14:12.857 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_connectivity to connect
+info: Jun-22 12:14:12.857 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 12:14:12.857 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 12:14:12.857 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 12:14:12.858 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 12:14:12.858 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 12:14:12.859 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 12:14:12.859 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+info: Jun-22 12:14:13.916 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-22 12:14:13.916 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-22 12:14:13.917 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-22 12:14:13.923 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-22 12:14:13.923 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-22 12:14:13.925 [API-Q] (TB9PVC95H) f3c60b03-1529637253.924 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-22 12:14:13.925 [API-Q] (TB9PVC95H) f3c60b03-1529637253.924 auth.currentSessions is ENQUEUED
+info: Jun-22 12:14:13.926 [API-Q] (TB9PVC95H) f3c60b03-1529637253.924 auth.currentSessions is ACTIVE
+info: Jun-22 12:14:13.943 [API-Q] (TB9PVC95H) f3c60b03-1529637253.943 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-22 12:14:13.943 [API-Q] (TB9PVC95H) f3c60b03-1529637253.943 i18n.translations.get is ENQUEUED
+info: Jun-22 12:14:13.944 [API-Q] (TB9PVC95H) f3c60b03-1529637253.943 i18n.translations.get is ACTIVE
+info: Jun-22 12:14:14.034 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-22 12:14:14.034 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-22 12:14:14.034 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-22 12:14:14.034 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-22 12:14:14.034 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-22 12:14:14.035 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-22 12:14:14.035 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-22 12:14:14.035 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-22 12:14:14.036 [API-Q] (TB9PVC95H) f3c60b03-1529637254.036 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 12:14:14.036 [API-Q] (TB9PVC95H) f3c60b03-1529637254.036 dnd.teamInfo is ENQUEUED
+info: Jun-22 12:14:14.037 [API-Q] (TB9PVC95H) f3c60b03-1529637254.036 dnd.teamInfo is ACTIVE
+info: Jun-22 12:14:14.037 [INFO] MSConnected: 
+info: Jun-22 12:14:14.044 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Jun-22 12:14:14.044 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Jun-22 12:14:14.053 [API-Q] (TB9PVC95H) f3c60b03-1529637254.052 users.counts called with reason: NO REASON PROVIDED
+info: Jun-22 12:14:14.053 [API-Q] (TB9PVC95H) f3c60b03-1529637254.052 users.counts is ENQUEUED
+info: Jun-22 12:14:14.053 [API-Q] (TB9PVC95H) f3c60b03-1529637254.052 users.counts is ACTIVE
+info: Jun-22 12:14:14.114 [API-Q] (TB9PVC95H) f3c60b03-1529637253.943 i18n.translations.get is RESOLVED
+info: Jun-22 12:14:14.616 [API-Q] (TB9PVC95H) f3c60b03-1529637253.924 auth.currentSessions is RESOLVED
+info: Jun-22 12:14:14.688 [API-Q] (TB9PVC95H) f3c60b03-1529637254.036 dnd.teamInfo is RESOLVED
+info: Jun-22 12:14:14.712 [API-Q] (TB9PVC95H) f3c60b03-1529637254.052 users.counts is RESOLVED
+info: Jun-22 12:14:14.717 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-22 12:26:24.579 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-22 12:26:24.582 [API-Q] (TB9PVC95H) f3c60b03-1529637984.582 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-22 12:26:24.583 [API-Q] (TB9PVC95H) f3c60b03-1529637984.582 rtm.shouldReload is ENQUEUED
+info: Jun-22 12:26:24.583 [API-Q] (TB9PVC95H) f3c60b03-1529637984.582 rtm.shouldReload is ACTIVE
+info: Jun-22 12:26:25.483 [API-Q] (TB9PVC95H) f3c60b03-1529637984.582 rtm.shouldReload is RESOLVED
+info: Jun-22 12:26:25.484 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/22/18, 12:42:33:934      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-22 12:42:38.764 [BOOT] booted! pri:0 version:1529629857 start_ms:1529638956924 (1840ms ago)
+info: Jun-22 12:42:38.765 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20150601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true
+info: SoundManager 2: Ready. ✓
+info: Jun-22 12:42:39.169 [SOCKET-MANAGER] (TB9PVC95H) Changing from never_connected to prov_connect
+info: Jun-22 12:42:39.170 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 12:42:39.174 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 12:42:39.175 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+warn: Jun-22 12:42:39.534 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jun-22 12:42:39.626 [FOCUS-EVENT] Window focused
+info: Jun-22 12:42:39.696 [API-Q] (TB9PVC95H) f3c60b03-1529638959.691 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:39.697 [API-Q] (TB9PVC95H) f3c60b03-1529638959.691 experiments.getByUser is ENQUEUED
+info: Jun-22 12:42:39.697 [API-Q] (TB9PVC95H) f3c60b03-1529638959.691 experiments.getByUser is ACTIVE
+info: Jun-22 12:42:39.798 [API-Q] (TB9PVC95H) f3c60b03-1529638959.798 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:39.798 [API-Q] (TB9PVC95H) f3c60b03-1529638959.798 apps.actions.list is ENQUEUED
+info: Jun-22 12:42:39.799 [API-Q] (TB9PVC95H) f3c60b03-1529638959.798 apps.actions.list is ACTIVE
+error: Jun-22 12:42:40.014 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+warn: Jun-22 12:42:40.029 updateTeamIcon was called, but missing an image to set
+info: Jun-22 12:42:40.182 [BOOT] Finalizing incremental boot
+info: Jun-22 12:42:40.185 [METRICS] Starting timers for metrics collection
+info: Jun-22 12:42:40.188 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jun-22 12:42:40.468 [API-Q] (TB9PVC95H) f3c60b03-1529638960.468 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:40.469 [API-Q] (TB9PVC95H) f3c60b03-1529638960.468 promo.banner is ENQUEUED
+info: Jun-22 12:42:40.469 [API-Q] (TB9PVC95H) f3c60b03-1529638960.468 promo.banner is ACTIVE
+info: Jun-22 12:42:40.525 [API-Q] (TB9PVC95H) f3c60b03-1529638960.525 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:40.525 [API-Q] (TB9PVC95H) f3c60b03-1529638960.525 promo.banner is ENQUEUED
+info: Jun-22 12:42:40.526 [API-Q] (TB9PVC95H) f3c60b03-1529638960.525 promo.banner is ACTIVE
+info: Jun-22 12:42:40.535 [BOOT-TIMING] (TB9PVC95H) First meaningful paint: 5747ms
+info: Jun-22 12:42:40.941 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-22 12:42:40.942 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-22 12:42:40.945 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-22 12:42:40.946 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-22 12:42:40.965 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-22 12:42:41.000 [BOOT] Completed incremental boot
+info: Jun-22 12:42:41.001 [API-Q] (TB9PVC95H) f3c60b03-1529638961.001 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:41.001 [API-Q] (TB9PVC95H) f3c60b03-1529638961.001 i18n.translations.get is ENQUEUED
+info: Jun-22 12:42:41.002 [API-Q] (TB9PVC95H) f3c60b03-1529638961.001 i18n.translations.get is ACTIVE
+info: Jun-22 12:42:41.242 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-22 12:42:41.243 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-22 12:42:41.243 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-22 12:42:41.243 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-22 12:42:41.243 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-22 12:42:41.244 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-22 12:42:41.244 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-22 12:42:41.245 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-22 12:42:41.246 [BOOT] Finished first boot 2094 ms after DOM ready
+info: Jun-22 12:42:41.254 [API-Q] (TB9PVC95H) f3c60b03-1529638961.253 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:41.255 [API-Q] (TB9PVC95H) f3c60b03-1529638961.253 help.issues.list is ENQUEUED
+info: Jun-22 12:42:41.255 [API-Q] (TB9PVC95H) f3c60b03-1529638961.253 help.issues.list is ACTIVE
+info: Jun-22 12:42:41.257 [API-Q] (TB9PVC95H) f3c60b03-1529638961.257 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:41.257 [API-Q] (TB9PVC95H) f3c60b03-1529638961.257 dnd.teamInfo is ENQUEUED
+info: Jun-22 12:42:41.258 [API-Q] (TB9PVC95H) f3c60b03-1529638961.257 dnd.teamInfo is ACTIVE
+info: Jun-22 12:42:41.260 [INFO] MSConnected: 
+info: Jun-22 12:42:41.321 [API-Q] (TB9PVC95H) f3c60b03-1529638961.321 users.counts called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:41.321 [API-Q] (TB9PVC95H) f3c60b03-1529638961.321 users.counts is ENQUEUED
+info: Jun-22 12:42:41.322 [API-Q] (TB9PVC95H) f3c60b03-1529638961.321 users.counts is ACTIVE
+info: Jun-22 12:42:41.329 [API-Q] (TB9PVC95H) f3c60b03-1529638959.691 experiments.getByUser is RESOLVED
+info: Jun-22 12:42:41.330 [API-Q] (TB9PVC95H) f3c60b03-1529638959.798 apps.actions.list is RESOLVED
+info: Jun-22 12:42:41.368 [API-Q] (TB9PVC95H) f3c60b03-1529638960.468 promo.banner is RESOLVED
+info: Jun-22 12:42:41.450 [API-Q] (TB9PVC95H) f3c60b03-1529638960.525 promo.banner is RESOLVED
+info: Jun-22 12:42:41.452 [API-Q] (TB9PVC95H) f3c60b03-1529638961.001 i18n.translations.get is RESOLVED
+info: Jun-22 12:42:41.458 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-22 12:42:41.460 [CHECK-UNREADS] Not marking CB9L67936, clearing ghost last_read
+info: Jun-22 12:42:41.531 [CHECK-UNREADS] (TB9PVC95H) unreadLineVisible updated: false -> true
+info: Jun-22 12:42:41.648 [API-Q] (TB9PVC95H) f3c60b03-1529638961.647 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 12:42:41.648 [API-Q] (TB9PVC95H) f3c60b03-1529638961.647 dnd.teamInfo is ENQUEUED
+info: Jun-22 12:42:41.648 [API-Q] (TB9PVC95H) f3c60b03-1529638961.647 dnd.teamInfo is ACTIVE
+info: Jun-22 12:42:41.906 [API-Q] (TB9PVC95H) f3c60b03-1529638961.253 help.issues.list is RESOLVED
+info: Jun-22 12:42:42.191 [API-Q] (TB9PVC95H) f3c60b03-1529638961.257 dnd.teamInfo is RESOLVED
+info: Jun-22 12:42:42.194 [API-Q] (TB9PVC95H) f3c60b03-1529638961.321 users.counts is RESOLVED
+info: Jun-22 12:42:42.197 [UNREAD-COUNTS] Skipped CB9L67936 in updateWithCountsFromApi. reachedEnd: true, timestamps: 28
+info: Jun-22 12:42:42.207 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-22 12:42:42.209 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-22 12:42:42.210 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 12:42:42.316 [API-Q] (TB9PVC95H) f3c60b03-1529638961.647 dnd.teamInfo is RESOLVED
+info: Jun-22 12:42:45.516 [FOCUS-EVENT] Window blurred
+info: Jun-22 12:42:49.497 [FOCUS-EVENT] Window focused
+info: Jun-22 12:42:49.614 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 12:42:49.614 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 12:42:51.720 [FOCUS-EVENT] Window blurred
+info: Jun-22 14:10:15.578 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-22 14:10:15.583 [API-Q] (TB9PVC95H) f3c60b03-1529644215.581 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-22 14:10:15.583 [API-Q] (TB9PVC95H) f3c60b03-1529644215.581 rtm.shouldReload is ENQUEUED
+info: Jun-22 14:10:15.584 [API-Q] (TB9PVC95H) f3c60b03-1529644215.581 rtm.shouldReload is ACTIVE
+info: Jun-22 14:10:16.289 [API-Q] (TB9PVC95H) f3c60b03-1529644215.581 rtm.shouldReload is RESOLVED
+info: Jun-22 14:10:16.290 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-22 14:55:40.667 [INFO] sleep event!
+info: Jun-22 14:55:40.667 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-22 14:55:40.668 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-22 14:55:40.673 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-22 14:55:40.673 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-22 14:55:40.674 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-22 14:55:40.675 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-22 14:55:40.676 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-22 14:55:40.676 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-22 14:55:40.679 [INFO] MSDisconnected: 
+info: Jun-22 14:55:40.681 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-22 14:55:40.741 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-22 14:55:41.578 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-22 14:55:43.577 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-22 14:55:45.577 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-22 14:55:47.577 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-22 14:55:49.577 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-22 15:01:10.854 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-22 15:01:10.894 [INFO] wake event! version:1529629857 start_ms:1529638956924
+info: Jun-22 15:01:10.896 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-22 15:01:10.899 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/22 15:01:10.964  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295710)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2287125)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2020695
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:1098205
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:356828
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1138552
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:92942)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:470423)
+info: Jun-22 15:01:10.964 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 15:01:10.965 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 15:01:10.965 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 15:01:10.966 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 15:01:10.966 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 15:01:10.966 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 15:01:10.966 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-jb4w.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_f3c60b036b095b10df4a91203466735155665a22%26agent_version%3D1529629857%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-22 15:01:11.009 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-22 15:01:11.012 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-22 15:01:11.013 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/22 15:01:11.250  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2294089)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295924)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2289961)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2402814)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2401595)
+info: Jun-22 15:01:11.897 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-22 15:01:11.899 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-22 15:01:11.903 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 925 ms
+warn: Jun-22 15:01:11.905 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Jun-22 15:01:12.895 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-22 15:01:12.895 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-22 15:01:13.895 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-22 15:01:15.896 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-22 15:01:17.896 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-22 15:01:19.896 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-22 15:01:22.896 Internet connection still offline after 11 attempts (unable to reach API)
+info: Jun-22 15:01:52.896 [INFO] Internet connection has been re-established after 12 retry attempts; offline for NaN seconds
+info: Jun-22 15:01:52.898 [API-Q] (TB9PVC95H) Unpausing queue: state is ONLINE
+info: Jun-22 15:01:52.899 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_connectivity to connect
+info: Jun-22 15:01:52.901 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 15:01:52.908 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 15:01:52.908 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 15:01:52.909 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 15:01:52.910 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 15:01:52.911 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 15:01:52.911 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+info: Jun-22 15:01:54.058 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-22 15:01:54.059 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-22 15:01:54.061 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-22 15:01:54.067 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-22 15:01:54.068 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-22 15:01:54.072 [API-Q] (TB9PVC95H) f3c60b03-1529647314.071 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-22 15:01:54.072 [API-Q] (TB9PVC95H) f3c60b03-1529647314.071 auth.currentSessions is ENQUEUED
+info: Jun-22 15:01:54.073 [API-Q] (TB9PVC95H) f3c60b03-1529647314.071 auth.currentSessions is ACTIVE
+info: Jun-22 15:01:54.093 [API-Q] (TB9PVC95H) f3c60b03-1529647314.093 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-22 15:01:54.093 [API-Q] (TB9PVC95H) f3c60b03-1529647314.093 i18n.translations.get is ENQUEUED
+info: Jun-22 15:01:54.094 [API-Q] (TB9PVC95H) f3c60b03-1529647314.093 i18n.translations.get is ACTIVE
+info: Jun-22 15:01:54.232 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-22 15:01:54.232 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-22 15:01:54.232 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-22 15:01:54.232 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-22 15:01:54.232 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-22 15:01:54.232 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-22 15:01:54.233 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-22 15:01:54.233 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-22 15:01:54.236 [API-Q] (TB9PVC95H) f3c60b03-1529647314.235 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 15:01:54.236 [API-Q] (TB9PVC95H) f3c60b03-1529647314.235 dnd.teamInfo is ENQUEUED
+info: Jun-22 15:01:54.236 [API-Q] (TB9PVC95H) f3c60b03-1529647314.235 dnd.teamInfo is ACTIVE
+info: Jun-22 15:01:54.236 [INFO] MSConnected: 
+info: Jun-22 15:01:54.245 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Jun-22 15:01:54.245 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Jun-22 15:01:54.257 [API-Q] (TB9PVC95H) f3c60b03-1529647314.257 users.counts called with reason: NO REASON PROVIDED
+info: Jun-22 15:01:54.257 [API-Q] (TB9PVC95H) f3c60b03-1529647314.257 users.counts is ENQUEUED
+info: Jun-22 15:01:54.258 [API-Q] (TB9PVC95H) f3c60b03-1529647314.257 users.counts is ACTIVE
+info: Jun-22 15:01:54.294 [API-Q] (TB9PVC95H) f3c60b03-1529647314.071 auth.currentSessions is RESOLVED
+info: Jun-22 15:01:54.704 [API-Q] (TB9PVC95H) f3c60b03-1529647314.093 i18n.translations.get is RESOLVED
+info: Jun-22 15:01:54.977 [API-Q] (TB9PVC95H) f3c60b03-1529647314.235 dnd.teamInfo is RESOLVED
+info: Jun-22 15:01:54.979 [API-Q] (TB9PVC95H) f3c60b03-1529647314.257 users.counts is RESOLVED
+info: Jun-22 15:01:54.984 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-22 15:43:06.278 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-22 15:43:06.281 [API-Q] (TB9PVC95H) f3c60b03-1529649786.279 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-22 15:43:06.281 [API-Q] (TB9PVC95H) f3c60b03-1529649786.279 rtm.shouldReload is ENQUEUED
+info: Jun-22 15:43:06.282 [API-Q] (TB9PVC95H) f3c60b03-1529649786.279 rtm.shouldReload is ACTIVE
+info: Jun-22 15:43:07.071 [API-Q] (TB9PVC95H) f3c60b03-1529649786.279 rtm.shouldReload is RESOLVED
+info: Jun-22 15:43:07.071 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-22 16:23:52.544 [INFO] sleep event!
+info: Jun-22 16:23:52.544 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-22 16:23:52.545 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-22 16:23:52.545 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-22 16:23:52.545 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-22 16:23:52.546 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-22 16:23:52.546 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-22 16:23:52.546 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-22 16:23:52.546 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-22 16:23:52.547 [INFO] MSDisconnected: 
+info: Jun-22 16:23:52.558 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-22 16:23:52.590 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-22 16:23:53.277 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-22 16:23:55.277 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-22 16:23:57.277 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-22 16:23:59.277 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-22 16:24:01.277 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-22 19:50:36.853 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-22 19:50:36.906 [INFO] wake event! version:1529629857 start_ms:1529638956924
+info: Jun-22 19:50:36.907 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-22 19:50:36.907 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/22 19:50:36.907  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295710)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2287125)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2020695
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:1098205
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931
+at https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:356828
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1138552
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:1034931)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:92942)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.acbe796181717c449ce9.min.js:1:470423)
+info: Jun-22 19:50:36.909 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 19:50:36.909 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 19:50:36.909 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 19:50:36.911 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 19:50:36.911 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 19:50:36.911 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 19:50:36.912 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-sld6.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_f3c60b036b095b10df4a91203466735155665a22%26agent_version%3D1529629857%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-22 19:50:36.925 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-22 19:50:36.927 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-22 19:50:36.927 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/22 19:50:36.928  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.728261844c91e04e8982.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2294089)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2295924)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2017264)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2296298)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2289961)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.a93e95eb7127e14bf23a.min.js:1:2774499)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2402814)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.b0f3b0f59d6562b57d13.min.js:1:2401595)
+info: Jun-22 19:50:37.201 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-22 19:50:37.201 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-22 19:50:37.202 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 581 ms
+info: Jun-22 19:50:38.199 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-22 19:50:38.200 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-22 19:50:38.201 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Jun-22 19:50:40.199 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-22 19:50:41.200 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-22 19:50:43.199 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-22 19:50:45.199 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-22 19:50:47.199 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Jun-22 19:50:49.199 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Jun-22 19:50:51.200 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Jun-22 19:50:53.199 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Jun-22 19:50:55.199 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Jun-22 19:50:57.199 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Jun-22 19:50:59.199 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Jun-22 19:51:01.199 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Jun-22 19:51:03.199 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Jun-22 19:51:05.199 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Jun-22 19:51:08.199 Internet connection still offline after 21 attempts (unable to reach API)
+info: Jun-22 19:51:38.199 [INFO] Internet connection has been re-established after 22 retry attempts; offline for NaN seconds
+info: Jun-22 19:51:38.201 [API-Q] (TB9PVC95H) Unpausing queue: state is ONLINE
+info: Jun-22 19:51:38.202 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_connectivity to connect
+info: Jun-22 19:51:38.202 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-22 19:51:38.203 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-22 19:51:38.204 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-22 19:51:38.205 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-22 19:51:38.205 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-22 19:51:38.206 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-22 19:51:38.207 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+info: Jun-22 19:51:39.411 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-22 19:51:39.412 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-22 19:51:39.414 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-22 19:51:39.444 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-22 19:51:39.444 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-22 19:51:39.448 [API-Q] (TB9PVC95H) f3c60b03-1529664699.447 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-22 19:51:39.448 [API-Q] (TB9PVC95H) f3c60b03-1529664699.447 auth.currentSessions is ENQUEUED
+info: Jun-22 19:51:39.448 [API-Q] (TB9PVC95H) f3c60b03-1529664699.447 auth.currentSessions is ACTIVE
+info: Jun-22 19:51:39.461 [API-Q] (TB9PVC95H) f3c60b03-1529664699.461 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-22 19:51:39.461 [API-Q] (TB9PVC95H) f3c60b03-1529664699.461 i18n.translations.get is ENQUEUED
+info: Jun-22 19:51:39.461 [API-Q] (TB9PVC95H) f3c60b03-1529664699.461 i18n.translations.get is ACTIVE
+info: Jun-22 19:51:39.554 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-22 19:51:39.555 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-22 19:51:39.555 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-22 19:51:39.555 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-22 19:51:39.555 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-22 19:51:39.555 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-22 19:51:39.556 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-22 19:51:39.556 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-22 19:51:39.557 [API-Q] (TB9PVC95H) f3c60b03-1529664699.557 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-22 19:51:39.557 [API-Q] (TB9PVC95H) f3c60b03-1529664699.557 dnd.teamInfo is ENQUEUED
+info: Jun-22 19:51:39.558 [API-Q] (TB9PVC95H) f3c60b03-1529664699.557 dnd.teamInfo is ACTIVE
+info: Jun-22 19:51:39.558 [INFO] MSConnected: 
+info: Jun-22 19:51:39.565 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Jun-22 19:51:39.565 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Jun-22 19:51:39.576 [API-Q] (TB9PVC95H) f3c60b03-1529664699.576 users.counts called with reason: NO REASON PROVIDED
+info: Jun-22 19:51:39.576 [API-Q] (TB9PVC95H) f3c60b03-1529664699.576 users.counts is ENQUEUED
+info: Jun-22 19:51:39.577 [API-Q] (TB9PVC95H) f3c60b03-1529664699.576 users.counts is ACTIVE
+info: Jun-22 19:51:39.692 [API-Q] (TB9PVC95H) f3c60b03-1529664699.447 auth.currentSessions is RESOLVED
+info: Jun-22 19:51:40.207 [API-Q] (TB9PVC95H) f3c60b03-1529664699.461 i18n.translations.get is RESOLVED
+info: Jun-22 19:51:40.265 [API-Q] (TB9PVC95H) f3c60b03-1529664699.557 dnd.teamInfo is RESOLVED
+info: Jun-22 19:51:40.274 [API-Q] (TB9PVC95H) f3c60b03-1529664699.576 users.counts is RESOLVED
+info: Jun-22 19:51:40.298 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-22 20:37:12.200 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-22 20:37:12.204 [API-Q] (TB9PVC95H) f3c60b03-1529667432.202 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-22 20:37:12.204 [API-Q] (TB9PVC95H) f3c60b03-1529667432.202 rtm.shouldReload is ENQUEUED
+info: Jun-22 20:37:12.205 [API-Q] (TB9PVC95H) f3c60b03-1529667432.202 rtm.shouldReload is ACTIVE
+info: Jun-22 20:37:13.242 [API-Q] (TB9PVC95H) f3c60b03-1529667432.202 rtm.shouldReload is RESOLVED
+info: Jun-22 20:37:13.242 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-22 21:03:03.716 [FOCUS-EVENT] Window focused
+info: Jun-22 21:03:03.769 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.770 [HISTORY-FETCH] Fetching history for message pane: CB9L67936
+info: Jun-22 21:03:03.773 [API-Q] (TB9PVC95H) f3c60b03-1529668983.772 conversations.history called with reason: message-pane/requestHistory
+info: Jun-22 21:03:03.773 [API-Q] (TB9PVC95H) f3c60b03-1529668983.772 conversations.history is ENQUEUED
+info: Jun-22 21:03:03.773 [API-Q] (TB9PVC95H) f3c60b03-1529668983.772 conversations.history is ACTIVE
+info: Jun-22 21:03:03.811 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.812 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.817 [CHECK-UNREADS] (TB9PVC95H) unreadLineVisible updated: true -> false
+info: Jun-22 21:03:03.867 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 21:03:03.868 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 21:03:03.889 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.891 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.891 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.962 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:03.962 [MESSAGE-LIST] (TB9PVC95H) requestAround channelId: CB9L67936 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jun-22 21:03:04.067 [FOCUS-EVENT] Window blurred
+info: Jun-22 21:03:04.733 [API-Q] (TB9PVC95H) f3c60b03-1529668983.772 conversations.history is RESOLVED
+info: Jun-22 21:03:05.129 [FOCUS-EVENT] Window focused
+info: Jun-22 21:03:05.312 [CHECK-UNREADS] (TB9PVC95H) unreadLineVisible updated: false -> true
+info: Jun-22 21:03:05.341 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jun-22 21:03:05.341 [CHECK-UNREADS] Not marking CB9L67936 because last_read >= latest && channel is read
+info: Jun-22 21:03:05.392 [FOCUS-EVENT] Window blurred
+info: Jun-22 21:03:06.200 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jun-22 21:03:06.202 [CHECK-UNREADS] Not marking CB9L67936 because attention not on chat (window_not_focused)
+info: Jun-22 22:04:46.204 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-22 22:04:46.209 [API-Q] (TB9PVC95H) f3c60b03-1529672686.208 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-22 22:04:46.210 [API-Q] (TB9PVC95H) f3c60b03-1529672686.208 rtm.shouldReload is ENQUEUED
+info: Jun-22 22:04:46.214 [API-Q] (TB9PVC95H) f3c60b03-1529672686.208 rtm.shouldReload is ACTIVE
+info: Jun-22 22:04:47.155 [API-Q] (TB9PVC95H) f3c60b03-1529672686.208 rtm.shouldReload is RESOLVED
+info: Jun-22 22:04:47.160 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-22 23:32:20.206 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-22 23:32:20.251 [API-Q] (TB9PVC95H) f3c60b03-1529677940.236 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-22 23:32:20.252 [API-Q] (TB9PVC95H) f3c60b03-1529677940.236 rtm.shouldReload is ENQUEUED
+info: Jun-22 23:32:20.275 [API-Q] (TB9PVC95H) f3c60b03-1529677940.236 rtm.shouldReload is ACTIVE
+info: Jun-22 23:32:21.239 [API-Q] (TB9PVC95H) f3c60b03-1529677940.236 rtm.shouldReload is RESOLVED
+info: Jun-22 23:32:21.241 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-23 00:59:54.201 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-23 00:59:54.208 [API-Q] (TB9PVC95H) f3c60b03-1529683194.206 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-23 00:59:54.208 [API-Q] (TB9PVC95H) f3c60b03-1529683194.206 rtm.shouldReload is ENQUEUED
+info: Jun-23 00:59:54.213 [API-Q] (TB9PVC95H) f3c60b03-1529683194.206 rtm.shouldReload is ACTIVE
+info: Jun-23 00:59:55.217 [API-Q] (TB9PVC95H) f3c60b03-1529683194.206 rtm.shouldReload is RESOLVED
+info: Jun-23 00:59:55.217 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-23 02:27:28.200 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-23 02:27:28.204 [API-Q] (TB9PVC95H) f3c60b03-1529688448.202 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-23 02:27:28.205 [API-Q] (TB9PVC95H) f3c60b03-1529688448.202 rtm.shouldReload is ENQUEUED
+info: Jun-23 02:27:28.208 [API-Q] (TB9PVC95H) f3c60b03-1529688448.202 rtm.shouldReload is ACTIVE
+info: Jun-23 02:27:29.212 [API-Q] (TB9PVC95H) f3c60b03-1529688448.202 rtm.shouldReload is RESOLVED
+info: Jun-23 02:27:29.213 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/23/18, 13:06:01:962      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-23 13:06:06.803 [BOOT] booted! pri:0 version:1529717185 start_ms:1529726764965 (1838ms ago)
+info: Jun-23 13:06:06.804 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Jun-23 13:06:08.031 [SOCKET-MANAGER] (TB9PVC95H) Changing from never_connected to prov_connect
+info: Jun-23 13:06:08.032 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-23 13:06:08.034 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-23 13:06:08.034 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+warn: Jun-23 13:06:08.049 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jun-23 13:06:08.143 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.142 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:08.143 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.142 experiments.getByUser is ENQUEUED
+info: Jun-23 13:06:08.144 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.142 experiments.getByUser is ACTIVE
+info: Jun-23 13:06:08.219 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.219 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:08.219 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.219 apps.actions.list is ENQUEUED
+info: Jun-23 13:06:08.220 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.219 apps.actions.list is ACTIVE
+error: Jun-23 13:06:08.360 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+warn: Jun-23 13:06:08.369 updateTeamIcon was called, but missing an image to set
+info: Jun-23 13:06:08.486 [BOOT] Finalizing incremental boot
+info: Jun-23 13:06:08.489 [METRICS] Starting timers for metrics collection
+info: Jun-23 13:06:08.492 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jun-23 13:06:08.644 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.643 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:08.644 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.643 promo.banner is ENQUEUED
+info: Jun-23 13:06:08.644 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.643 promo.banner is ACTIVE
+info: Jun-23 13:06:08.685 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.219 apps.actions.list is RESOLVED
+info: Jun-23 13:06:08.903 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.142 experiments.getByUser is RESOLVED
+info: Jun-23 13:06:09.092 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-23 13:06:09.092 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-23 13:06:09.094 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-23 13:06:09.100 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-23 13:06:09.110 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-23 13:06:09.145 [BOOT] Completed incremental boot
+info: Jun-23 13:06:09.146 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.145 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:09.146 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.145 i18n.translations.get is ENQUEUED
+info: Jun-23 13:06:09.146 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.145 i18n.translations.get is ACTIVE
+info: Jun-23 13:06:09.296 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-23 13:06:09.296 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-23 13:06:09.296 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-23 13:06:09.297 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-23 13:06:09.297 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-23 13:06:09.298 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-23 13:06:09.298 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-23 13:06:09.299 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-23 13:06:09.300 [BOOT] Finished first boot 1286 ms after DOM ready
+info: Jun-23 13:06:09.307 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.306 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:09.307 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.306 help.issues.list is ENQUEUED
+info: Jun-23 13:06:09.307 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.306 help.issues.list is ACTIVE
+info: Jun-23 13:06:09.309 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.309 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:09.309 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.309 dnd.teamInfo is ENQUEUED
+info: Jun-23 13:06:09.310 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.309 dnd.teamInfo is ACTIVE
+info: Jun-23 13:06:09.313 [INFO] MSConnected: 
+info: Jun-23 13:06:09.433 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.432 users.counts called with reason: NO REASON PROVIDED
+info: Jun-23 13:06:09.433 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.432 users.counts is ENQUEUED
+info: Jun-23 13:06:09.433 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.432 users.counts is ACTIVE
+info: Jun-23 13:06:09.458 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.145 i18n.translations.get is RESOLVED
+info: Jun-23 13:06:09.459 [API-Q] (TB9PVC95H) e00cdcc8-1529726768.643 promo.banner is RESOLVED
+info: Jun-23 13:06:09.577 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.309 dnd.teamInfo is RESOLVED
+info: Jun-23 13:06:10.017 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-23 13:06:10.019 [CHECK-UNREADS] Not marking CB9L67936 because attention not on chat (window_not_focused)
+info: Jun-23 13:06:10.044 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.306 help.issues.list is RESOLVED
+info: Jun-23 13:06:10.214 [API-Q] (TB9PVC95H) e00cdcc8-1529726769.432 users.counts is RESOLVED
+info: Jun-23 13:06:10.220 [UNREAD-COUNTS] Skipped CB9L67936 in updateWithCountsFromApi. reachedEnd: true, timestamps: 28
+info: Jun-23 13:06:10.234 [UNREAD-COUNTS] Completed users.counts processing
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/23/18, 16:02:02:610      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+error: Desktop module calls failed to load
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Jun-23 16:02:06.594 [BOOT] booted! pri:0 version:1529728607 start_ms:1529737325126 (1467ms ago)
+info: Jun-23 16:02:06.594 [BOOT] Starting incremental boot (early)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Jun-23 16:02:07.045 [SOCKET-MANAGER] (TB9PVC95H) Changing from never_connected to prov_connect
+info: Jun-23 16:02:07.046 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-23 16:02:07.046 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-23 16:02:07.047 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+warn: Jun-23 16:02:07.376 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Jun-23 16:02:07.477 [API-Q] (TB9PVC95H) 0801dc75-1529737327.475 experiments.getByUser called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:07.477 [API-Q] (TB9PVC95H) 0801dc75-1529737327.475 experiments.getByUser is ENQUEUED
+info: Jun-23 16:02:07.478 [API-Q] (TB9PVC95H) 0801dc75-1529737327.475 experiments.getByUser is ACTIVE
+info: Jun-23 16:02:07.548 [API-Q] (TB9PVC95H) 0801dc75-1529737327.547 apps.actions.list called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:07.548 [API-Q] (TB9PVC95H) 0801dc75-1529737327.547 apps.actions.list is ENQUEUED
+info: Jun-23 16:02:07.548 [API-Q] (TB9PVC95H) 0801dc75-1529737327.547 apps.actions.list is ACTIVE
+error: Jun-23 16:02:07.703 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+warn: Jun-23 16:02:07.711 updateTeamIcon was called, but missing an image to set
+info: Jun-23 16:02:07.808 [BOOT] Finalizing incremental boot
+info: Jun-23 16:02:07.811 [METRICS] Starting timers for metrics collection
+info: Jun-23 16:02:07.814 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jun-23 16:02:07.923 [API-Q] (TB9PVC95H) 0801dc75-1529737327.922 promo.banner called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:07.923 [API-Q] (TB9PVC95H) 0801dc75-1529737327.922 promo.banner is ENQUEUED
+info: Jun-23 16:02:07.923 [API-Q] (TB9PVC95H) 0801dc75-1529737327.922 promo.banner is ACTIVE
+info: Jun-23 16:02:08.003 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-23 16:02:08.004 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-23 16:02:08.005 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jun-23 16:02:08.006 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jun-23 16:02:08.019 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-23 16:02:08.036 [BOOT] Completed incremental boot
+info: Jun-23 16:02:08.037 [API-Q] (TB9PVC95H) 0801dc75-1529737328.037 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:08.037 [API-Q] (TB9PVC95H) 0801dc75-1529737328.037 i18n.translations.get is ENQUEUED
+info: Jun-23 16:02:08.037 [API-Q] (TB9PVC95H) 0801dc75-1529737328.037 i18n.translations.get is ACTIVE
+info: Jun-23 16:02:08.205 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-23 16:02:08.205 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-23 16:02:08.205 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-23 16:02:08.205 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-23 16:02:08.206 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-23 16:02:08.206 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-23 16:02:08.207 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-23 16:02:08.207 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-23 16:02:08.208 [BOOT] Finished first boot 1170 ms after DOM ready
+info: Jun-23 16:02:08.213 [API-Q] (TB9PVC95H) 0801dc75-1529737328.212 help.issues.list called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:08.213 [API-Q] (TB9PVC95H) 0801dc75-1529737328.212 help.issues.list is ENQUEUED
+info: Jun-23 16:02:08.214 [API-Q] (TB9PVC95H) 0801dc75-1529737328.212 help.issues.list is ACTIVE
+info: Jun-23 16:02:08.217 [API-Q] (TB9PVC95H) 0801dc75-1529737328.216 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:08.217 [API-Q] (TB9PVC95H) 0801dc75-1529737328.216 dnd.teamInfo is ENQUEUED
+info: Jun-23 16:02:08.218 [API-Q] (TB9PVC95H) 0801dc75-1529737328.216 dnd.teamInfo is ACTIVE
+info: Jun-23 16:02:08.220 [INFO] MSConnected: 
+info: Jun-23 16:02:08.333 [API-Q] (TB9PVC95H) 0801dc75-1529737328.333 users.counts called with reason: NO REASON PROVIDED
+info: Jun-23 16:02:08.334 [API-Q] (TB9PVC95H) 0801dc75-1529737328.333 users.counts is ENQUEUED
+info: Jun-23 16:02:08.334 [API-Q] (TB9PVC95H) 0801dc75-1529737328.333 users.counts is ACTIVE
+info: Jun-23 16:02:08.359 [API-Q] (TB9PVC95H) 0801dc75-1529737327.475 experiments.getByUser is RESOLVED
+info: Jun-23 16:02:08.363 [API-Q] (TB9PVC95H) 0801dc75-1529737327.547 apps.actions.list is RESOLVED
+info: Jun-23 16:02:08.365 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jun-23 16:02:08.366 [CHECK-UNREADS] Not marking CB9L67936 because attention not on chat (window_not_focused)
+info: Jun-23 16:02:08.640 [API-Q] (TB9PVC95H) 0801dc75-1529737328.333 users.counts is RESOLVED
+info: Jun-23 16:02:08.647 [UNREAD-COUNTS] Skipped CB9L67936 in updateWithCountsFromApi. reachedEnd: true, timestamps: 28
+info: Jun-23 16:02:08.671 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-23 16:02:08.706 [API-Q] (TB9PVC95H) 0801dc75-1529737327.922 promo.banner is RESOLVED
+info: Jun-23 16:02:08.775 [API-Q] (TB9PVC95H) 0801dc75-1529737328.037 i18n.translations.get is RESOLVED
+info: Jun-23 16:02:08.929 [API-Q] (TB9PVC95H) 0801dc75-1529737328.212 help.issues.list is RESOLVED
+info: Jun-23 16:02:08.976 [API-Q] (TB9PVC95H) 0801dc75-1529737328.216 dnd.teamInfo is RESOLVED
+info: Jun-23 16:02:09.093 [FOCUS-EVENT] Window focused
+info: Jun-23 16:02:09.096 [FOCUS-EVENT] Window blurred
+info: Jun-23 16:42:03.120 [INFO] sleep event!
+info: Jun-23 16:42:03.122 [SOCKET-MANAGER] (TB9PVC95H) Sleeping
+info: Jun-23 16:42:03.123 [SOCKET-MANAGER] (TB9PVC95H) Changing from connected to sleep
+info: Jun-23 16:42:03.129 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleep state for up to 10000 ms
+info: Jun-23 16:42:03.166 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleep to sleeping
+info: Jun-23 16:42:03.166 [SOCKET-MANAGER] (TB9PVC95H) will stay in sleeping state for up to 10000 ms
+error: Jun-23 16:42:03.214 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
+info: Jun-23 16:42:03.229 [SOCKET-MANAGER] (TB9PVC95H) Changing from sleeping to asleep
+info: Jun-23 16:42:03.229 [SOCKET-MANAGER] (TB9PVC95H) will stay in asleep state for up to Infinity ms
+info: Jun-23 16:42:03.237 [INFO] MSDisconnected: 
+info: Jun-23 16:42:03.244 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jun-23 16:42:03.257 [SOCKET-MANAGER] (TB9PVC95H) got offline event; moving to DISCONNECT as needed
+info: Jun-23 16:42:04.039 [API-Q] (TB9PVC95H) Pausing queue: state is CLIENT_OFFLINE
+warn: Jun-23 16:42:06.041 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jun-23 16:42:08.038 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jun-23 16:42:10.038 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jun-23 16:42:12.038 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jun-23 20:49:58.856 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Jun-23 20:49:58.904 [INFO] wake event! version:1529728607 start_ms:1529737325126
+info: Jun-23 20:49:58.904 [SOCKET-MANAGER] (TB9PVC95H) Waking
+info: Jun-23 20:49:58.905 [SOCKET-MANAGER] (TB9PVC95H) Changing from asleep to connect
+info: 2018/6/23 20:49:58.909  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.da068e45667c12f469e1.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2307169)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2026141)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2307757)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2298584)
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2029572
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:1035404
+at https://a.slack-edge.com/bv1-4/application.ce9e19398f6ec139e719.min.js:1:1098818
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:1035404
+at https://a.slack-edge.com/bv1-4/application.ce9e19398f6ec139e719.min.js:1:357573
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:1140940
+at Object.dispatch (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:1035404)
+at Object.n [as dispatch] (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.da068e45667c12f469e1.min.js:1:92879)
+at Object.wake (https://a.slack-edge.com/bv1-4/application.ce9e19398f6ec139e719.min.js:1:471168)
+info: Jun-23 20:49:58.910 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-23 20:49:58.910 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-23 20:49:58.911 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-23 20:49:58.911 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-23 20:49:58.912 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-23 20:49:58.913 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-23 20:49:58.913 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-hilv.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_0801dc75326af63f401b0373d2ec689a323d2c21%26agent_version%3D1529728607%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Jun-23 20:49:58.927 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+info: Jun-23 20:49:58.929 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to error
+info: Jun-23 20:49:58.929 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/23 20:49:58.929  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.da068e45667c12f469e1.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2305548)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2307383)
+at s (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2026141)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2307757)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2301420)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2775204)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2414425)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2413206)
+info: Jun-23 20:49:59.351 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-23 20:49:59.352 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-23 20:49:59.353 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 520 ms
+warn: Jun-23 20:50:00.351 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Jun-23 20:50:00.352 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Jun-23 20:50:00.353 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Jun-23 20:50:02.352 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Jun-23 20:50:04.351 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Jun-23 20:50:06.351 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Jun-23 20:50:08.351 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Jun-23 20:50:10.351 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Jun-23 20:50:12.351 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Jun-23 20:50:14.351 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Jun-23 20:50:16.351 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Jun-23 20:50:18.351 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Jun-23 20:50:20.351 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Jun-23 20:50:22.351 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Jun-23 20:50:24.351 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Jun-23 20:50:26.352 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Jun-23 20:50:28.351 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Jun-23 20:50:30.351 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Jun-23 20:50:32.352 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Jun-23 20:50:34.351 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Jun-23 20:50:36.352 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Jun-23 20:50:38.351 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Jun-23 20:50:40.351 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Jun-23 20:50:42.351 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Jun-23 20:50:44.351 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Jun-23 20:50:46.351 Internet connection still offline after 29 attempts (browser says it is still offline)
+warn: Jun-23 20:50:48.351 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Jun-23 20:50:50.351 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Jun-23 20:50:52.351 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Jun-23 20:50:54.351 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Jun-23 20:50:56.351 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Jun-23 20:50:58.352 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Jun-23 20:51:00.351 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Jun-23 20:51:02.351 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Jun-23 20:51:04.351 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Jun-23 20:51:06.351 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Jun-23 20:51:08.351 Internet connection still offline after 40 attempts (browser says it is still offline)
+warn: Jun-23 20:51:10.351 Internet connection still offline after 41 attempts (browser says it is still offline)
+warn: Jun-23 20:51:12.351 Internet connection still offline after 42 attempts (browser says it is still offline)
+warn: Jun-23 20:51:14.351 Internet connection still offline after 43 attempts (browser says it is still offline)
+warn: Jun-23 20:51:16.351 Internet connection still offline after 44 attempts (browser says it is still offline)
+warn: Jun-23 20:51:18.351 Internet connection still offline after 45 attempts (browser says it is still offline)
+warn: Jun-23 20:51:20.352 Internet connection still offline after 46 attempts (browser says it is still offline)
+warn: Jun-23 20:51:22.351 Internet connection still offline after 47 attempts (browser says it is still offline)
+warn: Jun-23 20:51:24.351 Internet connection still offline after 48 attempts (browser says it is still offline)
+warn: Jun-23 20:51:26.351 Internet connection still offline after 49 attempts (browser says it is still offline)
+warn: Jun-23 20:51:28.351 Internet connection still offline after 50 attempts (browser says it is still offline)
+warn: Jun-23 20:51:30.351 Internet connection still offline after 51 attempts (browser says it is still offline)
+warn: Jun-23 20:51:32.351 Internet connection still offline after 52 attempts (browser says it is still offline)
+warn: Jun-23 20:51:34.351 Internet connection still offline after 53 attempts (browser says it is still offline)
+warn: Jun-23 20:51:36.351 Internet connection still offline after 54 attempts (browser says it is still offline)
+warn: Jun-23 20:51:38.351 Internet connection still offline after 55 attempts (browser says it is still offline)
+warn: Jun-23 20:51:40.351 Internet connection still offline after 56 attempts (browser says it is still offline)
+warn: Jun-23 20:51:42.351 Internet connection still offline after 57 attempts (browser says it is still offline)
+warn: Jun-23 20:51:44.351 Internet connection still offline after 58 attempts (browser says it is still offline)
+warn: Jun-23 20:51:46.351 Internet connection still offline after 59 attempts (browser says it is still offline)
+warn: Jun-23 20:51:48.351 Internet connection still offline after 60 attempts (browser says it is still offline)
+warn: Jun-23 20:51:50.351 Internet connection still offline after 61 attempts (browser says it is still offline)
+warn: Jun-23 20:51:52.351 Internet connection still offline after 62 attempts (browser says it is still offline)
+warn: Jun-23 20:51:54.351 Internet connection still offline after 63 attempts (browser says it is still offline)
+warn: Jun-23 20:51:56.351 Internet connection still offline after 64 attempts (browser says it is still offline)
+warn: Jun-23 20:51:58.351 Internet connection still offline after 65 attempts (browser says it is still offline)
+warn: Jun-23 20:52:00.351 Internet connection still offline after 66 attempts (browser says it is still offline)
+warn: Jun-23 20:52:02.351 Internet connection still offline after 67 attempts (browser says it is still offline)
+warn: Jun-23 20:52:04.351 Internet connection still offline after 68 attempts (browser says it is still offline)
+warn: Jun-23 20:52:06.351 Internet connection still offline after 69 attempts (browser says it is still offline)
+warn: Jun-23 20:52:08.351 Internet connection still offline after 70 attempts (browser says it is still offline)
+warn: Jun-23 20:52:10.352 Internet connection still offline after 71 attempts (browser says it is still offline)
+warn: Jun-23 20:52:12.351 Internet connection still offline after 72 attempts (browser says it is still offline)
+warn: Jun-23 20:52:14.351 Internet connection still offline after 73 attempts (browser says it is still offline)
+warn: Jun-23 20:52:16.351 Internet connection still offline after 74 attempts (browser says it is still offline)
+warn: Jun-23 20:52:18.351 Internet connection still offline after 75 attempts (browser says it is still offline)
+warn: Jun-23 20:52:20.351 Internet connection still offline after 76 attempts (browser says it is still offline)
+warn: Jun-23 20:52:22.351 Internet connection still offline after 77 attempts (browser says it is still offline)
+warn: Jun-23 20:52:24.351 Internet connection still offline after 78 attempts (browser says it is still offline)
+warn: Jun-23 20:52:26.351 Internet connection still offline after 79 attempts (browser says it is still offline)
+warn: Jun-23 20:52:28.351 Internet connection still offline after 80 attempts (browser says it is still offline)
+warn: Jun-23 20:52:30.351 Internet connection still offline after 81 attempts (browser says it is still offline)
+warn: Jun-23 20:52:32.351 Internet connection still offline after 82 attempts (browser says it is still offline)
+warn: Jun-23 20:52:34.351 Internet connection still offline after 83 attempts (browser says it is still offline)
+warn: Jun-23 20:52:36.351 Internet connection still offline after 84 attempts (browser says it is still offline)
+warn: Jun-23 20:52:38.351 Internet connection still offline after 85 attempts (browser says it is still offline)
+warn: Jun-23 20:52:40.351 Internet connection still offline after 86 attempts (browser says it is still offline)
+warn: Jun-23 20:52:42.351 Internet connection still offline after 87 attempts (browser says it is still offline)
+warn: Jun-23 20:52:44.351 Internet connection still offline after 88 attempts (browser says it is still offline)
+warn: Jun-23 20:52:46.351 Internet connection still offline after 89 attempts (browser says it is still offline)
+warn: Jun-23 20:52:48.351 Internet connection still offline after 90 attempts (browser says it is still offline)
+warn: Jun-23 20:52:50.351 Internet connection still offline after 91 attempts (browser says it is still offline)
+warn: Jun-23 20:52:52.351 Internet connection still offline after 92 attempts (browser says it is still offline)
+warn: Jun-23 20:52:54.351 Internet connection still offline after 93 attempts (browser says it is still offline)
+warn: Jun-23 20:52:56.351 Internet connection still offline after 94 attempts (browser says it is still offline)
+warn: Jun-23 20:52:58.351 Internet connection still offline after 95 attempts (browser says it is still offline)
+warn: Jun-23 20:53:00.351 Internet connection still offline after 96 attempts (browser says it is still offline)
+warn: Jun-23 20:53:02.351 Internet connection still offline after 97 attempts (browser says it is still offline)
+warn: Jun-23 20:53:04.351 Internet connection still offline after 98 attempts (browser says it is still offline)
+warn: Jun-23 20:53:07.352 Internet connection still offline after 99 attempts (unable to reach API)
+warn: Jun-23 20:53:09.351 Internet connection still offline after 100 attempts (browser says it is still offline)
+warn: Jun-23 20:53:11.351 Internet connection still offline after 101 attempts (browser says it is still offline)
+warn: Jun-23 20:53:13.351 Internet connection still offline after 102 attempts (browser says it is still offline)
+warn: Jun-23 20:53:15.351 Internet connection still offline after 103 attempts (browser says it is still offline)
+warn: Jun-23 20:53:17.351 Internet connection still offline after 104 attempts (browser says it is still offline)
+warn: Jun-23 20:53:19.351 Internet connection still offline after 105 attempts (browser says it is still offline)
+warn: Jun-23 20:53:21.351 Internet connection still offline after 106 attempts (browser says it is still offline)
+warn: Jun-23 20:53:23.351 Internet connection still offline after 107 attempts (browser says it is still offline)
+warn: Jun-23 20:53:25.351 Internet connection still offline after 108 attempts (browser says it is still offline)
+warn: Jun-23 20:53:27.351 Internet connection still offline after 109 attempts (browser says it is still offline)
+warn: Jun-23 20:53:29.352 Internet connection still offline after 110 attempts (browser says it is still offline)
+warn: Jun-23 20:53:31.351 Internet connection still offline after 111 attempts (browser says it is still offline)
+warn: Jun-23 20:53:33.351 Internet connection still offline after 112 attempts (browser says it is still offline)
+warn: Jun-23 20:53:35.351 Internet connection still offline after 113 attempts (browser says it is still offline)
+warn: Jun-23 20:53:37.351 Internet connection still offline after 114 attempts (browser says it is still offline)
+warn: Jun-23 20:53:39.351 Internet connection still offline after 115 attempts (browser says it is still offline)
+warn: Jun-23 20:53:41.352 Internet connection still offline after 116 attempts (browser says it is still offline)
+warn: Jun-23 20:53:43.351 Internet connection still offline after 117 attempts (browser says it is still offline)
+warn: Jun-23 20:53:45.351 Internet connection still offline after 118 attempts (browser says it is still offline)
+warn: Jun-23 20:53:47.351 Internet connection still offline after 119 attempts (browser says it is still offline)
+warn: Jun-23 20:53:49.351 Internet connection still offline after 120 attempts (browser says it is still offline)
+warn: Jun-23 20:53:51.351 Internet connection still offline after 121 attempts (browser says it is still offline)
+warn: Jun-23 20:53:53.351 Internet connection still offline after 122 attempts (browser says it is still offline)
+warn: Jun-23 20:53:55.351 Internet connection still offline after 123 attempts (browser says it is still offline)
+warn: Jun-23 20:53:57.351 Internet connection still offline after 124 attempts (browser says it is still offline)
+warn: Jun-23 20:53:59.351 Internet connection still offline after 125 attempts (browser says it is still offline)
+warn: Jun-23 20:54:01.351 Internet connection still offline after 126 attempts (browser says it is still offline)
+warn: Jun-23 20:54:03.351 Internet connection still offline after 127 attempts (browser says it is still offline)
+warn: Jun-23 20:54:05.351 Internet connection still offline after 128 attempts (browser says it is still offline)
+warn: Jun-23 20:54:07.351 Internet connection still offline after 129 attempts (browser says it is still offline)
+warn: Jun-23 20:54:09.351 Internet connection still offline after 130 attempts (browser says it is still offline)
+warn: Jun-23 20:54:11.351 Internet connection still offline after 131 attempts (browser says it is still offline)
+warn: Jun-23 20:54:13.352 Internet connection still offline after 132 attempts (browser says it is still offline)
+warn: Jun-23 20:54:15.351 Internet connection still offline after 133 attempts (browser says it is still offline)
+warn: Jun-23 20:54:17.351 Internet connection still offline after 134 attempts (browser says it is still offline)
+warn: Jun-23 20:54:19.351 Internet connection still offline after 135 attempts (browser says it is still offline)
+warn: Jun-23 20:54:21.351 Internet connection still offline after 136 attempts (browser says it is still offline)
+warn: Jun-23 20:54:23.351 Internet connection still offline after 137 attempts (browser says it is still offline)
+warn: Jun-23 20:54:25.351 Internet connection still offline after 138 attempts (browser says it is still offline)
+warn: Jun-23 20:54:27.351 Internet connection still offline after 139 attempts (browser says it is still offline)
+warn: Jun-23 20:54:29.351 Internet connection still offline after 140 attempts (browser says it is still offline)
+warn: Jun-23 20:54:31.351 Internet connection still offline after 141 attempts (browser says it is still offline)
+warn: Jun-23 20:54:33.351 Internet connection still offline after 142 attempts (browser says it is still offline)
+warn: Jun-23 20:54:35.351 Internet connection still offline after 143 attempts (browser says it is still offline)
+warn: Jun-23 20:54:37.351 Internet connection still offline after 144 attempts (browser says it is still offline)
+warn: Jun-23 20:54:39.351 Internet connection still offline after 145 attempts (browser says it is still offline)
+warn: Jun-23 20:54:41.351 Internet connection still offline after 146 attempts (browser says it is still offline)
+warn: Jun-23 20:54:43.351 Internet connection still offline after 147 attempts (browser says it is still offline)
+warn: Jun-23 20:54:45.351 Internet connection still offline after 148 attempts (browser says it is still offline)
+warn: Jun-23 20:54:47.351 Internet connection still offline after 149 attempts (browser says it is still offline)
+warn: Jun-23 20:54:49.351 Internet connection still offline after 150 attempts (browser says it is still offline)
+warn: Jun-23 20:54:51.351 Internet connection still offline after 151 attempts (browser says it is still offline)
+warn: Jun-23 20:54:53.351 Internet connection still offline after 152 attempts (browser says it is still offline)
+warn: Jun-23 20:54:55.351 Internet connection still offline after 153 attempts (browser says it is still offline)
+warn: Jun-23 20:54:57.351 Internet connection still offline after 154 attempts (browser says it is still offline)
+warn: Jun-23 20:54:59.351 Internet connection still offline after 155 attempts (browser says it is still offline)
+error: Jun-23 20:55:01.355 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 300000 ms in wait_for_connectivity state; giving up
+info: Jun-23 20:55:01.356 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_connectivity to error
+info: Jun-23 20:55:01.358 [SOCKET-MANAGER] (TB9PVC95H) will stay in error state for up to 10000 ms
+info: 2018/6/23 20:55:01.359  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.da068e45667c12f469e1.min.js:1:8019)
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:860
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2305548)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2307383)
+at https://a.slack-edge.com/bv1-4/modern.vendor.0615a8ffe14df21f9601.min.js:1:2309099
+info: Jun-23 20:55:02.351 [SOCKET-MANAGER] (TB9PVC95H) Changing from error to wait_for_rate_limit
+info: Jun-23 20:55:02.351 [SOCKET-MANAGER] (TB9PVC95H) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jun-23 20:55:02.352 [SOCKET-MANAGER] (TB9PVC95H) backing off: will wait for 1021 ms
+info: Jun-23 20:55:02.353 [INFO] Internet connection has been re-established after 156 retry attempts; offline for NaN seconds
+info: Jun-23 20:55:02.353 [API-Q] (TB9PVC95H) Unpausing queue: state is ONLINE
+info: Jun-23 20:55:04.352 [SOCKET-MANAGER] (TB9PVC95H) Changing from wait_for_rate_limit to connect
+info: Jun-23 20:55:04.353 [SOCKET-MANAGER] (TB9PVC95H) will stay in connect state for up to 10000 ms
+info: Jun-23 20:55:04.353 [SOCKET-MANAGER] (TB9PVC95H) Changing from connect to checking_fast_reconnect
+info: Jun-23 20:55:04.353 [SOCKET-MANAGER] (TB9PVC95H) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jun-23 20:55:04.354 [SOCKET-MANAGER] (TB9PVC95H) Changing from checking_fast_reconnect to prov_connect
+info: Jun-23 20:55:04.354 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connect state for up to 10000 ms
+info: Jun-23 20:55:04.354 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connect to prov_connecting
+info: Jun-23 20:55:04.354 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connecting state for up to 35000 ms
+info: Jun-23 20:55:05.781 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connecting to prov_connected
+info: Jun-23 20:55:05.782 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_connected state for up to 60000 ms
+info: Jun-23 20:55:05.783 [INFO] Got start data from Socket Manager; hydrating it
+info: Jun-23 20:55:05.796 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jun-23 20:55:05.797 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jun-23 20:55:05.801 [API-Q] (TB9PVC95H) 0801dc75-1529754905.800 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Jun-23 20:55:05.802 [API-Q] (TB9PVC95H) 0801dc75-1529754905.800 auth.currentSessions is ENQUEUED
+info: Jun-23 20:55:05.805 [API-Q] (TB9PVC95H) 0801dc75-1529754905.800 auth.currentSessions is ACTIVE
+info: Jun-23 20:55:05.831 [API-Q] (TB9PVC95H) 0801dc75-1529754905.831 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Jun-23 20:55:05.832 [API-Q] (TB9PVC95H) 0801dc75-1529754905.831 i18n.translations.get is ENQUEUED
+info: Jun-23 20:55:05.833 [API-Q] (TB9PVC95H) 0801dc75-1529754905.831 i18n.translations.get is ACTIVE
+info: Jun-23 20:55:06.021 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jun-23 20:55:06.021 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_connected to prov_finalize
+info: Jun-23 20:55:06.021 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalize state for up to 10000 ms
+info: Jun-23 20:55:06.022 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalize to prov_finalizing
+info: Jun-23 20:55:06.022 [SOCKET-MANAGER] (TB9PVC95H) will stay in prov_finalizing state for up to 10000 ms
+info: Jun-23 20:55:06.023 [SOCKET-MANAGER] (TB9PVC95H) Changing from prov_finalizing to connected
+info: Jun-23 20:55:06.024 [SOCKET-MANAGER] (TB9PVC95H) will stay in connected state for up to Infinity ms
+info: Jun-23 20:55:06.024 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jun-23 20:55:06.026 [API-Q] (TB9PVC95H) 0801dc75-1529754906.026 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Jun-23 20:55:06.026 [API-Q] (TB9PVC95H) 0801dc75-1529754906.026 dnd.teamInfo is ENQUEUED
+info: Jun-23 20:55:06.026 [API-Q] (TB9PVC95H) 0801dc75-1529754906.026 dnd.teamInfo is ACTIVE
+info: Jun-23 20:55:06.027 [INFO] MSConnected: 
+info: Jun-23 20:55:06.037 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Jun-23 20:55:06.038 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Jun-23 20:55:06.052 [API-Q] (TB9PVC95H) 0801dc75-1529754906.051 users.counts called with reason: NO REASON PROVIDED
+info: Jun-23 20:55:06.052 [API-Q] (TB9PVC95H) 0801dc75-1529754906.051 users.counts is ENQUEUED
+info: Jun-23 20:55:06.053 [API-Q] (TB9PVC95H) 0801dc75-1529754906.051 users.counts is ACTIVE
+info: Jun-23 20:55:06.569 [API-Q] (TB9PVC95H) 0801dc75-1529754905.831 i18n.translations.get is RESOLVED
+info: Jun-23 20:55:06.630 [API-Q] (TB9PVC95H) 0801dc75-1529754905.800 auth.currentSessions is RESOLVED
+info: Jun-23 20:55:06.812 [API-Q] (TB9PVC95H) 0801dc75-1529754906.026 dnd.teamInfo is RESOLVED
+info: Jun-23 20:55:06.873 [API-Q] (TB9PVC95H) 0801dc75-1529754906.051 users.counts is RESOLVED
+info: Jun-23 20:55:06.878 [UNREAD-COUNTS] Completed users.counts processing
+info: Jun-23 21:36:55.594 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-23 21:36:55.602 [API-Q] (TB9PVC95H) 0801dc75-1529757415.600 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-23 21:36:55.602 [API-Q] (TB9PVC95H) 0801dc75-1529757415.600 rtm.shouldReload is ENQUEUED
+info: Jun-23 21:36:55.603 [API-Q] (TB9PVC95H) 0801dc75-1529757415.600 rtm.shouldReload is ACTIVE
+info: Jun-23 21:36:56.700 [API-Q] (TB9PVC95H) 0801dc75-1529757415.600 rtm.shouldReload is RESOLVED
+info: Jun-23 21:36:56.701 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-23 23:03:58.590 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-23 23:03:58.591 [API-Q] (TB9PVC95H) 0801dc75-1529762638.591 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-23 23:03:58.592 [API-Q] (TB9PVC95H) 0801dc75-1529762638.591 rtm.shouldReload is ENQUEUED
+info: Jun-23 23:03:58.592 [API-Q] (TB9PVC95H) 0801dc75-1529762638.591 rtm.shouldReload is ACTIVE
+info: Jun-23 23:03:59.634 [API-Q] (TB9PVC95H) 0801dc75-1529762638.591 rtm.shouldReload is RESOLVED
+info: Jun-23 23:03:59.637 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-24 00:31:01.590 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-24 00:31:01.592 [API-Q] (TB9PVC95H) 0801dc75-1529767861.591 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-24 00:31:01.592 [API-Q] (TB9PVC95H) 0801dc75-1529767861.591 rtm.shouldReload is ENQUEUED
+info: Jun-24 00:31:01.594 [API-Q] (TB9PVC95H) 0801dc75-1529767861.591 rtm.shouldReload is ACTIVE
+info: Jun-24 00:31:02.460 [API-Q] (TB9PVC95H) 0801dc75-1529767861.591 rtm.shouldReload is RESOLVED
+info: Jun-24 00:31:02.461 [MIN-VERSION] (TB9PVC95H) no need to reload
+info: Jun-24 01:58:04.591 [MIN-VERSION] (TB9PVC95H) checking to see if we should reload
+info: Jun-24 01:58:04.594 [API-Q] (TB9PVC95H) 0801dc75-1529773084.593 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Jun-24 01:58:04.596 [API-Q] (TB9PVC95H) 0801dc75-1529773084.593 rtm.shouldReload is ENQUEUED
+info: Jun-24 01:58:04.598 [API-Q] (TB9PVC95H) 0801dc75-1529773084.593 rtm.shouldReload is ACTIVE
+info: Jun-24 01:58:05.431 [API-Q] (TB9PVC95H) 0801dc75-1529773084.593 rtm.shouldReload is RESOLVED
+info: Jun-24 01:58:05.432 [MIN-VERSION] (TB9PVC95H) no need to reload

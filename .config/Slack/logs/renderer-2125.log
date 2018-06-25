@@ -1,0 +1,451 @@
+[06/21/18, 21:03:28:500] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/21/18, 21:03:28:501] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/21/18, 21:03:28:497      ║
+[06/21/18, 21:03:28:501] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/21/18, 21:03:28:678] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/21/18, 21:03:28:859] info: NetworkStatus: Waiting for network online…
+[06/21/18, 21:03:29:244] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/21/18, 21:03:29:250] info: Don't start background client because T031FNTUT is selected team
+[06/21/18, 21:03:29:534] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/21/18, 21:03:29:664] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/21/18, 21:03:29:937] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/21/18, 21:03:29:981] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/21/18, 21:03:29:985] info: Store: SET_NETWORK_STATUS online
+[06/21/18, 21:03:30:040] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:03:30:289] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:03:31:068] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/21/18, 21:03:31:072] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529582911069,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:03:31:577] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/21/18, 21:03:31:579] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529582911578,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:03:34:067] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:34:076] info: Store: MAIN_WINDOW_SHOWN
+[06/21/18, 21:03:34:106] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:03:34:118] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:03:34:122] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:03:34:412] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:35:180] info: Store: SELECT_CHANNEL C031FNU0K
+[06/21/18, 21:03:35:183] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:35:193] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/21/18, 21:03:35:210] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/21/18, 21:03:35:963] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:36:098] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:36:106] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:36:280] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 21:03:40:779] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:03:56:882] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:03:57:841] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    311
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/21/18, 21:03:59:378] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:04:12:742] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529582952741,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:04:37:542] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:04:38:000] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:04:38:236] info: Store: SET_FULL_SCREEN
+[06/21/18, 21:04:47:577] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529582987572,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:06:12:412] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583072407,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:06:47:584] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583107582,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:08:12:398] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583192394,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:08:47:576] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583227566,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:10:12:381] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583312377,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:10:47:662] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583347656,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:12:12:448] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583432443,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:12:47:584] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583467580,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:14:12:461] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583552456,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:14:47:581] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583587577,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:16:12:369] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583672367,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:16:47:573] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583707568,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:18:12:480] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583792478,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:18:47:561] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583827559,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:20:12:493] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583912489,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:20:47:617] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529583947612,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:21:39:239] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/21/18, 21:22:05:125] info: Store: SET_SUSPEND_STATUS
+[06/21/18, 21:22:05:145] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 21:22:05:151] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 21:22:05:577] info: Store: SET_NETWORK_STATUS offline
+[06/22/18, 10:37:43:192] info: Store: SET_SUSPEND_STATUS true
+[06/22/18, 10:37:43:203] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/22/18, 10:37:43:214] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/22/18, 10:37:43:227] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/22/18, 10:37:43:230] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/22/18, 10:37:43:232] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/22/18, 10:37:43:237] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/22/18, 10:37:48:434] info: NetworkStatus: Waiting for network online…
+[06/22/18, 10:37:48:438] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/22/18, 10:37:48:438] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/22/18, 10:37:52:477] info: Store: SET_FULL_SCREEN
+[06/22/18, 10:37:52:539] info: Store: SET_FULL_SCREEN
+[06/22/18, 10:37:53:447] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/22/18, 10:37:53:466] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/22/18, 10:37:53:728] info: Store: SET_FULL_SCREEN
+[06/22/18, 10:37:53:975] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/22/18, 10:37:54:007] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/22/18, 10:37:54:362] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/22/18, 10:37:54:410] info: Store: SET_NETWORK_STATUS online
+[06/22/18, 10:37:54:423] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/22/18, 10:37:54:759] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/22/18, 10:37:54:761] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/22/18, 10:37:54:834] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/22/18, 10:37:54:839] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529631774835,
+  "teamId": "TB47MRNBZ"
+}
+[06/22/18, 10:37:55:245] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/22/18, 10:37:55:247] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/22/18, 10:37:55:314] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/22/18, 10:37:55:317] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529631775315,
+  "teamId": "TB9PVC95H"
+}
+[06/22/18, 10:37:59:768] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/22/18, 10:38:00:094] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/22/18, 10:38:00:252] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/22/18, 10:38:00:265] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/22/18, 10:38:00:267] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529631780265,
+  "teamId": "TB47MRNBZ"
+}
+[06/22/18, 10:38:00:600] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/22/18, 10:38:00:753] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/22/18, 10:38:00:756] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529631780754,
+  "teamId": "TB9PVC95H"
+}
+[06/22/18, 10:38:01:425] info: Store: SET_FULL_SCREEN
+[06/22/18, 10:38:09:351] info: Store: SET_NETWORK_STATUS offline
+[06/22/18, 10:38:13:836] info: Store: SET_FULL_SCREEN
+[06/22/18, 10:38:14:693] info: NetworkStatus: Waiting for network online…
+[06/22/18, 10:38:14:706] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/22/18, 10:38:14:707] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/22/18, 10:38:18:741] info: Store: RELOAD
+{
+  "everything": false
+}

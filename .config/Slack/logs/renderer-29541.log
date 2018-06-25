@@ -1,0 +1,157 @@
+[06/21/18, 14:54:25:932] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/21/18, 14:54:25:933] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/21/18, 14:54:25:929      ║
+[06/21/18, 14:54:25:934] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/21/18, 14:54:26:217] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/21/18, 14:54:26:590] info: NetworkStatus: Waiting for network online…
+[06/21/18, 14:54:27:127] info: Store: SELECT_NEXT_TEAM
+[06/21/18, 14:54:27:235] info: Don't start background client because T031FNTUT is selected team
+[06/21/18, 14:54:27:236] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/21/18, 14:54:27:368] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/21/18, 14:54:27:454] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/21/18, 14:54:27:528] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:27:533] info: Store: REMOVE_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:27:641] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/21/18, 14:54:27:648] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/21/18, 14:54:27:706] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 14:54:27:770] info: Store: SET_NETWORK_STATUS online
+[06/21/18, 14:54:28:287] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/21/18, 14:54:28:292] info: Store: SELECT_NEXT_TEAM
+[06/21/18, 14:54:28:317] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529560768290,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 14:54:28:534] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/21/18, 14:54:28:536] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1529560768534,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:31:838] info: Store: SELECT_NEXT_TEAM
+[06/21/18, 14:54:31:852] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 9,
+  "state": "unloaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:31:873] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:31:923] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:32:300] info: Store: SELECT_NEXT_TEAM
+[06/21/18, 14:54:32:347] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 14:54:32:404] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 14:54:34:876] info: Store: MAIN_WINDOW_FOCUSED
+[06/21/18, 14:54:35:056] info: Store: SELECT_TEAM T031FNTUT
+[06/21/18, 14:54:36:600] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 9,
+  "state": "loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:37:043] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:38:091] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/21/18, 14:54:38:099] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:38:111] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB47MRNBZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/21/18, 14:54:38:853] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:39:015] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:39:023] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 9,
+  "state": "webapp-loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:39:178] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 14:54:39:275] info: Store: RELOAD
+{
+  "everything": false
+}

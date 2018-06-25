@@ -1,0 +1,43 @@
+[06/25/18, 13:27:50:852] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/25/18, 13:27:50:853] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/25/18, 13:27:50:847      ║
+[06/25/18, 13:27:50:853] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/25/18, 13:27:51:029] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/25/18, 13:27:51:601] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/25/18, 13:27:51:601] error: Desktop module calls failed to load
+[06/25/18, 13:27:51:640] info: cld3::loadModule: loading cld3 module
+[06/25/18, 13:27:51:685] info: cld3Loader::loadModule: running environment is NODE
+[06/25/18, 13:27:51:685] info: cld3Loader::loadModule: constructed module object for runtime
+[06/25/18, 13:27:51:993] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/25/18, 13:27:51:993] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/25/18, 13:27:52:009] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/25/18, 13:27:52:028] info: Main window preload script finished
+{
+  "readyTime": 1691.620935
+}
+[06/25/18, 13:27:56:263] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/25/18, 13:27:57:084] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/25/18, 13:27:57:391] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/25/18, 13:27:57:406] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}

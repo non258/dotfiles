@@ -416,3 +416,58 @@
 [06/21/18, 13:50:38:038] info: Store: SET_FULL_SCREEN
 [06/21/18, 13:50:39:987] info: Store: SET_FULL_SCREEN
 [06/21/18, 13:50:41:638] info: Store: SET_FULL_SCREEN
+[06/21/18, 13:57:41:089] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "7DnOuEsNKKjBJGW",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1529557060.000236&team=TB47MRNBZ",
+  "msg": "1529557060.000236",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/21/18, 13:59:19:909] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "XY7nIMtkKKZkjz9",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1529557159.000163&team=TB47MRNBZ",
+  "msg": "1529557159.000163",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/21/18, 14:37:34:207] info: Store: SET_FULL_SCREEN
+[06/21/18, 14:37:45:104] info: Store: SET_FULL_SCREEN
+[06/21/18, 14:37:50:276] info: Store: SET_FULL_SCREEN
+[06/21/18, 14:37:50:331] info: Store: SET_FULL_SCREEN
+[06/21/18, 14:40:06:535] info: Store: SET_SUSPEND_STATUS
+[06/21/18, 14:40:07:022] info: Store: SET_NETWORK_STATUS offline
+[06/21/18, 14:54:07:937] info: Store: SET_SUSPEND_STATUS true
+[06/21/18, 14:54:18:402] info: NetworkStatus: Waiting for network online…
+[06/21/18, 14:54:18:419] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/21/18, 14:54:18:420] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/21/18, 14:54:23:587] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/21/18, 14:54:24:000] info: Store: SET_NETWORK_STATUS online
+[06/21/18, 14:54:24:008] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/21/18, 14:54:25:232] info: Store: RELOAD
+{
+  "everything": false
+}

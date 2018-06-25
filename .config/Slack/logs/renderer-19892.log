@@ -1,0 +1,72 @@
+[06/21/18, 20:25:24:605] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/21/18, 20:25:24:606] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/21/18, 20:25:24:603      ║
+[06/21/18, 20:25:24:606] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/21/18, 20:25:24:787] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/21/18, 20:25:25:268] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 20:25:25:276] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 20:25:25:400] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/21/18, 20:25:25:403] info: Don't start background client because T031FNTUT is selected team
+[06/21/18, 20:25:25:419] info: Store: SET_NETWORK_STATUS offline
+[06/21/18, 20:25:25:422] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/21/18, 20:25:25:425] warn: SlackApi: Failed to call api.features
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/21/18, 20:25:25:426] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[06/21/18, 20:25:25:433] warn: SlackApi: Failed to call api.features
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/21/18, 20:25:25:434] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/21/18, 20:25:25:440] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/21/18, 20:25:25:445] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/21/18, 20:26:18:254] info: NetworkStatus: Waiting for network online…
+[06/21/18, 20:26:18:265] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/21/18, 20:26:18:265] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/21/18, 20:26:20:411] info: Store: RELOAD
+{
+  "everything": false
+}
