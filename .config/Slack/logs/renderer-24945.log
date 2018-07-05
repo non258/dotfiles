@@ -1,0 +1,4649 @@
+[06/26/18, 14:20:32:395] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/26/18, 14:20:32:396] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/26/18, 14:20:32:387      ║
+[06/26/18, 14:20:32:396] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/26/18, 14:20:32:552] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/26/18, 14:20:33:109] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/26/18, 14:20:33:110] error: Desktop module calls failed to load
+[06/26/18, 14:20:33:148] info: cld3::loadModule: loading cld3 module
+[06/26/18, 14:20:33:181] info: cld3Loader::loadModule: running environment is NODE
+[06/26/18, 14:20:33:181] info: cld3Loader::loadModule: constructed module object for runtime
+[06/26/18, 14:20:33:403] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/26/18, 14:20:33:403] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/26/18, 14:20:33:421] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/26/18, 14:20:33:449] info: Main window preload script finished
+{
+  "readyTime": 1535.843565
+}
+[06/26/18, 14:20:37:859] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:20:38:169] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 14:20:39:178] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 14:20:39:182] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/26/18, 14:20:39:183] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/26/18, 14:20:39:251] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 14:20:39:254] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 14:20:39:255] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "webapp-loaded",
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 14:20:39:273] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB47MRNBZ",
+  "theme": {
+    "active_item": "#6698C8",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#94E864",
+    "badge": "#78AF8F",
+    "column_bg": "#303E4D",
+    "hover_item": "#4A5664",
+    "menu_bg": "#2C3849",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/26/18, 14:20:39:657] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 14:20:39:960] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:20:39:974] info: loadAsmModule: loading hunspell-asm module
+[06/26/18, 14:20:40:274] info: loadAsmModule: asm module loaded successfully
+[06/26/18, 14:20:40:274] info: SpellChecker: Starting spellchecker with language detector
+[06/26/18, 14:20:40:274] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[06/26/18, 14:20:40:274] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[06/26/18, 14:20:40:328] info: download: downloading dictionary for 'en-us'
+[06/26/18, 14:20:40:328] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[06/26/18, 14:20:41:712] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[06/26/18, 14:20:44:268] info: dictionaryDownloader: verifying hash
+[06/26/18, 14:20:44:312] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[06/26/18, 14:20:44:355] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[06/26/18, 14:20:44:359] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[06/26/18, 14:20:44:360] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[06/26/18, 14:20:44:360] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[06/26/18, 14:20:50:457] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:21:00:036] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:21:13:165] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:22:23:590] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:23:13:399] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:13:756] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:18:703] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:19:067] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:20:341] info: Store: SELECT_CHANNEL C4TPU0YUW
+[06/26/18, 14:23:20:346] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:20:356] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/26/18, 14:23:20:822] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:21:087] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:21:094] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:21:469] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 14:23:52:830] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "mG1BI5h9XglvPX4",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1529990632.000157&team=TB47MRNBZ",
+  "msg": "1529990632.000157",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:23:54:662] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:23:56:180] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:23:56:635] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:24:40:827] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:24:45:396] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:24:56:254] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "Wmx2H6inkY2kBvQ",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1529990696.000001&team=TB47MRNBZ",
+  "msg": "1529990696.000001",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:25:45:927] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:25:46:684] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:25:49:626] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:25:49:884] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:26:26:008] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:27:23:372] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:27:31:672] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:27:33:973] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:28:42:736] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB529PJT0",
+  "content": "[REDACTED]",
+  "id": "LnjNfNsmnE4R7Mr",
+  "launchUri": "slack://channel?id=CB529PJT0&message=1529990922.000144&team=TB47MRNBZ",
+  "msg": "1529990922.000144",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:28:46:203] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:28:53:398] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "1Q05FEtXZlnlLLw",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1529990933.000046&team=TB47MRNBZ",
+  "msg": "1529990933.000046",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:28:55:813] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:29:28:957] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:29:54:910] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:29:56:112] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:29:56:535] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:30:13:532] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:30:26:637] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:30:43:057] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:37:08:120] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:37:11:104] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:38:06:530] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:38:09:391] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:09:444] info: Store: SELECT_CHANNEL CB8EBKWTB
+[06/26/18, 14:38:09:549] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:09:594] info: Store: SELECT_CHANNEL CB6NSV6F3
+[06/26/18, 14:38:09:853] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:09:951] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/26/18, 14:38:09:996] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:10:022] info: Store: SELECT_CHANNEL CBA4QM266
+[06/26/18, 14:38:10:239] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:10:329] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/26/18, 14:38:10:434] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:10:500] info: Store: SELECT_CHANNEL CB529PJT0
+[06/26/18, 14:38:14:505] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:14:553] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/26/18, 14:38:14:854] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:14:935] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/26/18, 14:38:15:076] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:15:151] info: Store: SELECT_CHANNEL CBAT0G5L5
+[06/26/18, 14:38:15:293] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:15:374] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 14:38:15:522] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:15:581] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/26/18, 14:38:15:980] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:16:100] info: Store: SELECT_CHANNEL DB3AACFQV
+[06/26/18, 14:38:16:183] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:16:214] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/26/18, 14:38:16:738] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:16:780] info: Store: SELECT_CHANNEL DB3AACFQV
+[06/26/18, 14:38:17:155] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:17:359] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/26/18, 14:38:17:669] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:17:864] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:17:923] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 14:38:17:939] info: Store: SELECT_CHANNEL CBAT0G5L5
+[06/26/18, 14:38:18:010] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:18:051] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/26/18, 14:38:18:325] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:18:374] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/26/18, 14:38:18:582] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:18:638] info: Store: SELECT_CHANNEL CB529PJT0
+[06/26/18, 14:38:20:012] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:20:124] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/26/18, 14:38:20:136] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:20:177] info: Store: SELECT_CHANNEL CBA4QM266
+[06/26/18, 14:38:20:628] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:20:708] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/26/18, 14:38:20:716] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:20:767] info: Store: SELECT_CHANNEL CB6NSV6F3
+[06/26/18, 14:38:20:903] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:20:953] info: Store: SELECT_CHANNEL CB8EBKWTB
+[06/26/18, 14:38:21:033] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:21:078] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/26/18, 14:38:21:336] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:21:381] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/26/18, 14:38:21:933] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:22:012] info: Store: SELECT_CHANNEL CB6JRDN3S
+[06/26/18, 14:38:22:118] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:38:22:186] info: Store: SELECT_CHANNEL CBDPRURL6
+[06/26/18, 14:38:23:866] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:25:190] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:25:720] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:26:219] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:26:865] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:27:084] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:27:383] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:38:29:438] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:38:30:383] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:38:31:886] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:38:32:743] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:39:30:429] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:39:33:945] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:39:35:956] info: Store: SELECT_CHANNEL CB9L67936
+[06/26/18, 14:39:48:542] info: Store: SELECT_CHANNEL CB9LFAP36
+[06/26/18, 14:39:58:907] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:41:05:482] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:41:06:216] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:41:06:579] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:41:55:726] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "qY2pCLsEL61XMN0",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529991715.000148&team=TB9PVC95H",
+  "msg": "1529991715.000148",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:42:02:740] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:42:03:431] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:42:05:535] info: Store: SELECT_CHANNEL CB9L67936
+[06/26/18, 14:42:05:755] info: Store: SELECT_CHANNEL CB9PX40N7
+[06/26/18, 14:42:08:853] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:51:24:546] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:51:29:588] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:51:48:783] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:51:49:772] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:51:50:206] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:52:58:732] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:53:17:727] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:53:27:074] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:53:28:552] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:53:57:879] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:53:59:035] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:00:116] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:01:242] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:02:842] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:04:312] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:05:610] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:54:06:142] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:54:13:747] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:54:13:935] info: Store: SELECT_CHANNEL CB6JRDN3S
+[06/26/18, 14:54:14:760] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:54:14:841] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/26/18, 14:54:15:593] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 14:54:15:730] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/26/18, 14:54:29:258] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "pQzouxtGlm5VDqp",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529992469.000001&team=TB9PVC95H",
+  "msg": "1529992469.000001",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:54:44:096] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:45:038] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:54:46:088] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:08:869] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "pQzouAuGlm5Bjl5",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529992688.000184&team=TB9PVC95H",
+  "msg": "1529992688.000184",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:58:13:968] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:15:146] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 14:58:18:337] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:18:352] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:18:571] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "OyZXtZCr1xXR7Qq",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529992698.000059&team=TB9PVC95H",
+  "msg": "1529992698.000059",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:58:25:632] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "pQzouvFGlm5B46X",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529992705.000102&team=TB9PVC95H",
+  "msg": "1529992705.000102",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 14:58:30:970] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:30:997] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:34:378] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:58:34:411] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:59:03:529] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:59:03:543] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:59:06:883] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:59:07:766] info: Store: SET_FULL_SCREEN
+[06/26/18, 14:59:10:826] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:07:27:691] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:09:47:433] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:16:24:369] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:16:52:450] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:16:55:652] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:19:16:499] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:19:22:558] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:20:21:636] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:22:43:925] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:22:44:947] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:22:46:038] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:22:53:784] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:11:105] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:17:784] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:32:763] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:38:518] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:39:628] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:53:167] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:53:184] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:23:54:775] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:28:05:496] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:28:08:585] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:28:09:180] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:28:10:853] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:28:18:517] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:29:03:893] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:29:03:931] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:29:10:155] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:30:50:628] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:30:53:112] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:40:46:756] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:40:46:770] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 15:40:47:536] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:40:47:730] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 15:40:54:546] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:40:54:562] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 15:40:55:528] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 15:40:56:775] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:41:32:420] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:41:34:786] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:41:38:798] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:41:39:751] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:41:56:230] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:41:59:703] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:42:00:485] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:42:52:863] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:42:53:408] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "JqPKsyHL1w7VO7w",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1529995373.000064&team=TB9PVC95H",
+  "msg": "1529995373.000064",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 15:54:13:151] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:54:16:775] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 15:54:16:997] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 15:54:18:848] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:56:55:448] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:57:27:586] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:57:34:321] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:57:36:714] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 15:57:39:748] info: Store: SET_FULL_SCREEN
+[06/26/18, 15:58:35:778] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:05:33:702] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9AUBY1X",
+  "content": "[REDACTED]",
+  "id": "7LAyunINKo57qWX",
+  "launchUri": "slack://channel?id=CB9AUBY1X&message=1529996733.000221&team=TB9PVC95H",
+  "msg": "1529996733.000221",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 16:05:52:983] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:05:53:027] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:05:55:533] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:05:56:528] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    475
+  ],
+  "size": [
+    1600,
+    424
+  ]
+}
+[06/26/18, 16:05:56:616] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:05:57:532] info: Store: SELECT_CHANNEL CB9L67936
+[06/26/18, 16:05:57:602] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 16:05:57:743] info: Store: SELECT_CHANNEL CB9LFAP36
+[06/26/18, 16:05:58:751] info: Store: SELECT_CHANNEL CB9AUBY1X
+[06/26/18, 16:06:10:218] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:10:223] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:18:304] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:18:309] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:20:887] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:35:726] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:38:042] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:38:415] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:06:42:112] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:07:08:319] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:07:09:276] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:07:09:689] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:07:10:819] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:15:44:367] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:15:50:165] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:15:51:424] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:15:54:476] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:16:17:181] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:16:17:986] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:16:18:147] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 16:16:18:881] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:16:19:544] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:17:59:722] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:18:05:996] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:18:07:424] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:18:08:383] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 16:18:11:760] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:18:12:464] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:18:27:558] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:23:01:763] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:23:02:718] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 16:23:05:378] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:23:05:660] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:23:13:437] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:13:523] info: Store: SELECT_CHANNEL CB8EBKWTB
+[06/26/18, 16:23:13:919] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:14:028] info: Store: SELECT_CHANNEL CB6NSV6F3
+[06/26/18, 16:23:14:367] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:14:457] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/26/18, 16:23:14:673] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:14:795] info: Store: SELECT_CHANNEL CBA4QM266
+[06/26/18, 16:23:14:904] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:15:025] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/26/18, 16:23:15:202] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:15:326] info: Store: SELECT_CHANNEL CB529PJT0
+[06/26/18, 16:23:15:454] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:15:478] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/26/18, 16:23:15:706] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:15:768] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/26/18, 16:23:16:019] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:16:090] info: Store: SELECT_CHANNEL CBAT0G5L5
+[06/26/18, 16:23:16:254] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:16:284] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 16:23:16:638] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:23:16:767] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/26/18, 16:23:23:671] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:23:24:538] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:23:30:910] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:23:31:532] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:24:49:560] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:07:981] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:16:826] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:26:653] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:26:654] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 16:27:27:577] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 16:27:30:631] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:31:267] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:31:677] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:27:51:976] info: Store: SELECT_CHANNEL CB9LFAP36
+[06/26/18, 16:27:54:644] info: Store: SELECT_CHANNEL CB9L67936
+[06/26/18, 16:27:56:465] info: Store: SELECT_CHANNEL CB9PX40N7
+[06/26/18, 16:27:57:741] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:27:58:619] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:19:703] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:24:148] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:26:353] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:26:628] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:28:724] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:29:656] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:30:202] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:31:112] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:31:127] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:36:784] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:36:796] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:37:123] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:30:37:139] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:34:06:197] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:34:06:198] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:34:09:593] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:34:09:603] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:35:50:071] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:35:50:099] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:35:56:461] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:35:57:032] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:36:07:642] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:36:09:244] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:36:09:268] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:36:15:506] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:36:15:513] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:36:18:398] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:36:18:680] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:36:21:743] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:36:23:001] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:36:23:010] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:37:59:690] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:37:59:694] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:38:01:364] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:38:02:119] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 16:38:06:364] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:06:458] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 16:38:06:621] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:06:749] info: Store: SELECT_CHANNEL CBAT0G5L5
+[06/26/18, 16:38:06:824] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:06:908] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/26/18, 16:38:07:272] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:07:400] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/26/18, 16:38:07:457] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:07:577] info: Store: SELECT_CHANNEL CB529PJT0
+[06/26/18, 16:38:07:640] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:07:764] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/26/18, 16:38:07:953] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:08:048] info: Store: SELECT_CHANNEL CBA4QM266
+[06/26/18, 16:38:08:165] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:08:252] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/26/18, 16:38:08:371] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:08:462] info: Store: SELECT_CHANNEL CB6NSV6F3
+[06/26/18, 16:38:09:007] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:09:074] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/26/18, 16:38:09:232] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:09:309] info: Store: SELECT_CHANNEL CBA4QM266
+[06/26/18, 16:38:09:577] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 16:38:09:665] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/26/18, 16:38:12:738] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:38:12:740] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:25:268] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:25:323] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:28:865] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:30:465] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:30:974] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:30:975] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:55:081] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:39:57:978] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:40:37:516] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:40:37:528] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:40:43:215] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:40:43:252] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:41:16:007] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:41:16:048] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:41:17:401] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:41:17:405] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:29:895] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:29:898] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:37:267] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:46:617] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:48:958] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:48:986] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:49:716] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:49:716] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:54:667] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:42:54:668] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:44:47:511] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:44:47:511] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:44:51:552] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:44:51:553] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:32:622] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:32:648] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:36:915] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:38:589] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:39:375] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:42:805] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:43:201] info: Store: SET_FULL_SCREEN
+[06/26/18, 16:50:43:202] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:03:32:468] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:03:32:468] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:03:34:618] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:03:34:662] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:06:42:852] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "C04KQT6L8",
+  "content": "[REDACTED]",
+  "id": "WpnwHjhnkYl2LzP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KQT6L8&message=1530000402.000369&team=T031FNTUT",
+  "msg": "1530000402.000369",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:07:09:742] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9AUBY1X",
+  "content": "[REDACTED]",
+  "id": "xvlzTDSwJOm3D29",
+  "launchUri": "slack://channel?id=CB9AUBY1X&message=1530000429.000273&team=TB9PVC95H",
+  "msg": "1530000429.000273",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:07:14:312] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:07:14:380] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:07:17:764] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 17:07:17:864] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/26/18, 17:07:20:460] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "APmXhjTYKzPqgVN",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1530000440.000187&team=TB9PVC95H",
+  "msg": "1530000440.000187",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:07:39:828] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:07:39:828] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:07:48:602] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "wmkyhXUKrDgLJlw",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1530000468.000271&team=TB9PVC95H",
+  "msg": "1530000468.000271",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:08:02:000] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:08:02:030] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:08:04:019] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:08:04:020] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:11:07:362] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:11:07:397] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:11:14:191] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:11:33:644] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:11:35:232] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 17:11:35:475] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 17:11:37:705] info: Store: SELECT_CHANNEL C04KQT6L8
+[06/26/18, 17:11:41:891] info: Store: SELECT_CHANNEL D7JP44402
+[06/26/18, 17:11:49:922] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:11:49:949] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:12:17:894] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:12:17:902] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:12:27:571] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:12:27:585] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:07:220] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "D7JP44402",
+  "content": "",
+  "id": "D6RYtoiZNr09gGJ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D7JP44402&message=1530000786.000546&team=T031FNTUT",
+  "msg": "1530000786.000546",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:13:12:810] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "D7JP44402",
+  "content": "",
+  "id": "g85xHPs3wW4BL92",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D7JP44402&message=1530000792.000294&team=T031FNTUT",
+  "msg": "1530000792.000294",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:13:14:590] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:14:640] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:20:919] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:20:930] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:48:156] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:48:170] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:50:520] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:13:50:522] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:16:46:109] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:16:48:075] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:25:34:809] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:25:34:823] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:26:16:426] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:26:25:578] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:26:26:264] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:26:26:275] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:26:43:048] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:26:46:502] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:27:28:661] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "D7JP44402",
+  "content": "",
+  "id": "n7ZYu6tZqBjVQq9",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D7JP44402&message=1530001648.000186&team=T031FNTUT",
+  "msg": "1530001648.000186",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 17:27:33:149] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:27:33:158] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:28:19:614] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:28:19:620] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:30:32:819] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:30:32:834] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:30:35:880] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:30:39:081] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:30:40:131] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:30:40:138] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:04:171] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:04:176] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:05:747] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:05:758] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:42:870] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:42:885] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:45:502] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:31:45:522] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:32:27:284] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:32:28:616] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:37:56:796] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:37:56:818] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:37:59:768] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:37:59:782] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:38:32:404] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:38:32:428] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:38:33:230] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:38:33:914] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:38:38:013] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 17:38:39:136] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 17:38:43:401] info: Store: SELECT_CHANNEL CB9L67936
+[06/26/18, 17:38:44:236] info: Store: SELECT_CHANNEL CB9LFAP36
+[06/26/18, 17:38:45:212] info: Store: SELECT_CHANNEL CB9AUBY1X
+[06/26/18, 17:38:46:029] info: Store: SELECT_CHANNEL DB9PX20GK
+[06/26/18, 17:38:46:798] info: Store: SELECT_CHANNEL DBAPX2R1C
+[06/26/18, 17:38:47:558] info: Store: SELECT_CHANNEL DB9L7SDUL
+[06/26/18, 17:38:47:904] info: Store: SELECT_CHANNEL DB9SVRVNE
+[06/26/18, 17:38:49:087] info: Store: SELECT_CHANNEL DB9L7SDUL
+[06/26/18, 17:38:49:594] info: Store: SELECT_CHANNEL DBAPX2R1C
+[06/26/18, 17:38:50:126] info: Store: SELECT_CHANNEL DB9L7SDUL
+[06/26/18, 17:38:50:351] info: Store: SELECT_CHANNEL DB9SVRVNE
+[06/26/18, 17:38:50:657] info: Store: SELECT_CHANNEL DB9PX222F
+[06/26/18, 17:38:51:537] info: Store: SELECT_CHANNEL DBA0LQZ8A
+[06/26/18, 17:38:53:188] info: Store: SELECT_CHANNEL DB9PX222F
+[06/26/18, 17:38:53:433] info: Store: SELECT_CHANNEL DB9SVRVNE
+[06/26/18, 17:38:53:793] info: Store: SELECT_CHANNEL DB9L7SDUL
+[06/26/18, 17:38:53:959] info: Store: SELECT_CHANNEL DBAPX2R1C
+[06/26/18, 17:38:54:231] info: Store: SELECT_CHANNEL DB9PX20GK
+[06/26/18, 17:38:54:468] info: Store: SELECT_CHANNEL CB9AUBY1X
+[06/26/18, 17:38:54:646] info: Store: SELECT_CHANNEL CB9LFAP36
+[06/26/18, 17:38:55:196] info: Store: SELECT_CHANNEL CB9L67936
+[06/26/18, 17:38:55:387] info: Store: SELECT_CHANNEL CB9PX40N7
+[06/26/18, 17:38:56:091] info: Store: SELECT_CHANNEL DB9T2S1C2
+[06/26/18, 17:38:57:387] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:38:57:396] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:18:901] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:19:552] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:21:834] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:21:843] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:23:891] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 17:39:31:513] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:31:945] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:31:963] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 17:39:32:928] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 17:39:33:206] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:36:024] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:36:626] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:39:36:653] info: Store: SET_FULL_SCREEN
+[06/26/18, 17:47:26:151] info: Store: SET_SUSPEND_STATUS
+[06/26/18, 17:47:26:174] error: Jun-26 17:47:26.174 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/26/18, 17:47:26:625] info: Store: SET_NETWORK_STATUS offline
+[06/26/18, 19:47:51:927] info: Store: SET_SUSPEND_STATUS true
+[06/26/18, 19:47:51:998] error: Jun-26 19:47:51.998 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/26/18, 19:47:57:143] info: Store: SET_NETWORK_STATUS online
+[06/26/18, 19:47:59:402] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 19:47:59:597] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/26/18, 19:48:29:374] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 19:48:29:376] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/26/18, 19:48:30:423] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
+  },
+  "teamId": "TB9PVC95H"
+}
+[06/26/18, 19:48:30:531] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[06/26/18, 19:49:18:779] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:49:18:782] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:49:25:384] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 19:49:29:017] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:29:096] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/26/18, 19:49:29:286] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:29:371] info: Store: SELECT_CHANNEL CBAT0G5L5
+[06/26/18, 19:49:29:507] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:29:569] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 19:49:29:733] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:29:830] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/26/18, 19:49:29:948] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:30:009] info: Store: SELECT_CHANNEL DB3AACFQV
+[06/26/18, 19:49:30:156] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:30:229] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/26/18, 19:49:30:473] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:30:528] info: Store: SELECT_CHANNEL DB36B5DMY
+[06/26/18, 19:49:31:049] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:31:168] info: Store: SELECT_CHANNEL CBDPRURL6
+[06/26/18, 19:49:33:733] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:33:847] info: Store: SELECT_CHANNEL CB6JRDN3S
+[06/26/18, 19:49:33:961] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:34:036] info: Store: SELECT_CHANNEL CB2F4AXJ4
+[06/26/18, 19:49:34:463] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:34:569] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/26/18, 19:49:34:577] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:34:624] info: Store: SELECT_CHANNEL CB8EBKWTB
+[06/26/18, 19:49:34:694] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:34:743] info: Store: SELECT_CHANNEL CB6NSV6F3
+[06/26/18, 19:49:34:887] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:34:931] info: Store: SELECT_CHANNEL CB61C5Z35
+[06/26/18, 19:49:35:057] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:35:095] info: Store: SELECT_CHANNEL CBA4QM266
+[06/26/18, 19:49:35:185] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:35:326] info: Store: SELECT_CHANNEL CB4NCET6H
+[06/26/18, 19:49:35:483] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:35:570] info: Store: SELECT_CHANNEL CB529PJT0
+[06/26/18, 19:49:35:694] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:35:774] info: Store: SELECT_CHANNEL CB4RSF6SG
+[06/26/18, 19:49:35:889] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:35:956] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[06/26/18, 19:49:36:275] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:36:347] info: Store: SELECT_CHANNEL CBAT0G5L5
+[06/26/18, 19:49:36:468] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:36:527] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 19:49:36:665] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:36:762] info: Store: SELECT_CHANNEL CB3DV6QE9
+[06/26/18, 19:49:36:813] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:36:854] info: Store: SELECT_CHANNEL DB3AACFQV
+[06/26/18, 19:49:37:048] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:37:087] info: Store: SELECT_CHANNEL DB2F4AX6U
+[06/26/18, 19:49:37:473] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:49:37:549] info: Store: SELECT_CHANNEL DB36B5DMY
+[06/26/18, 19:50:05:106] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 19:50:05:216] info: Store: SELECT_CHANNEL CBDPRURL6
+[06/26/18, 19:50:07:502] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:50:07:506] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:50:29:568] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:50:29:603] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:50:33:051] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:50:33:051] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:06:546] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:06:547] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:08:943] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:08:946] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:10:950] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:10:996] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:11:277] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:11:278] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:12:198] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:12:267] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:12:558] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:12:559] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:13:636] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:13:670] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:13:943] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:13:944] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:14:953] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:15:006] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:15:324] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:15:324] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:16:226] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:16:226] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:16:548] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:16:549] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:18:122] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:18:123] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:18:475] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:18:478] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:19:509] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:19:524] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:20:042] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:20:053] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:20:797] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:20:812] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:44:491] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:44:492] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:47:195] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:47:233] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:47:880] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:47:881] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:48:438] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:48:479] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:48:981] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:48:982] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:50:579] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:50:618] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:51:434] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:51:435] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:52:985] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:53:007] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:53:451] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:57:53:452] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:58:18:732] info: Store: SET_FULL_SCREEN
+[06/26/18, 19:58:18:768] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:06:00:651] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    311
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 20:07:20:278] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:07:20:284] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:08:18:060] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:08:18:105] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:08:35:526] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:08:35:527] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:19:02:896] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "D7JP44402",
+  "content": "",
+  "id": "0Eg2SmuWvyPV6DD",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D7JP44402&message=1530011942.000378&team=T031FNTUT",
+  "msg": "1530011942.000378",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 20:19:13:687] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U5A639PTP-edb8fa505c4f-512",
+  "channel": "D7JP44402",
+  "content": "",
+  "id": "6G6ms0C50zG30JN",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D7JP44402&message=1530011945.000173&team=T031FNTUT",
+  "msg": "1530011945.000173",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 20:19:21:733] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:19:23:237] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:19:25:415] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 20:19:26:094] info: Store: SELECT_NEXT_TEAM
+[06/26/18, 20:22:10:117] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:10:133] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:35:020] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:35:040] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:38:095] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:38:102] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:43:458] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:43:471] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:43:688] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:43:709] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:44:492] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:22:44:506] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:24:51:127] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:24:52:611] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 20:24:52:622] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:24:53:563] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    311
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 20:31:49:194] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:31:49:215] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:34:58:839] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:34:59:875] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:35:00:463] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:35:00:970] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:54:40:489] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:54:40:497] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:54:47:685] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:54:47:704] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:54:58:918] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:54:58:934] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:55:03:270] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:55:03:295] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:56:31:974] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:56:31:987] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:56:33:707] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:56:33:739] info: Store: SET_FULL_SCREEN
+[06/26/18, 20:59:19:954] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4UUHLUF",
+  "content": "[REDACTED]",
+  "id": "g6RvHGu3wWG3NGZ",
+  "launchUri": "slack://channel?id=CB4UUHLUF&message=1530014359.000407&team=TB47MRNBZ",
+  "msg": "1530014359.000407",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/26/18, 21:00:30:117] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:30:143] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:34:078] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:34:703] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 21:00:34:715] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:35:644] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    311
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/26/18, 21:00:39:105] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:39:116] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:40:536] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:40:553] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:42:189] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:00:42:203] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:03:24:792] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12GWE7U6-ab8b5362aedb-512",
+  "channel": "C04KQT6L8",
+  "content": "[REDACTED]",
+  "id": "lXOvHAFqxZWY326",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C04KQT6L8&message=1530014604.000288&team=T031FNTUT",
+  "msg": "1530014604.000288",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[06/26/18, 21:03:44:280] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:03:44:286] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:03:49:561] info: Store: SELECT_CHANNEL C04KQT6L8
+[06/26/18, 21:09:15:074] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:09:15:079] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:09:48:827] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:09:48:844] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:09:51:336] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:09:59:233] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:10:01:405] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:10:01:942] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:10:02:381] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:10:02:396] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:11:09:038] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:11:09:045] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:11:11:778] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 21:11:16:497] info: Store: MAIN_WINDOW_FOCUSED
+[06/26/18, 21:11:16:675] info: Store: SELECT_TEAM TB47MRNBZ
+[06/26/18, 21:11:18:989] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 21:11:19:121] info: Store: SELECT_CHANNEL CB4UUHLUF
+[06/26/18, 21:11:30:816] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:11:30:817] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:25:22:343] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:25:22:491] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:25:58:959] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:25:58:960] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:26:41:141] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:26:41:434] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:26:46:700] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/26/18, 21:26:46:840] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/26/18, 21:27:20:556] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:27:20:560] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:11:763] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:11:777] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:32:093] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:48:714] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:50:482] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:50:482] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:53:994] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:29:54:111] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:30:06:040] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:30:06:046] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:30:30:084] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:30:30:315] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:30:31:579] info: Store: SET_FULL_SCREEN
+[06/26/18, 21:30:31:580] info: Store: SET_FULL_SCREEN
+[06/26/18, 22:03:17:060] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4RSF6SG",
+  "content": "[REDACTED]",
+  "id": "yMqRs2CRYjBNQEN",
+  "launchUri": "slack://channel?id=CB4RSF6SG&message=1530018196.000747&team=TB47MRNBZ",
+  "msg": "1530018196.000747",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/26/18, 23:58:56:153] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBA0LQKUJ-ga010bcfccd7-512",
+  "channel": "CB9AUBY1X",
+  "content": "[REDACTED]",
+  "id": "869zu8cMD8OmArQ",
+  "launchUri": "slack://channel?id=CB9AUBY1X&message=1530025135.000984&team=TB9PVC95H",
+  "msg": "1530025135.000984",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[06/27/18, 02:19:27:537] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 02:19:27:892] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:19:27:907] info: Store: REMOVE_WEB_CONTENTS
+{
+  "id": 7,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:19:28:501] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530033868497,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:20:12:891] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530033912886,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:22:12:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034032868,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:24:12:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034152867,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:26:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034272857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:28:12:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034392864,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:30:12:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034512848,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:32:12:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034632871,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:34:12:922] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034752917,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:36:12:926] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034872921,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:38:12:932] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530034992927,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:40:12:918] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035112916,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:42:12:922] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035232918,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:44:12:927] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035352922,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:46:12:926] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035472923,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:48:12:921] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035592916,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:50:12:921] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035712917,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:52:12:921] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035832916,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:54:12:926] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530035952921,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:56:12:926] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036072921,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 02:58:12:920] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036192918,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:00:12:929] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036312925,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:02:12:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036432856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:04:12:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036552849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:06:12:870] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036672865,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:08:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036792854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:10:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036912854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:11:17:293] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 03:11:17:634] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:11:17:639] info: Store: REMOVE_WEB_CONTENTS
+{
+  "id": 4,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:11:18:261] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036978257,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:11:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530036985849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:12:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037032847,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:13:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037105854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:14:12:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037152859,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:15:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037225855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:16:12:866] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037272861,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:17:25:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037345851,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:18:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037392851,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:19:25:847] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037465842,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:20:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037512853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:21:25:851] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037585846,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:22:12:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037632856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:23:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037705847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:24:12:851] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037752846,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:25:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037825849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:26:12:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037872856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:27:25:851] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037945847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:28:13:022] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530037993018,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:29:25:848] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038065844,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:30:12:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038112852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:31:25:846] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038185844,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:32:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038232847,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:33:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038305849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:34:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038352857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:35:25:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038425847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:36:12:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038472862,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:37:25:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038545846,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:38:12:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038592851,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:39:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038665852,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:40:12:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038712856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:41:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038785850,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:42:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038832855,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:43:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038905852,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:44:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530038952853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:45:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039025853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:46:12:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039072851,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:47:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039145850,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:48:12:850] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039192849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:49:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039265852,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:50:12:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039312854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:51:25:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039385848,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:52:12:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039432859,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:53:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039505853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:54:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039552853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:55:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039625853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:56:12:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039672856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:57:25:851] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039745847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 03:58:12:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039792849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 03:59:25:851] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039865847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:00:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039912857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:01:25:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530039985847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:02:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040032849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:03:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040105849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:04:12:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040152852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:05:25:851] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040225847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:06:12:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040272852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:07:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040345853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:08:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040392854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:09:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040465853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:10:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040512848,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:11:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040585852,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:12:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040632853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:13:25:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040705848,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:14:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040752847,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:15:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040825855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:16:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040872865,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:17:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040945848,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:18:12:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530040992852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:19:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041065848,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:20:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041112847,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:21:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041185853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:22:12:866] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041232862,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:23:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041305849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:24:12:878] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041352873,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:25:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041425854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:26:12:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041472852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:27:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041545854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:28:12:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041592852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:29:25:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041665847,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:30:12:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041712863,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:31:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041785855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:32:12:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041832848,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:33:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041905855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:34:12:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530041952853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:35:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042025863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:36:12:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042072851,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:37:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042145858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:38:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042192854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:39:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042265862,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:40:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042312854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:41:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042385862,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:42:12:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042432849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:43:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042505854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:44:12:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042552858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:45:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042625852,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:46:12:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042672849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:47:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042745851,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:48:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042792857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:49:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042865855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:50:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042912857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:51:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530042985849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:52:12:850] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043032845,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:53:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043105855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:54:12:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043152864,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:55:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043225855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:56:12:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043272850,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:57:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043345849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 04:58:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043392854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 04:59:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043465856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:00:12:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043512858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:01:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043585854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:02:12:866] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043632857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:03:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043705849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:04:12:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043752849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:05:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043825849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:06:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043872853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:07:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043945849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:08:12:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530043992856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:09:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044065849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:10:12:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044112850,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:11:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044185855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:12:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044232858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:13:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044305849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:14:12:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044352849,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:15:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044425848,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:16:12:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044472858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:17:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044545849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:18:12:846] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044592845,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:19:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044665855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:20:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044712858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:21:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044785850,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:22:12:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044832852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:23:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044905849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:24:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530044952857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:25:25:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045025856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:26:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045072854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:27:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045145858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:28:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045192867,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:29:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045265863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:30:12:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045312855,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:31:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045385858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:32:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045432853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:33:25:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045505858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:34:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045552857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:35:25:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045625852,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:36:12:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045672852,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:37:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045745855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:38:12:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045792857,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:39:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045865853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:40:12:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045912868,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:41:25:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530045985848,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:42:12:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046032850,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:43:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046105850,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:44:12:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046152860,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:45:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046225855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:46:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046272854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:47:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046345856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:48:12:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046392865,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:49:25:854] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046465849,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:50:12:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046512853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:51:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046585854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:52:12:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046632864,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:53:25:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046705858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:54:12:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046752859,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:55:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046825851,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:56:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046872854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:57:25:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046945851,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 05:58:13:049] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530046993044,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 05:59:25:856] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047065851,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:00:12:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047112861,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:01:25:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047185859,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:02:12:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047232856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:03:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047305851,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:04:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047352858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:05:25:855] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047425850,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:06:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047472853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:07:25:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047545856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:08:12:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047592855,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:09:25:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047665857,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:10:12:853] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047712848,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:11:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047785858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:12:12:862] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047832858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:13:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047905855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:14:12:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530047952861,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:15:25:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048025856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:16:12:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048072853,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:17:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048145858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:18:12:852] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048192851,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:19:25:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048265858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:20:12:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048312869,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:21:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048385854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:22:12:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048432867,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:23:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048505854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:24:12:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048552854,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:25:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048625854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:26:12:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048672858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:27:25:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048745867,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:28:12:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048792859,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:29:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048865854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:30:12:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048912859,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:31:25:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530048985860,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:32:12:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049032860,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:33:25:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049105860,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:34:12:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049152863,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:35:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049225854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:36:12:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049272863,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:37:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049345858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:38:12:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049392864,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:39:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049465853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:40:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049512866,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:41:25:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049585860,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:42:12:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049632859,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:43:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049705854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:44:12:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049752869,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:45:25:864] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049825859,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:46:12:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049872863,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:47:25:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049945861,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:48:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530049992870,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:49:25:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050065854,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:50:12:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050112871,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:51:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050185858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:52:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050232866,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:53:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050305863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:54:12:874] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050352869,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:55:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050425868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:56:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050472866,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:57:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050545863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 06:58:12:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050592864,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 06:59:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050665863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:00:12:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050712860,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:01:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050785863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:02:12:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050832858,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:03:25:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050905860,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:04:12:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530050952869,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:05:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051025859,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:06:12:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051072868,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:07:25:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051145860,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:08:12:883] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051192878,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:09:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051265858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:10:12:879] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051312874,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:11:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051385855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:12:12:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051432872,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:13:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051505855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:14:12:875] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051552870,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:15:25:858] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051625853,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:16:12:878] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051672873,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:17:25:865] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051745861,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:18:12:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051792869,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:19:25:860] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051865855,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:20:12:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051912863,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:21:25:878] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530051985874,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:22:12:879] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052032874,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:23:25:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052105856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:24:12:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052152864,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:25:25:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052225856,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:26:12:884] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052272879,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:27:25:866] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052345861,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:28:12:891] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052392887,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:29:25:863] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052465858,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:30:12:870] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052512866,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:31:25:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052585864,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:32:12:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052632868,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:33:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052705868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:34:12:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052752871,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:35:25:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052825864,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:36:12:879] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052872874,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:37:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052945862,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:38:12:880] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530052992873,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:39:25:861] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053065859,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:40:12:882] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053112877,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:41:25:866] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053185862,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:42:12:886] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053232881,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:43:25:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053305864,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:44:12:937] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053352933,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:45:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053425863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:46:12:953] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053472948,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:47:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053545863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:48:12:948] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053592944,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:49:25:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053665872,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:50:12:954] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053712949,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:51:25:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053785868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:51:38:251] error: Jun-27 07:51:38.251 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4104: received goodbye from server
+[06/27/18, 07:52:12:938] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053832934,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:53:25:877] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053905872,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:54:12:948] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530053952944,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:55:25:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054025871,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:56:12:952] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054072948,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:57:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054145863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 07:58:12:889] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054192884,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 07:59:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054265864,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:00:12:882] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054312878,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:01:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054385868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:02:12:889] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054432885,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:03:25:878] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054505874,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:04:12:892] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054552888,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:05:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054625863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:06:12:907] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054672903,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:07:25:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054745867,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:08:12:894] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054792889,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:09:25:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054865868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:10:12:893] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054912888,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:11:25:870] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530054985867,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:12:12:897] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055032893,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:13:25:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055105863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:14:12:898] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055152893,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:15:25:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055225867,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:16:12:898] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055272893,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:17:25:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055345863,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:18:12:893] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055392890,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:19:25:874] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055465864,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:20:12:916] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055512910,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:21:25:872] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055585868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:22:12:899] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055632894,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:23:25:869] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055705864,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:24:12:905] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055752901,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:25:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055825868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:26:12:919] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055872915,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:27:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055945869,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:28:12:906] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530055992899,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:29:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056065868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:30:12:903] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056112898,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:31:25:887] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056185883,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:32:12:933] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056232928,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:33:25:875] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056305870,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:34:12:936] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056352932,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:35:25:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056425866,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:36:12:914] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056472910,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:37:25:878] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056545873,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:38:12:915] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056592910,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:39:25:876] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056665871,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:40:12:922] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056712913,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:41:25:870] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056785865,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:42:12:919] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056832915,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:43:25:873] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056905868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:44:12:921] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530056952916,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:45:25:870] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057025868,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:46:13:016] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057073010,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:47:25:878] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057145874,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:48:13:016] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057193011,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:49:25:875] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057265870,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:50:13:019] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057313014,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:51:25:884] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057385879,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:52:13:234] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057433229,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:53:25:885] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057505881,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:54:13:027] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057553023,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:55:25:877] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057625873,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:56:12:953] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057672948,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:57:25:877] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057745873,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 08:58:12:957] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057792952,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 08:59:25:883] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057865876,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 09:00:06:202] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-USLACKBOT-sv1444671949-512",
+  "channel": "CB6NSV6F3",
+  "content": "[REDACTED]",
+  "id": "Mok0SRFW8g8m523",
+  "launchUri": "slack://channel?id=CB6NSV6F3&message=1530057605.000538&team=TB47MRNBZ",
+  "msg": "1530057605.000538",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 09:00:06:220] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-USLACKBOT-sv1444671949-512",
+  "channel": "CB6NSV6F3",
+  "content": "[REDACTED]",
+  "id": "PrnRHZHjYNYo2kJ",
+  "launchUri": "slack://channel?id=CB6NSV6F3&message=1530057605.000540&team=TB47MRNBZ",
+  "msg": "1530057605.000540",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 09:00:13:044] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530057913040,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 09:00:17:180] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-USLACKBOT-sv1444671949-512",
+  "channel": "CB6NSV6F3",
+  "content": "[REDACTED]",
+  "id": "53BjuwI20m0pmxo",
+  "launchUri": "slack://channel?id=CB6NSV6F3&message=1530057616.000544&team=TB47MRNBZ",
+  "msg": "1530057616.000544",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 09:00:24:155] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-USLACKBOT-sv1444671949-512",
+  "channel": "CB6NSV6F3",
+  "content": "[REDACTED]",
+  "id": "44AgHESWGvGEkwy",
+  "launchUri": "slack://channel?id=CB6NSV6F3&message=1530057623.000551&team=TB47MRNBZ",
+  "msg": "1530057623.000551",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 09:00:26:177] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-USLACKBOT-sv1444671949-512",
+  "channel": "CB6NSV6F3",
+  "content": "[REDACTED]",
+  "id": "Jl4LCxTL1w10q1o",
+  "launchUri": "slack://channel?id=CB6NSV6F3&message=1530057625.000526&team=TB47MRNBZ",
+  "msg": "1530057625.000526",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 09:01:26:350] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/27/18, 09:01:44:707] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 09:01:49:339] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 09:01:49:716] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 09:01:50:110] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 09:01:50:297] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530058010293,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 09:01:53:596] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 09:01:53:618] error: Jun-27 09:01:53.618 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/27/18, 09:01:53:623] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 09:01:54:085] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 09:01:54:349] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 09:01:54:361] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:12:07:899] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 10:12:07:909] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:12:07:912] error: Jun-27 10:12:07.912 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/27/18, 10:12:07:920] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:12:15:030] error: Jun-27 10:12:15.030 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/27/18, 10:12:17:972] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 10:12:17:974] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 10:12:18:794] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:12:18:797] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:12:19:138] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:12:19:428] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:12:19:488] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 10:12:19:793] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062239790,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:12:20:034] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062240033,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:12:22:255] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:12:24:263] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:12:24:300] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:12:27:256] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:12:27:535] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:12:27:716] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062247715,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:12:59:295] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:12:59:295] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:13:14:068] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "n82DSQUZqBQQvWM",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530061994.000261&team=TB47MRNBZ",
+  "msg": "1530061994.000261",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 10:13:17:688] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1530061994.000261",
+  "notificationId": "n82DSQUZqBQQvWM",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 10:13:17:691] info: Store: SELECT_TEAM TB47MRNBZ
+[06/27/18, 10:13:17:804] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:13:17:805] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:13:24:994] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062304987,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:13:40:020] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:13:40:020] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:13:46:492] error: Jun-27 10:13:46.492 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/27/18, 10:13:46:892] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 10:13:53:206] error: Jun-27 10:13:53.206 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/27/18, 10:13:55:009] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "kDYzf3c91OMMoQk",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530062007.000285&team=TB47MRNBZ",
+  "msg": "1530062007.000285",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 10:13:56:689] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "62Dki3f50zKKPnm",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530062037.000097&team=TB47MRNBZ",
+  "msg": "1530062037.000097",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/27/18, 10:13:57:088] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 10:14:08:621] error: Jun-27 10:14:08.620 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4105: client went offline
+[06/27/18, 10:14:09:013] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 10:14:20:521] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062360520,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:21:037] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062361035,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:35:951] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 10:14:49:865] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:14:50:584] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:51:106] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:54:872] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:14:55:003] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:14:55:230] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062395227,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:14:55:592] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:14:55:732] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:55:965] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062395961,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:56:110] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:14:56:153] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:14:56:341] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062396338,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:15:25:040] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062425036,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:16:12:322] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062472319,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:16:12:327] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062472319,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:17:24:958] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062544951,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:18:12:362] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062592358,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:18:12:366] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530062592359,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:18:59:500] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:19:12:195] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:19:17:653] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 10:19:17:679] error: Jun-27 10:19:17.678 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/27/18, 10:19:17:687] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:19:17:691] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:19:18:133] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 10:24:48:888] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 10:24:48:932] error: Jun-27 10:24:48.932 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/27/18, 10:24:48:934] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:24:48:934] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:24:48:934] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:24:48:934] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:24:58:960] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:24:59:697] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:00:081] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:02:170] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:25:02:173] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:25:02:232] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:02:281] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:25:02:771] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 10:25:02:867] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063002856,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:02:886] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063002884,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:25:03:968] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:25:04:028] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:25:04:218] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063004211,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:25:04:707] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:25:04:751] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:04:972] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063004966,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:05:089] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:25:05:157] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:05:327] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063005326,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:25:25:894] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063025887,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:25:25:895] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063025888,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:25:33:098] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 10:25:33:104] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 10:26:13:262] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063073258,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:26:13:265] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063073259,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:26:13:270] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063073259,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:26:30:613] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:26:31:908] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:27:25:969] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063145962,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:27:25:970] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063145962,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:28:13:274] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063193271,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:28:13:278] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063193271,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:28:13:281] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530063193272,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:28:32:156] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:32:249] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:49:603] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:49:604] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:52:720] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:52:793] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:55:926] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:28:55:926] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:29:01:192] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 10:29:01:217] error: Jun-27 10:29:01.215 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+[06/27/18, 10:29:01:253] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:29:01:255] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:29:01:747] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 10:38:23:917] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 10:38:23:948] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:38:23:952] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 10:38:24:052] error: Jun-27 10:38:24.052 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+[06/27/18, 10:38:24:056] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:38:24:056] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:38:29:073] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:38:29:100] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:38:30:421] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 10:38:31:178] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:38:31:542] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 10:38:34:527] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:38:34:531] info: Store: SET_FULL_SCREEN
+[06/27/18, 10:38:37:088] info: Store: RELOAD
+{
+  "everything": false
+}
+[06/27/18, 10:38:37:107] info: Window is unloading, window.desktop is no longer accessible

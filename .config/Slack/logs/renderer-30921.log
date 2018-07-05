@@ -1,0 +1,142 @@
+[06/28/18, 22:05:00:737] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/28/18, 22:05:00:738] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/28/18, 22:05:00:734      ║
+[06/28/18, 22:05:00:738] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/28/18, 22:05:00:935] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/28/18, 22:05:01:432] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/28/18, 22:05:01:440] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[06/28/18, 22:05:01:563] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/28/18, 22:05:01:566] info: Don't start background client because T031FNTUT is selected team
+[06/28/18, 22:05:01:586] info: Store: SET_NETWORK_STATUS offline
+[06/28/18, 22:05:01:591] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/28/18, 22:05:01:596] warn: SlackApi: Failed to call api.features
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/28/18, 22:05:01:600] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[06/28/18, 22:05:01:605] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/28/18, 22:05:01:614] warn: SlackApi: Failed to call api.features
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/28/18, 22:05:01:620] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/28/18, 22:05:01:630] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/28/18, 22:05:06:883] info: Store: SET_FULL_SCREEN
+[06/28/18, 22:05:06:919] info: Store: SET_FULL_SCREEN
+[06/28/18, 22:05:48:644] info: NetworkStatus: Waiting for network online…
+[06/28/18, 22:05:48:667] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/28/18, 22:05:48:682] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/28/18, 22:05:53:653] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/28/18, 22:05:53:663] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/28/18, 22:05:54:013] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/28/18, 22:05:54:018] info: Store: REMOVE_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "TB47MRNBZ"
+}
+[06/28/18, 22:05:54:124] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/28/18, 22:05:54:316] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/28/18, 22:05:54:528] info: Store: SET_NETWORK_STATUS online
+[06/28/18, 22:05:54:531] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/28/18, 22:05:54:536] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[06/28/18, 22:05:54:899] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/28/18, 22:05:54:923] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/28/18, 22:05:54:927] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530191454925,
+  "teamId": "TB47MRNBZ"
+}
+[06/28/18, 22:05:55:116] info: Store: SET_FULL_SCREEN
+[06/28/18, 22:05:55:119] info: Store: SET_FULL_SCREEN
+[06/28/18, 22:05:55:254] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/28/18, 22:05:55:377] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530191455263,
+  "teamId": "TB9PVC95H"
+}
+[06/28/18, 22:05:57:420] info: Store: RELOAD
+{
+  "everything": false
+}

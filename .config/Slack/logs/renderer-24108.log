@@ -1,0 +1,227 @@
+[07/05/18, 10:49:26:453] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[07/05/18, 10:49:26:454] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 07/05/18, 10:49:26:450      ║
+[07/05/18, 10:49:26:454] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[07/05/18, 10:49:26:599] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[07/05/18, 10:49:27:290] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[07/05/18, 10:49:27:290] error: Desktop module calls failed to load
+[07/05/18, 10:49:27:323] info: cld3::loadModule: loading cld3 module
+[07/05/18, 10:49:27:352] info: cld3Loader::loadModule: running environment is NODE
+[07/05/18, 10:49:27:352] info: cld3Loader::loadModule: constructed module object for runtime
+[07/05/18, 10:49:27:619] info: cld3Loader::initializeRuntime: successfully initialized module
+[07/05/18, 10:49:27:620] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[07/05/18, 10:49:27:640] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[07/05/18, 10:49:27:664] info: Main window preload script finished
+{
+  "readyTime": 1747.313828
+}
+[07/05/18, 10:49:29:004] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 15,
+  "state": "loaded",
+  "teamId": "TB9PVC95H"
+}
+[07/05/18, 10:49:31:251] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB9PVC95H"
+}
+[07/05/18, 10:49:31:258] info: Store: SELECT_CHANNEL CBHUSPXNW
+[07/05/18, 10:49:31:259] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[07/05/18, 10:49:31:260] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
+  },
+  "teamId": "TB9PVC95H"
+}
+[07/05/18, 10:49:31:260] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[07/05/18, 10:49:31:260] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 15,
+  "state": "webapp-loaded",
+  "teamId": "TB9PVC95H"
+}
+[07/05/18, 10:49:31:262] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB9PVC95H"
+}
+[07/05/18, 10:49:31:263] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB9PVC95H",
+  "theme": {
+    "active_item": "#F79F66",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#F79F66",
+    "badge": "#F15340",
+    "column_bg": "#0D7E83",
+    "hover_item": "#D37C71",
+    "menu_bg": "#076570",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/05/18, 10:49:32:219] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:32:894] error: Jul-5 10:49:32.893 file:FBBL0PV7T (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/05/18, 10:49:32:901] error: Jul-5 10:49:32.901 file:FBD80L9HD (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/05/18, 10:49:32:903] error: Jul-5 10:49:32.903 file:FB43T923F (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/05/18, 10:49:32:905] error: Jul-5 10:49:32.904 file:FB2148YD7 (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[07/05/18, 10:49:33:116] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/05/18, 10:49:34:309] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:34:318] info: Store: SELECT_CHANNEL C0253QGQF
+[07/05/18, 10:49:34:319] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:34:319] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T0253QGQ9",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[07/05/18, 10:49:34:430] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:34:435] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:34:460] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "webapp-loaded",
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:34:698] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:49:34:818] error: Jul-5 10:49:34.818 SOCKET-MANAGER (T0253QGQ9) Closing socket because #4105: client went offline
+[07/05/18, 10:49:34:926] info: Store: SET_NETWORK_STATUS offline
+[07/05/18, 10:49:35:106] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[07/05/18, 10:49:35:121] info: loadAsmModule: loading hunspell-asm module
+[07/05/18, 10:49:35:484] info: loadAsmModule: asm module loaded successfully
+[07/05/18, 10:49:35:485] info: SpellChecker: Starting spellchecker with language detector
+[07/05/18, 10:49:35:485] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[07/05/18, 10:49:35:485] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[07/05/18, 10:49:35:495] info: download: downloading dictionary for 'en-us'
+[07/05/18, 10:49:35:495] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[07/05/18, 10:49:35:497] error: dictionaryDownloader: could not download dictionary
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[07/05/18, 10:49:35:507] info: SpellChecker::downloadDictionary: Skipping unsupported dictionary for 
+{
+  "language": "en"
+}
+[07/05/18, 10:49:38:082] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/05/18, 10:49:38:152] info: Store: SELECT_CHANNEL D9D45NTD4
+[07/05/18, 10:49:45:170] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/05/18, 10:49:45:257] info: Store: SELECT_CHANNEL D9KKTK41M
+[07/05/18, 10:49:46:631] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[07/05/18, 10:49:46:744] info: Store: SELECT_CHANNEL D9D45NTD4
+[07/05/18, 10:49:46:823] info: Store: SET_NETWORK_STATUS online
+[07/05/18, 10:49:59:654] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T031FNTUT"
+}
+[07/05/18, 10:49:59:789] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "T0253QGQ9"
+}
+[07/05/18, 10:50:04:651] info: Store: SELECT_NEXT_TEAM
+[07/05/18, 10:50:04:661] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 17,
+  "state": "unloaded",
+  "teamId": "T031FNTUT"
+}
+[07/05/18, 10:50:04:695] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[07/05/18, 10:50:04:798] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[07/05/18, 10:50:05:240] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T0253QGQ9"
+}

@@ -1,0 +1,441 @@
+[06/29/18, 20:38:40:234] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/29/18, 20:38:40:235] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/29/18, 20:38:40:231      ║
+[06/29/18, 20:38:40:235] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/29/18, 20:38:40:321] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/29/18, 20:38:40:634] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/29/18, 20:38:40:634] error: Desktop module calls failed to load
+[06/29/18, 20:38:40:657] info: cld3::loadModule: loading cld3 module
+[06/29/18, 20:38:40:685] info: cld3Loader::loadModule: running environment is NODE
+[06/29/18, 20:38:40:685] info: cld3Loader::loadModule: constructed module object for runtime
+[06/29/18, 20:38:41:080] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/29/18, 20:38:41:080] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/29/18, 20:38:41:134] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/29/18, 20:38:41:151] info: Main window preload script finished
+{
+  "readyTime": 1190.939162
+}
+[06/29/18, 20:38:43:644] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 9,
+  "state": "loaded",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:44:432] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/29/18, 20:38:44:752] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:45:074] info: Store: SELECT_CHANNEL CB9AUBY1X
+[06/29/18, 20:38:45:075] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:45:076] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "TB9PVC95H",
+  "theme": {
+    "active_item": "#F79F66",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#F79F66",
+    "badge": "#F15340",
+    "column_bg": "#0D7E83",
+    "hover_item": "#D37C71",
+    "menu_bg": "#076570",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/29/18, 20:38:45:090] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
+  },
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:45:092] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:45:092] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 9,
+  "state": "webapp-loaded",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:45:098] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 20:38:53:111] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:38:55:559] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:43:25:633] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:43:25:658] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:43:52:575] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:43:54:113] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:43:54:557] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:43:55:159] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:44:08:253] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:44:09:837] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:44:18:595] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:44:18:615] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:46:58:575] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "0ojjFrtWvXWD3kx",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530272818.000107&team=TB47MRNBZ",
+  "msg": "1530272818.000107",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/29/18, 20:48:00:714] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "BXGGU8ujqJj6LDN",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530272880.000126&team=TB47MRNBZ",
+  "msg": "1530272880.000126",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/29/18, 20:49:21:507] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:49:30:561] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:50:09:095] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:50:16:260] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:50:27:118] info: Store: SELECT_CHANNEL CB47MRRTR
+[06/29/18, 20:50:38:830] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:51:36:671] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:51:58:896] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:52:02:843] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:52:23:589] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:52:26:172] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:52:28:554] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:52:35:235] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:53:28:814] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:55:26:995] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:55:55:081] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:20:389] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:30:477] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:34:853] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:43:144] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:49:074] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:52:191] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:56:59:790] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:57:06:857] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "poWWFOCGlLGxBY5",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530273426.000116&team=TB47MRNBZ",
+  "msg": "1530273426.000116",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/29/18, 20:57:12:105] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:57:12:219] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:57:12:428] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:57:13:111] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:58:37:452] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:58:52:515] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:59:02:990] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:59:10:976] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:59:12:140] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:59:13:681] info: Store: SET_FULL_SCREEN
+[06/29/18, 20:59:20:360] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:00:23:165] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:01:27:492] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:01:54:774] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:03:22:611] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:03:40:853] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:04:23:236] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:04:34:651] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:07:14:448] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:23:53:884] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:25:04:621] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:25:27:876] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:25:39:745] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:30:20:833] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:45:12:538] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:45:30:984] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:45:42:122] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:45:59:578] info: Store: SET_FULL_SCREEN
+[06/29/18, 21:50:55:728] error: Jun-29 21:50:55.727 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 21:54:09:720] error: Jun-29 21:54:09.720 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 21:58:52:720] error: Jun-29 21:58:52.720 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 21:59:15:718] error: Jun-29 21:59:15.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/29/18, 21:59:15:719] error: Jun-29 21:59:15.719 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 21:59:54:718] error: Jun-29 21:59:54.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 21:59:54:719] error: Jun-29 21:59:54.719 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:00:29:078] error: Jun-29 22:00:29.077 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:00:52:759] error: Jun-29 22:00:52.758 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:01:20:741] error: Jun-29 22:01:20.740 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:02:14:718] error: Jun-29 22:02:14.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:02:14:719] error: Jun-29 22:02:14.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:02:57:718] error: Jun-29 22:02:57.717 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:02:57:719] error: Jun-29 22:02:57.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:03:35:762] error: Jun-29 22:03:35.762 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:04:31:719] error: Jun-29 22:04:31.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:04:31:720] error: Jun-29 22:04:31.719 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:05:27:762] error: Jun-29 22:05:27.762 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:07:04:995] error: Jun-29 22:07:04.995 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:07:47:774] error: Jun-29 22:07:47.741 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:09:05:752] error: Jun-29 22:09:05.751 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:10:27:743] error: Jun-29 22:10:27.743 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:10:52:754] error: Jun-29 22:10:52.753 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:11:22:772] error: Jun-29 22:11:22.771 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:12:03:752] error: Jun-29 22:12:03.751 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:12:59:762] error: Jun-29 22:12:59.760 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:14:11:775] error: Jun-29 22:14:11.775 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:14:20:952] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/29/18, 22:14:21:303] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/29/18, 22:14:22:726] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
+  },
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 22:14:22:745] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 22:14:40:788] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/29/18, 22:14:41:444] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/29/18, 22:15:25:368] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:15:43:824] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:18:51:720] error: Jun-29 22:18:51.719 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:20:45:412] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:22:24:723] error: Jun-29 22:22:24.722 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:22:46:744] error: Jun-29 22:22:46.744 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:23:09:718] error: Jun-29 22:23:09.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+[06/29/18, 22:23:09:720] error: Jun-29 22:23:09.719 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:23:32:737] error: Jun-29 22:23:32.737 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:23:55:751] error: Jun-29 22:23:55.751 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:24:18:743] error: Jun-29 22:24:18.742 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:24:58:718] error: Jun-29 22:24:58.717 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:24:58:718] error: Jun-29 22:24:58.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:25:41:717] error: Jun-29 22:25:41.717 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:25:41:718] error: Jun-29 22:25:41.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:26:17:756] error: Jun-29 22:26:17.755 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:27:26:717] error: Jun-29 22:27:26.717 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:27:26:718] error: Jun-29 22:27:26.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:29:04:718] error: Jun-29 22:29:04.717 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:29:04:718] error: Jun-29 22:29:04.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:29:31:951] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:29:39:914] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:29:40:631] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:29:41:079] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:30:02:248] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:30:04:261] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:30:26:766] error: Jun-29 22:30:26.766 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
+[06/29/18, 22:31:19:055] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:20:059] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:20:756] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:38:403] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:39:978] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:40:755] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:47:880] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:31:50:516] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:32:03:717] error: Jun-29 22:32:03.717 SOCKET-MANAGER (TB9PVC95H) Closing socket because we spent 35000 ms in prov_connecting state; giving up
+[06/29/18, 22:32:03:718] error: Jun-29 22:32:03.718 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4107: client state machine got stuck
+[06/29/18, 22:32:11:480] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:32:12:841] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:32:47:939] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/29/18, 22:32:48:086] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/29/18, 22:33:07:477] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
+  },
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 22:33:07:479] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[06/29/18, 22:37:11:552] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_original.jpg"
+  },
+  "teamId": "TB47MRNBZ"
+}
+[06/29/18, 22:37:11:799] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB47MRNBZ"
+}
+[06/29/18, 22:44:20:114] info: Store: SET_FULL_SCREEN
+[06/29/18, 22:44:21:848] info: Store: SET_FULL_SCREEN
+[06/29/18, 23:00:06:953] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "9AvvcMFOXg10NOg",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1530280806.000554&team=TB47MRNBZ",
+  "msg": "1530280806.000554",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/30/18, 00:34:06:238] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB3EDHZ7A",
+  "content": "[REDACTED]",
+  "id": "vx66t4HA67yOo1v",
+  "launchUri": "slack://channel?id=CB3EDHZ7A&message=1530286446.000033&team=TB47MRNBZ",
+  "msg": "1530286446.000033",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/30/18, 00:34:31:819] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB61C5Z35",
+  "content": "[REDACTED]",
+  "id": "YYDDtjIVqL3vW3m",
+  "launchUri": "slack://channel?id=CB61C5Z35&message=1530286471.000327&team=TB47MRNBZ",
+  "msg": "1530286471.000327",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[06/30/18, 02:38:40:322] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T031FNTUT",
+  "token": "xoxs-⋯"
+}
+[06/30/18, 02:38:40:713] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T031FNTUT"
+}
+[06/30/18, 02:38:40:736] info: Store: REMOVE_WEB_CONTENTS
+{
+  "id": 4,
+  "teamId": "T031FNTUT"
+}
+[06/30/18, 02:38:41:433] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530294221430,
+  "teamId": "T031FNTUT"
+}
+[06/30/18, 02:38:46:074] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/30/18, 02:38:46:975] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}

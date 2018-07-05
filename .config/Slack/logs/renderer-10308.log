@@ -1,0 +1,2384 @@
+[06/27/18, 16:56:29:226] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/27/18, 16:56:29:227] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/27/18, 16:56:29:223      ║
+[06/27/18, 16:56:29:227] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/27/18, 16:56:29:409] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/27/18, 16:56:29:575] info: NetworkStatus: Waiting for network online…
+[06/27/18, 16:56:29:899] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/27/18, 16:56:29:904] info: Don't start background client because T031FNTUT is selected team
+[06/27/18, 16:56:30:056] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/27/18, 16:56:30:167] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 16:56:30:362] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 16:56:30:381] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/27/18, 16:56:30:405] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 16:56:30:461] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 16:56:30:480] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 16:56:30:960] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/27/18, 16:56:30:969] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086490964,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 16:56:31:038] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/27/18, 16:56:31:043] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086491040,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 16:56:35:084] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:35:089] info: Store: MAIN_WINDOW_SHOWN
+[06/27/18, 16:56:35:140] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:35:174] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:35:184] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:35:214] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:35:415] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:35:904] info: Store: SELECT_CHANNEL C031FNU0K
+[06/27/18, 16:56:35:910] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/27/18, 16:56:35:918] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/27/18, 16:56:36:134] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/27/18, 16:56:36:762] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/27/18, 16:56:37:767] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:37:865] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:37:872] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:38:032] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:39:863] info: Store: SELECT_CHANNEL C9Z4BU1C2
+[06/27/18, 16:56:48:666] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086508662,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 16:57:20:506] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:57:22:308] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:57:23:071] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:57:47:754] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:58:13:659] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086593655,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 16:58:25:919] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:58:48:575] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086628573,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:00:13:365] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086713361,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:00:48:478] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086748469,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:02:13:291] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086833286,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:02:36:202] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:02:48:456] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086868452,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:02:55:672] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:03:32:546] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:04:13:294] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086953290,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:04:48:516] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086988511,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:05:19:860] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:06:13:267] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087073265,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:06:48:530] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087108524,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:08:13:317] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087193312,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:08:48:641] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087228640,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:10:13:534] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087313530,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:10:48:655] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087348653,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:12:13:549] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087433544,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:12:48:675] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087468669,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:14:13:720] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087553714,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:14:48:681] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087588679,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:16:13:473] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087673467,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:16:48:695] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087708693,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:18:13:281] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087793276,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:18:48:913] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087828911,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:20:13:497] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087913494,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:20:48:623] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087948622,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:22:13:517] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088033507,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:22:48:739] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088068734,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:24:13:320] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088153315,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:24:48:647] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088188644,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:26:13:335] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088273330,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:26:48:624] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088308620,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:28:13:310] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088393305,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:28:48:739] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088428735,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:30:13:421] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088513420,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:30:48:615] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088548610,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:32:13:541] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088633536,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:32:48:593] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088668589,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:34:13:353] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088753344,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:34:48:675] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088788673,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:36:13:369] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088873359,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:36:48:465] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088908460,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:38:13:376] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088993372,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:38:48:483] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089028478,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:40:13:388] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089113385,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:40:48:615] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089148611,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:42:13:402] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089233399,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:42:48:591] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089268587,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:44:13:426] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089353413,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:44:48:567] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089388561,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:46:13:431] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089473426,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:46:48:652] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089508650,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:48:13:442] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089593439,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:48:48:585] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089628581,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:50:13:377] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089713375,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:50:48:680] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089748677,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:52:13:364] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089833363,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:52:48:594] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089868589,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:54:13:279] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089953274,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:54:48:607] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089988602,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:56:01:185] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:56:13:291] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090073287,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:56:46:620] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:56:48:618] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090108615,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:58:13:306] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090193301,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:58:48:632] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090228628,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:00:13:422] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090313416,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:00:48:592] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090348586,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:00:57:701] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:02:07:915] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:02:13:332] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090433327,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:02:48:565] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090468560,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:04:13:247] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090553242,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:04:48:459] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090588449,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:06:13:358] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090673354,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:06:48:586] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090708582,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:08:13:345] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090793340,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:08:40:330] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:08:48:596] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090828592,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:10:13:364] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090913359,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:10:48:579] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090948575,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:11:06:683] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:11:08:537] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:12:13:295] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091033291,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:12:48:523] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091068518,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:14:13:484] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091153479,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:14:40:522] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:14:48:592] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091188587,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:16:13:528] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091273523,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:16:48:732] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091308730,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:18:13:269] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091393264,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:18:48:563] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091428560,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:20:13:227] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091513224,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:20:48:578] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091548570,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:22:13:221] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091633217,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:22:16:926] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:22:17:712] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:22:48:586] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091668583,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:24:13:274] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091753269,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:24:48:704] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091788699,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:26:13:287] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091873282,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:26:48:434] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091908429,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:28:13:296] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091993295,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:28:48:529] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092028521,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:30:13:235] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092113231,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:30:34:220] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:30:48:745] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092148739,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:32:06:745] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:32:08:187] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:32:13:429] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092233424,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:32:42:378] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 18:32:42:393] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:32:42:396] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:32:42:416] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:32:43:123] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 20:55:04:233] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 20:55:04:248] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:04:318] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:04:367] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/27/18, 20:55:04:376] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/27/18, 20:55:04:385] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:55:04:397] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:14:822] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/27/18, 20:55:14:827] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:35:285] info: NetworkStatus: Waiting for network online…
+[06/27/18, 20:55:36:564] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/27/18, 20:55:37:824] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 20:55:37:830] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/27/18, 20:55:38:985] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 20:55:39:099] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 20:55:40:822] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:40:826] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:40:830] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:41:149] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:55:41:405] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:41:672] info: BackgroundClient: Logged in
+{
+  "userId": "UB430Q7V4",
+  "teamId": "TB47MRNBZ",
+  "showBullet": true
+}
+[06/27/18, 20:55:41:676] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100841673,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:55:41:690] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:42:308] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/27/18, 20:55:42:310] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[06/27/18, 20:55:42:312] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100842308,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:42:314] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100842311,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:56:13:171] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100873166,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:56:13:181] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100873177,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:56:48:278] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100908273,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:58:13:247] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100993241,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:58:13:256] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100993243,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:58:48:314] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101028310,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:00:13:157] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101113155,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:00:13:161] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101113155,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:00:48:485] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101148480,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:02:13:091] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101233087,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:02:13:095] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101233088,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:02:48:395] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101268390,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:04:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101353159,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:04:13:173] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101353160,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:04:48:411] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101388406,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:06:13:089] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101473088,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:06:13:091] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101473088,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:06:48:423] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101508416,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:08:13:056] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101593050,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:08:13:093] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101593092,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:08:48:434] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101628430,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:10:13:120] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101713115,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:10:13:128] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101713116,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:10:48:346] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101748341,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:12:13:073] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101833067,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:12:13:082] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101833068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:12:48:381] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101868377,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:14:13:159] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101953157,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:14:13:161] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101953158,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:14:48:478] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101988471,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:16:13:061] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102073057,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:16:13:067] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102073058,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:16:48:385] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102108380,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:18:13:170] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102193165,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:18:13:182] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102193166,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:18:48:397] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102228392,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:20:13:141] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102313135,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:20:13:145] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102313136,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:20:48:414] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102348409,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:22:13:198] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102433193,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:22:13:206] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102433193,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:22:48:411] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102468406,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:24:13:090] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102553086,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:24:13:098] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102553087,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:24:48:478] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102588471,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:25:24:019] info: BackgroundClient: Preference change has_uploaded
+[06/27/18, 21:26:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102673159,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:26:13:172] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102673160,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:26:32:827] info: Store: SET_FULL_SCREEN
+[06/27/18, 21:26:33:544] info: Store: SET_FULL_SCREEN
+[06/27/18, 21:26:48:700] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102708694,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:28:13:053] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102793048,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:28:13:072] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102793068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:28:48:363] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102828361,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:30:13:186] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102913184,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:30:13:189] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102913184,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:30:48:432] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102948427,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:32:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103033160,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:32:13:172] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103033161,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:32:48:535] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103068533,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:34:13:229] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103153227,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:34:13:231] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103153228,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:34:48:438] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103188433,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:36:13:070] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103273065,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:36:13:078] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103273066,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:36:48:464] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103308459,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:38:13:161] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103393156,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:38:13:167] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103393157,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:38:48:613] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103428607,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:40:13:073] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103513068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:40:13:081] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103513069,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:40:48:594] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103548590,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:42:13:157] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103633151,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:42:13:167] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103633152,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:42:48:373] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103668368,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:44:13:055] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103753049,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:44:13:059] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103753050,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:44:48:390] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103788385,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:46:13:172] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103873167,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:46:13:180] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103873168,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:46:48:292] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103908290,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:48:13:071] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103993067,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:48:13:080] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103993068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:48:48:305] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530104028303,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:49:10:168] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 21:49:10:181] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:49:10:191] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:49:11:032] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 22:19:26:947] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 22:19:26:952] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:26:955] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:26:962] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/27/18, 22:19:26:963] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/27/18, 22:19:26:965] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:26:968] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:31:357] info: NetworkStatus: Waiting for network online…
+[06/27/18, 22:19:31:946] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/27/18, 22:19:31:974] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:32:412] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 22:19:32:414] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/27/18, 22:19:32:466] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:33:254] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:33:257] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:33:896] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:19:33:897] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:19:33:901] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:33:912] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:34:012] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:34:015] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:34:490] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:19:34:491] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:19:34:492] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:34:494] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:36:413] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[06/27/18, 22:19:36:420] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:36:428] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:36:441] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:38:955] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:19:38:956] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:19:38:965] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:38:968] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:40:312] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:19:40:313] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:19:40:316] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:40:324] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:42:082] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:42:414] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:42:578] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:44:202] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:19:44:203] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:19:44:208] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:44:214] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:53:009] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:20:04:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:04:974] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:04:975] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:04:983] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:04:992] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:05:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:05:965] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:05:966] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:05:971] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:05:978] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:09:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:10:626] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:10:654] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:10:654] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:10:660] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:10:663] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:11:855] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:11:856] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:11:859] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:11:860] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:14:625] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:15:441] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:15:443] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:15:448] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:15:453] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:30:406] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:20:35:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:36:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:38:698] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:38:699] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:38:699] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:38:703] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:40:835] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:40:836] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:40:839] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:40:851] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:41:626] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:42:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:43:769] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:43:769] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:43:771] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:43:779] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:44:740] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:44:740] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:44:742] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:44:744] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:45:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:45:928] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:20:45:930] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:20:45:934] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:45:946] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:09:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:10:086] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:10:087] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:10:090] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:10:101] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:11:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:12:579] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:12:579] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:12:582] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:12:588] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:14:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:15:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:15:741] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:15:742] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:15:745] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:15:750] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:16:261] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:16:262] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:16:266] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:16:271] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:16:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:16:937] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:16:937] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:16:940] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:16:946] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:40:627] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:41:558] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:41:559] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:41:562] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:41:568] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:42:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:43:816] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:43:817] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:43:820] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:43:827] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:46:632] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:46:644] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:47:634] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:47:657] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:47:658] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:47:661] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:47:665] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:48:421] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:48:422] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:48:425] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:48:429] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:48:867] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:21:48:869] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:21:48:877] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:48:885] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:00:617] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:02:853] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:09:047] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:11:615] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:11:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:13:198] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:13:199] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:13:201] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:13:206] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:14:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:15:088] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:15:255] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:15:256] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:15:264] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:15:267] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:18:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:18:639] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:19:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:19:644] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:19:645] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:19:650] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:19:661] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:20:467] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:20:468] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:20:472] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:20:482] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:21:391] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:21:392] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:21:394] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:21:400] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:43:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:44:227] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:44:228] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:44:232] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:44:237] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:45:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:46:587] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:50:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:50:639] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:51:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:51:653] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:51:654] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:51:657] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:51:670] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:52:338] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:52:339] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:52:343] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:52:350] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:53:341] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": 4,
+    "msg": "Too many connections"
+  }
+}
+[06/27/18, 22:22:53:342] error: startBackgroundClientEpic: Socket error 4001
+{
+  "message": "The socket was rate-limited, reconnect later"
+}
+[06/27/18, 22:22:53:346] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:53:352] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:56:821] error: socketErrorForMessage: Received error event over socket
+{
+  "error": {
+    "code": -1337,
+    "msg": "ASSocket: timed out reading 4 bytes from adminserver-jtit:10443"
+  }
+}
+[06/27/18, 22:22:56:822] error: startBackgroundClientEpic: Socket error 4337
+{
+  "message": "The socket closed unrecoverably, don't attempt reconnect"
+}
+[06/27/18, 22:22:56:827] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4337,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:56:837] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "unloaded",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:56:933] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:57:918] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/27/18, 22:23:00:400] info: Store: RELOAD
+{
+  "everything": false
+}

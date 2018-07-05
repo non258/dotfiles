@@ -1,0 +1,1998 @@
+[06/27/18, 16:56:32:273] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[06/27/18, 16:56:32:274] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/27/18, 16:56:32:271      ║
+[06/27/18, 16:56:32:274] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[06/27/18, 16:56:32:363] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[06/27/18, 16:56:32:702] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/27/18, 16:56:32:702] error: Desktop module calls failed to load
+[06/27/18, 16:56:32:725] info: cld3::loadModule: loading cld3 module
+[06/27/18, 16:56:32:745] info: cld3Loader::loadModule: running environment is NODE
+[06/27/18, 16:56:32:745] info: cld3Loader::loadModule: constructed module object for runtime
+[06/27/18, 16:56:32:904] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/27/18, 16:56:32:905] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/27/18, 16:56:32:916] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/27/18, 16:56:32:928] info: Main window preload script finished
+{
+  "readyTime": 938.423334
+}
+[06/27/18, 16:56:35:750] error: Jun-27 16:56:35.750 file:FBCHHJC31 (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
+[06/27/18, 16:56:35:903] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 16:56:36:118] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:36:121] info: Store: MAIN_WINDOW_SHOWN
+[06/27/18, 16:56:36:123] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:36:561] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:36:561] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:36:562] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:56:36:563] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:36:590] info: Store: SELECT_CHANNEL C031FNU0K
+[06/27/18, 16:56:36:591] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/27/18, 16:56:36:591] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/27/18, 16:56:36:643] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/27/18, 16:56:36:843] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T031FNTUT",
+  "theme": {
+    "active_item": "#95BFEA",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#FFFF00",
+    "badge": "#AAFFFF",
+    "column_bg": "#40E0D0",
+    "hover_item": "#48D1CC",
+    "menu_bg": "#AAFFFF",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/27/18, 16:56:37:868] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 10772.196967
+}
+[06/27/18, 16:56:38:026] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:38:027] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:38:027] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:38:058] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 16:56:38:360] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 16:56:38:374] info: loadAsmModule: loading hunspell-asm module
+[06/27/18, 16:56:38:662] info: loadAsmModule: asm module loaded successfully
+[06/27/18, 16:56:38:662] info: SpellChecker: Starting spellchecker with language detector
+[06/27/18, 16:56:38:662] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[06/27/18, 16:56:38:663] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[06/27/18, 16:56:38:729] info: download: downloading dictionary for 'en-us'
+[06/27/18, 16:56:38:729] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[06/27/18, 16:56:39:861] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/27/18, 16:56:39:926] info: Store: SELECT_CHANNEL C9Z4BU1C2
+[06/27/18, 16:56:39:938] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[06/27/18, 16:56:42:731] info: dictionaryDownloader: verifying hash
+[06/27/18, 16:56:42:777] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[06/27/18, 16:56:42:818] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[06/27/18, 16:56:42:820] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[06/27/18, 16:56:42:821] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[06/27/18, 16:56:42:823] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[06/27/18, 16:56:48:667] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086508662,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 16:57:20:523] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:57:22:346] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:57:23:070] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:57:47:754] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:58:13:659] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086593655,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 16:58:25:919] info: Store: SET_FULL_SCREEN
+[06/27/18, 16:58:48:575] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086628573,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:00:13:364] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086713361,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:00:48:478] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086748469,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:02:13:291] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086833286,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:02:36:201] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:02:48:456] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086868452,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:02:55:674] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:03:32:548] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:04:13:294] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086953290,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:04:48:516] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530086988511,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:05:19:862] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:06:13:267] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087073265,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:06:48:530] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087108524,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:08:13:317] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087193312,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:08:48:641] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087228640,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:10:13:534] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087313530,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:10:48:654] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087348653,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:12:13:549] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087433544,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:12:48:675] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087468669,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:14:13:719] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087553714,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:14:48:681] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087588679,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:16:13:473] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087673467,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:16:48:695] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087708693,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:18:13:281] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087793276,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:18:48:913] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087828911,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:20:13:496] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087913494,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:20:48:624] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530087948622,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:22:13:517] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088033507,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:22:48:738] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088068734,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:24:13:321] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088153315,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:24:48:647] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088188644,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:26:13:335] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088273330,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:26:48:624] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088308620,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:28:13:310] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088393305,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:28:48:738] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088428735,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:30:13:421] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088513420,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:30:48:615] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088548610,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:32:13:541] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088633536,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:32:48:593] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088668589,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:34:13:353] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088753344,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:34:48:675] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088788673,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:36:13:369] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088873359,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:36:48:465] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088908460,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:38:13:376] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530088993372,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:38:48:483] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089028478,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:40:13:387] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089113385,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:40:48:615] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089148611,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:42:13:402] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089233399,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:42:48:590] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089268587,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:44:13:421] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089353413,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:44:48:565] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089388561,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:46:13:429] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089473426,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:46:48:652] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089508650,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:48:13:442] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089593439,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:48:48:586] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089628581,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:50:13:377] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089713375,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:50:48:680] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089748677,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:52:13:365] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089833363,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:52:48:594] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089868589,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:54:13:279] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089953274,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:54:48:607] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530089988602,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:56:01:182] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:56:13:291] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090073287,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:56:46:619] info: Store: SET_FULL_SCREEN
+[06/27/18, 17:56:48:618] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090108615,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 17:58:13:304] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090193301,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 17:58:48:633] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090228628,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:00:13:424] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090313416,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:00:48:590] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090348586,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:00:57:700] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:02:07:909] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:02:13:332] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090433327,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:02:48:565] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090468560,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:04:13:247] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090553242,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:04:48:459] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090588449,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:06:13:358] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090673354,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:06:48:586] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090708582,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:08:13:345] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090793340,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:08:40:329] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:08:48:596] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090828592,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:10:13:363] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090913359,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:10:48:580] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530090948575,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:11:06:682] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:11:08:536] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:12:13:295] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091033291,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:12:48:523] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091068518,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:14:13:484] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091153479,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:14:40:510] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:14:48:592] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091188587,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:16:13:528] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091273523,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:16:48:731] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091308730,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:18:13:269] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091393264,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:18:48:563] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091428560,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:20:13:227] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091513224,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:20:48:576] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091548570,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:22:13:220] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091633217,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:22:16:919] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:22:17:711] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:22:48:584] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091668583,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:24:13:274] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091753269,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:24:48:704] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091788699,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:26:13:287] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091873282,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:26:48:434] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091908429,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:28:13:297] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530091993295,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:28:48:529] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092028521,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:30:13:235] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092113231,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:30:34:219] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:30:48:743] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092148739,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:32:06:745] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:32:08:186] info: Store: SET_FULL_SCREEN
+[06/27/18, 18:32:13:428] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530092233424,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:32:42:379] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 18:32:42:389] error: Jun-27 18:32:42.388 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+[06/27/18, 18:32:42:395] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:32:42:396] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 18:32:42:414] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 18:32:43:125] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 20:55:04:241] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 20:55:04:281] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:04:321] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:04:351] error: Jun-27 20:55:04.351 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+[06/27/18, 20:55:04:369] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:55:04:385] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:14:827] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:37:831] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 20:55:39:143] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_132.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_original.png"
+  },
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 20:55:39:148] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T031FNTUT"
+}
+[06/27/18, 20:55:40:857] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:40:857] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:40:858] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 20:55:41:149] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:55:41:404] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:41:675] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100841673,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:55:41:692] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:42:311] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100842308,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:55:42:313] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100842311,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:56:13:171] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100873166,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:56:13:181] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100873177,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:56:48:278] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100908273,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 20:58:13:249] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100993241,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:58:13:252] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530100993243,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 20:58:48:314] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101028310,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:00:13:157] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101113155,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:00:13:159] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101113155,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:00:48:485] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101148480,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:02:13:091] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101233087,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:02:13:094] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101233088,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:02:48:394] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101268390,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:04:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101353159,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:04:13:171] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101353160,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:04:48:411] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101388406,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:06:13:089] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101473088,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:06:13:091] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101473088,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:06:48:421] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101508416,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:08:13:056] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101593050,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:08:13:093] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101593092,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:08:48:434] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101628430,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:10:13:120] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101713115,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:10:13:125] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101713116,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:10:48:346] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101748341,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:12:13:073] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101833067,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:12:13:078] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101833068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:12:48:381] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101868377,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:14:13:159] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101953157,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:14:13:160] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101953158,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:14:48:477] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530101988471,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:16:13:061] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102073057,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:16:13:067] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102073058,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:16:48:385] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102108380,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:18:13:170] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102193165,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:18:13:176] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102193166,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:18:48:398] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102228392,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:20:13:140] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102313135,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:20:13:144] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102313136,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:20:48:414] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102348409,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:22:13:198] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102433193,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:22:13:203] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102433193,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:22:48:411] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102468406,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:24:13:090] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102553086,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:24:13:096] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102553087,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:24:48:478] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102588471,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:26:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102673159,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:26:13:171] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102673160,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:26:32:831] info: Store: SET_FULL_SCREEN
+[06/27/18, 21:26:33:544] info: Store: SET_FULL_SCREEN
+[06/27/18, 21:26:48:699] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102708694,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:28:13:053] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102793048,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:28:13:072] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102793068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:28:48:363] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102828361,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:30:13:186] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102913184,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:30:13:189] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102913184,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:30:48:432] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530102948427,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:32:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103033160,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:32:13:173] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103033161,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:32:48:535] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103068533,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:34:13:229] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103153227,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:34:13:231] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103153228,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:34:48:439] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103188433,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:36:13:070] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103273065,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:36:13:075] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103273066,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:36:48:464] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103308459,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:38:13:162] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103393156,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:38:13:168] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103393157,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:38:48:612] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103428607,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:40:13:073] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103513068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:40:13:078] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103513069,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:40:48:594] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103548590,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:42:13:156] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103633151,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:42:13:164] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103633152,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:42:48:373] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103668368,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:44:13:054] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103753049,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:44:13:058] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103753050,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:44:48:390] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103788385,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:46:13:172] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103873167,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:46:13:179] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103873168,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:46:48:292] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103908290,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:48:13:072] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103993067,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:48:13:077] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530103993068,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:48:48:305] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1530104028303,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:49:10:167] info: Store: SET_SUSPEND_STATUS
+[06/27/18, 21:49:10:171] error: Jun-27 21:49:10.170 SOCKET-MANAGER (T031FNTUT) Closing socket because #4102: client is going to sleep
+[06/27/18, 21:49:10:202] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 21:49:10:203] info: Store: SHUTDOWN_BACKGROUND_CLIENT
+{
+  "code": 4003,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 21:49:11:030] info: Store: SET_NETWORK_STATUS offline
+[06/27/18, 22:19:26:942] info: Store: SET_SUSPEND_STATUS true
+[06/27/18, 22:19:26:952] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:26:954] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:26:959] error: Jun-27 22:19:26.958 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+[06/27/18, 22:19:26:963] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:26:967] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:31:973] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:32:412] info: Store: SET_NETWORK_STATUS online
+[06/27/18, 22:19:32:466] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:33:254] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:33:257] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:33:899] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:33:911] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:34:011] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "disconnected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:34:015] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:34:205] error: Jun-27 22:19:34.205 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:19:34:209] error: 2018/6/27 22:19:34.209 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:19:34:490] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:34:492] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:35:471] error: Jun-27 22:19:35.470 SOCKET-MANAGER (T031FNTUT) Closing socket because #4108: unexpected socket closure
+[06/27/18, 22:19:36:418] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4002,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:36:426] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:36:439] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:38:961] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:38:967] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:19:40:316] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:40:324] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:41:614] error: Jun-27 22:19:41.613 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:19:41:622] error: 2018/6/27 22:19:41.622 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:19:42:081] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:42:413] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:19:42:578] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:44:205] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:44:213] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:19:49:956] error: Jun-27 22:19:49.956 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:19:49:962] error: 2018/6/27 22:19:49.960 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:19:53:009] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:19:54:374] error: Jun-27 22:19:54.373 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:19:54:382] error: 2018/6/27 22:19:54.381 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:19:58:927] error: Jun-27 22:19:58.927 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:19:58:931] error: 2018/6/27 22:19:58.931 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:20:04:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:04:977] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:04:996] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:05:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:05:968] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:05:974] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:07:949] error: Jun-27 22:20:07.949 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:20:07:952] error: 2018/6/27 22:20:07.952 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:20:09:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:10:626] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:10:656] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:10:663] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:11:857] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:11:860] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:14:625] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:15:446] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:15:451] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:27:002] error: Jun-27 22:20:27.001 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:20:27:010] error: 2018/6/27 22:20:27.900 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:20:30:413] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:20:35:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:36:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:38:699] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:38:703] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:40:839] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:40:851] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:41:626] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:42:631] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:42:992] error: Jun-27 22:20:42.992 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:20:43:000] error: 2018/6/27 22:20:43.000 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:20:43:771] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:43:777] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:20:44:741] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:44:744] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:45:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:20:45:931] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:20:45:939] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:07:869] error: Jun-27 22:21:07.868 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:21:07:875] error: 2018/6/27 22:21:07.874 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:21:09:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:10:089] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:10:098] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:11:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:12:581] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:12:588] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:14:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:15:628] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:15:743] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:15:749] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:16:263] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:16:268] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:16:630] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:16:939] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:16:947] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:40:627] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:41:561] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:41:568] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:42:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:43:816] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:43:825] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:46:631] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:46:635] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:47:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:21:47:659] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:47:665] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:48:424] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:48:430] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:21:48:870] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:48:890] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:21:55:382] error: Jun-27 22:21:55.382 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:21:55:389] error: 2018/6/27 22:21:55.389 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:22:00:620] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:01:630] error: Jun-27 22:22:01.630 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:22:01:638] error: 2018/6/27 22:22:01.637 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:22:02:852] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:07:977] error: Jun-27 22:22:07.977 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:22:07:981] error: 2018/6/27 22:22:07.981 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:22:09:047] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:11:615] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:11:640] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:13:201] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:13:205] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:14:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:15:086] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:15:264] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:15:267] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:17:104] error: Jun-27 22:22:17.103 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:22:17:110] error: 2018/6/27 22:22:17.109 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:22:18:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:18:635] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:19:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:19:647] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:19:660] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:20:470] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:20:478] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:21:394] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:21:399] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:35:934] error: Jun-27 22:22:35.934 SOCKET-MANAGER (T031FNTUT) Closing socket because #4106: received an "error" message from socket
+[06/27/18, 22:22:35:945] error: 2018/6/27 22:22:35.945 logging error: {"subtype":"flannel_start_error","message":"Unexpected start error: Too many connections","stack":"Error: Unexpected start error: Too many connections\n    at e (https://cfr.slack-edge.com/bv1-4/rollup-core_required_ts.2e3e449bfeaa7d40c5b8.min.js:1:21350)\n    at t.execute (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2658239)\n    at o.dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2660661)\n    at dispatch (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2659038)\n    at https://cfr.slack-edge.com/bv1-4/modern.vendor.fa67e26714c1d85c5a78.min.js:1:860\n    at c (https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:361547)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102817\n    at Array.forEach (<anonymous>)\n    at https://cfr.slack-edge.com/bv1-4/application.cf0badad773cd189735c.min.js:1:1102586\n    at i (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:2005699)\n    at S._settlePromiseFromHandler (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1978184)\n    at S._settlePromise (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979036)\n    at S._settlePromiseCtx (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1979576)\n    at i._drainQueue (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936750)\n    at i._drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1936803)\n    at drainQueues (https://cfr.slack-edge.com/bv1-4/rollup-core_required_libs.8df12659b2eea0c98c5e.min.js:1:1935093)"}
+[06/27/18, 22:22:43:633] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:44:230] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:44:238] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:45:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:46:587] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:50:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:50:636] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:51:629] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:22:51:657] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:51:669] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB47MRNBZ"
+}
+[06/27/18, 22:22:52:341] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:52:349] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:53:344] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:53:353] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4001,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:56:827] info: Store: BACKGROUND_CLIENT_ERROR
+{
+  "code": 4337,
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:56:837] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "unloaded",
+  "teamId": "TB9PVC95H"
+}
+[06/27/18, 22:22:57:106] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:22:57:928] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    575,
+    131
+  ],
+  "size": [
+    1024,
+    768
+  ]
+}
+[06/27/18, 22:23:00:400] info: Store: RELOAD
+{
+  "everything": false
+}
+[06/27/18, 22:23:00:405] info: Window is unloading, window.desktop is no longer accessible
+[06/27/18, 22:23:01:841] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/27/18, 22:23:01:910] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:23:02:366] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "TB47MRNBZ",
+  "token": "xoxs-⋯"
+}
+[06/27/18, 22:23:02:368] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/27/18, 22:23:02:430] info: Store: SET_FULL_SCREEN
+[06/27/18, 22:23:02:552] info: Store: SET_NETWORK_STATUS online
