@@ -1,46 +1,82 @@
-[06/21/18, 21:03:28:584] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
-[06/21/18, 21:03:28:585] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/21/18, 21:03:28:581      ║
-[06/21/18, 21:03:28:585] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
-[06/21/18, 21:03:28:674] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
-[06/21/18, 21:03:29:226] info: Store: BACKGROUND_CLIENTS_INITIALIZED
-[06/21/18, 21:03:29:665] info: Store: START_BACKGROUND_CLIENT
+[08/21/18, 20:55:41:173] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[08/21/18, 20:55:41:175] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/21/18, 20:55:41:162      ║
+[08/21/18, 20:55:41:175] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[08/21/18, 20:55:41:661] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[08/21/18, 20:55:42:419] info: Main window preload script finished
 {
-  "teamId": "TB47MRNBZ",
-  "token": "xoxs-⋯"
+  "readyTime": 2475.307611
 }
-[06/21/18, 21:03:29:937] info: Store: START_BACKGROUND_CLIENT
+[08/21/18, 20:55:42:438] info: Store: UPDATE_SESSION_STATUS
 {
-  "teamId": "TB9PVC95H",
-  "token": "xoxs-⋯"
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
 }
-[06/21/18, 21:03:29:976] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
-[06/21/18, 21:03:29:987] info: Store: SET_NETWORK_STATUS online
-[06/21/18, 21:03:30:040] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[08/21/18, 20:55:42:450] info: Store: UPDATE_SESSION_STATUS
 {
-  "status": "connected",
-  "teamId": "TB47MRNBZ"
-}
-[06/21/18, 21:03:30:293] info: Store: SET_BACKGROUND_CLIENT_FIELDS
-{
-  "status": "connected",
+  "hasValidSession": null,
   "teamId": "TB9PVC95H"
 }
-[06/21/18, 21:03:31:071] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[08/21/18, 20:55:42:450] info: Store: UPSERT_WEB_CONTENTS
 {
-  "reconnectURL": "[REDACTED]",
-  "reconnectURLExpiry": 1529582911069,
-  "teamId": "TB47MRNBZ"
+  "id": 6,
+  "state": "loaded",
+  "teamId": "T0EHMQ4HM"
 }
-[06/21/18, 21:03:31:579] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[08/21/18, 20:55:42:451] info: Store: UPSERT_WEB_CONTENTS
 {
-  "reconnectURL": "[REDACTED]",
-  "reconnectURLExpiry": 1529582911578,
-  "teamId": "TB9PVC95H"
+  "id": 7,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
 }
-[06/21/18, 21:03:34:071] info: Store: UPSERT_WEB_CONTENTS
+[08/21/18, 20:55:42:452] info: Store: UPSERT_WEB_CONTENTS
 {
-  "id": 3,
+  "id": 6,
+  "state": "empty-page",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:55:42:452] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "empty-page",
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:55:42:452] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "page-will-navigate",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:55:42:453] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "page-will-navigate",
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:55:42:459] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:55:42:459] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:55:42:461] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
   "state": "loaded",
   "teamId": "T031FNTUT"
 }
-[06/21/18, 21:03:34:076] info: Store: MAIN_WINDOW_SHOWN
+[08/21/18, 20:55:42:473] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[08/21/18, 20:55:42:493] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}

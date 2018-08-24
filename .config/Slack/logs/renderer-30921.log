@@ -1,142 +1,100 @@
-[06/28/18, 22:05:00:737] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
-[06/28/18, 22:05:00:738] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/28/18, 22:05:00:734      ║
-[06/28/18, 22:05:00:738] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
-[06/28/18, 22:05:00:935] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
-[06/28/18, 22:05:01:432] info: Store: UPSERT_WEB_CONTENTS
+[08/21/18, 20:13:30:819] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[08/21/18, 20:13:30:826] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/21/18, 20:13:30:804      ║
+[08/21/18, 20:13:30:826] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[08/21/18, 20:13:31:194] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[08/21/18, 20:13:32:018] info: Main window preload script finished
 {
-  "id": 4,
+  "readyTime": 2453.416459
+}
+[08/21/18, 20:13:32:048] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
   "state": "loaded",
   "teamId": "T031FNTUT"
 }
-[06/28/18, 22:05:01:440] info: Store: UPSERT_WEB_CONTENTS
+[08/21/18, 20:13:32:053] info: Store: UPSERT_WEB_CONTENTS
 {
-  "id": 4,
+  "id": 8,
   "state": "empty-page",
   "teamId": "T031FNTUT"
 }
-[06/28/18, 22:05:01:563] info: Store: BACKGROUND_CLIENTS_INITIALIZED
-[06/28/18, 22:05:01:566] info: Don't start background client because T031FNTUT is selected team
-[06/28/18, 22:05:01:586] info: Store: SET_NETWORK_STATUS offline
-[06/28/18, 22:05:01:591] warn: Tried to determine signed in status, but errored.
+[08/21/18, 20:13:32:054] info: Store: UPSERT_WEB_CONTENTS
 {
-  "error": {
-    "message": "Failed to fetch",
-    "stack": "TypeError: Failed to fetch"
-  }
+  "id": 8,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
 }
-[06/28/18, 22:05:01:596] warn: SlackApi: Failed to call api.features
-{
-  "error": {
-    "message": "Failed to fetch",
-    "stack": "TypeError: Failed to fetch"
-  }
-}
-[06/28/18, 22:05:01:600] info: Store: UPDATE_SESSION_STATUS
+[08/21/18, 20:13:32:054] info: Store: UPDATE_SESSION_STATUS
 {
   "hasValidSession": null,
   "teamId": "T031FNTUT"
 }
-[06/28/18, 22:05:01:605] info: Store: BACKGROUND_CLIENT_ERROR
+[08/21/18, 20:13:32:055] info: Store: UPSERT_WEB_CONTENTS
 {
-  "code": 4002,
-  "teamId": "TB47MRNBZ"
+  "id": 7,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
 }
-[06/28/18, 22:05:01:614] warn: SlackApi: Failed to call api.features
+[08/21/18, 20:13:32:069] info: Store: UPSERT_WEB_CONTENTS
 {
-  "error": {
-    "message": "Failed to fetch",
-    "stack": "TypeError: Failed to fetch"
-  }
+  "id": 7,
+  "state": "empty-page",
+  "teamId": "T0253QGQ9"
 }
-[06/28/18, 22:05:01:620] info: Store: BACKGROUND_CLIENT_ERROR
+[08/21/18, 20:13:32:071] info: Store: UPSERT_WEB_CONTENTS
 {
-  "code": 4002,
-  "teamId": "TB9PVC95H"
-}
-[06/28/18, 22:05:01:630] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
-[06/28/18, 22:05:06:883] info: Store: SET_FULL_SCREEN
-[06/28/18, 22:05:06:919] info: Store: SET_FULL_SCREEN
-[06/28/18, 22:05:48:644] info: NetworkStatus: Waiting for network online…
-[06/28/18, 22:05:48:667] info: NetworkStatus: Network check failed
-{
-  "error": {
-    "message": "Failed to fetch",
-    "stack": "TypeError: Failed to fetch"
-  }
-}
-[06/28/18, 22:05:48:682] info: NetworkStatus: Response from api.test
-{
-  "status": "offline"
-}
-[06/28/18, 22:05:53:653] info: Store: START_BACKGROUND_CLIENT
-{
-  "teamId": "TB47MRNBZ",
-  "token": "xoxs-⋯"
-}
-[06/28/18, 22:05:53:663] info: Store: START_BACKGROUND_CLIENT
-{
-  "teamId": "TB9PVC95H",
-  "token": "xoxs-⋯"
-}
-[06/28/18, 22:05:54:013] info: Store: SET_BACKGROUND_CLIENT_FIELDS
-{
-  "status": "connected",
-  "teamId": "TB47MRNBZ"
-}
-[06/28/18, 22:05:54:018] info: Store: REMOVE_WEB_CONTENTS
-{
-  "id": 3,
-  "teamId": "TB47MRNBZ"
-}
-[06/28/18, 22:05:54:124] info: NetworkStatus: Response from api.test
-{
-  "status": "online"
-}
-[06/28/18, 22:05:54:316] info: Store: SET_BACKGROUND_CLIENT_FIELDS
-{
-  "status": "connected",
-  "teamId": "TB9PVC95H"
-}
-[06/28/18, 22:05:54:528] info: Store: SET_NETWORK_STATUS online
-[06/28/18, 22:05:54:531] warn: Base Component: Attempting to update LoadingScreen when unmounted.
-[06/28/18, 22:05:54:536] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 4,
+  "id": 7,
   "state": "page-will-navigate",
-  "teamId": "T031FNTUT"
+  "teamId": "T0253QGQ9"
 }
-[06/28/18, 22:05:54:899] info: Store: UPDATE_SESSION_STATUS
+[08/21/18, 20:13:32:072] info: Store: UPSERT_WEB_CONTENTS
 {
-  "hasValidSession": true,
-  "teamId": "T031FNTUT"
-}
-[06/28/18, 22:05:54:923] info: BackgroundClient: Logged in
-{
-  "userId": "UB430Q7V4",
-  "teamId": "TB47MRNBZ",
-  "showBullet": true
-}
-[06/28/18, 22:05:54:927] info: Store: SET_BACKGROUND_CLIENT_FIELDS
-{
-  "reconnectURL": "[REDACTED]",
-  "reconnectURLExpiry": 1530191454925,
-  "teamId": "TB47MRNBZ"
-}
-[06/28/18, 22:05:55:116] info: Store: SET_FULL_SCREEN
-[06/28/18, 22:05:55:119] info: Store: SET_FULL_SCREEN
-[06/28/18, 22:05:55:254] info: BackgroundClient: Logged in
-{
-  "userId": "UB9L7S684",
-  "teamId": "TB9PVC95H",
-  "showBullet": true
-}
-[06/28/18, 22:05:55:377] info: Store: SET_BACKGROUND_CLIENT_FIELDS
-{
-  "reconnectURL": "[REDACTED]",
-  "reconnectURLExpiry": 1530191455263,
+  "id": 5,
+  "state": "loaded",
   "teamId": "TB9PVC95H"
 }
-[06/28/18, 22:05:57:420] info: Store: RELOAD
+[08/21/18, 20:13:32:072] info: Store: UPDATE_SESSION_STATUS
 {
-  "everything": false
+  "hasValidSession": null,
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:13:32:073] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "empty-page",
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:13:32:073] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "page-will-navigate",
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:13:32:083] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:13:32:084] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "loaded",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:13:32:105] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "empty-page",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:13:32:120] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "page-will-navigate",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:13:32:225] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0EHMQ4HM"
 }

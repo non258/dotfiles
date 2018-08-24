@@ -1,176 +1,100 @@
-[06/25/18, 17:48:54:573] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
-[06/25/18, 17:48:54:573] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 06/25/18, 17:48:54:570      ║
-[06/25/18, 17:48:54:573] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
-[06/25/18, 17:48:54:682] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
-[06/25/18, 17:48:55:133] error: Desktop module calls failed to load
+[08/10/18, 22:10:14:090] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[08/10/18, 22:10:14:095] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/10/18, 22:10:14:083      ║
+[08/10/18, 22:10:14:095] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[08/10/18, 22:10:14:560] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[08/10/18, 22:10:15:452] info: Main window preload script finished
 {
-  "error": {
-    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
-    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
-  }
+  "readyTime": 2668.037409
 }
-[06/25/18, 17:48:55:133] error: Desktop module calls failed to load
-[06/25/18, 17:48:55:154] info: cld3::loadModule: loading cld3 module
-[06/25/18, 17:48:55:175] info: cld3Loader::loadModule: running environment is NODE
-[06/25/18, 17:48:55:176] info: cld3Loader::loadModule: constructed module object for runtime
-[06/25/18, 17:48:55:440] info: cld3Loader::initializeRuntime: successfully initialized module
-[06/25/18, 17:48:55:443] info: cld3Loader::loadModule: initialized wasm binary Runtime
-[06/25/18, 17:48:55:461] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
-[06/25/18, 17:48:55:480] info: Main window preload script finished
+[08/10/18, 22:10:15:484] info: Store: UPSERT_WEB_CONTENTS
 {
-  "readyTime": 1193.681778
-}
-[06/25/18, 17:48:57:606] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 6,
+  "id": 17,
   "state": "loaded",
   "teamId": "TB9PVC95H"
 }
-[06/25/18, 17:48:57:816] info: Store: SELECT_CHANNEL C031FNU09
-[06/25/18, 17:48:58:286] error: Jun-25 17:48:58.285 file:FBB0FB87R (slurpFilesFromMessagesModern) has reactions in local model, but we are upserting an object that does NOT have reactions, which seems suspicious
-[06/25/18, 17:48:58:397] info: Skipping request to provide hint content for channel for spellchecker
+[08/10/18, 22:10:15:485] info: Store: UPSERT_WEB_CONTENTS
 {
-  "version": "V2"
-}
-[06/25/18, 17:48:58:578] info: Store: UPDATE_SESSION_STATUS
-{
-  "hasValidSession": true,
+  "id": 17,
+  "state": "empty-page",
   "teamId": "TB9PVC95H"
 }
-[06/25/18, 17:48:58:871] info: Store: SELECT_CHANNEL CB9L67936
-[06/25/18, 17:48:58:871] info: Store: UPDATE_TEAM_LOCALE
+[08/10/18, 22:10:15:486] info: Store: UPSERT_WEB_CONTENTS
 {
-  "locale": "en-US",
+  "id": 17,
+  "state": "page-will-navigate",
   "teamId": "TB9PVC95H"
 }
-[06/25/18, 17:48:58:872] info: Store: UPDATE_TEAM_THEME
+[08/10/18, 22:10:15:486] info: Store: UPDATE_SESSION_STATUS
 {
-  "teamId": "TB9PVC95H",
-  "theme": {
-    "active_item": "#F79F66",
-    "active_item_text": "#FFFFFF",
-    "active_presence": "#F79F66",
-    "badge": "#F15340",
-    "column_bg": "#0D7E83",
-    "hover_item": "#D37C71",
-    "menu_bg": "#076570",
-    "text_color": "#FFFFFF"
-  }
-}
-[06/25/18, 17:48:58:882] info: Store: UPDATE_TEAM_ICONS
-{
-  "icons": {
-    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_102.png",
-    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_132.png",
-    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_230.png",
-    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_34.png",
-    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_44.png",
-    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_68.png",
-    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_88.png",
-    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-19/383369855361_565ff4439cdcd8979080_original.png"
-  },
+  "hasValidSession": null,
   "teamId": "TB9PVC95H"
 }
-[06/25/18, 17:48:58:883] info: Store: UPDATE_TEAM_LOCALE
+[08/10/18, 22:10:15:487] info: Store: UPSERT_WEB_CONTENTS
 {
-  "locale": "en-US",
-  "teamId": "TB9PVC95H"
+  "id": 16,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
 }
-[06/25/18, 17:48:58:883] info: Store: UPSERT_WEB_CONTENTS
+[08/10/18, 22:10:15:487] info: Store: UPSERT_WEB_CONTENTS
 {
-  "id": 6,
-  "state": "webapp-loaded",
-  "teamId": "TB9PVC95H"
+  "id": 16,
+  "state": "empty-page",
+  "teamId": "T0253QGQ9"
 }
-[06/25/18, 17:48:58:888] info: Store: STORE_ENTERPRISE_ID_PAIR
+[08/10/18, 22:10:15:487] info: Store: UPSERT_WEB_CONTENTS
 {
-  "enterpriseId": "",
-  "teamId": "TB9PVC95H"
+  "id": 16,
+  "state": "page-will-navigate",
+  "teamId": "T0253QGQ9"
 }
-[06/25/18, 17:48:59:193] info: Store: SELECT_CHANNEL C0412GNKJ
-[06/25/18, 17:49:00:871] info: Store: SELECT_CHANNEL C031FNU0K
-[06/25/18, 17:49:13:820] info: Store: NEW_NOTIFICATION
+[08/10/18, 22:10:15:488] info: Store: UPDATE_SESSION_STATUS
 {
-  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
-  "channel": "CB47MRRTR",
-  "content": "[REDACTED]",
-  "id": "73vWCoiNKwOYowX",
-  "launchUri": "slack://channel?id=CB47MRRTR&message=1529916553.000322&team=TB47MRNBZ",
-  "msg": "1529916553.000322",
-  "silent": true,
-  "subtitle": "",
-  "teamId": "TB47MRNBZ",
-  "title": "[REDACTED]"
+  "hasValidSession": null,
+  "teamId": "T0253QGQ9"
 }
-[06/25/18, 17:49:18:011] info: Store: SELECT_CHANNEL CASGZGRSB
-[06/25/18, 17:49:20:964] info: Store: SELECT_CHANNEL C031FNU0K
-[06/25/18, 17:49:24:761] info: Store: SELECT_CHANNEL C031FNU09
-[06/25/18, 17:49:45:476] info: Store: SET_FULL_SCREEN
-[06/25/18, 17:49:46:024] info: Store: MAIN_WINDOW_FOCUSED
-[06/25/18, 17:49:46:031] info: Store: SET_FULL_SCREEN
-[06/25/18, 17:49:46:993] info: Store: SAVE_WINDOW_SETTINGS
+[08/10/18, 22:10:15:488] info: Store: UPSERT_WEB_CONTENTS
 {
-  "isMaximized": false,
-  "position": [
-    575,
-    131
-  ],
-  "size": [
-    1024,
-    768
-  ]
+  "id": 18,
+  "state": "loaded",
+  "teamId": "T0EHMQ4HM"
 }
-[06/25/18, 17:50:19:198] info: Store: SET_SUSPEND_STATUS
-[06/25/18, 17:50:19:230] error: Jun-25 17:50:19.230 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4102: client is going to sleep
-[06/25/18, 17:50:19:680] info: Store: SET_NETWORK_STATUS offline
-[06/25/18, 18:51:38:915] info: Store: SET_SUSPEND_STATUS true
-[06/25/18, 18:51:39:027] error: Jun-25 18:51:39.026 SOCKET-MANAGER (TB9PVC95H) Closing socket because #4108: unexpected socket closure
-[06/25/18, 18:51:46:994] info: Store: RELOAD
+[08/10/18, 22:10:15:488] info: Store: UPSERT_WEB_CONTENTS
 {
-  "everything": false
+  "id": 18,
+  "state": "empty-page",
+  "teamId": "T0EHMQ4HM"
 }
-[06/25/18, 18:51:47:871] info: Store: UPSERT_WEB_CONTENTS
+[08/10/18, 22:10:15:489] info: Store: UPSERT_WEB_CONTENTS
 {
-  "id": 4,
+  "id": 18,
+  "state": "page-will-navigate",
+  "teamId": "T0EHMQ4HM"
+}
+[08/10/18, 22:10:15:501] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0EHMQ4HM"
+}
+[08/10/18, 22:10:15:503] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 19,
   "state": "loaded",
   "teamId": "T031FNTUT"
 }
-[06/25/18, 18:51:47:878] info: Store: UPSERT_WEB_CONTENTS
+[08/10/18, 22:10:15:517] info: Store: UPSERT_WEB_CONTENTS
 {
-  "id": 4,
+  "id": 19,
   "state": "empty-page",
   "teamId": "T031FNTUT"
 }
-[06/25/18, 18:51:48:154] info: Store: BACKGROUND_CLIENTS_INITIALIZED
-[06/25/18, 18:51:48:716] info: Store: SET_NETWORK_STATUS offline
-[06/25/18, 18:51:53:545] info: Store: START_BACKGROUND_CLIENT
+[08/10/18, 22:10:15:522] info: Store: UPSERT_WEB_CONTENTS
 {
-  "teamId": "TB47MRNBZ",
-  "token": "xoxs-⋯"
-}
-[06/25/18, 18:51:53:566] info: Store: UPDATE_SESSION_STATUS
-{
-  "hasValidSession": true,
+  "id": 19,
+  "state": "page-will-navigate",
   "teamId": "T031FNTUT"
 }
-[06/25/18, 18:51:53:745] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[08/10/18, 22:10:15:634] info: Store: UPDATE_SESSION_STATUS
 {
-  "status": "connected",
-  "teamId": "TB47MRNBZ"
-}
-[06/25/18, 18:51:53:750] info: Store: REMOVE_WEB_CONTENTS
-{
-  "id": 3,
-  "teamId": "TB47MRNBZ"
-}
-[06/25/18, 18:51:53:775] info: Store: START_BACKGROUND_CLIENT
-{
-  "teamId": "TB9PVC95H",
-  "token": "xoxs-⋯"
-}
-[06/25/18, 18:51:53:780] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
-[06/25/18, 18:51:53:888] info: Store: SET_BACKGROUND_CLIENT_FIELDS
-{
-  "status": "connected",
-  "teamId": "TB9PVC95H"
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
 }

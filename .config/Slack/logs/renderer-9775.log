@@ -1,0 +1,1391 @@
+[08/06/18, 09:39:18:198] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[08/06/18, 09:39:18:199] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/06/18, 09:39:18:194      ║
+[08/06/18, 09:39:18:199] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[08/06/18, 09:39:18:366] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[08/06/18, 09:39:19:059] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
+    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[08/06/18, 09:39:19:059] error: Desktop module calls failed to load
+[08/06/18, 09:39:19:098] info: cld3::loadModule: loading cld3 module
+[08/06/18, 09:39:19:123] info: cld3Loader::loadModule: running environment is NODE
+[08/06/18, 09:39:19:123] info: cld3Loader::loadModule: constructed module object for runtime
+[08/06/18, 09:39:19:367] info: cld3Loader::initializeRuntime: successfully initialized module
+[08/06/18, 09:39:19:367] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[08/06/18, 09:39:19:378] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[08/06/18, 09:39:19:395] info: Main window preload script finished
+{
+  "readyTime": 1909.353881
+}
+[08/06/18, 09:39:19:573] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "TB9PVC95H"
+}
+[08/06/18, 09:39:19:589] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 15,
+  "state": "webapp-loaded",
+  "teamId": "TB9PVC95H"
+}
+[08/06/18, 09:39:19:593] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[08/06/18, 09:39:19:603] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T0EHMQ4HM"
+}
+[08/06/18, 09:39:19:611] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T0EHMQ4HM",
+  "token": "xoxs-⋯"
+}
+[08/06/18, 09:39:19:820] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "TB9PVC95H"
+}
+[08/06/18, 09:39:19:824] info: Store: STORE_API_TOKEN
+{
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
+}
+[08/06/18, 09:39:22:530] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:22:903] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:23:998] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 09:39:24:187] info: Store: SELECT_CHANNEL D9FCLHH4H
+[08/06/18, 09:39:24:187] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:24:188] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T0253QGQ9",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[08/06/18, 09:39:24:943] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_102.png",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_132.png",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_230.png",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_34.png",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_44.png",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_68.png",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_88.png",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-03/374893698933_72b5d36d5faee5d1ece8_original.png"
+  },
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:24:950] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:24:951] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "webapp-loaded",
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:24:952] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[08/06/18, 09:39:24:953] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T0253QGQ9"
+}
+[08/06/18, 09:39:24:955] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[08/06/18, 10:00:23:644] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "CB9LFAP36",
+  "content": "[REDACTED]",
+  "id": "BrB1hVhjwMBZv2G",
+  "launchUri": "slack://channel?id=CB9LFAP36&message=1533517223.000046&team=TB9PVC95H",
+  "msg": "1533517223.000046",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 10:00:43:113] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 10:00:44:416] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 10:00:45:513] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 10:00:46:397] info: Store: SELECT_CHANNEL CB9LFAP36
+[08/06/18, 10:00:51:726] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 10:00:52:987] info: Store: SELECT_CHANNEL CB8EBKWTB
+[08/06/18, 10:00:53:358] info: Store: SELECT_CHANNEL CB6NSV6F3
+[08/06/18, 10:00:54:695] info: Store: SELECT_CHANNEL CB8EBKWTB
+[08/06/18, 10:00:55:089] info: Store: SELECT_CHANNEL CB47MRRTR
+[08/06/18, 10:00:56:210] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:00:56:235] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:01:26:206] error: Aug-6 10:01:26.206 (T0253QGQ9) user_typing event from user (UBJ3P5UJ2) not in model; ignoring
+[08/06/18, 10:04:20:703] error: Aug-6 10:04:20.702 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:04:28:924] error: Aug-6 10:04:28.924 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:04:34:245] error: Aug-6 10:04:34.245 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:04:39:407] error: Aug-6 10:04:39.407 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:04:44:354] error: Aug-6 10:04:44.354 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:04:50:674] error: Aug-6 10:04:50.673 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:04:55:679] error: Aug-6 10:04:55.678 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:00:927] error: Aug-6 10:05:00.927 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:10:464] error: Aug-6 10:05:10.464 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:28:796] error: Aug-6 10:05:28.795 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:34:103] error: Aug-6 10:05:34.102 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:39:590] error: Aug-6 10:05:39.590 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:44:629] error: Aug-6 10:05:44.629 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:05:52:687] error: Aug-6 10:05:52.687 (T0253QGQ9) user_typing event from user (U9XLGJU5B) not in model; ignoring
+[08/06/18, 10:08:44:441] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:44:448] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:46:318] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:46:347] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:47:244] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:47:246] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:50:572] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:08:52:769] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:09:04:079] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:15:53:200] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:15:57:398] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:15:58:837] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:20:28:266] error: Aug-6 10:20:28.266 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:20:33:475] error: Aug-6 10:20:33.475 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:20:38:504] error: Aug-6 10:20:38.503 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:03:195] error: Aug-6 10:21:03.195 (T0253QGQ9) user_typing event from user (U8W8ARHK6) not in model; ignoring
+[08/06/18, 10:21:14:793] error: Aug-6 10:21:14.793 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:20:914] error: Aug-6 10:21:20.914 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:24:485] error: Aug-6 10:21:24.484 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:21:25:834] error: Aug-6 10:21:25.833 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:30:570] error: Aug-6 10:21:30.570 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:21:31:912] error: Aug-6 10:21:31.911 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:36:358] error: Aug-6 10:21:36.358 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:21:37:895] error: Aug-6 10:21:37.894 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:43:322] error: Aug-6 10:21:43.322 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:21:49:159] error: Aug-6 10:21:49.158 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:21:50:568] error: Aug-6 10:21:50.567 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:21:54:443] error: Aug-6 10:21:54.442 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:21:55:970] error: Aug-6 10:21:55.970 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:00:230] error: Aug-6 10:22:00.230 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:22:01:892] error: Aug-6 10:22:01.892 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:07:770] error: Aug-6 10:22:07.769 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:12:884] error: Aug-6 10:22:12.884 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:13:837] error: Aug-6 10:22:13.837 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:22:18:041] error: Aug-6 10:22:18.040 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:24:077] error: Aug-6 10:22:24.076 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:29:913] error: Aug-6 10:22:29.912 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:31:904] error: Aug-6 10:22:31.903 (T0253QGQ9) user_typing event from user (U03MKL056) not in model; ignoring
+[08/06/18, 10:22:45:685] error: Aug-6 10:22:45.685 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:50:925] error: Aug-6 10:22:50.924 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:22:55:914] error: Aug-6 10:22:55.913 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:23:02:681] error: Aug-6 10:23:02.680 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:23:08:032] error: Aug-6 10:23:08.032 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:23:17:837] error: Aug-6 10:23:17.837 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:23:22:958] error: Aug-6 10:23:22.957 (T0253QGQ9) user_typing event from user (U9BKN1H7C) not in model; ignoring
+[08/06/18, 10:31:50:048] error: Aug-6 10:31:50.047 (T0253QGQ9) user_typing event from user (U9XUHP612) not in model; ignoring
+[08/06/18, 10:32:03:575] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U9XUHP612-g451193462b2-512",
+  "channel": "G8PUNETS9",
+  "content": "[REDACTED]",
+  "id": "k257Snh9Mz1k6rQ",
+  "launchUri": "slack://channel?id=G8PUNETS9&message=1533519121.000096&team=T0253QGQ9",
+  "msg": "1533519121.000096",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[08/06/18, 10:32:22:628] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:32:23:832] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:32:30:673] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:32:32:560] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:32:36:419] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:36:588] info: Store: SELECT_TEAM T0253QGQ9
+[08/06/18, 10:32:37:509] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 10:32:37:533] info: loadAsmModule: loading hunspell-asm module
+[08/06/18, 10:32:37:935] info: loadAsmModule: asm module loaded successfully
+[08/06/18, 10:32:37:935] info: SpellChecker: Starting spellchecker with language detector
+[08/06/18, 10:32:37:935] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[08/06/18, 10:32:37:935] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[08/06/18, 10:32:38:273] info: download: downloading dictionary for 'en-us'
+[08/06/18, 10:32:38:275] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[08/06/18, 10:32:39:211] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[08/06/18, 10:32:40:152] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:40:862] info: Store: SELECT_TEAM TB9PVC95H
+[08/06/18, 10:32:41:890] info: dictionaryDownloader: verifying hash
+[08/06/18, 10:32:41:992] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:42:173] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 10:32:43:093] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:43:260] info: Store: SELECT_TEAM T031FNTUT
+[08/06/18, 10:32:46:453] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:46:628] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 10:32:47:206] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:47:384] info: Store: SELECT_TEAM TB9PVC95H
+[08/06/18, 10:32:48:686] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 10:32:48:852] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 10:32:51:336] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:32:51:343] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:09:335] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:09:352] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:10:026] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:10:067] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:46:729] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:46:743] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:47:285] info: Store: SET_FULL_SCREEN
+[08/06/18, 10:38:47:293] info: Store: SET_FULL_SCREEN
+[08/06/18, 11:38:43:357] error: Aug-6 11:38:43.357 (T0253QGQ9) user_typing event from user (U9RURCREY) not in model; ignoring
+[08/06/18, 12:20:07:327] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "qjQAsvIEG2G8PgJ",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1533525607.000012&team=TB47MRNBZ",
+  "msg": "1533525607.000012",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 12:20:08:224] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4NCET6H",
+  "content": "[REDACTED]",
+  "id": "Z48ZsKSy494Bv59",
+  "launchUri": "slack://channel?id=CB4NCET6H&message=1533525607.000165&team=TB47MRNBZ",
+  "msg": "1533525607.000165",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 12:20:21:447] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB3DV6QE9",
+  "content": "[REDACTED]",
+  "id": "587AcPT2rwrZRY0",
+  "launchUri": "slack://channel?id=CB3DV6QE9&message=1533525621.000026&team=TB47MRNBZ",
+  "msg": "1533525621.000026",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 13:14:24:583] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:24:596] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:25:884] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:27:647] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:29:802] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:30:927] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:31:631] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:14:31:650] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:41:384] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:41:402] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:42:047] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:42:061] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:43:589] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:43:630] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:45:104] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:30:45:118] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:00:090] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:01:357] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:01:774] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:01:799] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:02:340] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:03:208] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:03:247] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:30:548] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:30:583] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:31:334] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:31:31:360] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:36:48:699] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:36:49:248] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:43:34:485] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:43:34:495] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:44:01:516] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:44:01:524] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:49:55:624] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "Y7EVTDiVmxRxR8l",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533530995.000025&team=TB9PVC95H",
+  "msg": "1533530995.000025",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 13:49:57:846] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:49:57:877] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:49:59:803] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 13:50:01:637] info: Store: SELECT_CHANNEL CB9PX40N7
+[08/06/18, 13:50:09:120] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 13:50:18:673] info: Store: SET_FULL_SCREEN
+[08/06/18, 13:50:18:687] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:00:06:590] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "oZ2Acls6xJqn1oA",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531606.000040&team=TB9PVC95H",
+  "msg": "1533531606.000040",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:00:10:825] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:00:13:246] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:00:24:688] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:00:24:705] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:01:48:221] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "QkWAuNtkXKp1G46",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531707.000129&team=TB9PVC95H",
+  "msg": "1533531707.000129",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:02:10:203] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "99r3h2uOyxjYRkZ",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531729.000135&team=TB9PVC95H",
+  "msg": "1533531729.000135",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:02:15:108] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "oZ2AcPC6xJq888K",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531734.000137&team=TB9PVC95H",
+  "msg": "1533531734.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:02:18:944] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "x6koc9FwKNO9LDr",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531738.000090&team=TB9PVC95H",
+  "msg": "1533531738.000090",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:02:54:574] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:02:54:625] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:03:09:632] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:03:09:654] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:03:25:897] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "r2kgu6HyW0EB5yr",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531805.000067&team=TB9PVC95H",
+  "msg": "1533531805.000067",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:03:37:531] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAPWK66A-fa4b33e4bd7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "lRY8h6IqMwZ7Aq3",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531817.000045&team=TB9PVC95H",
+  "msg": "1533531817.000045",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:04:56:681] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "jYRAtDS7lpNV4Lv",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531896.000073&team=TB9PVC95H",
+  "msg": "1533531896.000073",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:05:14:538] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "k2R6ugT9MzOgv0l",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531914.000014&team=TB9PVC95H",
+  "msg": "1533531914.000014",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:05:19:224] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB96GLB40-dc1d5b61d2bb-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "mqZ7hGU9jMgrq2B",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531919.000003&team=TB9PVC95H",
+  "msg": "1533531919.000003",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:05:52:080] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "A6D8cJcYxnzp9p7",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533531951.000126&team=TB9PVC95H",
+  "msg": "1533531951.000126",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:06:05:585] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:05:612] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:05:907] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:05:915] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:06:313] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:06:333] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:21:418] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:21:429] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:48:078] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:06:48:102] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:07:08:141] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:07:08:152] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:07:49:406] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:07:49:409] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:07:52:660] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 14:09:01:308] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:09:01:312] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:09:02:323] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:09:02:385] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:14:55:535] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:14:55:552] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:19:730] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:19:747] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:21:893] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 14:15:22:698] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 14:15:25:080] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 14:15:27:101] info: Store: SELECT_CHANNEL CB8EBKWTB
+[08/06/18, 14:15:27:492] info: Store: SELECT_CHANNEL CB6NSV6F3
+[08/06/18, 14:15:27:794] info: Store: SELECT_CHANNEL CB61C5Z35
+[08/06/18, 14:15:28:117] info: Store: SELECT_CHANNEL CBA4QM266
+[08/06/18, 14:15:28:291] info: Store: SELECT_CHANNEL CBHU50J8L
+[08/06/18, 14:15:28:551] info: Store: SELECT_CHANNEL CB4NCET6H
+[08/06/18, 14:15:28:793] info: Store: SELECT_CHANNEL CB529PJT0
+[08/06/18, 14:15:29:334] info: Store: SELECT_CHANNEL CB4RSF6SG
+[08/06/18, 14:15:29:773] info: Store: SELECT_CHANNEL CBMPNA2K1
+[08/06/18, 14:15:30:049] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[08/06/18, 14:15:30:215] info: Store: SELECT_CHANNEL CBAT0G5L5
+[08/06/18, 14:15:30:430] info: Store: SELECT_CHANNEL CBGUHKZ8U
+[08/06/18, 14:15:30:566] info: Store: SELECT_CHANNEL CB4UUHLUF
+[08/06/18, 14:15:30:884] info: Store: SELECT_CHANNEL CB3DV6QE9
+[08/06/18, 14:15:48:185] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:48:214] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:50:392] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:50:408] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:50:708] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:50:758] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:51:419] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:51:440] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:15:51:838] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 14:17:04:250] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:17:04:261] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:18:28:728] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:18:28:755] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:18:31:601] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:18:31:614] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:13:094] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:13:112] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:14:292] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:14:308] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:22:688] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:22:716] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:23:154] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:21:23:169] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:25:42:769] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:25:42:812] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:25:43:118] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:25:43:143] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:27:25:587] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U8W8ARHK6-41fb5582f51e-512",
+  "channel": "DC2KQ59BK",
+  "content": "[REDACTED]",
+  "id": "EqlxfliPvJz3KWm",
+  "launchUri": "slack://channel?id=DC2KQ59BK&message=1533533244.000115&team=T0253QGQ9",
+  "msg": "1533533244.000115",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:27:31:634] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:27:31:686] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:27:33:085] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 14:27:33:928] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[08/06/18, 14:27:34:089] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[08/06/18, 14:27:34:094] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[08/06/18, 14:27:34:098] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[08/06/18, 14:27:34:110] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[08/06/18, 14:27:48:429] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[08/06/18, 14:27:49:068] info: Store: SELECT_CHANNEL DC2KQ59BK
+[08/06/18, 14:28:12:198] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:28:12:199] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:28:29:676] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:28:29:753] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:29:18:026] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:29:18:027] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:30:05:593] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:30:05:596] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:32:03:937] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:32:12:483] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:32:38:329] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:32:38:330] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:33:21:713] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T0253QGQ9-U8W8ARHK6-41fb5582f51e-512",
+  "channel": "DC2KQ59BK",
+  "content": "[REDACTED]",
+  "id": "578LTgs2rw5zL74",
+  "launchUri": "slack://channel?id=DC2KQ59BK&message=1533533601.000031&team=T0253QGQ9",
+  "msg": "1533533601.000031",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:33:25:293] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:33:25:344] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:33:26:331] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "Z86Zsmfy49gzkK8",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533533605.000193&team=TB9PVC95H",
+  "msg": "1533533605.000193",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:33:48:612] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 14:33:49:615] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 14:33:49:783] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 14:33:57:215] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 14:33:58:991] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:33:59:000] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:34:59:038] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "BrB1hEhjwML6y3Q",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533533698.000124&team=TB9PVC95H",
+  "msg": "1533533698.000124",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:36:33:753] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "361Yc0iDG802J04",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533533793.000085&team=TB9PVC95H",
+  "msg": "1533533793.000085",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 14:36:40:585] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:40:624] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:41:557] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:41:570] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:42:360] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:42:386] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:42:992] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 14:36:48:233] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:36:48:252] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:02:053] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:02:068] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:04:242] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:04:264] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:21:895] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:21:904] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:23:818] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 14:37:26:306] info: Store: SELECT_CHANNEL CB4UUHLUF
+[08/06/18, 14:37:26:578] info: Store: SELECT_CHANNEL CBGUHKZ8U
+[08/06/18, 14:37:26:962] info: Store: SELECT_CHANNEL CBAT0G5L5
+[08/06/18, 14:37:27:353] info: Store: SELECT_CHANNEL CB3EDHZ7A
+[08/06/18, 14:37:27:601] info: Store: SELECT_CHANNEL CBMPNA2K1
+[08/06/18, 14:37:27:795] info: Store: SELECT_CHANNEL CB4RSF6SG
+[08/06/18, 14:37:28:053] info: Store: SELECT_CHANNEL CB529PJT0
+[08/06/18, 14:37:28:317] info: Store: SELECT_CHANNEL CB4NCET6H
+[08/06/18, 14:37:28:644] info: Store: SELECT_CHANNEL CBHU50J8L
+[08/06/18, 14:37:28:896] info: Store: SELECT_CHANNEL CBA4QM266
+[08/06/18, 14:37:29:555] info: Store: SELECT_CHANNEL CBHU50J8L
+[08/06/18, 14:37:30:356] info: Store: SELECT_CHANNEL CBA4QM266
+[08/06/18, 14:37:30:727] info: Store: SELECT_CHANNEL CB61C5Z35
+[08/06/18, 14:37:31:053] info: Store: SELECT_CHANNEL CB6NSV6F3
+[08/06/18, 14:37:31:412] info: Store: SELECT_CHANNEL CB8EBKWTB
+[08/06/18, 14:37:31:889] info: Store: SELECT_CHANNEL CB47MRRTR
+[08/06/18, 14:37:32:767] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:32:786] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:37:453] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:37:489] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:38:125] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:37:38:217] info: Store: SET_FULL_SCREEN
+[08/06/18, 14:55:21:768] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T031FNTUT-U12GWE7U6-ab8b5362aedb-512",
+  "channel": "C031FNU09",
+  "content": "[REDACTED]",
+  "id": "MZDZU5hWl3E7nMj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C031FNU09&message=1533534921.000042&team=T031FNTUT",
+  "msg": "1533534921.000042",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T031FNTUT",
+  "title": "[REDACTED]"
+}
+[08/06/18, 15:13:33:388] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:13:33:402] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:13:52:021] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:13:52:041] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:24:52:384] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:24:52:396] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:24:53:412] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:24:53:440] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:27:06:201] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "9893cJUOyx5g2QP",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533536825.000196&team=TB47MRNBZ",
+  "msg": "1533536825.000196",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 15:27:07:967] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:27:08:010] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:27:45:063] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:27:45:091] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:39:06:834] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "QkWAuAskXKRMm6G",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533537546.000079&team=TB9PVC95H",
+  "msg": "1533537546.000079",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 15:40:34:947] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:40:34:972] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:40:37:419] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 15:40:46:075] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 15:40:46:237] info: Store: SELECT_TEAM T031FNTUT
+[08/06/18, 15:40:49:806] info: Store: SELECT_CHANNEL C031FNU09
+[08/06/18, 15:41:30:036] info: Store: SELECT_CHANNEL C031FNU0K
+[08/06/18, 15:41:45:839] info: Store: SELECT_CHANNEL C031FNU09
+[08/06/18, 15:41:47:821] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 15:41:47:992] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 15:41:50:062] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:41:50:087] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:42:13:121] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB9T3KHAN-f214f49bea45-512",
+  "channel": "CB9LFAP36",
+  "content": "[REDACTED]",
+  "id": "DqkwhPtZG71lOzM",
+  "launchUri": "slack://channel?id=CB9LFAP36&message=1533537732.000212&team=TB9PVC95H",
+  "msg": "1533537732.000212",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 15:57:08:890] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:57:08:952] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:57:10:014] info: Store: SET_FULL_SCREEN
+[08/06/18, 15:57:10:050] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:06:942] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "g5p7COc3gPl1AkX",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533539046.000101&team=TB47MRNBZ",
+  "msg": "1533539046.000101",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 16:04:11:256] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1533539046.000101",
+  "notificationId": "g5p7COc3gPl1AkX",
+  "teamId": "TB47MRNBZ"
+}
+[08/06/18, 16:04:11:271] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 16:04:11:295] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:11:355] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:15:600] info: Store: SELECT_CHANNEL CB4RSF6SG
+[08/06/18, 16:04:17:236] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "769DIlfNg1Lll66",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533539057.000019&team=TB47MRNBZ",
+  "msg": "1533539057.000019",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 16:04:25:539] info: Store: SELECT_CHANNEL CB47MRRTR
+[08/06/18, 16:04:27:537] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB4RSF6SG",
+  "content": "[REDACTED]",
+  "id": "769DI7hNg1LlMvD",
+  "launchUri": "slack://channel?id=CB4RSF6SG&message=1533539067.000081&team=TB47MRNBZ",
+  "msg": "1533539067.000081",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 16:04:30:873] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 16:04:33:359] info: Store: SELECT_CHANNEL CB9LFAP36
+[08/06/18, 16:04:35:429] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "1j6VsNiXgK250Lp",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533539075.000079&team=TB47MRNBZ",
+  "msg": "1533539075.000079",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 16:04:38:142] info: Store: SELECT_CHANNEL CB9PX40N7
+[08/06/18, 16:04:38:895] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 16:04:39:076] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 16:04:40:882] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:40:913] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:42:515] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:42:561] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:48:967] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:04:48:994] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:05:23:187] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB9T3KHAN-f214f49bea45-512",
+  "channel": "CB9LFAP36",
+  "content": "[REDACTED]",
+  "id": "BrB1h1ujwMJ8PoK",
+  "launchUri": "slack://channel?id=CB9LFAP36&message=1533539122.000296&team=TB9PVC95H",
+  "msg": "1533539122.000296",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 16:05:27:111] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:05:27:147] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:05:29:456] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 16:05:29:623] info: Store: SELECT_TEAM TB9PVC95H
+[08/06/18, 16:05:53:592] info: Store: SELECT_CHANNEL CB9L67936
+[08/06/18, 16:05:54:028] info: Store: SELECT_CHANNEL CB9LFAP36
+[08/06/18, 16:06:00:025] info: Store: SELECT_CHANNEL CB9L67936
+[08/06/18, 16:06:01:306] info: Store: SELECT_CHANNEL CB9PX40N7
+[08/06/18, 16:06:04:174] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 16:06:09:417] info: Store: SELECT_CHANNEL CB4RSF6SG
+[08/06/18, 16:06:18:810] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 16:06:18:997] info: Store: SELECT_TEAM TB9PVC95H
+[08/06/18, 16:06:34:043] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:06:34:085] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:21:171] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:21:219] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:31:748] info: Store: SELECT_CHANNEL CB9LFAP36
+[08/06/18, 16:07:39:171] info: Store: SELECT_CHANNEL CB9L67936
+[08/06/18, 16:07:40:684] info: Store: SELECT_CHANNEL CB9PX40N7
+[08/06/18, 16:07:42:744] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 16:07:43:390] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:43:415] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:43:957] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:43:988] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:07:45:491] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 16:07:45:673] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 16:07:49:897] info: Store: SELECT_CHANNEL CB47MRRTR
+[08/06/18, 16:08:15:426] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:08:15:450] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:08:50:153] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:08:50:206] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:08:52:004] info: Store: SELECT_CHANNEL CB8EBKWTB
+[08/06/18, 16:08:53:074] info: Store: SELECT_CHANNEL CB47MRRTR
+[08/06/18, 16:08:53:836] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 16:08:58:788] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 16:08:59:578] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:08:59:620] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:10:17:953] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "587Ac9s2rwZW1Ek",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533539417.000191&team=TB47MRNBZ",
+  "msg": "1533539417.000191",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 16:17:19:764] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:17:19:803] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:17:35:821] info: Store: SELECT_NEXT_TEAM
+[08/06/18, 16:17:37:952] info: Store: SELECT_PREVIOUS_TEAM
+[08/06/18, 16:17:56:990] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:17:57:008] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:18:42:668] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:18:42:675] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:18:43:281] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:18:43:307] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:19:18:691] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:19:19:581] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:21:35:764] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:21:35:811] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:21:39:879] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 16:21:40:058] info: Store: SELECT_TEAM TB9PVC95H
+[08/06/18, 16:21:43:581] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:21:43:601] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:28:49:699] info: Store: SET_FULL_SCREEN
+[08/06/18, 16:28:51:590] info: Store: SET_FULL_SCREEN
+[08/06/18, 17:21:56:060] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB9T3KHAN-f214f49bea45-512",
+  "channel": "CB9LFAP36",
+  "content": "[REDACTED]",
+  "id": "A6D8cvCYxnAWOG5",
+  "launchUri": "slack://channel?id=CB9LFAP36&message=1533543715.000207&team=TB9PVC95H",
+  "msg": "1533543715.000207",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 17:21:56:150] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UB9T3KHAN-f214f49bea45-512",
+  "channel": "CB9LFAP36",
+  "content": "[REDACTED]",
+  "id": "VvOJhYFJwODYEJy",
+  "launchUri": "slack://channel?id=CB9LFAP36&message=1533543715.000291&team=TB9PVC95H",
+  "msg": "1533543715.000291",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 17:29:08:615] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9PX40N7",
+  "content": "[REDACTED]",
+  "id": "PjN6s6HjO9yNQkq",
+  "launchUri": "slack://channel?id=CB9PX40N7&message=1533544148.000048&team=TB9PVC95H",
+  "msg": "1533544148.000048",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 17:49:19:361] error: Aug-6 17:49:19.357 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:20:650] error: Aug-6 17:49:20.650 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:29:056] error: Aug-6 17:49:29.056 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:34:015] error: Aug-6 17:49:34.014 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:40:680] error: Aug-6 17:49:40.680 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:45:700] error: Aug-6 17:49:45.700 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:50:883] error: Aug-6 17:49:50.882 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:49:56:177] error: Aug-6 17:49:56.176 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:02:364] error: Aug-6 17:50:02.364 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:27:036] error: Aug-6 17:50:27.035 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:33:559] error: Aug-6 17:50:33.559 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:39:694] error: Aug-6 17:50:39.694 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:45:302] error: Aug-6 17:50:45.302 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:52:911] error: Aug-6 17:50:52.910 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:50:59:662] error: Aug-6 17:50:59.661 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:51:04:687] error: Aug-6 17:51:04.686 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:51:09:935] error: Aug-6 17:51:09.934 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:51:20:651] error: Aug-6 17:51:20.651 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:51:38:409] error: Aug-6 17:51:38.408 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:51:52:438] error: Aug-6 17:51:52.438 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:51:58:256] error: Aug-6 17:51:58.255 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:03:620] error: Aug-6 17:52:03.620 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:20:906] error: Aug-6 17:52:20.906 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:26:248] error: Aug-6 17:52:26.247 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:31:060] error: Aug-6 17:52:31.060 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:37:291] error: Aug-6 17:52:37.290 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:51:483] error: Aug-6 17:52:51.483 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:52:57:705] error: Aug-6 17:52:57.704 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:53:04:338] error: Aug-6 17:53:04.337 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:53:10:832] error: Aug-6 17:53:10.832 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:53:16:054] error: Aug-6 17:53:16.054 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:53:21:063] error: Aug-6 17:53:21.063 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:53:26:646] error: Aug-6 17:53:26.645 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:54:07:812] error: Aug-6 17:54:07.811 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:54:45:089] error: Aug-6 17:54:45.088 (T0253QGQ9) user_typing event from user (U9B3LM74H) not in model; ignoring
+[08/06/18, 17:54:57:705] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://a.slack-edge.com/436da/img/unknown_avatar.png",
+  "channel": "C2AFP7C3V",
+  "content": "[REDACTED]",
+  "id": "lRO7iztqMwpLQ0L",
+  "launchUri": "slack://channel?id=C2AFP7C3V&message=1533545695.000317&team=T0253QGQ9",
+  "msg": "1533545695.000317",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T0253QGQ9",
+  "title": "[REDACTED]"
+}
+[08/06/18, 18:34:38:043] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "lOR8iKtqMwp3Kqv",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533548077.000158&team=TB47MRNBZ",
+  "msg": "1533548077.000158",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 18:34:41:903] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "vgQmfPuAGZ27VoL",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533548081.000242&team=TB47MRNBZ",
+  "msg": "1533548081.000242",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 18:34:44:420] info: Store: CLICK_NOTIFICATION
+{
+  "channel": "CB47MRRTR",
+  "messageId": "1533548081.000242",
+  "notificationId": "vgQmfPuAGZ27VoL",
+  "teamId": "TB47MRNBZ"
+}
+[08/06/18, 18:34:44:436] info: Store: SELECT_TEAM TB47MRNBZ
+[08/06/18, 18:34:44:542] info: Store: SET_FULL_SCREEN
+[08/06/18, 18:34:44:585] info: Store: MAIN_WINDOW_FOCUSED
+[08/06/18, 18:34:44:690] info: Store: SET_FULL_SCREEN
+[08/06/18, 18:40:24:638] info: Store: SET_FULL_SCREEN
+[08/06/18, 18:40:24:672] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:15:13:493] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:15:13:563] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:15:15:322] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:15:15:339] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:18:14:961] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:18:14:979] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:23:03:540] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:23:03:548] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:24:22:079] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:24:22:766] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:26:21:746] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:26:21:754] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:26:30:163] info: Store: SET_FULL_SCREEN
+[08/06/18, 19:26:30:204] info: Store: SET_FULL_SCREEN
+[08/06/18, 20:21:55:880] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9AUBY1X",
+  "content": "[REDACTED]",
+  "id": "BrB1hNIjwMDV3g8",
+  "launchUri": "slack://channel?id=CB9AUBY1X&message=1533554515.000042&team=TB9PVC95H",
+  "msg": "1533554515.000042",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 20:22:19:596] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9AUBY1X",
+  "content": "[REDACTED]",
+  "id": "pZY9c4SGn9yjvoZ",
+  "launchUri": "slack://channel?id=CB9AUBY1X&message=1533554539.000116&team=TB9PVC95H",
+  "msg": "1533554539.000116",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 20:22:38:203] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "KO8AiNCADXjqOXG",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533554556.000211&team=TB47MRNBZ",
+  "msg": "1533554556.000211",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 20:22:42:411] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
+  "channel": "CB47MRRTR",
+  "content": "[REDACTED]",
+  "id": "9893c0FOyxL4WR8",
+  "launchUri": "slack://channel?id=CB47MRRTR&message=1533554562.000035&team=TB47MRNBZ",
+  "msg": "1533554562.000035",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB47MRNBZ",
+  "title": "[REDACTED]"
+}
+[08/06/18, 20:23:52:398] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/TB9PVC95H-UBAU913V5-57c081d9ab7d-512",
+  "channel": "CB9AUBY1X",
+  "content": "[REDACTED]",
+  "id": "NOk7iqTRM3YO3O3",
+  "launchUri": "slack://channel?id=CB9AUBY1X&message=1533554632.000044&team=TB9PVC95H",
+  "msg": "1533554632.000044",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "TB9PVC95H",
+  "title": "[REDACTED]"
+}
+[08/06/18, 20:33:51:374] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
+}
+[08/06/18, 20:33:51:394] info: Store: START_BACKGROUND_CLIENT
+{
+  "teamId": "T0EHMQ4HM",
+  "token": "xoxs-⋯"
+}
+[08/06/18, 20:33:52:153] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "status": "connected",
+  "teamId": "T0253QGQ9"
+}
+[08/10/18, 22:00:48:756] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[08/10/18, 22:00:48:760] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/10/18, 22:00:48:747      ║
+[08/10/18, 22:00:48:760] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[08/10/18, 22:00:49:051] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[08/10/18, 22:00:49:664] info: Main window preload script finished
+{
+  "readyTime": 1738.686324
+}
+[08/10/18, 22:00:49:690] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "TB9PVC95H"
+}
+[08/10/18, 22:00:49:691] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[08/10/18, 22:00:49:692] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "empty-page",
+  "teamId": "T0253QGQ9"
+}
+[08/10/18, 22:00:49:692] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 18,
+  "state": "loaded",
+  "teamId": "T0EHMQ4HM"
+}
+[08/10/18, 22:00:49:693] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 16,
+  "state": "page-will-navigate",
+  "teamId": "T0253QGQ9"
+}
+[08/10/18, 22:00:49:693] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 18,
+  "state": "empty-page",
+  "teamId": "T0EHMQ4HM"
+}
+[08/10/18, 22:00:49:694] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 18,
+  "state": "page-will-navigate",
+  "teamId": "T0EHMQ4HM"
+}
+[08/10/18, 22:00:49:694] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0253QGQ9"
+}
+[08/10/18, 22:00:49:695] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0EHMQ4HM"
+}
+[08/10/18, 22:00:49:695] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 19,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[08/10/18, 22:00:49:696] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 19,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[08/10/18, 22:00:49:696] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 19,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[08/10/18, 22:00:49:696] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[08/10/18, 22:00:49:698] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 17,
+  "state": "loaded",
+  "teamId": "TB9PVC95H"
+}
+[08/10/18, 22:00:49:712] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 17,
+  "state": "empty-page",
+  "teamId": "TB9PVC95H"
+}
+[08/10/18, 22:00:49:726] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 17,
+  "state": "page-will-navigate",
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:20:13:923] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[08/21/18, 20:20:13:928] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/21/18, 20:20:13:914      ║
+[08/21/18, 20:20:13:928] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[08/21/18, 20:20:14:256] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[08/21/18, 20:20:15:011] info: Main window preload script finished
+{
+  "readyTime": 2194.127096
+}
+[08/21/18, 20:20:15:024] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:20:15:025] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "empty-page",
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:20:15:025] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "page-will-navigate",
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:20:15:026] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "TB9PVC95H"
+}
+[08/21/18, 20:20:15:047] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "loaded",
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:20:15:047] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "empty-page",
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:20:15:048] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 7,
+  "state": "page-will-navigate",
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:20:15:048] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T0253QGQ9"
+}
+[08/21/18, 20:20:15:049] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "loaded",
+  "teamId": "T031FNTUT"
+}
+[08/21/18, 20:20:15:072] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "empty-page",
+  "teamId": "T031FNTUT"
+}
+[08/21/18, 20:20:15:087] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 8,
+  "state": "page-will-navigate",
+  "teamId": "T031FNTUT"
+}
+[08/21/18, 20:20:15:134] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "loaded",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:20:15:164] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "empty-page",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:20:15:170] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 6,
+  "state": "page-will-navigate",
+  "teamId": "T0EHMQ4HM"
+}
+[08/21/18, 20:20:15:209] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T031FNTUT"
+}
+[08/21/18, 20:20:15:221] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 5,
+  "state": "loaded",
+  "teamId": "TB9PVC95H"
+}
