@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weblio英和辞典エクステンション オプション</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="popup.css">
+<script type="text/javascript" async="async" src="api.js"></script>
+<script type="text/javascript" async="async" src="analytics.js"></script>
+<script type="text/javascript" async="async" src="popup.js"></script>
+</head>
+<body>
+
+<div id="search" class="section">
+  <div class="body">
+    <form name="search" id="searchForm">
+      <div class="center">
+        <input type="text" name="keyword" id="searchKeyword" placeholder="Weblio英和辞典で検索">
+      </div>
+      <div>
+        <a href="http://ejje.weblio.jp/" title="Weblio英和辞典" target="_blank"><img class="logo" src="logoE_LMD.png" alt="Weblio英和辞典"></a>
+        <button type="submit">検索</button>
+        <div class="clr"></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="config" class="section">
+  <div class="title">ポップアップ設定</div>
+  <div class="body">
+    <form name="chFormPr" class=ttl>
+    <span class=ttlHd>ポップアップ機能：</span>
+    <span class=ttlDc><input type="radio" name="act" value="on" ID=pupSchEblOn>ON&nbsp;<input type="radio" name="act" value="off" ID=pupSchEblOff>OFF</span>
+    </form>
+
+    <p class=ttl><span class=ttlHdSc>ポップアップのタイミング：</span></p>
+    <form name="chFormTm" class=ttlB>
+    <input type="radio" name="act" value="500" ID=pupSchEblOn>早め&nbsp;<input type="radio" name="act" value="800" ID=pupSchEblOff>標準&nbsp;<input type="radio" name="act" value="1500" ID=pupSchEblOff>遅め
+    </form>
+
+    <p class=ttl><span class=ttlHdSc>ポップアップ方法：</span></p>
+    <form name="chForm" class=ttlB>
+    <input type="radio" name="act" value="sel" ID=pupSchEblOn>カーソルを合わせる<br>
+    <input type="radio" name="act" value="sel_ekey" ID=pupSchEblOff>カーソルを合わせる＋[Ctrl]キー<br>
+    <input type="radio" name="act" value="mou" ID=pupSchEblOff>選択状態にする(ダブルクリックでも可)<br>
+    <input type="radio" name="act" value="sel_mou" ID=pupSchEblOff>カーソルを合わせる、または選択状態にする<br>
+    <input type="radio" name="act" value="e_key" ID=pupSchEblOff>選択状態にする＋[E]キー
+    </form>
+
+    <form name="chFormSmt" class=ttlSnd>
+    <span class=ttlSndL><input type="button" value="保存する" ID=pUpStatus>&nbsp;&nbsp;<input type="button" value="キャンセル" ID=pClStatus></span>
+    <span class=ttlSndR><a href="#" title="詳細設定" ID="pUpOpts">詳細設定</a></span>
+    </form>
+    <div id=statusHd></div>
+  </div>
+</div>
+
+</body>
+</html>
