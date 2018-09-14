@@ -136,3 +136,5 @@ function tut() {
 
 export PATH="$PATH:${HOME}/tools/depot_tools"
 alias chrome="chromium-browser"
+
+eval $(colter --init)
