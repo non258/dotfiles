@@ -1,0 +1,720 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.3.1, linux 4.10.0-38-generic on x64 at 09/04/18, 12:24:14:207      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Sep-4 12:24:18.875 [BOOT] booted! pri:0 version:1536000902 start_ms:1536031457323 (1552ms ago)
+info: Sep-4 12:24:18.875 [BOOT] Starting incremental boot (early)
+warn: Sep-4 12:24:18.958 error getActiveModelOb found no ob
+warn: Sep-4 12:24:18.958 TS.boot_data.channel_id: undefined
+warn: Sep-4 12:24:18.958 TS.boot_data.im_id: undefined
+warn: Sep-4 12:24:18.958 TS.boot_data.group_id: undefined
+warn: Sep-4 12:24:18.959 error getActiveModelOb found no ob
+warn: Sep-4 12:24:18.959 TS.boot_data.channel_id: undefined
+warn: Sep-4 12:24:18.959 TS.boot_data.im_id: undefined
+warn: Sep-4 12:24:18.959 TS.boot_data.group_id: undefined
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Sep-4 12:24:19.180 [SOCKET-MANAGER] (T0EHMQ4HM) Changing from never_connected to prov_connect
+info: Sep-4 12:24:19.180 [SOCKET-MANAGER] (T0EHMQ4HM) will stay in prov_connect state for up to 10000 ms
+info: Sep-4 12:24:19.181 [SOCKET-MANAGER] (T0EHMQ4HM) Changing from prov_connect to prov_connecting
+info: Sep-4 12:24:19.181 [SOCKET-MANAGER] (T0EHMQ4HM) will stay in prov_connecting state for up to 35000 ms
+warn: Sep-4 12:24:19.190 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function
+info: Sep-4 12:24:19.357 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.355 apps.actions.list called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:19.357 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.355 apps.actions.list is ENQUEUED
+info: Sep-4 12:24:19.358 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.355 apps.actions.list is ACTIVE
+warn: Sep-4 12:24:19.525 updateTeamIcon was called, but missing an image to set
+info: Sep-4 12:24:19.660 [BOOT] Finalizing incremental boot
+info: Sep-4 12:24:19.662 [METRICS] Starting timers for metrics collection
+info: Sep-4 12:24:19.666 [FLANNEL] (T0EHMQ4HM) received a user_counts_request call while we are not connected; deferring
+info: Sep-4 12:24:19.878 [SWITCH-TO-CHANNEL] (T0EHMQ4HM) Switching to D8F14DS03 at end
+info: Sep-4 12:24:19.902 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.901 promo.banner called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:19.902 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.901 promo.banner is ENQUEUED
+info: Sep-4 12:24:19.902 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.901 promo.banner is ACTIVE
+info: Sep-4 12:24:19.918 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: D8F14DS03 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 12:24:19.919 [HISTORY-FETCH] (T0EHMQ4HM) Fetching history for message pane: D8F14DS03 oldest: null latest: null
+info: Sep-4 12:24:19.920 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.920 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 12:24:19.920 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.920 conversations.history is ENQUEUED
+info: Sep-4 12:24:19.921 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.920 conversations.history is ACTIVE
+info: Sep-4 12:24:19.941 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.355 apps.actions.list is RESOLVED
+info: Sep-4 12:24:19.963 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Sep-4 12:24:19.980 [SOCKET-MANAGER] (T0EHMQ4HM) Changing from prov_connecting to prov_connected
+info: Sep-4 12:24:19.980 [SOCKET-MANAGER] (T0EHMQ4HM) will stay in prov_connected state for up to 60000 ms
+info: Sep-4 12:24:19.981 [FLANNEL] (T0EHMQ4HM) connected! Continuing deferred user_counts_request call
+info: Sep-4 12:24:19.982 [INFO] Got start data from Socket Manager; hydrating it
+warn: Sep-4 12:24:19.994 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Sep-4 12:24:19.995 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Sep-4 12:24:20.076 [BOOT] Completed incremental boot
+info: Sep-4 12:24:20.080 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.080 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:20.080 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.080 i18n.translations.get is ENQUEUED
+info: Sep-4 12:24:20.080 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.080 i18n.translations.get is ACTIVE
+info: Sep-4 12:24:20.194 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Sep-4 12:24:20.194 [SOCKET-MANAGER] (T0EHMQ4HM) Changing from prov_connected to prov_finalize
+info: Sep-4 12:24:20.194 [SOCKET-MANAGER] (T0EHMQ4HM) will stay in prov_finalize state for up to 10000 ms
+info: Sep-4 12:24:20.195 [SOCKET-MANAGER] (T0EHMQ4HM) Changing from prov_finalize to prov_finalizing
+info: Sep-4 12:24:20.195 [SOCKET-MANAGER] (T0EHMQ4HM) will stay in prov_finalizing state for up to 10000 ms
+info: Sep-4 12:24:20.195 [SOCKET-MANAGER] (T0EHMQ4HM) Changing from prov_finalizing to connected
+info: Sep-4 12:24:20.195 [SOCKET-MANAGER] (T0EHMQ4HM) will stay in connected state for up to Infinity ms
+info: Sep-4 12:24:20.195 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Sep-4 12:24:20.197 [BOOT] Finished first boot 1024 ms after DOM ready
+info: Sep-4 12:24:20.202 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.202 help.issues.list called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:20.202 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.202 help.issues.list is ENQUEUED
+info: Sep-4 12:24:20.203 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.202 help.issues.list is ACTIVE
+info: Sep-4 12:24:20.205 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.204 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:20.205 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.204 dnd.teamInfo is ENQUEUED
+info: Sep-4 12:24:20.205 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.204 dnd.teamInfo is ACTIVE
+info: Sep-4 12:24:20.207 [INFO] MSConnected: 
+info: Sep-4 12:24:20.232 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.232 users.counts called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:20.232 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.232 users.counts is ENQUEUED
+info: Sep-4 12:24:20.232 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.232 users.counts is ACTIVE
+info: Sep-4 12:24:20.297 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.901 promo.banner is RESOLVED
+info: Sep-4 12:24:20.300 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after fully booted
+info: Sep-4 12:24:20.301 [CHECK-UNREADS] (T0EHMQ4HM) Not marking D8F14DS03, clearing ghost last_read
+info: Sep-4 12:24:20.322 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.080 i18n.translations.get is RESOLVED
+info: Sep-4 12:24:20.464 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.232 users.counts is RESOLVED
+info: Sep-4 12:24:20.479 [UNREAD-COUNTS] (T0EHMQ4HM) Completed users.counts processing
+info: Sep-4 12:24:20.625 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031459.920 conversations.history is RESOLVED
+info: Sep-4 12:24:20.638 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Sep-4 12:24:20.708 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 12:24:20.973 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.202 help.issues.list is RESOLVED
+info: Sep-4 12:24:20.976 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031460.204 dnd.teamInfo is RESOLVED
+info: Sep-4 12:24:21.066 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 12:24:21.067 [CHECK-UNREADS] (T0EHMQ4HM) Marking D8F14DS03 because unread line is visible
+info: Sep-4 12:24:21.075 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in D8F14DS03 because last_read changed to 1536031458.000000
+warn: Sep-4 12:24:22.755 Precision must be a value between 1 and 21. Formatting with default precision (4) instead.
+info: Sep-4 12:24:24.974 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031464.972 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:24.974 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031464.972 conversations.mark is ENQUEUED
+info: Sep-4 12:24:24.975 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031464.972 conversations.mark is ACTIVE
+info: Sep-4 12:24:25.269 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031464.972 conversations.mark is RESOLVED
+info: Sep-4 12:24:33.529 [IMPROVED_SEARCH] (T0EHMQ4HM) Close Search
+info: Sep-4 12:24:33.531 [IMPROVED_SEARCH] (T0EHMQ4HM) Search is closing without query: Clear search session immediately
+info: Sep-4 12:24:33.555 [INFO] TS.model.previewed_member_id:U8F7K0NSZ
+warn: Sep-4 12:24:33.626 Ensure profile fields exist before calling getVisibleTeamProfileFieldsForMember
+warn: Sep-4 12:24:33.653 Ensure profile fields exist before calling getVisibleTeamProfileFieldsForMember
+warn: Sep-4 12:24:33.657 Ensure profile fields exist before calling getVisibleTeamProfileFieldsForMember
+info: Sep-4 12:24:39.668 [FOCUS-EVENT] Window blurred
+info: Sep-4 12:24:39.680 [FOCUS-EVENT] Window focused
+info: Sep-4 12:24:39.689 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 12:24:39.689 [CHECK-UNREADS] (T0EHMQ4HM) Not marking D8F14DS03 because last_read >= latest && channel is read
+info: Sep-4 12:24:39.866 [FOCUS-EVENT] Window blurred
+info: Sep-4 12:24:42.588 [FOCUS-EVENT] Window focused
+info: Sep-4 12:24:42.605 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 12:24:42.606 [CHECK-UNREADS] (T0EHMQ4HM) Not marking D8F14DS03 because last_read >= latest && channel is read
+info: Sep-4 12:24:44.333 [ACTION:CHANNEL-SIDEBAR] Selected Vall_threads
+info: Sep-4 12:24:44.355 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.354 promo.banner called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:44.355 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.354 promo.banner is ENQUEUED
+info: Sep-4 12:24:44.355 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.354 promo.banner is ACTIVE
+info: Sep-4 12:24:44.357 [ALL THREADS] Starting threads view from the api
+info: Sep-4 12:24:44.358 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.358 subscriptions.thread.getView called with reason: NO REASON PROVIDED
+info: Sep-4 12:24:44.358 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.358 subscriptions.thread.getView is ENQUEUED
+info: Sep-4 12:24:44.359 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.358 subscriptions.thread.getView is ACTIVE
+info: Sep-4 12:24:44.623 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.358 subscriptions.thread.getView is RESOLVED
+info: Sep-4 12:24:44.636 [ALL THREADS] Processing subscriptions.thread.getView response
+info: Sep-4 12:24:44.647 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536031484.354 promo.banner is RESOLVED
+info: Sep-4 12:24:47.390 [FOCUS-EVENT] Window blurred
+info: Sep-4 12:24:47.395 [FOCUS-EVENT] Window focused
+info: Sep-4 12:24:47.579 [FOCUS-EVENT] Window blurred
+info: Sep-4 12:34:20.662 [INFO] Received 0 bytes in the first 10 minutes of the session
+info: Sep-4 12:34:20.668 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.667 api.test called with reason: NO REASON PROVIDED
+info: Sep-4 12:34:20.668 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.667 api.test is ENQUEUED
+info: Sep-4 12:34:20.669 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.667 api.test is ACTIVE
+info: Sep-4 12:34:20.671 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.670 users.info called with reason: NO REASON PROVIDED
+info: Sep-4 12:34:20.671 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.670 users.info is ENQUEUED
+info: Sep-4 12:34:20.672 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.670 users.info is ACTIVE
+info: Sep-4 12:34:21.447 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.667 api.test is RESOLVED
+info: Sep-4 12:34:21.450 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536032060.670 users.info is RESOLVED
+info: Sep-4 12:48:57.916 [INFO] UCLDF9742 joined the team
+info: Sep-4 12:48:58.022 [(T0EHMQ4HM)] UCLDF9742 joined channel C0EHJUUEP
+warn: Sep-4 12:48:58.029 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 12:48:58.205 [(T0EHMQ4HM)] UCLDF9742 joined channel C0EHMQ4K1
+warn: Sep-4 12:48:58.208 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+error: Sep-4 12:50:40.914 (T0EHMQ4HM) user_typing event from user (U5VB555UM) not in model; ignoring
+info: Sep-4 13:54:01.662 [MIN-VERSION] (T0EHMQ4HM) checking to see if we should reload
+info: Sep-4 13:54:01.664 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536036841.663 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-4 13:54:01.664 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536036841.663 rtm.shouldReload is ENQUEUED
+info: Sep-4 13:54:01.665 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536036841.663 rtm.shouldReload is ACTIVE
+info: Sep-4 13:54:02.442 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536036841.663 rtm.shouldReload is RESOLVED
+info: Sep-4 13:54:02.443 [MIN-VERSION] (T0EHMQ4HM) no need to reload
+info: Sep-4 14:29:02.552 [INFO] UCMQAQ5RU joined the team
+info: Sep-4 14:29:02.686 [(T0EHMQ4HM)] UCMQAQ5RU joined channel C0EHJUUEP
+warn: Sep-4 14:29:03.090 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 14:29:03.094 [(T0EHMQ4HM)] UCMQAQ5RU joined channel C0EHMQ4K1
+warn: Sep-4 14:29:03.095 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 15:08:05.919 [INFO] UCLEKFGSE joined the team
+info: Sep-4 15:08:05.925 [(T0EHMQ4HM)] UCLEKFGSE joined channel C0EHJUUEP
+warn: Sep-4 15:08:05.926 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 15:08:06.063 [(T0EHMQ4HM)] UCLEKFGSE joined channel C0EHMQ4K1
+warn: Sep-4 15:08:06.065 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 15:23:44.661 [MIN-VERSION] (T0EHMQ4HM) checking to see if we should reload
+info: Sep-4 15:23:44.662 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536042224.662 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-4 15:23:44.662 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536042224.662 rtm.shouldReload is ENQUEUED
+info: Sep-4 15:23:44.663 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536042224.662 rtm.shouldReload is ACTIVE
+info: Sep-4 15:23:45.447 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536042224.662 rtm.shouldReload is RESOLVED
+info: Sep-4 15:23:45.447 [MIN-VERSION] (T0EHMQ4HM) no need to reload
+info: Sep-4 15:54:05.664 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Sep-4 15:54:05.664 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Sep-4 15:54:05.671 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_highlight_cnt for C0EHJUUEP: 1
+error: Sep-4 15:54:15.658 (T0EHMQ4HM) user_typing event from user (U6QAWU343) not in model; ignoring
+error: Sep-4 15:54:51.703 (T0EHMQ4HM) user_typing event from user (U0Q8VTGPM) not in model; ignoring
+error: Sep-4 15:54:53.546 (T0EHMQ4HM) user_typing event from user (U0Q8VTGPM) not in model; ignoring
+error: Sep-4 15:54:58.667 (T0EHMQ4HM) user_typing event from user (U0Q8VTGPM) not in model; ignoring
+error: Sep-4 15:55:02.133 (T0EHMQ4HM) user_typing event from user (U0Q8VTGPM) not in model; ignoring
+error: Sep-4 15:55:07.678 (T0EHMQ4HM) user_typing event from user (U0Q8VTGPM) not in model; ignoring
+info: Sep-4 15:55:12.727 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 2
+error: Sep-4 15:55:25.891 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:55:31.467 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:55:36.588 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:55:37.169 (T0EHMQ4HM) user_typing event from user (UAN0E6NDR) not in model; ignoring
+info: Sep-4 15:55:38.403 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 15:55:38.403 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 1
+error: Sep-4 15:55:41.780 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:55:44.849 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:55:48.433 (T0EHMQ4HM) user_typing event from user (U3AUW5PED) not in model; ignoring
+error: Sep-4 15:55:51.719 (T0EHMQ4HM) user_typing event from user (U3AUW5PED) not in model; ignoring
+error: Sep-4 15:55:55.601 (T0EHMQ4HM) user_typing event from user (U3AUW5PED) not in model; ignoring
+error: Sep-4 15:55:58.673 (T0EHMQ4HM) user_typing event from user (U3AUW5PED) not in model; ignoring
+info: Sep-4 15:56:00.457 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536044160.457 subscriptions.thread.get called with reason: NO REASON PROVIDED
+info: Sep-4 15:56:00.457 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536044160.457 subscriptions.thread.get is ENQUEUED
+info: Sep-4 15:56:00.457 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536044160.457 subscriptions.thread.get is ACTIVE
+info: Sep-4 15:56:01.233 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536044160.457 subscriptions.thread.get is RESOLVED
+info: Sep-4 15:56:11.858 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_highlight_cnt for C0EHJUUEP: 0
+error: Sep-4 15:56:17.720 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:56:21.803 (T0EHMQ4HM) user_typing event from user (U5G13F5TJ) not in model; ignoring
+error: Sep-4 15:56:24.990 (T0EHMQ4HM) user_typing event from user (U8B4G0T2R) not in model; ignoring
+error: Sep-4 15:56:25.502 (T0EHMQ4HM) user_typing event from user (U0PKBCTP1) not in model; ignoring
+info: Sep-4 15:56:27.658 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 2
+error: Sep-4 15:56:29.701 (T0EHMQ4HM) user_typing event from user (U0RNJU2LU) not in model; ignoring
+info: Sep-4 15:56:31.037 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 3
+error: Sep-4 15:56:31.083 (T0EHMQ4HM) user_typing event from user (U0PKBCTP1) not in model; ignoring
+error: Sep-4 15:56:31.342 (T0EHMQ4HM) user_typing event from user (U0RNJU2LU) not in model; ignoring
+error: Sep-4 15:56:31.646 (T0EHMQ4HM) user_typing event from user (U9Z0LCXUH) not in model; ignoring
+error: Sep-4 15:56:31.822 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+info: Sep-4 15:56:33.745 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 4
+error: Sep-4 15:56:34.923 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:56:37.073 (T0EHMQ4HM) user_typing event from user (U0RNJU2LU) not in model; ignoring
+error: Sep-4 15:56:37.100 (T0EHMQ4HM) user_typing event from user (U2KDS31BK) not in model; ignoring
+error: Sep-4 15:56:38.814 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:56:39.646 (T0EHMQ4HM) user_typing event from user (U0PKBCTP1) not in model; ignoring
+error: Sep-4 15:56:39.941 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+info: Sep-4 15:56:40.008 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 5
+error: Sep-4 15:56:40.250 (T0EHMQ4HM) user_typing event from user (U31DCQZCL) not in model; ignoring
+info: Sep-4 15:56:40.266 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 6
+error: Sep-4 15:56:41.579 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:56:42.296 (T0EHMQ4HM) user_typing event from user (U31DCQZCL) not in model; ignoring
+error: Sep-4 15:56:42.297 (T0EHMQ4HM) user_typing event from user (U2KDS31BK) not in model; ignoring
+error: Sep-4 15:56:43.404 (T0EHMQ4HM) user_typing event from user (U0PKBCTP1) not in model; ignoring
+error: Sep-4 15:56:43.701 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:56:43.934 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:56:45.505 (T0EHMQ4HM) user_typing event from user (U5C2MNHQU) not in model; ignoring
+error: Sep-4 15:56:46.801 (T0EHMQ4HM) user_typing event from user (U5C2MNHQU) not in model; ignoring
+error: Sep-4 15:56:47.729 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:56:48.646 (T0EHMQ4HM) user_typing event from user (U5C2MNHQU) not in model; ignoring
+error: Sep-4 15:56:49.158 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:56:49.160 (T0EHMQ4HM) user_typing event from user (U31DCQZCL) not in model; ignoring
+info: Sep-4 15:56:49.361 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 7
+error: Sep-4 15:56:49.364 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:56:52.332 (T0EHMQ4HM) user_typing event from user (U8S9DR4EP) not in model; ignoring
+error: Sep-4 15:56:52.334 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+info: Sep-4 15:56:53.472 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 8
+error: Sep-4 15:56:53.867 (T0EHMQ4HM) user_typing event from user (U3YMFQSMC) not in model; ignoring
+info: Sep-4 15:56:54.673 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 9
+error: Sep-4 15:56:55.506 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:56:57.060 (T0EHMQ4HM) user_typing event from user (U8S9DR4EP) not in model; ignoring
+error: Sep-4 15:56:58.579 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+info: Sep-4 15:56:58.646 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 10
+info: Sep-4 15:56:58.992 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 11
+error: Sep-4 15:56:59.499 (T0EHMQ4HM) user_typing event from user (U45G1MQ80) not in model; ignoring
+error: Sep-4 15:57:01.035 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:57:02.366 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:02.750 (T0EHMQ4HM) user_typing event from user (UAUBLAGCB) not in model; ignoring
+info: Sep-4 15:57:02.883 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 12
+error: Sep-4 15:57:04.210 (T0EHMQ4HM) user_typing event from user (U2H9E7XFD) not in model; ignoring
+error: Sep-4 15:57:05.542 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:57:05.804 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+info: Sep-4 15:57:07.390 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 13
+error: Sep-4 15:57:07.589 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:57:07.768 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:57:08.512 (T0EHMQ4HM) user_typing event from user (UAUBLAGCB) not in model; ignoring
+error: Sep-4 15:57:08.608 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+info: Sep-4 15:57:09.642 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 14
+error: Sep-4 15:57:12.482 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:57:12.836 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:14.737 (T0EHMQ4HM) user_typing event from user (UAUBLAGCB) not in model; ignoring
+error: Sep-4 15:57:15.889 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:18.137 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:57:18.889 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:19.467 (T0EHMQ4HM) user_typing event from user (U6L2CE0M8) not in model; ignoring
+info: Sep-4 15:57:22.138 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 15
+error: Sep-4 15:57:22.161 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:22.642 (T0EHMQ4HM) user_typing event from user (U6L2CE0M8) not in model; ignoring
+info: Sep-4 15:57:23.766 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 16
+error: Sep-4 15:57:24.076 (T0EHMQ4HM) user_typing event from user (U2PA74M4J) not in model; ignoring
+error: Sep-4 15:57:25.570 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+info: Sep-4 15:57:29.202 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 17
+error: Sep-4 15:57:29.503 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+info: Sep-4 15:57:30.002 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 18
+error: Sep-4 15:57:32.677 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:36.260 (T0EHMQ4HM) user_typing event from user (U6XJ7QJ57) not in model; ignoring
+error: Sep-4 15:57:43.747 (T0EHMQ4HM) user_typing event from user (U3VCR71CY) not in model; ignoring
+info: Sep-4 15:57:47.125 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 19
+info: Sep-4 15:57:50.195 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 20
+error: Sep-4 15:57:54.490 (T0EHMQ4HM) user_typing event from user (UCEUXR4H4) not in model; ignoring
+error: Sep-4 15:57:57.150 (T0EHMQ4HM) user_typing event from user (UCKLSEC0M) not in model; ignoring
+error: Sep-4 15:57:59.565 (T0EHMQ4HM) user_typing event from user (UCEUXR4H4) not in model; ignoring
+error: Sep-4 15:58:01.451 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:58:01.509 (T0EHMQ4HM) user_typing event from user (UCKLSEC0M) not in model; ignoring
+error: Sep-4 15:58:02.373 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+info: Sep-4 15:58:03.302 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 21
+error: Sep-4 15:58:03.666 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:58:05.445 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:58:05.447 (T0EHMQ4HM) user_typing event from user (UCEUXR4H4) not in model; ignoring
+error: Sep-4 15:58:05.821 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:58:08.641 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:58:11.282 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+error: Sep-4 15:58:11.999 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:58:14.765 (T0EHMQ4HM) user_typing event from user (UCEUXR4H4) not in model; ignoring
+error: Sep-4 15:58:15.992 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:58:16.465 (T0EHMQ4HM) user_typing event from user (UB5Q1V71D) not in model; ignoring
+info: Sep-4 15:58:17.498 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 22
+error: Sep-4 15:58:18.859 (T0EHMQ4HM) user_typing event from user (UAGQ1K1PU) not in model; ignoring
+info: Sep-4 15:58:22.567 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 23
+error: Sep-4 15:58:23.687 (T0EHMQ4HM) user_typing event from user (UAGQ1K1PU) not in model; ignoring
+error: Sep-4 15:58:25.516 (T0EHMQ4HM) user_typing event from user (U38KF3N7J) not in model; ignoring
+error: Sep-4 15:58:26.233 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+info: Sep-4 15:58:28.426 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 24
+info: Sep-4 15:58:29.628 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 25
+error: Sep-4 15:58:30.664 (T0EHMQ4HM) user_typing event from user (U38KF3N7J) not in model; ignoring
+error: Sep-4 15:58:35.860 (T0EHMQ4HM) user_typing event from user (U38KF3N7J) not in model; ignoring
+error: Sep-4 15:58:44.639 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+info: Sep-4 15:58:46.517 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 26
+error: Sep-4 15:58:53.266 (T0EHMQ4HM) user_typing event from user (U91FHKHEF) not in model; ignoring
+info: Sep-4 15:58:53.319 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 27
+error: Sep-4 15:58:53.574 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+error: Sep-4 15:58:53.721 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+info: Sep-4 15:58:55.081 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 28
+error: Sep-4 15:58:56.851 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+info: Sep-4 15:58:58.599 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 29
+error: Sep-4 15:59:00.639 (T0EHMQ4HM) user_typing event from user (U91FHKHEF) not in model; ignoring
+error: Sep-4 15:59:03.301 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+error: Sep-4 15:59:06.783 (T0EHMQ4HM) user_typing event from user (U91FHKHEF) not in model; ignoring
+error: Sep-4 15:59:07.148 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:11.084 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+error: Sep-4 15:59:15.180 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:16.614 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+error: Sep-4 15:59:17.126 (T0EHMQ4HM) user_typing event from user (UAN0E6NDR) not in model; ignoring
+error: Sep-4 15:59:21.092 (T0EHMQ4HM) user_typing event from user (UAN0E6NDR) not in model; ignoring
+error: Sep-4 15:59:22.553 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+error: Sep-4 15:59:23.065 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:23.694 (T0EHMQ4HM) user_typing event from user (UAN0E6NDR) not in model; ignoring
+error: Sep-4 15:59:27.799 (T0EHMQ4HM) user_typing event from user (UAN0E6NDR) not in model; ignoring
+error: Sep-4 15:59:28.186 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:30.463 (T0EHMQ4HM) user_typing event from user (UAN0E6NDR) not in model; ignoring
+info: Sep-4 15:59:31.571 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 30
+error: Sep-4 15:59:32.281 (T0EHMQ4HM) user_typing event from user (U4Z7TJ0KB) not in model; ignoring
+info: Sep-4 15:59:32.289 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 31
+info: Sep-4 15:59:35.575 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 32
+error: Sep-4 15:59:35.968 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:41.204 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:44.569 (T0EHMQ4HM) user_typing event from user (UB9SM90AK) not in model; ignoring
+error: Sep-4 15:59:46.719 (T0EHMQ4HM) user_typing event from user (U54P3NYCC) not in model; ignoring
+error: Sep-4 15:59:47.436 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:59:50.825 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:59:53.991 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 15:59:57.164 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 16:00:00.339 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 16:00:03.513 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+error: Sep-4 16:00:07.302 (T0EHMQ4HM) user_typing event from user (U3TCJ858B) not in model; ignoring
+info: Sep-4 16:00:11.819 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 33
+info: Sep-4 16:00:46.831 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:00:46.838 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 32
+error: Sep-4 16:00:59.219 (T0EHMQ4HM) user_typing event from user (U39QJ54CU) not in model; ignoring
+info: Sep-4 16:01:01.884 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:01:01.891 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 31
+info: Sep-4 16:01:10.286 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 32
+error: Sep-4 16:01:38.234 (T0EHMQ4HM) user_typing event from user (U43NT8X47) not in model; ignoring
+info: Sep-4 16:01:42.953 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 33
+info: Sep-4 16:02:32.208 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 34
+info: Sep-4 16:02:39.789 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 35
+error: Sep-4 16:02:50.642 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:02:54.031 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+info: Sep-4 16:02:57.373 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 36
+error: Sep-4 16:02:57.376 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:00.564 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:03.040 (T0EHMQ4HM) user_typing event from user (U8AMRCEMV) not in model; ignoring
+error: Sep-4 16:03:03.653 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:06.810 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:08.551 (T0EHMQ4HM) user_typing event from user (U8AMRCEMV) not in model; ignoring
+error: Sep-4 16:03:10.907 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:13.467 (T0EHMQ4HM) user_typing event from user (U8AMRCEMV) not in model; ignoring
+error: Sep-4 16:03:15.010 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:18.996 (T0EHMQ4HM) user_typing event from user (U8AMRCEMV) not in model; ignoring
+error: Sep-4 16:03:19.202 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+info: Sep-4 16:03:20.851 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 37
+error: Sep-4 16:03:22.478 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:26.675 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:30.617 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:33.639 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:38.762 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:40.034 (T0EHMQ4HM) user_typing event from user (U9MQA5YUU) not in model; ignoring
+error: Sep-4 16:03:41.834 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+error: Sep-4 16:03:45.620 (T0EHMQ4HM) user_typing event from user (UATQA6PGX) not in model; ignoring
+info: Sep-4 16:04:00.690 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 38
+info: Sep-4 16:04:55.333 [INFO] UCL8TV144 joined the team
+info: Sep-4 16:04:55.338 [(T0EHMQ4HM)] UCL8TV144 joined channel C0EHJUUEP
+warn: Sep-4 16:04:55.339 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 16:04:55.458 [(T0EHMQ4HM)] UCL8TV144 joined channel C0EHMQ4K1
+warn: Sep-4 16:04:55.459 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+error: Sep-4 16:06:27.856 (T0EHMQ4HM) user_typing event from user (U2JGKN2NM) not in model; ignoring
+error: Sep-4 16:07:39.606 (T0EHMQ4HM) user_typing event from user (UBKHZ3T5L) not in model; ignoring
+error: Sep-4 16:08:46.372 (T0EHMQ4HM) user_typing event from user (U5098NL03) not in model; ignoring
+error: Sep-4 16:09:32.452 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:09:37.470 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:09:41.157 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:09:44.676 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:09:48.530 (T0EHMQ4HM) user_typing event from user (U4P3ZNNQ7) not in model; ignoring
+error: Sep-4 16:09:50.475 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:09:55.492 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:01.227 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:06.147 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:20.549 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:25.598 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:32.060 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:37.821 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+error: Sep-4 16:10:45.750 (T0EHMQ4HM) user_typing event from user (U842SNXHA) not in model; ignoring
+info: Sep-4 16:10:52.076 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 39
+error: Sep-4 16:10:59.802 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:04.789 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:10.574 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:15.879 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:21.103 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:27.748 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:47.747 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+error: Sep-4 16:11:53.159 (T0EHMQ4HM) user_typing event from user (U3W6PGE85) not in model; ignoring
+info: Sep-4 16:11:57.054 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 40
+info: Sep-4 16:13:07.751 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:13:07.768 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 39
+info: Sep-4 16:13:10.161 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:13:10.180 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 38
+info: Sep-4 16:13:32.381 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:13:32.397 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 37
+error: Sep-4 16:14:58.280 (T0EHMQ4HM) user_typing event from user (UBUE66T54) not in model; ignoring
+error: Sep-4 16:15:04.028 (T0EHMQ4HM) user_typing event from user (UBUE66T54) not in model; ignoring
+error: Sep-4 16:15:09.148 (T0EHMQ4HM) user_typing event from user (UBUE66T54) not in model; ignoring
+info: Sep-4 16:15:14.192 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 38
+info: Sep-4 16:15:52.478 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 39
+error: Sep-4 16:15:54.798 (T0EHMQ4HM) user_typing event from user (U37JZRDNJ) not in model; ignoring
+info: Sep-4 16:16:24.129 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 40
+info: Sep-4 16:17:07.526 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:17:07.543 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 39
+error: Sep-4 16:17:29.128 (T0EHMQ4HM) user_typing event from user (U6KKSJTE3) not in model; ignoring
+error: Sep-4 16:17:34.167 (T0EHMQ4HM) user_typing event from user (U6KKSJTE3) not in model; ignoring
+error: Sep-4 16:17:36.629 (T0EHMQ4HM) user_typing event from user (UAUFLHTAN) not in model; ignoring
+error: Sep-4 16:17:42.135 (T0EHMQ4HM) user_typing event from user (UAUFLHTAN) not in model; ignoring
+info: Sep-4 16:18:09.089 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 40
+error: Sep-4 16:19:38.255 (T0EHMQ4HM) user_typing event from user (U2HBL4S9K) not in model; ignoring
+error: Sep-4 16:19:44.913 (T0EHMQ4HM) user_typing event from user (U2HBL4S9K) not in model; ignoring
+info: Sep-4 16:19:49.121 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 41
+error: Sep-4 16:19:50.243 (T0EHMQ4HM) user_typing event from user (U2HBL4S9K) not in model; ignoring
+info: Sep-4 16:19:54.660 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 42
+info: Sep-4 16:20:06.941 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 43
+info: Sep-4 16:21:27.939 [INFO] UCLFEV4LS joined the team
+info: Sep-4 16:21:28.067 [(T0EHMQ4HM)] UCLFEV4LS joined channel C0EHJUUEP
+warn: Sep-4 16:21:28.069 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 16:21:28.164 [(T0EHMQ4HM)] UCLFEV4LS joined channel C0EHMQ4K1
+warn: Sep-4 16:21:28.351 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 16:22:12.392 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 44
+error: Sep-4 16:23:42.587 (T0EHMQ4HM) user_typing event from user (U41GBJV7X) not in model; ignoring
+error: Sep-4 16:23:45.759 (T0EHMQ4HM) user_typing event from user (U41GBJV7X) not in model; ignoring
+error: Sep-4 16:23:53.039 (T0EHMQ4HM) user_typing event from user (U41GBJV7X) not in model; ignoring
+error: Sep-4 16:23:58.047 (T0EHMQ4HM) user_typing event from user (U41GBJV7X) not in model; ignoring
+error: Sep-4 16:24:00.915 (T0EHMQ4HM) user_typing event from user (U41GBJV7X) not in model; ignoring
+error: Sep-4 16:24:04.499 (T0EHMQ4HM) user_typing event from user (U41GBJV7X) not in model; ignoring
+info: Sep-4 16:24:04.928 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 45
+info: Sep-4 16:24:06.044 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 46
+info: Sep-4 16:24:57.151 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 47
+error: Sep-4 16:25:00.922 (T0EHMQ4HM) user_typing event from user (U3XSTAPV5) not in model; ignoring
+info: Sep-4 16:25:03.387 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 48
+error: Sep-4 16:25:06.137 (T0EHMQ4HM) user_typing event from user (U3XSTAPV5) not in model; ignoring
+info: Sep-4 16:25:12.728 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 49
+info: Sep-4 16:25:45.186 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 50
+error: Sep-4 16:27:14.963 (T0EHMQ4HM) user_typing event from user (U2N6W4ZNU) not in model; ignoring
+error: Sep-4 16:27:20.034 (T0EHMQ4HM) user_typing event from user (U2N6W4ZNU) not in model; ignoring
+error: Sep-4 16:27:25.091 (T0EHMQ4HM) user_typing event from user (U2N6W4ZNU) not in model; ignoring
+error: Sep-4 16:27:30.148 (T0EHMQ4HM) user_typing event from user (U2N6W4ZNU) not in model; ignoring
+error: Sep-4 16:27:34.245 (T0EHMQ4HM) user_typing event from user (U6BRFP7TP) not in model; ignoring
+info: Sep-4 16:27:35.160 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 51
+error: Sep-4 16:27:39.272 (T0EHMQ4HM) user_typing event from user (U6BRFP7TP) not in model; ignoring
+error: Sep-4 16:27:40.001 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+error: Sep-4 16:27:43.536 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+error: Sep-4 16:27:44.674 (T0EHMQ4HM) user_typing event from user (U6BRFP7TP) not in model; ignoring
+error: Sep-4 16:27:46.402 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+error: Sep-4 16:27:50.395 (T0EHMQ4HM) user_typing event from user (U6BRFP7TP) not in model; ignoring
+error: Sep-4 16:27:50.443 (T0EHMQ4HM) user_typing event from user (U4FLM2C4B) not in model; ignoring
+error: Sep-4 16:27:50.666 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+error: Sep-4 16:27:54.666 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+error: Sep-4 16:27:55.310 (T0EHMQ4HM) user_typing event from user (U2HMMKHRV) not in model; ignoring
+error: Sep-4 16:27:58.442 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+error: Sep-4 16:28:01.557 (T0EHMQ4HM) user_typing event from user (U81AJ5MDK) not in model; ignoring
+info: Sep-4 16:28:06.259 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 52
+error: Sep-4 16:28:32.999 (T0EHMQ4HM) user_typing event from user (U6BRFP7TP) not in model; ignoring
+info: Sep-4 16:28:37.920 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 53
+error: Sep-4 16:29:09.550 (T0EHMQ4HM) user_typing event from user (U4FLM2C4B) not in model; ignoring
+info: Sep-4 16:29:11.498 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 54
+error: Sep-4 16:29:15.789 (T0EHMQ4HM) user_typing event from user (U2HMMKHRV) not in model; ignoring
+error: Sep-4 16:29:48.375 (T0EHMQ4HM) user_typing event from user (U3XSTAPV5) not in model; ignoring
+info: Sep-4 16:29:51.710 [INFO] UCL95K4DS joined the team
+info: Sep-4 16:29:51.857 [(T0EHMQ4HM)] UCL95K4DS joined channel C0EHJUUEP
+warn: Sep-4 16:29:51.996 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 16:29:52.009 [(T0EHMQ4HM)] UCL95K4DS joined channel C0EHMQ4K1
+warn: Sep-4 16:29:52.009 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+error: Sep-4 16:29:53.530 (T0EHMQ4HM) user_typing event from user (U3XSTAPV5) not in model; ignoring
+info: Sep-4 16:29:57.044 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 55
+info: Sep-4 16:30:02.321 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 56
+error: Sep-4 16:30:03.564 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:07.306 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:13.038 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:18.058 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:22.664 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:27.579 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:33.622 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:42.090 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:46.319 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:50.412 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:54.409 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:30:57.480 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:31:00.926 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+error: Sep-4 16:31:05.981 (T0EHMQ4HM) user_typing event from user (U927SBQDU) not in model; ignoring
+info: Sep-4 16:31:15.420 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 57
+info: Sep-4 16:32:21.682 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 58
+info: Sep-4 16:33:08.247 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:33:08.259 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 57
+info: Sep-4 16:33:14.246 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:33:14.253 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 56
+info: Sep-4 16:33:37.227 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:33:37.235 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 55
+info: Sep-4 16:44:43.037 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:44:43.043 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 54
+info: Sep-4 16:44:50.615 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because message removed
+info: Sep-4 16:44:50.623 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 53
+info: Sep-4 16:51:18.612 [(T0EHMQ4HM)] U45HDRSD8 left channel C2T0GPE6T
+warn: Sep-4 16:51:18.614 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 16:53:26.661 [MIN-VERSION] (T0EHMQ4HM) checking to see if we should reload
+info: Sep-4 16:53:26.662 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536047606.661 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-4 16:53:26.662 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536047606.661 rtm.shouldReload is ENQUEUED
+info: Sep-4 16:53:26.663 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536047606.661 rtm.shouldReload is ACTIVE
+info: Sep-4 16:53:27.533 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536047606.661 rtm.shouldReload is RESOLVED
+info: Sep-4 16:53:27.533 [MIN-VERSION] (T0EHMQ4HM) no need to reload
+info: Sep-4 16:59:31.057 [INFO] UCL9NMBT6 joined the team
+info: Sep-4 16:59:31.121 [(T0EHMQ4HM)] UCL9NMBT6 joined channel C0EHJUUEP
+warn: Sep-4 16:59:31.301 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 16:59:31.316 [(T0EHMQ4HM)] UCL9NMBT6 joined channel C0EHMQ4K1
+warn: Sep-4 16:59:31.317 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+error: Sep-4 17:12:09.846 (T0EHMQ4HM) user_typing event from user (UBE196UCQ) not in model; ignoring
+error: Sep-4 17:23:00.238 (T0EHMQ4HM) user_typing event from user (U6QAWU343) not in model; ignoring
+info: Sep-4 17:23:31.069 [FOCUS-EVENT] Window focused
+info: Sep-4 17:23:32.695 [ACTION:CHANNEL-SIDEBAR] Selected C0EK0UKB6
+info: Sep-4 17:23:32.699 [SWITCH-TO-CHANNEL] (T0EHMQ4HM) Switching to C0EK0UKB6 at last_read 1519151661.000205
+info: Sep-4 17:23:32.709 [ALL THREADS] destroying threads view, clearing threads data
+info: Sep-4 17:23:32.752 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.752 promo.banner called with reason: NO REASON PROVIDED
+info: Sep-4 17:23:32.752 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.752 promo.banner is ENQUEUED
+info: Sep-4 17:23:32.753 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.752 promo.banner is ACTIVE
+info: Sep-4 17:23:32.773 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C0EK0UKB6 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:23:32.773 [HISTORY-FETCH] (T0EHMQ4HM) Fetching history for message pane: C0EK0UKB6 oldest: 1519151661.000205 latest: 1519151661.000205
+info: Sep-4 17:23:32.773 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.773 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:23:32.774 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.773 conversations.history is ENQUEUED
+info: Sep-4 17:23:32.774 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.773 conversations.history is ACTIVE
+info: Sep-4 17:23:32.774 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.774 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:23:32.774 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.774 conversations.history is ENQUEUED
+info: Sep-4 17:23:32.775 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.774 conversations.history is ACTIVE
+info: Sep-4 17:23:33.237 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after debounced channel change to C0EK0UKB6
+info: Sep-4 17:23:33.237 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EK0UKB6, clearing ghost last_read
+info: Sep-4 17:23:33.476 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.773 conversations.history is RESOLVED
+info: Sep-4 17:23:33.530 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.752 promo.banner is RESOLVED
+info: Sep-4 17:23:33.589 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049412.774 conversations.history is RESOLVED
+info: Sep-4 17:23:33.599 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EK0UKB6 because (10) timestamps added
+info: Sep-4 17:23:33.600 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EK0UKB6: 7
+info: Sep-4 17:23:33.614 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049413.613 highlights.list called with reason: NO REASON PROVIDED
+info: Sep-4 17:23:33.614 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049413.613 highlights.list is ENQUEUED
+info: Sep-4 17:23:33.614 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049413.613 highlights.list is ACTIVE
+info: Sep-4 17:23:33.616 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 10
+info: Sep-4 17:23:33.814 [PERF] (T0EHMQ4HM) First meaningful paint: 17958478ms
+info: Sep-4 17:23:33.814 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:23:33.865 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049413.613 highlights.list is RESOLVED
+info: Sep-4 17:23:34.190 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 17:23:34.190 [CHECK-UNREADS] (T0EHMQ4HM) Marking C0EK0UKB6 because unread line is visible
+info: Sep-4 17:23:34.192 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EK0UKB6 because last_read changed to 1536027381.000200
+info: Sep-4 17:23:34.193 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EK0UKB6: 0
+info: Sep-4 17:23:34.202 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: true -> false
+info: Sep-4 17:23:35.810 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049415.810 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-4 17:23:35.810 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049415.810 conversations.mark is ENQUEUED
+info: Sep-4 17:23:35.811 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049415.810 conversations.mark is ACTIVE
+info: Sep-4 17:23:36.648 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536049415.810 conversations.mark is RESOLVED
+info: Sep-4 17:23:47.235 [FOCUS-EVENT] Window blurred
+info: Sep-4 17:23:47.238 [FOCUS-EVENT] Window focused
+info: Sep-4 17:23:47.254 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 17:23:47.254 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EK0UKB6 because last_read >= latest && channel is read
+info: Sep-4 17:23:47.417 [FOCUS-EVENT] Window blurred
+info: Sep-4 17:26:07.077 [(T0EHMQ4HM)] U3DAYGJ1M left channel C0EHMQ4K1
+warn: Sep-4 17:26:07.080 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 17:36:27.527 [(T0EHMQ4HM)] U4A1A8282 left channel C0EHMQ4K1
+warn: Sep-4 17:36:27.621 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 17:42:51.428 [FOCUS-EVENT] Window focused
+info: Sep-4 17:42:51.452 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 17:42:51.452 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EK0UKB6 because last_read >= latest && channel is read
+info: Sep-4 17:43:02.879 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:43:03.230 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 17:43:03.230 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EK0UKB6 because last_read >= latest && channel is read
+info: Sep-4 17:43:04.702 [ACTION:CHANNEL-SIDEBAR] Selected C2T0GPE6T
+info: Sep-4 17:43:04.705 [SWITCH-TO-CHANNEL] (T0EHMQ4HM) Switching to C2T0GPE6T at last_read 1523389513.000479
+info: Sep-4 17:43:04.850 [MESSAGE-LIST] (T0EHMQ4HM) Switching channels: C2T0GPE6T timestamps: 0
+info: Sep-4 17:43:04.851 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C2T0GPE6T isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:04.851 [HISTORY-FETCH] (T0EHMQ4HM) Fetching history for message pane: C2T0GPE6T oldest: 1523389513.000479 latest: 1523389513.000479
+info: Sep-4 17:43:04.852 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.852 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:43:04.852 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.852 conversations.history is ENQUEUED
+info: Sep-4 17:43:04.853 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.852 conversations.history is ACTIVE
+info: Sep-4 17:43:04.854 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.853 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:43:04.854 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.853 conversations.history is ENQUEUED
+info: Sep-4 17:43:04.854 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.853 conversations.history is ACTIVE
+info: Sep-4 17:43:04.868 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C2T0GPE6T isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:04.868 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C2T0GPE6T isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:04.870 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Sep-4 17:43:04.881 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C2T0GPE6T isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:04.881 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C2T0GPE6T isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:04.881 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C2T0GPE6T isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:04.882 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Sep-4 17:43:05.332 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after debounced channel change to C2T0GPE6T
+info: Sep-4 17:43:05.332 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C2T0GPE6T, clearing ghost last_read
+info: Sep-4 17:43:05.693 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.852 conversations.history is RESOLVED
+info: Sep-4 17:43:05.701 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050584.853 conversations.history is RESOLVED
+info: Sep-4 17:43:05.709 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C2T0GPE6T because (13) timestamps added
+info: Sep-4 17:43:05.710 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C2T0GPE6T: 9
+info: Sep-4 17:43:05.720 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050585.720 highlights.list called with reason: NO REASON PROVIDED
+info: Sep-4 17:43:05.720 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050585.720 highlights.list is ENQUEUED
+info: Sep-4 17:43:05.721 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050585.720 highlights.list is ACTIVE
+info: Sep-4 17:43:05.722 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 12
+info: Sep-4 17:43:05.887 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:43:06.266 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 17:43:06.266 [CHECK-UNREADS] (T0EHMQ4HM) Marking C2T0GPE6T because unread line is visible
+info: Sep-4 17:43:06.269 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C2T0GPE6T because last_read changed to 1536047478.000200
+info: Sep-4 17:43:06.269 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C2T0GPE6T: 0
+info: Sep-4 17:43:06.278 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: true -> false
+info: Sep-4 17:43:06.380 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050585.720 highlights.list is RESOLVED
+info: Sep-4 17:43:07.816 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050587.816 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-4 17:43:07.816 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050587.816 conversations.mark is ENQUEUED
+info: Sep-4 17:43:07.817 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050587.816 conversations.mark is ACTIVE
+info: Sep-4 17:43:08.114 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050587.816 conversations.mark is RESOLVED
+info: Sep-4 17:43:10.690 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:43:11.041 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 17:43:11.041 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C2T0GPE6T because last_read >= latest && channel is read
+info: Sep-4 17:43:12.334 [ACTION:CHANNEL-SIDEBAR] Selected C0EHJUUEP
+info: Sep-4 17:43:12.339 [SWITCH-TO-CHANNEL] (T0EHMQ4HM) Switching to C0EHJUUEP at last_read 1531713934.000035
+info: Sep-4 17:43:12.377 [MESSAGE-LIST] (T0EHMQ4HM) Switching channels: C0EHJUUEP timestamps: 0
+info: Sep-4 17:43:12.377 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C0EHJUUEP isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:12.378 [HISTORY-FETCH] (T0EHMQ4HM) Fetching history for message pane: C0EHJUUEP oldest: 1531713934.000035 latest: 1531713934.000035
+info: Sep-4 17:43:12.378 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.378 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:43:12.378 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.378 conversations.history is ENQUEUED
+info: Sep-4 17:43:12.379 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.378 conversations.history is ACTIVE
+info: Sep-4 17:43:12.379 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.379 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:43:12.379 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.379 conversations.history is ENQUEUED
+info: Sep-4 17:43:12.380 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.379 conversations.history is ACTIVE
+info: Sep-4 17:43:12.386 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C0EHJUUEP isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:12.386 [MESSAGE-LIST] (T0EHMQ4HM) requestAround channelId: C0EHJUUEP isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Sep-4 17:43:12.619 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.378 conversations.history is RESOLVED
+info: Sep-4 17:43:12.871 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after debounced channel change to C0EHJUUEP
+info: Sep-4 17:43:12.871 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP, clearing ghost last_read
+info: Sep-4 17:43:13.068 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050592.379 conversations.history is RESOLVED
+info: Sep-4 17:43:13.086 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because (42) timestamps added
+info: Sep-4 17:43:13.107 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Sep-4 17:43:13.144 [HISTORY-FETCH] (T0EHMQ4HM) Fetching history for message pane: C0EHJUUEP oldest: 1536025512.000200 latest: null
+info: Sep-4 17:43:13.145 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.145 conversations.history called with reason: message-pane/requestHistory
+info: Sep-4 17:43:13.145 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.145 conversations.history is ENQUEUED
+info: Sep-4 17:43:13.145 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.145 conversations.history is ACTIVE
+info: Sep-4 17:43:13.146 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:43:13.149 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Sep-4 17:43:13.182 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 3
+info: Sep-4 17:43:13.183 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: true -> false
+info: Sep-4 17:43:13.375 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.145 conversations.history is RESOLVED
+info: Sep-4 17:43:13.383 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because (42) timestamps added
+info: Sep-4 17:43:13.388 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 54
+info: Sep-4 17:43:13.393 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.393 highlights.list called with reason: NO REASON PROVIDED
+info: Sep-4 17:43:13.393 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.393 highlights.list is ENQUEUED
+info: Sep-4 17:43:13.393 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.393 highlights.list is ACTIVE
+info: Sep-4 17:43:13.395 [MESSAGE-LIST] (T0EHMQ4HM) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 60
+info: Sep-4 17:43:13.439 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:43:13.593 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050593.393 highlights.list is RESOLVED
+info: Sep-4 17:43:14.371 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 17:43:14.371 [CHECK-UNREADS] (T0EHMQ4HM) Marking C0EHJUUEP because unread line is visible
+info: Sep-4 17:43:14.373 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because last_read changed to 1536047971.000100
+info: Sep-4 17:43:14.380 [UNREAD-COUNTS] (T0EHMQ4HM) Updated unread_cnt for C0EHJUUEP: 0
+info: Sep-4 17:43:14.400 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: true -> false
+info: Sep-4 17:43:15.865 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050595.865 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-4 17:43:15.866 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050595.865 conversations.mark is ENQUEUED
+info: Sep-4 17:43:15.866 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050595.865 conversations.mark is ACTIVE
+info: Sep-4 17:43:16.103 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050595.865 conversations.mark is RESOLVED
+info: Sep-4 17:43:27.637 [INFO] Opening conversation 1536044043.000100 in C0EHJUUEP
+info: Sep-4 17:43:27.673 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050607.672 channels.replies called with reason: NO REASON PROVIDED
+info: Sep-4 17:43:27.673 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050607.672 channels.replies is ENQUEUED
+info: Sep-4 17:43:27.673 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050607.672 channels.replies is ACTIVE
+info: Sep-4 17:43:27.884 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536050607.672 channels.replies is RESOLVED
+info: Sep-4 17:43:27.924 [INFO] Rendering thread 1536044043.000100, 4 messages (has_more: false)
+info: Sep-4 17:44:58.053 [CHECK-UNREADS] (T0EHMQ4HM) unreadLineVisible updated: false -> true
+info: Sep-4 17:44:58.404 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after unread line became visible
+info: Sep-4 17:44:58.405 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP because last_read >= latest && channel is read
+info: Sep-4 17:45:00.827 [FOCUS-EVENT] Window blurred
+info: Sep-4 17:45:00.830 [FOCUS-EVENT] Window focused
+info: Sep-4 17:45:00.864 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 17:45:00.864 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP because last_read >= latest && channel is read
+info: Sep-4 17:45:01.003 [FOCUS-EVENT] Window blurred
+info: Sep-4 17:45:07.880 [FOCUS-EVENT] Window focused
+info: Sep-4 17:45:08.024 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 17:45:08.024 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP because last_read >= latest && channel is read
+info: Sep-4 17:45:57.699 [FOCUS-EVENT] Window blurred
+info: Sep-4 17:45:57.702 [FOCUS-EVENT] Window focused
+info: Sep-4 17:45:57.742 [CHECK-UNREADS] (T0EHMQ4HM) Checking unreads after window became focused
+info: Sep-4 17:45:57.743 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP because last_read >= latest && channel is read
+info: Sep-4 17:45:57.882 [FOCUS-EVENT] Window blurred
+error: Sep-4 17:54:45.771 (T0EHMQ4HM) user_typing event from user (U71RK39JA) not in model; ignoring
+info: Sep-4 17:55:15.751 [INFO] UCLMP0JE9 joined the team
+info: Sep-4 17:55:15.897 [(T0EHMQ4HM)] UCLMP0JE9 joined channel C0EHJUUEP
+warn: Sep-4 17:55:15.903 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 17:55:15.908 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because (1) timestamps added
+info: Sep-4 17:55:15.909 [UNREAD-COUNTS] (T0EHMQ4HM) Checking unreads in C0EHJUUEP after a new message
+info: Sep-4 17:55:15.910 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP because attention not on chat (window_not_focused)
+info: Sep-4 17:55:16.186 [(T0EHMQ4HM)] UCLMP0JE9 joined channel C0EHMQ4K1
+warn: Sep-4 17:55:16.188 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 17:56:59.301 [INFO] UCL07G057 joined the team
+info: Sep-4 17:56:59.307 [(T0EHMQ4HM)] UCL07G057 joined channel C0EHJUUEP
+warn: Sep-4 17:56:59.309 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 17:56:59.314 [UNREAD-COUNTS] (T0EHMQ4HM) Counting unreads in C0EHJUUEP because (1) timestamps added
+info: Sep-4 17:56:59.314 [UNREAD-COUNTS] (T0EHMQ4HM) Checking unreads in C0EHJUUEP after a new message
+info: Sep-4 17:56:59.314 [CHECK-UNREADS] (T0EHMQ4HM) Not marking C0EHJUUEP because attention not on chat (window_not_focused)
+info: Sep-4 17:56:59.319 [(T0EHMQ4HM)] UCL07G057 joined channel C0EHMQ4K1
+warn: Sep-4 17:56:59.609 (T0EHMQ4HM) Notification (message) suppressed because:
+The message was a join or leave message
+info: Sep-4 18:23:08.661 [MIN-VERSION] (T0EHMQ4HM) checking to see if we should reload
+info: Sep-4 18:23:08.667 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536052988.662 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-4 18:23:08.667 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536052988.662 rtm.shouldReload is ENQUEUED
+info: Sep-4 18:23:08.671 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536052988.662 rtm.shouldReload is ACTIVE
+info: Sep-4 18:23:09.415 [API-Q] (T0EHMQ4HM) 83ec5ab8-1536052988.662 rtm.shouldReload is RESOLVED
+info: Sep-4 18:23:09.415 [MIN-VERSION] (T0EHMQ4HM) no need to reload

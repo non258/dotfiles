@@ -1,167 +1,115 @@
-[08/10/18, 20:29:15:985] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
-[08/10/18, 20:29:15:986] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 08/10/18, 20:29:15:980      ║
-[08/10/18, 20:29:15:986] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
-[08/10/18, 20:29:16:138] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
-[08/10/18, 20:29:16:548] info: Main window preload script finished
+[09/03/18, 20:24:54:608] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[09/03/18, 20:24:54:609] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 09/03/18, 20:24:54:606      ║
+[09/03/18, 20:24:54:609] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[09/03/18, 20:24:54:756] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
+[09/03/18, 20:24:54:902] info: NetworkStatus: Waiting for network online…
+[09/03/18, 20:24:55:154] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[09/03/18, 20:24:55:160] info: Don't start background client because T031FNTUT is selected team
+[09/03/18, 20:24:55:205] info: Don't start background client because TB47MRNBZ is most used
+[09/03/18, 20:24:55:424] info: NetworkStatus: Response from api.test
 {
-  "readyTime": 1036.41966
+  "status": "online"
 }
-[08/10/18, 20:29:16:561] info: Store: UPDATE_SESSION_STATUS
+[09/03/18, 20:24:55:677] info: Store: START_BACKGROUND_CLIENT
 {
-  "hasValidSession": null,
-  "teamId": "T0253QGQ9"
+  "teamId": "TB9PVC95H",
+  "token": "xoxs-⋯"
 }
-[08/10/18, 20:29:16:565] info: Store: UPDATE_SESSION_STATUS
+[09/03/18, 20:24:55:826] info: Store: SET_NETWORK_STATUS online
+[09/03/18, 20:24:55:939] info: Store: START_BACKGROUND_CLIENT
 {
-  "hasValidSession": null,
-  "teamId": "T0EHMQ4HM"
+  "teamId": "T0253QGQ9",
+  "token": "xoxs-⋯"
 }
-[08/10/18, 20:29:16:565] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:56:008] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
-  "id": 19,
-  "state": "loaded",
-  "teamId": "T031FNTUT"
-}
-[08/10/18, 20:29:16:566] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 19,
-  "state": "empty-page",
-  "teamId": "T031FNTUT"
-}
-[08/10/18, 20:29:16:567] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 19,
-  "state": "page-will-navigate",
-  "teamId": "T031FNTUT"
-}
-[08/10/18, 20:29:16:567] info: Store: UPDATE_SESSION_STATUS
-{
-  "hasValidSession": null,
-  "teamId": "T031FNTUT"
-}
-[08/10/18, 20:29:16:567] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 17,
-  "state": "loaded",
+  "status": "connected",
   "teamId": "TB9PVC95H"
 }
-[08/10/18, 20:29:16:568] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:56:197] info: Store: START_BACKGROUND_CLIENT
 {
-  "id": 17,
-  "state": "empty-page",
-  "teamId": "TB9PVC95H"
+  "teamId": "T0EHMQ4HM",
+  "token": "xoxs-⋯"
 }
-[08/10/18, 20:29:16:568] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:56:201] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[09/03/18, 20:24:56:277] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
-  "id": 17,
-  "state": "page-will-navigate",
-  "teamId": "TB9PVC95H"
-}
-[08/10/18, 20:29:16:568] info: Store: UPDATE_SESSION_STATUS
-{
-  "hasValidSession": null,
-  "teamId": "TB9PVC95H"
-}
-[08/10/18, 20:29:16:569] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 18,
-  "state": "loaded",
-  "teamId": "T0EHMQ4HM"
-}
-[08/10/18, 20:29:16:576] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 18,
-  "state": "empty-page",
-  "teamId": "T0EHMQ4HM"
-}
-[08/10/18, 20:29:16:586] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 18,
-  "state": "page-will-navigate",
-  "teamId": "T0EHMQ4HM"
-}
-[08/10/18, 20:29:16:625] info: Store: UPSERT_WEB_CONTENTS
-{
-  "id": 16,
-  "state": "loaded",
+  "status": "connected",
   "teamId": "T0253QGQ9"
 }
-[08/10/18, 20:29:16:636] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:56:507] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
-  "id": 16,
-  "state": "empty-page",
+  "status": "connected",
+  "teamId": "T0EHMQ4HM"
+}
+[09/03/18, 20:24:56:615] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
+[09/03/18, 20:24:56:617] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1535974196616,
+  "teamId": "TB9PVC95H"
+}
+[09/03/18, 20:24:56:865] info: BackgroundClient: Logged in
+{
+  "userId": "U9CC4BC1K",
+  "teamId": "T0253QGQ9",
+  "showBullet": true
+}
+[09/03/18, 20:24:56:868] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+{
+  "reconnectURL": "[REDACTED]",
+  "reconnectURLExpiry": 1535974196865,
   "teamId": "T0253QGQ9"
 }
-[08/10/18, 20:29:16:646] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:57:114] info: BackgroundClient: Logged in
 {
-  "id": 16,
-  "state": "page-will-navigate",
-  "teamId": "T0253QGQ9"
+  "userId": "U8F7K0NSZ",
+  "teamId": "T0EHMQ4HM",
+  "showBullet": true
 }
-[09/03/18, 20:24:56:447] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
-[09/03/18, 20:24:56:448] info: ║      Slack 3.2.1, linux 4.10.0-38-generic on x64 at 09/03/18, 20:24:56:444      ║
-[09/03/18, 20:24:56:448] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
-[09/03/18, 20:24:56:559] info: Initializing local storage instance at path: /home/nozomi/dotfiles/.config/Slack/local-settings.json
-[09/03/18, 20:24:56:876] error: Desktop module calls failed to load
-{
-  "error": {
-    "message": "libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã",
-    "stack": "Error: libCallsCore.so: å±æãªãã¸ã§ã¯ããã¡ã¤ã«ãéãã¾ãã: ãã®ãããªãã¡ã¤ã«ããã£ã¬ã¯ããªã¯ããã¾ãã\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
-  }
-}
-[09/03/18, 20:24:56:877] error: Desktop module calls failed to load
-[09/03/18, 20:24:56:904] info: cld3::loadModule: loading cld3 module
-[09/03/18, 20:24:56:924] info: cld3Loader::loadModule: running environment is NODE
-[09/03/18, 20:24:56:924] info: cld3Loader::loadModule: constructed module object for runtime
-[09/03/18, 20:24:57:027] info: cld3Loader::initializeRuntime: successfully initialized module
-[09/03/18, 20:24:57:027] info: cld3Loader::loadModule: initialized wasm binary Runtime
-[09/03/18, 20:24:57:038] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
-[09/03/18, 20:24:57:049] info: Main window preload script finished
-{
-  "readyTime": 859.58506
-}
-[09/03/18, 20:24:57:126] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:24:57:115] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535974197114,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 20:24:59:109] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:58:659] info: Store: UPSERT_WEB_CONTENTS
 {
   "id": 3,
   "state": "loaded",
   "teamId": "T031FNTUT"
 }
-[09/03/18, 20:24:59:109] info: Store: MAIN_WINDOW_SHOWN
-[09/03/18, 20:24:59:110] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:24:59:110] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:24:59:110] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:24:59:115] info: Store: UPDATE_SESSION_STATUS
+[09/03/18, 20:24:58:665] info: Store: MAIN_WINDOW_SHOWN
+[09/03/18, 20:24:58:681] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:24:58:693] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:24:58:697] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:24:59:026] info: Store: UPDATE_SESSION_STATUS
 {
   "hasValidSession": true,
   "teamId": "T031FNTUT"
 }
-[09/03/18, 20:24:59:116] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:24:59:104] info: Store: UPSERT_WEB_CONTENTS
 {
   "id": 4,
   "state": "loaded",
   "teamId": "TB47MRNBZ"
 }
-[09/03/18, 20:24:59:608] info: Skipping request to provide hint content for channel for spellchecker
-{
-  "version": "V2"
-}
-[09/03/18, 20:24:59:814] info: Store: SELECT_CHANNEL C9Z4BU1C2
-[09/03/18, 20:24:59:815] info: Store: UPDATE_TEAM_LOCALE
+[09/03/18, 20:24:59:201] info: Store: SELECT_CHANNEL C9Z4BU1C2
+[09/03/18, 20:24:59:204] info: Store: UPDATE_TEAM_LOCALE
 {
   "locale": "en-US",
   "teamId": "T031FNTUT"
 }
-[09/03/18, 20:24:59:815] info: Store: UPDATE_SETTINGS
+[09/03/18, 20:24:59:211] info: Store: UPDATE_SETTINGS
 {
   "locale": "en-US"
 }
-[09/03/18, 20:24:59:816] info: Store: UPDATE_TEAM_THEME
+[09/03/18, 20:24:59:216] info: Store: UPDATE_TEAM_THEME
 {
   "teamId": "T031FNTUT",
   "theme": {
@@ -175,18 +123,18 @@
     "text_color": "#FFFFFF"
   }
 }
-[09/03/18, 20:24:59:828] info: Store: UPDATE_SESSION_STATUS
+[09/03/18, 20:24:59:486] info: Store: UPDATE_SESSION_STATUS
 {
   "hasValidSession": true,
   "teamId": "TB47MRNBZ"
 }
-[09/03/18, 20:24:59:831] info: Store: SELECT_CHANNEL CB47MRRTR
-[09/03/18, 20:24:59:831] info: Store: UPDATE_TEAM_LOCALE
+[09/03/18, 20:24:59:609] info: Store: SELECT_CHANNEL CB47MRRTR
+[09/03/18, 20:24:59:613] info: Store: UPDATE_TEAM_LOCALE
 {
   "locale": "en-US",
   "teamId": "TB47MRNBZ"
 }
-[09/03/18, 20:24:59:832] info: Store: UPDATE_TEAM_THEME
+[09/03/18, 20:24:59:624] info: Store: UPDATE_TEAM_THEME
 {
   "teamId": "TB47MRNBZ",
   "theme": {
@@ -200,7 +148,7 @@
     "text_color": "#FFFFFF"
   }
 }
-[09/03/18, 20:24:59:832] info: Store: SAVE_WINDOW_SETTINGS
+[09/03/18, 20:24:59:681] info: Store: SAVE_WINDOW_SETTINGS
 {
   "isMaximized": false,
   "position": [
@@ -212,7 +160,7 @@
     768
   ]
 }
-[09/03/18, 20:24:59:832] info: Store: UPDATE_TEAM_ICONS
+[09/03/18, 20:24:59:774] info: Store: UPDATE_TEAM_ICONS
 {
   "icons": {
     "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2016-05-12/42266573955_325ce791cc9957bfae5b_102.png",
@@ -247,12 +195,12 @@
   "reconnectURLExpiry": 1535974199953,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 20:25:00:543] info: Store: STORE_ENTERPRISE_ID_PAIR
+[09/03/18, 20:25:00:109] info: Store: STORE_ENTERPRISE_ID_PAIR
 {
   "enterpriseId": null,
   "teamId": "T031FNTUT"
 }
-[09/03/18, 20:25:00:544] info: Store: UPDATE_TEAM_ICONS
+[09/03/18, 20:25:00:162] info: Store: UPDATE_TEAM_ICONS
 {
   "icons": {
     "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-07/376989294276_dc48b88a894bc469a541_102.jpg",
@@ -266,22 +214,22 @@
   },
   "teamId": "TB47MRNBZ"
 }
-[09/03/18, 20:25:00:544] info: Store: UPDATE_TEAM_LOCALE
+[09/03/18, 20:25:00:379] info: Store: UPDATE_TEAM_LOCALE
 {
   "locale": "en-US",
   "teamId": "TB47MRNBZ"
 }
-[09/03/18, 20:25:00:544] info: Store: UPSERT_WEB_CONTENTS
+[09/03/18, 20:25:00:383] info: Store: UPSERT_WEB_CONTENTS
 {
   "id": 4,
   "state": "webapp-loaded",
   "teamId": "TB47MRNBZ"
 }
-[09/03/18, 20:25:00:545] info: Store: UPDATE_SETTINGS
+[09/03/18, 20:25:00:385] info: Store: UPDATE_SETTINGS
 {
   "sandboxSigninWindow": true
 }
-[09/03/18, 20:25:00:547] info: Store: STORE_ENTERPRISE_ID_PAIR
+[09/03/18, 20:25:00:546] info: Store: STORE_ENTERPRISE_ID_PAIR
 {
   "enterpriseId": null,
   "teamId": "TB47MRNBZ"
@@ -304,7 +252,7 @@
   "reconnectURLExpiry": 1535974320045,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 20:27:52:717] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:27:52:716] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535974372713,
@@ -335,8 +283,8 @@
   "reconnectURLExpiry": 1535974553446,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 20:30:54:565] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:30:58:854] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:30:54:564] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:30:58:855] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:30:59:947] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
@@ -366,8 +314,8 @@
   "reconnectURLExpiry": 1535974680061,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 20:33:26:164] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:33:40:412] info: Store: SAVE_WINDOW_SETTINGS
+[09/03/18, 20:33:26:166] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:33:40:410] info: Store: SAVE_WINDOW_SETTINGS
 {
   "isMaximized": false,
   "position": [
@@ -386,7 +334,7 @@
   "reconnectURLExpiry": 1535974732748,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 20:33:53:129] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:33:53:127] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:33:55:225] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:34:00:265] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:34:00:366] info: Store: SET_FULL_SCREEN
@@ -402,8 +350,8 @@
     768
   ]
 }
-[09/03/18, 20:34:32:488] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:34:32:499] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:34:32:489] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:34:32:505] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:34:35:451] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:34:36:764] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:34:40:099] info: Store: SAVE_WINDOW_SETTINGS
@@ -418,8 +366,8 @@
     768
   ]
 }
-[09/03/18, 20:34:42:113] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:34:42:115] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:34:42:114] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:34:42:117] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:34:53:474] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
@@ -432,10 +380,10 @@
   "reconnectURLExpiry": 1535974800025,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 20:35:15:089] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:35:15:088] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:35:15:094] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:35:32:628] info: Store: SET_FULL_SCREEN
-[09/03/18, 20:35:32:629] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:35:32:625] info: Store: SET_FULL_SCREEN
+[09/03/18, 20:35:32:627] info: Store: SET_FULL_SCREEN
 [09/03/18, 20:35:52:766] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
@@ -484,7 +432,7 @@
   "reconnectURLExpiry": 1535975153410,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 20:40:59:969] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:40:59:968] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535975159965,
@@ -508,15 +456,27 @@
   "reconnectURLExpiry": 1535975279979,
   "teamId": "T0EHMQ4HM"
 }
+[09/03/18, 20:44:24:782] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
 [09/03/18, 20:44:24:786] info: Store: BACKGROUND_CLIENT_ERROR
 {
   "code": 4002,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 20:44:25:709] info: Store: BACKGROUND_CLIENT_ERROR
+[09/03/18, 20:44:25:705] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
+}
+[09/03/18, 20:44:25:711] info: Store: BACKGROUND_CLIENT_ERROR
 {
   "code": 4002,
   "teamId": "T0253QGQ9"
+}
+[09/03/18, 20:44:26:108] error: startBackgroundClientEpic: Socket error 4002
+{
+  "message": "The socket encountered a network error, reconnect when network online"
 }
 [09/03/18, 20:44:26:112] info: Store: BACKGROUND_CLIENT_ERROR
 {
@@ -538,7 +498,7 @@
   "teamId": "T0EHMQ4HM",
   "token": "xoxs-⋯"
 }
-[09/03/18, 20:44:33:073] info: Store: NEW_NOTIFICATION
+[09/03/18, 20:44:33:064] info: Store: NEW_NOTIFICATION
 {
   "avatarImage": "https://ca.slack-edge.com/TB47MRNBZ-UB3ACL5K7-08de2941195e-512",
   "channel": "CB47MRRTR",
@@ -582,6 +542,12 @@
   "status": "connected",
   "teamId": "TB9PVC95H"
 }
+[09/03/18, 20:44:33:545] info: BackgroundClient: Logged in
+{
+  "userId": "UB9L7S684",
+  "teamId": "TB9PVC95H",
+  "showBullet": true
+}
 [09/03/18, 20:44:33:548] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
@@ -593,6 +559,12 @@
   "status": "connected",
   "teamId": "T0253QGQ9"
 }
+[09/03/18, 20:44:33:869] info: BackgroundClient: Logged in
+{
+  "userId": "U9CC4BC1K",
+  "teamId": "T0253QGQ9",
+  "showBullet": true
+}
 [09/03/18, 20:44:33:871] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
@@ -603,6 +575,12 @@
 {
   "status": "connected",
   "teamId": "T0EHMQ4HM"
+}
+[09/03/18, 20:44:34:527] info: BackgroundClient: Logged in
+{
+  "userId": "U8F7K0NSZ",
+  "teamId": "T0EHMQ4HM",
+  "showBullet": true
 }
 [09/03/18, 20:44:34:532] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
@@ -628,7 +606,7 @@
   "reconnectURLExpiry": 1535975452650,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 20:46:53:274] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:46:53:273] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535975513270,
@@ -652,7 +630,7 @@
   "reconnectURLExpiry": 1535975633292,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 20:49:00:045] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:49:00:046] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535975640042,
@@ -712,13 +690,13 @@
   "reconnectURLExpiry": 1535975999978,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 20:55:52:615] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:55:52:614] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535976052611,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 20:56:53:337] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 20:56:53:338] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535976113334,
@@ -778,7 +756,7 @@
   "reconnectURLExpiry": 1535976473269,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 21:03:00:030] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:03:00:029] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535976480028,
@@ -832,7 +810,7 @@
   "reconnectURLExpiry": 1535976833308,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 21:08:59:968] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:08:59:967] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535976839964,
@@ -874,7 +852,7 @@
   "reconnectURLExpiry": 1535977079990,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 21:13:52:628] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:13:52:627] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535977132624,
@@ -886,7 +864,7 @@
   "reconnectURLExpiry": 1535977193245,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 21:15:00:005] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:15:00:004] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535977200003,
@@ -898,7 +876,7 @@
   "reconnectURLExpiry": 1535977252582,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 21:16:53:262] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:16:53:261] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535977313258,
@@ -952,7 +930,7 @@
   "reconnectURLExpiry": 1535977612676,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 21:22:53:302] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:22:53:301] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535977673298,
@@ -964,7 +942,7 @@
   "reconnectURLExpiry": 1535977680046,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 21:23:52:696] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:23:52:695] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535977732692,
@@ -976,7 +954,7 @@
   "reconnectURLExpiry": 1535977793311,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 21:25:00:052] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:25:00:051] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535977800050,
@@ -1018,7 +996,7 @@
   "reconnectURLExpiry": 1535978040047,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 21:29:52:630] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:29:52:631] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535978092627,
@@ -1144,13 +1122,13 @@
   "reconnectURLExpiry": 1535978879985,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 21:43:52:726] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:43:52:724] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535978932721,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 21:44:53:450] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:44:53:449] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535978993445,
@@ -1162,7 +1140,7 @@
   "reconnectURLExpiry": 1535978999999,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 21:45:52:739] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:45:52:738] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535979052735,
@@ -1228,7 +1206,7 @@
   "reconnectURLExpiry": 1535979473396,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 21:53:00:052] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:53:00:054] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535979480048,
@@ -1276,7 +1254,7 @@
   "reconnectURLExpiry": 1535979772610,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 21:58:53:442] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 21:58:53:439] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535979833436,
@@ -1312,7 +1290,7 @@
   "reconnectURLExpiry": 1535980012579,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 22:02:53:263] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:02:53:261] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535980073258,
@@ -1360,7 +1338,7 @@
   "reconnectURLExpiry": 1535980320152,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 22:07:52:680] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:07:52:681] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535980372676,
@@ -1415,7 +1393,7 @@
   "reconnectURLExpiry": 1535980612601,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 22:12:53:534] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:12:53:533] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535980673529,
@@ -1451,7 +1429,7 @@
   "reconnectURLExpiry": 1535980852627,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 22:16:53:356] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:16:53:355] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535980913352,
@@ -1475,13 +1453,13 @@
   "reconnectURLExpiry": 1535981033365,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 22:19:00:074] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:19:00:073] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981040069,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 22:19:52:659] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:19:52:658] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981092655,
@@ -1499,7 +1477,7 @@
   "reconnectURLExpiry": 1535981159931,
   "teamId": "T0EHMQ4HM"
 }
-[09/03/18, 22:21:52:670] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:21:52:671] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981212667,
@@ -1511,7 +1489,7 @@
   "reconnectURLExpiry": 1535981273392,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 22:22:59:949] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:22:59:948] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981279944,
@@ -1529,7 +1507,7 @@
   "reconnectURLExpiry": 1535981393307,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 22:24:59:962] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:24:59:961] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981399958,
@@ -1559,7 +1537,7 @@
   "reconnectURLExpiry": 1535981572605,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 22:28:53:538] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:28:53:539] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981633534,
@@ -1583,7 +1561,7 @@
   "reconnectURLExpiry": 1535981753239,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 22:31:00:003] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:31:00:004] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535981759999,
@@ -1631,13 +1609,13 @@
   "reconnectURLExpiry": 1535982052658,
   "teamId": "T0253QGQ9"
 }
-[09/03/18, 22:36:53:487] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:36:53:486] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535982113483,
   "teamId": "TB9PVC95H"
 }
-[09/03/18, 22:36:59:923] info: Store: SET_BACKGROUND_CLIENT_FIELDS
+[09/03/18, 22:36:59:922] info: Store: SET_BACKGROUND_CLIENT_FIELDS
 {
   "reconnectURL": "[REDACTED]",
   "reconnectURLExpiry": 1535982119919,
