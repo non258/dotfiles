@@ -30413,3 +30413,1060 @@ info: Sep-26 09:44:32.305 [FOCUS-EVENT] Window focused
 info: Sep-26 09:44:32.339 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
 info: Sep-26 09:44:32.339 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
 info: Sep-26 09:44:34.140 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:29:14.949 [SOCKET-MANAGER] (TB47MRNBZ) Sleeping
+info: Sep-26 10:29:14.949 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connected to sleep
+info: Sep-26 10:29:14.950 [SOCKET-MANAGER] (TB47MRNBZ) will stay in sleep state for up to 10000 ms
+info: Sep-26 10:29:14.950 [SOCKET-MANAGER] (TB47MRNBZ) Changing from sleep to sleeping
+info: Sep-26 10:29:14.950 [SOCKET-MANAGER] (TB47MRNBZ) will stay in sleeping state for up to 10000 ms
+error: Sep-26 10:29:14.950 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+info: Sep-26 10:29:14.951 [SOCKET-MANAGER] (TB47MRNBZ) Changing from sleeping to asleep
+info: Sep-26 10:29:14.951 [SOCKET-MANAGER] (TB47MRNBZ) will stay in asleep state for up to Infinity ms
+info: Sep-26 10:29:14.952 [INFO] sleep event!
+info: Sep-26 10:29:14.952 [INFO] MSDisconnected: 
+info: Sep-26 10:29:14.955 [INFO] Hiding the reconnection banner because we are disconnected
+info: Sep-26 10:29:15.010 [SOCKET-MANAGER] (TB47MRNBZ) got offline event; moving to DISCONNECT as needed
+info: Sep-26 10:29:15.797 [API-Q] (TB47MRNBZ) Pausing queue because client is offline
+warn: Sep-26 10:29:16.799 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Sep-26 10:29:17.800 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Sep-26 10:29:18.800 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Sep-26 10:29:19.801 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Sep-26 10:29:20.801 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Sep-26 10:29:21.802 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Sep-26 10:29:22.803 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Sep-26 10:29:23.804 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Sep-26 10:29:24.805 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Sep-26 10:35:55.730 Internet connection still offline after 10 attempts (browser says it is still offline)
+info: Sep-26 10:35:56.065 [SOCKET-MANAGER] (TB47MRNBZ) Waking
+info: Sep-26 10:35:56.065 [SOCKET-MANAGER] (TB47MRNBZ) Changing from asleep to connect
+info: 2018/9/26 10:35:56.670  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841636)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:832797)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:831175
+at <anonymous>:1:8
+at EventEmitter.electron.ipcRenderer.on (/usr/lib/slack/resources/electron.asar/renderer/web-frame-init.js:36:30)
+at emitMany (events.js:147:13)
+at EventEmitter.emit (events.js:224:7)
+info: Sep-26 10:35:56.067 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 10:35:56.067 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 10:35:56.067 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 10:35:56.068 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 10:35:56.068 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 10:35:56.068 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 10:35:56.068 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+info: Sep-26 10:35:56.069 [INFO] wake event! version:1537918033 start_ms:1537920812254
+error: WebSocket connection to 'wss://mpmulti-y86j.lb.slack-msgs.com/?token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_e436b53ae01233b5c077fba1a579cecf689b5d9a%26agent_version%3D1537918033%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED
+error: Sep-26 10:35:56.241 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 10:35:56.244 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to error
+info: Sep-26 10:35:56.246 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 10:35:56.248  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 10:35:56.276 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 10:35:56.277 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 10:35:56.278 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 172 ms
+info: Sep-26 10:35:56.452 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Sep-26 10:35:56.452 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Sep-26 10:35:56.731 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Sep-26 10:35:57.732 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Sep-26 10:35:58.733 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Sep-26 10:35:59.733 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Sep-26 10:36:00.734 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Sep-26 10:36:01.735 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Sep-26 10:36:03.244 Internet connection still offline after 17 attempts (unable to reach API)
+info: Sep-26 10:36:31.041 [INFO] Internet connection has been re-established after 18 retry attempts; offline for NaN seconds
+info: Sep-26 10:36:31.043 [API-Q] (TB47MRNBZ) Unpausing queue, back online
+info: Sep-26 10:36:31.044 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_connectivity to connect
+info: Sep-26 10:36:31.045 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 10:36:31.045 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 10:36:31.045 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 10:36:31.046 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 10:36:31.046 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 10:36:31.047 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 10:36:31.047 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+info: Sep-26 10:36:31.971 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to prov_connected
+info: Sep-26 10:36:31.971 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connected state for up to 60000 ms
+info: Sep-26 10:36:31.974 [INFO] Got start data from Socket Manager; hydrating it
+info: Sep-26 10:36:31.979 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Sep-26 10:36:31.980 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Sep-26 10:36:31.982 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Sep-26 10:36:31.989 [API-Q] (TB47MRNBZ) e436b53a-1537925791.988 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Sep-26 10:36:31.990 [API-Q] (TB47MRNBZ) e436b53a-1537925791.988 auth.currentSessions is ENQUEUED
+info: Sep-26 10:36:31.990 [API-Q] (TB47MRNBZ) e436b53a-1537925791.988 auth.currentSessions is ACTIVE
+info: Sep-26 10:36:32.018 [API-Q] (TB47MRNBZ) e436b53a-1537925792.017 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Sep-26 10:36:32.018 [API-Q] (TB47MRNBZ) e436b53a-1537925792.017 i18n.translations.get is ENQUEUED
+info: Sep-26 10:36:32.018 [API-Q] (TB47MRNBZ) e436b53a-1537925792.017 i18n.translations.get is ACTIVE
+info: Sep-26 10:36:32.125 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Sep-26 10:36:32.125 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connected to prov_finalize
+info: Sep-26 10:36:32.125 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_finalize state for up to 10000 ms
+info: Sep-26 10:36:32.125 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_finalize to prov_finalizing
+info: Sep-26 10:36:32.125 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_finalizing state for up to 10000 ms
+info: Sep-26 10:36:32.125 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_finalizing to connected
+info: Sep-26 10:36:32.125 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connected state for up to Infinity ms
+info: Sep-26 10:36:32.125 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Sep-26 10:36:32.126 [EVENTLOG] (TB47MRNBZ) fr=false, lc=false, lt=1537921101.000100
+info: Sep-26 10:36:32.126 [EVENTLOG] (TB47MRNBZ) fetching events since 1537921101.000100 (4691.999900102615 seconds ago)
+info: Sep-26 10:36:32.127 [API-Q] (TB47MRNBZ) e436b53a-1537925792.126 ublockworkaround.history called with reason: NO REASON PROVIDED
+info: Sep-26 10:36:32.127 [API-Q] (TB47MRNBZ) e436b53a-1537925792.126 ublockworkaround.history is ENQUEUED
+info: Sep-26 10:36:32.127 [API-Q] (TB47MRNBZ) e436b53a-1537925792.126 ublockworkaround.history is ACTIVE
+info: Sep-26 10:36:32.128 [API-Q] (TB47MRNBZ) e436b53a-1537925792.128 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Sep-26 10:36:32.128 [API-Q] (TB47MRNBZ) e436b53a-1537925792.128 dnd.teamInfo is ENQUEUED
+info: Sep-26 10:36:32.128 [API-Q] (TB47MRNBZ) e436b53a-1537925792.128 dnd.teamInfo is ACTIVE
+info: Sep-26 10:36:32.129 [INFO] MSConnected: 
+info: Sep-26 10:36:32.134 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Sep-26 10:36:32.134 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Sep-26 10:36:32.150 [API-Q] (TB47MRNBZ) e436b53a-1537925792.150 users.counts called with reason: NO REASON PROVIDED
+info: Sep-26 10:36:32.150 [API-Q] (TB47MRNBZ) e436b53a-1537925792.150 users.counts is ENQUEUED
+info: Sep-26 10:36:32.150 [API-Q] (TB47MRNBZ) e436b53a-1537925792.150 users.counts is ACTIVE
+info: Sep-26 10:36:32.158 [HISTORY-FETCH] (TB47MRNBZ) Fetching history for message pane: CB47MRRTR oldest: 1537921101.000100 latest: null
+info: Sep-26 10:36:32.158 [API-Q] (TB47MRNBZ) e436b53a-1537925792.158 conversations.history called with reason: message-pane/requestHistory
+info: Sep-26 10:36:32.158 [API-Q] (TB47MRNBZ) e436b53a-1537925792.158 conversations.history is ENQUEUED
+info: Sep-26 10:36:32.159 [API-Q] (TB47MRNBZ) e436b53a-1537925792.158 conversations.history is ACTIVE
+info: Sep-26 10:36:32.161 [CHECK-UNREADS] (TB47MRNBZ) unreadLineVisible updated: true -> false
+info: Sep-26 10:36:32.202 [MESSAGE-LIST] (TB47MRNBZ) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 58
+warn: Sep-26 10:36:32.217 _model is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+warn: Sep-26 10:36:32.217 _logger is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Sep-26 10:36:32.471 [API-Q] (TB47MRNBZ) e436b53a-1537925792.126 ublockworkaround.history is RESOLVED
+info: Sep-26 10:36:32.472 [EVENTLOG] (TB47MRNBZ) nothing to process
+info: Sep-26 10:36:32.472 [EVENTLOG] (TB47MRNBZ) fetched finish (cancelled? false)
+info: Sep-26 10:36:32.472 [EVENTLOG] (TB47MRNBZ) dispatching signal and clearing timestamp
+info: Sep-26 10:36:32.778 [API-Q] (TB47MRNBZ) e436b53a-1537925791.988 auth.currentSessions is RESOLVED
+info: Sep-26 10:36:32.780 [API-Q] (TB47MRNBZ) e436b53a-1537925792.017 i18n.translations.get is RESOLVED
+info: Sep-26 10:36:32.854 [API-Q] (TB47MRNBZ) e436b53a-1537925792.128 dnd.teamInfo is RESOLVED
+info: Sep-26 10:36:32.861 [API-Q] (TB47MRNBZ) e436b53a-1537925792.158 conversations.history is RESOLVED
+info: Sep-26 10:36:32.869 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 10:36:32.878 [MESSAGE-LIST] (TB47MRNBZ) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 58
+info: Sep-26 10:36:32.882 [CHECK-UNREADS] (TB47MRNBZ) unreadLineVisible updated: false -> true
+info: Sep-26 10:36:32.899 [API-Q] (TB47MRNBZ) e436b53a-1537925792.150 users.counts is RESOLVED
+info: Sep-26 10:36:32.908 [UNREAD-COUNTS] (TB47MRNBZ) Completed users.counts processing
+info: Sep-26 10:36:33.247 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after unread line became visible
+info: Sep-26 10:36:33.247 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because attention not on chat (window_not_focused)
+info: Sep-26 10:45:31.386 [FOCUS-EVENT] Window focused
+info: Sep-26 10:45:31.421 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 10:45:31.421 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 10:45:39.715 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 4 to CB47MRRTR via HTTP, clientMsgId: 9c06725e-bb29-4618-8683-34a8a1931cf2
+info: Sep-26 10:45:39.715 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 9c06725e-bb29-4618-8683-34a8a1931cf2, queue has 1 messages
+info: Sep-26 10:45:39.715 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 9c06725e-bb29-4618-8683-34a8a1931cf2
+info: Sep-26 10:45:39.716 [API-Q] (TB47MRNBZ) e436b53a-1537926339.716 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 10:45:39.716 [API-Q] (TB47MRNBZ) e436b53a-1537926339.716 chat.postMessage is ENQUEUED
+info: Sep-26 10:45:39.717 [API-Q] (TB47MRNBZ) e436b53a-1537926339.716 chat.postMessage is ACTIVE
+info: Sep-26 10:45:39.717 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 10:45:39.719 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 10:45:39.719 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 10:45:39.719 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 10:45:40.725 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 10:45:40.729 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 9c06725e-bb29-4618-8683-34a8a1931cf2 in CB47MRRTR
+info: Sep-26 10:45:40.732 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 9c06725e-bb29-4618-8683-34a8a1931cf2
+info: Sep-26 10:45:40.734 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 10:45:40.735 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 10:45:40.736 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 10:45:40.740 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537926340.000200
+info: Sep-26 10:45:40.745 [API-Q] (TB47MRNBZ) e436b53a-1537926339.716 chat.postMessage is RESOLVED
+info: Sep-26 10:45:46.906 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 17 to CB47MRRTR via HTTP, clientMsgId: 58d69018-6c9f-460c-b20d-2ec1ed24afdc
+info: Sep-26 10:45:46.906 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 58d69018-6c9f-460c-b20d-2ec1ed24afdc, queue has 1 messages
+info: Sep-26 10:45:46.906 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 58d69018-6c9f-460c-b20d-2ec1ed24afdc
+info: Sep-26 10:45:46.907 [API-Q] (TB47MRNBZ) e436b53a-1537926346.906 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 10:45:46.907 [API-Q] (TB47MRNBZ) e436b53a-1537926346.906 chat.postMessage is ENQUEUED
+info: Sep-26 10:45:46.907 [API-Q] (TB47MRNBZ) e436b53a-1537926346.906 chat.postMessage is ACTIVE
+info: Sep-26 10:45:46.907 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 10:45:46.909 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 10:45:46.909 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 10:45:46.909 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 10:45:47.650 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 10:45:47.652 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 58d69018-6c9f-460c-b20d-2ec1ed24afdc in CB47MRRTR
+info: Sep-26 10:45:47.653 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 58d69018-6c9f-460c-b20d-2ec1ed24afdc
+info: Sep-26 10:45:47.653 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 10:45:47.654 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 10:45:47.654 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 10:45:47.656 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537926347.000100
+info: Sep-26 10:45:47.684 [API-Q] (TB47MRNBZ) e436b53a-1537926346.906 chat.postMessage is RESOLVED
+info: Sep-26 10:45:58.310 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:46:14.615 [FOCUS-EVENT] Window focused
+info: Sep-26 10:46:14.640 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:46:14.643 [FOCUS-EVENT] Window focused
+info: Sep-26 10:46:14.663 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 10:46:14.663 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 10:46:14.663 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 10:46:14.663 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 10:46:16.855 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:46:23.851 [FOCUS-EVENT] Window focused
+info: Sep-26 10:46:23.865 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:46:23.869 [FOCUS-EVENT] Window focused
+info: Sep-26 10:46:23.894 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 10:46:23.895 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 10:46:23.895 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 10:46:23.895 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 10:46:25.483 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:46:27.245 [FOCUS-EVENT] Window focused
+info: Sep-26 10:46:27.283 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 10:46:27.283 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 10:46:28.310 [FOCUS-EVENT] Window blurred
+info: Sep-26 10:51:15.832 [MIN-VERSION] (TB47MRNBZ) checking to see if we should reload
+info: Sep-26 10:51:15.835 [API-Q] (TB47MRNBZ) e436b53a-1537926675.834 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-26 10:51:15.836 [API-Q] (TB47MRNBZ) e436b53a-1537926675.834 rtm.shouldReload is ENQUEUED
+info: Sep-26 10:51:15.837 [API-Q] (TB47MRNBZ) e436b53a-1537926675.834 rtm.shouldReload is ACTIVE
+info: Sep-26 10:51:16.811 [API-Q] (TB47MRNBZ) e436b53a-1537926675.834 rtm.shouldReload is RESOLVED
+info: Sep-26 10:51:16.813 [MIN-VERSION] (TB47MRNBZ) no need to reload
+info: Sep-26 11:01:04.530 [FOCUS-EVENT] Window focused
+info: Sep-26 11:01:04.561 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 11:01:04.561 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 11:01:05.872 [FOCUS-EVENT] Window blurred
+info: Sep-26 11:02:43.361 [FOCUS-EVENT] Window focused
+info: Sep-26 11:02:43.381 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 11:02:43.382 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 11:02:44.436 [FOCUS-EVENT] Window blurred
+error: Sep-26 11:32:21.895 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:32:21.898 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connected to error
+info: Sep-26 11:32:21.899 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:32:21.900  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:32:21.902 [INFO] MSDisconnected: 
+info: Sep-26 11:32:21.906 [INFO] Hiding the reconnection banner because we are disconnected
+info: Sep-26 11:32:21.943 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:32:21.943 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:32:21.944 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 900 ms
+info: Sep-26 11:32:22.845 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:32:22.846 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:32:22.847 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:32:22.847 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:32:22.848 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:32:22.848 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy13Mzg4LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC90aGxWcEhqc2w3SGhXVTM3RmxDWUFaYWxrQjRLX3BQZm1IUk8tTUJhdWtRajZwTnVJMGZXbGI1V0pLMHM2alRLZFlJUUFqVWFGVXg1WEF5cVh3VmNMQ3p0bzBtbnVBWllWa0U2WkJzVkotdWJpQTFMTTFyZzJONzBiZGcxLW9hZXhEMk5iUGpucEJBV3RlOWQzMC04VEVTdDZoWU02ZHZhMTFmTl80ODhobDN1cFpLb1hyeExacE9weDJTYkhFMUhkMjY3VGoyN29iOVRrenpaS2NQTFJyekRJa1FNeWRiTVVOV1VXRGdKZVVvcElZUnpaUjg2dnk1WjZBbGVpRERkemcxNVlwdkZ3a1hETlhsWjhTVGtJV2V1dE5CTlpVdGR0VUJuQ3JhM2xydz0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM85poNrAy__lwAASDWly1IThyMqCK1ZKaXqfnXRhuvXUkbFZPEl9qv5yakzQA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED
+error: Sep-26 11:32:22.923 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:32:22.924 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:32:22.924 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:32:22.925  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:32:22.938 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:32:22.938 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:32:22.939 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 1317 ms
+info: Sep-26 11:32:24.256 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:32:24.258 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:32:24.259 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:32:24.259 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:32:24.260 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:32:24.260 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy13Mzg4LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC90aGxWcEhqc2w3SGhXVTM3RmxDWUFaYWxrQjRLX3BQZm1IUk8tTUJhdWtRajZwTnVJMGZXbGI1V0pLMHM2alRLZFlJUUFqVWFGVXg1WEF5cVh3VmNMQ3p0bzBtbnVBWllWa0U2WkJzVkotdWJpQTFMTTFyZzJONzBiZGcxLW9hZXhEMk5iUGpucEJBV3RlOWQzMC04VEVTdDZoWU02ZHZhMTFmTl80ODhobDN1cFpLb1hyeExacE9weDJTYkhFMUhkMjY3VGoyN29iOVRrenpaS2NQTFJyekRJa1FNeWRiTVVOV1VXRGdKZVVvcElZUnpaUjg2dnk1WjZBbGVpRERkemcxNVlwdkZ3a1hETlhsWjhTVGtJV2V1dE5CTlpVdGR0VUJuQ3JhM2xydz0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM85poNrAy__lwAASDWly1IThyMqCK1ZKaXqfnXRhuvXUkbFZPEl9qv5yakzQA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED
+error: Sep-26 11:32:24.296 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:32:24.297 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:32:24.297 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:32:24.297  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:32:24.308 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:32:24.308 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:32:24.308 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 1000 ms
+info: Sep-26 11:32:25.310 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:32:25.311 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:32:25.312 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:32:25.312 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:32:25.312 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:32:25.312 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy13Mzg4LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC90aGxWcEhqc2w3SGhXVTM3RmxDWUFaYWxrQjRLX3BQZm1IUk8tTUJhdWtRajZwTnVJMGZXbGI1V0pLMHM2alRLZFlJUUFqVWFGVXg1WEF5cVh3VmNMQ3p0bzBtbnVBWllWa0U2WkJzVkotdWJpQTFMTTFyZzJONzBiZGcxLW9hZXhEMk5iUGpucEJBV3RlOWQzMC04VEVTdDZoWU02ZHZhMTFmTl80ODhobDN1cFpLb1hyeExacE9weDJTYkhFMUhkMjY3VGoyN29iOVRrenpaS2NQTFJyekRJa1FNeWRiTVVOV1VXRGdKZVVvcElZUnpaUjg2dnk1WjZBbGVpRERkemcxNVlwdkZ3a1hETlhsWjhTVGtJV2V1dE5CTlpVdGR0VUJuQ3JhM2xydz0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM85poNrAy__lwAASDWly1IThyMqCK1ZKaXqfnXRhuvXUkbFZPEl9qv5yakzQA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED
+error: Sep-26 11:32:25.327 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:32:25.328 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:32:25.328 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:32:25.328  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:32:25.338 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:32:25.338 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:32:25.338 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 2110 ms
+info: Sep-26 11:32:27.449 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:32:27.450 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:32:27.451 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:32:27.451 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:32:27.452 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:32:27.452 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy13Mzg4LmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC90aGxWcEhqc2w3SGhXVTM3RmxDWUFaYWxrQjRLX3BQZm1IUk8tTUJhdWtRajZwTnVJMGZXbGI1V0pLMHM2alRLZFlJUUFqVWFGVXg1WEF5cVh3VmNMQ3p0bzBtbnVBWllWa0U2WkJzVkotdWJpQTFMTTFyZzJONzBiZGcxLW9hZXhEMk5iUGpucEJBV3RlOWQzMC04VEVTdDZoWU02ZHZhMTFmTl80ODhobDN1cFpLb1hyeExacE9weDJTYkhFMUhkMjY3VGoyN29iOVRrenpaS2NQTFJyekRJa1FNeWRiTVVOV1VXRGdKZVVvcElZUnpaUjg2dnk1WjZBbGVpRERkemcxNVlwdkZ3a1hETlhsWjhTVGtJV2V1dE5CTlpVdGR0VUJuQ3JhM2xydz0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM85poNrAy__lwAASDWly1IThyMqCK1ZKaXqfnXRhuvXUkbFZPEl9qv5yakzQA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED
+error: Sep-26 11:32:27.484 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:32:27.485 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:32:27.485 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:32:27.486  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:32:27.488 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:32:27.488 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:32:27.489 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 3763 ms
+info: Sep-26 11:32:31.252 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:32:31.254 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:32:31.255 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:32:31.256 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:32:31.257 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:32:31.257 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+info: Sep-26 11:32:31.696 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to connected
+info: Sep-26 11:32:31.697 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connected state for up to Infinity ms
+info: Sep-26 11:32:31.698 [EVENTLOG] (TB47MRNBZ) fr=true, lc=false, lt=1537926347.000100
+info: Sep-26 11:32:31.699 [INFO] MSConnected: 
+info: Sep-26 11:32:31.719 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Sep-26 11:32:31.719 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Sep-26 11:39:17.585 [SOCKET-MANAGER] (TB47MRNBZ) Sleeping
+info: Sep-26 11:39:17.586 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connected to sleep
+info: Sep-26 11:39:17.587 [SOCKET-MANAGER] (TB47MRNBZ) will stay in sleep state for up to 10000 ms
+info: Sep-26 11:39:17.588 [SOCKET-MANAGER] (TB47MRNBZ) Changing from sleep to sleeping
+info: Sep-26 11:39:17.589 [SOCKET-MANAGER] (TB47MRNBZ) will stay in sleeping state for up to 10000 ms
+error: Sep-26 11:39:17.590 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+info: Sep-26 11:39:17.592 [SOCKET-MANAGER] (TB47MRNBZ) Changing from sleeping to asleep
+info: Sep-26 11:39:17.592 [SOCKET-MANAGER] (TB47MRNBZ) will stay in asleep state for up to Infinity ms
+info: Sep-26 11:39:17.593 [INFO] sleep event!
+info: Sep-26 11:39:17.594 [INFO] MSDisconnected: 
+info: Sep-26 11:39:17.597 [INFO] Hiding the reconnection banner because we are disconnected
+info: Sep-26 11:40:13.065 [SOCKET-MANAGER] (TB47MRNBZ) Waking
+info: Sep-26 11:40:13.065 [SOCKET-MANAGER] (TB47MRNBZ) Changing from asleep to connect
+info: 2018/9/26 11:40:13.650  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841636)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:832797)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:831175
+at <anonymous>:1:8
+at EventEmitter.electron.ipcRenderer.on (/usr/lib/slack/resources/electron.asar/renderer/web-frame-init.js:36:30)
+at emitMany (events.js:147:13)
+at EventEmitter.emit (events.js:224:7)
+info: Sep-26 11:40:13.065 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:40:13.066 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:40:13.066 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:40:13.066 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:40:13.066 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+info: Sep-26 11:40:13.067 [INFO] wake event! version:1537918033 start_ms:1537920812254
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1kemthLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9hZ0xEcHZMT1JINVBNdWhUYjJwbFZPeWI4QkFnV3pGRjU4OUwzVUcwT1hwUTlXdFdVSHVnWWVQX29YeHVoVnR4cFJkTFlCZU53bFoyMFo0OUVwWjZLV0d2R0ViQU82b3FZNUFHU042Y0Q5WWp4VjUyU3dkcGJXMjduZGxCQy11eU93YzFXOUZFOElITkpSdGcwa2FKc2ROVVF6c0lWXzBadGpjQldMYXJ1ZUJfNnFQdDJQNVVBTGREQ2VFMm9NOG5yaE9PQVFYa1Z6VmpXY2xmM3VuS3hJcVAxZnZHWXlvSXU4bEx0ZFE3R0NZOTQtRkpYc3BxNTI1dDlDdkJKa21tU00xSlJVYWV3WV9UZ3g2TkRJWGoySDViRlIyZnU3VDhfekRaT0hrMnF3QT0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM86AIM5LER_lwAASB1ot3sD9F4nX_esr7C_sH7wmria_NiH5u1jIxnNxmP3gA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 11:40:13.209 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:40:13.211 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:40:13.211 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:40:13.211  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:40:13.213 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:40:13.213 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:40:13.213 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 257 ms
+info: Sep-26 11:40:13.471 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:40:13.472 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:40:13.472 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:40:13.473 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:40:13.473 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:40:13.473 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1kemthLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9hZ0xEcHZMT1JINVBNdWhUYjJwbFZPeWI4QkFnV3pGRjU4OUwzVUcwT1hwUTlXdFdVSHVnWWVQX29YeHVoVnR4cFJkTFlCZU53bFoyMFo0OUVwWjZLV0d2R0ViQU82b3FZNUFHU042Y0Q5WWp4VjUyU3dkcGJXMjduZGxCQy11eU93YzFXOUZFOElITkpSdGcwa2FKc2ROVVF6c0lWXzBadGpjQldMYXJ1ZUJfNnFQdDJQNVVBTGREQ2VFMm9NOG5yaE9PQVFYa1Z6VmpXY2xmM3VuS3hJcVAxZnZHWXlvSXU4bEx0ZFE3R0NZOTQtRkpYc3BxNTI1dDlDdkJKa21tU00xSlJVYWV3WV9UZ3g2TkRJWGoySDViRlIyZnU3VDhfekRaT0hrMnF3QT0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM86AIM5LER_lwAASB1ot3sD9F4nX_esr7C_sH7wmria_NiH5u1jIxnNxmP3gA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 11:40:13.501 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:40:13.503 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:40:13.503 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:40:13.504  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:40:13.528 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:40:13.528 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:40:13.529 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 937 ms
+info: Sep-26 11:40:14.466 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:40:14.467 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:40:14.468 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:40:14.468 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:40:14.468 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:40:14.468 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1kemthLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9hZ0xEcHZMT1JINVBNdWhUYjJwbFZPeWI4QkFnV3pGRjU4OUwzVUcwT1hwUTlXdFdVSHVnWWVQX29YeHVoVnR4cFJkTFlCZU53bFoyMFo0OUVwWjZLV0d2R0ViQU82b3FZNUFHU042Y0Q5WWp4VjUyU3dkcGJXMjduZGxCQy11eU93YzFXOUZFOElITkpSdGcwa2FKc2ROVVF6c0lWXzBadGpjQldMYXJ1ZUJfNnFQdDJQNVVBTGREQ2VFMm9NOG5yaE9PQVFYa1Z6VmpXY2xmM3VuS3hJcVAxZnZHWXlvSXU4bEx0ZFE3R0NZOTQtRkpYc3BxNTI1dDlDdkJKa21tU00xSlJVYWV3WV9UZ3g2TkRJWGoySDViRlIyZnU3VDhfekRaT0hrMnF3QT0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM86AIM5LER_lwAASB1ot3sD9F4nX_esr7C_sH7wmria_NiH5u1jIxnNxmP3gA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 11:40:14.494 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:40:14.495 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:40:14.495 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:40:14.496  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:40:14.506 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:40:14.507 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:40:14.507 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 2544 ms
+info: Sep-26 11:40:17.051 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:40:17.052 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:40:17.053 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:40:17.053 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:40:17.054 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:40:17.054 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1kemthLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9hZ0xEcHZMT1JINVBNdWhUYjJwbFZPeWI4QkFnV3pGRjU4OUwzVUcwT1hwUTlXdFdVSHVnWWVQX29YeHVoVnR4cFJkTFlCZU53bFoyMFo0OUVwWjZLV0d2R0ViQU82b3FZNUFHU042Y0Q5WWp4VjUyU3dkcGJXMjduZGxCQy11eU93YzFXOUZFOElITkpSdGcwa2FKc2ROVVF6c0lWXzBadGpjQldMYXJ1ZUJfNnFQdDJQNVVBTGREQ2VFMm9NOG5yaE9PQVFYa1Z6VmpXY2xmM3VuS3hJcVAxZnZHWXlvSXU4bEx0ZFE3R0NZOTQtRkpYc3BxNTI1dDlDdkJKa21tU00xSlJVYWV3WV9UZ3g2TkRJWGoySDViRlIyZnU3VDhfekRaT0hrMnF3QT0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM86AIM5LER_lwAASB1ot3sD9F4nX_esr7C_sH7wmria_NiH5u1jIxnNxmP3gA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 11:40:17.080 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:40:17.083 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:40:17.083 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:40:17.840  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:40:17.095 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:40:17.095 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:40:17.096 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 5867 ms
+info: Sep-26 11:40:22.964 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:40:22.965 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:40:22.965 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:40:22.965 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:40:22.966 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:40:22.966 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+error: WebSocket connection to 'wss://mpmulti-zu32.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy1kemthLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9hZ0xEcHZMT1JINVBNdWhUYjJwbFZPeWI4QkFnV3pGRjU4OUwzVUcwT1hwUTlXdFdVSHVnWWVQX29YeHVoVnR4cFJkTFlCZU53bFoyMFo0OUVwWjZLV0d2R0ViQU82b3FZNUFHU042Y0Q5WWp4VjUyU3dkcGJXMjduZGxCQy11eU93YzFXOUZFOElITkpSdGcwa2FKc2ROVVF6c0lWXzBadGpjQldMYXJ1ZUJfNnFQdDJQNVVBTGREQ2VFMm9NOG5yaE9PQVFYa1Z6VmpXY2xmM3VuS3hJcVAxZnZHWXlvSXU4bEx0ZFE3R0NZOTQtRkpYc3BxNTI1dDlDdkJKa21tU00xSlJVYWV3WV9UZ3g2TkRJWGoySDViRlIyZnU3VDhfekRaT0hrMnF3QT0BCVRCNDdNUk5CWgIJVUI0MzBRN1Y0AQ8BAAAADtM86AIM5LER_lwAASB1ot3sD9F4nX_esr7C_sH7wmria_NiH5u1jIxnNxmP3gA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED
+error: Sep-26 11:40:23.016 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 11:40:23.017 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to error
+info: Sep-26 11:40:23.017 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 11:40:23.180  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 11:40:23.031 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 11:40:23.031 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 11:40:23.032 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 17493 ms
+info: Sep-26 11:40:40.526 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 11:40:40.527 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 11:40:40.527 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 11:40:40.528 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 11:40:40.528 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to fast_reconnecting
+info: Sep-26 11:40:40.528 [SOCKET-MANAGER] (TB47MRNBZ) will stay in fast_reconnecting state for up to 20000 ms
+info: Sep-26 11:40:41.431 [SOCKET-MANAGER] (TB47MRNBZ) Changing from fast_reconnecting to connected
+info: Sep-26 11:40:41.432 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connected state for up to Infinity ms
+info: Sep-26 11:40:41.433 [EVENTLOG] (TB47MRNBZ) fr=true, lc=false, lt=1537926347.000100
+info: Sep-26 11:40:41.434 [INFO] MSConnected: 
+info: Sep-26 11:40:41.441 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Sep-26 11:40:41.442 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Sep-26 12:09:16.560 [SOCKET-MANAGER] (TB47MRNBZ) Sleeping
+info: Sep-26 12:09:16.560 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connected to sleep
+info: Sep-26 12:09:16.560 [SOCKET-MANAGER] (TB47MRNBZ) will stay in sleep state for up to 10000 ms
+info: Sep-26 12:09:16.561 [SOCKET-MANAGER] (TB47MRNBZ) Changing from sleep to sleeping
+info: Sep-26 12:09:16.561 [SOCKET-MANAGER] (TB47MRNBZ) will stay in sleeping state for up to 10000 ms
+error: Sep-26 12:09:16.561 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4102: client is going to sleep
+info: Sep-26 12:09:16.561 [SOCKET-MANAGER] (TB47MRNBZ) Changing from sleeping to asleep
+info: Sep-26 12:09:16.561 [SOCKET-MANAGER] (TB47MRNBZ) will stay in asleep state for up to Infinity ms
+info: Sep-26 12:09:16.562 [INFO] sleep event!
+info: Sep-26 12:09:16.562 [INFO] MSDisconnected: 
+info: Sep-26 12:09:16.564 [INFO] Hiding the reconnection banner because we are disconnected
+info: Sep-26 12:24:00.255 [SOCKET-MANAGER] (TB47MRNBZ) Waking
+info: Sep-26 12:24:00.255 [SOCKET-MANAGER] (TB47MRNBZ) Changing from asleep to connect
+info: 2018/9/26 12:24:00.255  Wake was triggered by:
+Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841636)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:832797)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:831175
+at <anonymous>:1:8
+at EventEmitter.electron.ipcRenderer.on (/usr/lib/slack/resources/electron.asar/renderer/web-frame-init.js:36:30)
+at emitMany (events.js:147:13)
+at EventEmitter.emit (events.js:224:7)
+info: Sep-26 12:24:00.255 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 12:24:00.256 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 12:24:00.256 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 12:24:00.256 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 12:24:00.256 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 12:24:00.256 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 12:24:00.256 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+info: Sep-26 12:24:00.257 [INFO] wake event! version:1537918033 start_ms:1537920812254
+error: WebSocket connection to 'wss://mpmulti-3jtk.lb.slack-msgs.com/?token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_e436b53ae01233b5c077fba1a579cecf689b5d9a%26agent_version%3D1537918033%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 12:24:00.276 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 12:24:00.277 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to error
+info: Sep-26 12:24:00.277 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 12:24:00.277  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 12:24:00.294 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 12:24:00.294 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 12:24:00.295 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 366 ms
+info: Sep-26 12:24:00.661 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 12:24:00.662 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 12:24:00.663 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 12:24:00.663 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 12:24:00.663 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 12:24:00.664 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 12:24:00.664 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 12:24:00.664 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-8t7f.lb.slack-msgs.com/?token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_e436b53ae01233b5c077fba1a579cecf689b5d9a%26agent_version%3D1537918033%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 12:24:00.692 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 12:24:00.694 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to error
+info: Sep-26 12:24:00.694 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 12:24:00.695  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 12:24:00.713 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 12:24:00.713 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 12:24:00.714 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 1091 ms
+info: Sep-26 12:24:01.806 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 12:24:01.807 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 12:24:01.807 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 12:24:01.808 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 12:24:01.808 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 12:24:01.808 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 12:24:01.809 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 12:24:01.809 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-a5bw.lb.slack-msgs.com/?token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_e436b53ae01233b5c077fba1a579cecf689b5d9a%26agent_version%3D1537918033%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 12:24:01.838 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 12:24:01.839 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to error
+info: Sep-26 12:24:01.839 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 12:24:01.839  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 12:24:01.850 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 12:24:01.850 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 12:24:01.850 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 2051 ms
+info: Sep-26 12:24:03.902 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 12:24:03.904 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 12:24:03.905 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 12:24:03.907 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 12:24:03.908 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 12:24:03.908 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 12:24:03.909 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 12:24:03.909 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-xd5s.lb.slack-msgs.com/?token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_e436b53ae01233b5c077fba1a579cecf689b5d9a%26agent_version%3D1537918033%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Sep-26 12:24:03.939 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 12:24:03.940 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to error
+info: Sep-26 12:24:03.940 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 12:24:03.940  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 12:24:03.950 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 12:24:03.950 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 12:24:03.951 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 1572 ms
+info: Sep-26 12:24:04.765 [FOCUS-EVENT] Window focused
+info: Sep-26 12:24:04.789 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:24:04.789 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:24:05.523 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 12:24:05.524 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 12:24:05.525 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 12:24:05.526 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 12:24:05.526 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 12:24:05.526 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 12:24:05.527 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 12:24:05.527 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-7hlr.lb.slack-msgs.com/?token=xoxs-⋯&start_args=%3Fagent%3Dwebapp_e436b53ae01233b5c077fba1a579cecf689b5d9a%26agent_version%3D1537918033%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED
+error: Sep-26 12:24:05.686 SOCKET-MANAGER (TB47MRNBZ) Closing socket because #4108: unexpected socket closure
+info: Sep-26 12:24:05.689 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to error
+info: Sep-26 12:24:05.690 [SOCKET-MANAGER] (TB47MRNBZ) will stay in error state for up to 10000 ms
+info: 2018/9/26 12:24:05.692  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-4/rollup-core_required_ts.faf0438c528eac84c714.min.js:1:109993)
+at https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:23367
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:840013)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:841850)
+at o (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:244037)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:842224)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:835767)
+at e.<anonymous> (https://a.slack-edge.com/bv1-4/rollup-core_required_libs.87214bf096e0a41cdf60.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3870291)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-4/modern.vendor.5cc859ec522b7852b31a.min.js:1:3869072)
+info: Sep-26 12:24:05.695 [SOCKET-MANAGER] (TB47MRNBZ) Changing from error to wait_for_rate_limit
+info: Sep-26 12:24:05.695 [SOCKET-MANAGER] (TB47MRNBZ) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Sep-26 12:24:05.696 [SOCKET-MANAGER] (TB47MRNBZ) backing off: will wait for 3552 ms
+info: Sep-26 12:24:09.249 [SOCKET-MANAGER] (TB47MRNBZ) Changing from wait_for_rate_limit to connect
+info: Sep-26 12:24:09.250 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connect state for up to 10000 ms
+info: Sep-26 12:24:09.251 [SOCKET-MANAGER] (TB47MRNBZ) Changing from connect to checking_fast_reconnect
+info: Sep-26 12:24:09.251 [SOCKET-MANAGER] (TB47MRNBZ) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Sep-26 12:24:09.252 [SOCKET-MANAGER] (TB47MRNBZ) Changing from checking_fast_reconnect to prov_connect
+info: Sep-26 12:24:09.252 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connect state for up to 10000 ms
+info: Sep-26 12:24:09.253 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connect to prov_connecting
+info: Sep-26 12:24:09.253 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connecting state for up to 35000 ms
+info: Sep-26 12:24:10.386 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connecting to prov_connected
+info: Sep-26 12:24:10.387 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_connected state for up to 60000 ms
+info: Sep-26 12:24:10.389 [INFO] Got start data from Socket Manager; hydrating it
+info: Sep-26 12:24:10.392 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Sep-26 12:24:10.392 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Sep-26 12:24:10.394 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Sep-26 12:24:10.397 [API-Q] (TB47MRNBZ) e436b53a-1537932250.396 auth.currentSessions called with reason: NO REASON PROVIDED
+info: Sep-26 12:24:10.397 [API-Q] (TB47MRNBZ) e436b53a-1537932250.396 auth.currentSessions is ENQUEUED
+info: Sep-26 12:24:10.397 [API-Q] (TB47MRNBZ) e436b53a-1537932250.396 auth.currentSessions is ACTIVE
+info: Sep-26 12:24:10.417 [API-Q] (TB47MRNBZ) e436b53a-1537932250.417 i18n.translations.get called with reason: NO REASON PROVIDED
+info: Sep-26 12:24:10.417 [API-Q] (TB47MRNBZ) e436b53a-1537932250.417 i18n.translations.get is ENQUEUED
+info: Sep-26 12:24:10.417 [API-Q] (TB47MRNBZ) e436b53a-1537932250.417 i18n.translations.get is ACTIVE
+info: Sep-26 12:24:10.500 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Sep-26 12:24:10.500 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_connected to prov_finalize
+info: Sep-26 12:24:10.500 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_finalize state for up to 10000 ms
+info: Sep-26 12:24:10.500 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_finalize to prov_finalizing
+info: Sep-26 12:24:10.500 [SOCKET-MANAGER] (TB47MRNBZ) will stay in prov_finalizing state for up to 10000 ms
+info: Sep-26 12:24:10.501 [SOCKET-MANAGER] (TB47MRNBZ) Changing from prov_finalizing to connected
+info: Sep-26 12:24:10.501 [SOCKET-MANAGER] (TB47MRNBZ) will stay in connected state for up to Infinity ms
+info: Sep-26 12:24:10.501 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Sep-26 12:24:10.501 [EVENTLOG] (TB47MRNBZ) fr=false, lc=false, lt=1537926347.000100
+info: Sep-26 12:24:10.501 [EVENTLOG] (TB47MRNBZ) fetching events since 1537926347.000100 (5903.999900102615 seconds ago)
+info: Sep-26 12:24:10.502 [API-Q] (TB47MRNBZ) e436b53a-1537932250.501 ublockworkaround.history called with reason: NO REASON PROVIDED
+info: Sep-26 12:24:10.502 [API-Q] (TB47MRNBZ) e436b53a-1537932250.501 ublockworkaround.history is ENQUEUED
+info: Sep-26 12:24:10.502 [API-Q] (TB47MRNBZ) e436b53a-1537932250.501 ublockworkaround.history is ACTIVE
+info: Sep-26 12:24:10.503 [API-Q] (TB47MRNBZ) e436b53a-1537932250.502 dnd.teamInfo called with reason: NO REASON PROVIDED
+info: Sep-26 12:24:10.503 [API-Q] (TB47MRNBZ) e436b53a-1537932250.502 dnd.teamInfo is ENQUEUED
+info: Sep-26 12:24:10.503 [API-Q] (TB47MRNBZ) e436b53a-1537932250.502 dnd.teamInfo is ACTIVE
+info: Sep-26 12:24:10.503 [INFO] MSConnected: 
+info: Sep-26 12:24:10.509 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Sep-26 12:24:10.509 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Sep-26 12:24:10.525 [API-Q] (TB47MRNBZ) e436b53a-1537932250.525 users.counts called with reason: NO REASON PROVIDED
+info: Sep-26 12:24:10.525 [API-Q] (TB47MRNBZ) e436b53a-1537932250.525 users.counts is ENQUEUED
+info: Sep-26 12:24:10.525 [API-Q] (TB47MRNBZ) e436b53a-1537932250.525 users.counts is ACTIVE
+info: Sep-26 12:24:10.532 [HISTORY-FETCH] (TB47MRNBZ) Fetching history for message pane: CB47MRRTR oldest: 1537926347.000100 latest: null
+info: Sep-26 12:24:10.532 [API-Q] (TB47MRNBZ) e436b53a-1537932250.532 conversations.history called with reason: message-pane/requestHistory
+info: Sep-26 12:24:10.532 [API-Q] (TB47MRNBZ) e436b53a-1537932250.532 conversations.history is ENQUEUED
+info: Sep-26 12:24:10.533 [API-Q] (TB47MRNBZ) e436b53a-1537932250.532 conversations.history is ACTIVE
+info: Sep-26 12:24:10.534 [CHECK-UNREADS] (TB47MRNBZ) unreadLineVisible updated: true -> false
+info: Sep-26 12:24:10.561 [MESSAGE-LIST] (TB47MRNBZ) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 60
+warn: Sep-26 12:24:10.582 _model is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+warn: Sep-26 12:24:10.582 _logger is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Sep-26 12:24:11.911 [API-Q] (TB47MRNBZ) e436b53a-1537932250.396 auth.currentSessions is RESOLVED
+info: Sep-26 12:24:11.920 [API-Q] (TB47MRNBZ) e436b53a-1537932250.502 dnd.teamInfo is RESOLVED
+info: Sep-26 12:24:11.926 [API-Q] (TB47MRNBZ) e436b53a-1537932250.417 i18n.translations.get is RESOLVED
+info: Sep-26 12:24:11.936 [API-Q] (TB47MRNBZ) e436b53a-1537932250.525 users.counts is RESOLVED
+info: Sep-26 12:24:11.957 [UNREAD-COUNTS] (TB47MRNBZ) Completed users.counts processing
+info: Sep-26 12:24:11.973 [API-Q] (TB47MRNBZ) e436b53a-1537932250.532 conversations.history is RESOLVED
+info: Sep-26 12:24:11.977 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (11) timestamps added
+info: Sep-26 12:24:11.978 [API-Q] (TB47MRNBZ) e436b53a-1537932250.501 ublockworkaround.history is RESOLVED
+info: Sep-26 12:24:11.978 [EVENTLOG] (TB47MRNBZ) nothing to process
+info: Sep-26 12:24:11.978 [EVENTLOG] (TB47MRNBZ) fetched finish (cancelled? false)
+info: Sep-26 12:24:11.978 [EVENTLOG] (TB47MRNBZ) dispatching signal and clearing timestamp
+info: Sep-26 12:24:11.980 [MESSAGE-LIST] (TB47MRNBZ) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 70
+info: Sep-26 12:24:12.021 [CHECK-UNREADS] (TB47MRNBZ) unreadLineVisible updated: false -> true
+info: Sep-26 12:24:12.383 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after unread line became visible
+info: Sep-26 12:24:12.384 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:25:50.617 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 29 to CB47MRRTR via HTTP, clientMsgId: 376ec034-f025-4546-81c6-b0071200d1eb
+info: Sep-26 12:25:50.618 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 376ec034-f025-4546-81c6-b0071200d1eb, queue has 1 messages
+info: Sep-26 12:25:50.618 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 376ec034-f025-4546-81c6-b0071200d1eb
+info: Sep-26 12:25:50.619 [API-Q] (TB47MRNBZ) e436b53a-1537932350.618 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 12:25:50.619 [API-Q] (TB47MRNBZ) e436b53a-1537932350.618 chat.postMessage is ENQUEUED
+info: Sep-26 12:25:50.619 [API-Q] (TB47MRNBZ) e436b53a-1537932350.618 chat.postMessage is ACTIVE
+info: Sep-26 12:25:50.620 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 12:25:50.622 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 12:25:50.622 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 12:25:50.622 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 12:25:51.377 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 12:25:51.384 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 376ec034-f025-4546-81c6-b0071200d1eb in CB47MRRTR
+info: Sep-26 12:25:51.386 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 376ec034-f025-4546-81c6-b0071200d1eb
+info: Sep-26 12:25:51.387 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 12:25:51.388 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 12:25:51.388 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 12:25:51.390 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537932352.000100
+info: Sep-26 12:25:51.419 [API-Q] (TB47MRNBZ) e436b53a-1537932350.618 chat.postMessage is RESOLVED
+warn: Sep-26 12:26:04.192 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 12:26:04.198 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 12:26:04.200 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 1
+info: Sep-26 12:26:04.206 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 12:26:04.207 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 12:26:04.211 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537932365.000100
+info: Sep-26 12:26:04.212 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 0
+info: Sep-26 12:26:09.019 [API-Q] (TB47MRNBZ) e436b53a-1537932369.018 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-26 12:26:09.020 [API-Q] (TB47MRNBZ) e436b53a-1537932369.018 conversations.mark is ENQUEUED
+info: Sep-26 12:26:09.021 [API-Q] (TB47MRNBZ) e436b53a-1537932369.018 conversations.mark is ACTIVE
+info: Sep-26 12:26:09.758 [API-Q] (TB47MRNBZ) e436b53a-1537932369.018 conversations.mark is RESOLVED
+info: Sep-26 12:26:18.799 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 6 to CB47MRRTR via HTTP, clientMsgId: e309c72b-bdde-41bb-ae0d-65378a51df5c
+info: Sep-26 12:26:18.799 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId e309c72b-bdde-41bb-ae0d-65378a51df5c, queue has 1 messages
+info: Sep-26 12:26:18.799 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId e309c72b-bdde-41bb-ae0d-65378a51df5c
+info: Sep-26 12:26:18.800 [API-Q] (TB47MRNBZ) e436b53a-1537932378.799 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 12:26:18.800 [API-Q] (TB47MRNBZ) e436b53a-1537932378.799 chat.postMessage is ENQUEUED
+info: Sep-26 12:26:18.800 [API-Q] (TB47MRNBZ) e436b53a-1537932378.799 chat.postMessage is ACTIVE
+info: Sep-26 12:26:18.800 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 12:26:18.804 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 12:26:18.804 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 12:26:18.804 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 12:26:19.509 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 12:26:19.517 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 12:26:19.518 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 1
+info: Sep-26 12:26:19.526 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 12:26:19.526 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 12:26:19.532 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537932380.000100
+info: Sep-26 12:26:19.533 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 0
+warn: Sep-26 12:26:19.544 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 12:26:19.546 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId e309c72b-bdde-41bb-ae0d-65378a51df5c in CB47MRRTR
+info: Sep-26 12:26:19.548 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId e309c72b-bdde-41bb-ae0d-65378a51df5c
+info: Sep-26 12:26:19.549 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 12:26:19.549 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 12:26:19.549 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 12:26:19.551 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537932380.000200
+info: Sep-26 12:26:19.588 [API-Q] (TB47MRNBZ) e436b53a-1537932378.799 chat.postMessage is RESOLVED
+info: Sep-26 12:26:24.263 [API-Q] (TB47MRNBZ) e436b53a-1537932384.262 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-26 12:26:24.263 [API-Q] (TB47MRNBZ) e436b53a-1537932384.262 conversations.mark is ENQUEUED
+info: Sep-26 12:26:24.264 [API-Q] (TB47MRNBZ) e436b53a-1537932384.262 conversations.mark is ACTIVE
+info: Sep-26 12:26:25.035 [API-Q] (TB47MRNBZ) e436b53a-1537932384.262 conversations.mark is RESOLVED
+info: Sep-26 12:26:51.118 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:30:11.010 [FOCUS-EVENT] Window focused
+info: Sep-26 12:30:11.050 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:30:11.051 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:30:12.609 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:30:12.613 [FOCUS-EVENT] Window focused
+info: Sep-26 12:30:12.645 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:30:12.645 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:30:12.805 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:36:26.269 [FOCUS-EVENT] Window focused
+info: Sep-26 12:36:26.305 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:36:26.305 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:37:41.282 [MIN-VERSION] (TB47MRNBZ) checking to see if we should reload
+info: Sep-26 12:37:41.285 [API-Q] (TB47MRNBZ) e436b53a-1537933061.284 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-26 12:37:41.285 [API-Q] (TB47MRNBZ) e436b53a-1537933061.284 rtm.shouldReload is ENQUEUED
+info: Sep-26 12:37:41.287 [API-Q] (TB47MRNBZ) e436b53a-1537933061.284 rtm.shouldReload is ACTIVE
+info: Sep-26 12:37:42.109 [API-Q] (TB47MRNBZ) e436b53a-1537933061.284 rtm.shouldReload is RESOLVED
+info: Sep-26 12:37:42.110 [MIN-VERSION] (TB47MRNBZ) no need to reload
+info: Sep-26 12:38:52.926 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:55:18.536 [FOCUS-EVENT] Window focused
+info: Sep-26 12:55:18.569 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:55:18.570 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:55:23.044 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:55:28.841 [FOCUS-EVENT] Window focused
+info: Sep-26 12:55:28.863 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:55:28.864 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:55:29.498 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:56:50.240 [FOCUS-EVENT] Window focused
+info: Sep-26 12:56:50.271 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:56:50.271 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:57:02.027 [FOCUS-EVENT] Window blurred
+info: Sep-26 12:57:02.032 [FOCUS-EVENT] Window focused
+info: Sep-26 12:57:02.062 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 12:57:02.062 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 12:57:02.111 [FOCUS-EVENT] Window blurred
+info: Sep-26 13:44:33.265 [FOCUS-EVENT] Window focused
+info: Sep-26 13:44:33.300 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 13:44:33.300 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 13:44:36.085 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:08:55.602 [MIN-VERSION] (TB47MRNBZ) checking to see if we should reload
+info: Sep-26 14:08:55.603 [API-Q] (TB47MRNBZ) e436b53a-1537938535.602 rtm.shouldReload called with reason: NO REASON PROVIDED
+info: Sep-26 14:08:55.603 [API-Q] (TB47MRNBZ) e436b53a-1537938535.602 rtm.shouldReload is ENQUEUED
+info: Sep-26 14:08:55.603 [API-Q] (TB47MRNBZ) e436b53a-1537938535.602 rtm.shouldReload is ACTIVE
+info: Sep-26 14:08:56.618 [API-Q] (TB47MRNBZ) e436b53a-1537938535.602 rtm.shouldReload is RESOLVED
+info: Sep-26 14:08:56.619 [MIN-VERSION] (TB47MRNBZ) no need to reload
+info: Sep-26 14:10:23.151 [FOCUS-EVENT] Window focused
+info: Sep-26 14:10:23.187 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:10:23.187 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:10:25.246 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:11:04.437 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:11:04.438 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 1
+info: Sep-26 14:11:04.445 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:11:04.445 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because attention not on chat (window_not_focused)
+info: Sep-26 14:13:26.353 [FOCUS-EVENT] Window focused
+info: Sep-26 14:13:26.382 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:13:26.382 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:13:26.385 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938664.000100
+info: Sep-26 14:13:26.386 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 0
+info: Sep-26 14:13:31.078 [API-Q] (TB47MRNBZ) e436b53a-1537938811.077 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-26 14:13:31.078 [API-Q] (TB47MRNBZ) e436b53a-1537938811.077 conversations.mark is ENQUEUED
+info: Sep-26 14:13:31.079 [API-Q] (TB47MRNBZ) e436b53a-1537938811.077 conversations.mark is ACTIVE
+info: Sep-26 14:13:31.383 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 4 to CB47MRRTR via HTTP, clientMsgId: 2dfd1b90-471c-49d8-921d-a775ff549dbb
+info: Sep-26 14:13:31.384 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 2dfd1b90-471c-49d8-921d-a775ff549dbb, queue has 1 messages
+info: Sep-26 14:13:31.384 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 2dfd1b90-471c-49d8-921d-a775ff549dbb
+info: Sep-26 14:13:31.385 [API-Q] (TB47MRNBZ) e436b53a-1537938811.384 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:13:31.385 [API-Q] (TB47MRNBZ) e436b53a-1537938811.384 chat.postMessage is ENQUEUED
+info: Sep-26 14:13:31.386 [API-Q] (TB47MRNBZ) e436b53a-1537938811.384 chat.postMessage is ACTIVE
+info: Sep-26 14:13:31.386 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:13:31.388 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:13:31.389 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:13:31.389 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:13:31.872 [API-Q] (TB47MRNBZ) e436b53a-1537938811.077 conversations.mark is RESOLVED
+warn: Sep-26 14:13:32.114 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:13:32.118 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 2dfd1b90-471c-49d8-921d-a775ff549dbb in CB47MRRTR
+info: Sep-26 14:13:32.121 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 2dfd1b90-471c-49d8-921d-a775ff549dbb
+info: Sep-26 14:13:32.124 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:13:32.124 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:13:32.125 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:13:32.128 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because message removed
+info: Sep-26 14:13:32.129 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938811.000100
+info: Sep-26 14:13:32.156 [API-Q] (TB47MRNBZ) e436b53a-1537938811.384 chat.postMessage is RESOLVED
+info: Sep-26 14:13:43.986 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 16 to CB47MRRTR via HTTP, clientMsgId: 27d8ba1e-8127-4812-8dd2-09ff0ea4d427
+info: Sep-26 14:13:43.986 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 27d8ba1e-8127-4812-8dd2-09ff0ea4d427, queue has 1 messages
+info: Sep-26 14:13:43.986 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 27d8ba1e-8127-4812-8dd2-09ff0ea4d427
+info: Sep-26 14:13:43.988 [API-Q] (TB47MRNBZ) e436b53a-1537938823.987 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:13:43.988 [API-Q] (TB47MRNBZ) e436b53a-1537938823.987 chat.postMessage is ENQUEUED
+info: Sep-26 14:13:43.988 [API-Q] (TB47MRNBZ) e436b53a-1537938823.987 chat.postMessage is ACTIVE
+info: Sep-26 14:13:43.989 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:13:43.991 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:13:43.992 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:13:43.992 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 14:13:44.730 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:13:44.735 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 27d8ba1e-8127-4812-8dd2-09ff0ea4d427 in CB47MRRTR
+info: Sep-26 14:13:44.738 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 27d8ba1e-8127-4812-8dd2-09ff0ea4d427
+info: Sep-26 14:13:44.740 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:13:44.741 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:13:44.742 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:13:44.747 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938824.000100
+info: Sep-26 14:13:44.786 [API-Q] (TB47MRNBZ) e436b53a-1537938823.987 chat.postMessage is RESOLVED
+info: Sep-26 14:13:53.169 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:13:54.603 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:13:54.604 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 1
+info: Sep-26 14:13:54.612 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:13:54.612 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because attention not on chat (window_not_focused)
+info: Sep-26 14:13:55.713 [FOCUS-EVENT] Window focused
+info: Sep-26 14:13:55.745 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:13:55.745 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:13:55.748 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938834.000100
+info: Sep-26 14:13:55.748 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 0
+info: Sep-26 14:14:00.471 [API-Q] (TB47MRNBZ) e436b53a-1537938840.470 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-26 14:14:00.471 [API-Q] (TB47MRNBZ) e436b53a-1537938840.470 conversations.mark is ENQUEUED
+info: Sep-26 14:14:00.471 [API-Q] (TB47MRNBZ) e436b53a-1537938840.470 conversations.mark is ACTIVE
+info: Sep-26 14:14:00.750 [API-Q] (TB47MRNBZ) e436b53a-1537938840.470 conversations.mark is RESOLVED
+info: Sep-26 14:14:36.438 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 34 to CB47MRRTR via HTTP, clientMsgId: e4b2610a-ddcc-4b64-b439-66214f5db213
+info: Sep-26 14:14:36.439 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId e4b2610a-ddcc-4b64-b439-66214f5db213, queue has 1 messages
+info: Sep-26 14:14:36.439 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId e4b2610a-ddcc-4b64-b439-66214f5db213
+info: Sep-26 14:14:36.440 [API-Q] (TB47MRNBZ) e436b53a-1537938876.439 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:14:36.440 [API-Q] (TB47MRNBZ) e436b53a-1537938876.439 chat.postMessage is ENQUEUED
+info: Sep-26 14:14:36.441 [API-Q] (TB47MRNBZ) e436b53a-1537938876.439 chat.postMessage is ACTIVE
+info: Sep-26 14:14:36.441 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:14:36.444 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:14:36.445 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:14:36.445 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 14:14:37.202 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:14:37.207 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId e4b2610a-ddcc-4b64-b439-66214f5db213 in CB47MRRTR
+info: Sep-26 14:14:37.209 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId e4b2610a-ddcc-4b64-b439-66214f5db213
+info: Sep-26 14:14:37.211 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:14:37.212 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:14:37.213 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:14:37.217 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938877.000100
+info: Sep-26 14:14:37.221 [API-Q] (TB47MRNBZ) e436b53a-1537938876.439 chat.postMessage is RESOLVED
+info: Sep-26 14:14:47.055 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 14 to CB47MRRTR via HTTP, clientMsgId: 86c39a5a-7015-4e3f-b0c4-6202e4ff00d9
+info: Sep-26 14:14:47.056 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 86c39a5a-7015-4e3f-b0c4-6202e4ff00d9, queue has 1 messages
+info: Sep-26 14:14:47.056 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 86c39a5a-7015-4e3f-b0c4-6202e4ff00d9
+info: Sep-26 14:14:47.058 [API-Q] (TB47MRNBZ) e436b53a-1537938887.056 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:14:47.058 [API-Q] (TB47MRNBZ) e436b53a-1537938887.056 chat.postMessage is ENQUEUED
+info: Sep-26 14:14:47.058 [API-Q] (TB47MRNBZ) e436b53a-1537938887.056 chat.postMessage is ACTIVE
+info: Sep-26 14:14:47.059 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:14:47.061 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:14:47.062 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:14:47.062 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 14:14:47.817 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:14:47.818 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 86c39a5a-7015-4e3f-b0c4-6202e4ff00d9 in CB47MRRTR
+info: Sep-26 14:14:47.819 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 86c39a5a-7015-4e3f-b0c4-6202e4ff00d9
+info: Sep-26 14:14:47.820 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:14:47.821 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:14:47.821 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:14:47.823 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because message removed
+info: Sep-26 14:14:47.823 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938887.000100
+info: Sep-26 14:14:47.866 [API-Q] (TB47MRNBZ) e436b53a-1537938887.056 chat.postMessage is RESOLVED
+warn: Sep-26 14:14:56.924 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:14:56.931 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:14:56.933 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 1
+info: Sep-26 14:14:56.939 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:14:56.940 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:14:56.945 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938896.000100
+info: Sep-26 14:14:56.946 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 0
+info: Sep-26 14:14:57.367 [API-Q] (TB47MRNBZ) e436b53a-1537938897.366 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-26 14:14:57.368 [API-Q] (TB47MRNBZ) e436b53a-1537938897.366 conversations.mark is ENQUEUED
+info: Sep-26 14:14:57.369 [API-Q] (TB47MRNBZ) e436b53a-1537938897.366 conversations.mark is ACTIVE
+info: Sep-26 14:14:57.686 [API-Q] (TB47MRNBZ) e436b53a-1537938897.366 conversations.mark is RESOLVED
+info: Sep-26 14:15:18.187 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 28 to CB47MRRTR via HTTP, clientMsgId: 5c7b2fd7-baac-4c1c-8d84-b1225af4d991
+info: Sep-26 14:15:18.187 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId 5c7b2fd7-baac-4c1c-8d84-b1225af4d991, queue has 1 messages
+info: Sep-26 14:15:18.187 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId 5c7b2fd7-baac-4c1c-8d84-b1225af4d991
+info: Sep-26 14:15:18.188 [API-Q] (TB47MRNBZ) e436b53a-1537938918.188 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:15:18.188 [API-Q] (TB47MRNBZ) e436b53a-1537938918.188 chat.postMessage is ENQUEUED
+info: Sep-26 14:15:18.189 [API-Q] (TB47MRNBZ) e436b53a-1537938918.188 chat.postMessage is ACTIVE
+info: Sep-26 14:15:18.189 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:15:18.192 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:15:18.193 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:15:18.193 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:15:18.197 [API-Q] (TB47MRNBZ) e436b53a-1537938918.197 highlights.list called with reason: NO REASON PROVIDED
+info: Sep-26 14:15:18.197 [API-Q] (TB47MRNBZ) e436b53a-1537938918.197 highlights.list is ENQUEUED
+info: Sep-26 14:15:18.198 [API-Q] (TB47MRNBZ) e436b53a-1537938918.197 highlights.list is ACTIVE
+warn: Sep-26 14:15:18.981 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:15:18.985 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId 5c7b2fd7-baac-4c1c-8d84-b1225af4d991 in CB47MRRTR
+info: Sep-26 14:15:18.987 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId 5c7b2fd7-baac-4c1c-8d84-b1225af4d991
+info: Sep-26 14:15:18.990 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:15:18.990 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:15:18.991 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:15:18.994 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because message removed
+info: Sep-26 14:15:18.995 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938918.000100
+info: Sep-26 14:15:18.999 [API-Q] (TB47MRNBZ) e436b53a-1537938918.197 highlights.list is RESOLVED
+info: Sep-26 14:15:19.001 [API-Q] (TB47MRNBZ) e436b53a-1537938918.188 chat.postMessage is RESOLVED
+info: Sep-26 14:15:26.137 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 3 to CB47MRRTR via HTTP, clientMsgId: a106dee7-1665-4317-8c58-834bed3ed114
+info: Sep-26 14:15:26.137 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId a106dee7-1665-4317-8c58-834bed3ed114, queue has 1 messages
+info: Sep-26 14:15:26.137 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId a106dee7-1665-4317-8c58-834bed3ed114
+info: Sep-26 14:15:26.138 [API-Q] (TB47MRNBZ) e436b53a-1537938926.137 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:15:26.138 [API-Q] (TB47MRNBZ) e436b53a-1537938926.137 chat.postMessage is ENQUEUED
+info: Sep-26 14:15:26.138 [API-Q] (TB47MRNBZ) e436b53a-1537938926.137 chat.postMessage is ACTIVE
+info: Sep-26 14:15:26.138 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:15:26.141 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:15:26.141 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:15:26.141 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+warn: Sep-26 14:15:26.427 (TB47MRNBZ) Notification (message) suppressed because:
+The window is focused and the notifying channel (CB47MRRTR) is visible
+info: Sep-26 14:15:26.431 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId a106dee7-1665-4317-8c58-834bed3ed114 in CB47MRRTR
+info: Sep-26 14:15:26.433 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId a106dee7-1665-4317-8c58-834bed3ed114
+info: Sep-26 14:15:26.434 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:15:26.435 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:15:26.435 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:15:26.439 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because message removed
+info: Sep-26 14:15:26.440 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537938926.000100
+info: Sep-26 14:15:26.472 [API-Q] (TB47MRNBZ) e436b53a-1537938926.137 chat.postMessage is RESOLVED
+info: Sep-26 14:16:41.739 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:16:43.184 [FOCUS-EVENT] Window focused
+info: Sep-26 14:16:43.228 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:16:43.228 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:16:43.491 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:20:56.928 [FOCUS-EVENT] Window focused
+info: Sep-26 14:20:56.969 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:20:56.969 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:20:57.586 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:21:12.769 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:21:12.770 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 1
+info: Sep-26 14:21:12.776 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:21:12.776 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because attention not on chat (window_not_focused)
+info: Sep-26 14:21:15.510 [DESKTOP] notificationActivated {"channelId":"CB47MRRTR","messageTs":"1537939272.000100"}
+info: Sep-26 14:21:15.533 [FOCUS-EVENT] Window focused
+info: Sep-26 14:21:15.562 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:21:15.562 [CHECK-UNREADS] (TB47MRNBZ) Marking CB47MRRTR because unread line is visible
+info: Sep-26 14:21:15.568 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537939272.000100
+info: Sep-26 14:21:15.569 [UNREAD-COUNTS] (TB47MRNBZ) Updated unread_cnt for CB47MRRTR: 0
+info: Sep-26 14:21:15.950 [API-Q] (TB47MRNBZ) e436b53a-1537939275.950 conversations.mark called with reason: NO REASON PROVIDED
+info: Sep-26 14:21:15.950 [API-Q] (TB47MRNBZ) e436b53a-1537939275.950 conversations.mark is ENQUEUED
+info: Sep-26 14:21:15.951 [API-Q] (TB47MRNBZ) e436b53a-1537939275.950 conversations.mark is ACTIVE
+info: Sep-26 14:21:16.869 [API-Q] (TB47MRNBZ) e436b53a-1537939275.950 conversations.mark is RESOLVED
+info: Sep-26 14:21:23.328 [ACTION:MESSAGE] (TB47MRNBZ) Sent a message of length 7 to CB47MRRTR via HTTP, clientMsgId: b8e56c98-bf1a-47a8-9218-baaf196da47e
+info: Sep-26 14:21:23.328 [ACTION:MESSAGE-Q] (TB47MRNBZ) Enqueueing message with clientMsgId b8e56c98-bf1a-47a8-9218-baaf196da47e, queue has 1 messages
+info: Sep-26 14:21:23.328 [ACTION:MESSAGE-Q] (TB47MRNBZ) Sending message with clientMsgId b8e56c98-bf1a-47a8-9218-baaf196da47e
+info: Sep-26 14:21:23.329 [API-Q] (TB47MRNBZ) e436b53a-1537939283.328 chat.postMessage called with reason: Message send from webapp
+info: Sep-26 14:21:23.329 [API-Q] (TB47MRNBZ) e436b53a-1537939283.328 chat.postMessage is ENQUEUED
+info: Sep-26 14:21:23.329 [API-Q] (TB47MRNBZ) e436b53a-1537939283.328 chat.postMessage is ACTIVE
+info: Sep-26 14:21:23.329 [ACTION:MESSAGE-Q] (TB47MRNBZ) Shifting queue, now has 0 messages
+info: Sep-26 14:21:23.332 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:21:23.332 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:21:23.332 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:21:24.151 [FOCUS-EVENT] Window blurred
+warn: Sep-26 14:21:24.156 (TB47MRNBZ) Notification (message) suppressed because:
+The message is from the current user
+info: Sep-26 14:21:24.160 [ACTION:MESSAGE] (TB47MRNBZ) Resolved a message with clientMsgId b8e56c98-bf1a-47a8-9218-baaf196da47e in CB47MRRTR
+info: Sep-26 14:21:24.161 [ACTION:MESSAGE-Q] (TB47MRNBZ) Resolving active request with clientMsgId b8e56c98-bf1a-47a8-9218-baaf196da47e
+info: Sep-26 14:21:24.163 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because (1) timestamps added
+info: Sep-26 14:21:24.163 [UNREAD-COUNTS] (TB47MRNBZ) Checking unreads in CB47MRRTR after a new message
+info: Sep-26 14:21:24.164 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because attention not on chat (window_not_focused)
+info: Sep-26 14:21:24.164 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because message removed
+info: Sep-26 14:21:24.167 [UNREAD-COUNTS] (TB47MRNBZ) Counting unreads in CB47MRRTR because last_read changed to 1537939283.000100
+info: Sep-26 14:21:24.171 [API-Q] (TB47MRNBZ) e436b53a-1537939283.328 chat.postMessage is RESOLVED
+info: Sep-26 14:25:35.677 [FOCUS-EVENT] Window focused
+info: Sep-26 14:25:35.703 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:25:35.703 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:25:37.409 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:25:48.430 [FOCUS-EVENT] Window focused
+info: Sep-26 14:25:48.460 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:25:48.460 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:25:49.137 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:26:09.336 [FOCUS-EVENT] Window focused
+info: Sep-26 14:26:09.362 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:26:09.362 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:26:10.963 [FOCUS-EVENT] Window blurred
+info: Sep-26 14:26:15.790 [FOCUS-EVENT] Window focused
+info: Sep-26 14:26:15.821 [CHECK-UNREADS] (TB47MRNBZ) Checking unreads after window became focused
+info: Sep-26 14:26:15.822 [CHECK-UNREADS] (TB47MRNBZ) Not marking CB47MRRTR because last_read >= latest && channel is read
+info: Sep-26 14:26:17.183 [FOCUS-EVENT] Window blurred
