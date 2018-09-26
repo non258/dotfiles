@@ -215,3 +215,5 @@ export PATH=$PATH:$HOME/.cargo/bin
 
 exec fish
 
+
+export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""

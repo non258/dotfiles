@@ -8,3 +8,5 @@ fi
 
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
