@@ -1,46 +1,121 @@
-export HISTFILE=$HOME/.zsh_history
-export HISTSIZE=10000
-export SAVEHIST=20000
-# eval $(dircolors $HOME/.colorrc)
+# zplug
+# ------------------------------------------------------------ #
+# zplugが無ければgitからclone
+if [[ ! -d ~/.zplug ]];then
+  git clone https://github.com/zplug/zplug ~/.zplug
+fi
 
-COLOR_PALETTE=''
-for i in $(seq 0 255); do
-  COLOR_PALETTE="${COLOR_PALETTE}[38;5;${i}m${i};"
-done
+# zplugを使う
+source ~/.zplug/init.zsh
 
-autoload -Uz vcs_info
-setopt prompt_subst
-zstyle ':vcs_info:git:*' check-for-changes true
-zstyle ':vcs_info:git:*' stagedstr "%F{yellow}!"
-zstyle ':vcs_info:git:*' unstagedstr "%F{red}+"
-zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
-zstyle ':vcs_info:*' actionformats '[%b|%a]'
-precmd () { vcs_info }
+# プラグイン
+# -------------------------------------------------- #
+# zplug "ユーザー名/リポジトリ名", タグ
 
-# PROMPT="%{[38;5;85m%}%n%f: %~%(!.#.%%) %{[0m%}"
-PROMPT="%{[01;32m%}%n@%m%f%{[0m%}:%f%{[01;34m%}~%f%{[0m%}%(!.#.$) "
-RPROMPT=$RPROMPT'${vcs_info_msg_0_}'
+# 補完を更に強化する
+# pacman や yaourt のパッケージリストも補完するようになる
+zplug "zsh-users/zsh-completions"
 
-export LANG=ja_JP.UTF-8
+# git の補完を効かせる
+# 補完＆エイリアスが追加される
+zplug "plugins/git",   from:oh-my-zsh
+zplug "peterhurford/git-aliases.zsh"
 
-autoload -U compinit; compinit
-zstyle ':completion:*:default' menu select=1
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-zstyle ':completion:*' ignore-parents parent pwd ..
-zstyle ':completion:*:processes' command 'ps x -o pid,s,args'
+# あいまい入力補完
+zplug "tarruda/zsh-fuzzy-match"
 
-setopt auto_cd
-setopt auto_pushd
-setopt pushd_ignore_dups
-setopt hist_ignore_all_dups
-setopt hist_ignore_space
-setopt EXTENDED_HISTORY
-setopt correct
-setopt print_eight_bit
-setopt magic_equal_subst
-setopt share_history
-WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
-fignore=(CVS .class)
+# 入力途中に候補をうっすら表示
+zplug "zsh-users/zsh-autosuggestions"
+
+# 入力補完 次の候補を予測する
+# ctl-u が効かなくなる
+# zplug "oknowton/zsh-dwim"
+ 
+ # コマンドを種類ごとに色付け
+ zplug "zsh-users/zsh-syntax-highlighting", defer:2
+ 
+# ヒストリの補完を強化する
+zplug "zsh-users/zsh-history-substring-search", defer:3
+
+# 本体（連携前提のパーツ）
+zplug "junegunn/fzf-bin", as:command, from:gh-r, rename-to:fzf
+zplug "junegunn/fzf", as:command, use:bin/fzf-tmux
+
+# fzf でよく使う関数の詰め合わせ
+zplug "mollifier/anyframe"
+
+# ディレクトリ移動を高速化（fzf であいまい検索）
+zplug "b4b4r07/enhancd", use:init.sh
+
+# git のローカルリポジトリを一括管理（fzf でリポジトリへジャンプ）
+zplug "motemen/ghq", as:command, from:gh-r
+
+zplug "mollifier/cd-gitroot"
+# antigen bundle mollifier/cd-gitroot
+# zgen load mollifier/cd-gitroot
+
+# zplug "stedolan/jq", from:gh-r, as:command | zplug "b5b4r07/emoji-cli", if:"which jq"
+
+# # antigen/zgen では別途 jq をインストールする必要あり
+# antigen bundle b4b4r07/emoji-cli
+# zgen load b4b4r07/emoji-cli
+
+# zplug "b4b4r07/enhancd", of:enhancd.sh
+# antigen bundle b4b4r07/enhancd zsh
+# zgen load b4b4r07/enhancd zsh
+
+# zplug "zsh-users/zsh-history-substring-search", do:"__zsh_version 4.3"
+# antigen bundle zsh-users/zsh-history-substring-search
+# zgen load zsh-users/zsh-history-substring-search
+
+# compinit 以降に読み込むようにロードの優先度を変更する
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+# antigen bundle zsh-users/zsh-syntax-highlighting
+# zgen load zsh-users/zsh-syntax-highlighting
+
+# zplug "zsh-users/zsh-completions"
+# antigen bundle zsh-users/zsh-completions
+# zgen load zsh-users/zsh-completions
+
+zplug "mrowa44/emojify", as:command
+
+# テーマ
+# zplug "bhilburn/powerlevel9k", use:"powerlevel9k.zsh-theme", as:theme
+setopt prompt_subst # Make sure prompt is able to be generated properly.
+zplug "caiogondim/bullet-train.zsh", use:bullet-train.zsh-theme, defer:3 # defer until other plugins like oh-my-zsh is loaded
+
+# -------------------------------------------------- #
+
+
+# 自分自身をプラグインとして管理
+zplug "zplug/zplug", hook-build:'zplug --self-manage'
+
+# インストールしてないプラグインはインストール
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# コマンドをリンクして、PATH に追加し、プラグインは読み込む
+zplug load
+# ------------------------------------------------------------ #
+
+
+autoload -U compinit
+compinit
+
+
+
+# alias
+# ------------------------------------------------------------ #
+# some more ls aliases
+alias sl='ls -CF'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
@@ -49,92 +124,65 @@ alias la='ls -a'
 alias ll='ls -la'
 alias l='ls'
 
-alias clip='xsel --clipboard --input'
-# alias clip='pbcopy'
+alias atp='apt'
 
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
-alias vir='vi ~/.vim/init.vim'
-alias vipl='vi ~/.vim/rc/dein.toml'
-alias vipll='vi ~/.vim/rc/dein_lazy.toml'
+# nvim
+alias XDG_CONFIG_HOME=$HOME/.config/nvim/init/vim
+alias v='nvim'
 alias vi='nvim'
-alias vim='~/my/python/vim/nvim_hook.py'
-alias nyao='nyaovim'
-alias nir='vi ~/.config/nyaovim/nyaovimrc.html'
-alias ni='nyaovim'
-alias bar='vi ~/.zshrc'
-alias zar='vi ~/.zshrc'
-alias :q='exit'
+alias emacs='nvim'
+alias a='atom'
+alias aotm='atom'
+
+alias python='python3'
+alias py='python3'
+
+# cd
+alias c='cd ../'
+alias cdd='cd /home/nozomi/Documents'
+alias cddw='cd /home/nozomi/Downloads'
+
+alias open='xdg-open ./'
+
+alias minit='cpull'
+
+# javac -cp
+alias robo='javac -cp ~/robocode/libs/robocode.jar'
+alias gf='javac -cp /usr/share/greenfoot/extensions/greenfoot.jar'
+
+# exec
 alias res='exec $SHELL'
-alias shut='sudo shutdown -h 0'
-alias inia='a=`pwd`'
-alias inib='b=`pwd`'
-alias cda='cd $a'
-alias cdb='cd $b'
-alias weather='curl wttr.in/Tokyo'
 
-#git hub
-alias g='git'
-alias gbr='git branch'
-alias gcd='git checkout'
-alias gcl='git remote prune origin'
-alias gst='git status'
-alias glo='git log'
-alias gad='git add'
-alias gnad='git reset HEAD'
-alias gmit='git commit'
-alias gull='git pull'
-alias gish='git push'
+# golang
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin
 
-# envs
-PYENV_ROOT=${HOME}/.pyenv
-export PATH=$PATH:$PYENV_ROOT/bin
+# ssh
+alias cos='ssh -p 59022 non@ctare.cloudapp.net'
+alias conoha='ssh zomi@118.27.11.179'
+alias ubuntu='ssh nozomi@192.168.100.121'
+
+#rbenv
+# alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
+# export PATH="$HOME/.cargo/bin:$PATH"
+
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
 
-# my funcs
-function mkcd(){
-	mkdir -p $1; cd $1
-}
+# rustc
+export PATH=$PATH:$HOME/.cargo/bin
 
-export XDG_CONFIG_HOME=${HOME}/.config/
+# exec fish
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export CPLUS_INCLUDE_PATH="$CPLUS_INCLUDE_PATH:/usr/include/python3.4m/"
-export PATH="$HOME/my/bin:$PATH"
-export PATH="$PATH:/usr/local/go/bin"
 
-export GOPATH="$HOME/my/go"
-export PATH="$PATH:$GOROOT/bin"
-
-#peco
-alias -g H='`curl -sL https://api.github.com/users/ctare/repos | jq -r ".[].full_name" | peco --prompt "GITHUB REPOS>" | head -n 1`'
-alias -g B='`git branch -a | peco --prompt "GIT BRANCH>" | head -n 1 | sed -e "s/^\*\s*//g"`'   
-function getvalue(){
-  a=($(cat -))
-  echo ${a[${1}]}
-}
-alias -g GHQ='$(ghq list -p | peco --prompt "GHQ LIST>")'
-alias -g PS='$(ps | peco --prompt "PS LIST>" | getvalue 1)'
-alias -g PSA='$(ps aux | peco --prompt "PS LIST>" | getvalue 2)'
-alias -g DIM='$(docker images | peco --prompt "DOCKER IMAGES LIST>" | getvalue 3)'
-alias -g DPS='$(docker ps -a | peco --prompt "DOCKER PS LIST>" | getvalue 1)'
-
-export CUDA_HOME="/usr/local/cuda"
-export PATH="/usr/local/cuda/bin:$PATH"
-export LD_LIBRARY_PATH="$CUDA_HOME/lib64:$LD_LIBRARY_PATH"
-
-export PATH=/usr/local:$PATH
-
-function tut() {
-  sudo nmcli con $1 id TUT
-  # sudo ifconfig ppp0 mtu 1156
-}
-
-export PATH="$PATH:${HOME}/tools/depot_tools"
-alias chrome="chromium-browser"
-
-eval $(colter --init)
+export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
+export CXX='g++-7'
+export CC='gcc-7'
+# ------------------------------------------------------------ #
