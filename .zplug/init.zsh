@@ -1,0 +1,1 @@
+/home/nozomi/.zplug/repos/zplug/zplug/init.zsh
