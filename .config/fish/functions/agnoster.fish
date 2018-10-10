@@ -1,0 +1,1 @@
+/home/nozomi/.config/fisherman/agnoster/agnoster.fish
