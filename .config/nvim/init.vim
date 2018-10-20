@@ -156,4 +156,5 @@ inoremap [] []
 inoremap [<CR> [<CR><CR>]<Up><ESC>S
 
 "やんくしたものを他のブラウザに貼り付けられる
-set clipboard=unnamed,unnamedplus
+" set clipboard=unnamed,unnamedplus
+set clipboard+=unnamedplus
