@@ -198,7 +198,7 @@ alias conoha='ssh zomi@118.27.11.179'
 alias ubuntu='ssh nozomi@192.168.100.121'
 
 #rbenv
-# alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
+alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
 # export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
 # export PATH="$HOME/.cargo/bin:$PATH"
@@ -208,12 +208,9 @@ alias ubuntu='ssh nozomi@192.168.100.121'
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# eval "$(pyenv virtualenv-init -)"
 
 # rustc
 export PATH=$PATH:$HOME/.cargo/bin
 
-exec fish
-
-
-export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
+# exec fish
