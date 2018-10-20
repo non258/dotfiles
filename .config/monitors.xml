@@ -66,7 +66,7 @@
       </output>
   </configuration>
   <configuration>
-      <clone>no</clone>
+      <clone>yes</clone>
       <output name="eDP1">
           <vendor>AUO</vendor>
           <product>0x233d</product>
@@ -90,12 +90,37 @@
           <width>1920</width>
           <height>1080</height>
           <rate>60</rate>
-          <x>1920</x>
+          <x>0</x>
           <y>0</y>
           <rotation>normal</rotation>
           <reflect_x>no</reflect_x>
           <reflect_y>no</reflect_y>
           <primary>no</primary>
+      </output>
+      <output name="DP2">
+      </output>
+      <output name="HDMI2">
+      </output>
+  </configuration>
+  <configuration>
+      <clone>no</clone>
+      <output name="eDP1">
+          <vendor>AUO</vendor>
+          <product>0x233d</product>
+          <serial>0x00000000</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="DP1">
+      </output>
+      <output name="HDMI1">
       </output>
       <output name="DP2">
       </output>
