@@ -31,8 +31,8 @@ zplug "zsh-users/zsh-autosuggestions"
 # ctl-u が効かなくなる
 # zplug "oknowton/zsh-dwim"
  
- # コマンドを種類ごとに色付け
- zplug "zsh-users/zsh-syntax-highlighting", defer:2
+# コマンドを種類ごとに色付け
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
  
 # ヒストリの補完を強化する
 zplug "zsh-users/zsh-history-substring-search", defer:3
@@ -111,6 +111,14 @@ compinit
 
 # alias
 # ------------------------------------------------------------ #
+
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# cd && mkdir
+function mkcd(){
+  mkdir -p $1; cd $1
+}
+
 # some more ls aliases
 alias sl='ls -CF'
 alias ll='ls -alF'
@@ -119,6 +127,7 @@ alias l='ls -CF'
 
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
+
 alias ls='ls --color'
 alias la='ls -a'
 alias ll='ls -la'
@@ -164,7 +173,7 @@ alias conoha='ssh zomi@118.27.11.179'
 alias ubuntu='ssh nozomi@192.168.100.121'
 
 #rbenv
-# alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
+alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
 # export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
 # export PATH="$HOME/.cargo/bin:$PATH"
@@ -185,4 +194,6 @@ export PATH=$PATH:$HOME/.cargo/bin
 export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
 export CXX='g++-7'
 export CC='gcc-7'
+
+eval $(colter --init)
 # ------------------------------------------------------------ #
