@@ -143,7 +143,6 @@ alias emacs='nvim'
 alias a='atom'
 alias aotm='atom'
 
-alias python='python3'
 alias py='python3'
 
 # cd
