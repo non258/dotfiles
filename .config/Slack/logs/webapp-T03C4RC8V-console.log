@@ -6570,3 +6570,721 @@ info: Nov-1 15:45:24.383 [API-Q] (T03C4RC8V) 471646fa-1541054724.382 rtm.shouldR
 info: Nov-1 15:45:24.384 [API-Q] (T03C4RC8V) 471646fa-1541054724.382 rtm.shouldReload is ACTIVE
 info: Nov-1 15:45:25.224 [API-Q] (T03C4RC8V) 471646fa-1541054724.382 rtm.shouldReload is RESOLVED
 info: Nov-1 15:45:25.226 [MIN-VERSION] (T03C4RC8V) no need to reload
+info: Nov-1 16:12:47.540 [(T03C4RC8V)] user_typing event from user (U7TMPGWJ0) not in model; ignoring
+warn: Nov-1 16:12:50.812 (T03C4RC8V) Notification (message) suppressed because:
+The user has their notification preference set to 'nothing'
+info: Nov-1 16:12:50.827 [COUNTS] (T03C4RC8V) Updated unread_cnt for CD5DNLQ1E: 7
+warn: Nov-1 16:12:51.321 (T03C4RC8V) Notification (message) suppressed because:
+The user has their notification preference set to 'nothing'
+info: Nov-1 16:12:51.330 [COUNTS] (T03C4RC8V) Updated unread_cnt for CD5DNLQ1E: 8
+info: Nov-1 16:12:51.379 [UNKNOWN-FETCH-MANAGER] (T03C4RC8V) requesting U7TMPGWJ0 (1)
+info: Nov-1 16:12:52.382 [UNKNOWN-FETCH-MANAGER] (T03C4RC8V) received U7TMPGWJ0 (1)
+info: Nov-1 16:26:10.633 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:26:10.634 [SOCKET-MANAGER] (T03C4RC8V) Changing from connected to disconnect
+info: Nov-1 16:26:10.636 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:26:10.637 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:26:10.639 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:26:10.640 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+info: Nov-1 16:26:10.642 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:26:10.642 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:26:10.644 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:26:10.644 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:26:10.644 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:26:10.646 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 782 ms
+info: Nov-1 16:26:10.647 [INFO] MSDisconnected: 
+info: Nov-1 16:26:10.652 [INFO] Hiding the reconnection banner because we are disconnected
+info: Nov-1 16:26:11.382 [API-Q] (T03C4RC8V) Pausing queue because client is offline
+info: Nov-1 16:26:12.378 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Nov-1 16:26:12.379 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Nov-1 16:26:13.378 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Nov-1 16:26:15.379 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Nov-1 16:26:17.378 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Nov-1 16:26:17.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:26:19.378 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Nov-1 16:26:21.379 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Nov-1 16:26:23.378 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Nov-1 16:26:24.379 Internet connection still offline after 7 attempts (browser says it is still offline)
+warn: Nov-1 16:26:26.379 Internet connection still offline after 8 attempts (browser says it is still offline)
+warn: Nov-1 16:26:27.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:26:28.378 Internet connection still offline after 9 attempts (browser says it is still offline)
+warn: Nov-1 16:26:30.378 Internet connection still offline after 10 attempts (browser says it is still offline)
+warn: Nov-1 16:26:32.378 Internet connection still offline after 11 attempts (browser says it is still offline)
+warn: Nov-1 16:26:33.380 Internet connection still offline after 12 attempts (browser says it is still offline)
+warn: Nov-1 16:26:35.378 Internet connection still offline after 13 attempts (browser says it is still offline)
+warn: Nov-1 16:26:37.378 Internet connection still offline after 14 attempts (browser says it is still offline)
+warn: Nov-1 16:26:37.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:26:39.378 Internet connection still offline after 15 attempts (browser says it is still offline)
+warn: Nov-1 16:26:41.378 Internet connection still offline after 16 attempts (browser says it is still offline)
+warn: Nov-1 16:26:43.379 Internet connection still offline after 17 attempts (browser says it is still offline)
+warn: Nov-1 16:26:45.379 Internet connection still offline after 18 attempts (browser says it is still offline)
+warn: Nov-1 16:26:47.379 Internet connection still offline after 19 attempts (browser says it is still offline)
+warn: Nov-1 16:26:47.380 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:26:49.378 Internet connection still offline after 20 attempts (browser says it is still offline)
+warn: Nov-1 16:26:51.378 Internet connection still offline after 21 attempts (browser says it is still offline)
+warn: Nov-1 16:26:53.378 Internet connection still offline after 22 attempts (browser says it is still offline)
+warn: Nov-1 16:26:55.379 Internet connection still offline after 23 attempts (browser says it is still offline)
+warn: Nov-1 16:26:57.378 Internet connection still offline after 24 attempts (browser says it is still offline)
+warn: Nov-1 16:26:57.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:26:59.378 Internet connection still offline after 25 attempts (browser says it is still offline)
+warn: Nov-1 16:27:01.378 Internet connection still offline after 26 attempts (browser says it is still offline)
+warn: Nov-1 16:27:03.378 Internet connection still offline after 27 attempts (browser says it is still offline)
+warn: Nov-1 16:27:05.378 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Nov-1 16:27:07.378 Internet connection still offline after 29 attempts (browser says it is still offline)
+warn: Nov-1 16:27:07.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:27:08.379 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Nov-1 16:27:10.379 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Nov-1 16:27:12.378 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Nov-1 16:27:14.378 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Nov-1 16:27:16.378 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Nov-1 16:27:18.378 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Nov-1 16:27:20.378 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Nov-1 16:27:22.378 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Nov-1 16:27:24.378 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Nov-1 16:27:26.378 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Nov-1 16:27:28.379 Internet connection still offline after 40 attempts (browser says it is still offline)
+warn: Nov-1 16:27:30.378 Internet connection still offline after 41 attempts (browser says it is still offline)
+warn: Nov-1 16:27:32.379 Internet connection still offline after 42 attempts (browser says it is still offline)
+warn: Nov-1 16:27:34.378 Internet connection still offline after 43 attempts (browser says it is still offline)
+warn: Nov-1 16:27:36.379 Internet connection still offline after 44 attempts (browser says it is still offline)
+warn: Nov-1 16:27:38.378 Internet connection still offline after 45 attempts (browser says it is still offline)
+warn: Nov-1 16:27:40.378 Internet connection still offline after 46 attempts (browser says it is still offline)
+warn: Nov-1 16:27:42.378 Internet connection still offline after 47 attempts (browser says it is still offline)
+warn: Nov-1 16:27:44.378 Internet connection still offline after 48 attempts (browser says it is still offline)
+warn: Nov-1 16:27:46.378 Internet connection still offline after 49 attempts (browser says it is still offline)
+warn: Nov-1 16:27:48.378 Internet connection still offline after 50 attempts (browser says it is still offline)
+warn: Nov-1 16:27:50.378 Internet connection still offline after 51 attempts (browser says it is still offline)
+warn: Nov-1 16:27:51.378 Internet connection still offline after 52 attempts (browser says it is still offline)
+warn: Nov-1 16:27:53.378 Internet connection still offline after 53 attempts (browser says it is still offline)
+warn: Nov-1 16:27:55.378 Internet connection still offline after 54 attempts (browser says it is still offline)
+warn: Nov-1 16:27:57.378 Internet connection still offline after 55 attempts (browser says it is still offline)
+warn: Nov-1 16:27:59.378 Internet connection still offline after 56 attempts (browser says it is still offline)
+warn: Nov-1 16:28:00.379 Internet connection still offline after 57 attempts (browser says it is still offline)
+warn: Nov-1 16:28:02.378 Internet connection still offline after 58 attempts (browser says it is still offline)
+warn: Nov-1 16:28:04.378 Internet connection still offline after 59 attempts (browser says it is still offline)
+warn: Nov-1 16:28:06.378 Internet connection still offline after 60 attempts (browser says it is still offline)
+warn: Nov-1 16:28:08.378 Internet connection still offline after 61 attempts (browser says it is still offline)
+warn: Nov-1 16:28:10.378 Internet connection still offline after 62 attempts (browser says it is still offline)
+warn: Nov-1 16:28:12.378 Internet connection still offline after 63 attempts (browser says it is still offline)
+warn: Nov-1 16:28:14.378 Internet connection still offline after 64 attempts (browser says it is still offline)
+warn: Nov-1 16:28:16.378 Internet connection still offline after 65 attempts (browser says it is still offline)
+warn: Nov-1 16:28:18.378 Internet connection still offline after 66 attempts (browser says it is still offline)
+warn: Nov-1 16:28:19.378 Internet connection still offline after 67 attempts (browser says it is still offline)
+warn: Nov-1 16:28:21.378 Internet connection still offline after 68 attempts (browser says it is still offline)
+warn: Nov-1 16:28:23.379 Internet connection still offline after 69 attempts (browser says it is still offline)
+warn: Nov-1 16:28:25.378 Internet connection still offline after 70 attempts (browser says it is still offline)
+warn: Nov-1 16:28:27.379 Internet connection still offline after 71 attempts (browser says it is still offline)
+warn: Nov-1 16:28:29.378 Internet connection still offline after 72 attempts (browser says it is still offline)
+warn: Nov-1 16:28:31.378 Internet connection still offline after 73 attempts (browser says it is still offline)
+warn: Nov-1 16:28:33.379 Internet connection still offline after 74 attempts (browser says it is still offline)
+warn: Nov-1 16:28:35.378 Internet connection still offline after 75 attempts (browser says it is still offline)
+warn: Nov-1 16:28:37.378 Internet connection still offline after 76 attempts (browser says it is still offline)
+warn: Nov-1 16:28:39.379 Internet connection still offline after 77 attempts (browser says it is still offline)
+warn: Nov-1 16:28:41.378 Internet connection still offline after 78 attempts (browser says it is still offline)
+warn: Nov-1 16:28:43.378 Internet connection still offline after 79 attempts (browser says it is still offline)
+warn: Nov-1 16:28:45.378 Internet connection still offline after 80 attempts (browser says it is still offline)
+warn: Nov-1 16:28:47.378 Internet connection still offline after 81 attempts (browser says it is still offline)
+warn: Nov-1 16:28:49.378 Internet connection still offline after 82 attempts (browser says it is still offline)
+warn: Nov-1 16:28:51.378 Internet connection still offline after 83 attempts (browser says it is still offline)
+warn: Nov-1 16:28:53.378 Internet connection still offline after 84 attempts (browser says it is still offline)
+warn: Nov-1 16:28:55.379 Internet connection still offline after 85 attempts (browser says it is still offline)
+warn: Nov-1 16:28:57.378 Internet connection still offline after 86 attempts (browser says it is still offline)
+warn: Nov-1 16:28:59.378 Internet connection still offline after 87 attempts (browser says it is still offline)
+warn: Nov-1 16:29:01.378 Internet connection still offline after 88 attempts (browser says it is still offline)
+warn: Nov-1 16:29:03.378 Internet connection still offline after 89 attempts (browser says it is still offline)
+warn: Nov-1 16:29:05.378 Internet connection still offline after 90 attempts (browser says it is still offline)
+warn: Nov-1 16:29:07.378 Internet connection still offline after 91 attempts (browser says it is still offline)
+warn: Nov-1 16:29:09.378 Internet connection still offline after 92 attempts (browser says it is still offline)
+warn: Nov-1 16:29:11.378 Internet connection still offline after 93 attempts (browser says it is still offline)
+warn: Nov-1 16:29:13.378 Internet connection still offline after 94 attempts (browser says it is still offline)
+warn: Nov-1 16:29:15.378 Internet connection still offline after 95 attempts (browser says it is still offline)
+warn: Nov-1 16:29:17.378 Internet connection still offline after 96 attempts (browser says it is still offline)
+warn: Nov-1 16:29:19.378 Internet connection still offline after 97 attempts (browser says it is still offline)
+warn: Nov-1 16:29:21.378 Internet connection still offline after 98 attempts (browser says it is still offline)
+warn: Nov-1 16:29:24.378 Internet connection still offline after 99 attempts (unable to reach API)
+warn: Nov-1 16:29:26.378 Internet connection still offline after 100 attempts (browser says it is still offline)
+warn: Nov-1 16:29:28.378 Internet connection still offline after 101 attempts (browser says it is still offline)
+warn: Nov-1 16:29:30.378 Internet connection still offline after 102 attempts (browser says it is still offline)
+warn: Nov-1 16:29:32.378 Internet connection still offline after 103 attempts (browser says it is still offline)
+warn: Nov-1 16:29:33.379 Internet connection still offline after 104 attempts (browser says it is still offline)
+warn: Nov-1 16:29:35.378 Internet connection still offline after 105 attempts (browser says it is still offline)
+warn: Nov-1 16:29:37.379 Internet connection still offline after 106 attempts (browser says it is still offline)
+warn: Nov-1 16:29:39.378 Internet connection still offline after 107 attempts (browser says it is still offline)
+warn: Nov-1 16:29:41.378 Internet connection still offline after 108 attempts (browser says it is still offline)
+warn: Nov-1 16:29:43.378 Internet connection still offline after 109 attempts (browser says it is still offline)
+warn: Nov-1 16:29:45.378 Internet connection still offline after 110 attempts (browser says it is still offline)
+warn: Nov-1 16:29:47.378 Internet connection still offline after 111 attempts (browser says it is still offline)
+warn: Nov-1 16:29:49.378 Internet connection still offline after 112 attempts (browser says it is still offline)
+warn: Nov-1 16:29:51.379 Internet connection still offline after 113 attempts (browser says it is still offline)
+warn: Nov-1 16:29:53.378 Internet connection still offline after 114 attempts (browser says it is still offline)
+warn: Nov-1 16:29:55.378 Internet connection still offline after 115 attempts (browser says it is still offline)
+warn: Nov-1 16:29:57.378 Internet connection still offline after 116 attempts (browser says it is still offline)
+warn: Nov-1 16:29:59.378 Internet connection still offline after 117 attempts (browser says it is still offline)
+warn: Nov-1 16:30:01.378 Internet connection still offline after 118 attempts (browser says it is still offline)
+warn: Nov-1 16:30:03.378 Internet connection still offline after 119 attempts (browser says it is still offline)
+warn: Nov-1 16:30:05.379 Internet connection still offline after 120 attempts (browser says it is still offline)
+warn: Nov-1 16:30:07.378 Internet connection still offline after 121 attempts (browser says it is still offline)
+warn: Nov-1 16:30:09.378 Internet connection still offline after 122 attempts (browser says it is still offline)
+warn: Nov-1 16:30:11.379 Internet connection still offline after 123 attempts (browser says it is still offline)
+warn: Nov-1 16:30:13.378 Internet connection still offline after 124 attempts (browser says it is still offline)
+warn: Nov-1 16:30:15.378 Internet connection still offline after 125 attempts (browser says it is still offline)
+warn: Nov-1 16:30:17.378 Internet connection still offline after 126 attempts (browser says it is still offline)
+warn: Nov-1 16:30:18.379 Internet connection still offline after 127 attempts (browser says it is still offline)
+warn: Nov-1 16:30:20.378 Internet connection still offline after 128 attempts (browser says it is still offline)
+warn: Nov-1 16:30:22.378 Internet connection still offline after 129 attempts (browser says it is still offline)
+warn: Nov-1 16:30:23.382 Internet connection still offline after 130 attempts (browser says it is still offline)
+warn: Nov-1 16:30:25.378 Internet connection still offline after 131 attempts (browser says it is still offline)
+warn: Nov-1 16:30:27.378 Internet connection still offline after 132 attempts (browser says it is still offline)
+warn: Nov-1 16:30:29.378 Internet connection still offline after 133 attempts (browser says it is still offline)
+warn: Nov-1 16:30:31.378 Internet connection still offline after 134 attempts (browser says it is still offline)
+warn: Nov-1 16:30:33.378 Internet connection still offline after 135 attempts (browser says it is still offline)
+warn: Nov-1 16:30:35.378 Internet connection still offline after 136 attempts (browser says it is still offline)
+warn: Nov-1 16:30:37.378 Internet connection still offline after 137 attempts (browser says it is still offline)
+warn: Nov-1 16:30:39.378 Internet connection still offline after 138 attempts (browser says it is still offline)
+warn: Nov-1 16:30:41.378 Internet connection still offline after 139 attempts (browser says it is still offline)
+warn: Nov-1 16:30:42.380 Internet connection still offline after 140 attempts (browser says it is still offline)
+warn: Nov-1 16:30:44.378 Internet connection still offline after 141 attempts (browser says it is still offline)
+warn: Nov-1 16:30:46.378 Internet connection still offline after 142 attempts (browser says it is still offline)
+warn: Nov-1 16:30:48.378 Internet connection still offline after 143 attempts (browser says it is still offline)
+warn: Nov-1 16:30:50.378 Internet connection still offline after 144 attempts (browser says it is still offline)
+warn: Nov-1 16:30:52.378 Internet connection still offline after 145 attempts (browser says it is still offline)
+warn: Nov-1 16:30:54.378 Internet connection still offline after 146 attempts (browser says it is still offline)
+warn: Nov-1 16:30:56.379 Internet connection still offline after 147 attempts (browser says it is still offline)
+warn: Nov-1 16:30:58.378 Internet connection still offline after 148 attempts (browser says it is still offline)
+warn: Nov-1 16:31:00.379 Internet connection still offline after 149 attempts (browser says it is still offline)
+warn: Nov-1 16:31:02.378 Internet connection still offline after 150 attempts (browser says it is still offline)
+warn: Nov-1 16:31:04.378 Internet connection still offline after 151 attempts (browser says it is still offline)
+warn: Nov-1 16:31:06.378 Internet connection still offline after 152 attempts (browser says it is still offline)
+warn: Nov-1 16:31:08.378 Internet connection still offline after 153 attempts (browser says it is still offline)
+warn: Nov-1 16:31:10.378 Internet connection still offline after 154 attempts (browser says it is still offline)
+warn: Nov-1 16:31:12.378 Internet connection still offline after 155 attempts (browser says it is still offline)
+error: Nov-1 16:31:13.379 SOCKET-MANAGER (T03C4RC8V) Closing socket because we spent 300000 ms in wait_for_connectivity state; giving up
+info: Nov-1 16:31:13.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_connectivity to error
+info: Nov-1 16:31:13.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in error state for up to 10000 ms
+info: 2018/11/1 16:31:13.381  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-5/rollup-core_required_ts.4abf9d072ff05939b496.min.js:1:111596)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:22730
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:860009)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:861749)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:864067
+info: Nov-1 16:31:13.381 [SOCKET-MANAGER] (T03C4RC8V) Changing from error to wait_for_rate_limit
+info: Nov-1 16:31:13.381 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:31:13.382 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 1545 ms
+warn: Nov-1 16:31:13.383 Internet connection still offline after 156 attempts (browser says it is still offline)
+warn: Nov-1 16:31:15.379 Internet connection still offline after 157 attempts (browser says it is still offline)
+info: Nov-1 16:31:15.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Nov-1 16:31:15.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Nov-1 16:31:17.378 Internet connection still offline after 158 attempts (browser says it is still offline)
+warn: Nov-1 16:31:19.378 Internet connection still offline after 159 attempts (browser says it is still offline)
+warn: Nov-1 16:31:21.378 Internet connection still offline after 160 attempts (browser says it is still offline)
+warn: Nov-1 16:31:23.378 Internet connection still offline after 161 attempts (browser says it is still offline)
+warn: Nov-1 16:31:25.378 Internet connection still offline after 162 attempts (browser says it is still offline)
+warn: Nov-1 16:31:27.378 Internet connection still offline after 163 attempts (unable to reach API)
+info: Nov-1 16:31:57.381 [INFO] Internet connection has been re-established after 164 retry attempts; offline for NaN seconds
+info: Nov-1 16:31:57.383 [API-Q] (T03C4RC8V) Unpausing queue, back online
+info: Nov-1 16:31:57.384 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_connectivity to connect
+info: Nov-1 16:31:57.384 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:31:57.385 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:31:57.385 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:31:57.386 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to prov_connect
+info: Nov-1 16:31:57.386 [SOCKET-MANAGER] (T03C4RC8V) will stay in prov_connect state for up to 10000 ms
+info: Nov-1 16:31:57.387 [SOCKET-MANAGER] (T03C4RC8V) Changing from prov_connect to prov_connecting
+info: Nov-1 16:31:57.387 [SOCKET-MANAGER] (T03C4RC8V) will stay in prov_connecting state for up to 35000 ms
+info: Nov-1 16:31:58.078 [SOCKET-MANAGER] (T03C4RC8V) Changing from prov_connecting to prov_connected
+info: Nov-1 16:31:58.078 [SOCKET-MANAGER] (T03C4RC8V) will stay in prov_connected state for up to 60000 ms
+info: Nov-1 16:31:58.079 [INFO] Got start data from Socket Manager; hydrating it
+info: Nov-1 16:31:58.079 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Nov-1 16:31:58.079 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Nov-1 16:31:58.080 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Nov-1 16:31:58.084 [API-Q] (T03C4RC8V) 471646fa-1541057518.084 auth.currentSessions called with reason: no_reason_provided
+info: Nov-1 16:31:58.084 [API-Q] (T03C4RC8V) 471646fa-1541057518.084 auth.currentSessions is ENQUEUED
+info: Nov-1 16:31:58.085 [API-Q] (T03C4RC8V) 471646fa-1541057518.084 auth.currentSessions is ACTIVE
+info: Nov-1 16:31:58.095 [API-Q] (T03C4RC8V) 471646fa-1541057518.095 i18n.translations.get called with reason: no_reason_provided
+info: Nov-1 16:31:58.096 [API-Q] (T03C4RC8V) 471646fa-1541057518.095 i18n.translations.get is ENQUEUED
+info: Nov-1 16:31:58.096 [API-Q] (T03C4RC8V) 471646fa-1541057518.095 i18n.translations.get is ACTIVE
+info: Nov-1 16:31:58.107 [API-Q] (T03C4RC8V) 471646fa-1541057518.107 emoji.list called with reason: no_reason_provided
+info: Nov-1 16:31:58.108 [API-Q] (T03C4RC8V) 471646fa-1541057518.107 emoji.list is ENQUEUED
+info: Nov-1 16:31:58.108 [API-Q] (T03C4RC8V) 471646fa-1541057518.107 emoji.list is ACTIVE
+info: Nov-1 16:31:58.887 [API-Q] (T03C4RC8V) 471646fa-1541057518.095 i18n.translations.get is RESOLVED
+info: Nov-1 16:31:58.892 [API-Q] (T03C4RC8V) 471646fa-1541057518.107 emoji.list is RESOLVED
+info: Nov-1 16:31:59.025 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Nov-1 16:31:59.025 [SOCKET-MANAGER] (T03C4RC8V) Changing from prov_connected to prov_finalize
+info: Nov-1 16:31:59.025 [SOCKET-MANAGER] (T03C4RC8V) will stay in prov_finalize state for up to 10000 ms
+info: Nov-1 16:31:59.026 [SOCKET-MANAGER] (T03C4RC8V) Changing from prov_finalize to prov_finalizing
+info: Nov-1 16:31:59.026 [SOCKET-MANAGER] (T03C4RC8V) will stay in prov_finalizing state for up to 10000 ms
+info: Nov-1 16:31:59.026 [SOCKET-MANAGER] (T03C4RC8V) Changing from prov_finalizing to connected
+info: Nov-1 16:31:59.027 [SOCKET-MANAGER] (T03C4RC8V) will stay in connected state for up to Infinity ms
+info: Nov-1 16:31:59.027 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Nov-1 16:31:59.028 [EVENTLOG] (T03C4RC8V) fr=false, lc=false, lt=1541041420.249800
+info: Nov-1 16:31:59.028 [EVENTLOG] (T03C4RC8V) fetching events since 1541041420.249800 (16099.750200033188 seconds ago)
+info: Nov-1 16:31:59.029 [API-Q] (T03C4RC8V) 471646fa-1541057519.029 ublockworkaround.history called with reason: no_reason_provided
+info: Nov-1 16:31:59.029 [API-Q] (T03C4RC8V) 471646fa-1541057519.029 ublockworkaround.history is ENQUEUED
+info: Nov-1 16:31:59.029 [API-Q] (T03C4RC8V) 471646fa-1541057519.029 ublockworkaround.history is ACTIVE
+info: Nov-1 16:31:59.030 [API-Q] (T03C4RC8V) 471646fa-1541057519.030 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-1 16:31:59.030 [API-Q] (T03C4RC8V) 471646fa-1541057519.030 dnd.teamInfo is ENQUEUED
+info: Nov-1 16:31:59.031 [API-Q] (T03C4RC8V) 471646fa-1541057519.030 dnd.teamInfo is ACTIVE
+info: Nov-1 16:31:59.031 [INFO] MSConnected: 
+info: Nov-1 16:31:59.037 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Nov-1 16:31:59.037 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Nov-1 16:31:59.050 [API-Q] (T03C4RC8V) 471646fa-1541057519.050 users.counts called with reason: users-counts-api/fetchUsersCounts
+info: Nov-1 16:31:59.051 [API-Q] (T03C4RC8V) 471646fa-1541057519.050 users.counts is ENQUEUED
+info: Nov-1 16:31:59.051 [API-Q] (T03C4RC8V) 471646fa-1541057519.050 users.counts is ACTIVE
+info: Nov-1 16:31:59.052 [API-Q] (T03C4RC8V) 471646fa-1541057518.084 auth.currentSessions is RESOLVED
+info: Nov-1 16:31:59.287 [API-Q] (T03C4RC8V) 471646fa-1541057519.030 dnd.teamInfo is RESOLVED
+info: Nov-1 16:31:59.806 [API-Q] (T03C4RC8V) 471646fa-1541057519.029 ublockworkaround.history is RESOLVED
+info: Nov-1 16:31:59.807 [EVENTLOG] (T03C4RC8V) nothing to process
+info: Nov-1 16:31:59.808 [EVENTLOG] (T03C4RC8V) fetched finish (cancelled? false)
+info: Nov-1 16:31:59.808 [EVENTLOG] (T03C4RC8V) dispatching signal and clearing timestamp
+info: Nov-1 16:31:59.809 [API-Q] (T03C4RC8V) 471646fa-1541057519.050 users.counts is RESOLVED
+info: Nov-1 16:31:59.826 [COUNTS] (T03C4RC8V) Completed counts processing
+info: Nov-1 16:32:21.220 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:32:21.221 [SOCKET-MANAGER] (T03C4RC8V) Changing from connected to disconnect
+info: Nov-1 16:32:21.223 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:32:21.223 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:32:21.224 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:32:21.224 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+info: Nov-1 16:32:21.226 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:32:21.226 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:32:21.227 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:32:21.227 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:32:21.227 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:32:21.228 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 85 ms
+info: Nov-1 16:32:21.228 [INFO] MSDisconnected: 
+info: Nov-1 16:32:21.234 [INFO] Hiding the reconnection banner because we are disconnected
+info: Nov-1 16:32:21.380 [API-Q] (T03C4RC8V) Pausing queue because client is offline
+info: Nov-1 16:32:21.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Nov-1 16:32:21.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_connectivity state for up to 300000 ms
+info: Nov-1 16:32:24.380 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Nov-1 16:32:24.383 [API-Q] (T03C4RC8V) Unpausing queue, back online
+info: Nov-1 16:32:24.383 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_connectivity to connect
+info: Nov-1 16:32:24.383 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:32:24.383 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:32:24.384 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:32:24.384 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:32:24.384 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-1 16:32:24.995 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to connected
+info: Nov-1 16:32:24.995 [SOCKET-MANAGER] (T03C4RC8V) will stay in connected state for up to Infinity ms
+info: Nov-1 16:32:24.996 [EVENTLOG] (T03C4RC8V) fr=true, lc=false, lt=1541056371.024700
+info: Nov-1 16:32:24.996 [INFO] MSConnected: 
+info: Nov-1 16:32:25.001 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Nov-1 16:32:25.001 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Nov-1 16:33:00.714 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:33:00.714 [SOCKET-MANAGER] (T03C4RC8V) Changing from connected to disconnect
+info: Nov-1 16:33:00.714 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:33:00.715 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:33:00.715 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:33:00.715 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+info: Nov-1 16:33:00.715 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:33:00.716 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:33:00.716 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:33:00.716 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:33:00.716 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:33:00.716 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 878 ms
+info: Nov-1 16:33:00.717 [INFO] MSDisconnected: 
+info: Nov-1 16:33:00.718 [INFO] Hiding the reconnection banner because we are disconnected
+info: Nov-1 16:33:02.379 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:33:02.385 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:33:02.386 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:33:02.386 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:33:02.386 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:33:02.387 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+warn: Nov-1 16:33:05.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:33:15.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+error: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy0yMjZtLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9VUzItVUVHWjlvNTR4R29nS29wbGpmeEZQV2VZZmRTaWFCMVhIcExMWmZFZ09MVkNSMTZGMmFRR1NFVU8ySzR0d2hJQV9UejJIWVhhMXNwQm03TkMxRjVjWEh3NHdMdkZaOEg3eDVCWWljYk1CUmxmQkRMZmkyWWFqcm5CZnVTOWFQRmF0SmJkLW42QTFUM0RiblhLbzNjY3J6MG1mcS1TaElSNkMxUnAwd2FWQTRxMkdTRzl0OWtGYzVtaDQtWWd4c2ZGcjRTUkpaT3VqMnVZX1hkeEtkS3BLZWRUSkFaVGpFNGVFMjBVVlkzQ2dzR3VXbm1TWjdHLWE1MW16RHZ4ZFBfOWtPelFoMUZDd0RoUnZaYWNESG54LVk3UWo2bkRJaHFaOFpVQm9Zbz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNsowg7OWk3_lwAASDGZDh-jr-sMri6rCs061Rrxl8nrD_bHvRU_x50QvJ7DAA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Nov-1 16:33:22.406 SOCKET-MANAGER (T03C4RC8V) Socket was closed because #1006: generic error
+info: Nov-1 16:33:22.407 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to error
+info: Nov-1 16:33:22.407 [SOCKET-MANAGER] (T03C4RC8V) will stay in error state for up to 10000 ms
+info: 2018/11/1 16:33:22.407  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-5/rollup-core_required_ts.4abf9d072ff05939b496.min.js:1:111596)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:22730
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:860009)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:861749)
+at o (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:245428)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:862457)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:855015)
+at e.<anonymous> (https://a.slack-edge.com/bv1-5/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:4957132)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:4955638)
+info: Nov-1 16:33:22.407 [SOCKET-MANAGER] (T03C4RC8V) Changing from error to wait_for_rate_limit
+info: Nov-1 16:33:22.407 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:33:22.408 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 2509 ms
+warn: Nov-1 16:33:25.380 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+info: Nov-1 16:33:25.381 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:33:25.382 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:33:25.382 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:33:25.383 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:33:25.383 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:33:25.383 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+warn: Nov-1 16:33:35.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+info: Nov-1 16:33:43.723 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:33:43.724 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to disconnect
+info: Nov-1 16:33:43.724 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:33:43.730 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:33:43.731 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:33:43.732 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+warn: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy0yMjZtLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9VUzItVUVHWjlvNTR4R29nS29wbGpmeEZQV2VZZmRTaWFCMVhIcExMWmZFZ09MVkNSMTZGMmFRR1NFVU8ySzR0d2hJQV9UejJIWVhhMXNwQm03TkMxRjVjWEh3NHdMdkZaOEg3eDVCWWljYk1CUmxmQkRMZmkyWWFqcm5CZnVTOWFQRmF0SmJkLW42QTFUM0RiblhLbzNjY3J6MG1mcS1TaElSNkMxUnAwd2FWQTRxMkdTRzl0OWtGYzVtaDQtWWd4c2ZGcjRTUkpaT3VqMnVZX1hkeEtkS3BLZWRUSkFaVGpFNGVFMjBVVlkzQ2dzR3VXbm1TWjdHLWE1MW16RHZ4ZFBfOWtPelFoMUZDd0RoUnZaYWNESG54LVk3UWo2bkRJaHFaOFpVQm9Zbz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNsowg7OWk3_lwAASDGZDh-jr-sMri6rCs061Rrxl8nrD_bHvRU_x50QvJ7DAA&encoding=&dp=1&lazy_channels=1' failed: WebSocket is closed before the connection is established.
+info: Nov-1 16:33:43.734 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:33:43.734 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:33:43.736 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:33:43.736 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:33:43.736 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:33:43.738 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 2250 ms
+info: Nov-1 16:33:44.380 [API-Q] (T03C4RC8V) Pausing queue because client is offline
+info: Nov-1 16:33:45.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:33:45.381 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+info: Nov-1 16:33:46.384 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:33:46.385 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:33:46.386 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:33:46.387 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:33:46.387 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:33:46.388 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:33:46.389 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-1 16:33:46.394 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:33:47.380 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Nov-1 16:33:47.381 [API-Q] (T03C4RC8V) Unpausing queue, back online
+info: Nov-1 16:33:53.799 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to connected
+info: Nov-1 16:33:53.799 [SOCKET-MANAGER] (T03C4RC8V) will stay in connected state for up to Infinity ms
+info: Nov-1 16:33:53.800 [EVENTLOG] (T03C4RC8V) fr=true, lc=false, lt=1541056371.024700
+info: Nov-1 16:33:53.802 [INFO] MSConnected: 
+info: Nov-1 16:33:53.814 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Nov-1 16:33:53.814 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+warn: Nov-1 16:33:54.263 (T03C4RC8V) Notification (message) suppressed because:
+The user has their notification preference set to 'nothing'
+info: Nov-1 16:33:54.379 [UNKNOWN-FETCH-MANAGER] (T03C4RC8V) requesting U03C4RC8X (1)
+warn: Nov-1 16:33:55.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+info: Nov-1 16:33:55.379 [UNKNOWN-FETCH-MANAGER] (T03C4RC8V) received U03C4RC8X (1)
+info: Nov-1 16:33:57.955 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:33:57.957 [SOCKET-MANAGER] (T03C4RC8V) Changing from connected to disconnect
+info: Nov-1 16:33:57.959 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:33:57.960 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:33:57.961 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:33:57.961 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+info: Nov-1 16:33:57.962 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:33:57.962 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:33:57.963 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:33:57.963 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:33:57.963 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:33:57.964 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 455 ms
+info: Nov-1 16:33:57.964 [INFO] MSDisconnected: 
+info: Nov-1 16:33:57.967 [INFO] Hiding the reconnection banner because we are disconnected
+info: Nov-1 16:33:59.378 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:33:59.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:33:59.381 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:33:59.381 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:33:59.382 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:33:59.382 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+warn: Nov-1 16:34:04.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:34:14.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+error: Nov-1 16:34:20.379 SOCKET-MANAGER (T03C4RC8V) Closing socket because we spent 20000 ms in fast_reconnecting state; giving up
+error: Nov-1 16:34:20.380 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4107: client state machine got stuck
+warn: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy16c2pzLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9TbTBnLWhvM2p4UlVtRHR6ajI3U1hpdzhPcWk4WXN1NUVpSVBvOFFpUXZ0VkVWUjYyNjNad2VuSUNDNTNVWmdDMy10REotTlBRNjg1Tkl2STJqdHMzVWRheDdLVzhOcElidmxYWVVMaVRRUGlBV1dUU0ZBR2M0dkZrSWtLYi00RGFTRWhyR0RWTDRvYjctMXNpdWdpbzVHbmEwX21Vck84ODFOYWZadnV1Yndlcnh1blNWaTZMQjg0aDRGNXpSZGJuRlZQOUllM2R5SGdaamtTdFFVS18xcnhrdDVoWTlpZU9WczBvanpKMC1pd1k1R0dNaExvdHZobE55eUZXd1VJbkJQN1lnQk9zdUM5X1UzU1BPaXJiYUlpcVZQV3ROUEVPOUNIWHd5WHhuZz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNso2En-NlD_lwAASBfWbLv8GcYeQIvxQmj98zkvxqU3gRl9VdvdoApPC-jWgA&encoding=&dp=1&lazy_channels=1' failed: WebSocket is closed before the connection is established.
+info: Nov-1 16:34:20.381 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to error
+info: Nov-1 16:34:20.382 [SOCKET-MANAGER] (T03C4RC8V) will stay in error state for up to 10000 ms
+info: 2018/11/1 16:34:20.383  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-5/rollup-core_required_ts.4abf9d072ff05939b496.min.js:1:111596)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:22730
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:860009)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:861749)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:864067
+info: Nov-1 16:34:20.384 [SOCKET-MANAGER] (T03C4RC8V) Changing from error to wait_for_rate_limit
+info: Nov-1 16:34:20.384 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:34:20.385 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 1324 ms
+info: Nov-1 16:34:22.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:34:22.381 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:34:22.382 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:34:22.382 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:34:22.383 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:34:22.383 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+warn: Nov-1 16:34:24.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+warn: Nov-1 16:34:34.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+error: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy16c2pzLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9TbTBnLWhvM2p4UlVtRHR6ajI3U1hpdzhPcWk4WXN1NUVpSVBvOFFpUXZ0VkVWUjYyNjNad2VuSUNDNTNVWmdDMy10REotTlBRNjg1Tkl2STJqdHMzVWRheDdLVzhOcElidmxYWVVMaVRRUGlBV1dUU0ZBR2M0dkZrSWtLYi00RGFTRWhyR0RWTDRvYjctMXNpdWdpbzVHbmEwX21Vck84ODFOYWZadnV1Yndlcnh1blNWaTZMQjg0aDRGNXpSZGJuRlZQOUllM2R5SGdaamtTdFFVS18xcnhrdDVoWTlpZU9WczBvanpKMC1pd1k1R0dNaExvdHZobE55eUZXd1VJbkJQN1lnQk9zdUM5X1UzU1BPaXJiYUlpcVZQV3ROUEVPOUNIWHd5WHhuZz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNso2En-NlD_lwAASBfWbLv8GcYeQIvxQmj98zkvxqU3gRl9VdvdoApPC-jWgA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Nov-1 16:34:42.399 SOCKET-MANAGER (T03C4RC8V) Socket was closed because #1006: generic error
+info: Nov-1 16:34:42.401 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to error
+info: Nov-1 16:34:42.401 [SOCKET-MANAGER] (T03C4RC8V) will stay in error state for up to 10000 ms
+info: 2018/11/1 16:34:42.402  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-5/rollup-core_required_ts.4abf9d072ff05939b496.min.js:1:111596)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:22730
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:860009)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:861749)
+at o (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:245428)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:862457)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:855015)
+at e.<anonymous> (https://a.slack-edge.com/bv1-5/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:4957132)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:4955638)
+info: Nov-1 16:34:42.403 [SOCKET-MANAGER] (T03C4RC8V) Changing from error to wait_for_rate_limit
+info: Nov-1 16:34:42.403 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:34:42.404 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 2840 ms
+warn: Nov-1 16:34:44.379 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+info: Nov-1 16:34:44.760 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:34:44.760 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to disconnect
+info: Nov-1 16:34:44.760 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:34:44.761 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:34:44.761 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+info: Nov-1 16:34:44.761 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:34:44.761 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:34:44.762 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:34:44.762 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:34:44.762 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:34:44.762 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 3322 ms
+info: Nov-1 16:34:48.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:34:48.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:34:48.381 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:34:48.381 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:34:48.381 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:34:48.381 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+warn: Nov-1 16:34:54.378 SLACK-SOCKET Tried to send ping. but our socket is closed; readyState = 2
+info: Nov-1 16:34:56.871 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:34:56.872 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to disconnect
+info: Nov-1 16:34:56.872 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:34:56.873 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:34:56.874 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:34:56.875 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+warn: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy16c2pzLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9TbTBnLWhvM2p4UlVtRHR6ajI3U1hpdzhPcWk4WXN1NUVpSVBvOFFpUXZ0VkVWUjYyNjNad2VuSUNDNTNVWmdDMy10REotTlBRNjg1Tkl2STJqdHMzVWRheDdLVzhOcElidmxYWVVMaVRRUGlBV1dUU0ZBR2M0dkZrSWtLYi00RGFTRWhyR0RWTDRvYjctMXNpdWdpbzVHbmEwX21Vck84ODFOYWZadnV1Yndlcnh1blNWaTZMQjg0aDRGNXpSZGJuRlZQOUllM2R5SGdaamtTdFFVS18xcnhrdDVoWTlpZU9WczBvanpKMC1pd1k1R0dNaExvdHZobE55eUZXd1VJbkJQN1lnQk9zdUM5X1UzU1BPaXJiYUlpcVZQV3ROUEVPOUNIWHd5WHhuZz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNso2En-NlD_lwAASBfWbLv8GcYeQIvxQmj98zkvxqU3gRl9VdvdoApPC-jWgA&encoding=&dp=1&lazy_channels=1' failed: WebSocket is closed before the connection is established.
+info: Nov-1 16:34:56.877 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:34:56.877 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:34:56.878 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:34:56.879 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:34:56.879 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:34:56.880 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 1223 ms
+info: Nov-1 16:34:57.966 [FLANNEL] (T03C4RC8V) retrying user_subscribe_request call; attempt #1 of 3
+info: Nov-1 16:34:57.967 [FLANNEL] (T03C4RC8V) received a user_subscribe_request call while we are not connected; deferring
+info: Nov-1 16:34:58.382 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:34:58.383 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:34:58.384 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:34:58.384 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:34:58.385 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:34:58.385 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-1 16:35:05.738 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:35:05.739 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to disconnect
+info: Nov-1 16:35:05.739 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:35:05.740 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:35:05.741 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:35:05.742 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+warn: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy16c2pzLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9TbTBnLWhvM2p4UlVtRHR6ajI3U1hpdzhPcWk4WXN1NUVpSVBvOFFpUXZ0VkVWUjYyNjNad2VuSUNDNTNVWmdDMy10REotTlBRNjg1Tkl2STJqdHMzVWRheDdLVzhOcElidmxYWVVMaVRRUGlBV1dUU0ZBR2M0dkZrSWtLYi00RGFTRWhyR0RWTDRvYjctMXNpdWdpbzVHbmEwX21Vck84ODFOYWZadnV1Yndlcnh1blNWaTZMQjg0aDRGNXpSZGJuRlZQOUllM2R5SGdaamtTdFFVS18xcnhrdDVoWTlpZU9WczBvanpKMC1pd1k1R0dNaExvdHZobE55eUZXd1VJbkJQN1lnQk9zdUM5X1UzU1BPaXJiYUlpcVZQV3ROUEVPOUNIWHd5WHhuZz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNso2En-NlD_lwAASBfWbLv8GcYeQIvxQmj98zkvxqU3gRl9VdvdoApPC-jWgA&encoding=&dp=1&lazy_channels=1' failed: WebSocket is closed before the connection is established.
+info: Nov-1 16:35:05.745 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:35:05.745 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:35:05.747 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:35:05.748 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:35:05.749 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:35:05.750 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 2581 ms
+info: Nov-1 16:35:06.379 [API-Q] (T03C4RC8V) Pausing queue because client is offline
+info: Nov-1 16:35:07.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:08.383 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:08.383 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:35:08.384 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:35:08.385 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:35:08.386 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:35:08.386 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:35:08.386 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-1 16:35:08.389 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+error: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy16c2pzLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9TbTBnLWhvM2p4UlVtRHR6ajI3U1hpdzhPcWk4WXN1NUVpSVBvOFFpUXZ0VkVWUjYyNjNad2VuSUNDNTNVWmdDMy10REotTlBRNjg1Tkl2STJqdHMzVWRheDdLVzhOcElidmxYWVVMaVRRUGlBV1dUU0ZBR2M0dkZrSWtLYi00RGFTRWhyR0RWTDRvYjctMXNpdWdpbzVHbmEwX21Vck84ODFOYWZadnV1Yndlcnh1blNWaTZMQjg0aDRGNXpSZGJuRlZQOUllM2R5SGdaamtTdFFVS18xcnhrdDVoWTlpZU9WczBvanpKMC1pd1k1R0dNaExvdHZobE55eUZXd1VJbkJQN1lnQk9zdUM5X1UzU1BPaXJiYUlpcVZQV3ROUEVPOUNIWHd5WHhuZz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNso2En-NlD_lwAASBfWbLv8GcYeQIvxQmj98zkvxqU3gRl9VdvdoApPC-jWgA&encoding=&dp=1&lazy_channels=1' failed: Error in connection establishment: net::ERR_NAME_RESOLUTION_FAILED
+error: Nov-1 16:35:08.399 SOCKET-MANAGER (T03C4RC8V) Socket was closed because #1006: generic error
+info: Nov-1 16:35:08.402 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to error
+info: Nov-1 16:35:08.402 [SOCKET-MANAGER] (T03C4RC8V) will dispatch troubleConnectingSig
+info: Nov-1 16:35:08.403 [SOCKET-MANAGER] (T03C4RC8V) will stay in error state for up to 10000 ms
+info: 2018/11/1 16:35:08.404  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-5/rollup-core_required_ts.4abf9d072ff05939b496.min.js:1:111596)
+at https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:22730
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:860009)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:861749)
+at o (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:245428)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:862457)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:855015)
+at e.<anonymous> (https://a.slack-edge.com/bv1-5/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:4957132)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-5/modern.vendor.365db81fa85c9678f200.min.js:1:4955638)
+info: Nov-1 16:35:08.404 [SOCKET-MANAGER] (T03C4RC8V) Changing from error to wait_for_rate_limit
+info: Nov-1 16:35:08.405 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:35:08.405 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 7090 ms
+info: Nov-1 16:35:10.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:11.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:12.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:13.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:14.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:14.688 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:35:14.688 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to disconnect
+info: Nov-1 16:35:14.689 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:35:14.689 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:35:14.690 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+info: Nov-1 16:35:14.691 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:35:14.691 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:35:14.691 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:35:14.692 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:35:14.692 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:35:14.693 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 16669 ms
+info: Nov-1 16:35:16.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:17.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:18.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:19.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:20.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:21.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:22.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:23.383 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:24.383 [FLANNEL] (T03C4RC8V) received a user_subscribe_request call while we are not connected; deferring
+info: Nov-1 16:35:24.385 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:25.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:26.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:27.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:28.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:35:29.378 Internet connection still offline after 1 attempts (unable to reach API)
+info: Nov-1 16:35:29.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:30.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:31.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:31.379 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to connect
+info: Nov-1 16:35:31.379 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:35:31.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:35:31.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:35:31.380 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:35:31.380 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-1 16:35:31.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:36.098 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:35:36.099 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to disconnect
+info: Nov-1 16:35:36.099 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:35:36.101 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:35:36.101 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+error: Nov-1 16:35:36.106 SOCKET-MANAGER (T03C4RC8V) Closing socket because #4105: client went offline
+warn: WebSocket connection to 'wss://mpmulti-zqgm.lb.slack-msgs.com/?flannel=3&token=xoxs-⋯&frt=Hf-FAwEBA2ZydAH_hgABAgEBUAEKAAEBUwEKAAAA_gH9_4YB_gHUNf-BAwEBA2ZycAH_ggABBQECUnUBDAABAlRpAQwAAQJFaQEMAAECVWkBDAABAk10Af-EAAAAEP-DBQEBBFRpbWUB_4QAAAD-AYr_ggH-AVx3c3M6Ly9jZXJiZXJ1cy16c2pzLmxiLnNsYWNrLW1zZ3MuY29tL3dlYnNvY2tldC9TbTBnLWhvM2p4UlVtRHR6ajI3U1hpdzhPcWk4WXN1NUVpSVBvOFFpUXZ0VkVWUjYyNjNad2VuSUNDNTNVWmdDMy10REotTlBRNjg1Tkl2STJqdHMzVWRheDdLVzhOcElidmxYWVVMaVRRUGlBV1dUU0ZBR2M0dkZrSWtLYi00RGFTRWhyR0RWTDRvYjctMXNpdWdpbzVHbmEwX21Vck84ODFOYWZadnV1Yndlcnh1blNWaTZMQjg0aDRGNXpSZGJuRlZQOUllM2R5SGdaamtTdFFVS18xcnhrdDVoWTlpZU9WczBvanpKMC1pd1k1R0dNaExvdHZobE55eUZXd1VJbkJQN1lnQk9zdUM5X1UzU1BPaXJiYUlpcVZQV3ROUEVPOUNIWHd5WHhuZz0BCVQwM0M0UkM4VgIJVURHN0EzUkwwAQ8BAAAADtNso2En-NlD_lwAASBfWbLv8GcYeQIvxQmj98zkvxqU3gRl9VdvdoApPC-jWgA&encoding=&dp=1&lazy_channels=1' failed: WebSocket is closed before the connection is established.
+info: Nov-1 16:35:36.108 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:35:36.109 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:35:36.110 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:35:36.111 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:35:36.111 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:35:36.112 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 43485 ms
+info: Nov-1 16:35:37.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:38.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:39.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:40.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:41.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:42.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:43.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:44.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:44.934 [SOCKET-MANAGER] (T03C4RC8V) got offline event; moving to DISCONNECT as needed
+info: Nov-1 16:35:44.935 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to disconnect
+info: Nov-1 16:35:44.935 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnect state for up to 10000 ms
+info: Nov-1 16:35:44.936 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnect to disconnecting
+info: Nov-1 16:35:44.937 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnecting state for up to 10000 ms
+info: Nov-1 16:35:44.940 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnecting to disconnected
+info: Nov-1 16:35:44.940 [SOCKET-MANAGER] (T03C4RC8V) will stay in disconnected state for up to 10000 ms
+info: Nov-1 16:35:44.941 [SOCKET-MANAGER] (T03C4RC8V) Disconnected! Online? false
+info: Nov-1 16:35:44.941 [SOCKET-MANAGER] (T03C4RC8V) Changing from disconnected to wait_for_rate_limit
+info: Nov-1 16:35:44.941 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-1 16:35:44.943 [SOCKET-MANAGER] (T03C4RC8V) backing off: will wait for 58456 ms
+info: Nov-1 16:35:46.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:47.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:48.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:49.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:50.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:51.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:52.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:53.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:54.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:55.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:56.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:57.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:35:58.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:35:58.379 Internet connection still offline after 2 attempts (browser says it is still offline)
+info: Nov-1 16:35:59.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:00.379 Internet connection still offline after 3 attempts (browser says it is still offline)
+info: Nov-1 16:36:00.381 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:01.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:02.379 Internet connection still offline after 4 attempts (browser says it is still offline)
+info: Nov-1 16:36:02.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:03.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:04.378 Internet connection still offline after 5 attempts (browser says it is still offline)
+info: Nov-1 16:36:04.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:05.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:05.381 Internet connection still offline after 6 attempts (browser says it is still offline)
+info: Nov-1 16:36:06.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:07.378 Internet connection still offline after 7 attempts (browser says it is still offline)
+info: Nov-1 16:36:07.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:08.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:09.378 Internet connection still offline after 8 attempts (browser says it is still offline)
+info: Nov-1 16:36:09.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:10.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:11.378 Internet connection still offline after 9 attempts (browser says it is still offline)
+info: Nov-1 16:36:11.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:12.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:13.378 Internet connection still offline after 10 attempts (browser says it is still offline)
+info: Nov-1 16:36:13.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:14.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:15.378 Internet connection still offline after 11 attempts (browser says it is still offline)
+info: Nov-1 16:36:15.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:16.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:17.378 Internet connection still offline after 12 attempts (browser says it is still offline)
+info: Nov-1 16:36:17.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:18.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:19.378 Internet connection still offline after 13 attempts (browser says it is still offline)
+info: Nov-1 16:36:19.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:20.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:20.380 Internet connection still offline after 14 attempts (browser says it is still offline)
+info: Nov-1 16:36:21.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:22.378 Internet connection still offline after 15 attempts (browser says it is still offline)
+info: Nov-1 16:36:22.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:23.383 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:24.378 Internet connection still offline after 16 attempts (browser says it is still offline)
+info: Nov-1 16:36:24.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:25.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:25.382 Internet connection still offline after 17 attempts (browser says it is still offline)
+info: Nov-1 16:36:26.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:27.378 Internet connection still offline after 18 attempts (browser says it is still offline)
+info: Nov-1 16:36:27.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:28.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:29.378 Internet connection still offline after 19 attempts (browser says it is still offline)
+info: Nov-1 16:36:29.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:30.378 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:31.378 Internet connection still offline after 20 attempts (browser says it is still offline)
+info: Nov-1 16:36:31.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:32.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:33.378 Internet connection still offline after 21 attempts (browser says it is still offline)
+info: Nov-1 16:36:33.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:34.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:35.378 Internet connection still offline after 22 attempts (browser says it is still offline)
+info: Nov-1 16:36:35.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:36.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:36.380 Internet connection still offline after 23 attempts (browser says it is still offline)
+info: Nov-1 16:36:37.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:38.378 Internet connection still offline after 24 attempts (browser says it is still offline)
+info: Nov-1 16:36:38.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:39.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:40.378 Internet connection still offline after 25 attempts (browser says it is still offline)
+info: Nov-1 16:36:40.380 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:41.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:42.378 Internet connection still offline after 26 attempts (browser says it is still offline)
+info: Nov-1 16:36:42.382 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+info: Nov-1 16:36:43.379 [INFO] Not showing reconnecting banner because API is paused and showing its own banner
+warn: Nov-1 16:36:44.378 Internet connection still offline after 27 attempts (browser says it is still offline)
+info: Nov-1 16:36:44.379 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_rate_limit to wait_for_connectivity
+info: Nov-1 16:36:44.379 [SOCKET-MANAGER] (T03C4RC8V) will stay in wait_for_connectivity state for up to 300000 ms
+warn: Nov-1 16:36:46.378 Internet connection still offline after 28 attempts (browser says it is still offline)
+warn: Nov-1 16:36:47.379 Internet connection still offline after 29 attempts (browser says it is still offline)
+warn: Nov-1 16:36:49.378 Internet connection still offline after 30 attempts (browser says it is still offline)
+warn: Nov-1 16:36:50.378 Internet connection still offline after 31 attempts (browser says it is still offline)
+warn: Nov-1 16:36:52.378 Internet connection still offline after 32 attempts (browser says it is still offline)
+warn: Nov-1 16:36:54.378 Internet connection still offline after 33 attempts (browser says it is still offline)
+warn: Nov-1 16:36:56.378 Internet connection still offline after 34 attempts (browser says it is still offline)
+warn: Nov-1 16:36:58.378 Internet connection still offline after 35 attempts (browser says it is still offline)
+warn: Nov-1 16:37:00.378 Internet connection still offline after 36 attempts (browser says it is still offline)
+warn: Nov-1 16:37:01.379 Internet connection still offline after 37 attempts (browser says it is still offline)
+warn: Nov-1 16:37:03.378 Internet connection still offline after 38 attempts (browser says it is still offline)
+warn: Nov-1 16:37:05.378 Internet connection still offline after 39 attempts (browser says it is still offline)
+warn: Nov-1 16:37:07.378 Internet connection still offline after 40 attempts (browser says it is still offline)
+warn: Nov-1 16:37:09.378 Internet connection still offline after 41 attempts (browser says it is still offline)
+warn: Nov-1 16:37:11.378 Internet connection still offline after 42 attempts (browser says it is still offline)
+warn: Nov-1 16:37:13.378 Internet connection still offline after 43 attempts (browser says it is still offline)
+warn: Nov-1 16:37:15.378 Internet connection still offline after 44 attempts (browser says it is still offline)
+warn: Nov-1 16:37:18.378 Internet connection still offline after 45 attempts (unable to reach API)
+info: Nov-1 16:37:48.378 [INFO] Internet connection has been re-established after 46 retry attempts; offline for NaN seconds
+info: Nov-1 16:37:48.379 [API-Q] (T03C4RC8V) Unpausing queue, back online
+info: Nov-1 16:37:48.379 [SOCKET-MANAGER] (T03C4RC8V) Changing from wait_for_connectivity to connect
+info: Nov-1 16:37:48.379 [SOCKET-MANAGER] (T03C4RC8V) will stay in connect state for up to 10000 ms
+info: Nov-1 16:37:48.379 [SOCKET-MANAGER] (T03C4RC8V) Changing from connect to checking_fast_reconnect
+info: Nov-1 16:37:48.379 [SOCKET-MANAGER] (T03C4RC8V) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-1 16:37:48.379 [SOCKET-MANAGER] (T03C4RC8V) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-1 16:37:48.379 [SOCKET-MANAGER] (T03C4RC8V) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-1 16:37:48.653 [SOCKET-MANAGER] (T03C4RC8V) Changing from fast_reconnecting to connected
+info: Nov-1 16:37:48.653 [SOCKET-MANAGER] (T03C4RC8V) will stay in connected state for up to Infinity ms
+info: Nov-1 16:37:48.654 [EVENTLOG] (T03C4RC8V) fr=true, lc=false, lt=1541056371.024700
+info: Nov-1 16:37:48.655 [INFO] MSConnected: 
+info: Nov-1 16:37:48.659 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Nov-1 16:37:48.659 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Nov-1 16:37:48.667 [FLANNEL] (T03C4RC8V) connected! Continuing deferred user_subscribe_request call
