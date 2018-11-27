@@ -111,6 +111,18 @@ compinit
 
 # alias
 # ------------------------------------------------------------ #
+export  HISTFILE=${HOME}/.zsh_history
+# メモリに保存される履歴の件数
+export  HISTSIZE=1000
+
+# 履歴ファイルに保存される履歴の件数
+export SAVEHIST=10000000
+
+# 重複を記録しない
+setopt hist_ignore_dups
+
+# 開始と終了を記録
+setopt EXTENDED_HISTORY
 
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
@@ -189,6 +201,8 @@ export PATH=$PATH:$HOME/.cargo/bin
 
 # exec fish
 
+alias pjavac='javac -cp ~/project/processiong/core/library/core.jar'
+alias pjava='java -cp ~/project/processiong/core/library/core.jar:.'
 
 export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
 export CXX='g++-7'
