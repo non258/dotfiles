@@ -82,7 +82,6 @@ zplug "mrowa44/emojify", as:command
 
 # テーマ
 # zplug "bhilburn/powerlevel9k", use:"powerlevel9k.zsh-theme", as:theme
-setopt prompt_subst # Make sure prompt is able to be generated properly.
 zplug "caiogondim/bullet-train.zsh", use:bullet-train.zsh-theme, defer:3 # defer until other plugins like oh-my-zsh is loaded
 
 # -------------------------------------------------- #
@@ -209,4 +208,7 @@ export CXX='g++-7'
 export CC='gcc-7'
 
 eval $(colter --init)
+
+setopt auto_cd
 # ------------------------------------------------------------ #
+setopt prompt_subst # Make sure prompt is able to be generated properly.
