@@ -83,7 +83,7 @@ zplug "mrowa44/emojify", as:command
 # テーマ
 # zplug "bhilburn/powerlevel9k", use:"powerlevel9k.zsh-theme", as:theme
 zplug "caiogondim/bullet-train.zsh", use:bullet-train.zsh-theme, defer:3 # defer until other plugins like oh-my-zsh is loaded
-
+# zplug "yous/lime"
 # -------------------------------------------------- #
 
 
@@ -178,9 +178,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin
 
 # ssh
-alias cos='ssh -p 59022 non@ctare.cloudapp.net'
-alias conoha='ssh zomi@118.27.11.179'
-alias ubuntu='ssh nozomi@192.168.100.121'
+# alias conoha='ssh zomi@118.27.11.179'
+# alias ubuntu='ssh nozomi@192.168.100.121'
 
 #rbenv
 alias colors='for i in $(seq 0 255); do echo -e "\033[38;5;${i}m${i}\033[0m"; done'
@@ -203,9 +202,10 @@ export PATH=$PATH:$HOME/.cargo/bin
 alias pjavac='javac -cp ~/project/processiong/core/library/core.jar'
 alias pjava='java -cp ~/project/processiong/core/library/core.jar:.'
 
-export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
-export CXX='g++-7'
-export CC='gcc-7'
+export OMP="/usr/lib/gcc/x86_64-linux-gnu/7/include/omp.h"
+# export PATH="$PATH:"/opt/microchip/xc16/v1.35/bin""
+# export CXX='g++-7'
+# export CC='gcc-7'
 
 eval $(colter --init)
 

@@ -1,23 +1,13 @@
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+
 if has('nvim')
   " ターミナルをESCで抜けられるように
   tnoremap <silent> <ESC> <C-\><C-n> 
 endif
 
-
-" シンタックスプラグインの設定
-" -----------------------------------------------------
-"let g:jsx_ext_required = 0
-"let g:vim_json_syntax_conceal = 0
-" -----------------------------------------------------
-
-" colorscheme設定
-" -----------------------------------------------------
-"set background=dark
-" -----------------------------------------------------
-
 " モード切替
 " -----------------------------------------------------
-inoremap <silent> jj <ESC> 
+""inoremap <silent> jj <ESC> 
 " -----------------------------------------------------
 
 " filetype設定
@@ -104,25 +94,15 @@ endif
 " -----------------------------------------------------
 syntax on
 filetype plugin indent on
-" これ だめ ぜったい
-" set tabstop=2 shiftwidth=2 autoindent expandtab number mouse=a ambiwidth=double cindent hidden clipboard+=unnamedplus sh=zsh
-
-" undo
-" set undofile
-" set undodir=~/.cache/undo/
-
-" clickboard
-"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-"colorscheme moneyforward
 " -----------------------------------------------------
 "
 "
 "自分の設定
 " -----------------------------------------------------
+let g:neosnippet#snippets_directory='~/.config/nvim/'
 "表示関係
 set relativenumber
 set number
-"colorscheme ron
 set background=dark
 ""行番号の色を400(白)に変更(でふぉの色だと何も見えない)
 autocmd ColorScheme * highlight LineNr ctermfg=400
@@ -138,23 +118,25 @@ set noswapfile nobackup undofile
 execute 'set undodir=~/.config/nvim/tmp'
 
 "キーバインド
-inoremap jj <ESC>
+"" inoremap jj <ESC>
 ""もらいもの
-inoremap " ""<Left>
-inoremap ' ''<Left>
-inoremap ( ()<Left>
-inoremap (; ();<Left><Left>
-inoremap () ()
-inoremap (<CR> (<CR><CR>)<Up><ESC>S
+"inoremap " ""<Left>
+"inoremap ' ''<Left>
+"inoremap ( ()<Left>
+"inoremap (; ();<Left><Left>
+"inoremap () ()
+"inoremap (<CR> (<CR><CR>)<Up><ESC>S
 inoremap { {}<Left>
 inoremap {; {};<Left><Left>
 inoremap {} {}
 inoremap {<CR> {<CR><CR>}<Up><ESC>S
-inoremap [ []<Left>
-inoremap [; [];<Left><Left>
-inoremap [] []
-inoremap [<CR> [<CR><CR>]<Up><ESC>S
+"inoremap [ []<Left>
+"inoremap [; [];<Left><Left>
+"inoremap [] []
+"inoremap [<CR> [<CR><CR>]<Up><ESC>S
 
 "やんくしたものを他のブラウザに貼り付けられる
-" set clipboard=unnamed,unnamedplus
 set clipboard+=unnamedplus
+
+let g:python3_host_prog = '/home/nozomi/.pyenv/versions/anaconda3-5.3.0/envs/py36/bin/python'
+let g:python_host_prog = '/home/nozomi/.pyenv/versions/anaconda3-5.3.0/envs/py27/bin/python'

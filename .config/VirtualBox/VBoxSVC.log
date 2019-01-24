@@ -1,43 +1,60 @@
-VirtualBox XPCOM Server 5.2.20 r125813 linux.amd64 (Oct 15 2018 15:09:03) release log
-00:00:00.000848 main     Log opened 2018-11-02T10:00:00.835233000Z
-00:00:00.000850 main     Build Type: release
-00:00:00.000854 main     OS Product: Linux
-00:00:00.000854 main     OS Release: 4.10.0-38-generic
-00:00:00.000855 main     OS Version: #42~16.04.1-Ubuntu SMP Tue Oct 10 16:32:20 UTC 2017
-00:00:00.000876 main     DMI Product Name: 20KHCTO1WW
-00:00:00.000882 main     DMI Product Version: ThinkPad X1 Carbon 6th
-00:00:00.000920 main     Host RAM: 15807MB (15.4GB) total, 11827MB (11.5GB) available
-00:00:00.000924 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.000924 main     Process ID: 20769
-00:00:00.000925 main     Package type: LINUX_64BITS_UBUNTU_16_04
-00:00:00.002627 main     IPC socket path: /tmp/.vbox-nozomi-ipc/ipcd
-00:00:00.107612 nspr-2   VirtualBox: object creation starts
-00:00:00.108377 nspr-2   Home directory: '/home/nozomi/.config/VirtualBox'
-00:00:00.108924 nspr-2   Loading settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.118519 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.126358 nspr-2   NAT: resolv.conf: nameserver 127.0.1.1
-00:00:00.126417 nspr-2   HostDnsMonitor: old information
-00:00:00.126426 nspr-2     no server entries
-00:00:00.126432 nspr-2     no domain set
-00:00:00.126437 nspr-2     no search string entries
-00:00:00.126443 nspr-2   HostDnsMonitor: new information
-00:00:00.126448 nspr-2     server 1: 127.0.1.1
-00:00:00.126456 nspr-2     no domain set
-00:00:00.126460 nspr-2     no search string entries
-00:00:00.126473 nspr-2   HostDnsMonitorProxy::notify
-00:00:00.132354 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.144171 nspr-2   Loading settings file "/home/nozomi/VirtualBox VMs/xml_ubuntu/xml_ubuntu.vbox" with version "1.16-linux"
-00:00:00.145792 nspr-2   VirtualBox: object created
-00:00:02.157641 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:02.158186 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:02.158381 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:00:02.178405 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:02.178897 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:02.188000 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
-00:00:02.194713 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:02.238292 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:03.473196 nspr-3   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:03.475410 nspr-5   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:18:10.493146 MainPower Host suspending: Paused 1 VMs
-00:18:23.331931 MainPower Host resumed: Resumed 1 VMs
-00:49:19.200435 MainPower Host suspending: Paused 1 VMs
+VirtualBox XPCOM Server 5.2.24 r128163 linux.amd64 (Jan 14 2019 16:09:31) release log
+00:00:00.001293 main     Log opened 2019-01-24T08:54:08.628614000Z
+00:00:00.001296 main     Build Type: release
+00:00:00.001316 main     OS Product: Linux
+00:00:00.001317 main     OS Release: 4.10.0-38-generic
+00:00:00.001318 main     OS Version: #42~16.04.1-Ubuntu SMP Tue Oct 10 16:32:20 UTC 2017
+00:00:00.001381 main     DMI Product Name: 20KHCTO1WW
+00:00:00.001388 main     DMI Product Version: ThinkPad X1 Carbon 6th
+00:00:00.001477 main     Host RAM: 15807MB (15.4GB) total, 9838MB (9.6GB) available
+00:00:00.001486 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001486 main     Process ID: 11169
+00:00:00.001487 main     Package type: LINUX_64BITS_UBUNTU_16_04
+00:00:00.004614 main     IPC socket path: /tmp/.vbox-nozomi-ipc/ipcd
+00:00:00.111381 nspr-2   VirtualBox: object creation starts
+00:00:00.111770 nspr-2   Home directory: '/home/nozomi/.config/VirtualBox'
+00:00:00.112027 nspr-2   Loading settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.120088 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.125414 nspr-2   NAT: resolv.conf: nameserver 127.0.1.1
+00:00:00.125438 nspr-2   HostDnsMonitor: old information
+00:00:00.125441 nspr-2     no server entries
+00:00:00.125443 nspr-2     no domain set
+00:00:00.125445 nspr-2     no search string entries
+00:00:00.125447 nspr-2   HostDnsMonitor: new information
+00:00:00.125449 nspr-2     server 1: 127.0.1.1
+00:00:00.125451 nspr-2     no domain set
+00:00:00.125453 nspr-2     no search string entries
+00:00:00.125457 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.129740 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.137365 nspr-2   Loading settings file "/home/nozomi/VirtualBox VMs/xml_ubuntu/xml_ubuntu.vbox" with version "1.16-linux"
+00:00:00.138134 nspr-2   VirtualBox: object created
+00:00:01.785672 nspr-4   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.789467 nspr-2   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:39:55.307987 nspr-4   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:39:55.310990 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:39:55.317877 nspr-2   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:39:55.319368 nspr-2   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:39:55.322825 nspr-3   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:39:55.332315 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:40:05.894060 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:40:05.894585 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:40:05.894786 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:40:05.913601 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:40:05.914070 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:40:05.923912 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:40:05.931493 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:40:14.231974 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:40:49.111645 nspr-6   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:40:49.235285 nspr-6   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:40:49.761671 nspr-6   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:40:49.772509 nspr-7   Saving settings file "/home/nozomi/VirtualBox VMs/fedora/fedora.vbox" with version "1.16-linux"
+00:41:34.997378 nspr-3   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:41:35.033649 nspr-5   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:41:35.038784 nspr-2   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:41:35.042858 nspr-7   Saving settings file "/home/nozomi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:41:40.559270 main     VirtualBox: object deletion starts
+00:41:40.559326 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/nozomi/Downloads/Ubuntu16.04/Ubuntu 16.04.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:41:40.559515 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/home/nozomi/VirtualBox VMs/fedora/fedora.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:41:40.765403 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:41:45.560100 main     {00007f52e40159b0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:41:45.560755 main     VirtualBox: object deleted

@@ -1,2 +1,2 @@
 b:
-	g++ -fopenmp hello.cpp; ./a.out
+	g++ -fopenmp main.cpp; ./a.out

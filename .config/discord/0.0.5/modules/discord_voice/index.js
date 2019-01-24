@@ -38,6 +38,7 @@ features.declareSupported('media_devices');
 features.declareSupported('media_video');
 features.declareSupported('debug_logging');
 features.declareSupported('set_audio_device_by_id');
+features.declareSupported('loopback');
 
 if (process.platform === 'win32') {
   features.declareSupported('voice_legacy_subsystem');
