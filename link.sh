@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rm ~/.bashrc
-rm -r ~/.config
 
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
