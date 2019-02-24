@@ -1,12 +1,13 @@
 # zplug
 # ------------------------------------------------------------ #
+
+# zplugを使う
+source ~/.zplug/init.zsh
+
 # zplugが無ければgitからclone
 if [[ ! -d ~/.zplug ]];then
   git clone https://github.com/zplug/zplug ~/.zplug
 fi
-
-# zplugを使う
-source ~/.zplug/init.zsh
 
 # プラグイン
 # -------------------------------------------------- #
@@ -82,8 +83,9 @@ zplug "mrowa44/emojify", as:command
 
 # テーマ
 # zplug "bhilburn/powerlevel9k", use:"powerlevel9k.zsh-theme", as:theme
-zplug "caiogondim/bullet-train.zsh", use:bullet-train.zsh-theme, defer:3 # defer until other plugins like oh-my-zsh is loaded
-# zplug "yous/lime"
+# zplug "caiogondim/bullet-train.zsh", use:bullet-train.zsh-theme, defer:3 # defer until other plugins like oh-my-zsh is loaded
+zplug "yous/lime"
+# zplug denysdovhan/spaceship-prompt, use:spaceship.zsh, from:github, as:theme
 # -------------------------------------------------- #
 
 
@@ -207,7 +209,7 @@ export OMP="/usr/lib/gcc/x86_64-linux-gnu/7/include/omp.h"
 # export CXX='g++-7'
 # export CC='gcc-7'
 
-eval $(colter --init)
+# eval $(colter --init)
 
 setopt auto_cd
 # ------------------------------------------------------------ #
