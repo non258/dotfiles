@@ -138,8 +138,6 @@ exec --no-startup-id nm-applet
 # bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
 # bindsym XF86AudioAudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
-exec --no-startup-id ~/.config/i3/script/monitor_detect.sh
-
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
