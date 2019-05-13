@@ -138,5 +138,14 @@ inoremap {<CR> {<CR><CR>}<Up><ESC>S
 "やんくしたものを他のブラウザに貼り付けられる
 set clipboard+=unnamedplus
 
+"clang-format
+let g:clang_format#style_options = {
+            \ "BasedOnStyle" : "Google",
+            \ "AlignTrailingComments" : "true",
+            \ "AlwaysBreakBeforeMultilineStrings" : "true",
+            \ "AlwaysBreakTemplateDeclarations" : "true",
+            \ "BreakBeforeBraces" : "Allman",
+            \ }
+
 let g:python3_host_prog = '/home/nozomi/.pyenv/versions/anaconda3-5.3.0/envs/py36/bin/python'
 let g:python_host_prog = '/home/nozomi/.pyenv/versions/anaconda3-5.3.0/envs/py27/bin/python'
