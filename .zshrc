@@ -174,6 +174,8 @@ alias gf='javac -cp /usr/share/greenfoot/extensions/greenfoot.jar'
 # exec
 alias res='exec $SHELL'
 
+alias ikulab='rancher kubectl exec -it conoha-6b4b6f6b65-lphdz /bin/bash --namespace=global'
+
 # golang
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
@@ -195,6 +197,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 # eval "$(pyenv virtualenv-init -)"
+
+export PATH="/usr/bin/kubectl:$PATH"
+export PATH="/usr/local/bin/rancher:$PATH"
 
 # rustc
 export PATH=$PATH:$HOME/.cargo/bin
