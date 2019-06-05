@@ -141,6 +141,14 @@ set clipboard+=unnamedplus
 "clang-format
 let g:clang_format#style_options = {
             \ "BasedOnStyle" : "Google",
+            \ "UseTab" : "Never",
+            \ "IndentWidth" : 2,
+            \ "ConstructorInitializerIndentWidth" : 2,
+            \ "ContinuationIndentWidth" : 2,
+            \ "IndentCaseLabels" : "true",
+            \ "PointerAlignment" : "Right",
+            \ "AllowShortIfStatementsOnASingleLine" : "false",
+            \ "AllowShortLoopsOnASingleLine" : "false", 
             \ "AlignTrailingComments" : "true",
             \ "AlwaysBreakBeforeMultilineStrings" : "true",
             \ "AlwaysBreakTemplateDeclarations" : "true",

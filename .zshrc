@@ -133,7 +133,7 @@ function mkcd(){
 }
 
 # some more ls aliases
-alias sl='ls -CF'
+# alias sl='ls -CF'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -214,7 +214,7 @@ export OMP="/usr/lib/gcc/x86_64-linux-gnu/7/include/omp.h"
 # export CXX='g++-7'
 # export CC='gcc-7'
 
-# eval $(colter --init)
+eval $(colter --init)
 
 setopt auto_cd
 # ------------------------------------------------------------ #
